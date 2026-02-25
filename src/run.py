@@ -12,7 +12,7 @@ from .dedupe import dedupe_items
 from .ranker import infer_tier, popularity_signal_from_source, score_item, sort_key
 from .tagger import classify_category, summarize_3_sentences
 from .renderer import write_outputs
-from .drive_uploader import ensure_date_folder, upload_or_update_file
+# from .drive_uploader import ensure_date_folder, upload_or_update_file
 from .utils import getenv_int, kst_yesterday_date_str
 
 def load_config() -> dict:
@@ -133,15 +133,15 @@ def main():
     print(f"[OK] Published pages under docs/{target_date}/ and docs/index.html")
 
     # 8) upload to Drive date folder
-    parent_folder_id = os.getenv("GDRIVE_FOLDER_ID", "")
-    if not parent_folder_id:
-        raise RuntimeError("Missing env: GDRIVE_FOLDER_ID")
+    # parent_folder_id = os.getenv("GDRIVE_FOLDER_ID", "")
+    # if not parent_folder_id:
+    #     raise RuntimeError("Missing env: GDRIVE_FOLDER_ID")
 
-    date_folder_id = ensure_date_folder(parent_folder_id, target_date, supports_all_drives=True)
+    # date_folder_id = ensure_date_folder(parent_folder_id, target_date, supports_all_drives=True)
 
-    upload_or_update_file(md_path, date_folder_id, mime_type="text/markdown", supports_all_drives=True)
-    upload_or_update_file(json_path, date_folder_id, mime_type="application/json", supports_all_drives=True)
-    print(f"[OK] Uploaded to Drive folder: {target_date}/")
+    # upload_or_update_file(md_path, date_folder_id, mime_type="text/markdown", supports_all_drives=True)
+    # upload_or_update_file(json_path, date_folder_id, mime_type="application/json", supports_all_drives=True)
+    # print(f"[OK] Uploaded to Drive folder: {target_date}/")
 
 
 if __name__ == "__main__":
