@@ -17,7 +17,8 @@
     }
     * { box-sizing: border-box; }
     body {
-      margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
       background: linear-gradient(180deg,var(--blue),var(--blue2));
       color: var(--ink);
     }
@@ -99,7 +100,7 @@
       padding: 16px 16px 14px;
       box-shadow: 0 10px 20px rgba(10,27,61,.06);
       transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
-      min-height: 210px;
+      min-height: 220px;
     }
     .card:hover {
       transform: translateY(-2px);
@@ -149,38 +150,36 @@
       -webkit-box-orient: vertical;
       overflow:hidden;
     }
-    .bullets {
-      margin:0;
-      padding-left: 18px;
-      color: #223253;
-      font-size: 13px;
-      line-height: 1.45;
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;
-      overflow:hidden;
+
+    .rows { margin-top: 10px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:800; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:800;
+      font-size:12px;
     }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
     .footer {
       position:absolute;
       left:16px; right:16px; bottom:12px;
-      display:flex; justify-content:space-between; gap:10px;
+      display:flex; justify-content:flex-end;
       color: var(--muted);
       font-size: 12px;
     }
-    .src {
-      overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
-      max-width: 70%;
-    }
-    .icon {
-      position:absolute;
-      right:14px; top: 62px;
-      width:46px; height:46px;
-      border-radius: 16px;
-      background: rgba(255,210,74,.55);
-      display:flex; align-items:center; justify-content:center;
-      color: var(--blue);
-      border: 1px solid rgba(11,78,219,.12);
-    }
+
     .bottom {
       padding: 14px 26px 20px;
       background: #fff;
@@ -199,8 +198,8 @@
         <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
         <h1>2026-02-24 전날 뉴스 TOP</h1>
         <div class="sub">
-          카드/제목 클릭 시 원문이 새 탭에서 열립니다. ·
-          <a href="../index.html">전체 아카이브</a>
+          카드 클릭 시 원문이 새 탭에서 열립니다. ·
+          <a href="../">전체 아카이브</a>
         </div>
       </div>
 
@@ -215,20 +214,34 @@
             <div class="num">01</div>
             <div class="badgeRow">
               <span class="badge">재활용</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">Toyota Unveils Plans for Vehicle Recycling Factory in Poland - Supply Chain Brain</div>
-          <ul class="bullets"><li>Toyota Unveils Plans for Vehicle Recycling Factory in Poland - Supply Chain Brain(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzBZQ3BkNjVjOTBIbEwyNFoxZE1fT09rNnhyMzJDZWpwYS1KUERONzlPMndXWXUyU2dmcTRDQkNJTjlRWklab2RETXFxWXNPcXRLZUtDQUk0V1l0anhOV1hKbVhfUUhSUjB1ZFlzbkhOZlNILTFIQnVqYTR5Y…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">재활용</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M8 7l4-4 4 4M16 17l-4 4-4-4M4 12a8 8 0 0 1 8-8M20 12a8 8 0 0 1-8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
         <a class="card" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxOSWpoNTZzTWpUdHpHOUV2dUxYNnRweEtmUk5abTh0VU9NUkJkMlNTSU9YTU1tYTZVMm1MWGdCbUM2UzRrdlF0aUNqOVlGWk9lNjhGX2Rnc0Y3THhiNVhDQWpQa09NRkN2OVpCQmRZdlQ1dUs0SmtEUzM3eDA1ai1vd2RvQTR5YnItdVZIUG44UEZVbVVKUmlpbXV3NEQxelVTUjlId3hvVXM0bDNEQVNYZmEzMmQ?oc=5" target="_blank" rel="noopener noreferrer">
@@ -236,20 +249,34 @@
             <div class="num">02</div>
             <div class="badgeRow">
               <span class="badge">cathode</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">Proventia and Morrow sign long-term master supply agreement for LFP battery cells - Charged EVs</div>
-          <ul class="bullets"><li>Proventia and Morrow sign long-term master supply agreement for LFP battery cells - Charged EVs(Google News - Scale) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMitAFBVV95cUxOSWpoNTZzTWpUdHpHOUV2dUxYNnRweEtmUk5abTh0VU9NUkJkMlNTSU9YTU1tYTZVMm1MWGdCbUM2UzRrdlF0aUNqOVlGWk9lNjhGX2Rnc0Y3THhiNVhDQWpQa09NRkN2OVpCQmRZdlQ1dUs0SmtEUzM3eDA1a…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Scale</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">cathode</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Scale</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M12 2v20M2 12h20M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
         <a class="card" href="https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZ3VCWHJMMHJESmtIbDRBbXBtOVNTSnUzU2lyUzFqd29wVWNfNndpRnMxVnFqbnhqa0FlZUpsVVFwbm5vNDIxMzZNMXVncUxfUXVVMUlvUkZiTmlBLTIwWDJvQlRrd2lyQ0NpWnFCdWVLTERLd0g5cllmRXl4aFg0eVJvVlRPWHB4NERaZm0wU0dSanZJY2h2YjVSTDJ6MHQxU2Y0TnJNUHkyUUJQWERIWi1RZmZQV1pKS29sZ1NZNTJpUm1hWW40enRISW90VHNraEhfcFdyRHpCX0xJWWt4MXNBLWs1N0lZNy1QcTVBYkR2cHYwQkVKT0lRWkgtN3l5M3RseE5sOFY?oc=5" target="_blank" rel="noopener noreferrer">
@@ -257,20 +284,34 @@
             <div class="num">03</div>
             <div class="badgeRow">
               <span class="badge">기타</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">Ampere and Basquevolt sign joint development agreement to accelerate lithium metal-based battery technology for next-generation electric vehicles - media.renaultgroup.com</div>
-          <ul class="bullets"><li>Ampere and Basquevolt sign joint development agreement to accelerate lithium metal-based battery technology for next-generation electric vehicles - media.renaultgroup.com(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZ3VCWHJMMHJESmtIbDRBbXBtOVNTSnUzU2lyUzFqd29wVWNfNndpRnMxVnFqbnhqa0FlZUpsVVFwbm5vNDIxMzZNMXVncUxfUXVVMUlvUkZiTmlBLTIwWDJvQlRrd2lyQ0NpWnFCdWVLTERLd0g5cllmRXl4a…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">기타</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M12 2a10 10 0 1 0 0.001 0z M9 10a3 3 0 1 1 6 0c0 2-3 2-3 5 M12 18h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
         <a class="card" href="https://news.google.com/rss/articles/CBMisAFBVV95cUxPb05LQWEzXzNXYWdaSXUtVm85VEJiNElUSk83ZTVpOHBmM2lSSTFReTdWbXNHNjM2cXQzWkJyZC1RUkM1em10MWpiNDVRT0NnSnlFaWRfLURyQWdiRkFRRzhaNFhTMlF2VE9iRkdhM1BpYlVld09SR0xNQTFvSW94RUtxTTMxdzJHYXBZNDlLM2FJbzZXZmVxVFhtRF9IMDk5c3g0bWF4UEprN1QteWZfSg?oc=5" target="_blank" rel="noopener noreferrer">
@@ -278,20 +319,34 @@
             <div class="num">04</div>
             <div class="badgeRow">
               <span class="badge">나트륨</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">Chinese companies launch first series-production vehicle with sodium-ion battery - trendingtopics.eu</div>
-          <ul class="bullets"><li>Chinese companies launch first series-production vehicle with sodium-ion battery - trendingtopics.eu(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMisAFBVV95cUxPb05LQWEzXzNXYWdaSXUtVm85VEJiNElUSk83ZTVpOHBmM2lSSTFReTdWbXNHNjM2cXQzWkJyZC1RUkM1em10MWpiNDVRT0NnSnlFaWRfLURyQWdiRkFRRzhaNFhTMlF2VE9iRkdhM1BpYlVld09SR0xNQTFvS…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">나트륨</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M6 7h12M6 12h12M6 17h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
         <a class="card" href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ1M4TlJLdHhWbkN1RFFMZl9kSWhPdmRMcGZDVXo2bVozTEx1Y0FlYU9TdTM1N0xkMmtzdlVoTTBrQnk1NVN2UDNMUTMzdTdZZEc5UzREa21aQUFsbHZHLVpxTWdRRUJHSlUtTHJ5c253RUt5WlFlM0dDMzhqSV9KQ09kTzJteTdOZUNJdE1tNTFvWDNWNWw1WmJ4R0VZczdzcFBkWWt3ZVJHOHJIbG43MmwxM1hQcjdlLTBqODFUYUVKQS1UZ3Iyd3A3ZThoRGdGWkN4c0lBeVp0WTVmd3Zr?oc=5" target="_blank" rel="noopener noreferrer">
@@ -299,20 +354,34 @@
             <div class="num">05</div>
             <div class="badgeRow">
               <span class="badge">전고체</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">Hybrid Li alloy tech beats solid-state battery energy density as Gangfeng starts mass cell production - Notebookcheck</div>
-          <ul class="bullets"><li>Hybrid Li alloy tech beats solid-state battery energy density as Gangfeng starts mass cell production - Notebookcheck(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ1M4TlJLdHhWbkN1RFFMZl9kSWhPdmRMcGZDVXo2bVozTEx1Y0FlYU9TdTM1N0xkMmtzdlVoTTBrQnk1NVN2UDNMUTMzdTdZZEc5UzREa21aQUFsbHZHLVpxTWdRRUJHSlUtTHJ5c253RUt5WlFlM0dDMzhqS…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Gangfeng</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">전고체</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M7 7h10v10H7z M4 12h3 M17 12h3 M12 4v3 M12 17v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
         <a class="card" href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSFRTMTdHYi1oUkIxOTZpS2lmSkZyTXIyaWc1Wnd1OWtSSUljdi04UFFRZ1g0aUVLMzZ4NzdWeU4xZ3phX3FrWkxEcnVUeFVVY09UWDMtcXpkMlB2LWdFU296cWsySzY3OG9qUndfUFQzcU5yLTg4a1RONC1OZllIZVVWOGllVHRSQWxNdjBHR0ZfSlVPNTBWUUxoWm5lS0cyTjhlLUg3b1cyYUthbFg2NTBCM1h4eGd4bXpNZEFPN1o?oc=5" target="_blank" rel="noopener noreferrer">
@@ -320,20 +389,34 @@
             <div class="num">06</div>
             <div class="badgeRow">
               <span class="badge">기타</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">INOX Air Products to build onsite nitrogen plant for battery materials site | Gases | Gas News - gasworld</div>
-          <ul class="bullets"><li>INOX Air Products to build onsite nitrogen plant for battery materials site | Gases | Gas News - gasworld(Google News - Scale) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSFRTMTdHYi1oUkIxOTZpS2lmSkZyTXIyaWc1Wnd1OWtSSUljdi04UFFRZ1g0aUVLMzZ4NzdWeU4xZ3phX3FrWkxEcnVUeFVVY09UWDMtcXpkMlB2LWdFU296cWsySzY3OG9qUndfUFQzcU5yLTg4a1RONC1OZ…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Scale</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">기타</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Scale</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M12 2a10 10 0 1 0 0.001 0z M9 10a3 3 0 1 1 6 0c0 2-3 2-3 5 M12 18h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
         <a class="card" href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNVWRqUlBZVXZSYXQ4UXZEaFVlaG14OGYwbWVtTXhvUmVNZlh6ckRwSlc5bnl6UFpIcUx6cGNfa3ZlU0k2WHdjX3NENl8tbDBRMGptRDhQMWUtd0EtRjhYbWdyVTEwMnFETlFheGpqU1h0dE9uandxdDdLWUcyTk01MjlQZVNvVVVmcWM5UllaR0QyM1d2aXZfVmJRVUxoU2gtcHQ0?oc=5" target="_blank" rel="noopener noreferrer">
@@ -341,20 +424,34 @@
             <div class="num">07</div>
             <div class="badgeRow">
               <span class="badge">기타</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">Job Security Agreement Reached for VW Battery Subsidiary Employees – PowerCo - Batteries News</div>
-          <ul class="bullets"><li>Job Security Agreement Reached for VW Battery Subsidiary Employees – PowerCo - Batteries News(Google News - Scale) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiowFBVV95cUxNVWRqUlBZVXZSYXQ4UXZEaFVlaG14OGYwbWVtTXhvUmVNZlh6ckRwSlc5bnl6UFpIcUx6cGNfa3ZlU0k2WHdjX3NENl8tbDBRMGptRDhQMWUtd0EtRjhYbWdyVTEwMnFETlFheGpqU1h0dE9uandxdDdLWUcyT…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Scale</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">기타</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Scale</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M12 2a10 10 0 1 0 0.001 0z M9 10a3 3 0 1 1 6 0c0 2-3 2-3 5 M12 18h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
         <a class="card" href="https://news.google.com/rss/articles/CBMizwFBVV95cUxOVXlYWFZDdmNnQUdPY05MZXlIcGJHWm50cUFXSU1xYnVBaW1Ea2puNlVZNGNGQ0pNMjlJLXNqOUFCWk9PWl9mWHVwVWpuQ1JJWGRJc1RaOGN2QzBfYWpBMHFGT3hlZUxMb3hndXdfUDlEMlpvNUJFWlNPcDFoeXg2MktyNFREXy0xMFJ2THQxTXcwS2NpVkV5YkxhUFJJZUtQeUhEUE43cnN1THd5NnQtWjc5VGp1VGtNRGFhTDVlZjUzSW1iZ3Q3SmhrbWlrREk?oc=5" target="_blank" rel="noopener noreferrer">
@@ -362,20 +459,34 @@
             <div class="num">08</div>
             <div class="badgeRow">
               <span class="badge">기타</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">Pace Digitek secures INR 1,587 million telecom battery order from Reliance Industries Ltd - pv magazine India</div>
-          <ul class="bullets"><li>Pace Digitek secures INR 1,587 million telecom battery order from Reliance Industries Ltd - pv magazine India(Google News - Scale) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMizwFBVV95cUxOVXlYWFZDdmNnQUdPY05MZXlIcGJHWm50cUFXSU1xYnVBaW1Ea2puNlVZNGNGQ0pNMjlJLXNqOUFCWk9PWl9mWHVwVWpuQ1JJWGRJc1RaOGN2QzBfYWpBMHFGT3hlZUxMb3hndXdfUDlEMlpvNUJFWlNPcDFoe…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Scale</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">기타</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Scale</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M12 2a10 10 0 1 0 0.001 0z M9 10a3 3 0 1 1 6 0c0 2-3 2-3 5 M12 18h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
         <a class="card" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd09zR0Y2bzZGZlVhcE1hTEFDWXlkV2lSODhROGZ6c0w4V0lOR18wdW5QbjVOY1hkQ0VDUWx3VlMzZTZ0cUI1TmlyN09sMDFRNDMzQ2lsV2ZOU0c1VHRyRkRxWGdWZGdMbDdHUG4xVWowUmVnSXFhM3RaZXNEVjZNRHN4TG1SV1pqanNzdEZvOW94YWpGZ2JnNHo1X2FZSjBWMDJDX0dsc0R4bXM?oc=5" target="_blank" rel="noopener noreferrer">
@@ -383,20 +494,34 @@
             <div class="num">09</div>
             <div class="badgeRow">
               <span class="badge">정책</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">Despite policy shifts, battery storage expected to grow in 2026 - marketplace.org</div>
-          <ul class="bullets"><li>Despite policy shifts, battery storage expected to grow in 2026 - marketplace.org(Google News - Policy) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd09zR0Y2bzZGZlVhcE1hTEFDWXlkV2lSODhROGZ6c0w4V0lOR18wdW5QbjVOY1hkQ0VDUWx3VlMzZTZ0cUI1TmlyN09sMDFRNDMzQ2lsV2ZOU0c1VHRyRkRxWGdWZGdMbDdHUG4xVWowUmVnSXFhM3RaZXNEV…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Policy</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">정책</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Policy</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M7 4h10v6H7z M6 10h12v10H6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
         <a class="card" href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd29lSmF5OUNWaXRXdm5ZVnU2X0d0eEJXNXRjdHd4RmZWS2hGTUhzcFpEZ1FtRzdFNkdieXRKSUVuUDY0RTdrdDNSenFoZEd6NHRTZ1RDalhrUzlCYUI5OTNuX1RkVnkyZlpJU0s4SVdsVllEdGVzN1Nuc1huUDR4TGhBVjNmdHZ1TVQ1UUg2LTdiTTVocHo3eDFadzFWdzBrcWF4NDVMdng1QjF2RnpzZ0t2UTlrODV4OXNyUmdEdWV0aE3SAcgBQVVfeXFMT3QwLV92Z0JCQnBtYmJfLVM2SmtScEdSWmpPTjJuUEtnbV9YdE1XemtpXzVIRHk0NlpKXy1ROF9Hak9JaXp0dU1pUWpzOERsbk1kWDhHWEFOUFVkcXJ0d1NDNUtub0tLWnVWZzRnQmRET19CdF9rWFFjVzdLdkZWQ1Eyd1hpbGJPTkJBaFhlSTlGMHZfMWlsUVNyZzhGWFJFYndfOG0xbGV5VERQcHJ4X01uMnh3X1JTSllFUW1NWkZxN3dPOV9KaVk?oc=5" target="_blank" rel="noopener noreferrer">
@@ -404,83 +529,139 @@
             <div class="num">10</div>
             <div class="badgeRow">
               <span class="badge">정책</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">Higher fixed network tariffs could erase the benefits of the Cheaper Home Batteries rebate - Renew Economy</div>
-          <ul class="bullets"><li>Higher fixed network tariffs could erase the benefits of the Cheaper Home Batteries rebate - Renew Economy(Google News - Policy) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd29lSmF5OUNWaXRXdm5ZVnU2X0d0eEJXNXRjdHd4RmZWS2hGTUhzcFpEZ1FtRzdFNkdieXRKSUVuUDY0RTdrdDNSenFoZEd6NHRTZ1RDalhrUzlCYUI5OTNuX1RkVnkyZlpJU0s4SVdsVllEdGVzN1Nuc1huU…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
-          <div class="footer">
-            <div class="src">Google News - Policy</div>
-            <div class="date">2026-02-24</div>
-          </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M7 4h10v6H7z M6 10h12v10H6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
-        </a>
-        
-        <a class="card" href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPeERteFJoTU5LVGdkSllzTGlmQTdNd3NXck5XM1ZiTHB6Q1dSZlFiSUZuSFlNNklWcUtjNmxDUVJDOWQ4aGRZWjNpUTl5OHpLTjdZdnJyM2RQeE1kN2RaU0FRc2hFcEhFT2VCT3JqRkRhMkxwTXRRSzJRTlFRTkJrWk40T2NDak1WS1NMem5jT3FQbFV2TG1ZdjdvdW91SkhTNXRaVmRsYV8wNFBPa3Y0?oc=5" target="_blank" rel="noopener noreferrer">
-          <div class="cardTop">
-            <div class="num">11</div>
-            <div class="badgeRow">
-              <span class="badge">재활용</span>
-              <span class="meta">Tier 3 · unknown</span>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Policy</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">정책</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
             </div>
           </div>
-          <div class="title">Battery fire risk isn’t going away. Insurance is responding - Resource Recycling</div>
-          <ul class="bullets"><li>Battery fire risk isn’t going away. Insurance is responding - Resource Recycling(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMirwFBVV95cUxPeERteFJoTU5LVGdkSllzTGlmQTdNd3NXck5XM1ZiTHB6Q1dSZlFiSUZuSFlNNklWcUtjNmxDUVJDOWQ4aGRZWjNpUTl5OHpLTjdZdnJyM2RQeE1kN2RaU0FRc2hFcEhFT2VCT3JqRkRhMkxwTXRRSzJRTlFRT…</li><li>Insurance is responding&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Resource Recycling&lt;/font&gt;</li></ul>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M8 7l4-4 4 4M16 17l-4 4-4-4M4 12a8 8 0 0 1 8-8M20 12a8 8 0 0 1-8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
         <a class="card" href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPS0NHb2Fhc1diWVBOdm5fNzdLVERzVXF4aXlJTmdER3JtdzE1a1VHTG5GbVFhd1g5eXhPRTYxY0ROWmFLOWtFdEtNQTVJbkZiQmFVY1pCbUVSSi1qb3NqZG1od1NGbVdzaEk1WUVKcjA3dDJhdmNjQWhNMEJWMl9oczdvSVVfUmxjX2ZSdE5HZnhjb1B4YWl6U1VXMmZrNzZFQnJZanl3?oc=5" target="_blank" rel="noopener noreferrer">
           <div class="cardTop">
-            <div class="num">12</div>
+            <div class="num">11</div>
             <div class="badgeRow">
               <span class="badge">전고체</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">This Solid-State Motorcycle Battery Was Independently Tested. I&#x27;m Still Not Convinced - RideApart.com</div>
-          <ul class="bullets"><li>This Solid-State Motorcycle Battery Was Independently Tested. I&#x27;m Still Not Convinced - RideApart.com(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMipgFBVV95cUxPS0NHb2Fhc1diWVBOdm5fNzdLVERzVXF4aXlJTmdER3JtdzE1a1VHTG5GbVFhd1g5eXhPRTYxY0ROWmFLOWtFdEtNQTVJbkZiQmFVY1pCbUVSSi1qb3NqZG1od1NGbVdzaEk1WUVKcjA3dDJhdmNjQWhNMEJWM…</li><li>I&#x27;m Still Not Convinced&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;RideApart.com&lt;/font&gt;</li></ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">RideApart.com</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">전고체</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M7 7h10v10H7z M4 12h3 M17 12h3 M12 4v3 M12 17v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
-        <a class="card" href="https://news.google.com/rss/articles/CBMi-gFBVV95cUxQYS1kMXNBUHFaejVUODJwZ1ZJUTVpd0ZrbmJibW9Zamh5bGVUaHN0UHhXNUh5djh2b1JnVUNtNmNPdWJJT09mVTJyei1GZTRScmlaa2hYWjhzUnFKV3laMWl4WFVwNy1Sckk0dGtWekRvOC1odUZJT2xhUVNuWnJfMUI3YlpKNnZPUWtlM2M2emVaX29CdGFnWVF1UjhqZU9MMmlTbWpPcmtnVnZKSzR2SWFGRFUwYWRwX285OXA2akt6QXA0ME85S1BELU9vT01QaTUxMU1yb1FpUG5RVVYyajRabUtzdW1wZG5tUWpTREJTcGVseXBjeTZ3?oc=5" target="_blank" rel="noopener noreferrer">
+        <a class="card" href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPeERteFJoTU5LVGdkSllzTGlmQTdNd3NXck5XM1ZiTHB6Q1dSZlFiSUZuSFlNNklWcUtjNmxDUVJDOWQ4aGRZWjNpUTl5OHpLTjdZdnJyM2RQeE1kN2RaU0FRc2hFcEhFT2VCT3JqRkRhMkxwTXRRSzJRTlFRTkJrWk40T2NDak1WS1NMem5jT3FQbFV2TG1ZdjdvdW91SkhTNXRaVmRsYV8wNFBPa3Y0?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Battery fire risk isn’t going away. Insurance is responding - Resource Recycling</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">재활용</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
+          <div class="footer">
+            <div class="date">2026-02-24</div>
+          </div>
+        </a>
+        
+        <a class="card" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQUllncEZrZWI5OEJ5eWstVlRuRC1TNFA0b08xRGtMS3g0S05EOE9rbnN3M1FYRElwY2FiUW5xOU9vTDg1bkRtQWFkWnEwQkQtN0Z6WjhJR29BZkRIM3psQUpVTFl5QmFNX3htSnNBRFJadzgxT2NKSUFyTnpEU19SazBoVkxBR204cmJIaWFoeGI5VG9EcXlJTVRva3VuQkRBYklpejEzRQ?oc=5" target="_blank" rel="noopener noreferrer">
           <div class="cardTop">
             <div class="num">13</div>
             <div class="badgeRow">
-              <span class="badge">전고체</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
-          <div class="title">Independent tests verify Donut Lab’s five-minute solid-state charging solution - Automotive Powertrain Technology International</div>
-          <ul class="bullets"><li>Independent tests verify Donut Lab’s five-minute solid-state charging solution - Automotive Powertrain Technology International(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMi-gFBVV95cUxQYS1kMXNBUHFaejVUODJwZ1ZJUTVpd0ZrbmJibW9Zamh5bGVUaHN0UHhXNUh5djh2b1JnVUNtNmNPdWJJT09mVTJyei1GZTRScmlaa2hYWjhzUnFKV3laMWl4WFVwNy1Sckk0dGtWekRvOC1odUZJT2xhUVNuW…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="title">Sodium-ion batteries key to EU competitive edge, says EESC President - ESS News</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">나트륨</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M7 7h10v10H7z M4 12h3 M17 12h3 M12 4v3 M12 17v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
         <a class="card" href="https://news.google.com/rss/articles/CBMinwFBVV95cUxOQnNSdkExaEVvdllBT1pyajFPOEZKbTk4OUczbWlVMkdVZGxrTUkwV00waldJVDh2YVBrWU5sSUNmQTNCQ3M3TUlrU3djNmtjVGhHOWtzN1FtTl9HbWZNeS11NENqWmNUSTFzclo3alVOc003eUxqeW9ZWjF0M0loZ1BZRHIySG9nd1R1ekdER04wRll1YmdhRnpjVDZ0RlE?oc=5" target="_blank" rel="noopener noreferrer">
@@ -488,41 +669,69 @@
             <div class="num">14</div>
             <div class="badgeRow">
               <span class="badge">재활용</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">Self-assembling material supports battery recycling - RECYCLING magazine</div>
-          <ul class="bullets"><li>Self-assembling material supports battery recycling - RECYCLING magazine(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMinwFBVV95cUxOQnNSdkExaEVvdllBT1pyajFPOEZKbTk4OUczbWlVMkdVZGxrTUkwV00waldJVDh2YVBrWU5sSUNmQTNCQ3M3TUlrU3djNmtjVGhHOWtzN1FtTl9HbWZNeS11NENqWmNUSTFzclo3alVOc003eUxqeW9ZWjF0M…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">재활용</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M8 7l4-4 4 4M16 17l-4 4-4-4M4 12a8 8 0 0 1 8-8M20 12a8 8 0 0 1-8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
-        <a class="card" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQUllncEZrZWI5OEJ5eWstVlRuRC1TNFA0b08xRGtMS3g0S05EOE9rbnN3M1FYRElwY2FiUW5xOU9vTDg1bkRtQWFkWnEwQkQtN0Z6WjhJR29BZkRIM3psQUpVTFl5QmFNX3htSnNBRFJadzgxT2NKSUFyTnpEU19SazBoVkxBR204cmJIaWFoeGI5VG9EcXlJTVRva3VuQkRBYklpejEzRQ?oc=5" target="_blank" rel="noopener noreferrer">
+        <a class="card" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZY2FNNnpOUWhOOXVoTVFzdDE0SnZnTUNoeWFhYkNQWlVNZEpCMnA3RWdMQlk1bFE2SndTYWZjZWJ6a1lNTzFHd01TZkdkMkU1alFHYWRvRzc0WWFnME85RWhvb25PNlk?oc=5" target="_blank" rel="noopener noreferrer">
           <div class="cardTop">
             <div class="num">15</div>
             <div class="badgeRow">
               <span class="badge">나트륨</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
-          <div class="title">Sodium-ion batteries key to EU competitive edge, says EESC President - ESS News</div>
-          <ul class="bullets"><li>Sodium-ion batteries key to EU competitive edge, says EESC President - ESS News(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMipwFBVV95cUxQUllncEZrZWI5OEJ5eWstVlRuRC1TNFA0b08xRGtMS3g0S05EOE9rbnN3M1FYRElwY2FiUW5xOU9vTDg1bkRtQWFkWnEwQkQtN0Z6WjhJR29BZkRIM3psQUpVTFl5QmFNX3htSnNBRFJadzgxT2NKSUFyTnpEU…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="title">Sodium-Ion Batteries: An Alternative Path for Energy Storage - AZoCleantech</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">나트륨</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M6 7h12M6 12h12M6 17h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
         <a class="card" href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQRGpaaGpvWkpsblhmTDB0ZFRVeThTSDYtY1VQdlUyRWpxRVdDZlo1SzM3aVJJMnpPN2lTSjE5c09nS3NOYTQxSFZNbUE0NGNUdEpOa1JqdUNidWFHaFJpdEdkZUZzc25iY1NaeTNOSDVpZEc3eFFJYV84Rmt2VV9sQ0ZWMHE1clpRejIxb3VHRVJpeEhmZzV1OFA0SzljWXdmRFZN?oc=5" target="_blank" rel="noopener noreferrer">
@@ -530,111 +739,181 @@
             <div class="num">16</div>
             <div class="badgeRow">
               <span class="badge">전고체</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
+
           <div class="title">Changan announces first solid-state batteries in cars before Q3 - electrive.com</div>
-          <ul class="bullets"><li>Changan announces first solid-state batteries in cars before Q3 - electrive.com(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiowFBVV95cUxQRGpaaGpvWkpsblhmTDB0ZFRVeThTSDYtY1VQdlUyRWpxRVdDZlo1SzM3aVJJMnpPN2lTSjE5c09nS3NOYTQxSFZNbUE0NGNUdEpOa1JqdUNidWFHaFJpdEdkZUZzc25iY1NaeTNOSDVpZEc3eFFJYV84Rmt2V…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">전고체</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M7 7h10v10H7z M4 12h3 M17 12h3 M12 4v3 M12 17v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
-        <a class="card" href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZY2FNNnpOUWhOOXVoTVFzdDE0SnZnTUNoeWFhYkNQWlVNZEpCMnA3RWdMQlk1bFE2SndTYWZjZWJ6a1lNTzFHd01TZkdkMkU1alFHYWRvRzc0WWFnME85RWhvb25PNlk?oc=5" target="_blank" rel="noopener noreferrer">
+        <a class="card" href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNb0d6eFM2UmtNbnF3YjVGRVBVX3dnUXYxZEUxS0tYd1Uxb2pnTHM3VzZydTNpU0hJWHh4WTk0V1hMMXpTZVAxLXROS2RORTk4M0dQa3U4dDBCMDE4OVVYOHZ3a0RnQnVTNmwyczd6OUNCTk1FbDRmRFZDT1dZeDBXX2ZqWmh6bzIzS3ZyTEdhTUtZakxnMWR3?oc=5" target="_blank" rel="noopener noreferrer">
           <div class="cardTop">
             <div class="num">17</div>
             <div class="badgeRow">
-              <span class="badge">나트륨</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
-          <div class="title">Sodium-Ion Batteries: An Alternative Path for Energy Storage - AZoCleantech</div>
-          <ul class="bullets"><li>Sodium-Ion Batteries: An Alternative Path for Energy Storage - AZoCleantech(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZY2FNNnpOUWhOOXVoTVFzdDE0SnZnTUNoeWFhYkNQWlVNZEpCMnA3RWdMQlk1bFE2SndTYWZjZWJ6a1lNTzFHd01TZkdkMkU1alFHYWRvRzc0WWFnME85RWhvb25PNlk?oc=5&quot; target=&quot;_blank&quot;&gt;Sodium-…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="title">Donut Lab&#x27;s &#x27;miracle&#x27; solid-state battery confirms 0-80% charge in 4.5 min — but there&#x27;s a catch - Electrek</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">전고체</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M6 7h12M6 12h12M6 17h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
-        <a class="card" href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jT1VabW1YVDUyM2hEM1lRUGxSekptU0o0Zm1ZZG45ZG5sVUZoVHdJbTBOQnp6bXplTVRTdVNfbkJwWE82M2FkazJVU01oTFAwNWhaSGc5Zw?oc=5" target="_blank" rel="noopener noreferrer">
+        <a class="card" href="https://news.google.com/rss/articles/CBMigAJBVV95cUxOX3NUVEtaN3RLWG5Id2xLLVQwT2FYUnhiN05aUi1wV015bWZHendlMHdrM3l2dVQ5a2VwNTJtNzdOeEV1SDRpWm9rbzJWRnpVQlhFWlk5alBjdWhlNkJuSkpLOWtEeEZIdXJPXy1qY3EtbEYyeU0tZV9iMjVQbTdrWndJb2JPR2ZCdEJ5cWhMclc1cDlJZm0tdG1VQXV3NlNJc2Q5dF9TYnZndEZ2eV9TdmJwQVg4SkVXR1J6Z240QlpkWDdCNWNGdklMNTRERHpJWnJGRlBJdkpSTDJfdktUUUhuaGFFR0pTMXlVZzBiYUdueG1vTG9LOUdFV2R3cmFT?oc=5" target="_blank" rel="noopener noreferrer">
           <div class="cardTop">
             <div class="num">18</div>
             <div class="badgeRow">
               <span class="badge">전고체</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
-          <div class="title">Changan to trial solid-state batteries in vehicles by Q3 - Automotive World</div>
-          <ul class="bullets"><li>Changan to trial solid-state batteries in vehicles by Q3 - Automotive World(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jT1VabW1YVDUyM2hEM1lRUGxSekptU0o0Zm1ZZG45ZG5sVUZoVHdJbTBOQnp6bXplTVRTdVNfbkJwWE82M2FkazJVU01oTFAwNWhaSGc5Zw?oc=5&quot; target=&quot;_blank&quot;&gt;Changan to trial solid-state…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="title">Independent tests verify Donut Lab’s five-minute solid-state charging solution - Automotive Testing Technology International</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">전고체</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M7 7h10v10H7z M4 12h3 M17 12h3 M12 4v3 M12 17v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
-        <a class="card" href="https://news.google.com/rss/articles/CBMizAFBVV95cUxPeVBtbVctTHk3MWd0czRrN2daWXhWNlRSVGh0Q3Nsc0xxRGN1XzJ1ek5feTBNMzJJUjZueG1hbG9zalh3V3RJb0tyT2FUUmFGNXlNSTZGU0s4YUVpSVRYOHNXS20tZjVmeDRDaHItcjU2R3FOdlhRZGNLcnRLVkxEa2szMjJiY0Y0LWNIVWZzZm42M1VGcEw0NEZTTFhtbzBqVmpaTkxUVVRPVUFISEhoWHl1cEdNcW9GT1pTc2JOMVB6R2JfMVdJWnZ5TEI?oc=5" target="_blank" rel="noopener noreferrer">
+        <a class="card" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNZUxwYzBzZjRJanhJSmJrdlNCT3lOWno3djBndHQ1NVFDLXY5OWlPbzN1dXMxU2pfWVQtcWVSOVRSUlpRcVRDWFJZXzczcUJxX3hjSS00S0MzdnMtcjk2aGhNblNmWmFzNjFGV0JMS1Z5YXpjSHdCaVg2dk9SelVoc3lwUncyOU1QQndvVm1OS05qZW1ZaThKMw?oc=5" target="_blank" rel="noopener noreferrer">
           <div class="cardTop">
             <div class="num">19</div>
             <div class="badgeRow">
-              <span class="badge">기타</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
-          <div class="title">Ampere and Basquevolt partner on lithium metal battery development for EVs - Electric &amp; Hybrid Vehicle Technology International</div>
-          <ul class="bullets"><li>Ampere and Basquevolt partner on lithium metal battery development for EVs - Electric &amp; Hybrid Vehicle Technology International(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMizAFBVV95cUxPeVBtbVctTHk3MWd0czRrN2daWXhWNlRSVGh0Q3Nsc0xxRGN1XzJ1ek5feTBNMzJJUjZueG1hbG9zalh3V3RJb0tyT2FUUmFGNXlNSTZGU0s4YUVpSVRYOHNXS20tZjVmeDRDaHItcjU2R3FOdlhRZGNLcnRLV…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="title">Donut Lab Solid-State Battery: 350 Miles in 10 Minutes? - Captain Electro</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">전고체</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M12 2a10 10 0 1 0 0.001 0z M9 10a3 3 0 1 1 6 0c0 2-3 2-3 5 M12 18h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
-        <a class="card" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LYmJnd0MtaFo0SUEtWFMxY0w0S1RQY1pnNjFxQTBBLWRoNTZkVnZMZ095NTI0ck5NTktsc1c3ZldvRkdVSFlHUlRHaWFFRHdKMFFabDh2OFFuN3UyM2dpUWRNYUzSAWpBVV95cUxOMzEzMmxQV2JEMFU0SExZa1FiX2E3aURQWGt4UFNxY2FzTXZrTjB4dmUzbndVMmY5TGRUMjBRbW8yYkZGVFZma1l3N0VGZ3VRa1NTb2hTQTBQazJ5MVpqNkJZbUMtbkwwdUdn?oc=5" target="_blank" rel="noopener noreferrer">
+        <a class="card" href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jT1VabW1YVDUyM2hEM1lRUGxSekptU0o0Zm1ZZG45ZG5sVUZoVHdJbTBOQnp6bXplTVRTdVNfbkJwWE82M2FkazJVU01oTFAwNWhaSGc5Zw?oc=5" target="_blank" rel="noopener noreferrer">
           <div class="cardTop">
             <div class="num">20</div>
             <div class="badgeRow">
               <span class="badge">전고체</span>
-              <span class="meta">Tier 3 · unknown</span>
+              <span class="meta">Tier 3</span>
             </div>
           </div>
-          <div class="title">Donut Lab&#x27;s solid-state battery charges to 80% in less than 5 minutes – first independent tests - Mezha</div>
-          <ul class="bullets"><li>Donut Lab&#x27;s solid-state battery charges to 80% in less than 5 minutes – first independent tests - Mezha(Google News - Core) 관련 소식입니다.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LYmJnd0MtaFo0SUEtWFMxY0w0S1RQY1pnNjFxQTBBLWRoNTZkVnZMZ095NTI0ck5NTktsc1c3ZldvRkdVSFlHUlRHaWFFRHdKMFFabDh2OFFuN3UyM2dpUWRNYUzSAWpBVV95cUxOMzEzMmxQV2JEMFU0SExZa…</li><li>배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.</li></ul>
+
+          <div class="title">Changan to trial solid-state batteries in vehicles by Q3 - Automotive World</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Google News - Core</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">전고체</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier 3</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">Google News - Core</div>
             <div class="date">2026-02-24</div>
           </div>
-          <div class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="M7 7h10v10H7z M4 12h3 M17 12h3 M12 4v3 M12 17v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    </div>
         </a>
         
       </div>
 
       <div class="bottom">
         <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
-        <div><a href="../index.html">아카이브로 이동</a></div>
+        <div><a href="../">아카이브로 이동</a></div>
       </div>
     </div>
   </div>
