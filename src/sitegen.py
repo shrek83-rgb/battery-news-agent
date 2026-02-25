@@ -9,6 +9,22 @@ def _e(s: str) -> str:
     return html.escape(s or "", quote=True)
 
 
+def _cat_slug(cat: str) -> str:
+    m = {
+        "cathode": "cathode",
+        "anode": "anode",
+        "electrolyte": "electrolyte",
+        "separator": "separator",
+        "전고체": "solid_state",
+        "나트륨": "sodium",
+        "재활용": "recycling",
+        "장비": "equipment",
+        "정책": "policy",
+        "기타": "etc",
+    }
+    return m.get(cat, "etc")
+
+
 def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path) -> Path:
     day_dir = docs_dir / date_str
     day_dir.mkdir(parents=True, exist_ok=True)
@@ -18,15 +34,23 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
         title = _e(it.get("title", ""))
         link = _e(it.get("link", ""))
         source = _e(it.get("source", ""))
-        category = _e(it.get("category", "기타"))
+        category_raw = it.get("category", "기타")
+        category = _e(category_raw)
         tier = _e(str(it.get("tier", 3)))
         pub = _e(it.get("published_at", date_str))
 
         companies = it.get("companies", []) or []
         comp_html = "".join(f'<span class="chip">{_e(c)}</span>' for c in companies) if companies else '<span class="chip muted">-</span>'
 
+        summ = it.get("summary_3_sentences") or ["", "", ""]
+        while len(summ) < 3:
+            summ.append("")
+        summ_html = "".join(f"<li>{_e(s)}</li>" for s in summ[:3] if s)
+
+        cat_class = f"cat-{_cat_slug(category_raw)}"
+
         cards_html.append(f"""
-        <a class="card" href="{link}" target="_blank" rel="noopener noreferrer">
+        <a class="card {cat_class}" href="{link}" target="_blank" rel="noopener noreferrer">
           <div class="cardTop">
             <div class="num">{i:02d}</div>
             <div class="badgeRow">
@@ -46,18 +70,15 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
               <div class="k">관련기업</div>
               <div class="v chips">{comp_html}</div>
             </div>
-            <div class="row">
-              <div class="k">분류</div>
-              <div class="v">{category}</div>
-            </div>
-            <div class="row">
-              <div class="k">Tier</div>
-              <div class="v">Tier {tier}</div>
-            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary">{summ_html}</ul>
           </div>
 
           <div class="footer">
-            <div class="date">{pub}</div>
+            <div>{pub}</div>
           </div>
         </a>
         """)
@@ -78,6 +99,18 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
       --line:rgba(10,27,61,.10);
       --card:#FFFFFF;
       --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
     }}
     * {{ box-sizing: border-box; }}
     body {{
@@ -126,21 +159,6 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
       margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
     }}
     .sub a {{ color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }}
-    .sub a:hover {{ border-bottom-color: var(--blue); }}
-
-    .section {{
-      padding: 18px 26px 10px;
-      background: var(--panel);
-      border-top: 1px solid var(--line);
-    }}
-    .sectionTitle {{
-      display:inline-block;
-      background: var(--yellow);
-      border-radius: 14px;
-      padding: 10px 14px;
-      font-weight: 900;
-      border: 3px solid rgba(11,78,219,.18);
-    }}
 
     .grid {{
       padding: 18px 26px 26px;
@@ -154,7 +172,7 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
     }}
 
     .card {{
-      position: relative;
+      --cat: var(--etc);
       display:block;
       text-decoration:none;
       color:inherit;
@@ -164,13 +182,26 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
       padding: 16px 16px 14px;
       box-shadow: 0 10px 20px rgba(10,27,61,.06);
       transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
-      min-height: 220px;
+      border-left: 10px solid var(--cat);
     }}
     .card:hover {{
       transform: translateY(-2px);
       box-shadow: 0 14px 26px rgba(10,27,61,.12);
       border-color: rgba(11,78,219,.25);
     }}
+
+    /* category color binding */
+    .cat-cathode {{ --cat: var(--cathode); }}
+    .cat-anode {{ --cat: var(--anode); }}
+    .cat-electrolyte {{ --cat: var(--electrolyte); }}
+    .cat-separator {{ --cat: var(--separator); }}
+    .cat-solid_state {{ --cat: var(--solid); }}
+    .cat-sodium {{ --cat: var(--sodium); }}
+    .cat-recycling {{ --cat: var(--recycling); }}
+    .cat-equipment {{ --cat: var(--equipment); }}
+    .cat-policy {{ --cat: var(--policy); }}
+    .cat-etc {{ --cat: var(--etc); }}
+
     .cardTop {{
       display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
       margin-bottom: 10px;
@@ -192,16 +223,18 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
     .badge {{
       display:inline-flex;
       padding: 6px 10px;
-      background: rgba(11,78,219,.10);
-      color: var(--blue);
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
       border-radius: 999px;
-      font-weight: 800;
+      font-weight: 900;
       font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
     }}
     .meta {{
       color: var(--muted);
       font-size: 12px;
       white-space: nowrap;
+      font-weight: 800;
     }}
     .title {{
       font-size: 16px;
@@ -209,15 +242,11 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
       line-height: 1.35;
       letter-spacing: -0.01em;
       margin-bottom: 10px;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow:hidden;
     }}
 
-    .rows {{ margin-top: 10px; display: grid; gap: 8px; }}
+    .rows {{ margin-top: 8px; display: grid; gap: 8px; }}
     .row {{ display:flex; gap:10px; align-items:flex-start; }}
-    .k {{ width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:800; }}
+    .k {{ width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }}
     .v {{ flex:1; font-size:13px; color:#223253; line-height:1.35; }}
     .chips {{ display:flex; flex-wrap:wrap; gap:6px; }}
     .chip {{
@@ -227,7 +256,7 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
       border:1px solid rgba(11,78,219,.14);
       background: rgba(11,78,219,.06);
       color:#0B4EDB;
-      font-weight:800;
+      font-weight:900;
       font-size:12px;
     }}
     .chip.muted {{
@@ -236,12 +265,32 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
       border-color:#e5e7eb;
     }}
 
+    .summaryBox {{
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }}
+    .summaryTitle {{
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }}
+    .summary {{
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }}
     .footer {{
-      position:absolute;
-      left:16px; right:16px; bottom:12px;
+      margin-top: 12px;
       display:flex; justify-content:flex-end;
       color: var(--muted);
       font-size: 12px;
+      font-weight: 800;
     }}
 
     .bottom {{
@@ -251,6 +300,7 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
       display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
       color: var(--muted);
       font-size: 12px;
+      font-weight: 800;
     }}
     .bottom a {{ color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }}
   </style>
@@ -262,13 +312,8 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
         <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
         <h1>{date_str} 전날 뉴스 TOP</h1>
         <div class="sub">
-          카드 클릭 시 원문이 새 탭에서 열립니다. ·
-          <a href="../">전체 아카이브</a>
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
         </div>
-      </div>
-
-      <div class="section">
-        <div class="sectionTitle">뉴스 카드 목록 (2열)</div>
       </div>
 
       <div class="grid">
