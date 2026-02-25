@@ -51,6 +51,10 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
         while len(summ) < 3:
             summ.append("")
         bullets = "".join(f"<li>{_e(s)}</li>" for s in summ[:3] if s)
+        
+        # ✅ 여기: companies를 가져와서 HTML로 변환
+        companies = it.get("companies", []) or []
+        comp_html = "".join(f'<span class="chip">{_e(c)}</span>' for c in companies) if companies else '<span class="chip muted">-</span>'
 
         cards_html.append(f"""
         <a class="card" href="{link}" target="_blank" rel="noopener noreferrer">
@@ -263,6 +267,26 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
       font-size: 12px;
     }}
     .bottom a {{ color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }}
+    .rows { margin-top: 10px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:800; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:800;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
   </style>
 </head>
 <body>
