@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import concurrent.futures
 from typing import Any, Dict, List
 
 from google import genai
@@ -20,20 +21,19 @@ SYSTEM_INSTRUCTION = (
 
 
 def enrich_item(title: str, description: str, source: str, link: str, model: str) -> Dict[str, Any]:
-    client = genai.Client()  # GEMINI_API_KEY를 env에서 읽음 :contentReference[oaicite:4]{index=4}
+    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
     prompt = f"""
 [기사]
 - 제목: {title}
 - 설명: {description}
-- 언론사/출처: {source}
+- 언론사: {source}
 - 링크: {link}
 
 [요구사항]
 - summary_3_sentences: 정확히 3문장(각 원소는 1문장). "사실 → 의미/영향 → 추가 맥락" 순으로.
 - companies: 기사와 직접 관련된 기업/기관명 0~3개(중복 제거). 없으면 빈 배열.
 - 한국어로 작성하되, 고유명사/수치/날짜는 원문 표기를 최대한 유지.
-- 링크/출처를 요약에 다시 쓰지 말 것.
 - 반드시 JSON만 출력(스키마 준수).
 """.strip()
 
@@ -48,15 +48,13 @@ def enrich_item(title: str, description: str, source: str, link: str, model: str
         },
     )
 
-    # SDK가 JSON을 파싱해 resp.parsed로 주는 흐름(문서에 안내) :contentReference[oaicite:5]{index=5}
     parsed = getattr(resp, "parsed", None)
     if parsed is None:
-        # 혹시 파싱이 안 되면 text에서 재시도(최후수단)
         parsed = NewsEnriched.model_validate_json(resp.text)
 
     data = parsed.model_dump()
 
-    # 보정(안전)
+    # sanitize
     s = [x.strip() for x in data.get("summary_3_sentences", []) if isinstance(x, str)]
     while len(s) < 3:
         s.append("")
@@ -68,11 +66,8 @@ def enrich_item(title: str, description: str, source: str, link: str, model: str
         if c not in uniq:
             uniq.append(c)
     data["companies"] = uniq[:3]
-
     return data
 
-
-import concurrent.futures
 
 def enrich_items(items: List[Dict[str, Any]], max_items: int, model: str = "gemini-2.0-flash") -> List[Dict[str, Any]]:
     if not os.environ.get("GEMINI_API_KEY"):
@@ -83,7 +78,10 @@ def enrich_items(items: List[Dict[str, Any]], max_items: int, model: str = "gemi
         return items
 
     n = min(len(items), max_items)
-    out = items[:]  # copy
+    out = items[:]
+
+    max_workers = int(os.getenv("GEMINI_WORKERS", "4"))
+    timeout_sec = int(os.getenv("GEMINI_TIMEOUT_SEC", "25"))
 
     def work(i: int):
         it = out[i]
@@ -95,12 +93,9 @@ def enrich_items(items: List[Dict[str, Any]], max_items: int, model: str = "gemi
             model=model,
         )
 
-    max_workers = int(os.getenv("GEMINI_WORKERS", "4"))
-    timeout_sec = int(os.getenv("GEMINI_TIMEOUT_SEC", "25"))
-
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as ex:
         futures = {ex.submit(work, i): i for i in range(n)}
-        for fut in concurrent.futures.as_completed(futures, timeout=timeout_sec * n):
+        for fut in concurrent.futures.as_completed(futures, timeout=timeout_sec * max(1, n)):
             i = futures[fut]
             try:
                 _, enriched = fut.result(timeout=timeout_sec)
@@ -111,7 +106,6 @@ def enrich_items(items: List[Dict[str, Any]], max_items: int, model: str = "gemi
                 out[i].setdefault("companies", [])
                 out[i].setdefault("summary_3_sentences", ["", "", ""])
 
-    # items beyond n: ensure fields exist
     for j in range(n, len(out)):
         out[j].setdefault("companies", [])
         out[j].setdefault("summary_3_sentences", ["", "", ""])
