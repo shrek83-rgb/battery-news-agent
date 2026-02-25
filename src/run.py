@@ -125,8 +125,8 @@ def main():
     # (day_docs_dir / "cards").mkdir(parents=True, exist_ok=True)
 
     # Copy cards to docs/YYYY-MM-DD/cards/
-    for p in created_cards:
-        (day_docs_dir / "cards" / p.name).write_bytes(p.read_bytes())
+    # for p in created_cards:
+    #     (day_docs_dir / "cards" / p.name).write_bytes(p.read_bytes())
 
     # Build docs/YYYY-MM-DD/index.html (cards link to original news)
     build_daily_page(target_date, items, docs_dir)
