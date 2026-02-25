@@ -44,32 +44,53 @@ def google_news_rss_url(query: str, hl: str = "en", gl: str = "US", ceid: str = 
 
 def _fetch_url(url: str, timeout: int = 20, retries: int = 2, backoff_sec: float = 1.5) -> bytes | None:
     headers = {"User-Agent": DEFAULT_UA, "Accept": "application/rss+xml,application/xml,text/xml,*/*;q=0.8"}
-    last_err: Exception | None = None
-
     for attempt in range(retries + 1):
         try:
             r = requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
-            # Some sites return 403/406 etc; treat as failure but don't crash
             if r.status_code >= 400:
                 raise RuntimeError(f"HTTP {r.status_code}")
             return r.content
-        except Exception as e:
-            last_err = e
+        except Exception:
             if attempt < retries:
                 time.sleep(backoff_sec * (attempt + 1))
             else:
-                # final failure
                 return None
     return None
 
 
+def _extract_publisher_from_google_news(entry: dict[str, Any], title: str) -> tuple[str, str | None]:
+    """
+    Returns (clean_title, publisher_or_none).
+    Google News entries often look like: "Some title - Publisher".
+    Also sometimes entry['source'] contains publisher title.
+    """
+    publisher = None
+
+    src_obj = entry.get("source")
+    if isinstance(src_obj, dict):
+        publisher = (src_obj.get("title") or "").strip() or None
+    elif isinstance(src_obj, str):
+        publisher = src_obj.strip() or None
+
+    # title ends with " - Publisher"
+    if " - " in title:
+        base, tail = title.rsplit(" - ", 1)
+        tail = tail.strip()
+        # heuristic: tail likely a publisher if reasonably short
+        if 2 <= len(tail) <= 60:
+            if publisher is None:
+                publisher = tail
+            # if tail equals publisher, remove it
+            if publisher and tail == publisher and base.strip():
+                title = base.strip()
+            # even if publisher was None, we set publisher=tail and remove tail
+            elif publisher == tail and base.strip():
+                title = base.strip()
+
+    return title, publisher
+
+
 def collect_from_rss(url: str, source_name: str, target_date: str) -> list[dict[str, str]]:
-    """
-    Robust RSS collection:
-    - fetch via requests with UA/timeout/retries
-    - parse bytes with feedparser
-    - if a source fails, return empty list (do not crash pipeline)
-    """
     content = _fetch_url(url, timeout=25, retries=2)
     if content is None:
         print(f"[WARN] RSS fetch failed, skipping: {source_name} | {url}")
@@ -93,11 +114,17 @@ def collect_from_rss(url: str, source_name: str, target_date: str) -> list[dict[
         description = (e.get("summary") or e.get("description") or "").strip()
         description = re.sub(r"\s+", " ", description)
 
+        real_source = source_name
+        if source_name.lower().startswith("google news"):
+            title, publisher = _extract_publisher_from_google_news(e, title)
+            if publisher:
+                real_source = publisher
+
         out.append(
             {
                 "title": title,
                 "published_at": published_at,
-                "source": source_name,
+                "source": real_source,
                 "link": link,
                 "description": description,
             }
