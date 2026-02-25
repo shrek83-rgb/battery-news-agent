@@ -57,6 +57,8 @@ def main():
 
     # 1) Google News RSS (query based)
     for source_name, rss_url in build_google_news_queries(keywords):
+        items = collect_from_rss(rss_url, source_name, target_date)
+        print(f"[INFO] Collected {len(items)} from {source_name}")
         raw.extend(collect_from_rss(rss_url, source_name, target_date))
 
     # 2) Fixed RSS sources (from config)
@@ -64,6 +66,8 @@ def main():
         name = it.get("name", "RSS")
         url = it.get("url", "")
         if url:
+            items = collect_from_rss(rss_url, source_name, target_date)
+            print(f"[INFO] Collected {len(items)} from {source_name}")
             raw.extend(collect_from_rss(url, name, target_date))
 
     if not raw:
