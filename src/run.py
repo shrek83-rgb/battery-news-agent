@@ -109,7 +109,8 @@ def main():
     # 7) write outputs to outputs/YYYY-MM-DD/
     out_dir = Path("outputs") / target_date
     md_path, json_path = write_outputs(out_dir, target_date, items)
-
+    print(f"[OK] Wrote: {md_path} , {json_path}")
+    
     docs_dir = Path("docs")
     build_daily_page(target_date, items, docs_dir)
     build_root_index(docs_dir)
