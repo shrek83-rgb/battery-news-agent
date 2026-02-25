@@ -5,13 +5,13 @@ from pathlib import Path
 
 import yaml
 
-from src.collector import collect_from_rss, google_news_rss_url
-from src.dedupe import dedupe_items
-from src.ranker import infer_tier, popularity_signal_from_source, score_item, sort_key
-from src.tagger import classify_category, summarize_3_sentences
-from src.renderer import write_outputs
-from src.drive_uploader import ensure_date_folder, upload_or_update_file
-from src.utils import getenv_int, kst_yesterday_date_str
+from .collector import collect_from_rss, google_news_rss_url
+from .dedupe import dedupe_items
+from .ranker import infer_tier, popularity_signal_from_source, score_item, sort_key
+from .tagger import classify_category, summarize_3_sentences
+from .renderer import write_outputs
+from .drive_uploader import ensure_date_folder, upload_or_update_file
+from .utils import getenv_int, kst_yesterday_date_str
 
 def load_config() -> dict:
     cfg_path = Path("config/sources.yaml")
