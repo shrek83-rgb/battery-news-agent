@@ -72,6 +72,8 @@ def enrich_item(title: str, description: str, source: str, link: str, model: str
     return data
 
 
+import concurrent.futures
+
 def enrich_items(items: List[Dict[str, Any]], max_items: int, model: str = "gemini-2.0-flash") -> List[Dict[str, Any]]:
     if not os.environ.get("GEMINI_API_KEY"):
         print("[WARN] GEMINI_API_KEY not set. Skipping Gemini enrichment.")
@@ -80,25 +82,38 @@ def enrich_items(items: List[Dict[str, Any]], max_items: int, model: str = "gemi
             it.setdefault("summary_3_sentences", ["", "", ""])
         return items
 
-    out: List[Dict[str, Any]] = []
     n = min(len(items), max_items)
+    out = items[:]  # copy
 
-    for idx, it in enumerate(items[:n], 1):
-        try:
-            enriched = enrich_item(
-                title=it.get("title", ""),
-                description=it.get("description", ""),
-                source=it.get("source", ""),
-                link=it.get("link", ""),
-                model=model,
-            )
-            it["summary_3_sentences"] = enriched["summary_3_sentences"]
-            it["companies"] = enriched["companies"]
-        except Exception as e:
-            print(f"[WARN] Gemini enrich failed for item {idx}: {e}")
-            it.setdefault("companies", [])
-            it.setdefault("summary_3_sentences", ["", "", ""])
-        out.append(it)
+    def work(i: int):
+        it = out[i]
+        return i, enrich_item(
+            title=it.get("title", ""),
+            description=it.get("description", ""),
+            source=it.get("source", ""),
+            link=it.get("link", ""),
+            model=model,
+        )
 
-    out.extend(items[n:])
+    max_workers = int(os.getenv("GEMINI_WORKERS", "4"))
+    timeout_sec = int(os.getenv("GEMINI_TIMEOUT_SEC", "25"))
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as ex:
+        futures = {ex.submit(work, i): i for i in range(n)}
+        for fut in concurrent.futures.as_completed(futures, timeout=timeout_sec * n):
+            i = futures[fut]
+            try:
+                _, enriched = fut.result(timeout=timeout_sec)
+                out[i]["summary_3_sentences"] = enriched["summary_3_sentences"]
+                out[i]["companies"] = enriched["companies"]
+            except Exception as e:
+                print(f"[WARN] Gemini enrich failed/timeout for item {i+1}: {e}")
+                out[i].setdefault("companies", [])
+                out[i].setdefault("summary_3_sentences", ["", "", ""])
+
+    # items beyond n: ensure fields exist
+    for j in range(n, len(out)):
+        out[j].setdefault("companies", [])
+        out[j].setdefault("summary_3_sentences", ["", "", ""])
+
     return out
