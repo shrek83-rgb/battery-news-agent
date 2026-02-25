@@ -110,6 +110,11 @@ def main():
 
     # 10~15개만 요약/기업추출(비용/시간 관리)
     items = enrich_items(items, max_items=max_items, model="gemini-3-flash-preview")
+    
+    import time
+    t0 = time.time()
+    items = enrich_items(items, max_items=8, model="gemini-2.0-flash")
+    print(f"[INFO] Gemini enrichment took {time.time()-t0:.1f}s")
 
     # 7) write outputs to outputs/YYYY-MM-DD/
     out_dir = Path("outputs") / target_date
