@@ -109,7 +109,11 @@ def main():
     # 7) write outputs to outputs/YYYY-MM-DD/
     out_dir = Path("outputs") / target_date
     md_path, json_path = write_outputs(out_dir, target_date, items)
-    print(f"[OK] Wrote: {md_path} , {json_path}")
+
+    docs_dir = Path("docs")
+    build_daily_page(target_date, items, docs_dir)
+    build_root_index(docs_dir)
+    print(f"[OK] Published HTML pages under docs/{target_date}/")
 
     # 7.5) Generate card images into outputs/YYYY-MM-DD/cards/
     # created_cards = generate_cards(target_date, items, out_dir)
