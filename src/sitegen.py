@@ -9,34 +9,10 @@ def _e(s: str) -> str:
     return html.escape(s or "", quote=True)
 
 
-def _icon_svg(kind: str) -> str:
-    # 간단한 라인 아이콘 (SVG) - 외부 리소스 없이 깔끔하게
-    # kind: category 기반으로 매핑
-    icons = {
-        "cathode": "M12 2v20M2 12h20M6 6l12 12M18 6L6 18",  # X + cross
-        "anode": "M4 18l8-14 8 14H4z",                    # triangle
-        "electrolyte": "M8 2h8v6l3 4v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V12l3-4V2z",  # bottle-ish
-        "separator": "M5 4h14v16H5z M8 4v16 M12 4v16 M16 4v16",  # grid
-        "전고체": "M7 7h10v10H7z M4 12h3 M17 12h3 M12 4v3 M12 17v3",  # solid block
-        "나트륨": "M6 7h12M6 12h12M6 17h12",                      # lines
-        "재활용": "M8 7l4-4 4 4M16 17l-4 4-4-4M4 12a8 8 0 0 1 8-8M20 12a8 8 0 0 1-8 8",  # recycle-ish
-        "장비": "M4 17h16M7 17V7h10v10M9 9h6",                   # machine-ish
-        "정책": "M7 4h10v6H7z M6 10h12v10H6z",                   # doc
-        "기타": "M12 2a10 10 0 1 0 0.001 0z M9 10a3 3 0 1 1 6 0c0 2-3 2-3 5 M12 18h.01",  # question
-    }
-    path = icons.get(kind, icons["기타"])
-    return f"""
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-      <path d="{path}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    """
-
-
 def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path) -> Path:
     day_dir = docs_dir / date_str
     day_dir.mkdir(parents=True, exist_ok=True)
 
-    # 10~15개로 보이도록(기본값: items가 이미 MAX_ITEMS로 컷됨)
     cards_html = []
     for i, it in enumerate(items, 1):
         title = _e(it.get("title", ""))
@@ -45,14 +21,7 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
         category = _e(it.get("category", "기타"))
         tier = _e(str(it.get("tier", 3)))
         pub = _e(it.get("published_at", date_str))
-        pop = _e(it.get("popularity_signal", "unknown"))
-        summ = it.get("summary_3_sentences") or []
-        summ = [s.strip() for s in summ if s and s.strip()]
-        while len(summ) < 3:
-            summ.append("")
-        bullets = "".join(f"<li>{_e(s)}</li>" for s in summ[:3] if s)
-        
-        # ✅ 여기: companies를 가져와서 HTML로 변환
+
         companies = it.get("companies", []) or []
         comp_html = "".join(f'<span class="chip">{_e(c)}</span>' for c in companies) if companies else '<span class="chip muted">-</span>'
 
@@ -62,16 +31,34 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
             <div class="num">{i:02d}</div>
             <div class="badgeRow">
               <span class="badge">{category}</span>
-              <span class="meta">Tier {tier} · {pop}</span>
+              <span class="meta">Tier {tier}</span>
             </div>
           </div>
+
           <div class="title">{title}</div>
-          <ul class="bullets">{bullets}</ul>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">{source}</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips">{comp_html}</div>
+            </div>
+            <div class="row">
+              <div class="k">분류</div>
+              <div class="v">{category}</div>
+            </div>
+            <div class="row">
+              <div class="k">Tier</div>
+              <div class="v">Tier {tier}</div>
+            </div>
+          </div>
+
           <div class="footer">
-            <div class="src">{source}</div>
             <div class="date">{pub}</div>
           </div>
-          <div class="icon">{_icon_svg(it.get("category","기타"))}</div>
         </a>
         """)
 
@@ -94,7 +81,8 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
     }}
     * {{ box-sizing: border-box; }}
     body {{
-      margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
       background: linear-gradient(180deg,var(--blue),var(--blue2));
       color: var(--ink);
     }}
@@ -176,7 +164,7 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
       padding: 16px 16px 14px;
       box-shadow: 0 10px 20px rgba(10,27,61,.06);
       transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
-      min-height: 210px;
+      min-height: 220px;
     }}
     .card:hover {{
       transform: translateY(-2px);
@@ -226,38 +214,36 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
       -webkit-box-orient: vertical;
       overflow:hidden;
     }}
-    .bullets {{
-      margin:0;
-      padding-left: 18px;
-      color: #223253;
-      font-size: 13px;
-      line-height: 1.45;
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;
-      overflow:hidden;
+
+    .rows {{ margin-top: 10px; display: grid; gap: 8px; }}
+    .row {{ display:flex; gap:10px; align-items:flex-start; }}
+    .k {{ width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:800; }}
+    .v {{ flex:1; font-size:13px; color:#223253; line-height:1.35; }}
+    .chips {{ display:flex; flex-wrap:wrap; gap:6px; }}
+    .chip {{
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:800;
+      font-size:12px;
     }}
+    .chip.muted {{
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }}
+
     .footer {{
       position:absolute;
       left:16px; right:16px; bottom:12px;
-      display:flex; justify-content:space-between; gap:10px;
+      display:flex; justify-content:flex-end;
       color: var(--muted);
       font-size: 12px;
     }}
-    .src {{
-      overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
-      max-width: 70%;
-    }}
-    .icon {{
-      position:absolute;
-      right:14px; top: 62px;
-      width:46px; height:46px;
-      border-radius: 16px;
-      background: rgba(255,210,74,.55);
-      display:flex; align-items:center; justify-content:center;
-      color: var(--blue);
-      border: 1px solid rgba(11,78,219,.12);
-    }}
+
     .bottom {{
       padding: 14px 26px 20px;
       background: #fff;
@@ -267,26 +253,6 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
       font-size: 12px;
     }}
     .bottom a {{ color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }}
-    .rows { margin-top: 10px; display: grid; gap: 8px; }
-    .row { display:flex; gap:10px; align-items:flex-start; }
-    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:800; }
-    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
-    .chips { display:flex; flex-wrap:wrap; gap:6px; }
-    .chip {
-      display:inline-flex; align-items:center;
-      padding:6px 10px;
-      border-radius:999px;
-      border:1px solid rgba(11,78,219,.14);
-      background: rgba(11,78,219,.06);
-      color:#0B4EDB;
-      font-weight:800;
-      font-size:12px;
-    }
-    .chip.muted {
-      background: #f2f4f8;
-      color:#6b7280;
-      border-color:#e5e7eb;
-    }
   </style>
 </head>
 <body>
@@ -296,8 +262,8 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
         <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
         <h1>{date_str} 전날 뉴스 TOP</h1>
         <div class="sub">
-          카드/제목 클릭 시 원문이 새 탭에서 열립니다. ·
-          <a href="../index.html">전체 아카이브</a>
+          카드 클릭 시 원문이 새 탭에서 열립니다. ·
+          <a href="../">전체 아카이브</a>
         </div>
       </div>
 
@@ -311,7 +277,7 @@ def build_daily_page(date_str: str, items: list[dict[str, Any]], docs_dir: Path)
 
       <div class="bottom">
         <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
-        <div><a href="../index.html">아카이브로 이동</a></div>
+        <div><a href="../">아카이브로 이동</a></div>
       </div>
     </div>
   </div>
@@ -331,7 +297,7 @@ def build_root_index(docs_dir: Path) -> Path:
     dates.sort(reverse=True)
 
     items = "\n".join(
-        f'<li style="margin:10px 0;"><a style="color:#0B4EDB;text-decoration:none;border-bottom:1px solid rgba(11,78,219,.25);" href="{_e(d)}/index.html">{_e(d)}</a></li>'
+        f'<li style="margin:10px 0;"><a style="color:#0B4EDB;text-decoration:none;border-bottom:1px solid rgba(11,78,219,.25);" href="{_e(d)}/">{_e(d)}</a></li>'
         for d in dates
     )
 
