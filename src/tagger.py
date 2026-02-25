@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from pathlib import Path
 
 
 CATEGORIES = [
@@ -25,27 +26,18 @@ def classify_category(title: str, description: str) -> str:
     return "기타"
 
 
-def summarize_3_sentences(title: str, description: str, source: str) -> list[str]:
-    """
-    비용 0원 룰 기반 3문장 요약(MVP).
-    - description(리드문)이 있으면 문장 1~2개를 가져오고, 부족하면 템플릿으로 보완
-    """
-    desc = re.sub(r"\s+", " ", (description or "")).strip()
-
-    # Split into sentences (very rough, works for EN/KR mixed)
-    candidates = re.split(r"(?<=[\.\!\?])\s+|(?<=다\.)\s+|(?<=요\.)\s+", desc)
-    candidates = [c.strip() for c in candidates if c.strip()]
-
-    s1 = f"{title}({source}) 관련 소식입니다."
-    s2 = candidates[0] if len(candidates) >= 1 else "기사 본문에서 핵심 사실(투자/기술/정책/실적)을 확인해야 합니다."
-    s3 = candidates[1] if len(candidates) >= 2 else "배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요."
-
-    # Ensure 3 sentences and avoid overly long lines
-    return [_trim(s1), _trim(s2), _trim(s3)]
-
-
-def _trim(s: str, limit: int = 220) -> str:
-    s = s.strip()
-    if len(s) <= limit:
-        return s
-    return s[: limit - 1].rstrip() + "…"
+def extract_companies(title: str, description: str, max_n: int = 3) -> list[str]:
+    text = f"{title} {description}".lower()
+    p = Path("config/companies.txt")
+    if not p.exists():
+        return []
+    found: list[str] = []
+    for line in p.read_text(encoding="utf-8").splitlines():
+        name = line.strip()
+        if not name or name.startswith("#"):
+            continue
+        if name.lower() in text and name not in found:
+            found.append(name)
+        if len(found) >= max_n:
+            break
+    return found
