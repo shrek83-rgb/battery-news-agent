@@ -38,7 +38,7 @@ jobs:
           MIN_ITEMS: "10"
           MAX_ITEMS: "20"
         run: |
-          python -m src.run
+          python src/run.py
 
       - name: Upload outputs as GitHub artifact (optional)
         uses: actions/upload-artifact@v4
