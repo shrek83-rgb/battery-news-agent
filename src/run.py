@@ -5,6 +5,8 @@ from .sitegen import build_daily_page, build_root_index
 import os
 from pathlib import Path
 
+from .llm_enrich_gemini import enrich_items
+
 import yaml
 
 from .collector import collect_from_rss, google_news_rss_url
@@ -105,6 +107,9 @@ def main():
         if len(items) < min_items:
             # keep as many as possible; in production you might expand sources/queries
             print(f"[WARN] Only {len(items)} items found (min requested {min_items}).")
+
+    # 10~15개만 요약/기업추출(비용/시간 관리)
+    items = enrich_items(items, max_items=max_items, model="gemini-3-flash-preview")
 
     # 7) write outputs to outputs/YYYY-MM-DD/
     out_dir = Path("outputs") / target_date
