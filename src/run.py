@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from .cardnews import generate_cards
+# from .cardnews import generate_cards
 from .sitegen import build_daily_page, build_root_index
 import os
 from pathlib import Path
@@ -112,13 +112,13 @@ def main():
     print(f"[OK] Wrote: {md_path} , {json_path}")
 
     # 7.5) Generate card images into outputs/YYYY-MM-DD/cards/
-    created_cards = generate_cards(target_date, items, out_dir)
-    print(f"[OK] Created {len(created_cards)} cards under {out_dir / 'cards'}")
+    # created_cards = generate_cards(target_date, items, out_dir)
+    # print(f"[OK] Created {len(created_cards)} cards under {out_dir / 'cards'}")
 
     # 7.6) Publish to docs/ for GitHub Pages
-    docs_dir = Path("docs")
-    day_docs_dir = docs_dir / target_date
-    (day_docs_dir / "cards").mkdir(parents=True, exist_ok=True)
+    # docs_dir = Path("docs")
+    # day_docs_dir = docs_dir / target_date
+    # (day_docs_dir / "cards").mkdir(parents=True, exist_ok=True)
 
     # Copy cards to docs/YYYY-MM-DD/cards/
     for p in created_cards:
