@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from .cardnews import generate_cards
+from .sitegen import build_daily_page, build_root_index
 import os
 from pathlib import Path
 
@@ -108,6 +110,27 @@ def main():
     out_dir = Path("outputs") / target_date
     md_path, json_path = write_outputs(out_dir, target_date, items)
     print(f"[OK] Wrote: {md_path} , {json_path}")
+
+    # 7.5) Generate card images into outputs/YYYY-MM-DD/cards/
+    created_cards = generate_cards(target_date, items, out_dir)
+    print(f"[OK] Created {len(created_cards)} cards under {out_dir / 'cards'}")
+
+    # 7.6) Publish to docs/ for GitHub Pages
+    docs_dir = Path("docs")
+    day_docs_dir = docs_dir / target_date
+    (day_docs_dir / "cards").mkdir(parents=True, exist_ok=True)
+
+    # Copy cards to docs/YYYY-MM-DD/cards/
+    for p in created_cards:
+        (day_docs_dir / "cards" / p.name).write_bytes(p.read_bytes())
+
+    # Build docs/YYYY-MM-DD/index.html (cards link to original news)
+    build_daily_page(target_date, items, docs_dir)
+
+    # Build docs/index.html (archive)
+    build_root_index(docs_dir)
+
+    print(f"[OK] Published pages under docs/{target_date}/ and docs/index.html")
 
     # 8) upload to Drive date folder
     parent_folder_id = os.getenv("GDRIVE_FOLDER_ID", "")
