@@ -9,8 +9,8 @@
 | 3 | 3 | 기타 | 2026-02-24 | Google News - Core | Ampere and Basquevolt sign joint development agreement to accelerate lithium metal-based battery technology for next-generation electric vehicles - media.renaultgroup.com | https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZ3VCWHJMMHJESmtIbDRBbXBtOVNTSnUzU2lyUzFqd29wVWNfNndpRnMxVnFqbnhqa0FlZUpsVVFwbm5vNDIxMzZNMXVncUxfUXVVMUlvUkZiTmlBLTIwWDJvQlRrd2lyQ0NpWnFCdWVLTERLd0g5cllmRXl4aFg0eVJvVlRPWHB4NERaZm0wU0dSanZJY2h2YjVSTDJ6MHQxU2Y0TnJNUHkyUUJQWERIWi1RZmZQV1pKS29sZ1NZNTJpUm1hWW40enRISW90VHNraEhfcFdyRHpCX0xJWWt4MXNBLWs1N0lZNy1QcTVBYkR2cHYwQkVKT0lRWkgtN3l5M3RseE5sOFY?oc=5 | unknown |
 | 4 | 3 | 나트륨 | 2026-02-24 | Google News - Core | Chinese companies launch first series-production vehicle with sodium-ion battery - trendingtopics.eu | https://news.google.com/rss/articles/CBMisAFBVV95cUxPb05LQWEzXzNXYWdaSXUtVm85VEJiNElUSk83ZTVpOHBmM2lSSTFReTdWbXNHNjM2cXQzWkJyZC1RUkM1em10MWpiNDVRT0NnSnlFaWRfLURyQWdiRkFRRzhaNFhTMlF2VE9iRkdhM1BpYlVld09SR0xNQTFvSW94RUtxTTMxdzJHYXBZNDlLM2FJbzZXZmVxVFhtRF9IMDk5c3g0bWF4UEprN1QteWZfSg?oc=5 | unknown |
 | 5 | 3 | 전고체 | 2026-02-24 | Google News - Core | Hybrid Li alloy tech beats solid-state battery energy density as Gangfeng starts mass cell production - Notebookcheck | https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ1M4TlJLdHhWbkN1RFFMZl9kSWhPdmRMcGZDVXo2bVozTEx1Y0FlYU9TdTM1N0xkMmtzdlVoTTBrQnk1NVN2UDNMUTMzdTdZZEc5UzREa21aQUFsbHZHLVpxTWdRRUJHSlUtTHJ5c253RUt5WlFlM0dDMzhqSV9KQ09kTzJteTdOZUNJdE1tNTFvWDNWNWw1WmJ4R0VZczdzcFBkWWt3ZVJHOHJIbG43MmwxM1hQcjdlLTBqODFUYUVKQS1UZ3Iyd3A3ZThoRGdGWkN4c0lBeVp0WTVmd3Zr?oc=5 | unknown |
-| 6 | 3 | 기타 | 2026-02-24 | Google News - Scale | Job Security Agreement Reached for VW Battery Subsidiary Employees – PowerCo - Batteries News | https://news.google.com/rss/articles/CBMiowFBVV95cUxNVWRqUlBZVXZSYXQ4UXZEaFVlaG14OGYwbWVtTXhvUmVNZlh6ckRwSlc5bnl6UFpIcUx6cGNfa3ZlU0k2WHdjX3NENl8tbDBRMGptRDhQMWUtd0EtRjhYbWdyVTEwMnFETlFheGpqU1h0dE9uandxdDdLWUcyTk01MjlQZVNvVVVmcWM5UllaR0QyM1d2aXZfVmJRVUxoU2gtcHQ0?oc=5 | unknown |
-| 7 | 3 | 기타 | 2026-02-24 | Google News - Scale | INOX Air Products to build onsite nitrogen plant for battery materials site \| Gases \| Gas News - gasworld | https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSFRTMTdHYi1oUkIxOTZpS2lmSkZyTXIyaWc1Wnd1OWtSSUljdi04UFFRZ1g0aUVLMzZ4NzdWeU4xZ3phX3FrWkxEcnVUeFVVY09UWDMtcXpkMlB2LWdFU296cWsySzY3OG9qUndfUFQzcU5yLTg4a1RONC1OZllIZVVWOGllVHRSQWxNdjBHR0ZfSlVPNTBWUUxoWm5lS0cyTjhlLUg3b1cyYUthbFg2NTBCM1h4eGd4bXpNZEFPN1o?oc=5 | unknown |
+| 6 | 3 | 기타 | 2026-02-24 | Google News - Scale | INOX Air Products to build onsite nitrogen plant for battery materials site \| Gases \| Gas News - gasworld | https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSFRTMTdHYi1oUkIxOTZpS2lmSkZyTXIyaWc1Wnd1OWtSSUljdi04UFFRZ1g0aUVLMzZ4NzdWeU4xZ3phX3FrWkxEcnVUeFVVY09UWDMtcXpkMlB2LWdFU296cWsySzY3OG9qUndfUFQzcU5yLTg4a1RONC1OZllIZVVWOGllVHRSQWxNdjBHR0ZfSlVPNTBWUUxoWm5lS0cyTjhlLUg3b1cyYUthbFg2NTBCM1h4eGd4bXpNZEFPN1o?oc=5 | unknown |
+| 7 | 3 | 기타 | 2026-02-24 | Google News - Scale | Job Security Agreement Reached for VW Battery Subsidiary Employees – PowerCo - Batteries News | https://news.google.com/rss/articles/CBMiowFBVV95cUxNVWRqUlBZVXZSYXQ4UXZEaFVlaG14OGYwbWVtTXhvUmVNZlh6ckRwSlc5bnl6UFpIcUx6cGNfa3ZlU0k2WHdjX3NENl8tbDBRMGptRDhQMWUtd0EtRjhYbWdyVTEwMnFETlFheGpqU1h0dE9uandxdDdLWUcyTk01MjlQZVNvVVVmcWM5UllaR0QyM1d2aXZfVmJRVUxoU2gtcHQ0?oc=5 | unknown |
 | 8 | 3 | 기타 | 2026-02-24 | Google News - Scale | Pace Digitek secures INR 1,587 million telecom battery order from Reliance Industries Ltd - pv magazine India | https://news.google.com/rss/articles/CBMizwFBVV95cUxOVXlYWFZDdmNnQUdPY05MZXlIcGJHWm50cUFXSU1xYnVBaW1Ea2puNlVZNGNGQ0pNMjlJLXNqOUFCWk9PWl9mWHVwVWpuQ1JJWGRJc1RaOGN2QzBfYWpBMHFGT3hlZUxMb3hndXdfUDlEMlpvNUJFWlNPcDFoeXg2MktyNFREXy0xMFJ2THQxTXcwS2NpVkV5YkxhUFJJZUtQeUhEUE43cnN1THd5NnQtWjc5VGp1VGtNRGFhTDVlZjUzSW1iZ3Q3SmhrbWlrREk?oc=5 | unknown |
 | 9 | 3 | 정책 | 2026-02-24 | Google News - Policy | Despite policy shifts, battery storage expected to grow in 2026 - marketplace.org | https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd09zR0Y2bzZGZlVhcE1hTEFDWXlkV2lSODhROGZ6c0w4V0lOR18wdW5QbjVOY1hkQ0VDUWx3VlMzZTZ0cUI1TmlyN09sMDFRNDMzQ2lsV2ZOU0c1VHRyRkRxWGdWZGdMbDdHUG4xVWowUmVnSXFhM3RaZXNEVjZNRHN4TG1SV1pqanNzdEZvOW94YWpGZ2JnNHo1X2FZSjBWMDJDX0dsc0R4bXM?oc=5 | unknown |
 | 10 | 3 | 정책 | 2026-02-24 | Google News - Policy | Higher fixed network tariffs could erase the benefits of the Cheaper Home Batteries rebate - Renew Economy | https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd29lSmF5OUNWaXRXdm5ZVnU2X0d0eEJXNXRjdHd4RmZWS2hGTUhzcFpEZ1FtRzdFNkdieXRKSUVuUDY0RTdrdDNSenFoZEd6NHRTZ1RDalhrUzlCYUI5OTNuX1RkVnkyZlpJU0s4SVdsVllEdGVzN1Nuc1huUDR4TGhBVjNmdHZ1TVQ1UUg2LTdiTTVocHo3eDFadzFWdzBrcWF4NDVMdng1QjF2RnpzZ0t2UTlrODV4OXNyUmdEdWV0aE3SAcgBQVVfeXFMT3QwLV92Z0JCQnBtYmJfLVM2SmtScEdSWmpPTjJuUEtnbV9YdE1XemtpXzVIRHk0NlpKXy1ROF9Hak9JaXp0dU1pUWpzOERsbk1kWDhHWEFOUFVkcXJ0d1NDNUtub0tLWnVWZzRnQmRET19CdF9rWFFjVzdLdkZWQ1Eyd1hpbGJPTkJBaFhlSTlGMHZfMWlsUVNyZzhGWFJFYndfOG0xbGV5VERQcHJ4X01uMnh3X1JTSllFUW1NWkZxN3dPOV9KaVk?oc=5 | unknown |
@@ -20,8 +20,8 @@
 | 14 | 3 | 재활용 | 2026-02-24 | Google News - Core | Self-assembling material supports battery recycling - RECYCLING magazine | https://news.google.com/rss/articles/CBMinwFBVV95cUxOQnNSdkExaEVvdllBT1pyajFPOEZKbTk4OUczbWlVMkdVZGxrTUkwV00waldJVDh2YVBrWU5sSUNmQTNCQ3M3TUlrU3djNmtjVGhHOWtzN1FtTl9HbWZNeS11NENqWmNUSTFzclo3alVOc003eUxqeW9ZWjF0M0loZ1BZRHIySG9nd1R1ekdER04wRll1YmdhRnpjVDZ0RlE?oc=5 | unknown |
 | 15 | 3 | 나트륨 | 2026-02-24 | Google News - Core | Sodium-ion batteries key to EU competitive edge, says EESC President - ESS News | https://news.google.com/rss/articles/CBMipwFBVV95cUxQUllncEZrZWI5OEJ5eWstVlRuRC1TNFA0b08xRGtMS3g0S05EOE9rbnN3M1FYRElwY2FiUW5xOU9vTDg1bkRtQWFkWnEwQkQtN0Z6WjhJR29BZkRIM3psQUpVTFl5QmFNX3htSnNBRFJadzgxT2NKSUFyTnpEU19SazBoVkxBR204cmJIaWFoeGI5VG9EcXlJTVRva3VuQkRBYklpejEzRQ?oc=5 | unknown |
 | 16 | 3 | 전고체 | 2026-02-24 | Google News - Core | Changan announces first solid-state batteries in cars before Q3 - electrive.com | https://news.google.com/rss/articles/CBMiowFBVV95cUxQRGpaaGpvWkpsblhmTDB0ZFRVeThTSDYtY1VQdlUyRWpxRVdDZlo1SzM3aVJJMnpPN2lTSjE5c09nS3NOYTQxSFZNbUE0NGNUdEpOa1JqdUNidWFHaFJpdEdkZUZzc25iY1NaeTNOSDVpZEc3eFFJYV84Rmt2VV9sQ0ZWMHE1clpRejIxb3VHRVJpeEhmZzV1OFA0SzljWXdmRFZN?oc=5 | unknown |
-| 17 | 3 | 전고체 | 2026-02-24 | Google News - Core | Changan to trial solid-state batteries in vehicles by Q3 - Automotive World | https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jT1VabW1YVDUyM2hEM1lRUGxSekptU0o0Zm1ZZG45ZG5sVUZoVHdJbTBOQnp6bXplTVRTdVNfbkJwWE82M2FkazJVU01oTFAwNWhaSGc5Zw?oc=5 | unknown |
-| 18 | 3 | 나트륨 | 2026-02-24 | Google News - Core | Sodium-Ion Batteries: An Alternative Path for Energy Storage - AZoCleantech | https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZY2FNNnpOUWhOOXVoTVFzdDE0SnZnTUNoeWFhYkNQWlVNZEpCMnA3RWdMQlk1bFE2SndTYWZjZWJ6a1lNTzFHd01TZkdkMkU1alFHYWRvRzc0WWFnME85RWhvb25PNlk?oc=5 | unknown |
+| 17 | 3 | 나트륨 | 2026-02-24 | Google News - Core | Sodium-Ion Batteries: An Alternative Path for Energy Storage - AZoCleantech | https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZY2FNNnpOUWhOOXVoTVFzdDE0SnZnTUNoeWFhYkNQWlVNZEpCMnA3RWdMQlk1bFE2SndTYWZjZWJ6a1lNTzFHd01TZkdkMkU1alFHYWRvRzc0WWFnME85RWhvb25PNlk?oc=5 | unknown |
+| 18 | 3 | 전고체 | 2026-02-24 | Google News - Core | Changan to trial solid-state batteries in vehicles by Q3 - Automotive World | https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jT1VabW1YVDUyM2hEM1lRUGxSekptU0o0Zm1ZZG45ZG5sVUZoVHdJbTBOQnp6bXplTVRTdVNfbkJwWE82M2FkazJVU01oTFAwNWhaSGc5Zw?oc=5 | unknown |
 | 19 | 3 | 기타 | 2026-02-24 | Google News - Core | Ampere and Basquevolt partner on lithium metal battery development for EVs - Electric & Hybrid Vehicle Technology International | https://news.google.com/rss/articles/CBMizAFBVV95cUxPeVBtbVctTHk3MWd0czRrN2daWXhWNlRSVGh0Q3Nsc0xxRGN1XzJ1ek5feTBNMzJJUjZueG1hbG9zalh3V3RJb0tyT2FUUmFGNXlNSTZGU0s4YUVpSVRYOHNXS20tZjVmeDRDaHItcjU2R3FOdlhRZGNLcnRLVkxEa2szMjJiY0Y0LWNIVWZzZm42M1VGcEw0NEZTTFhtbzBqVmpaTkxUVVRPVUFISEhoWHl1cEdNcW9GT1pTc2JOMVB6R2JfMVdJWnZ5TEI?oc=5 | unknown |
 | 20 | 3 | 전고체 | 2026-02-24 | Google News - Core | Donut Lab's solid-state battery charges to 80% in less than 5 minutes – first independent tests - Mezha | https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LYmJnd0MtaFo0SUEtWFMxY0w0S1RQY1pnNjFxQTBBLWRoNTZkVnZMZ095NTI0ck5NTktsc1c3ZldvRkdVSFlHUlRHaWFFRHdKMFFabDh2OFFuN3UyM2dpUWRNYUzSAWpBVV95cUxOMzEzMmxQV2JEMFU0SExZa1FiX2E3aURQWGt4UFNxY2FzTXZrTjB4dmUzbndVMmY5TGRUMjBRbW8yYkZGVFZma1l3N0VGZ3VRa1NTb2hTQTBQazJ5MVpqNkJZbUMtbkwwdUdn?oc=5 | unknown |
 
@@ -82,18 +82,7 @@
   - <a href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ1M4TlJLdHhWbkN1RFFMZl9kSWhPdmRMcGZDVXo2bVozTEx1Y0FlYU9TdTM1N0xkMmtzdlVoTTBrQnk1NVN2UDNMUTMzdTdZZEc5UzREa21aQUFsbHZHLVpxTWdRRUJHSlUtTHJ5c253RUt5WlFlM0dDMzhqS…
   - 배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.
 
-### 6. Job Security Agreement Reached for VW Battery Subsidiary Employees – PowerCo - Batteries News
-- 발행일: 2026-02-24
-- 매체: Google News - Scale (출처등급 3)
-- 분야: 기타
-- 링크: https://news.google.com/rss/articles/CBMiowFBVV95cUxNVWRqUlBZVXZSYXQ4UXZEaFVlaG14OGYwbWVtTXhvUmVNZlh6ckRwSlc5bnl6UFpIcUx6cGNfa3ZlU0k2WHdjX3NENl8tbDBRMGptRDhQMWUtd0EtRjhYbWdyVTEwMnFETlFheGpqU1h0dE9uandxdDdLWUcyTk01MjlQZVNvVVVmcWM5UllaR0QyM1d2aXZfVmJRVUxoU2gtcHQ0?oc=5
-- 인기신호: unknown
-- 3문장 요약:
-  - Job Security Agreement Reached for VW Battery Subsidiary Employees – PowerCo - Batteries News(Google News - Scale) 관련 소식입니다.
-  - <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNVWRqUlBZVXZSYXQ4UXZEaFVlaG14OGYwbWVtTXhvUmVNZlh6ckRwSlc5bnl6UFpIcUx6cGNfa3ZlU0k2WHdjX3NENl8tbDBRMGptRDhQMWUtd0EtRjhYbWdyVTEwMnFETlFheGpqU1h0dE9uandxdDdLWUcyT…
-  - 배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.
-
-### 7. INOX Air Products to build onsite nitrogen plant for battery materials site | Gases | Gas News - gasworld
+### 6. INOX Air Products to build onsite nitrogen plant for battery materials site | Gases | Gas News - gasworld
 - 발행일: 2026-02-24
 - 매체: Google News - Scale (출처등급 3)
 - 분야: 기타
@@ -102,6 +91,17 @@
 - 3문장 요약:
   - INOX Air Products to build onsite nitrogen plant for battery materials site | Gases | Gas News - gasworld(Google News - Scale) 관련 소식입니다.
   - <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSFRTMTdHYi1oUkIxOTZpS2lmSkZyTXIyaWc1Wnd1OWtSSUljdi04UFFRZ1g0aUVLMzZ4NzdWeU4xZ3phX3FrWkxEcnVUeFVVY09UWDMtcXpkMlB2LWdFU296cWsySzY3OG9qUndfUFQzcU5yLTg4a1RONC1OZ…
+  - 배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.
+
+### 7. Job Security Agreement Reached for VW Battery Subsidiary Employees – PowerCo - Batteries News
+- 발행일: 2026-02-24
+- 매체: Google News - Scale (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiowFBVV95cUxNVWRqUlBZVXZSYXQ4UXZEaFVlaG14OGYwbWVtTXhvUmVNZlh6ckRwSlc5bnl6UFpIcUx6cGNfa3ZlU0k2WHdjX3NENl8tbDBRMGptRDhQMWUtd0EtRjhYbWdyVTEwMnFETlFheGpqU1h0dE9uandxdDdLWUcyTk01MjlQZVNvVVVmcWM5UllaR0QyM1d2aXZfVmJRVUxoU2gtcHQ0?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Job Security Agreement Reached for VW Battery Subsidiary Employees – PowerCo - Batteries News(Google News - Scale) 관련 소식입니다.
+  - <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNVWRqUlBZVXZSYXQ4UXZEaFVlaG14OGYwbWVtTXhvUmVNZlh6ckRwSlc5bnl6UFpIcUx6cGNfa3ZlU0k2WHdjX3NENl8tbDBRMGptRDhQMWUtd0EtRjhYbWdyVTEwMnFETlFheGpqU1h0dE9uandxdDdLWUcyT…
   - 배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.
 
 ### 8. Pace Digitek secures INR 1,587 million telecom battery order from Reliance Industries Ltd - pv magazine India
@@ -203,18 +203,7 @@
   - <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQRGpaaGpvWkpsblhmTDB0ZFRVeThTSDYtY1VQdlUyRWpxRVdDZlo1SzM3aVJJMnpPN2lTSjE5c09nS3NOYTQxSFZNbUE0NGNUdEpOa1JqdUNidWFHaFJpdEdkZUZzc25iY1NaeTNOSDVpZEc3eFFJYV84Rmt2V…
   - 배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.
 
-### 17. Changan to trial solid-state batteries in vehicles by Q3 - Automotive World
-- 발행일: 2026-02-24
-- 매체: Google News - Core (출처등급 3)
-- 분야: 전고체
-- 링크: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jT1VabW1YVDUyM2hEM1lRUGxSekptU0o0Zm1ZZG45ZG5sVUZoVHdJbTBOQnp6bXplTVRTdVNfbkJwWE82M2FkazJVU01oTFAwNWhaSGc5Zw?oc=5
-- 인기신호: unknown
-- 3문장 요약:
-  - Changan to trial solid-state batteries in vehicles by Q3 - Automotive World(Google News - Core) 관련 소식입니다.
-  - <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jT1VabW1YVDUyM2hEM1lRUGxSekptU0o0Zm1ZZG45ZG5sVUZoVHdJbTBOQnp6bXplTVRTdVNfbkJwWE82M2FkazJVU01oTFAwNWhaSGc5Zw?oc=5" target="_blank">Changan to trial solid-state…
-  - 배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.
-
-### 18. Sodium-Ion Batteries: An Alternative Path for Energy Storage - AZoCleantech
+### 17. Sodium-Ion Batteries: An Alternative Path for Energy Storage - AZoCleantech
 - 발행일: 2026-02-24
 - 매체: Google News - Core (출처등급 3)
 - 분야: 나트륨
@@ -223,6 +212,17 @@
 - 3문장 요약:
   - Sodium-Ion Batteries: An Alternative Path for Energy Storage - AZoCleantech(Google News - Core) 관련 소식입니다.
   - <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZY2FNNnpOUWhOOXVoTVFzdDE0SnZnTUNoeWFhYkNQWlVNZEpCMnA3RWdMQlk1bFE2SndTYWZjZWJ6a1lNTzFHd01TZkdkMkU1alFHYWRvRzc0WWFnME85RWhvb25PNlk?oc=5" target="_blank">Sodium-…
+  - 배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.
+
+### 18. Changan to trial solid-state batteries in vehicles by Q3 - Automotive World
+- 발행일: 2026-02-24
+- 매체: Google News - Core (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jT1VabW1YVDUyM2hEM1lRUGxSekptU0o0Zm1ZZG45ZG5sVUZoVHdJbTBOQnp6bXplTVRTdVNfbkJwWE82M2FkazJVU01oTFAwNWhaSGc5Zw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Changan to trial solid-state batteries in vehicles by Q3 - Automotive World(Google News - Core) 관련 소식입니다.
+  - <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jT1VabW1YVDUyM2hEM1lRUGxSekptU0o0Zm1ZZG45ZG5sVUZoVHdJbTBOQnp6bXplTVRTdVNfbkJwWE82M2FkazJVU01oTFAwNWhaSGc5Zw?oc=5" target="_blank">Changan to trial solid-state…
   - 배터리 밸류체인(소재/셀/팩/리사이클링) 및 시장에 미칠 영향을 점검하세요.
 
 ### 19. Ampere and Basquevolt partner on lithium metal battery development for EVs - Electric & Hybrid Vehicle Technology International
