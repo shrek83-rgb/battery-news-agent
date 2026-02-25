@@ -12,10 +12,11 @@ import yaml
 from .collector import collect_from_rss, google_news_rss_url
 from .dedupe import dedupe_items
 from .ranker import infer_tier, popularity_signal_from_source, score_item, sort_key
-from .tagger import classify_category, summarize_3_sentences
+from .tagger import classify_category, summarize_3_sentences, extract_companies
 from .renderer import write_outputs
 # from .drive_uploader import ensure_date_folder, upload_or_update_file
 from .utils import getenv_int, kst_yesterday_date_str
+from .datastore import write_daily_csv, append_master_csv, append_master_jsonl
 
 def load_config() -> dict:
     cfg_path = Path("config/sources.yaml")
@@ -110,6 +111,16 @@ def main():
 
     # 10~15개만 요약/기업추출(비용/시간 관리)
     items = enrich_items(items, max_items=max_items, model="gemini-3-flash-preview")
+
+    # 2) 기업 사전 매칭으로 보강(LLM 누락 보완)
+    for it in items:
+        llm_comps = it.get("companies") or []
+        dict_comps = extract_companies(it.get("title",""), it.get("description",""), max_n=3)
+        merged = []
+        for c in llm_comps + dict_comps:
+            if c and c not in merged:
+                merged.append(c)
+        it["companies"] = merged[:3]
     
     import time
     t0 = time.time()
@@ -119,12 +130,22 @@ def main():
     # 7) write outputs to outputs/YYYY-MM-DD/
     out_dir = Path("outputs") / target_date
     md_path, json_path = write_outputs(out_dir, target_date, items)
-    print(f"[OK] Wrote: {md_path} , {json_path}")
-    
+
+    # daily CSV
+    csv_path = write_daily_csv(out_dir, target_date, items)
+
+    # pages
     docs_dir = Path("docs")
     build_daily_page(target_date, items, docs_dir)
     build_root_index(docs_dir)
     print(f"[OK] Published HTML pages under docs/{target_date}/")
+    
+    # master “DB”(CSV + JSONL)
+    data_dir = Path("data")
+    append_master_csv(data_dir, items)
+    append_master_jsonl(data_dir, items)
+    
+    print(f"[OK] Wrote: {md_path}, {json_path}, {csv_path} / Updated docs + data")
 
     # 7.5) Generate card images into outputs/YYYY-MM-DD/cards/
     # created_cards = generate_cards(target_date, items, out_dir)
