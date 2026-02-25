@@ -1,0 +1,39 @@
+tiers:
+  1:
+    # 공시/보도자료(예시) - 실제 운영 시 회사 newsroom/IR 도메인을 계속 추가
+    domains:
+      - prnewswire.com
+      - businesswire.com
+      - samsungsdi.co.kr/sdi-now/sdi-news/list.html
+
+  2:
+    # 주요 언론(예시)
+    domains:
+      - reuters.com
+      - bloomberg.com
+      - ft.com
+      - wsj.com
+      - nikkei.com
+      - yonhapnews.co.kr
+
+  3:
+    # 업계/기타(예시)
+    domains:
+      - electrek.co
+      - insideevs.com
+      - greencarcongress.com
+      - energy-storage.news
+      - pv-magazine.com
+      - zdnet.co.kr
+      - thelec.kr
+      - batterytechonline.com
+      - battery-news.de/en/home/
+
+rss_sources:
+  # Google News RSS (쿼리 기반) - run.py에서 query를 조합해 호출
+  # 여기에 고정 RSS를 추가해도 됨 (예: 기업 newsroom RSS, 업계 매체 RSS 등)
+  fixed:
+    - name: "PR Newswire - Energy"
+      url: "https://www.prnewswire.com/rss/energy-latest-news/energy-latest-news-list.rss"
+    - name: "Business Wire - Energy"
+      url: "https://www.businesswire.com/portal/site/home/rss/industry/?industry=1000000050"
