@@ -6,7 +6,7 @@ markdown==3.5.2
 
 # Gemini
 google-genai==1.64.0
-pydantic==2.8.2
+pydantic>=2.9.0,<3
 
 # (Drive 업로드는 이제 안 쓰니 제거 권장)
 # google-api-python-client==2.160.0
