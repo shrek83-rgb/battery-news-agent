@@ -1,0 +1,18 @@
+battery
+secondary battery
+lithium-ion
+EV battery
+cathode
+anode
+electrolyte
+separator
+solid-state battery
+all-solid-state
+sodium-ion
+lithium metal
+LFP
+NCM
+nickel
+recycling
+gigafactory
+battery materials
