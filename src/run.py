@@ -4,6 +4,7 @@ from __future__ import annotations
 from .sitegen import build_daily_page, build_root_index
 import os
 from pathlib import Path
+from .naver_collector import collect_naver_news_yesterday
 
 from .llm_enrich_gemini import enrich_items
 
@@ -58,13 +59,62 @@ def main():
     cfg = load_config()
     keywords = load_keywords()  # currently unused in query builder; kept for later fine-tuning
 
-    raw: list[dict] = []
+naver_need = int(os.getenv("NAVER_COUNT", "10"))
+google_need = int(os.getenv("GOOGLE_COUNT", "10"))
 
-    # 1) Google News RSS (query based)
-    for source_name, rss_url in build_google_news_queries(keywords):
-        items = collect_from_rss(rss_url, source_name, target_date)
-        print(f"[INFO] Collected {len(items)} from {source_name}")
-        raw.extend(collect_from_rss(rss_url, source_name, target_date))
+# --- NAVER ---
+naver_raw = []
+naver_id = os.getenv("NAVER_CLIENT_ID", "")
+naver_secret = os.getenv("NAVER_CLIENT_SECRET", "")
+if naver_id and naver_secret:
+    naver_queries = [
+        "배터리 2차전지",
+        "전고체 배터리",
+        "나트륨이온 배터리",
+        "배터리 재활용",
+        "양극재 음극재 전해질 분리막",
+    ]
+    naver_raw = collect_naver_news_yesterday(
+        target_date=target_date,
+        client_id=naver_id,
+        client_secret=naver_secret,
+        queries=naver_queries,
+        need=naver_need,
+    )
+    print(f"[INFO] Collected {len(naver_raw)} from NAVER API")
+else:
+    print("[WARN] NAVER_CLIENT_ID/SECRET not set. Skipping Naver collection.")
+
+# --- GOOGLE (기존대로) ---
+google_raw = []
+# 기존 build_google_news_queries() 루프에서 google_raw에 append 하도록 변경
+for source_name, rss_url in build_google_news_queries(keywords):
+    got = collect_from_rss(rss_url, source_name, target_date)
+    for it in got:
+        it["provider"] = "google"
+        it.setdefault("related_links", [])
+    google_raw.extend(got)
+print(f"[INFO] Collected {len(google_raw)} from GOOGLE RSS")
+
+# --- 각 소스에서 우선 10개씩 만들기 위해, 먼저 dedupe 후 컷 ---
+naver_deduped = dedupe_items(naver_raw, sim_threshold=0.88)
+google_deduped = dedupe_items(google_raw, sim_threshold=0.88)
+
+naver_pick = naver_deduped[:naver_need]
+google_pick = google_deduped[:google_need]
+
+items_raw = naver_pick + google_pick
+
+# 부족하면 보충(중복 제외하면서)
+if len(naver_pick) < naver_need:
+    extra = google_deduped[google_need : google_need + (naver_need - len(naver_pick))]
+    items_raw.extend(extra)
+if len(google_pick) < google_need:
+    extra = naver_deduped[naver_need : naver_need + (google_need - len(google_pick))]
+    items_raw.extend(extra)
+
+# 최종은 max_items 기준으로 컷
+raw = items_raw
 
     # 2) Fixed RSS sources (from config)
     for it in cfg.get("rss_sources", {}).get("fixed", []):
