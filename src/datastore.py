@@ -100,3 +100,35 @@ def upsert_master_json(data_dir: Path, items: list[dict[str, Any]]) -> Path:
 
     p.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
     return p
+
+def write_daily_csv(out_dir: Path, date_str: str, items: list[dict[str, Any]]) -> Path:
+    """
+    outputs/YYYY-MM-DD/battery_news_YYYY-MM-DD.csv 생성 (일자별 스냅샷)
+    """
+    _ensure_dir(out_dir)
+    p = out_dir / f"battery_news_{date_str}.csv"
+    fields = ["date", "title", "source", "link", "category", "tier", "companies",
+              "summary_1", "summary_2", "summary_3", "popularity_signal"]
+
+    with p.open("w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=fields)
+        w.writeheader()
+        for it in items:
+            summ = it.get("summary_3_sentences") or ["", "", ""]
+            while len(summ) < 3:
+                summ.append("")
+            comps = it.get("companies") or []
+            w.writerow({
+                "date": date_str,
+                "title": it.get("title", ""),
+                "source": it.get("source", ""),
+                "link": it.get("link", ""),
+                "category": it.get("category", ""),
+                "tier": str(it.get("tier", "")),
+                "companies": "; ".join(comps),
+                "summary_1": summ[0],
+                "summary_2": summ[1],
+                "summary_3": summ[2],
+                "popularity_signal": it.get("popularity_signal", "unknown"),
+            })
+    return p
