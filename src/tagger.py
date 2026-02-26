@@ -41,3 +41,33 @@ def extract_companies(title: str, description: str, max_n: int = 3) -> list[str]
         if len(found) >= max_n:
             break
     return found
+
+def fallback_summary_3_sentences(title: str, description: str, category: str = "기타", source: str = "") -> list[str]:
+    """
+    LLM 실패 시에도 3문장을 항상 채우는 fallback.
+    - description에서 문장 1~3개를 최대한 사용
+    - 부족하면 'category/source'를 섞어 고정문장 반복을 줄임
+    """
+    import re
+
+    desc = re.sub(r"\s+", " ", (description or "")).strip()
+    # 대략적인 문장 분리(KR/EN 혼합)
+    candidates = re.split(r"(?<=[\.\!\?])\s+|(?<=다\.)\s+|(?<=요\.)\s+", desc)
+    candidates = [c.strip() for c in candidates if c.strip()]
+
+    out = candidates[:3]
+
+    if len(out) == 0:
+        out.append(f"{title} 관련 소식입니다.")
+    if len(out) == 1:
+        out.append(f"해당 이슈는 {category} 분야 관점에서 영향/파급을 점검할 필요가 있습니다.")
+    if len(out) == 2:
+        tail = f"추가 세부사항은 원문에서 확인하세요."
+        if source:
+            tail = f"{source} 보도를 바탕으로 핵심 내용을 확인했습니다."
+        out.append(tail)
+
+    # 정확히 3개로 맞춤
+    while len(out) < 3:
+        out.append("")
+    return out[:3]
