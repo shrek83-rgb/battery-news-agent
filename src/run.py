@@ -1,212 +1,384 @@
-# src/run.py
+# src/naver_collector.py
 from __future__ import annotations
 
 import os
-from pathlib import Path
-from typing import Any, Dict, List
+import re
+import json
+import time
+import random
+from dataclasses import dataclass
+from datetime import datetime, timedelta
+from typing import List, Dict, Tuple, Optional
+from zoneinfo import ZoneInfo
+from urllib.parse import urlparse
 
-import yaml
+import requests
+from dateutil import parser as dtparser
+from pydantic import BaseModel, Field
+from google import genai
 
-from .utils import getenv_int, kst_yesterday_date_str
-from .collector import collect_from_rss, google_news_rss_url
-from .dedupe import dedupe_items
-from .ranker import infer_tier, popularity_signal_from_source, score_item, sort_key
-from .tagger import classify_category, extract_companies
-from .llm_enrich_gemini import enrich_items
-from .renderer import write_outputs
-from .datastore import write_daily_csv, upsert_master_csv, upsert_master_json
-from .sitegen import build_daily_page, build_root_index
+KST = ZoneInfo("Asia/Seoul")
+NAVER_NEWS_ENDPOINT = "https://openapi.naver.com/v1/search/news.json"
 
+# -----------------------------
+# Model selection (single source of truth)
+# -----------------------------
+def _normalize_model_name(name: str) -> str:
+    n = (name or "").strip()
+    if not n:
+        return n
+    if n.startswith("google.gemini-"):
+        n = n.replace("google.", "", 1)
 
-def load_config() -> dict:
-    p = Path("config/sources.yaml")
-    if not p.exists():
-        return {}
-    return yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+    low = n.lower().strip()
+    low = low.replace("light", "lite")  # common typo
 
+    # allow gemma models as-is
+    if low.startswith("gemma-"):
+        return low
 
-def build_google_news_queries() -> list[tuple[str, str]]:
-    core = "battery (cathode OR anode OR electrolyte OR separator OR solid-state OR sodium-ion OR recycling)"
-    scale = "battery (gigafactory OR plant OR production OR capacity OR investment OR supply agreement)"
-    policy = "battery (policy OR regulation OR subsidy OR tariff OR IRA OR CBAM)"
-    queries = [("Google News - Core", core), ("Google News - Scale", scale), ("Google News - Policy", policy)]
-    return [(name, google_news_rss_url(q, hl="en", gl="US", ceid="US:en")) for name, q in queries]
-
-
-def _default_naver_queries() -> list[str]:
-    return [
-        "배터리 2차전지",
-        "전고체 배터리",
-        "나트륨이온 배터리",
-        "배터리 재활용 블랙매스",
-        "양극재 전구체 LFP NCM",
-        "음극재 흑연 실리콘",
-        "전해질 첨가제",
-        "분리막",
-        "ESS 배터리",
-        "배터리 관세 IRA",
-    ]
-
-
-def _get_naver_queries() -> list[str]:
-    s = (os.getenv("NAVER_QUERIES") or "").strip()
-    if not s:
-        return _default_naver_queries()
-    return [x.strip() for x in s.split(",") if x.strip()]
-
-
-def collect_naver_items(target_date: str, need: int) -> list[dict[str, Any]]:
-    naver_id = (os.getenv("NAVER_CLIENT_ID") or "").strip()
-    naver_secret = (os.getenv("NAVER_CLIENT_SECRET") or "").strip()
-    if not naver_id or not naver_secret:
-        print("[WARN] NAVER_CLIENT_ID/SECRET not set. Skipping NAVER.")
-        return []
-
-    import src.naver_collector as nc  # local module
-
-    fetch_n = getenv_int("NAVER_FETCH_N", 150)
-    queries = _get_naver_queries()
-
-    picked, scores, stats = nc.collect_naver_top15_last24h_deduped_and_ranked(
-        client_id=naver_id,
-        client_secret=naver_secret,
-        queries=queries,
-        fetch_n=fetch_n,
-        top_k=need,
+    low2 = (
+        low.replace("_", " ")
+           .replace("-", " ")
+           .replace("flashlite", "flash lite")
+           .replace("  ", " ")
     )
-    print(f"[INFO] NAVER stats: {stats}")
 
-    items: list[dict[str, Any]] = []
-    for it in picked:
-        published_at = target_date
-        pub_dt = getattr(it, "published_dt_kst", None)
-        if pub_dt:
-            try:
-                published_at = pub_dt.date().isoformat()
-            except Exception:
-                published_at = target_date
+    if "2.5" in low2 and "flash" in low2 and "lite" in low2:
+        return "gemini-2.5-flash-lite"
+    if "2.5" in low2 and "flash" in low2:
+        return "gemini-2.5-flash"
+    if "2.0" in low2 and "flash" in low2 and "lite" in low2:
+        return "gemini-2.0-flash-lite"
+    if "2.0" in low2 and "flash" in low2:
+        return "gemini-2.0-flash"
 
-        items.append(
-            {
-                "title": getattr(it, "title", ""),
-                "description": getattr(it, "description", ""),
-                "link": getattr(it, "link", ""),
-                "source": getattr(it, "source", "NAVER"),
-                "published_at": published_at,
-                "provider": "naver",
-                "related_links": [],
-                "popularity_signal": "unknown",
-            }
-        )
-    return items
+    if low.startswith("gemini-"):
+        return low
+    return n
 
 
-def collect_google_items(target_date: str, need: int, cfg: dict) -> list[dict[str, Any]]:
-    raw: list[dict[str, Any]] = []
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
+BASE_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite"))
+RANK_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL_RANK", BASE_MODEL))
 
-    for source_name, url in build_google_news_queries():
-        got = collect_from_rss(url, source_name, target_date)
-        for it in got:
-            it["provider"] = "google"
-            it.setdefault("related_links", [])
-            it["popularity_signal"] = popularity_signal_from_source(it.get("source", ""))
-        raw.extend(got)
+DEBUG = os.getenv("NAVER_DEBUG", "0") == "1"
 
-    for src in cfg.get("rss_sources", {}).get("fixed", []):
-        name = src.get("name", "RSS")
-        url = src.get("url", "")
-        if not url:
-            continue
-        got = collect_from_rss(url, name, target_date)
-        for it in got:
-            it["provider"] = "rss"
-            it.setdefault("related_links", [])
-            it["popularity_signal"] = popularity_signal_from_source(it.get("source", ""))
-        raw.extend(got)
+FETCH_N = int(os.getenv("NAVER_FETCH_N", "150"))
+TIME_WINDOW_HOURS = int(os.getenv("NAVER_WINDOW_HOURS", "24"))
 
-    if not raw:
-        return []
+# request-count tight => default no retry
+LLM_RETRIES = int(os.getenv("LLM_RETRIES", "0"))
+LLM_BACKOFF_MAX = float(os.getenv("LLM_BACKOFF_MAX", "6"))
 
-    deduped = dedupe_items(raw, sim_threshold=0.88)
-    picked = deduped[:need]
-    print(f"[INFO] GOOGLE/RSS: raw={len(raw)} deduped={len(deduped)} picked={len(picked)}")
-    return picked
+BATTERY_RELEVANCE_MIN = int(os.getenv("BATTERY_RELEVANCE_MIN", "55"))
 
 
-def main():
-    cfg = load_config()
-
-    target_date = kst_yesterday_date_str()
-
-    naver_count = getenv_int("NAVER_COUNT", 10)
-    google_count = getenv_int("GOOGLE_COUNT", 10)
-
-    max_items = getenv_int("MAX_ITEMS", naver_count + google_count)
-    min_items = getenv_int("MIN_ITEMS", min(10, max_items))
-
-    # 1) Collect
-    naver_items = collect_naver_items(target_date, need=naver_count)
-    google_items = collect_google_items(target_date, need=google_count, cfg=cfg)
-
-    raw = naver_items + google_items
-
-    # Fill shortage best-effort (if one side missing)
-    if len(naver_items) < naver_count:
-        raw.extend(google_items[google_count : google_count + (naver_count - len(naver_items))])
-    if len(google_items) < google_count:
-        raw.extend(naver_items[naver_count : naver_count + (google_count - len(google_items))])
-
-    # final dedupe across sources
-    raw = dedupe_items(raw, sim_threshold=0.88)
-
-    # 2) Enrich with tier/category/companies(dictionary) + scoring
-    for it in raw:
-        it["tier"] = infer_tier(it.get("link", ""), cfg)
-        it["category"] = classify_category(it.get("title", ""), it.get("description", ""))
-        it["companies"] = extract_companies(it.get("title", ""), it.get("description", ""), max_n=3)
-
-        it.setdefault("popularity_signal", popularity_signal_from_source(it.get("source", "")))
-        if it.get("related_links") and it["popularity_signal"] == "unknown":
-            it["popularity_signal"] = "multi_source"
-
-        it["score"] = score_item(it, tier=int(it["tier"]), multi_source_hits=1 + len(it.get("related_links", [])))
-
-    raw.sort(key=sort_key)
-    items = raw[:max_items]
-    if len(items) < min_items:
-        print(f"[WARN] Only {len(items)} items found (min requested {min_items}).")
-
-    # 3) Gemini enrichment (batch inside llm_enrich_gemini.py)
-    items = enrich_items(items, max_items=len(items))
-
-    # merge companies again with dict match
-    for it in items:
-        llm_comps = it.get("companies") or []
-        dict_comps = extract_companies(it.get("title", ""), it.get("description", ""), max_n=3)
-        merged = []
-        for c in llm_comps + dict_comps:
-            if c and c not in merged:
-                merged.append(c)
-        it["companies"] = merged[:3]
-
-    # 4) Write outputs
-    out_dir = Path("outputs") / target_date
-    md_path, json_path = write_outputs(out_dir, target_date, items)
-    csv_path = write_daily_csv(out_dir, target_date, items)
-    print(f"[OK] Wrote outputs: {md_path}, {json_path}, {csv_path}")
-
-    # 5) Publish Pages HTML
-    docs_dir = Path("docs")
-    build_daily_page(target_date, items, docs_dir)
-    build_root_index(docs_dir)
-    print(f"[OK] Published Pages HTML: docs/{target_date}/ and docs/index.html")
-
-    # 6) Upsert master DB
-    data_dir = Path("data")
-    upsert_master_csv(data_dir, items)
-    upsert_master_json(data_dir, items)
-    print("[OK] Upserted master DB: data/news_master.csv, data/news_master.json")
+def _strip_html(s: str) -> str:
+    s = re.sub(r"<[^>]+>", "", s or "")
+    s = s.replace("&quot;", '"').replace("&apos;", "'").replace("&amp;", "&")
+    return re.sub(r"\s+", " ", s).strip()
 
 
-if __name__ == "__main__":
-    main()
+def _parse_pubdate_kst(pub: str) -> Optional[datetime]:
+    try:
+        dt = dtparser.parse(pub)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=ZoneInfo("UTC"))
+        return dt.astimezone(KST)
+    except Exception:
+        return None
+
+
+def _domain(url: str) -> str:
+    try:
+        return urlparse(url).netloc
+    except Exception:
+        return ""
+
+
+def _clean_title_tail_publisher(title: str) -> Tuple[str, Optional[str]]:
+    if " - " not in title:
+        return title.strip(), None
+    base, tail = title.rsplit(" - ", 1)
+    base = base.strip()
+    tail = tail.strip()
+    if base and 2 <= len(tail) <= 60:
+        return base, tail
+    return title.strip(), None
+
+
+def _sleep_backoff(attempt: int) -> None:
+    t = min(LLM_BACKOFF_MAX, (1.7 ** (attempt + 1)))
+    t = t * (0.75 + random.random() * 0.5)
+    time.sleep(t)
+
+
+def _extract_json(text: str) -> str:
+    text = (text or "").strip()
+    if not text:
+        return ""
+    if text.startswith("{") and text.endswith("}"):
+        return text
+    s = text.find("{")
+    e = text.rfind("}")
+    if s != -1 and e != -1 and e > s:
+        return text[s : e + 1]
+    return text
+
+
+@dataclass
+class NaverNewsItem:
+    title: str
+    description: str
+    link: str
+    source: str
+    published_dt_kst: datetime
+    rank: int  # smaller => higher in API order
+
+
+def collect_naver_last24h_multiquery(
+    *,
+    client_id: str,
+    client_secret: str,
+    queries: List[str],
+    max_fetch: int = 150,
+    sort: str = "date",
+    timeout_sec: int = 20,
+) -> List[NaverNewsItem]:
+    headers = {"X-Naver-Client-Id": client_id, "X-Naver-Client-Secret": client_secret}
+
+    now = datetime.now(tz=KST)
+    cutoff = now - timedelta(hours=TIME_WINDOW_HOURS)
+
+    out: List[NaverNewsItem] = []
+    seen_links: set[str] = set()
+    rank_counter = 0
+
+    for q in queries:
+        if len(out) >= max_fetch:
+            break
+
+        start = 1
+        while start <= 1000 and len(out) < max_fetch:
+            display = min(100, max_fetch - len(out))
+            params = {"query": q, "display": display, "start": start, "sort": sort}
+
+            r = requests.get(NAVER_NEWS_ENDPOINT, headers=headers, params=params, timeout=timeout_sec)
+            if r.status_code >= 400:
+                raise RuntimeError(f"Naver API HTTP {r.status_code}: {r.text[:400]}")
+
+            data = r.json()
+            items = data.get("items") or []
+            if not items:
+                break
+
+            reached_older = False
+            for it in items:
+                pub_dt = _parse_pubdate_kst(it.get("pubDate", ""))
+                if not pub_dt:
+                    continue
+                if pub_dt < cutoff:
+                    reached_older = True
+                    continue
+
+                title_raw = _strip_html(it.get("title", ""))
+                desc = _strip_html(it.get("description", ""))
+                origin = (it.get("originallink") or it.get("link") or "").strip()
+                if not origin:
+                    continue
+                if origin in seen_links:
+                    continue
+                seen_links.add(origin)
+
+                title, tail_pub = _clean_title_tail_publisher(title_raw)
+                src = tail_pub or _domain(origin) or "NAVER"
+
+                out.append(
+                    NaverNewsItem(
+                        title=title,
+                        description=desc,
+                        link=origin,
+                        source=src,
+                        published_dt_kst=pub_dt,
+                        rank=rank_counter,
+                    )
+                )
+                rank_counter += 1
+                if len(out) >= max_fetch:
+                    break
+
+            if sort == "date" and reached_older:
+                break
+            start += 100
+
+    return out
+
+
+# -----------------------------
+# LLM: score relevance + importance + event_key (title-only)
+# -----------------------------
+class TitleScore(BaseModel):
+    index: int
+    event_key: str = Field(..., description="A short stable key for the same event/issue (use ASCII letters/digits/_)")
+    battery_relevance: int = Field(..., ge=0, le=100)
+    monitoring_importance: int = Field(..., ge=0, le=100)
+
+
+class TitleScoreResp(BaseModel):
+    items: List[TitleScore]
+
+
+def _llm_score_titles(titles: List[str], model: str) -> Optional[TitleScoreResp]:
+    if not GEMINI_API_KEY or not titles:
+        return None
+
+    client = genai.Client(api_key=GEMINI_API_KEY)
+
+    prompt = (
+        "다음은 뉴스 제목 목록입니다. 각 제목에 대해 아래 정보를 JSON으로만 출력하세요.\n\n"
+        "출력 스키마:\n"
+        "{\n"
+        "  \"items\": [\n"
+        "    {\"index\": 0, \"event_key\": \"...\", \"battery_relevance\": 0-100, \"monitoring_importance\": 0-100}\n"
+        "  ]\n"
+        "}\n\n"
+        "규칙:\n"
+        "- event_key: 같은 사건/이슈면 같은 event_key를 부여(표현이 달라도 동일 사건이면 동일 key).\n"
+        "  예: POSCO_SK_lithium_supply_deal 처럼 ASCII/underscore로 짧게.\n"
+        "- battery_relevance(0~100): 배터리 산업과의 직접 연관성 점수.\n"
+        "  90~100: 소재(양극재/음극재/전해질/분리막), 셀/팩/ESS/EV배터리, 공급계약/증설/기술/안전/리사이클, 관세/정책 등 직접 영향\n"
+        "  50~80: 배터리와 연관은 있으나 주변부(관련 산업/부품/인프라 등)\n"
+        "  0~40: 배터리와 무관\n"
+        "- monitoring_importance(0~100): 배터리 산업 모니터링 관점에서의 파급력.\n"
+        "  대형 투자/증설/공급계약/M&A/정책·규제/관세/공급망 리스크/리콜·사고/핵심기술 진전은 높게.\n"
+        "- 모든 index(0..N-1)에 대해 반드시 1개씩 출력.\n"
+        "- 제목만 보고 판단, 과장/추측 금지.\n\n"
+        "[제목 목록]\n"
+        + "\n".join([f"{i}: {t}" for i, t in enumerate(titles)])
+    )
+
+    cfg: Dict[str, Any] = {"temperature": 0.2}
+    # gemma 계열은 system_instruction이 막힐 수 있어 prompt 안에만 넣음
+    resp = client.models.generate_content(model=model, contents=prompt, config=cfg)
+    raw = _extract_json(resp.text)
+    return TitleScoreResp.model_validate_json(raw)
+
+
+def _heuristic_relevance(title: str) -> int:
+    t = (title or "").lower()
+    kws = [
+        "battery", "2차전지", "이차전지", "전고체", "solid-state", "sodium", "나트륨",
+        "cathode", "양극", "anode", "음극", "electrolyte", "전해질", "separator", "분리막",
+        "lithium", "리튬", "nickel", "니켈", "lfp", "ncm", "recycling", "재활용", "black mass", "블랙매스",
+        "ess", "ev", "전기차", "charging", "충전", "bms",
+    ]
+    score = 0
+    for k in kws:
+        if k in t:
+            score += 12
+    return min(100, max(0, score))
+
+
+def _monitor_score(rel: int, imp: int) -> float:
+    return 0.7 * rel + 0.3 * imp
+
+
+def collect_naver_top15_last24h_deduped_and_ranked(
+    *,
+    client_id: str,
+    client_secret: str,
+    queries: List[str],
+    fetch_n: int = 150,
+    top_k: int = 15,
+) -> Tuple[List[NaverNewsItem], List[int], Dict[str, Any]]:
+    raw = collect_naver_last24h_multiquery(
+        client_id=client_id,
+        client_secret=client_secret,
+        queries=queries,
+        max_fetch=fetch_n,
+        sort="date",
+    )
+
+    titles = [it.title for it in raw]
+
+    # single request (default) – retries optional
+    scored: Optional[TitleScoreResp] = None
+    last_err: Optional[Exception] = None
+    for attempt in range(LLM_RETRIES + 1):
+        try:
+            scored = _llm_score_titles(titles, model=RANK_MODEL)
+            break
+        except Exception as e:
+            last_err = e
+            scored = None
+            if attempt < LLM_RETRIES:
+                _sleep_backoff(attempt)
+
+    # fallback: heuristic only (no LLM)
+    if scored is None:
+        if DEBUG:
+            print(f"[WARN] NAVER LLM scoring failed -> fallback. err={last_err}")
+        # treat each item as unique event_key; sort by heuristic relevance + recency(rank)
+        scored_items = []
+        for i, it in enumerate(raw):
+            rel = _heuristic_relevance(it.title)
+            imp = 10
+            scored_items.append((i, f"item_{i}", rel, imp))
+        mode = "fallback_no_llm"
+    else:
+        scored_items = [(x.index, x.event_key, x.battery_relevance, x.monitoring_importance) for x in scored.items]
+        mode = "llm_scored"
+
+    # build dicts for grouping
+    by_event: Dict[str, List[int]] = {}
+    rel_by_i: Dict[int, int] = {}
+    imp_by_i: Dict[int, int] = {}
+    for idx, ek, rel, imp in scored_items:
+        idx = int(idx)
+        ek = (ek or f"item_{idx}").strip()[:80] or f"item_{idx}"
+        rel = int(max(0, min(100, rel)))
+        imp = int(max(0, min(100, imp)))
+        rel_by_i[idx] = rel
+        imp_by_i[idx] = imp
+        by_event.setdefault(ek, []).append(idx)
+
+    # choose representative per event_key (highest monitor_score, tie by rank)
+    reps: List[int] = []
+    for ek, idxs in by_event.items():
+        def key(i: int):
+            return (_monitor_score(rel_by_i.get(i, 0), imp_by_i.get(i, 0)), -raw[i].rank * 0.0, -raw[i].rank)  # rank tie-break
+        # we want max monitor_score, but smaller rank is better: use (score, -rank)
+        rep = max(idxs, key=lambda i: (_monitor_score(rel_by_i.get(i, 0), imp_by_i.get(i, 0)), -raw[i].rank))
+        reps.append(rep)
+
+    # filter by relevance threshold first
+    reps_sorted = sorted(
+        reps,
+        key=lambda i: (_monitor_score(rel_by_i.get(i, 0), imp_by_i.get(i, 0)), rel_by_i.get(i, 0), imp_by_i.get(i, 0), -raw[i].rank),
+        reverse=True,
+    )
+    reps_filtered = [i for i in reps_sorted if rel_by_i.get(i, 0) >= BATTERY_RELEVANCE_MIN]
+    picked_idxs = reps_filtered[:top_k]
+    if len(picked_idxs) < top_k:
+        # if not enough, fill from remaining reps (even if relevance low)
+        extra = [i for i in reps_sorted if i not in picked_idxs]
+        picked_idxs.extend(extra[: max(0, top_k - len(picked_idxs))])
+
+    picked = [raw[i] for i in picked_idxs]
+    picked_scores = [int(round(_monitor_score(rel_by_i.get(i, 0), imp_by_i.get(i, 0)))) for i in picked_idxs]
+    picked_rels = [rel_by_i.get(i, 0) for i in picked_idxs]
+    picked_imps = [imp_by_i.get(i, 0) for i in picked_idxs]
+
+    stats = {
+        "raw_count": len(raw),
+        "deduped_count": len(reps),
+        "dropped": max(0, len(raw) - len(reps)),
+        "picked": len(picked),
+        "models": {"base": BASE_MODEL, "rank": RANK_MODEL},
+        "mode": mode,
+        "picked_battery_relevance": picked_rels,
+        "picked_monitoring_importance": picked_imps,
+    }
+
+    return picked, picked_scores, stats
