@@ -16,7 +16,7 @@ from .tagger import classify_category, summarize_3_sentences, extract_companies
 from .renderer import write_outputs
 # from .drive_uploader import ensure_date_folder, upload_or_update_file
 from .utils import getenv_int, kst_yesterday_date_str
-from .datastore import write_daily_csv, append_master_csv, append_master_jsonl
+from .datastore import write_daily_csv, upsert_master_csv, upsert_master_json
 
 def load_config() -> dict:
     cfg_path = Path("config/sources.yaml")
