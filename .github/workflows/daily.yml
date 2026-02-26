@@ -42,13 +42,14 @@ jobs:
           # GEMINI_RETRIES: "2"
           # MAX_ITEMS: "20"
           # MIN_ITEMS: "10"
-          NAVER_COUNT: "10"
-          GOOGLE_COUNT: "10"
+          NAVER_COUNT: "15"
+          GOOGLE_COUNT: "5"
           MAX_ITEMS: "20"
           
           # GEMINI_RETRIES: "1"
-          GEMINI_BATCH_RETRIES: "1"
-          LLM_RETRIES: "1"
+          GEMINI_BATCH_RETRIES: "0"
+          LLM_RETRIES: "0"
+          GEMINI_DEBUG: "1"
           GEMINI_MODEL: "gemini-2.5-flash-lite"
         run: |
           python -m src.run
