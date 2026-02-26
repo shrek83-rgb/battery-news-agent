@@ -1,0 +1,52 @@
+name: Preview NAVER Titles (Last 24h)
+
+on:
+  workflow_dispatch:
+    inputs:
+      query:
+        description: "Naver news query"
+        required: false
+        default: "배터리 2차전지"
+      fetch_n:
+        description: "How many items to fetch (max 150 recommended)"
+        required: false
+        default: "150"
+      top_k:
+        description: "How many items to show after dedupe"
+        required: false
+        default: "15"
+      dedupe_threshold:
+        description: "Title similarity threshold (0.0~1.0). Higher => more aggressive dedupe"
+        required: false
+        default: "0.88"
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Run preview (titles only)
+        env:
+          TZ: Asia/Seoul
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          NAVER_QUERY: ${{ inputs.query }}
+          NAVER_FETCH_N: ${{ inputs.fetch_n }}
+          NAVER_TOP_K: ${{ inputs.top_k }}
+          NAVER_DEDUPE_THRESHOLD: ${{ inputs.dedupe_threshold }}
+        run: |
+          python -m src.preview_naver
