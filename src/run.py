@@ -1,31 +1,31 @@
+# src/run.py
 from __future__ import annotations
 
-# from .cardnews import generate_cards
-from .sitegen import build_daily_page, build_root_index
 import os
 from pathlib import Path
-from .naver_collector import collect_naver_news_yesterday
-
-from .llm_enrich_gemini import enrich_items
 
 import yaml
 
 from .collector import collect_from_rss, google_news_rss_url
+from .naver_collector import collect_naver_news_yesterday
 from .dedupe import dedupe_items
 from .ranker import infer_tier, popularity_signal_from_source, score_item, sort_key
 from .tagger import classify_category, extract_companies
+from .llm_enrich_gemini import enrich_items
 from .renderer import write_outputs
-# from .drive_uploader import ensure_date_folder, upload_or_update_file
-from .utils import getenv_int, kst_yesterday_date_str
 from .datastore import write_daily_csv, upsert_master_csv, upsert_master_json
+from .sitegen import build_daily_page, build_root_index
+from .utils import getenv_int, kst_yesterday_date_str
+
 
 def load_config() -> dict:
-    cfg_path = Path("config/sources.yaml")
-    return yaml.safe_load(cfg_path.read_text(encoding="utf-8"))
+    return yaml.safe_load(Path("config/sources.yaml").read_text(encoding="utf-8"))
 
 
 def load_keywords() -> list[str]:
     p = Path("config/keywords.txt")
+    if not p.exists():
+        return []
     kws = []
     for line in p.read_text(encoding="utf-8").splitlines():
         line = line.strip()
@@ -34,18 +34,10 @@ def load_keywords() -> list[str]:
     return kws
 
 
-def build_google_news_queries(keywords: list[str]) -> list[tuple[str, str]]:
-    """
-    Return list of (source_name, rss_url).
-    We'll use 2~3 focused queries instead of 1 huge query to avoid dilution.
-    """
-    # Core query: battery + major topics
+def build_google_news_queries() -> list[tuple[str, str]]:
     core = "battery (cathode OR anode OR electrolyte OR separator OR solid-state OR sodium-ion OR recycling)"
-    # Optional: include manufacturing/scale signals
     scale = "battery (gigafactory OR plant OR production OR capacity OR investment OR supply agreement)"
-    # Optional: policy/regulation
     policy = "battery (policy OR regulation OR subsidy OR tariff OR IRA OR CBAM)"
-
     queries = [("Google News - Core", core), ("Google News - Scale", scale), ("Google News - Policy", policy)]
     urls = [(name, google_news_rss_url(q, hl="en", gl="US", ceid="US:en")) for name, q in queries]
     return urls
@@ -53,188 +45,154 @@ def build_google_news_queries(keywords: list[str]) -> list[tuple[str, str]]:
 
 def main():
     target_date = kst_yesterday_date_str()
+
     min_items = getenv_int("MIN_ITEMS", 10)
     max_items = getenv_int("MAX_ITEMS", 20)
 
+    naver_need = int(os.getenv("NAVER_COUNT", "10"))
+    google_need = int(os.getenv("GOOGLE_COUNT", "10"))
+
     cfg = load_config()
-    keywords = load_keywords()  # currently unused in query builder; kept for later fine-tuning
+    _ = load_keywords()  # reserved for future use
 
-naver_need = int(os.getenv("NAVER_COUNT", "10"))
-google_need = int(os.getenv("GOOGLE_COUNT", "10"))
-
-# --- NAVER ---
-naver_raw = []
-naver_id = os.getenv("NAVER_CLIENT_ID", "")
-naver_secret = os.getenv("NAVER_CLIENT_SECRET", "")
-if naver_id and naver_secret:
-    naver_queries = [
-        "배터리 2차전지",
-        "전고체 배터리",
-        "나트륨이온 배터리",
-        "배터리 재활용",
-        "양극재 음극재 전해질 분리막",
-    ]
-    naver_raw = collect_naver_news_yesterday(
-        target_date=target_date,
-        client_id=naver_id,
-        client_secret=naver_secret,
-        queries=naver_queries,
-        need=naver_need,
-    )
-    print(f"[INFO] Collected {len(naver_raw)} from NAVER API")
-else:
-    print("[WARN] NAVER_CLIENT_ID/SECRET not set. Skipping Naver collection.")
-
-# --- GOOGLE (기존대로) ---
-google_raw = []
-# 기존 build_google_news_queries() 루프에서 google_raw에 append 하도록 변경
-for source_name, rss_url in build_google_news_queries(keywords):
-    got = collect_from_rss(rss_url, source_name, target_date)
-    for it in got:
-        it["provider"] = "google"
-        it.setdefault("related_links", [])
-    google_raw.extend(got)
-print(f"[INFO] Collected {len(google_raw)} from GOOGLE RSS")
-
-# --- 각 소스에서 우선 10개씩 만들기 위해, 먼저 dedupe 후 컷 ---
-naver_deduped = dedupe_items(naver_raw, sim_threshold=0.88)
-google_deduped = dedupe_items(google_raw, sim_threshold=0.88)
-
-naver_pick = naver_deduped[:naver_need]
-google_pick = google_deduped[:google_need]
-
-items_raw = naver_pick + google_pick
-
-# 부족하면 보충(중복 제외하면서)
-if len(naver_pick) < naver_need:
-    extra = google_deduped[google_need : google_need + (naver_need - len(naver_pick))]
-    items_raw.extend(extra)
-if len(google_pick) < google_need:
-    extra = naver_deduped[naver_need : naver_need + (google_need - len(google_pick))]
-    items_raw.extend(extra)
-
-# 최종은 max_items 기준으로 컷
-raw = items_raw
-
-    # 2) Fixed RSS sources (from config)
-    for it in cfg.get("rss_sources", {}).get("fixed", []):
-        name = it.get("name", "RSS")
-        url = it.get("url", "")
-        if url:
-            items = collect_from_rss(rss_url, source_name, target_date)
-            print(f"[INFO] Collected {len(items)} from {source_name}")
-            raw.extend(collect_from_rss(url, name, target_date))
-
-    if not raw:
-        print(f"[WARN] No items collected for {target_date}.")
-        # still write empty outputs and upload (optional)
-        items = []
-    else:
-        # normalize + enrich
-        for it in raw:
-            it["popularity_signal"] = popularity_signal_from_source(it.get("source", ""))
-
-        # 3) dedupe
-        deduped = dedupe_items(raw, sim_threshold=0.88)
-
-        # 4) tier + tag + summary + scoring
-        for it in deduped:
-            it["tier"] = infer_tier(it.get("link", ""), cfg)
-            it["category"] = classify_category(it.get("title", ""), it.get("description", ""))
-
-            # If dedupe merged references, treat as multi_source signal lightly
-            if it.get("related_links"):
-                if it["popularity_signal"] == "unknown":
-                    it["popularity_signal"] = "multi_source"
-
-            it["score"] = score_item(it, tier=it["tier"], multi_source_hits=1 + len(it.get("related_links", [])))
-
-        # 5) sort with enforced priority
-        deduped.sort(key=sort_key)
-
-        # 6) cut 10~20
-        items = deduped[:max_items]
-        if len(items) < min_items:
-            # keep as many as possible; in production you might expand sources/queries
-            print(f"[WARN] Only {len(items)} items found (min requested {min_items}).")
-
-    # 10~15개만 요약/기업추출(비용/시간 관리)
-    items = enrich_items(items, max_items=max_items, model="gemini-3-flash-preview")
-
-    from .tagger import fallback_summary_3_sentences
-
-    for it in items:
-        s = it.get("summary_3_sentences") or []
-        if not isinstance(s, list) or len(s) != 3 or all((not x.strip()) for x in s if isinstance(x, str)) or len([x for x in s if x.strip()]) < 3:
-            it["summary_3_sentences"] = fallback_summary_3_sentences(
-                it.get("title",""), it.get("description",""), it.get("category","기타"), it.get("source","")
+    # -----------------------------
+    # 1) Collect NAVER (API)
+    # -----------------------------
+    naver_raw = []
+    naver_id = os.getenv("NAVER_CLIENT_ID", "")
+    naver_secret = os.getenv("NAVER_CLIENT_SECRET", "")
+    if naver_id and naver_secret:
+        naver_queries = [
+            "배터리 2차전지",
+            "전고체 배터리",
+            "나트륨이온 배터리",
+            "배터리 재활용",
+            "양극재 음극재 전해질 분리막",
+        ]
+        try:
+            naver_raw = collect_naver_news_yesterday(
+                target_date=target_date,
+                client_id=naver_id,
+                client_secret=naver_secret,
+                queries=naver_queries,
+                need=naver_need,
             )
-    
-    # 2) 기업 사전 매칭으로 보강(LLM 누락 보완)
+            print(f"[INFO] Collected {len(naver_raw)} from NAVER API")
+        except Exception as e:
+            print(f"[WARN] NAVER collection failed: {e}")
+    else:
+        print("[WARN] NAVER_CLIENT_ID/SECRET not set. Skipping Naver collection.")
+
+    # -----------------------------
+    # 2) Collect GOOGLE (RSS)
+    # -----------------------------
+    google_raw = []
+    for source_name, rss_url in build_google_news_queries():
+        got = collect_from_rss(rss_url, source_name, target_date)
+        for it in got:
+            it["provider"] = "google"
+            it.setdefault("related_links", [])
+            it["popularity_signal"] = popularity_signal_from_source(it.get("source", ""))
+        google_raw.extend(got)
+    print(f"[INFO] Collected {len(google_raw)} from GOOGLE RSS")
+
+    # Optional fixed RSS sources (if configured)
+    for src in cfg.get("rss_sources", {}).get("fixed", []):
+        name = src.get("name", "RSS")
+        url = src.get("url", "")
+        if not url:
+            continue
+        got = collect_from_rss(url, name, target_date)
+        for it in got:
+            it["provider"] = "rss"
+            it.setdefault("related_links", [])
+            it["popularity_signal"] = popularity_signal_from_source(it.get("source", ""))
+        google_raw.extend(got)
+
+    # -----------------------------
+    # 3) Dedupe within each provider, then pick 10/10
+    # -----------------------------
+    naver_deduped = dedupe_items(naver_raw, sim_threshold=0.88)
+    google_deduped = dedupe_items(google_raw, sim_threshold=0.88)
+
+    naver_pick = naver_deduped[:naver_need]
+    google_pick = google_deduped[:google_need]
+
+    raw = naver_pick + google_pick
+
+    # 부족분 보충(중복은 dedupe로 어느 정도 제거됨)
+    if len(naver_pick) < naver_need:
+        raw.extend(google_deduped[google_need : google_need + (naver_need - len(naver_pick))])
+    if len(google_pick) < google_need:
+        raw.extend(naver_deduped[naver_need : naver_need + (google_need - len(google_pick))])
+
+    # 마지막 전체 dedupe 한 번 더
+    raw = dedupe_items(raw, sim_threshold=0.88)
+
+    # -----------------------------
+    # 4) Tier + Category + Companies(dictionary) + Scoring
+    # -----------------------------
+    for it in raw:
+        it["tier"] = infer_tier(it.get("link", ""), cfg)
+        it["category"] = classify_category(it.get("title", ""), it.get("description", ""))
+        # dictionary-based companies (will be merged with Gemini output later)
+        it["companies"] = extract_companies(it.get("title", ""), it.get("description", ""), max_n=3)
+
+        # popularity signal: keep if already set, else infer
+        it.setdefault("popularity_signal", popularity_signal_from_source(it.get("source", "")))
+
+        # multi_source signal if related links exist
+        if it.get("related_links") and it["popularity_signal"] == "unknown":
+            it["popularity_signal"] = "multi_source"
+
+        it["score"] = score_item(it, tier=int(it["tier"]), multi_source_hits=1 + len(it.get("related_links", [])))
+
+    # sort with enforced tier priority
+    raw.sort(key=sort_key)
+
+    # cut to max_items (ensure min_items best-effort)
+    items = raw[:max_items]
+    if len(items) < min_items:
+        print(f"[WARN] Only {len(items)} items found (min requested {min_items}).")
+
+    # -----------------------------
+    # 5) Gemini enrichment: summary + companies
+    # -----------------------------
+    items = enrich_items(items, max_items=max_items)
+
+    # Merge Gemini companies with dictionary companies again (dedupe)
     for it in items:
         llm_comps = it.get("companies") or []
-        dict_comps = extract_companies(it.get("title",""), it.get("description",""), max_n=3)
+        dict_comps = extract_companies(it.get("title", ""), it.get("description", ""), max_n=3)
         merged = []
         for c in llm_comps + dict_comps:
             if c and c not in merged:
                 merged.append(c)
         it["companies"] = merged[:3]
-    
-    import time
-    t0 = time.time()
-    items = enrich_items(items, max_items=8, model="gemini-2.0-flash")
-    print(f"[INFO] Gemini enrichment took {time.time()-t0:.1f}s")
 
-    # 7) write outputs to outputs/YYYY-MM-DD/
+    # -----------------------------
+    # 6) Write outputs (daily)
+    # -----------------------------
     out_dir = Path("outputs") / target_date
     md_path, json_path = write_outputs(out_dir, target_date, items)
-
-    # daily CSV
     csv_path = write_daily_csv(out_dir, target_date, items)
+    print(f"[OK] Wrote: {md_path}, {json_path}, {csv_path}")
 
-    # pages
+    # -----------------------------
+    # 7) Publish Pages HTML
+    # -----------------------------
     docs_dir = Path("docs")
     build_daily_page(target_date, items, docs_dir)
     build_root_index(docs_dir)
     print(f"[OK] Published HTML pages under docs/{target_date}/")
-    
-    # master “DB”(CSV + JSONL)
+
+    # -----------------------------
+    # 8) Upsert master DB files (single continuously updated file)
+    # -----------------------------
     data_dir = Path("data")
     upsert_master_csv(data_dir, items)
     upsert_master_json(data_dir, items)
     print("[OK] Upserted master DB files: data/news_master.csv, data/news_master.json")
-
-    # 7.5) Generate card images into outputs/YYYY-MM-DD/cards/
-    # created_cards = generate_cards(target_date, items, out_dir)
-    # print(f"[OK] Created {len(created_cards)} cards under {out_dir / 'cards'}")
-
-    # 7.6) Publish to docs/ for GitHub Pages
-    # docs_dir = Path("docs")
-    # day_docs_dir = docs_dir / target_date
-    # (day_docs_dir / "cards").mkdir(parents=True, exist_ok=True)
-
-    # Copy cards to docs/YYYY-MM-DD/cards/
-    # for p in created_cards:
-    #     (day_docs_dir / "cards" / p.name).write_bytes(p.read_bytes())
-
-    # Build docs/YYYY-MM-DD/index.html (cards link to original news)
-    build_daily_page(target_date, items, docs_dir)
-
-    # Build docs/index.html (archive)
-    build_root_index(docs_dir)
-
-    print(f"[OK] Published pages under docs/{target_date}/ and docs/index.html")
-
-    # 8) upload to Drive date folder
-    # parent_folder_id = os.getenv("GDRIVE_FOLDER_ID", "")
-    # if not parent_folder_id:
-    #     raise RuntimeError("Missing env: GDRIVE_FOLDER_ID")
-
-    # date_folder_id = ensure_date_folder(parent_folder_id, target_date, supports_all_drives=True)
-
-    # upload_or_update_file(md_path, date_folder_id, mime_type="text/markdown", supports_all_drives=True)
-    # upload_or_update_file(json_path, date_folder_id, mime_type="application/json", supports_all_drives=True)
-    # print(f"[OK] Uploaded to Drive folder: {target_date}/")
 
 
 if __name__ == "__main__":
