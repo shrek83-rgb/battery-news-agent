@@ -2,6 +2,7 @@ tiers:
   1:
     # 공시/보도자료(예시) - 실제 운영 시 회사 newsroom/IR 도메인을 계속 추가
     domains:
+      - search.naver.com/search.naver?ssc=tab.news.all&query=배터리&sm=tab_opt&sort=1&photo=0&field=0&pd=4&ds=&de=&docid=&related=0&mynews=0&office_type=0&office_section_code=0&news_office_checked=&nso=so%3Add%2Cp%3A1d&is_sug_officeid=0&office_category=0&service_area=0
       - prnewswire.com
       - businesswire.com
       - samsungsdi.co.kr/sdi-now/sdi-news/list.html
