@@ -75,5 +75,7 @@ jobs:
           LLM_DEDUPE_SIM_TOP: "25"
           LLM_DEDUPE_KW_TOP: "15"
           LLM_DEDUPE_RANDOM: "10"
+          NAVER_DEBUG: "1"
+          SHOW_SCORE: "1"
         run: |
           python -m src.preview_naver
