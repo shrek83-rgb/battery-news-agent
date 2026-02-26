@@ -38,10 +38,16 @@ jobs:
           # GDRIVE_SA_KEY_JSON: ${{ secrets.GDRIVE_SA_KEY_JSON }}
           # GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
           # optional tuning
-          GEMINI_BATCH_SIZE: "5"
-          GEMINI_RETRIES: "2"
+          # GEMINI_BATCH_SIZE: "5"
+          # GEMINI_RETRIES: "2"
+          # MAX_ITEMS: "20"
+          # MIN_ITEMS: "10"
+          NAVER_COUNT: "10"
+          GOOGLE_COUNT: "10"
           MAX_ITEMS: "20"
-          MIN_ITEMS: "10"
+          
+          GEMINI_RETRIES: "4"
+          GEMINI_MODEL: "gemini-3-flash-preview"
         run: |
           python -m src.run
 
