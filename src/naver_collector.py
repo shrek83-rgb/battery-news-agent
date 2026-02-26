@@ -17,30 +17,19 @@ from pydantic import BaseModel, Field
 from google import genai
 
 KST = ZoneInfo("Asia/Seoul")
-NAVER_NEWS_ENDPOINT = "https://openapi.naver.com/v1/search/news.json"
+NAVER_NEWS_ENDPOINT = "https://openapi.naver.com/v1/search/news/news.md"
 
 # -----------------------------
 # Model selection (single source of truth)
 # -----------------------------
 def _normalize_model_name(name: str) -> str:
-    """
-    Accepts human-friendly names or Vertex-ish names and normalizes to Gemini Developer API IDs.
-    Examples:
-      "Gemini 2.5 Flash Lite" -> "gemini-2.5-flash-lite"
-      "Gemini 2.5 Flash"      -> "gemini-2.5-flash"
-      "google.gemini-2.5-flash" -> "gemini-2.5-flash"
-    """
     n = (name or "").strip()
     if not n:
         return n
-
-    # strip common prefix
     if n.startswith("google.gemini-"):
         n = n.replace("google.", "", 1)
 
     low = n.lower().strip()
-
-    # handle common human-friendly variants
     low2 = (
         low.replace("_", " ")
            .replace("-", " ")
@@ -58,34 +47,25 @@ def _normalize_model_name(name: str) -> str:
     if "2.0" in low2 and "flash" in low2:
         return "gemini-2.0-flash"
 
-    # already looks like a proper ID
     if low.startswith("gemini-"):
         return low
-
-    # last resort: return as-is (may error, but visible)
     return n
 
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
-
-# ✅ one base model for everything
 BASE_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL", "gemini-2.5-flash"))
-# ✅ optional overrides
+# optional overrides
 DEDUP_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL_DEDUPE", BASE_MODEL))
 RANK_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL_RANK", BASE_MODEL))
 
 DEBUG = os.getenv("NAVER_DEBUG", "0") == "1"
 
-# fetch control
 FETCH_N = int(os.getenv("NAVER_FETCH_N", "150"))
 TIME_WINDOW_HOURS = int(os.getenv("NAVER_WINDOW_HOURS", "24"))
 
-# LLM retries/backoff
-LLM_RETRIES = int(os.getenv("LLM_RETRIES", "2"))
-LLM_BACKOFF_MAX = float(os.getenv("LLM_BACKOFF_MAX", "8"))
-
-# importance chunk
-LLM_IMPORTANCE_CHUNK = int(os.getenv("LLM_IMPORTANCE_CHUNK", "30"))
+# Request count is tight -> keep retries low
+LLM_RETRIES = int(os.getenv("LLM_RETRIES", "1"))
+LLM_BACKOFF_MAX = float(os.getenv("LLM_BACKOFF_MAX", "6"))
 
 
 def _strip_html(s: str) -> str:
@@ -135,12 +115,9 @@ class NaverNewsItem:
     link: str
     source: str
     published_dt_kst: datetime
-    rank: int  # API 응답 순서(작을수록 상단)
+    rank: int
 
 
-# -----------------------------
-# 1) Collect 24h by MULTI QUERIES until 150
-# -----------------------------
 def collect_naver_last24h_multiquery(
     *,
     client_id: str,
@@ -171,7 +148,7 @@ def collect_naver_last24h_multiquery(
             display = min(100, max_fetch - len(out))
             params = {"query": q, "display": display, "start": start, "sort": sort}
 
-            r = requests.get(NAVER_NEWS_ENDPOINT, headers=headers, params=params, timeout=timeout_sec)
+            r = requests.get("https://openapi.naver.com/v1/search/news.json", headers=headers, params=params, timeout=timeout_sec)
             if r.status_code >= 400:
                 raise RuntimeError(f"Naver API HTTP {r.status_code}: {r.text[:400]}")
 
@@ -201,16 +178,7 @@ def collect_naver_last24h_multiquery(
                 title, tail_pub = _clean_title_tail_publisher(title_raw)
                 src = tail_pub or _domain(origin) or "NAVER"
 
-                out.append(
-                    NaverNewsItem(
-                        title=title,
-                        description=desc,
-                        link=origin,
-                        source=src,
-                        published_dt_kst=pub_dt,
-                        rank=rank_counter,
-                    )
-                )
+                out.append(NaverNewsItem(title=title, description=desc, link=origin, source=src, published_dt_kst=pub_dt, rank=rank_counter))
                 rank_counter += 1
                 if len(out) >= max_fetch:
                     break
@@ -223,218 +191,84 @@ def collect_naver_last24h_multiquery(
 
 
 # -----------------------------
-# 2) LLM clustering dedupe (title-only)
+# ONE-SHOT LLM selection: dedupe + importance + topK
 # -----------------------------
-class ClusterResp(BaseModel):
+class OneShotSelection(BaseModel):
+    # groups: each index appears exactly once (partition)
     groups: List[List[int]]
+    # representative index per group (same length as groups)
+    rep_indices: List[int]
+    # importance score for each representative (0..100)
+    rep_scores: List[int]
+    # final chosen representative indices (length = top_k)
+    selected_indices: List[int]
 
 
-SYSTEM_CLUSTER = (
-    "당신은 뉴스 편집자입니다. "
-    "아래 제목들을 '같은 사건/이슈'끼리 그룹으로 묶으세요. "
-    "표현이 달라도 같은 사건이면 같은 그룹입니다. "
-    "단순히 주제가 비슷한 정도는 같은 그룹이 아닙니다. "
-    "모든 인덱스는 정확히 한 번씩만 등장해야 합니다."
+SYSTEM_ONESHOT = (
+    "당신은 배터리 산업 모니터링 담당자이자 뉴스 편집자입니다.\n"
+    "주어진 뉴스 제목 목록에 대해:\n"
+    "1) 같은 사건/이슈(표현이 달라도 동일 사건)이면 같은 그룹으로 묶어 중복 제거하세요.\n"
+    "   단순히 주제가 비슷한 정도는 같은 그룹이 아닙니다.\n"
+    "2) 각 그룹에서 대표 1개를 선택하세요(가능하면 더 일반적/핵심을 잘 담은 제목).\n"
+    "3) 대표 뉴스의 '산업 전반 변화 모니터링 중요도'를 0~100으로 점수화하세요.\n"
+    "   높은 점수: 대형 투자/증설/공급계약/M&A/정책·규제/관세/공급망 리스크/리콜·사고/핵심기술 진전\n"
+    "   낮은 점수: 단순 홍보/소규모 행사/반복 단신\n"
+    "4) 최종적으로 중요도 상위 TOP_K개의 대표 뉴스 index를 selected_indices로 반환하세요.\n"
+    "제목만 보고 판단하고, 과장/추측은 금지합니다.\n"
 )
 
 
-def dedupe_by_llm_clustering(items: List[NaverNewsItem]) -> Tuple[List[NaverNewsItem], int]:
-    if not GEMINI_API_KEY or len(items) <= 1:
-        return items, 0
-
-    if DEBUG:
-        print(f"[INFO] Gemini models (BASE/DEDUP/RANK): {BASE_MODEL} / {DEDUP_MODEL} / {RANK_MODEL}")
+def dedupe_and_select_topk_one_shot(titles: List[str], top_k: int) -> Optional[OneShotSelection]:
+    if not GEMINI_API_KEY or not titles:
+        return None
 
     client = genai.Client(api_key=GEMINI_API_KEY)
-
-    titles = [it.title for it in items]
     n = len(titles)
 
-    chunk_size = int(os.getenv("LLM_CLUSTER_CHUNK", "60"))
-    groups_all: List[List[int]] = []
+    prompt = (
+        f"TOP_K={top_k}\n\n"
+        "[제목 목록]\n"
+        + "\n".join([f"{i}: {t}" for i, t in enumerate(titles)])
+        + "\n\n"
+        "반드시 JSON만 출력. 스키마 준수:\n"
+        "{\n"
+        "  \"groups\": [[...], ...],\n"
+        "  \"rep_indices\": [...],\n"
+        "  \"rep_scores\": [...],\n"
+        "  \"selected_indices\": [...]\n"
+        "}\n"
+        "조건:\n"
+        "- 0..N-1 모든 index가 groups에 정확히 한 번씩 등장\n"
+        "- rep_indices 길이 == groups 길이\n"
+        "- rep_scores 길이 == groups 길이 (0..100)\n"
+        "- selected_indices 길이 == TOP_K, 모두 rep_indices 중 하나여야 함, 중복 없음\n"
+    )
 
-    def call_cluster(chunk_titles_with_global_idx: List[Tuple[int, str]]) -> List[List[int]]:
-        prompt = (
-            "[제목 목록]\n"
-            + "\n".join([f"{i}: {t}" for i, t in chunk_titles_with_global_idx])
-            + "\n\n"
-            + "JSON으로만 출력: {\"groups\": [[index,index,...], ...]}\n"
-            + "조건: 모든 index는 정확히 한 번씩 포함되어야 함."
-        )
-        resp = client.models.generate_content(
-            model=DEDUP_MODEL,
-            contents=prompt,
-            config={
-                "system_instruction": SYSTEM_CLUSTER,
-                "temperature": 0.0,
-                "response_mime_type": "application/json",
-                "response_schema": ClusterResp,
-            },
-        )
-        parsed = getattr(resp, "parsed", None)
-        if parsed is None:
-            parsed = ClusterResp.model_validate_json(resp.text)
-        return parsed.groups
-
-    for start in range(0, n, chunk_size):
-        chunk = [(i, titles[i]) for i in range(start, min(n, start + chunk_size))]
-        last_err = None
-        chunk_groups = None
-        for attempt in range(LLM_RETRIES + 1):
-            try:
-                chunk_groups = call_cluster(chunk)
-                break
-            except Exception as e:
-                last_err = e
-                if attempt < LLM_RETRIES:
-                    _sleep_backoff(attempt)
-                else:
-                    chunk_groups = None
-        if chunk_groups is None:
-            if DEBUG:
-                print(f"[WARN] cluster failed for chunk {start}-{start+len(chunk)-1}: {last_err}")
-            chunk_groups = [[i] for i, _ in chunk]
-        groups_all.extend(chunk_groups)
-
-    reps = []
-    for gi, g in enumerate(groups_all):
-        rep_idx = min(g, key=lambda idx: items[idx].rank)
-        reps.append((gi, rep_idx, titles[rep_idx]))
-
-    if len(reps) > 1:
-        def call_cluster_reps(rep_titles: List[Tuple[int, str]]) -> List[List[int]]:
-            prompt = (
-                "[대표 제목 목록]\n"
-                + "\n".join([f"{i}: {t}" for i, t in rep_titles])
-                + "\n\n"
-                + "JSON으로만 출력: {\"groups\": [[index,index,...], ...]}\n"
-                + "조건: 모든 index는 정확히 한 번씩 포함되어야 함."
-            )
+    last_err = None
+    for attempt in range(LLM_RETRIES + 1):
+        try:
             resp = client.models.generate_content(
-                model=DEDUP_MODEL,
+                model=DEDUP_MODEL,  # one-shot uses DEDUP_MODEL
                 contents=prompt,
                 config={
-                    "system_instruction": SYSTEM_CLUSTER,
-                    "temperature": 0.0,
+                    "system_instruction": SYSTEM_ONESHOT,
+                    "temperature": 0.2,
                     "response_mime_type": "application/json",
-                    "response_schema": ClusterResp,
+                    "response_schema": OneShotSelection,
                 },
             )
             parsed = getattr(resp, "parsed", None)
             if parsed is None:
-                parsed = ClusterResp.model_validate_json(resp.text)
-            return parsed.groups
-
-        last_err = None
-        rep_groups = None
-        for attempt in range(LLM_RETRIES + 1):
-            try:
-                rep_groups = call_cluster_reps([(i, reps[i][2]) for i in range(len(reps))])
-                break
-            except Exception as e:
-                last_err = e
-                if attempt < LLM_RETRIES:
-                    _sleep_backoff(attempt)
-                else:
-                    rep_groups = None
-
-        if rep_groups is not None:
-            merged_groups: List[List[int]] = []
-            for rg in rep_groups:
-                merged: List[int] = []
-                for rep_list_idx in rg:
-                    orig_group_idx = reps[rep_list_idx][0]
-                    merged.extend(groups_all[orig_group_idx])
-                merged_groups.append(sorted(set(merged)))
-            groups_all = merged_groups
-        else:
-            if DEBUG:
-                print(f"[WARN] rep-cluster failed: {last_err}")
-
-    deduped: List[NaverNewsItem] = []
-    for g in groups_all:
-        rep_idx = min(g, key=lambda idx: items[idx].rank)
-        deduped.append(items[rep_idx])
-
-    dropped = len(items) - len(deduped)
-    return deduped, dropped
-
-
-# -----------------------------
-# 3) Importance scoring (title-only)
-# -----------------------------
-class ImportanceScore(BaseModel):
-    index: int = Field(...)
-    score: int = Field(..., ge=0, le=100)
-
-
-class ImportanceResp(BaseModel):
-    scores: List[ImportanceScore]
-
-
-SYSTEM_IMPORTANCE = (
-    "당신은 배터리 산업 모니터링 담당자입니다. "
-    "아래 뉴스 제목들을 '산업 전반 변화 모니터링에 중요한지' 기준으로 0~100으로 점수화하세요.\n"
-    "높은 점수: 대형 투자/증설/공급계약/M&A/정책·규제/관세/공급망 리스크/리콜·사고/핵심기술 진전\n"
-    "낮은 점수: 단순 홍보/소규모 행사/반복 단신\n"
-    "제목만 보고 판단."
-)
-
-
-def score_importance_by_llm(items: List[NaverNewsItem]) -> List[int]:
-    if not GEMINI_API_KEY:
-        return [10] * len(items)
-
-    client = genai.Client(api_key=GEMINI_API_KEY)
-    scores = [0 for _ in items]
-
-    def call_scores(chunk_pairs: List[Tuple[int, str]]) -> Dict[int, int]:
-        prompt = (
-            "[제목 목록]\n"
-            + "\n".join([f"{i}. {t}" for i, t in chunk_pairs])
-            + "\n\n"
-            + "JSON: {\"scores\": [{\"index\":i,\"score\":0-100}, ...]} (모든 index 포함)"
-        )
-        resp = client.models.generate_content(
-            model=RANK_MODEL,
-            contents=prompt,
-            config={
-                "system_instruction": SYSTEM_IMPORTANCE,
-                "temperature": 0.2,
-                "response_mime_type": "application/json",
-                "response_schema": ImportanceResp,
-            },
-        )
-        parsed = getattr(resp, "parsed", None)
-        if parsed is None:
-            parsed = ImportanceResp.model_validate_json(resp.text)
-        return {int(x.index): int(x.score) for x in parsed.scores}
-
-    for start in range(0, len(items), LLM_IMPORTANCE_CHUNK):
-        chunk = items[start:start + LLM_IMPORTANCE_CHUNK]
-        pairs = [(start + i, it.title) for i, it in enumerate(chunk)]
-        mapping = None
-        last_err = None
-        for attempt in range(LLM_RETRIES + 1):
-            try:
-                mapping = call_scores(pairs)
-                break
-            except Exception as e:
-                last_err = e
-                if attempt < LLM_RETRIES:
-                    _sleep_backoff(attempt)
-                else:
-                    mapping = None
-        if mapping is None:
-            if DEBUG:
-                print(f"[WARN] importance scoring failed chunk {start}: {last_err}")
-            for i, _ in pairs:
-                scores[i] = 10
-        else:
-            for i, _ in pairs:
-                scores[i] = mapping.get(i, 10)
-
-    return scores
+                parsed = OneShotSelection.model_validate_json(resp.text)
+            return parsed
+        except Exception as e:
+            last_err = e
+            if attempt < LLM_RETRIES:
+                _sleep_backoff(attempt)
+            else:
+                if DEBUG:
+                    print(f"[WARN] one-shot selection failed: {last_err}")
+                return None
 
 
 def collect_naver_top15_last24h_deduped_and_ranked(
@@ -453,24 +287,54 @@ def collect_naver_top15_last24h_deduped_and_ranked(
         sort="date",
     )
 
-    deduped, dropped = dedupe_by_llm_clustering(raw)
-    scores = score_importance_by_llm(deduped)
+    titles = [it.title for it in raw]
+    selection = dedupe_and_select_topk_one_shot(titles, top_k=top_k)
 
-    idxs = list(range(len(deduped)))
-    idxs.sort(key=lambda i: (-scores[i], deduped[i].rank))
-    picked_idxs = idxs[:top_k]
-    picked = [deduped[i] for i in picked_idxs]
-    picked_scores = [scores[i] for i in picked_idxs]
+    if selection is None:
+        # fallback: no LLM (keep first top_k)
+        picked = raw[:top_k]
+        scores = [10] * len(picked)
+        stats = {
+            "raw_count": len(raw),
+            "deduped_count": len(raw),
+            "dropped": 0,
+            "picked": len(picked),
+            "models": {"base": BASE_MODEL, "dedupe": DEDUP_MODEL, "rank": RANK_MODEL},
+            "mode": "fallback_no_llm",
+        }
+        return picked, scores, stats
+
+    # Build deduped representatives list (for stats)
+    rep_set = set(selection.rep_indices)
+    deduped_count = len(rep_set)
+    dropped = max(0, len(raw) - deduped_count)
+
+    # selected_indices are representative indices
+    selected = []
+    selected_scores = []
+
+    # Map rep score by rep index
+    rep_score_by_rep: Dict[int, int] = {}
+    for rep_idx, score in zip(selection.rep_indices, selection.rep_scores):
+        rep_score_by_rep[int(rep_idx)] = int(score)
+
+    for idx in selection.selected_indices:
+        i = int(idx)
+        if 0 <= i < len(raw):
+            selected.append(raw[i])
+            selected_scores.append(rep_score_by_rep.get(i, 10))
 
     stats = {
         "raw_count": len(raw),
-        "deduped_count": len(deduped),
+        "deduped_count": deduped_count,
         "dropped": dropped,
-        "picked": len(picked),
-        "models": {
-            "base": BASE_MODEL,
-            "dedupe": DEDUP_MODEL,
-            "rank": RANK_MODEL,
-        },
+        "picked": len(selected),
+        "models": {"base": BASE_MODEL, "dedupe": DEDUP_MODEL, "rank": RANK_MODEL},
+        "mode": "one_shot_llm",
     }
-    return picked, picked_scores, stats
+
+    if DEBUG:
+        print(f"[INFO] Gemini models (BASE/DEDUP/RANK): {BASE_MODEL} / {DEDUP_MODEL} / {RANK_MODEL}")
+        print(f"[INFO] one-shot stats: {stats}")
+
+    return selected, selected_scores, stats
