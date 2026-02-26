@@ -12,7 +12,7 @@ import yaml
 from .collector import collect_from_rss, google_news_rss_url
 from .dedupe import dedupe_items
 from .ranker import infer_tier, popularity_signal_from_source, score_item, sort_key
-from .tagger import classify_category, summarize_3_sentences, extract_companies
+from .tagger import classify_category, extract_companies
 from .renderer import write_outputs
 # from .drive_uploader import ensure_date_folder, upload_or_update_file
 from .utils import getenv_int, kst_yesterday_date_str
@@ -91,7 +91,6 @@ def main():
         for it in deduped:
             it["tier"] = infer_tier(it.get("link", ""), cfg)
             it["category"] = classify_category(it.get("title", ""), it.get("description", ""))
-            it["summary_3_sentences"] = summarize_3_sentences(it.get("title", ""), it.get("description", ""), it.get("source", ""))
 
             # If dedupe merged references, treat as multi_source signal lightly
             if it.get("related_links"):
