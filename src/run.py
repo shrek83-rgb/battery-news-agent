@@ -382,3 +382,7 @@ def collect_naver_top15_last24h_deduped_and_ranked(
     }
 
     return picked, picked_scores, stats
+
+print(f"[STATS] items_final={len(items)}", flush=True)
+print(f"[STATS] naver={sum(1 for x in items if x.get('provider')=='naver')} google={sum(1 for x in items if x.get('provider')=='google')} rss={sum(1 for x in items if x.get('provider')=='rss')}", flush=True)
+print(f"[STATS] summaries_present={sum(1 for x in items if x.get('summary_3_sentences'))}", flush=True)
