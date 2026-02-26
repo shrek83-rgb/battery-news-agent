@@ -142,10 +142,9 @@ def main():
     
     # master “DB”(CSV + JSONL)
     data_dir = Path("data")
-    append_master_csv(data_dir, items)
-    append_master_jsonl(data_dir, items)
-    
-    print(f"[OK] Wrote: {md_path}, {json_path}, {csv_path} / Updated docs + data")
+    upsert_master_csv(data_dir, items)
+    upsert_master_json(data_dir, items)
+    print("[OK] Upserted master DB files: data/news_master.csv, data/news_master.json")
 
     # 7.5) Generate card images into outputs/YYYY-MM-DD/cards/
     # created_cards = generate_cards(target_date, items, out_dir)
