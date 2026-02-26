@@ -20,8 +20,8 @@ KST = ZoneInfo("Asia/Seoul")
 NAVER_NEWS_ENDPOINT = "https://openapi.naver.com/v1/search/news.json"
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
-DEDUP_MODEL = os.getenv("GEMINI_MODEL_DEDUPE", "gemini-2.0-flash")
-RANK_MODEL = os.getenv("GEMINI_MODEL_RANK", "gemini-2.0-flash")
+DEDUP_MODEL = os.getenv("GEMINI_MODEL_DEDUPE", "gemini-2.5-flash")
+RANK_MODEL = os.getenv("GEMINI_MODEL_RANK", "gemini-2.5-flash")
 
 DEBUG = os.getenv("NAVER_DEBUG", "0") == "1"
 
