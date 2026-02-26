@@ -50,7 +50,7 @@ jobs:
           GEMINI_BATCH_RETRIES: "0"
           LLM_RETRIES: "0"
           GEMINI_DEBUG: "1"
-          GEMINI_MODEL: "gemini-2.5-flash-lite"
+          GEMINI_MODEL: "gemma-3-27b-it"
         run: |
           python -m src.run
 
