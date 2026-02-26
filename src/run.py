@@ -111,6 +111,15 @@ def main():
     # 10~15개만 요약/기업추출(비용/시간 관리)
     items = enrich_items(items, max_items=max_items, model="gemini-3-flash-preview")
 
+    from .tagger import fallback_summary_3_sentences
+
+    for it in items:
+        s = it.get("summary_3_sentences") or []
+        if not isinstance(s, list) or len(s) != 3 or all((not x.strip()) for x in s if isinstance(x, str)) or len([x for x in s if x.strip()]) < 3:
+            it["summary_3_sentences"] = fallback_summary_3_sentences(
+                it.get("title",""), it.get("description",""), it.get("category","기타"), it.get("source","")
+            )
+    
     # 2) 기업 사전 매칭으로 보강(LLM 누락 보완)
     for it in items:
         llm_comps = it.get("companies") or []
