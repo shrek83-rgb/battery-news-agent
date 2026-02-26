@@ -53,7 +53,7 @@ def _normalize_model_name(name: str) -> str:
 
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
-BASE_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL", "gemini-2.5-flash"))
+BASE_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite"))
 # optional overrides
 DEDUP_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL_DEDUPE", BASE_MODEL))
 RANK_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL_RANK", BASE_MODEL))
