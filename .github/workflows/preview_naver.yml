@@ -39,6 +39,27 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
+      - name: Debug - verify code version
+        run: |
+          git rev-parse HEAD
+          echo "---- naver_collector head ----"
+          sed -n '1,80p' src/naver_collector.py
+          echo "---- preview_naver head ----"
+          sed -n '1,80p' src/preview_naver.py
+
+      - name: Debug - verify env wiring (safe)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          import src.naver_collector as m
+          print("GEMINI_API_KEY set:", bool(os.getenv("GEMINI_API_KEY")))
+          # 아래 변수들은 파일에 따라 이름이 다를 수 있어 getattr로 안전하게
+          for k in ["LLM_DEDUPE_MODE","LLM_DEDUPE_FAST_GATE","LLM_DEDUPE_CANDIDATES","DEDUP_MODEL","RANK_MODEL"]:
+            print(k, "=", getattr(m, k, None))
+          PY
+      
       - name: Run preview (titles only)
         env:
           TZ: Asia/Seoul
