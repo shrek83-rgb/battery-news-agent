@@ -32,6 +32,8 @@ jobs:
       - name: Run pipeline
         env:
           TZ: Asia/Seoul
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           # GDRIVE_SA_KEY_JSON: ${{ secrets.GDRIVE_SA_KEY_JSON }}
           # GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
