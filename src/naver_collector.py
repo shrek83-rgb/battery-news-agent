@@ -19,9 +19,60 @@ from google import genai
 KST = ZoneInfo("Asia/Seoul")
 NAVER_NEWS_ENDPOINT = "https://openapi.naver.com/v1/search/news.json"
 
+# -----------------------------
+# Model selection (single source of truth)
+# -----------------------------
+def _normalize_model_name(name: str) -> str:
+    """
+    Accepts human-friendly names or Vertex-ish names and normalizes to Gemini Developer API IDs.
+    Examples:
+      "Gemini 2.5 Flash Lite" -> "gemini-2.5-flash-lite"
+      "Gemini 2.5 Flash"      -> "gemini-2.5-flash"
+      "google.gemini-2.5-flash" -> "gemini-2.5-flash"
+    """
+    n = (name or "").strip()
+    if not n:
+        return n
+
+    # strip common prefix
+    if n.startswith("google.gemini-"):
+        n = n.replace("google.", "", 1)
+
+    low = n.lower().strip()
+
+    # handle common human-friendly variants
+    low2 = (
+        low.replace("_", " ")
+           .replace("-", " ")
+           .replace("flashlite", "flash lite")
+           .replace("flash-lite", "flash lite")
+           .replace("  ", " ")
+    )
+
+    if "2.5" in low2 and "flash" in low2 and "lite" in low2:
+        return "gemini-2.5-flash-lite"
+    if "2.5" in low2 and "flash" in low2:
+        return "gemini-2.5-flash"
+    if "2.0" in low2 and "flash" in low2 and "lite" in low2:
+        return "gemini-2.0-flash-lite"
+    if "2.0" in low2 and "flash" in low2:
+        return "gemini-2.0-flash"
+
+    # already looks like a proper ID
+    if low.startswith("gemini-"):
+        return low
+
+    # last resort: return as-is (may error, but visible)
+    return n
+
+
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
-DEDUP_MODEL = os.getenv("GEMINI_MODEL_DEDUPE", "Gemini 2.5 Flash Lite")
-RANK_MODEL = os.getenv("GEMINI_MODEL_RANK", "Gemini 2.5 Flash Lite")
+
+# ✅ one base model for everything
+BASE_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL", "gemini-2.5-flash"))
+# ✅ optional overrides
+DEDUP_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL_DEDUPE", BASE_MODEL))
+RANK_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL_RANK", BASE_MODEL))
 
 DEBUG = os.getenv("NAVER_DEBUG", "0") == "1"
 
@@ -150,7 +201,16 @@ def collect_naver_last24h_multiquery(
                 title, tail_pub = _clean_title_tail_publisher(title_raw)
                 src = tail_pub or _domain(origin) or "NAVER"
 
-                out.append(NaverNewsItem(title=title, description=desc, link=origin, source=src, published_dt_kst=pub_dt, rank=rank_counter))
+                out.append(
+                    NaverNewsItem(
+                        title=title,
+                        description=desc,
+                        link=origin,
+                        source=src,
+                        published_dt_kst=pub_dt,
+                        rank=rank_counter,
+                    )
+                )
                 rank_counter += 1
                 if len(out) >= max_fetch:
                     break
@@ -166,7 +226,6 @@ def collect_naver_last24h_multiquery(
 # 2) LLM clustering dedupe (title-only)
 # -----------------------------
 class ClusterResp(BaseModel):
-    # groups: list of lists of indices (0..n-1). Each index must appear exactly once.
     groups: List[List[int]]
 
 
@@ -180,27 +239,28 @@ SYSTEM_CLUSTER = (
 
 
 def dedupe_by_llm_clustering(items: List[NaverNewsItem]) -> Tuple[List[NaverNewsItem], int]:
-    """
-    Returns (deduped_items, dropped_count).
-    Representative per cluster = lowest rank (상위 노출 우선)
-    """
     if not GEMINI_API_KEY or len(items) <= 1:
         return items, 0
+
+    if DEBUG:
+        print(f"[INFO] Gemini models (BASE/DEDUP/RANK): {BASE_MODEL} / {DEDUP_MODEL} / {RANK_MODEL}")
 
     client = genai.Client(api_key=GEMINI_API_KEY)
 
     titles = [it.title for it in items]
     n = len(titles)
 
-    # 한번에 너무 길어질 수 있으니(150) chunking 후 2-pass 병합
-    # pass1: chunk 내 클러스터
     chunk_size = int(os.getenv("LLM_CLUSTER_CHUNK", "60"))
     groups_all: List[List[int]] = []
 
     def call_cluster(chunk_titles_with_global_idx: List[Tuple[int, str]]) -> List[List[int]]:
-        prompt = "[제목 목록]\n" + "\n".join([f"{i}: {t}" for i, t in chunk_titles_with_global_idx]) + "\n\n" + \
-                 "JSON으로만 출력: {\"groups\": [[index,index,...], ...]}\n" + \
-                 "조건: 모든 index는 정확히 한 번씩 포함되어야 함."
+        prompt = (
+            "[제목 목록]\n"
+            + "\n".join([f"{i}: {t}" for i, t in chunk_titles_with_global_idx])
+            + "\n\n"
+            + "JSON으로만 출력: {\"groups\": [[index,index,...], ...]}\n"
+            + "조건: 모든 index는 정확히 한 번씩 포함되어야 함."
+        )
         resp = client.models.generate_content(
             model=DEDUP_MODEL,
             contents=prompt,
@@ -216,7 +276,6 @@ def dedupe_by_llm_clustering(items: List[NaverNewsItem]) -> Tuple[List[NaverNews
             parsed = ClusterResp.model_validate_json(resp.text)
         return parsed.groups
 
-    # chunk clustering
     for start in range(0, n, chunk_size):
         chunk = [(i, titles[i]) for i in range(start, min(n, start + chunk_size))]
         last_err = None
@@ -232,28 +291,25 @@ def dedupe_by_llm_clustering(items: List[NaverNewsItem]) -> Tuple[List[NaverNews
                 else:
                     chunk_groups = None
         if chunk_groups is None:
-            # fallback: no dedupe in this chunk
             if DEBUG:
                 print(f"[WARN] cluster failed for chunk {start}-{start+len(chunk)-1}: {last_err}")
             chunk_groups = [[i] for i, _ in chunk]
         groups_all.extend(chunk_groups)
 
-    # pass2: merge clusters across chunks by clustering representatives
     reps = []
-    rep_to_group = []
     for gi, g in enumerate(groups_all):
-        # representative = lowest rank (input order is already rank-ish, but use rank field)
         rep_idx = min(g, key=lambda idx: items[idx].rank)
         reps.append((gi, rep_idx, titles[rep_idx]))
-        rep_to_group.append(gi)
 
     if len(reps) > 1:
-        rep_chunk = [(ri, t) for (gi, rep_idx, t), ri in zip(reps, range(len(reps)))]
-        # cluster reps (by rep index in rep list)
         def call_cluster_reps(rep_titles: List[Tuple[int, str]]) -> List[List[int]]:
-            prompt = "[대표 제목 목록]\n" + "\n".join([f"{i}: {t}" for i, t in rep_titles]) + "\n\n" + \
-                     "JSON으로만 출력: {\"groups\": [[index,index,...], ...]}\n" + \
-                     "조건: 모든 index는 정확히 한 번씩 포함되어야 함."
+            prompt = (
+                "[대표 제목 목록]\n"
+                + "\n".join([f"{i}: {t}" for i, t in rep_titles])
+                + "\n\n"
+                + "JSON으로만 출력: {\"groups\": [[index,index,...], ...]}\n"
+                + "조건: 모든 index는 정확히 한 번씩 포함되어야 함."
+            )
             resp = client.models.generate_content(
                 model=DEDUP_MODEL,
                 contents=prompt,
@@ -283,7 +339,6 @@ def dedupe_by_llm_clustering(items: List[NaverNewsItem]) -> Tuple[List[NaverNews
                     rep_groups = None
 
         if rep_groups is not None:
-            # merge original groups according to rep cluster
             merged_groups: List[List[int]] = []
             for rg in rep_groups:
                 merged: List[int] = []
@@ -296,7 +351,6 @@ def dedupe_by_llm_clustering(items: List[NaverNewsItem]) -> Tuple[List[NaverNews
             if DEBUG:
                 print(f"[WARN] rep-cluster failed: {last_err}")
 
-    # final dedupe: pick one per group
     deduped: List[NaverNewsItem] = []
     for g in groups_all:
         rep_idx = min(g, key=lambda idx: items[idx].rank)
@@ -307,10 +361,10 @@ def dedupe_by_llm_clustering(items: List[NaverNewsItem]) -> Tuple[List[NaverNews
 
 
 # -----------------------------
-# 3) Importance scoring (title-only) and pick top 15
+# 3) Importance scoring (title-only)
 # -----------------------------
 class ImportanceScore(BaseModel):
-    index: int = Field(..., description="Index in the provided list")
+    index: int = Field(...)
     score: int = Field(..., ge=0, le=100)
 
 
@@ -335,8 +389,12 @@ def score_importance_by_llm(items: List[NaverNewsItem]) -> List[int]:
     scores = [0 for _ in items]
 
     def call_scores(chunk_pairs: List[Tuple[int, str]]) -> Dict[int, int]:
-        prompt = "[제목 목록]\n" + "\n".join([f"{i}. {t}" for i, t in chunk_pairs]) + "\n\n" + \
-                 "JSON: {\"scores\": [{\"index\":i,\"score\":0-100}, ...]} (모든 index 포함)"
+        prompt = (
+            "[제목 목록]\n"
+            + "\n".join([f"{i}. {t}" for i, t in chunk_pairs])
+            + "\n\n"
+            + "JSON: {\"scores\": [{\"index\":i,\"score\":0-100}, ...]} (모든 index 포함)"
+        )
         resp = client.models.generate_content(
             model=RANK_MODEL,
             contents=prompt,
@@ -409,5 +467,10 @@ def collect_naver_top15_last24h_deduped_and_ranked(
         "deduped_count": len(deduped),
         "dropped": dropped,
         "picked": len(picked),
+        "models": {
+            "base": BASE_MODEL,
+            "dedupe": DEDUP_MODEL,
+            "rank": RANK_MODEL,
+        },
     }
     return picked, picked_scores, stats
