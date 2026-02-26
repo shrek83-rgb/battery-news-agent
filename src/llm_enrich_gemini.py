@@ -10,15 +10,48 @@ from typing import Any, Dict, List, Tuple, Optional
 from google import genai
 
 
-# -----------------------------
-# Config (env overridable)
-# -----------------------------
-DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+def _normalize_model_name(name: str) -> str:
+    n = (name or "").strip()
+    if not n:
+        return n
+    if n.startswith("google.gemini-"):
+        n = n.replace("google.", "", 1)
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+    low = n.lower().strip()
+    low2 = (
+        low.replace("_", " ")
+           .replace("-", " ")
+           .replace("flashlite", "flash lite")
+           .replace("flash-lite", "flash lite")
+           .replace("  ", " ")
+    )
+
+    if "2.5" in low2 and "flash" in low2 and "lite" in low2:
+        return "gemini-2.5-flash-lite"
+    if "2.5" in low2 and "flash" in low2:
+        return "gemini-2.5-flash"
+    if "2.0" in low2 and "flash" in low2 and "lite" in low2:
+        return "gemini-2.0-flash-lite"
+    if "2.0" in low2 and "flash" in low2:
+        return "gemini-2.0-flash"
+
+    if low.startswith("gemini-"):
+        return low
+    return n
+
+
+# -----------------------------
+# Config (single source of truth)
+# -----------------------------
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
+
+# ✅ unify: one base model
+BASE_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL", "gemini-2.5-flash"))
+# optional override for summaries only (if you ever want)
+SUMMARY_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL_SUMMARY", BASE_MODEL))
 
 # Retries / backoff
-RETRIES = int(os.getenv("GEMINI_RETRIES", "4"))            # total retries after first try
+RETRIES = int(os.getenv("GEMINI_RETRIES", "4"))
 BACKOFF_BASE = float(os.getenv("GEMINI_BACKOFF_BASE", "1.6"))
 BACKOFF_MAX = float(os.getenv("GEMINI_BACKOFF_MAX", "12"))
 
@@ -34,9 +67,6 @@ SYSTEM_INSTRUCTION = (
 )
 
 
-# -----------------------------
-# Helpers: fallback summarization (content-based)
-# -----------------------------
 def _split_sentences(text: str) -> List[str]:
     text = re.sub(r"\s+", " ", (text or "")).strip()
     if not text:
@@ -50,57 +80,40 @@ def _ensure_sentence_end(s: str) -> str:
     s = (s or "").strip()
     if not s:
         return s
-    # Add period if no obvious ending punctuation
     if s.endswith((".", "!", "?", "다.", "요.")):
         return s
     return s + "."
 
 
 def fallback_summary_3_sentences_from_description(title: str, description: str) -> List[str]:
-    """
-    템플릿 금지(동일 문장 반복 금지). description/제목에서 '내용 기반'으로 3문장을 반드시 만든다.
-    - description에서 문장 3개가 나오면 그대로 사용
-    - 부족하면 description(또는 title)을 길이로 3등분해 문장처럼 구성(내용 기반)
-    """
     title = (title or "").strip()
     desc = re.sub(r"\s+", " ", (description or "")).strip()
 
     sents = _split_sentences(desc)
     if len(sents) >= 3:
-        return [ _ensure_sentence_end(sents[0]), _ensure_sentence_end(sents[1]), _ensure_sentence_end(sents[2]) ]
+        return [_ensure_sentence_end(sents[0]), _ensure_sentence_end(sents[1]), _ensure_sentence_end(sents[2])]
 
     base = desc if desc else title
     base = (base or "").strip()
     if not base:
         return ["", "", ""]
 
-    # if only 1~2 sentences exist, use them and fill remaining by chunking remaining text
     if len(sents) == 2:
-        # third sentence from leftover/chunk
         leftover = base
-        # remove the first two sentences from base (best-effort)
         for s in sents[:2]:
             leftover = leftover.replace(s, " ")
-        leftover = re.sub(r"\s+", " ", leftover).strip()
-        if not leftover:
-            leftover = base
-        # make chunk
+        leftover = re.sub(r"\s+", " ", leftover).strip() or base
         n = len(leftover)
         cut = max(1, n // 2)
         s3 = leftover[cut:].strip() if len(leftover[cut:].strip()) > 10 else leftover[:cut].strip()
         return [_ensure_sentence_end(sents[0]), _ensure_sentence_end(sents[1]), _ensure_sentence_end(s3)]
 
     if len(sents) == 1:
-        # make 2 more from chunking remaining text
-        leftover = base.replace(sents[0], " ")
-        leftover = re.sub(r"\s+", " ", leftover).strip()
-        if not leftover:
-            leftover = base
+        leftover = re.sub(r"\s+", " ", base.replace(sents[0], " ")).strip() or base
         n = len(leftover)
         cut1 = max(1, n // 2)
         s2 = leftover[:cut1].strip()
         s3 = leftover[cut1:].strip()
-        # if chunks too short, reuse different parts of base
         if len(s2) < 8 or len(s3) < 8:
             n2 = len(base)
             c1 = max(1, n2 // 3)
@@ -109,7 +122,6 @@ def fallback_summary_3_sentences_from_description(title: str, description: str) 
             s3 = base[c2:].strip()
         return [_ensure_sentence_end(sents[0]), _ensure_sentence_end(s2), _ensure_sentence_end(s3)]
 
-    # 0 sentence: chunk base into 3 parts
     n = len(base)
     c1 = max(1, n // 3)
     c2 = max(c1 + 1, 2 * n // 3)
@@ -119,11 +131,7 @@ def fallback_summary_3_sentences_from_description(title: str, description: str) 
     return [_ensure_sentence_end(s1), _ensure_sentence_end(s2), _ensure_sentence_end(s3)]
 
 
-# -----------------------------
-# Gemini prompting + parsing
-# -----------------------------
 def _build_prompt(title: str, description: str, source: str, link: str) -> str:
-    # We enforce a strict plain-text format for robust parsing.
     return f"""
 [기사]
 - 제목: {title}
@@ -151,13 +159,6 @@ _RX_C = re.compile(r"^\s*C\s*:\s*(.*?)\s*$", re.IGNORECASE)
 
 
 def _parse_gemini_text(text: str) -> Tuple[List[str], List[str]]:
-    """
-    Parse the strict format:
-      S1: ...
-      S2: ...
-      S3: ...
-      C: a; b; c
-    """
     s_map: Dict[str, str] = {}
     companies_line = ""
 
@@ -199,17 +200,12 @@ def _call_gemini(client: genai.Client, prompt: str, model: str) -> str:
 
 
 def _sleep_backoff(attempt: int) -> None:
-    # exponential backoff with jitter
     t = min(BACKOFF_MAX, BACKOFF_BASE ** (attempt + 1))
     t = t * (0.75 + random.random() * 0.5)
     time.sleep(t)
 
 
-def enrich_one(
-    client: genai.Client,
-    item: Dict[str, Any],
-    model: str,
-) -> Dict[str, Any]:
+def enrich_one(client: genai.Client, item: Dict[str, Any], model: str) -> Dict[str, Any]:
     title = (item.get("title") or "").strip()
     description = (item.get("description") or "").strip()
     source = (item.get("source") or "").strip()
@@ -222,6 +218,7 @@ def enrich_one(
         try:
             text = _call_gemini(client, prompt, model=model)
             if DEBUG_LOG:
+                print(f"[INFO] Gemini summary model: {model}")
                 print(f"[DEBUG] Gemini raw (item={title[:30]}...): {text[:200]}")
 
             if not text:
@@ -229,17 +226,14 @@ def enrich_one(
 
             sents, companies = _parse_gemini_text(text)
 
-            if STRICT_REQUIRE_THREE_NONEMPTY:
-                if not (sents[0] and sents[1] and sents[2]):
-                    raise RuntimeError(f"Parse incomplete: {text[:160]}")
+            if STRICT_REQUIRE_THREE_NONEMPTY and not (sents[0] and sents[1] and sents[2]):
+                raise RuntimeError(f"Parse incomplete: {text[:160]}")
 
-            # If still empty, fallback (content-based)
             if not (sents[0] and sents[1] and sents[2]):
                 sents = fallback_summary_3_sentences_from_description(title, description)
 
             item["summary_3_sentences"] = sents[:3]
 
-            # Merge companies with existing (dict match might already exist)
             existing = item.get("companies") or []
             merged: List[str] = []
             for c in (companies + existing):
@@ -257,59 +251,42 @@ def enrich_one(
             else:
                 break
 
-    # Final fallback: 반드시 3문장(내용 기반)
     print(f"[WARN] Gemini failed for '{title[:60]}': {last_err}")
     item["summary_3_sentences"] = fallback_summary_3_sentences_from_description(title, description)
     item.setdefault("companies", item.get("companies") or [])
     return item
 
 
-def enrich_items(
-    items: List[Dict[str, Any]],
-    max_items: int,
-    model: str = DEFAULT_MODEL,
-) -> List[Dict[str, Any]]:
-    """
-    Enrich top-N items with:
-      - summary_3_sentences (always 3 sentences, content-based)
-      - companies (0~3)
-    If Gemini fails, fallback still generates 3 sentences based on description/title (no fixed template lines).
-    """
-    out = items[:]  # shallow copy
+def enrich_items(items: List[Dict[str, Any]], max_items: int, model: str | None = None) -> List[Dict[str, Any]]:
+    out = items[:]
     n = min(len(out), max_items)
 
-    # If no API key: fallback for all
+    use_model = _normalize_model_name(model) if model else SUMMARY_MODEL
+
     if not GEMINI_API_KEY:
         print("[WARN] GEMINI_API_KEY not set. Using content-based fallback summaries.")
         for i in range(n):
             it = out[i]
-            it["summary_3_sentences"] = fallback_summary_3_sentences_from_description(
-                it.get("title", ""), it.get("description", "")
-            )
+            it["summary_3_sentences"] = fallback_summary_3_sentences_from_description(it.get("title", ""), it.get("description", ""))
             it.setdefault("companies", it.get("companies") or [])
-        # ensure rest also has 3 sentences
         for j in range(n, len(out)):
             it = out[j]
-            it["summary_3_sentences"] = it.get("summary_3_sentences") or fallback_summary_3_sentences_from_description(
-                it.get("title", ""), it.get("description", "")
-            )
+            it["summary_3_sentences"] = it.get("summary_3_sentences") or fallback_summary_3_sentences_from_description(it.get("title", ""), it.get("description", ""))
             it.setdefault("companies", it.get("companies") or [])
         return out
 
+    if DEBUG_LOG:
+        print(f"[INFO] Gemini models (BASE/SUMMARY): {BASE_MODEL} / {use_model}")
+
     client = genai.Client(api_key=GEMINI_API_KEY)
 
-    # sequential (slower but stable)
     for i in range(n):
-        out[i] = enrich_one(client, out[i], model=model)
+        out[i] = enrich_one(client, out[i], model=use_model)
 
-    # Ensure all items have 3 sentences even beyond n
     for j in range(n, len(out)):
         it = out[j]
         if not it.get("summary_3_sentences"):
-            it["summary_3_sentences"] = fallback_summary_3_sentences_from_description(
-                it.get("title", ""), it.get("description", "")
-            )
-        # Normalize length
+            it["summary_3_sentences"] = fallback_summary_3_sentences_from_description(it.get("title", ""), it.get("description", ""))
         s = it.get("summary_3_sentences") or ["", "", ""]
         while len(s) < 3:
             s.append("")
