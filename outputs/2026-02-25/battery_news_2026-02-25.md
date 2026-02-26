@@ -4,245 +4,245 @@
 
 | # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
 |---:|:---:|:---|:---:|:---|:---|:---|:---|
-| 1 | 3 | 기타 | 2026-02-26 | www.m-i.kr | [기획] 美·EU는 '기후테크 시장부터 설계'… 韓, 구조전환 시급 | https://www.m-i.kr/news/articleView.html?idxno=1340857 | unknown |
-| 2 | 3 | 기타 | 2026-02-26 | www.metroseoul.co.kr | LG엔솔, '명품특허' 앞세워 글로벌 배터리 기술패권 강화 | http://www.metroseoul.co.kr/article/20260226500143 | unknown |
-| 3 | 3 | 전고체 | 2026-02-26 | www.wowtv.co.kr | 국민성장펀드 픽 이수스페셜티…"황화리튬 증설에 1천억" | https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202602260427&t=NNv | unknown |
-| 4 | 3 | 기타 | 2026-02-26 | www.sedaily.com | 수익률 상위 1%, ‘급등’ 레인보우로보틱스 집중 매수 [주식 초고수는... | https://www.sedaily.com/article/20013050?ref=naver | unknown |
-| 5 | 3 | cathode | 2026-02-26 | www.pinpointnews.co.kr | 38만원서 58만원으로 점프…다올證, 삼성SDI '강력 매수' 호출한 이유 | https://www.pinpointnews.co.kr/news/articleView.html?idxno=432492 | unknown |
-| 6 | 3 | 나트륨 | 2026-02-25 | Tech Xplore | Sodium-ion batteries lean heavily on lithium-ion expertise, patent analysis suggests | https://news.google.com/rss/articles/CBMigwFBVV95cUxOSFZQanp4Qm5aR0VrUUlMVFZiWmhtbl9oeGxqWGY1NGZJVlFRYm8zakdJTFIxVERaSWo2cV9Qd2NwdDFMc3ViVE4xY3lDNnZtWEgzUXJkZkNzSEd0dXcxTzFqSkNzOE91YTd3R2NVcE1pMzhpSDFDOVYxT2hXUktFWEx6dw?oc=5 | unknown |
-| 7 | 3 | 전고체 | 2026-02-26 | www.newsway.co.kr | 국민성장펀드 2·3호 투자처 동시 승인…반도체·전고체배터리에 2.6조 ... | https://www.newsway.co.kr/news/view?ud=2026022616333107841 | unknown |
-| 8 | 3 | 기타 | 2026-02-26 | www.hankyung.com | "AI시대 신시장 선점하라"…세계로 뛰는 혁신기술 군단 | https://www.hankyung.com/article/2026022662321 | unknown |
-| 9 | 3 | 전고체 | 2026-02-26 | www.news1.kr | 삼성·울산 전고체 배터리 공장 2.6조 지원…국민성장펀드 '1호 저리대출... | https://www.news1.kr/finance/general-finance/6084428 | unknown |
-| 10 | 3 | 장비 | 2026-02-26 | www.hankyung.com | "보낼 땐 0%·도착 땐 폭탄?"…수출기업 관세 리스크에 '초비상' | https://www.hankyung.com/article/202602266569i | unknown |
-| 11 | 3 | 기타 | 2026-02-26 | www.choicenews.co.kr | ESS 배터리 주목, 삼성SDI '장중 급등'...다른 2차전지주는? | http://www.choicenews.co.kr/news/articleView.html?idxno=161589 | unknown |
-| 12 | 3 | 전고체 | 2026-02-26 | www.hankyung.com | 필에너지, 美 전고체 배터리업체 '팩토리얼'에 투자 | https://www.hankyung.com/article/2026022662656 | unknown |
-| 13 | 3 | 정책 | 2026-02-26 | www.edaily.co.kr | 美, 中 ESS 수입 금지 추진에…삼성SDI ‘탈중국 수혜’에 2%대 강세[특징... | http://www.edaily.co.kr/news/newspath.asp?newsid=03794966645354456 | unknown |
-| 14 | 3 | 전고체 | 2026-02-25 | RideApart.com | This California Company Thinks It Can Crack Solid-State Battery Tech For Good | https://news.google.com/rss/articles/CBMimgFBVV95cUxNdnhIVlhFLVpNVUFXOU9sUWItZHNMSEZ6eHE4WHFlSHg2Qm5RV2VmZVVrWUdDLXpKa0xfZ3NTU2gtYWNQOHVuOUpXUUd6ZTBkcnNWdmt6MEkwTEZDMGYtUVlkdFFfOG43NG5HRTlORnh3bjViaGRTd2MtSnRMc0piM2E4bWp5Vl82VlVvR1lQOFVYQlplUTNIcFF3?oc=5 | unknown |
-| 15 | 3 | 전고체 | 2026-02-25 | Autoblog | Solid-State Battery Hits 80% in 4.5 Minutes in Independent Test | https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGIzMFdkUm5aYkZBdVVYcFd2Uld0amVVWHVsZHEtMnRqV1Vvcmc4aHpWTGdUYS00R2lhTWV3OHJ5bi1RU3FfVkVSUnFybXpjRHl5N1cxVDVLam1lcGM0RER1aDRBSjk0c2NFcTl3NG1rdzRHQWhKUWt4eFBZMnJqNEZkWDJkVDlJOTJQY1YxNmNnbzN1Mi1J?oc=5 | unknown |
-| 16 | 3 | 전고체 | 2026-02-25 | Hagerty | Donut Lab’s Solid-State Battery Cells Charge from Dead in Roughly Five Minutes | https://news.google.com/rss/articles/CBMiswFBVV95cUxQOENyY1FkeDRpcFdSRGZtNWQtNGh3Ml9INHRhTE9rcFlVQjVmQTR3TC1faUFwUlB0dUp4Uk40a2l6UVROSGV0a0xkam1waFlhbnlRN01NVFdTMDdNb1c5eU1Ca3Z6dWRFdUhmOVZPSDVVRlFjbHNxVzEwdUtoWktKdXptRzJ3c3llQWJuSk1GN0VydzM1R2N4YjRkSDJKdWJnckUyeUg3NTkyNmtiMlhEYUI3QQ?oc=5 | unknown |
-| 17 | 3 | 재활용 | 2026-02-25 | renaultgroup.com | FuturGen Insight – Recycling electric vehicle batteries: a strategic priority for Europe and the industry | https://news.google.com/rss/articles/CBMi_AFBVV95cUxQalR6Z1RlOEFUUVozTFl2M2tLLS1DbFRhWnkyU2w5LThrWWdmeVBvNkNYNVZNUE9VTkxrbEU3QWxZZVY1Y2VhY1EyOHVaa25HdTcwS1ExNFg0S1pydWFzR3dhOVRqYzQ4VmJsOVN0RW1VT1hGWGh3UEhPTEpzTW1RRkVrREl5YTZ4b00zQVZfaGVWY2ZLbG5DcVBsTDNwWW55NWtDLVowV09SZEZKQmZhSHdMQ3JDVFFSMml0UEJEQXpoMFRCemlEYkNPYlJ1NFR2blR0VnlvdFJodzNZUTFTeWkxLUVodHBucHV4OUZRTHhPWGxWbWtCck1zcWs?oc=5 | unknown |
-| 18 | 3 | 장비 | 2026-02-26 | www.hankyung.com | 전극공정 장비 제조 24년 노하우…하이브리드 건조로 'K배터리' 영토 확... | https://www.hankyung.com/article/2026022662411 | unknown |
-| 19 | 3 | 전고체 | 2026-02-26 | www.hankyung.com | 씨아이에스, 전극 공정 국산화 주역…'건식·전고체 배터리' 초격차 이... | https://www.hankyung.com/article/2026022662421 | unknown |
-| 20 | 3 | 기타 | 2026-02-26 | www.wowtv.co.kr | '공매도 떨고있나' 2차전지 목표주가 53% 상향 | http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202602260340&t=NN | unknown |
+| 1 | 3 | 기타 | 2026-02-26 | dream.kotra.or.kr | 원광 채굴을 넘어, 호주 리튬이 다시 꿈틀거린다 | http://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=80&CONTENTS_NO=2&bbsGbn=242&bbsSn=242&pNttSn=239100 | unknown |
+| 2 | 3 | 기타 | 2026-02-26 | www.m-i.kr | [기획] 美·EU는 '기후테크 시장부터 설계'… 韓, 구조전환 시급 | https://www.m-i.kr/news/articleView.html?idxno=1340857 | unknown |
+| 3 | 3 | 기타 | 2026-02-26 | www.metroseoul.co.kr | LG엔솔, '명품특허' 앞세워 글로벌 배터리 기술패권 강화 | http://www.metroseoul.co.kr/article/20260226500143 | unknown |
+| 4 | 3 | 기타 | 2026-02-26 | www.newspim.com | [모닝 리포트] "에코앤드림, 전구체 매출 성장 지속…새만금 캐파 확대... | https://www.newspim.com/news/view/20260226000075 | unknown |
+| 5 | 3 | separator | 2026-02-26 | biz.newdaily.co.kr | 점유율 반토막 … '유럽산 中 배터리'에 K-배터리 벼랑끝 | https://biz.newdaily.co.kr/site/data/html/2026/02/26/2026022600159.html | unknown |
+| 6 | 3 | 정책 | 2026-02-26 | www.popcornnews.net | AI 데이터센터發 전력 경쟁…그 해법은 배터리 | http://www.popcornnews.net/news/articleView.html?idxno=113384 | unknown |
+| 7 | 3 | cathode | 2026-02-26 | www.thelec.kr | 60조 캐나다 잠수함 수주전…'한국 수소 vs 독일 자동차' | https://www.thelec.kr/news/articleView.html?idxno=52752 | unknown |
+| 8 | 3 | 전고체 | 2026-02-25 | www.wowtv.co.kr | 산은 회장 "HMM 당장 매각 안해..3~4월 부산 이전 부터" | https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202602250499&t=NNv | unknown |
+| 9 | 3 | separator | 2026-02-25 | www.mt.co.kr | 린피니티, 교호집광 친환경 발전으로 'K-기술대상' 수상 | https://www.mt.co.kr/industry/2026/02/25/2026022518414734736 | unknown |
+| 10 | 3 | 기타 | 2026-02-26 | www.sedaily.com | 수익률 상위 1%, ‘급등’ 레인보우로보틱스 집중 매수 [주식 초고수는... | https://www.sedaily.com/article/20013050?ref=naver | unknown |
+| 11 | 3 | cathode | 2026-02-26 | www.pinpointnews.co.kr | 38만원서 58만원으로 점프…다올證, 삼성SDI '강력 매수' 호출한 이유 | https://www.pinpointnews.co.kr/news/articleView.html?idxno=432492 | unknown |
+| 12 | 3 | 기타 | 2026-02-26 | www.finomy.com | 전기차 관련주, '덩실덩실' 엠에스오토텍·계양전기·모베이스전·KEC·경... | http://www.finomy.com/news/articleView.html?idxno=250304 | unknown |
+| 13 | 3 | cathode | 2026-02-26 | www.the-stock.kr | 쎄노텍, 수산화코발트 첫 양산…이차전지 고기능 첨가제 사업 확대 | https://www.the-stock.kr/news/articleView.html?idxno=32073 | unknown |
+| 14 | 3 | 전고체 | 2026-02-26 | www.mediapen.com | [미르의 글로벌 레이더]K기술, 중동 방공망·월가 전력망 표준장악 | https://www.mediapen.com/news/view/1083728 | unknown |
+| 15 | 3 | cathode | 2026-02-26 | www.ebn.co.kr | [단독] 민간 외면한 'LFP' 재활용…광해광업공단, 공급망 퍼즐 맞춘다 | https://www.ebn.co.kr/news/articleView.html?idxno=1700927 | unknown |
+| 16 | 3 | separator | 2026-02-26 | www.todayenergy.kr | 테크로스, 1.25MW급 알카라인 수전해 성과 공개 | https://www.todayenergy.kr/news/articleView.html?idxno=294609 | unknown |
+| 17 | 3 | 장비 | 2026-02-26 | www.stardailynews.co.kr | 나인테크, 대용량 ESS 생산 위한 고스택 적층 장비 개발 | https://www.stardailynews.co.kr/news/articleView.html?idxno=525497 | unknown |
+| 18 | 3 | 기타 | 2026-02-26 | www.etoday.co.kr | 이랜텍, 로봇 고객사와 중대형 배터리팩 개발 중…전기차 배터리팩 상반... | https://www.etoday.co.kr/news/view/2559488 | unknown |
+| 19 | 3 | cathode | 2026-02-25 | www.mk.co.kr | 포스코·SK온 '리튬동맹'으로 배터리 협업 | https://www.mk.co.kr/article/11972025 | unknown |
+| 20 | 3 | 기타 | 2026-02-25 | www.thelec.kr | [Y인사이트] 트럼프, EUV 넘어 다이싱·TGV로 후공정 시장 확대 노린다 | https://www.thelec.kr/news/articleView.html?idxno=52716 | unknown |
 
 ## 상세 요약
 
-### 1. [기획] 美·EU는 '기후테크 시장부터 설계'… 韓, 구조전환 시급
+### 1. 원광 채굴을 넘어, 호주 리튬이 다시 꿈틀거린다
+- 발행일: 2026-02-26
+- 매체: dream.kotra.or.kr (출처등급 3)
+- 분야: 기타
+- 링크: http://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=80&CONTENTS_NO=2&bbsGbn=242&bbsSn=242&pNttSn=239100
+- 인기신호: unknown
+- 3문장 요약:
+  - 호주에서 수산화리튬 및 탄산리튬 정제 기술을 바탕으로 고부가가치 리튬 화학제품을 직접 생산하고 있습니다.
+  - 이는 EV, ESS, AI 등 신산업의 수요 확대 흐름과 맞물려 글로벌 배터리 제조사와의 장기 공급 계약으로 이어지고 있습니다.
+  - 호주 리튬 산업은 원광 채굴을 넘어 정제 및 화학제품 생산으로 부가가치를 높이는 방향으로 발전하고 있습니다.
+
+### 2. [기획] 美·EU는 '기후테크 시장부터 설계'… 韓, 구조전환 시급
 - 발행일: 2026-02-26
 - 매체: www.m-i.kr (출처등급 3)
 - 분야: 기타
 - 링크: https://www.m-i.kr/news/articleView.html?idxno=1340857
 - 인기신호: unknown
 - 3문장 요약:
-  - 청정수소, 배터리, 재생에너지 설비 등 특정 분야에 대해 생산세액공제(PTC)와 투자세액공제(ITC)를 병행...
-  - 기업은 2차전지, 전기차, 정보통신기술(ICT), 재생에너지 등 분야에서 두각을 나타내는 대기업이었다.
-  - 이러한 기업...
+  - 미국과 유럽은 기후테크 시장 설계를 통해 청정수소, 배터리, 재생에너지 설비 분야에 생산세액공제(PTC)와 투자세액공제(ITC)를 병행하고 있습니다.
+  - 한국 기업들은 2차전지, 전기차, ICT, 재생에너지 등 분야에서 두각을 나타내고 있습니다.
+  - 한국은 기후테크 시장 경쟁력 확보를 위해 구조적인 전환이 시급합니다.
 
-### 2. LG엔솔, '명품특허' 앞세워 글로벌 배터리 기술패권 강화
+### 3. LG엔솔, '명품특허' 앞세워 글로벌 배터리 기술패권 강화
 - 발행일: 2026-02-26
 - 매체: www.metroseoul.co.kr (출처등급 3)
 - 분야: 기타
 - 링크: http://www.metroseoul.co.kr/article/20260226500143
 - 인기신호: unknown
 - 3문장 요약:
-  - LG에너지솔루션은 국내 최초로 2차전지 연구를 시작한 이후 30년이 넘는 기간 동안 기술 개발을 이어왔다.
-  - 지난해 10월 기준 출원 특허는 8만6000건에 달한다.
-  - 소재, 전극 설계, 공정 기술 등 배터리 생산 전 과정에서...
+  - LG에너지솔루션은 30년 이상 2차전지 연구 개발을 이어오며 8만 6천 건에 달하는 특허를 출원했습니다.
+  - 이는 소재, 전극 설계, 공정 기술 등 배터리 생산 전 과정에 걸친 기술력을 바탕으로 합니다.
+  - LG에너지솔루션은 명품 특허를 통해 글로벌 배터리 기술 패권을 강화하고 있습니다.
 
-### 3. 국민성장펀드 픽 이수스페셜티…"황화리튬 증설에 1천억"
+### 4. [모닝 리포트] "에코앤드림, 전구체 매출 성장 지속…새만금 캐파 확대...
 - 발행일: 2026-02-26
-- 매체: www.wowtv.co.kr (출처등급 3)
-- 분야: 전고체
-- 링크: https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202602260427&t=NNv
+- 매체: www.newspim.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.newspim.com/news/view/20260226000075
 - 인기신호: unknown
 - 3문장 요약:
-  - 최 기자, 2차전지 기업 중 이수스페셜티케미컬이 선정된 특별한 이유가 있나요?
-  - &lt;기자&gt; 정부가 이수스페셜티케미컬이 가진 '황화리튬' 기술을 키우겠다는 의지로 보입니다.
-  - 황화리튬은 전고체 배터리 소재인데요.
+  - 에코앤드림은 2004년 설립된 2차전지 소재 및 촉매 전문 기업으로, 구조적인 성장 국면에 진입하고 있습니다.
+  - 특히 미국과 유럽의 배터리 공급망 내재화 전략에 따라 전구체 매출 성장이 지속될 것으로 예상됩니다.
+  - 새만금 생산능력(CAPA) 확대와 함께 성장 동력을 확보하고 있습니다.
 
-### 4. 수익률 상위 1%, ‘급등’ 레인보우로보틱스 집중 매수 [주식 초고수는...
+### 5. 점유율 반토막 … '유럽산 中 배터리'에 K-배터리 벼랑끝
+- 발행일: 2026-02-26
+- 매체: biz.newdaily.co.kr (출처등급 3)
+- 분야: separator
+- 링크: https://biz.newdaily.co.kr/site/data/html/2026/02/26/2026022600159.html
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국 CATL 등은 헝가리 공장에 전해액, 분리막 등 소재·부품 협력사들을 동반 진출시키고 있습니다.
+  - 이를 통해 현지에서 부품을 조달하며 규제 장벽을 넘고 가격 경쟁력을 유지하고 있습니다.
+  - 유럽산 중국 배터리의 부상으로 K-배터리의 시장 점유율이 절반으로 줄어들며 위기에 직면했습니다.
+
+### 6. AI 데이터센터發 전력 경쟁…그 해법은 배터리
+- 발행일: 2026-02-26
+- 매체: www.popcornnews.net (출처등급 3)
+- 분야: 정책
+- 링크: http://www.popcornnews.net/news/articleView.html?idxno=113384
+- 인기신호: unknown
+- 3문장 요약:
+  - AI 데이터센터 발 전력 수요 증가에 대한 해결책으로 배터리가 주목받고 있습니다.
+  - 미국 IRA의 현지 생산 세액공제 정책과 301조 관세는 중국산 배터리 및 ESS를 견제하는 요인으로 작용할 수 있습니다.
+  - 국내 배터리 업체들은 이러한 시장 변화에 대응하고 있습니다.
+
+### 7. 60조 캐나다 잠수함 수주전…'한국 수소 vs 독일 자동차'
+- 발행일: 2026-02-26
+- 매체: www.thelec.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.thelec.kr/news/articleView.html?idxno=52752
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 캐나다 온타리오주 윈저에서 에너지저장장치(ESS)용 배터리를 생산합니다.
+  - 포스코퓨처엠과 에코프로비엠은 퀘벡주 베캉쿠르시에 양극재 공장을 구축하고 있습니다.
+  - 한온시스템은 캐나다에 북미 첫 전동화 부품 생산 거점을 마련했습니다.
+
+### 8. 산은 회장 "HMM 당장 매각 안해..3~4월 부산 이전 부터"
+- 발행일: 2026-02-25
+- 매체: www.wowtv.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202602250499&t=NNv
+- 인기신호: unknown
+- 3문장 요약:
+  - 국민성장펀드 기금운용심의회에서 차세대 2차전지 소재와 첨단반도체 생산기지에 대한 지원이 논의될 예정입니다.
+  - 업계에서는 삼성전자 평택 P5와 울산 전고체 배터리 소재 공장이 지원 대상이 될 것으로 관측하고 있습니다.
+  - 이는 국내 첨단 산업 육성을 위한 정부의 지원 의지를 보여줍니다.
+
+### 9. 린피니티, 교호집광 친환경 발전으로 'K-기술대상' 수상
+- 발행일: 2026-02-25
+- 매체: www.mt.co.kr (출처등급 3)
+- 분야: separator
+- 링크: https://www.mt.co.kr/industry/2026/02/25/2026022518414734736
+- 인기신호: unknown
+- 3문장 요약:
+  - 린피니티는 교호집광 친환경 발전 기술로 'K-기술대상'을 수상했습니다.
+  - CES 2025 참가 이후 글로벌 시장 진출과 투자 유치에 적극 나서고 있습니다.
+  - 전고체 분리막에 비견되는 비등방성 반고체 분리막 기술과 리튬이차전지 열폭주 방지 솔루션도 사업화 중입니다.
+
+### 10. 수익률 상위 1%, ‘급등’ 레인보우로보틱스 집중 매수 [주식 초고수는...
 - 발행일: 2026-02-26
 - 매체: www.sedaily.com (출처등급 3)
 - 분야: 기타
 - 링크: https://www.sedaily.com/article/20013050?ref=naver
 - 인기신호: unknown
 - 3문장 요약:
-  - 전기차 약 40만 대에 들어가는 배터리를 생산할 수 있는 물량이다.
-  - 포스코그룹은 2차전지를 신성장 산업으로 점찍고 꾸준한 투자를 이어오고 있는데, 2차전지 사업에 대한 기대감이 포스코홀딩스 주가에도 영향을...
-  - 로 점찍고 꾸준한 투자를 이어오고 있는데, 2차전지 사업에 대한 기대감이 포스코홀딩스 주가에도 영향을...
+  - 포스코그룹은 2차전지를 신성장 산업으로 삼고 꾸준한 투자를 이어오고 있습니다.
+  - 전기차 약 40만 대에 사용될 수 있는 배터리 생산 물량에 대한 기대감이 포스코홀딩스 주가에도 영향을 미치고 있습니다.
+  - 이는 포스코그룹의 2차전지 사업 경쟁력 강화 전략을 보여줍니다.
 
-### 5. 38만원서 58만원으로 점프…다올證, 삼성SDI '강력 매수' 호출한 이유
+### 11. 38만원서 58만원으로 점프…다올證, 삼성SDI '강력 매수' 호출한 이유
 - 발행일: 2026-02-26
 - 매체: www.pinpointnews.co.kr (출처등급 3)
 - 분야: cathode
 - 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=432492
 - 인기신호: unknown
 - 3문장 요약:
-  - 전기제품 업종이 대형 배터리사의 실적 반등 기대감과 수소 경제 활성화 정책에 힘입어 상승 중이다.
-  - 26일...
-  - 때문"이라며 "2차전지 섹터 내에서도 전구체, 양극재, 장비 등 세부 분야별로 실적 기대치에 따른 주가...
+  - 전기제품 업종은 대형 배터리사의 실적 반등 기대감과 수소 경제 활성화 정책에 힘입어 상승세를 보이고 있습니다.
+  - 다올증권은 삼성SDI의 2차전지 섹터 내 전구체, 양극재, 장비 등 세부 분야별 실적 기대치에 따른 주가 상승 가능성을 높게 보고 있습니다.
+  - 이에 따라 삼성SDI에 대한 '강력 매수' 의견을 제시했습니다.
 
-### 6. Sodium-ion batteries lean heavily on lithium-ion expertise, patent analysis suggests
-- 발행일: 2026-02-25
-- 매체: Tech Xplore (출처등급 3)
-- 분야: 나트륨
-- 링크: https://news.google.com/rss/articles/CBMigwFBVV95cUxOSFZQanp4Qm5aR0VrUUlMVFZiWmhtbl9oeGxqWGY1NGZJVlFRYm8zakdJTFIxVERaSWo2cV9Qd2NwdDFMc3ViVE4xY3lDNnZtWEgzUXJkZkNzSEd0dXcxTzFqSkNzOE91YTd3R2NVcE1pMzhpSDFDOVYxT2hXUktFWEx6dw?oc=5
-- 인기신호: unknown
-- 3문장 요약:
-  - <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxOSFZQanp4Qm5aR0VrUUlMVFZiWmhtbl9oeGxqWGY1NGZJVlFRYm8zakdJTFIxVERaSWo2cV9Qd2NwdDFMc3ViVE4xY3lDNnZtWEgzUXJkZkNzSEd0dXcxTzFqSkNzOE91YTd3R2NVcE1pMzhpSDFDOVYxT2hXUktFWEx6dw?oc=5" target="_blank">Sodium-ion batteries lean heavily on lithium-ion expertise, patent analysis suggests</a>&nbsp;&nbsp;<font color="#6f6f6f">Tech Xplore</font>.
-  - <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxOSFZQanp4Qm5aR0VrUUlMVFZiWmhtbl9oeGxqWGY1NGZJVlFRYm8zakdJTFIxVERaSWo2cV9Qd2NwdDFMc3ViVE4xY3lDNnZtWEgzUXJkZkNzSEd0dXcxTzFqSkNzOE91YTd3R.
-  - 2NVcE1pMzhpSDFDOVYxT2hXUktFWEx6dw?oc=5" target="_blank">Sodium-ion batteries lean heavily on lithium-ion expertise, patent analysis suggests</a>&nbsp;&nbsp;<font color="#6f6f6f">Tech Xplore</font>.
-
-### 7. 국민성장펀드 2·3호 투자처 동시 승인…반도체·전고체배터리에 2.6조 ...
+### 12. 전기차 관련주, '덩실덩실' 엠에스오토텍·계양전기·모베이스전·KEC·경...
 - 발행일: 2026-02-26
-- 매체: www.newsway.co.kr (출처등급 3)
-- 분야: 전고체
-- 링크: https://www.newsway.co.kr/news/view?ud=2026022616333107841
-- 인기신호: unknown
-- 3문장 요약:
-  - 이미 운영하고 있는 협력사 설비투자, 연구개발 및 운전자금 저리대출 프로그램은 지원대상을 2차...
-  - 황화리튬은 차세대 이차전지인 전고체 배터리의 핵심소재로 꼽힌다.
-  - 이수스페셜티케미컬은 황화리튬 분야에서...
-
-### 8. "AI시대 신시장 선점하라"…세계로 뛰는 혁신기술 군단
-- 발행일: 2026-02-26
-- 매체: www.hankyung.com (출처등급 3)
+- 매체: www.finomy.com (출처등급 3)
 - 분야: 기타
-- 링크: https://www.hankyung.com/article/2026022662321
+- 링크: http://www.finomy.com/news/articleView.html?idxno=250304
 - 인기신호: unknown
 - 3문장 요약:
-  - 2차전지 전극 공정은 활물질을 전극 기재 위에 도포한 뒤 이를 건조해 전극을 완성하는 단계로, 배터리 성능과 품질을 좌우하는 핵심 공정으로 꼽힌다.
-  - 전극 공정은 원재료를 혼합하는 믹싱, 슬러리를 전극 판에 일정...
-  - 품질을 좌우하는 핵심 공정으로 꼽힌다. 전극 공정은 원재료를 혼합하는 믹싱, 슬러리를 전극 판에 일정...
+  - 삼성SDI는 2차전지 및 첨단재료 전문 기업으로 IT기기, 전기차, ESS용 리튬이온 배터리를 설계 및 생산합니다.
+  - 특히 글로벌 ESS 배터리 공급사로서 GM, 현대차, BMW, 포르쉐, 루시드 등 글로벌 완성차 업체들과 공급 계약을 맺고 있습니다.
+  - 이는 삼성SDI의 배터리 기술력과 시장 경쟁력을 보여줍니다.
 
-### 9. 삼성·울산 전고체 배터리 공장 2.6조 지원…국민성장펀드 '1호 저리대출...
+### 13. 쎄노텍, 수산화코발트 첫 양산…이차전지 고기능 첨가제 사업 확대
 - 발행일: 2026-02-26
-- 매체: www.news1.kr (출처등급 3)
+- 매체: www.the-stock.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.the-stock.kr/news/articleView.html?idxno=32073
+- 인기신호: unknown
+- 3문장 요약:
+  - 쎄노텍은 수산화코발트 첫 양산을 통해 이차전지 고기능 첨가제 사업을 확대합니다.
+  - 코발트 계열 소재와 기존 5개 제품을 기반으로 전고체, LMR, 나트륨 등 차세대 배터리용 기능성 첨가제 라인업을 강화할 계획입니다.
+  - 이를 통해 글로벌 배터리 공급망 내 핵심 소재 파트너로 자리매김하고자 합니다.
+
+### 14. [미르의 글로벌 레이더]K기술, 중동 방공망·월가 전력망 표준장악
+- 발행일: 2026-02-26
+- 매체: www.mediapen.com (출처등급 3)
 - 분야: 전고체
-- 링크: https://www.news1.kr/finance/general-finance/6084428
+- 링크: https://www.mediapen.com/news/view/1083728
 - 인기신호: unknown
 - 3문장 요약:
-  - 지원대상을 2차 협력사까지 확대하고 ESG 펀드의 경우 업체당 지원규모도 최대 2배까지 확대운영할...
-  - 황화리튬은 차세대 이차전지인 전고체 배터리의 핵심 소재다.
-  - 전고체 배터리는 에너지 밀도가 높으면서도(고용량)...
+  - 독일의 대형 완성차 업체인 BMW는 한국의 배터리 장비 기업 씨아이에스에 차세대 전고체 배터리 양산 라인 공동 R&D를 제안했습니다.
+  - 이는 현지 합작 법인(JV) 설립을 타진하는 움직임으로 이어질 수 있습니다.
+  - K-기술이 중동 방공망 및 월가 전력망 표준 장악에 이어 배터리 기술 분야에서도 협력을 강화하고 있습니다.
 
-### 10. "보낼 땐 0%·도착 땐 폭탄?"…수출기업 관세 리스크에 '초비상'
+### 15. [단독] 민간 외면한 'LFP' 재활용…광해광업공단, 공급망 퍼즐 맞춘다
 - 발행일: 2026-02-26
-- 매체: www.hankyung.com (출처등급 3)
+- 매체: www.ebn.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.ebn.co.kr/news/articleView.html?idxno=1700927
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내에서 폐배터리 재활용 시장이 빠르게 확대될 것으로 전망됩니다.
+  - 광해광업공단은 민간이 외면한 LFP 재활용을 통해 공급망 퍼즐을 맞추려 하고 있습니다.
+  - 회수된 탄산리튬의 나트륨 농도를 0.05% 이하로 제어하는 기술이 배터리 성능에 중요합니다.
+
+### 16. 테크로스, 1.25MW급 알카라인 수전해 성과 공개
+- 발행일: 2026-02-26
+- 매체: www.todayenergy.kr (출처등급 3)
+- 분야: separator
+- 링크: https://www.todayenergy.kr/news/articleView.html?idxno=294609
+- 인기신호: unknown
+- 3문장 요약:
+  - 테크로스는 1.25MW급 알카라인 수전해 기술 성과를 공개했습니다.
+  - 전극, 분리막 등 핵심 부품과 정류기, BOP, 스마트 제어 기술을 자체 확보했습니다.
+  - 설계, 생산, 시공을 아우르는 체계를 구축하고 산업통상자원부 '슈퍼乙 사업' 등에 참여하고 있습니다.
+
+### 17. 나인테크, 대용량 ESS 생산 위한 고스택 적층 장비 개발
+- 발행일: 2026-02-26
+- 매체: www.stardailynews.co.kr (출처등급 3)
 - 분야: 장비
-- 링크: https://www.hankyung.com/article/202602266569i
+- 링크: https://www.stardailynews.co.kr/news/articleView.html?idxno=525497
 - 인기신호: unknown
 - 3문장 요약:
-  - 전략산업 '복합 리스크' 직면 자동차 부품, 2차전지 소재, 반도체 장비, 철강 업계의 긴장감은 특히 크다.
-  - 이들 산업은 대미 수출 비중이 높을 뿐 아니라 301조·232조 적용 가능성이 직접 거론되는 분야다.
-  - 더구나...
+  - 나인테크는 ESS용 대용량 배터리 생산을 위한 고스택 적층 장비 개발에 성공했습니다.
+  - ESS용 대형·고두께 셀 공정은 기존 EV 배터리 공정과 기술적 요구사항이 완전히 다릅니다.
+  - 압도적인 확장성을 확보한 고스택·멀티 스택 장비를 통해 ESS 전용 조립공정 장비 시장을 선점할 계획입니다.
 
-### 11. ESS 배터리 주목, 삼성SDI '장중 급등'...다른 2차전지주는?
+### 18. 이랜텍, 로봇 고객사와 중대형 배터리팩 개발 중…전기차 배터리팩 상반...
 - 발행일: 2026-02-26
-- 매체: www.choicenews.co.kr (출처등급 3)
+- 매체: www.etoday.co.kr (출처등급 3)
 - 분야: 기타
-- 링크: http://www.choicenews.co.kr/news/articleView.html?idxno=161589
+- 링크: https://www.etoday.co.kr/news/view/2559488
 - 인기신호: unknown
 - 3문장 요약:
-  - ESS(에너지저장장치) 배터리 부문이 올해 실적 개선을 주도할 것이라는 증권계 진단 속에 이 같은 흐름이...
-  - 한편 이날 증시에서 오전 11시 14분 현재 2차전지주 가운데 LG에너지솔루션(+0.47%), LG화학(+0.90%), 엘앤에프...
-  - 증시에서 오전 11시 14분 현재 2차전지주 가운데 LG에너지솔루션(+0.47%), LG화학(+0.90%), 엘앤에프...
+  - 이랜텍은 로봇 고객사와 중대형 배터리팩을 개발 중이며, 올해 상반기 전기차용 배터리팩 양산을 시작합니다.
+  - 올해 본격적으로 매출이 발생하는 에너지저장시스템(ESS)의 배터리관리시스템(BMS)과 함께 성장의 축이 될 전망입니다.
+  - 이는 이랜텍의 배터리 사업 확장 전략을 보여줍니다.
 
-### 12. 필에너지, 美 전고체 배터리업체 '팩토리얼'에 투자
-- 발행일: 2026-02-26
-- 매체: www.hankyung.com (출처등급 3)
-- 분야: 전고체
-- 링크: https://www.hankyung.com/article/2026022662656
-- 인기신호: unknown
-- 3문장 요약:
-  - 2차전지 장비 제조업체 필에너지가 미국의 전고체배터리업체 팩토리얼(Factorial Inc.,)에 전략적 지분투자를 진행한다고 26일 밝혔다.
-  - 전고체배터리 산업 내 톱티어(선두권)로 입지를 다진 팩토리얼과 협업해...
-  - 분투자를 진행한다고 26일 밝혔다. 전고체배터리 산업 내 톱티어(선두권)로 입지를 다진 팩토리얼과 협업해...
-
-### 13. 美, 中 ESS 수입 금지 추진에…삼성SDI ‘탈중국 수혜’에 2%대 강세[특징...
-- 발행일: 2026-02-26
-- 매체: www.edaily.co.kr (출처등급 3)
-- 분야: 정책
-- 링크: http://www.edaily.co.kr/news/newspath.asp?newsid=03794966645354456
-- 인기신호: unknown
-- 3문장 요약:
-  - 미국 정부와 의회가 중국산 에너지저장장치(ESS)에 대한 제재 수위를 높이면서 삼성SDI 등 국내 2차전지...
-  - 여기에 중국산 배터리에 대한 추가 관세 부과 가능성도 거론되면서 사실상 북미 ESS 시장에서 중국 제품의...
-  - 여기에 중국산 배터리에 대한 추가 관세 부과 가능성도 거론되면서 사실상 북미 ESS 시장에서 중국 제품의...
-
-### 14. This California Company Thinks It Can Crack Solid-State Battery Tech For Good
+### 19. 포스코·SK온 '리튬동맹'으로 배터리 협업
 - 발행일: 2026-02-25
-- 매체: RideApart.com (출처등급 3)
-- 분야: 전고체
-- 링크: https://news.google.com/rss/articles/CBMimgFBVV95cUxNdnhIVlhFLVpNVUFXOU9sUWItZHNMSEZ6eHE4WHFlSHg2Qm5RV2VmZVVrWUdDLXpKa0xfZ3NTU2gtYWNQOHVuOUpXUUd6ZTBkcnNWdmt6MEkwTEZDMGYtUVlkdFFfOG43NG5HRTlORnh3bjViaGRTd2MtSnRMc0piM2E4bWp5Vl82VlVvR1lQOFVYQlplUTNIcFF3?oc=5
+- 매체: www.mk.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.mk.co.kr/article/11972025
 - 인기신호: unknown
 - 3문장 요약:
-  - <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNdnhIVlhFLVpNVUFXOU9sUWItZHNMSEZ6eHE4WHFlSHg2Qm5RV2VmZVVrWUdDLXpKa0xfZ3NTU2gtYWNQOHVuOUpXUUd6ZTBkcnNWdmt6MEkwTEZDMGYtUVlkdFFfOG43NG5HRTlORnh3bjViaGRTd2MtSnRMc0piM2E4bWp5Vl82VlVvR1lQOFVYQlplUTNIcFF3?oc=5" target="_blank">This California Company Thinks It Can Crack Solid-State Battery Tech For Good</a>&nbsp;&nbsp;<font color="#6f6f6f">RideApart.com</font>.
-  - <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNdnhIVlhFLVpNVUFXOU9sUWItZHNMSEZ6eHE4WHFlSHg2Qm5RV2VmZVVrWUdDLXpKa0xfZ3NTU2gtYWNQOHVuOUpXUUd6ZTBkcnNWdmt6MEkwTEZDMGYtUVlkdFFfOG43NG5HRTlORnh3bjViaG.
-  - RTd2MtSnRMc0piM2E4bWp5Vl82VlVvR1lQOFVYQlplUTNIcFF3?oc=5" target="_blank">This California Company Thinks It Can Crack Solid-State Battery Tech For Good</a>&nbsp;&nbsp;<font color="#6f6f6f">RideApart.com</font>.
+  - 포스코와 SK온은 '리튬 동맹'을 통해 배터리 협력을 강화하고 있습니다.
+  - 포스코에이치와이클린메탈은 폐배터리에서 리튬, 니켈, 코발트를 회수하여 2차전지 소재로 공급합니다.
+  - 포스코퓨처엠은 인산철리튬(LFP), 니켈·코발트·망간(NCM) 등 다양한 양극재를 생산합니다.
 
-### 15. Solid-State Battery Hits 80% in 4.5 Minutes in Independent Test
+### 20. [Y인사이트] 트럼프, EUV 넘어 다이싱·TGV로 후공정 시장 확대 노린다
 - 발행일: 2026-02-25
-- 매체: Autoblog (출처등급 3)
-- 분야: 전고체
-- 링크: https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGIzMFdkUm5aYkZBdVVYcFd2Uld0amVVWHVsZHEtMnRqV1Vvcmc4aHpWTGdUYS00R2lhTWV3OHJ5bi1RU3FfVkVSUnFybXpjRHl5N1cxVDVLam1lcGM0RER1aDRBSjk0c2NFcTl3NG1rdzRHQWhKUWt4eFBZMnJqNEZkWDJkVDlJOTJQY1YxNmNnbzN1Mi1J?oc=5
-- 인기신호: unknown
-- 3문장 요약:
-  - <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGIzMFdkUm5aYkZBdVVYcFd2Uld0amVVWHVsZHEtMnRqV1Vvcmc4aHpWTGdUYS00R2lhTWV3OHJ5bi1RU3FfVkVSUnFybXpjRHl5N1cxVDVLam1lcGM0RER1aDRBSjk0c2NFcTl3NG1rdzRHQWhKUWt4eFBZMnJqNEZkWDJkVDlJOTJQY1YxNmNnbzN1Mi1J?oc=5" target="_blank">Solid-State Battery Hits 80% in 4.5 Minutes in Independent Test</a>&nbsp;&nbsp;<font color="#6f6f6f">Autoblog</font>.
-  - <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGIzMFdkUm5aYkZBdVVYcFd2Uld0amVVWHVsZHEtMnRqV1Vvcmc4aHpWTGdUYS00R2lhTWV3OHJ5bi1RU3FfVkVSUnFybXpjRHl5N1cxVDVLam1lcGM0RER1aDRBSjk0c2NFcT.
-  - l3NG1rdzRHQWhKUWt4eFBZMnJqNEZkWDJkVDlJOTJQY1YxNmNnbzN1Mi1J?oc=5" target="_blank">Solid-State Battery Hits 80% in 4.5 Minutes in Independent Test</a>&nbsp;&nbsp;<font color="#6f6f6f">Autoblog</font>.
-
-### 16. Donut Lab’s Solid-State Battery Cells Charge from Dead in Roughly Five Minutes
-- 발행일: 2026-02-25
-- 매체: Hagerty (출처등급 3)
-- 분야: 전고체
-- 링크: https://news.google.com/rss/articles/CBMiswFBVV95cUxQOENyY1FkeDRpcFdSRGZtNWQtNGh3Ml9INHRhTE9rcFlVQjVmQTR3TC1faUFwUlB0dUp4Uk40a2l6UVROSGV0a0xkam1waFlhbnlRN01NVFdTMDdNb1c5eU1Ca3Z6dWRFdUhmOVZPSDVVRlFjbHNxVzEwdUtoWktKdXptRzJ3c3llQWJuSk1GN0VydzM1R2N4YjRkSDJKdWJnckUyeUg3NTkyNmtiMlhEYUI3QQ?oc=5
-- 인기신호: unknown
-- 3문장 요약:
-  - <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQOENyY1FkeDRpcFdSRGZtNWQtNGh3Ml9INHRhTE9rcFlVQjVmQTR3TC1faUFwUlB0dUp4Uk40a2l6UVROSGV0a0xkam1waFlhbnlRN01NVFdTMDdNb1c5eU1Ca3Z6dWRFdUhmOVZPSDVVRlFjbHNxVzEwdUtoWktKdXptRzJ3c3llQWJuSk1GN0VydzM1R2N4YjRkSDJKdWJnckUyeUg3NTkyNmtiMlhEYUI3QQ?oc=5" target="_blank">Donut Lab’s Solid-State Battery Cells Charge from Dead in Roughly Five Minutes</a>&nbsp;&nbsp;<font color="#6f6f6f">Hagerty</font>.
-  - <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQOENyY1FkeDRpcFdSRGZtNWQtNGh3Ml9INHRhTE9rcFlVQjVmQTR3TC1faUFwUlB0dUp4Uk40a2l6UVROSGV0a0xkam1waFlhbnlRN01NVFdTMDdNb1c5eU1Ca3Z6dWRFdUhmOVZPSDVVRlFjbHNxVzEwdUtoWktK.
-  - dXptRzJ3c3llQWJuSk1GN0VydzM1R2N4YjRkSDJKdWJnckUyeUg3NTkyNmtiMlhEYUI3QQ?oc=5" target="_blank">Donut Lab’s Solid-State Battery Cells Charge from Dead in Roughly Five Minutes</a>&nbsp;&nbsp;<font color="#6f6f6f">Hagerty</font>.
-
-### 17. FuturGen Insight – Recycling electric vehicle batteries: a strategic priority for Europe and the industry
-- 발행일: 2026-02-25
-- 매체: renaultgroup.com (출처등급 3)
-- 분야: 재활용
-- 링크: https://news.google.com/rss/articles/CBMi_AFBVV95cUxQalR6Z1RlOEFUUVozTFl2M2tLLS1DbFRhWnkyU2w5LThrWWdmeVBvNkNYNVZNUE9VTkxrbEU3QWxZZVY1Y2VhY1EyOHVaa25HdTcwS1ExNFg0S1pydWFzR3dhOVRqYzQ4VmJsOVN0RW1VT1hGWGh3UEhPTEpzTW1RRkVrREl5YTZ4b00zQVZfaGVWY2ZLbG5DcVBsTDNwWW55NWtDLVowV09SZEZKQmZhSHdMQ3JDVFFSMml0UEJEQXpoMFRCemlEYkNPYlJ1NFR2blR0VnlvdFJodzNZUTFTeWkxLUVodHBucHV4OUZRTHhPWGxWbWtCck1zcWs?oc=5
-- 인기신호: unknown
-- 3문장 요약:
-  - <a href="https://news.google.com/rss/articles/CBMi_AFBVV95cUxQalR6Z1RlOEFUUVozTFl2M2tLLS1DbFRhWnkyU2w5LThrWWdmeVBvNkNYNVZNUE9VTkxrbEU3QWxZZVY1Y2VhY1EyOHVaa25HdTcwS1ExNFg0S1pydWFzR3dhOVRqYzQ4VmJsOVN0RW1VT1hGWGh3UEhPTEpzTW1RRkVrREl5YTZ4b00zQVZfaGVWY2ZLbG5DcVBsTDNwWW55NWtDLVowV09SZEZKQmZhSHdMQ3JDVFFSMml0UEJEQXpoMFRCemlEYkNPYlJ1NFR2blR0VnlvdFJodzNZUTFTeWkxLUVodHBucHV4OUZRTHhPWGxWbWtCck1zcWs?oc=5" target="_blank">FuturGen Insight – Recycling electric vehicle batteries: a strategic priority for Europe and the industry</a>&nbsp;&nbsp;<font color="#6f6f6f">renaultgroup.com</font>.
-  - <a href="https://news.google.com/rss/articles/CBMi_AFBVV95cUxQalR6Z1RlOEFUUVozTFl2M2tLLS1DbFRhWnkyU2w5LThrWWdmeVBvNkNYNVZNUE9VTkxrbEU3QWxZZVY1Y2VhY1EyOHVaa25HdTcwS1ExNFg0S1pydWFzR3dhOVRqYzQ4VmJsOVN0RW1VT1hGWGh3UEhPTEpzTW1RRkVrREl5YTZ4b00zQVZfaGVWY2ZLbG5DcVBsTDNwWW55NWtDLVowV09SZEZKQmZhSHd.
-  - MQ3JDVFFSMml0UEJEQXpoMFRCemlEYkNPYlJ1NFR2blR0VnlvdFJodzNZUTFTeWkxLUVodHBucHV4OUZRTHhPWGxWbWtCck1zcWs?oc=5" target="_blank">FuturGen Insight – Recycling electric vehicle batteries: a strategic priority for Europe and the industry</a>&nbsp;&nbsp;<font color="#6f6f6f">renaultgroup.com</font>.
-
-### 18. 전극공정 장비 제조 24년 노하우…하이브리드 건조로 'K배터리' 영토 확...
-- 발행일: 2026-02-26
-- 매체: www.hankyung.com (출처등급 3)
-- 분야: 장비
-- 링크: https://www.hankyung.com/article/2026022662411
-- 인기신호: unknown
-- 3문장 요약:
-  - 2002년 설립돼 올해로 업력 24년이 된 씨아이에스는 2차전지 핵심 공정 중 하나인 전극 공정 전문 장비를...
-  - 이 가운데 전극 공정은 활물질을 전극 기재 위에 도포한 뒤 이를 건조해 전극을 완성하는 단계로, 배터리 성능과...
-  - 이 가운데 전극 공정은 활물질을 전극 기재 위에 도포한 뒤 이를 건조해 전극을 완성하는 단계로, 배터리 성능과...
-
-### 19. 씨아이에스, 전극 공정 국산화 주역…'건식·전고체 배터리' 초격차 이...
-- 발행일: 2026-02-26
-- 매체: www.hankyung.com (출처등급 3)
-- 분야: 전고체
-- 링크: https://www.hankyung.com/article/2026022662421
-- 인기신호: unknown
-- 3문장 요약:
-  - 2차전지 제조 공정은 전극·조립·활성화·팩 공정으로 구성된다.
-  - 이 가운데 전극 공정은 완성된 배터리의 성능과 안정성을 좌우하는 핵심 공정이다.
-  - 씨아이에스는 코터(Coater), 캘린더(Roll Press), 슬리터(Slitter) 등 전극 제조...
-
-### 20. '공매도 떨고있나' 2차전지 목표주가 53% 상향
-- 발행일: 2026-02-26
-- 매체: www.wowtv.co.kr (출처등급 3)
+- 매체: www.thelec.kr (출처등급 3)
 - 분야: 기타
-- 링크: http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202602260340&t=NN
+- 링크: https://www.thelec.kr/news/articleView.html?idxno=52716
 - 인기신호: unknown
 - 3문장 요약:
-  - 전우재 KB증권 연구원은 보고서에서 "2차전지 업종이 일시적 정체기를 지나 ESS와 AI 데이터센터, 차세대 배터리라는 확실한 동력을 확보했다"며 "중국의 배터리 산업에 대한 미국의 견제가 계속되며 국내 기업들은...
-  - 전우재 KB증권 연구원은 보고서에서 "2차전지 업종이 일시적 정체기를 지나 ESS와 AI 데이터센터, 차세대.
-  - 배터리라는 확실한 동력을 확보했다"며 "중국의 배터리 산업에 대한 미국의 견제가 계속되며 국내 기업들은...
+  - 2차전지 분야에서 배터리 셀 내부 전극 표면에 레이저로 미세 통로를 만드는 스트럭처링 기술이 개발되었습니다.
+  - 수소전지 분야에서는 분리판 표면을 레이저로 클리닝하는 방식이 적용되고 있습니다.
+  - 이는 후공정 시장 확대를 위한 기술 개발 동향을 보여줍니다.
