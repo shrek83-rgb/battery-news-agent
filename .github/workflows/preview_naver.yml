@@ -48,5 +48,6 @@ jobs:
           NAVER_FETCH_N: ${{ inputs.fetch_n }}
           NAVER_TOP_K: ${{ inputs.top_k }}
           NAVER_DEDUPE_THRESHOLD: ${{ inputs.dedupe_threshold }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python -m src.preview_naver
