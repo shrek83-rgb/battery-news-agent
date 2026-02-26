@@ -54,6 +54,29 @@ jobs:
         run: |
           python -m src.run
 
+      - name: Debug - list generated files + git status
+        if: always()
+        run: |
+          echo "PWD=$(pwd)"
+          echo "---- target_date ----"
+          python - <<'PY'
+          from src.utils import kst_yesterday_date_str
+          print("target_date =", kst_yesterday_date_str())
+          PY
+
+          echo "---- ls root ----"
+          ls -la
+
+          echo "---- outputs ----"
+          find outputs -maxdepth 3 -type f -print || true
+          echo "---- docs ----"
+          find docs -maxdepth 3 -type f -print || true
+          echo "---- data ----"
+          find data -maxdepth 3 -type f -print || true
+
+          echo "---- git status ----"
+          git status --porcelain || true
+
       - name: Upload outputs as GitHub artifact (optional)
         uses: actions/upload-artifact@v4
         with:
