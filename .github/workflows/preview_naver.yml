@@ -49,5 +49,10 @@ jobs:
           NAVER_TOP_K: ${{ inputs.top_k }}
           NAVER_DEDUPE_THRESHOLD: ${{ inputs.dedupe_threshold }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_DEDUPE_MODE: "always"
+          LLM_DEDUPE_CANDIDATES: "20"
+          LLM_DEDUPE_SIM_TOP: "12"
+          LLM_DEDUPE_KW_TOP: "8"
+          LLM_DEDUPE_RANDOM: "3"
         run: |
           python -m src.preview_naver
