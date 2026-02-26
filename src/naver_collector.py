@@ -1,31 +1,44 @@
 # src/naver_collector.py
 from __future__ import annotations
 
+import os
 import re
+import time
+import random
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from difflib import SequenceMatcher
-from typing import Any, Iterable, List, Dict, Tuple, Optional
+from typing import Any, List, Dict, Tuple, Optional
 from zoneinfo import ZoneInfo
 from urllib.parse import urlparse
 
 import requests
 from dateutil import parser as dtparser
+from pydantic import BaseModel, Field
+from google import genai
 
 
 KST = ZoneInfo("Asia/Seoul")
-NAVER_NEWS_ENDPOINT = "https://openapi.naver.com/v1/search/news.json"  # :contentReference[oaicite:1]{index=1}
+NAVER_NEWS_ENDPOINT = "https://openapi.naver.com/v1/search/news.json"
+
+DEFAULT_GEMINI_MODEL = os.getenv("GEMINI_MODEL_DEDUPE", "gemini-2.0-flash")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
+
+# LLM dedupe tuning
+LLM_TEMP = float(os.getenv("LLM_DEDUPE_TEMPERATURE", "0.0"))
+LLM_RETRIES = int(os.getenv("LLM_DEDUPE_RETRIES", "2"))
+LLM_BACKOFF_MAX = float(os.getenv("LLM_DEDUPE_BACKOFF_MAX", "6"))
+LLM_CANDIDATES = int(os.getenv("LLM_DEDUPE_CANDIDATES", "10"))  # compare against top-N similar kept titles
+FAST_SIM_GATE = float(os.getenv("LLM_DEDUPE_FAST_GATE", "0.72"))  # if no candidate above this, skip LLM call
 
 
 def _strip_html(s: str) -> str:
-    # title/description contains <b> tags etc.
     s = re.sub(r"<[^>]+>", "", s or "")
     s = s.replace("&quot;", '"').replace("&apos;", "'").replace("&amp;", "&")
     return re.sub(r"\s+", " ", s).strip()
 
 
 def _parse_pubdate_kst(pub: str) -> Optional[datetime]:
-    # pubDate: RFC 822 like "Mon, 26 Feb 2026 07:12:00 +0900"
     try:
         dt = dtparser.parse(pub)
         if dt.tzinfo is None:
@@ -43,10 +56,6 @@ def _domain(url: str) -> str:
 
 
 def _clean_title_tail_publisher(title: str) -> Tuple[str, Optional[str]]:
-    """
-    Naver/Google 형태 모두에서 종종 '제목 - 언론사'가 붙음.
-    제목에서 제거하고, publisher로 반환.
-    """
     if " - " not in title:
         return title.strip(), None
     base, tail = title.rsplit(" - ", 1)
@@ -58,32 +67,18 @@ def _clean_title_tail_publisher(title: str) -> Tuple[str, Optional[str]]:
 
 
 def _normalize_title_for_similarity(title: str) -> str:
-    """
-    유사도 비교용 정규화:
-    - HTML 제거
-    - [단독], (종합), <속보> 등 흔한 접두/접미 제거
-    - 특수문자 제거 / 공백 축약
-    """
     t = _strip_html(title).lower()
-
-    # 흔한 태그/머리말 제거
-    t = re.sub(r"^\s*[\[\(\<].{0,10}?[\]\)\>]\s*", "", t)  # [단독] (종합) <속보> 등
-    t = re.sub(r"\b(속보|단독|종합|인터뷰|분석|기획|칼럼)\b", " ", t)
-
-    # 괄호 안 짧은 부가정보 제거
-    t = re.sub(r"\([^)]{0,20}\)", " ", t)
-    t = re.sub(r"\[[^\]]{0,20}\]", " ", t)
-
-    # 기호 제거
+    # remove common markers
+    t = re.sub(r"\b(속보|단독|종합|인터뷰|분석|기획|칼럼|포토)\b", " ", t)
+    t = re.sub(r"^\s*[\[\(\<].{0,12}?[\]\)\>]\s*", "", t)  # [단독], (종합), <속보>
+    t = re.sub(r"\([^)]{0,24}\)", " ", t)
+    t = re.sub(r"\[[^\]]{0,24}\]", " ", t)
     t = re.sub(r"[^0-9a-z가-힣\s]", " ", t)
     t = re.sub(r"\s+", " ", t).strip()
     return t
 
 
 def _title_similarity(a: str, b: str) -> float:
-    """
-    제목 유사도: SequenceMatcher(문자열 기반)
-    """
     na = _normalize_title_for_similarity(a)
     nb = _normalize_title_for_similarity(b)
     if not na or not nb:
@@ -98,8 +93,7 @@ class NaverNewsItem:
     link: str
     source: str
     published_dt_kst: datetime
-    # request order rank(작을수록 상단 노출)
-    rank: int
+    rank: int  # smaller = higher in API response
 
 
 def collect_naver_last24h(
@@ -111,15 +105,10 @@ def collect_naver_last24h(
     sort: str = "date",
     timeout_sec: int = 20,
 ) -> List[NaverNewsItem]:
-    """
-    네이버 뉴스 검색 API로 최근 24시간 이내 기사 최대 max_fetch건 수집.
-    - API는 날짜필터가 없어서 sort=date로 가져온 뒤 pubDate 기준으로 24h 필터링
-    - display=100 단위로 페이지네이션(start=1,101,...)
-    """
     headers = {
         "X-Naver-Client-Id": client_id,
         "X-Naver-Client-Secret": client_secret,
-    }  # :contentReference[oaicite:2]{index=2}
+    }
 
     now = datetime.now(tz=KST)
     cutoff = now - timedelta(hours=24)
@@ -131,12 +120,7 @@ def collect_naver_last24h(
     start = 1
     while start <= 1000 and len(out) < max_fetch:
         display = min(100, max_fetch - len(out))
-        params = {
-            "query": query,
-            "display": display,
-            "start": start,
-            "sort": sort,
-        }  # :contentReference[oaicite:3]{index=3}
+        params = {"query": query, "display": display, "start": start, "sort": sort}
 
         r = requests.get(NAVER_NEWS_ENDPOINT, headers=headers, params=params, timeout=timeout_sec)
         if r.status_code >= 400:
@@ -147,8 +131,6 @@ def collect_naver_last24h(
         if not items:
             break
 
-        # sort=date이면 최신 → 과거 순으로 내려온다고 가정하고,
-        # cutoff보다 과거가 나타나면 다음 페이지도 과거일 가능성이 높으므로 종료(성능)
         reached_older = False
 
         for it in items:
@@ -165,17 +147,13 @@ def collect_naver_last24h(
             origin = (it.get("originallink") or it.get("link") or "").strip()
             if not origin:
                 continue
-
-            # 제목 끝 "- 언론사" 처리
-            title, tail_pub = _clean_title_tail_publisher(title_raw)
-
-            # source 추정 (tail_pub 우선, 없으면 도메인)
-            src = tail_pub or _domain(origin) or "NAVER"
-
-            # 링크 중복 제거
             if origin in seen_links:
                 continue
             seen_links.add(origin)
+
+            # clean " - 언론사"
+            title, tail_pub = _clean_title_tail_publisher(title_raw)
+            src = tail_pub or _domain(origin) or "NAVER"
 
             out.append(
                 NaverNewsItem(
@@ -188,12 +166,10 @@ def collect_naver_last24h(
                 )
             )
             rank_counter += 1
-
             if len(out) >= max_fetch:
                 break
 
         if sort == "date" and reached_older:
-            # 더 내려가면 24h 밖이 많아질 가능성이 큼
             break
 
         start += 100
@@ -201,15 +177,149 @@ def collect_naver_last24h(
     return out
 
 
-def dedupe_by_title_similarity(
+# -----------------------------
+# LLM semantic dedupe (title-only)
+# -----------------------------
+class DedupDecision(BaseModel):
+    is_duplicate: bool = Field(..., description="Whether the new title is the same news/event as a previous one")
+    duplicate_of_rank: int | None = Field(None, description="rank of the kept item it duplicates (if any)")
+
+
+SYSTEM_DEDUPE = (
+    "당신은 뉴스 편집자입니다. "
+    "두 뉴스 제목이 '같은 사건/이슈'인지 판단합니다. "
+    "표현이 달라도 같은 사건이면 중복으로 간주합니다. "
+    "서로 다른 사건이면 중복이 아닙니다. "
+    "판단은 제목 텍스트만 기반으로 하며, 추측은 최소화합니다."
+)
+
+
+def _sleep_backoff(attempt: int) -> None:
+    t = min(LLM_BACKOFF_MAX, 1.6 ** (attempt + 1))
+    t = t * (0.75 + random.random() * 0.5)
+    time.sleep(t)
+
+
+def _llm_is_duplicate(
+    client: genai.Client,
+    new_title: str,
+    candidates: List[Tuple[int, str]],
+    model: str,
+) -> DedupDecision:
+    """
+    candidates: list of (rank, title) for already-kept items
+    returns: DedupDecision
+    """
+    # We require strict JSON output via response_schema.
+    prompt = f"""
+[새 제목]
+{new_title}
+
+[비교 대상(이미 선택된 제목들)]
+""" + "\n".join([f"- ({rk}) {t}" for rk, t in candidates]) + """
+
+[출력(JSON)]
+- is_duplicate: true/false
+- duplicate_of_rank: 중복이면 어느 (rank)와 같은지, 아니면 null
+
+[판단 기준]
+- 같은 회사/기관의 같은 발표/계약/투자/실적/사고/규제/제품 발표 등 같은 사건이면 중복(true)
+- 같은 사건을 다른 표현으로 쓴 경우도 중복(true)
+- 단순히 주제가 비슷한 정도(예: 전고체 전반, 배터리 시장 일반)는 중복(false)
+""".strip()
+
+    resp = client.models.generate_content(
+        model=model,
+        contents=prompt,
+        config={
+            "system_instruction": SYSTEM_DEDUPE,
+            "temperature": LLM_TEMP,
+            "response_mime_type": "application/json",
+            "response_schema": DedupDecision,
+        },
+    )
+    parsed = getattr(resp, "parsed", None)
+    if parsed is None:
+        parsed = DedupDecision.model_validate_json(resp.text)
+    return parsed
+
+
+def dedupe_by_llm_semantic(
     items: List[NaverNewsItem],
-    threshold: float = 0.88,
+    *,
+    fast_gate: float = FAST_SIM_GATE,
+    candidates_n: int = LLM_CANDIDATES,
+    model: str = DEFAULT_GEMINI_MODEL,
 ) -> List[NaverNewsItem]:
     """
-    제목 유사도 기반 중복 제거.
-    - 입력 순서를 유지(=상위 노출 우선)
-    - threshold 이상이면 같은 이슈로 간주하고 뒤의 것을 제거
+    Maintain input order (rank order = "상위 노출" 우선).
+    For each new item:
+      - find top-N similar kept titles by string similarity
+      - if none above fast_gate -> keep (no LLM call)
+      - else ask LLM whether it's duplicate of one of candidates
     """
+    if not GEMINI_API_KEY:
+        # fallback to pure similarity (older behavior)
+        return dedupe_by_title_similarity(items, threshold=0.90)
+
+    client = genai.Client(api_key=GEMINI_API_KEY)
+
+    kept: List[NaverNewsItem] = []
+    kept_titles: List[Tuple[int, str]] = []  # (rank, title)
+
+    for it in items:
+        if not kept:
+            kept.append(it)
+            kept_titles.append((it.rank, it.title))
+            continue
+
+        # compute candidate similarities to already kept
+        sims: List[Tuple[float, int, str]] = []
+        for rk, t in kept_titles:
+            sims.append((_title_similarity(it.title, t), rk, t))
+        sims.sort(key=lambda x: x[0], reverse=True)
+
+        # if no one is close enough, skip LLM and keep
+        top_sim = sims[0][0] if sims else 0.0
+        if top_sim < fast_gate:
+            kept.append(it)
+            kept_titles.append((it.rank, it.title))
+            continue
+
+        candidates = [(rk, t) for _, rk, t in sims[:candidates_n]]
+
+        # LLM decision with retries
+        decision: Optional[DedupDecision] = None
+        last_err: Optional[Exception] = None
+        for attempt in range(LLM_RETRIES + 1):
+            try:
+                decision = _llm_is_duplicate(client, it.title, candidates, model=model)
+                break
+            except Exception as e:
+                last_err = e
+                if attempt < LLM_RETRIES:
+                    _sleep_backoff(attempt)
+                else:
+                    decision = None
+
+        if decision is None:
+            # If LLM completely fails, conservatively keep (or you can drop). We'll keep.
+            # This prevents accidental over-filtering.
+            kept.append(it)
+            kept_titles.append((it.rank, it.title))
+            continue
+
+        if decision.is_duplicate and decision.duplicate_of_rank is not None:
+            # drop duplicate
+            continue
+
+        kept.append(it)
+        kept_titles.append((it.rank, it.title))
+
+    return kept
+
+
+def dedupe_by_title_similarity(items: List[NaverNewsItem], threshold: float = 0.88) -> List[NaverNewsItem]:
     kept: List[NaverNewsItem] = []
     for it in items:
         is_dup = False
@@ -222,11 +332,7 @@ def dedupe_by_title_similarity(
     return kept
 
 
-def select_top(
-    items: List[NaverNewsItem],
-    k: int = 15,
-) -> List[NaverNewsItem]:
-    # "상위 노출" = API 응답 상단(입력 순서 유지) 기준
+def select_top(items: List[NaverNewsItem], k: int = 15) -> List[NaverNewsItem]:
     return items[:k]
 
 
@@ -236,7 +342,6 @@ def collect_naver_top15_last24h_deduped(
     client_secret: str,
     query: str,
     fetch_n: int = 150,
-    dedupe_threshold: float = 0.88,
     top_k: int = 15,
 ) -> List[NaverNewsItem]:
     raw = collect_naver_last24h(
@@ -246,5 +351,8 @@ def collect_naver_top15_last24h_deduped(
         max_fetch=fetch_n,
         sort="date",
     )
-    deduped = dedupe_by_title_similarity(raw, threshold=dedupe_threshold)
+
+    # ✅ LLM semantic dedupe (title-only)
+    deduped = dedupe_by_llm_semantic(raw)
+
     return select_top(deduped, k=top_k)
