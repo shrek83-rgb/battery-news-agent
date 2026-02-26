@@ -42,32 +42,43 @@ def extract_companies(title: str, description: str, max_n: int = 3) -> list[str]
             break
     return found
 
-def fallback_summary_3_sentences(title: str, description: str, category: str = "기타", source: str = "") -> list[str]:
+def fallback_summary_3_sentences_from_description(title: str, description: str) -> list[str]:
     """
-    LLM 실패 시에도 3문장을 항상 채우는 fallback.
-    - description에서 문장 1~3개를 최대한 사용
-    - 부족하면 'category/source'를 섞어 고정문장 반복을 줄임
+    템플릿 금지. description에서 문장 3개를 최대한 뽑는다.
+    문장이 부족하면 description을 길이로 3등분해 문장처럼 만든다(내용 기반).
     """
     import re
-
     desc = re.sub(r"\s+", " ", (description or "")).strip()
-    # 대략적인 문장 분리(KR/EN 혼합)
-    candidates = re.split(r"(?<=[\.\!\?])\s+|(?<=다\.)\s+|(?<=요\.)\s+", desc)
-    candidates = [c.strip() for c in candidates if c.strip()]
 
-    out = candidates[:3]
+    # 1) 문장 분리 시도
+    parts = re.split(r"(?<=[\.\!\?])\s+|(?<=다\.)\s+|(?<=요\.)\s+", desc)
+    parts = [p.strip() for p in parts if p.strip()]
 
-    if len(out) == 0:
-        out.append(f"{title} 관련 소식입니다.")
-    if len(out) == 1:
-        out.append(f"해당 이슈는 {category} 분야 관점에서 영향/파급을 점검할 필요가 있습니다.")
-    if len(out) == 2:
-        tail = f"추가 세부사항은 원문에서 확인하세요."
-        if source:
-            tail = f"{source} 보도를 바탕으로 핵심 내용을 확인했습니다."
-        out.append(tail)
+    if len(parts) >= 3:
+        return parts[:3]
 
-    # 정확히 3개로 맞춤
+    # 2) 문장이 부족하면 내용 기반 chunking
+    base = desc if desc else title
+    base = base.strip()
+    if not base:
+        return ["", "", ""]
+
+    # 길이 기준 3등분
+    n = len(base)
+    cut1 = max(1, n // 3)
+    cut2 = max(cut1 + 1, 2 * n // 3)
+
+    s1 = base[:cut1].strip()
+    s2 = base[cut1:cut2].strip()
+    s3 = base[cut2:].strip()
+
+    # 문장처럼 마침표 보강
+    def enddot(s: str) -> str:
+        if not s:
+            return s
+        return s if s.endswith((".", "!", "?", "다.", "요.")) else (s + ".")
+
+    out = [enddot(s1), enddot(s2), enddot(s3)]
     while len(out) < 3:
         out.append("")
     return out[:3]
