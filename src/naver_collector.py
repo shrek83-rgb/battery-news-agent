@@ -60,6 +60,13 @@ RANK_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL_RANK", BASE_MODEL))
 
 DEBUG = os.getenv("NAVER_DEBUG", "0") == "1"
 
+if DEBUG:
+    print("[DEBUG] GEMINI_MODEL env:", os.getenv("GEMINI_MODEL"))
+    print("[DEBUG] GEMINI_MODEL_DEDUPE env:", os.getenv("GEMINI_MODEL_DEDUPE"))
+    print("[DEBUG] GEMINI_MODEL_RANK env:", os.getenv("GEMINI_MODEL_RANK"))
+
+BASE_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL", "gemini-2.5-flash"))
+
 FETCH_N = int(os.getenv("NAVER_FETCH_N", "150"))
 TIME_WINDOW_HOURS = int(os.getenv("NAVER_WINDOW_HOURS", "24"))
 
