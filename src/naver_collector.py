@@ -21,15 +21,22 @@ from google import genai
 KST = ZoneInfo("Asia/Seoul")
 NAVER_NEWS_ENDPOINT = "https://openapi.naver.com/v1/search/news.json"
 
-DEFAULT_GEMINI_MODEL = os.getenv("GEMINI_MODEL_DEDUPE", "gemini-2.0-flash")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
+DEDUP_MODEL = os.getenv("GEMINI_MODEL_DEDUPE", "gemini-2.0-flash")
+RANK_MODEL = os.getenv("GEMINI_MODEL_RANK", "gemini-2.0-flash")
 
-# LLM dedupe tuning
-LLM_TEMP = float(os.getenv("LLM_DEDUPE_TEMPERATURE", "0.0"))
-LLM_RETRIES = int(os.getenv("LLM_DEDUPE_RETRIES", "2"))
-LLM_BACKOFF_MAX = float(os.getenv("LLM_DEDUPE_BACKOFF_MAX", "6"))
-LLM_CANDIDATES = int(os.getenv("LLM_DEDUPE_CANDIDATES", "10"))  # compare against top-N similar kept titles
-FAST_SIM_GATE = float(os.getenv("LLM_DEDUPE_FAST_GATE", "0.72"))  # if no candidate above this, skip LLM call
+# Dedupe tuning
+LLM_DEDUPE_TEMP = float(os.getenv("LLM_DEDUPE_TEMPERATURE", "0.0"))
+LLM_DEDUPE_RETRIES = int(os.getenv("LLM_DEDUPE_RETRIES", "2"))
+LLM_DEDUPE_BACKOFF_MAX = float(os.getenv("LLM_DEDUPE_BACKOFF_MAX", "6"))
+LLM_DEDUPE_CANDIDATES = int(os.getenv("LLM_DEDUPE_CANDIDATES", "10"))
+LLM_DEDUPE_FAST_GATE = float(os.getenv("LLM_DEDUPE_FAST_GATE", "0.70"))  # 낮출수록 LLM 더 자주 호출
+
+# Importance tuning
+LLM_IMPORTANCE_TEMP = float(os.getenv("LLM_IMPORTANCE_TEMPERATURE", "0.2"))
+LLM_IMPORTANCE_RETRIES = int(os.getenv("LLM_IMPORTANCE_RETRIES", "2"))
+LLM_IMPORTANCE_BACKOFF_MAX = float(os.getenv("LLM_IMPORTANCE_BACKOFF_MAX", "8"))
+LLM_IMPORTANCE_CHUNK = int(os.getenv("LLM_IMPORTANCE_CHUNK", "30"))  # 한 번에 점수화할 제목 수
 
 
 def _strip_html(s: str) -> str:
@@ -56,21 +63,23 @@ def _domain(url: str) -> str:
 
 
 def _clean_title_tail_publisher(title: str) -> Tuple[str, Optional[str]]:
+    """
+    제목이 '... - 언론사' 형태면 언론사 분리
+    """
     if " - " not in title:
         return title.strip(), None
     base, tail = title.rsplit(" - ", 1)
-    tail = tail.strip()
     base = base.strip()
-    if 2 <= len(tail) <= 60 and base:
+    tail = tail.strip()
+    if base and 2 <= len(tail) <= 60:
         return base, tail
     return title.strip(), None
 
 
 def _normalize_title_for_similarity(title: str) -> str:
     t = _strip_html(title).lower()
-    # remove common markers
     t = re.sub(r"\b(속보|단독|종합|인터뷰|분석|기획|칼럼|포토)\b", " ", t)
-    t = re.sub(r"^\s*[\[\(\<].{0,12}?[\]\)\>]\s*", "", t)  # [단독], (종합), <속보>
+    t = re.sub(r"^\s*[\[\(\<].{0,12}?[\]\)\>]\s*", "", t)
     t = re.sub(r"\([^)]{0,24}\)", " ", t)
     t = re.sub(r"\[[^\]]{0,24}\]", " ", t)
     t = re.sub(r"[^0-9a-z가-힣\s]", " ", t)
@@ -86,6 +95,12 @@ def _title_similarity(a: str, b: str) -> float:
     return SequenceMatcher(None, na, nb).ratio()
 
 
+def _sleep_backoff(attempt: int, max_sec: float) -> None:
+    t = min(max_sec, (1.6 ** (attempt + 1)))
+    t = t * (0.75 + random.random() * 0.5)
+    time.sleep(t)
+
+
 @dataclass
 class NaverNewsItem:
     title: str
@@ -93,9 +108,12 @@ class NaverNewsItem:
     link: str
     source: str
     published_dt_kst: datetime
-    rank: int  # smaller = higher in API response
+    rank: int  # API 응답 상단일수록 낮음(상위 노출)
 
 
+# -----------------------------
+# 1) Collect 24h / 150
+# -----------------------------
 def collect_naver_last24h(
     *,
     client_id: str,
@@ -105,6 +123,11 @@ def collect_naver_last24h(
     sort: str = "date",
     timeout_sec: int = 20,
 ) -> List[NaverNewsItem]:
+    """
+    - API sort=date로 최신부터 가져온 후
+    - pubDate를 KST로 파싱해서 24시간 이내만 유지
+    - 최대 max_fetch개까지
+    """
     headers = {
         "X-Naver-Client-Id": client_id,
         "X-Naver-Client-Secret": client_secret,
@@ -151,7 +174,6 @@ def collect_naver_last24h(
                 continue
             seen_links.add(origin)
 
-            # clean " - 언론사"
             title, tail_pub = _clean_title_tail_publisher(title_raw)
             src = tail_pub or _domain(origin) or "NAVER"
 
@@ -169,6 +191,7 @@ def collect_naver_last24h(
             if len(out) >= max_fetch:
                 break
 
+        # sort=date이면 더 내려갈수록 과거 비중이 커지므로 성능상 종료
         if sort == "date" and reached_older:
             break
 
@@ -178,26 +201,20 @@ def collect_naver_last24h(
 
 
 # -----------------------------
-# LLM semantic dedupe (title-only)
+# 2) LLM semantic dedupe (title-based)
 # -----------------------------
 class DedupDecision(BaseModel):
-    is_duplicate: bool = Field(..., description="Whether the new title is the same news/event as a previous one")
-    duplicate_of_rank: int | None = Field(None, description="rank of the kept item it duplicates (if any)")
+    is_duplicate: bool
+    duplicate_of_rank: int | None = None
 
 
 SYSTEM_DEDUPE = (
     "당신은 뉴스 편집자입니다. "
     "두 뉴스 제목이 '같은 사건/이슈'인지 판단합니다. "
-    "표현이 달라도 같은 사건이면 중복으로 간주합니다. "
-    "서로 다른 사건이면 중복이 아닙니다. "
-    "판단은 제목 텍스트만 기반으로 하며, 추측은 최소화합니다."
+    "표현이 달라도 같은 사건이면 중복(true)입니다. "
+    "단순히 주제가 비슷한 정도(예: 배터리 시장 일반)는 중복(false)입니다. "
+    "제목만 보고 판단하세요."
 )
-
-
-def _sleep_backoff(attempt: int) -> None:
-    t = min(LLM_BACKOFF_MAX, 1.6 ** (attempt + 1))
-    t = t * (0.75 + random.random() * 0.5)
-    time.sleep(t)
 
 
 def _llm_is_duplicate(
@@ -206,34 +223,27 @@ def _llm_is_duplicate(
     candidates: List[Tuple[int, str]],
     model: str,
 ) -> DedupDecision:
-    """
-    candidates: list of (rank, title) for already-kept items
-    returns: DedupDecision
-    """
-    # We require strict JSON output via response_schema.
-    prompt = f"""
-[새 제목]
-{new_title}
-
-[비교 대상(이미 선택된 제목들)]
-""" + "\n".join([f"- ({rk}) {t}" for rk, t in candidates]) + """
-
-[출력(JSON)]
-- is_duplicate: true/false
-- duplicate_of_rank: 중복이면 어느 (rank)와 같은지, 아니면 null
-
-[판단 기준]
-- 같은 회사/기관의 같은 발표/계약/투자/실적/사고/규제/제품 발표 등 같은 사건이면 중복(true)
-- 같은 사건을 다른 표현으로 쓴 경우도 중복(true)
-- 단순히 주제가 비슷한 정도(예: 전고체 전반, 배터리 시장 일반)는 중복(false)
-""".strip()
+    prompt = (
+        "[새 제목]\n"
+        f"{new_title}\n\n"
+        "[비교 대상(이미 선택된 제목들)]\n"
+        + "\n".join([f"- ({rk}) {t}" for rk, t in candidates])
+        + "\n\n"
+        "[출력(JSON)]\n"
+        "- is_duplicate: true/false\n"
+        "- duplicate_of_rank: 중복이면 어느 (rank)와 같은지, 아니면 null\n\n"
+        "[판단 기준]\n"
+        "- 같은 회사/기관의 같은 발표/계약/투자/실적/사고/규제/제품 발표 등 같은 사건이면 중복(true)\n"
+        "- 같은 사건을 다른 표현으로 쓴 경우도 중복(true)\n"
+        "- 단순히 주제가 비슷한 정도는 중복(false)\n"
+    )
 
     resp = client.models.generate_content(
         model=model,
         contents=prompt,
         config={
             "system_instruction": SYSTEM_DEDUPE,
-            "temperature": LLM_TEMP,
+            "temperature": LLM_DEDUPE_TEMP,
             "response_mime_type": "application/json",
             "response_schema": DedupDecision,
         },
@@ -247,25 +257,23 @@ def _llm_is_duplicate(
 def dedupe_by_llm_semantic(
     items: List[NaverNewsItem],
     *,
-    fast_gate: float = FAST_SIM_GATE,
-    candidates_n: int = LLM_CANDIDATES,
-    model: str = DEFAULT_GEMINI_MODEL,
+    fast_gate: float = LLM_DEDUPE_FAST_GATE,
+    candidates_n: int = LLM_DEDUPE_CANDIDATES,
+    model: str = DEDUP_MODEL,
 ) -> List[NaverNewsItem]:
     """
-    Maintain input order (rank order = "상위 노출" 우선).
-    For each new item:
-      - find top-N similar kept titles by string similarity
-      - if none above fast_gate -> keep (no LLM call)
-      - else ask LLM whether it's duplicate of one of candidates
+    입력 순서 유지(= 상위 노출 우선).
+    - 문자열 유사도 상위 후보가 일정 수준(fast_gate) 이상일 때만 LLM 호출(속도/비용 절감)
+    - LLM이 중복(true)로 판단하면 제외
     """
     if not GEMINI_API_KEY:
-        # fallback to pure similarity (older behavior)
-        return dedupe_by_title_similarity(items, threshold=0.90)
+        # LLM 키 없으면 강한 문자열 유사도 기준으로만 제거
+        return dedupe_by_title_similarity(items, threshold=0.92)
 
     client = genai.Client(api_key=GEMINI_API_KEY)
 
     kept: List[NaverNewsItem] = []
-    kept_titles: List[Tuple[int, str]] = []  # (rank, title)
+    kept_titles: List[Tuple[int, str]] = []
 
     for it in items:
         if not kept:
@@ -273,13 +281,11 @@ def dedupe_by_llm_semantic(
             kept_titles.append((it.rank, it.title))
             continue
 
-        # compute candidate similarities to already kept
         sims: List[Tuple[float, int, str]] = []
         for rk, t in kept_titles:
             sims.append((_title_similarity(it.title, t), rk, t))
         sims.sort(key=lambda x: x[0], reverse=True)
 
-        # if no one is close enough, skip LLM and keep
         top_sim = sims[0][0] if sims else 0.0
         if top_sim < fast_gate:
             kept.append(it)
@@ -288,29 +294,26 @@ def dedupe_by_llm_semantic(
 
         candidates = [(rk, t) for _, rk, t in sims[:candidates_n]]
 
-        # LLM decision with retries
         decision: Optional[DedupDecision] = None
         last_err: Optional[Exception] = None
-        for attempt in range(LLM_RETRIES + 1):
+        for attempt in range(LLM_DEDUPE_RETRIES + 1):
             try:
                 decision = _llm_is_duplicate(client, it.title, candidates, model=model)
                 break
             except Exception as e:
                 last_err = e
-                if attempt < LLM_RETRIES:
-                    _sleep_backoff(attempt)
+                if attempt < LLM_DEDUPE_RETRIES:
+                    _sleep_backoff(attempt, LLM_DEDUPE_BACKOFF_MAX)
                 else:
                     decision = None
 
         if decision is None:
-            # If LLM completely fails, conservatively keep (or you can drop). We'll keep.
-            # This prevents accidental over-filtering.
+            # LLM 실패 시 과도하게 삭제하지 않도록 보수적으로 keep
             kept.append(it)
             kept_titles.append((it.rank, it.title))
             continue
 
         if decision.is_duplicate and decision.duplicate_of_rank is not None:
-            # drop duplicate
             continue
 
         kept.append(it)
@@ -332,18 +335,161 @@ def dedupe_by_title_similarity(items: List[NaverNewsItem], threshold: float = 0.
     return kept
 
 
-def select_top(items: List[NaverNewsItem], k: int = 15) -> List[NaverNewsItem]:
-    return items[:k]
+# -----------------------------
+# 3) LLM importance scoring (title-only)
+# -----------------------------
+class ImportanceScore(BaseModel):
+    index: int = Field(..., description="Index in the provided list")
+    score: int = Field(..., ge=0, le=100, description="Importance score for industry-wide monitoring")
 
 
-def collect_naver_top15_last24h_deduped(
+class ImportanceResp(BaseModel):
+    scores: List[ImportanceScore]
+
+
+SYSTEM_IMPORTANCE = (
+    "당신은 배터리 산업(소재-셀-팩-재활용-정책-공급망) 모니터링 담당자입니다. "
+    "아래 뉴스 제목들을 '산업 전반 변화 모니터링에 중요한지' 기준으로 0~100으로 점수화하세요.\n"
+    "높은 점수 예:\n"
+    "- 주요 기업의 대형 투자/증설/공장, 공급계약, M&A\n"
+    "- 정책/규제/보조금/관세/IRA/EU 규정 등 산업 전반 영향\n"
+    "- 소재 가격/수급, 공급망 리스크, 안전 리콜/사고\n"
+    "- 전고체/나트륨 등 핵심 기술의 의미 있는 진전\n"
+    "낮은 점수 예:\n"
+    "- 단순 홍보/소규모 행사/지역 단신/반복 보도\n"
+    "제목만 보고 판단하세요. 과장 금지."
+)
+
+
+def _llm_score_chunk(
+    client: genai.Client,
+    titles_with_idx: List[Tuple[int, str]],
+    model: str,
+) -> Dict[int, int]:
+    prompt = (
+        "[제목 목록]\n"
+        + "\n".join([f"{i}. {t}" for i, t in titles_with_idx])
+        + "\n\n"
+        "[출력(JSON)]\n"
+        "scores: [{index:int, score:int(0~100)}, ...]\n"
+        "주의: 모든 index에 대해 반드시 score를 출력\n"
+    )
+
+    resp = client.models.generate_content(
+        model=model,
+        contents=prompt,
+        config={
+            "system_instruction": SYSTEM_IMPORTANCE,
+            "temperature": LLM_IMPORTANCE_TEMP,
+            "response_mime_type": "application/json",
+            "response_schema": ImportanceResp,
+        },
+    )
+
+    parsed = getattr(resp, "parsed", None)
+    if parsed is None:
+        parsed = ImportanceResp.model_validate_json(resp.text)
+
+    mapping: Dict[int, int] = {}
+    for sc in parsed.scores:
+        mapping[int(sc.index)] = int(sc.score)
+    return mapping
+
+
+def score_importance_by_llm(
+    items: List[NaverNewsItem],
+    model: str = RANK_MODEL,
+    chunk_size: int = LLM_IMPORTANCE_CHUNK,
+) -> List[int]:
+    """
+    Returns list of scores aligned to items index.
+    """
+    if not GEMINI_API_KEY:
+        # fallback heuristic scoring if no LLM key
+        return heuristic_importance_scores(items)
+
+    client = genai.Client(api_key=GEMINI_API_KEY)
+    scores = [0 for _ in items]
+
+    # chunk scoring
+    for start in range(0, len(items), chunk_size):
+        chunk = items[start : start + chunk_size]
+        titles_with_idx = [(start + i, it.title) for i, it in enumerate(chunk)]
+
+        last_err: Optional[Exception] = None
+        mapping: Optional[Dict[int, int]] = None
+        for attempt in range(LLM_IMPORTANCE_RETRIES + 1):
+            try:
+                mapping = _llm_score_chunk(client, titles_with_idx, model=model)
+                break
+            except Exception as e:
+                last_err = e
+                if attempt < LLM_IMPORTANCE_RETRIES:
+                    _sleep_backoff(attempt, LLM_IMPORTANCE_BACKOFF_MAX)
+                else:
+                    mapping = None
+
+        if mapping is None:
+            # fallback for this chunk only
+            hs = heuristic_importance_scores(chunk)
+            for i, s in enumerate(hs):
+                scores[start + i] = s
+            continue
+
+        # fill scores (ensure all indices exist; if missing, fallback)
+        for idx, _title in titles_with_idx:
+            if idx in mapping:
+                scores[idx] = mapping[idx]
+            else:
+                scores[idx] = heuristic_importance_scores([items[idx]])[0]
+
+    return scores
+
+
+def heuristic_importance_scores(items: List[NaverNewsItem]) -> List[int]:
+    """
+    아주 간단한 키워드 기반 fallback(LLM 없거나 실패 시).
+    """
+    high = [
+        "투자", "조원", "억원", "수주", "공급", "계약", "협약", "mou", "deal", "agreement",
+        "증설", "공장", "양산", "생산", "캐파", "capacity", "plant", "gigafactory",
+        "규제", "관세", "보조금", "정책", "ira", "eu", "battery regulation",
+        "리콜", "화재", "사고", "안전",
+        "전고체", "나트륨", "solid-state", "sodium-ion", "breakthrough",
+        "실적", "매출", "영업이익", "earnings", "profit",
+        "m&a", "인수", "합병",
+    ]
+    mid = ["출시", "개발", "연구", "협력", "파트너", "파트너십", "pilot", "prototype"]
+
+    out = []
+    for it in items:
+        t = it.title.lower()
+        s = 10
+        for k in high:
+            if k.lower() in t:
+                s += 10
+        for k in mid:
+            if k.lower() in t:
+                s += 4
+        # clamp
+        out.append(min(100, s))
+    return out
+
+
+# -----------------------------
+# 4) Combined pipeline: fetch 150 -> LLM dedupe -> LLM importance -> top 15
+# -----------------------------
+def collect_naver_top15_last24h_deduped_and_ranked(
     *,
     client_id: str,
     client_secret: str,
     query: str,
     fetch_n: int = 150,
     top_k: int = 15,
-) -> List[NaverNewsItem]:
+) -> Tuple[List[NaverNewsItem], List[int]]:
+    """
+    Returns (picked_items, picked_scores) aligned.
+    """
     raw = collect_naver_last24h(
         client_id=client_id,
         client_secret=client_secret,
@@ -352,7 +498,17 @@ def collect_naver_top15_last24h_deduped(
         sort="date",
     )
 
-    # ✅ LLM semantic dedupe (title-only)
     deduped = dedupe_by_llm_semantic(raw)
 
-    return select_top(deduped, k=top_k)
+    # importance scoring (title-only)
+    scores = score_importance_by_llm(deduped)
+
+    # select top_k by score desc, tie-break by rank asc (상위 노출 우선)
+    idxs = list(range(len(deduped)))
+    idxs.sort(key=lambda i: (-scores[i], deduped[i].rank))
+
+    picked_idxs = idxs[:top_k]
+    picked_items = [deduped[i] for i in picked_idxs]
+    picked_scores = [scores[i] for i in picked_idxs]
+
+    return picked_items, picked_scores
