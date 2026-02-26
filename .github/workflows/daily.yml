@@ -47,7 +47,7 @@ jobs:
           MAX_ITEMS: "20"
           
           GEMINI_RETRIES: "4"
-          GEMINI_MODEL: "gemini-3-flash-preview"
+          GEMINI_MODEL: "gemini-2.5-flash"
         run: |
           python -m src.run
 
