@@ -45,12 +45,17 @@ jobs:
           NAVER_COUNT: "15"
           GOOGLE_COUNT: "5"
           MAX_ITEMS: "20"
+          NAVER_NEAR_DUP_SIM_TH: "0.74"
+          NAVER_MAX_PER_ENTITY: "1"
+          NAVER_MAX_PER_TOPIC: "2"
+          BATTERY_RELEVANCE_MIN: "75"
           
           # GEMINI_RETRIES: "1"
           GEMINI_BATCH_RETRIES: "0"
           LLM_RETRIES: "0"
           GEMINI_DEBUG: "1"
           GEMINI_MODEL: "gemini-2.5-flash-lite"
+          
         run: |
           set -euxo pipefail
           python -u -m src.run
