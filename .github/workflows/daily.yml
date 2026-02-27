@@ -52,7 +52,8 @@ jobs:
           GEMINI_DEBUG: "1"
           GEMINI_MODEL: "gemini-2.5-flash-lite"
         run: |
-          python -m src.run
+          set -euxo pipefail
+          python -u -m src.run
 
       - name: Debug - list generated files + git status
         if: always()
