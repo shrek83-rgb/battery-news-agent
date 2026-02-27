@@ -3,7 +3,6 @@ from __future__ import annotations
 
 import os
 import re
-import json
 import time
 import random
 from dataclasses import dataclass
@@ -20,58 +19,30 @@ from google import genai
 KST = ZoneInfo("Asia/Seoul")
 NAVER_NEWS_ENDPOINT = "https://openapi.naver.com/v1/search/news.json"
 
-# -----------------------------
-# Model selection (single source of truth)
-# -----------------------------
+# unified model names (single env)
 def _normalize_model_name(name: str) -> str:
     n = (name or "").strip()
     if not n:
         return n
-    if n.startswith("google.gemini-"):
-        n = n.replace("google.", "", 1)
-
-    low = n.lower().strip()
-    low = low.replace("light", "lite")  # common typo
-
-    # allow gemma models as-is
-    if low.startswith("gemma-"):
-        return low
-
-    low2 = (
-        low.replace("_", " ")
-           .replace("-", " ")
-           .replace("flashlite", "flash lite")
-           .replace("  ", " ")
-    )
-
-    if "2.5" in low2 and "flash" in low2 and "lite" in low2:
-        return "gemini-2.5-flash-lite"
-    if "2.5" in low2 and "flash" in low2:
-        return "gemini-2.5-flash"
-    if "2.0" in low2 and "flash" in low2 and "lite" in low2:
-        return "gemini-2.0-flash-lite"
-    if "2.0" in low2 and "flash" in low2:
-        return "gemini-2.0-flash"
-
-    if low.startswith("gemini-"):
-        return low
+    n = n.lower().replace("light", "lite").strip()
     return n
 
-
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
+GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 BASE_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite"))
 RANK_MODEL = _normalize_model_name(os.getenv("GEMINI_MODEL_RANK", BASE_MODEL))
 
 DEBUG = os.getenv("NAVER_DEBUG", "0") == "1"
 
+# fetch control
 FETCH_N = int(os.getenv("NAVER_FETCH_N", "150"))
 TIME_WINDOW_HOURS = int(os.getenv("NAVER_WINDOW_HOURS", "24"))
 
-# request-count tight => default no retry
-LLM_RETRIES = int(os.getenv("LLM_RETRIES", "0"))
-LLM_BACKOFF_MAX = float(os.getenv("LLM_BACKOFF_MAX", "6"))
+# LLM retries/backoff
+LLM_RETRIES = int(os.getenv("LLM_RETRIES", "1"))
+LLM_BACKOFF_MAX = float(os.getenv("LLM_BACKOFF_MAX", "8"))
 
-BATTERY_RELEVANCE_MIN = int(os.getenv("BATTERY_RELEVANCE_MIN", "55"))
+# relevance threshold
+BATTERY_RELEVANCE_MIN = int(os.getenv("BATTERY_RELEVANCE_MIN", "60"))
 
 
 def _strip_html(s: str) -> str:
@@ -98,6 +69,7 @@ def _domain(url: str) -> str:
 
 
 def _clean_title_tail_publisher(title: str) -> Tuple[str, Optional[str]]:
+    # common: "기사제목 - 언론사"
     if " - " not in title:
         return title.strip(), None
     base, tail = title.rsplit(" - ", 1)
@@ -114,19 +86,6 @@ def _sleep_backoff(attempt: int) -> None:
     time.sleep(t)
 
 
-def _extract_json(text: str) -> str:
-    text = (text or "").strip()
-    if not text:
-        return ""
-    if text.startswith("{") and text.endswith("}"):
-        return text
-    s = text.find("{")
-    e = text.rfind("}")
-    if s != -1 and e != -1 and e > s:
-        return text[s : e + 1]
-    return text
-
-
 @dataclass
 class NaverNewsItem:
     title: str
@@ -134,9 +93,12 @@ class NaverNewsItem:
     link: str
     source: str
     published_dt_kst: datetime
-    rank: int  # smaller => higher in API order
+    rank: int  # API response order (smaller is higher)
 
 
+# -----------------------------
+# 1) Collect 24h by multi-query until max_fetch
+# -----------------------------
 def collect_naver_last24h_multiquery(
     *,
     client_id: str,
@@ -146,7 +108,10 @@ def collect_naver_last24h_multiquery(
     sort: str = "date",
     timeout_sec: int = 20,
 ) -> List[NaverNewsItem]:
-    headers = {"X-Naver-Client-Id": client_id, "X-Naver-Client-Secret": client_secret}
+    headers = {
+        "X-Naver-Client-Id": client_id,
+        "X-Naver-Client-Secret": client_secret,
+    }
 
     now = datetime.now(tz=KST)
     cutoff = now - timedelta(hours=TIME_WINDOW_HOURS)
@@ -216,11 +181,11 @@ def collect_naver_last24h_multiquery(
 
 
 # -----------------------------
-# LLM: score relevance + importance + event_key (title-only)
+# 2) One-shot LLM: event_key + relevance + importance (single call)
 # -----------------------------
 class TitleScore(BaseModel):
     index: int
-    event_key: str = Field(..., description="A short stable key for the same event/issue (use ASCII letters/digits/_)")
+    event_key: str = Field(..., description="Same event => same key (ASCII letters/digits/_)")
     battery_relevance: int = Field(..., ge=0, le=100)
     monitoring_importance: int = Field(..., ge=0, le=100)
 
@@ -229,62 +194,71 @@ class TitleScoreResp(BaseModel):
     items: List[TitleScore]
 
 
-def _llm_score_titles(titles: List[str], model: str) -> Optional[TitleScoreResp]:
-    if not GEMINI_API_KEY or not titles:
+SYSTEM_SCORE = (
+    "당신은 배터리 산업 뉴스 모니터링 담당자입니다.\n"
+    "제목만 보고 아래 3가지를 산출합니다.\n"
+    "1) event_key: '같은 사건/이슈'면 동일 키. 표현이 달라도 동일 사건이면 동일.\n"
+    "   - 단, '주제가 비슷'한 정도는 동일 사건이 아닙니다.\n"
+    "   - 키는 ASCII letters/digits/_만 사용.\n"
+    "2) battery_relevance(0~100): 배터리 산업과의 직접 연관성.\n"
+    "3) monitoring_importance(0~100): 산업 전반 모니터링 중요도(투자/증설/공급계약/정책·규제/관세/공급망/리콜·사고/핵심기술 등).\n"
+    "규칙:\n"
+    "- 모든 index는 정확히 1번씩 포함되어야 합니다.\n"
+    "- JSON만 출력합니다."
+)
+
+
+def _extract_json(text: str) -> str:
+    text = (text or "").strip()
+    if not text:
+        return ""
+    if text.startswith("{") and text.endswith("}"):
+        return text
+    s = text.find("{")
+    e = text.rfind("}")
+    if s != -1 and e != -1 and e > s:
+        return text[s : e + 1]
+    return text
+
+
+def score_titles_one_shot(items: List[NaverNewsItem]) -> Optional[TitleScoreResp]:
+    if not GEMINI_API_KEY or not items:
         return None
 
     client = genai.Client(api_key=GEMINI_API_KEY)
 
     prompt = (
-        "다음은 뉴스 제목 목록입니다. 각 제목에 대해 아래 정보를 JSON으로만 출력하세요.\n\n"
-        "출력 스키마:\n"
-        "{\n"
-        "  \"items\": [\n"
-        "    {\"index\": 0, \"event_key\": \"...\", \"battery_relevance\": 0-100, \"monitoring_importance\": 0-100}\n"
-        "  ]\n"
-        "}\n\n"
-        "규칙:\n"
-        "- event_key: 같은 사건/이슈면 같은 event_key를 부여(표현이 달라도 동일 사건이면 동일 key).\n"
-        "  예: POSCO_SK_lithium_supply_deal 처럼 ASCII/underscore로 짧게.\n"
-        "- battery_relevance(0~100): 배터리 산업과의 직접 연관성 점수.\n"
-        "  90~100: 소재(양극재/음극재/전해질/분리막), 셀/팩/ESS/EV배터리, 공급계약/증설/기술/안전/리사이클, 관세/정책 등 직접 영향\n"
-        "  50~80: 배터리와 연관은 있으나 주변부(관련 산업/부품/인프라 등)\n"
-        "  0~40: 배터리와 무관\n"
-        "- monitoring_importance(0~100): 배터리 산업 모니터링 관점에서의 파급력.\n"
-        "  대형 투자/증설/공급계약/M&A/정책·규제/관세/공급망 리스크/리콜·사고/핵심기술 진전은 높게.\n"
-        "- 모든 index(0..N-1)에 대해 반드시 1개씩 출력.\n"
-        "- 제목만 보고 판단, 과장/추측 금지.\n\n"
         "[제목 목록]\n"
-        + "\n".join([f"{i}: {t}" for i, t in enumerate(titles)])
+        + "\n".join([f"{i}: {it.title}" for i, it in enumerate(items)])
+        + "\n\n"
+        + "JSON 스키마:\n"
+        + "{\"items\":[{\"index\":0,\"event_key\":\"...\",\"battery_relevance\":0-100,\"monitoring_importance\":0-100}]}\n"
     )
 
-    cfg: Dict[str, Any] = {"temperature": 0.2}
-    # gemma 계열은 system_instruction이 막힐 수 있어 prompt 안에만 넣음
-    resp = client.models.generate_content(model=model, contents=prompt, config=cfg)
-    raw = _extract_json(resp.text)
-    return TitleScoreResp.model_validate_json(raw)
+    last_err = None
+    for attempt in range(LLM_RETRIES + 1):
+        try:
+            resp = client.models.generate_content(
+                model=RANK_MODEL,
+                contents=prompt,
+                config={
+                    "system_instruction": SYSTEM_SCORE,
+                    "temperature": 0.2,
+                },
+            )
+            raw = _extract_json(resp.text)
+            return TitleScoreResp.model_validate_json(raw)
+        except Exception as e:
+            last_err = e
+            if attempt < LLM_RETRIES:
+                _sleep_backoff(attempt)
+
+    if DEBUG:
+        print(f"[WARN] one-shot scoring failed: {last_err}")
+    return None
 
 
-def _heuristic_relevance(title: str) -> int:
-    t = (title or "").lower()
-    kws = [
-        "battery", "2차전지", "이차전지", "전고체", "solid-state", "sodium", "나트륨",
-        "cathode", "양극", "anode", "음극", "electrolyte", "전해질", "separator", "분리막",
-        "lithium", "리튬", "nickel", "니켈", "lfp", "ncm", "recycling", "재활용", "black mass", "블랙매스",
-        "ess", "ev", "전기차", "charging", "충전", "bms",
-    ]
-    score = 0
-    for k in kws:
-        if k in t:
-            score += 12
-    return min(100, max(0, score))
-
-
-def _monitor_score(rel: int, imp: int) -> float:
-    return 0.7 * rel + 0.3 * imp
-
-
-def collect_naver_top15_last24h_deduped_and_ranked(
+def collect_naver_top_last24h_deduped_and_ranked(
     *,
     client_id: str,
     client_secret: str,
@@ -300,85 +274,90 @@ def collect_naver_top15_last24h_deduped_and_ranked(
         sort="date",
     )
 
-    titles = [it.title for it in raw]
+    stats: Dict[str, Any] = {"raw_count": len(raw)}
 
-    # single request (default) – retries optional
-    scored: Optional[TitleScoreResp] = None
-    last_err: Optional[Exception] = None
-    for attempt in range(LLM_RETRIES + 1):
-        try:
-            scored = _llm_score_titles(titles, model=RANK_MODEL)
-            break
-        except Exception as e:
-            last_err = e
-            scored = None
-            if attempt < LLM_RETRIES:
-                _sleep_backoff(attempt)
-
-    # fallback: heuristic only (no LLM)
+    scored = score_titles_one_shot(raw)
     if scored is None:
-        if DEBUG:
-            print(f"[WARN] NAVER LLM scoring failed -> fallback. err={last_err}")
-        # treat each item as unique event_key; sort by heuristic relevance + recency(rank)
-        scored_items = []
-        for i, it in enumerate(raw):
-            rel = _heuristic_relevance(it.title)
-            imp = 10
-            scored_items.append((i, f"item_{i}", rel, imp))
-        mode = "fallback_no_llm"
-    else:
-        scored_items = [(x.index, x.event_key, x.battery_relevance, x.monitoring_importance) for x in scored.items]
-        mode = "llm_scored"
+        # fallback: no-llm -> keep rank order, no dedupe (but at least return something)
+        picked = raw[:top_k]
+        scores = [10] * len(picked)
+        stats.update(
+            {
+                "deduped_count": len(raw),
+                "dropped": 0,
+                "picked": len(picked),
+                "mode": "fallback_no_llm",
+                "models": {"rank": RANK_MODEL, "base": BASE_MODEL},
+            }
+        )
+        return picked, scores, stats
 
-    # build dicts for grouping
-    by_event: Dict[str, List[int]] = {}
+    # build maps
     rel_by_i: Dict[int, int] = {}
     imp_by_i: Dict[int, int] = {}
-    for idx, ek, rel, imp in scored_items:
-        idx = int(idx)
-        ek = (ek or f"item_{idx}").strip()[:80] or f"item_{idx}"
-        rel = int(max(0, min(100, rel)))
-        imp = int(max(0, min(100, imp)))
-        rel_by_i[idx] = rel
-        imp_by_i[idx] = imp
-        by_event.setdefault(ek, []).append(idx)
+    ek_by_i: Dict[int, str] = {}
+    for x in scored.items:
+        idx = int(x.index)
+        ek = (x.event_key or f"item_{idx}").strip()
+        # sanitize key
+        ek = re.sub(r"[^A-Za-z0-9_]+", "_", ek)[:80] or f"item_{idx}"
+        ek_by_i[idx] = ek
+        rel_by_i[idx] = int(x.battery_relevance)
+        imp_by_i[idx] = int(x.monitoring_importance)
 
-    # choose representative per event_key (highest monitor_score, tie by rank)
+    # group by event_key and pick representative per event
+    by_event: Dict[str, List[int]] = {}
+    for i in range(len(raw)):
+        by_event.setdefault(ek_by_i.get(i, f"item_{i}"), []).append(i)
+
     reps: List[int] = []
     for ek, idxs in by_event.items():
-        def key(i: int):
-            return (_monitor_score(rel_by_i.get(i, 0), imp_by_i.get(i, 0)), -raw[i].rank * 0.0, -raw[i].rank)  # rank tie-break
-        # we want max monitor_score, but smaller rank is better: use (score, -rank)
-        rep = max(idxs, key=lambda i: (_monitor_score(rel_by_i.get(i, 0), imp_by_i.get(i, 0)), -raw[i].rank))
+        # representative: highest importance, then highest relevance, then smallest rank
+        rep = sorted(
+            idxs,
+            key=lambda j: (-imp_by_i.get(j, 0), -rel_by_i.get(j, 0), raw[j].rank),
+        )[0]
         reps.append(rep)
 
-    # filter by relevance threshold first
-    reps_sorted = sorted(
-        reps,
-        key=lambda i: (_monitor_score(rel_by_i.get(i, 0), imp_by_i.get(i, 0)), rel_by_i.get(i, 0), imp_by_i.get(i, 0), -raw[i].rank),
-        reverse=True,
-    )
-    reps_filtered = [i for i in reps_sorted if rel_by_i.get(i, 0) >= BATTERY_RELEVANCE_MIN]
-    picked_idxs = reps_filtered[:top_k]
-    if len(picked_idxs) < top_k:
-        # if not enough, fill from remaining reps (even if relevance low)
-        extra = [i for i in reps_sorted if i not in picked_idxs]
-        picked_idxs.extend(extra[: max(0, top_k - len(picked_idxs))])
+    # apply relevance filter (prefer battery-relevant events)
+    reps_rel = [i for i in reps if rel_by_i.get(i, 0) >= BATTERY_RELEVANCE_MIN]
+    reps_use = reps_rel if reps_rel else reps
 
+    # final ranking: importance desc, relevance desc, rank asc
+    reps_use.sort(key=lambda j: (-imp_by_i.get(j, 0), -rel_by_i.get(j, 0), raw[j].rank))
+
+    picked_idxs = reps_use[:top_k]
     picked = [raw[i] for i in picked_idxs]
-    picked_scores = [int(round(_monitor_score(rel_by_i.get(i, 0), imp_by_i.get(i, 0)))) for i in picked_idxs]
-    picked_rels = [rel_by_i.get(i, 0) for i in picked_idxs]
-    picked_imps = [imp_by_i.get(i, 0) for i in picked_idxs]
+    picked_scores = [imp_by_i.get(i, 0) for i in picked_idxs]
 
-    stats = {
-        "raw_count": len(raw),
-        "deduped_count": len(reps),
-        "dropped": max(0, len(raw) - len(reps)),
-        "picked": len(picked),
-        "models": {"base": BASE_MODEL, "rank": RANK_MODEL},
-        "mode": mode,
-        "picked_battery_relevance": picked_rels,
-        "picked_monitoring_importance": picked_imps,
-    }
+    stats.update(
+        {
+            "deduped_count": len(reps_use),
+            "dropped": len(raw) - len(reps_use),
+            "picked": len(picked),
+            "mode": "one_shot_eventkey",
+            "models": {"rank": RANK_MODEL, "base": BASE_MODEL},
+            "picked_battery_relevance": [rel_by_i.get(i, 0) for i in picked_idxs],
+            "picked_monitoring_importance": [imp_by_i.get(i, 0) for i in picked_idxs],
+        }
+    )
 
     return picked, picked_scores, stats
+
+
+# Backward-compatible function name (if other modules call old name)
+def collect_naver_top15_last24h_deduped_and_ranked(
+    *,
+    client_id: str,
+    client_secret: str,
+    queries: List[str],
+    fetch_n: int = 150,
+    top_k: int = 15,
+) -> Tuple[List[NaverNewsItem], List[int], Dict[str, Any]]:
+    return collect_naver_top_last24h_deduped_and_ranked(
+        client_id=client_id,
+        client_secret=client_secret,
+        queries=queries,
+        fetch_n=fetch_n,
+        top_k=top_k,
+    )
