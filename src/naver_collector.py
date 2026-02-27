@@ -42,7 +42,7 @@ LLM_RETRIES = int(os.getenv("LLM_RETRIES", "1"))
 LLM_BACKOFF_MAX = float(os.getenv("LLM_BACKOFF_MAX", "8"))
 
 # relevance threshold
-BATTERY_RELEVANCE_MIN = int(os.getenv("BATTERY_RELEVANCE_MIN", "60"))
+BATTERY_RELEVANCE_MIN = int(os.getenv("BATTERY_RELEVANCE_MIN", "78"))
 
 
 def _strip_html(s: str) -> str:
@@ -195,16 +195,37 @@ class TitleScoreResp(BaseModel):
 
 
 SYSTEM_SCORE = (
-    "당신은 배터리 산업 뉴스 모니터링 담당자입니다.\n"
-    "제목만 보고 아래 3가지를 산출합니다.\n"
-    "1) event_key: '같은 사건/이슈'면 동일 키. 표현이 달라도 동일 사건이면 동일.\n"
-    "   - 단, '주제가 비슷'한 정도는 동일 사건이 아닙니다.\n"
-    "   - 키는 ASCII letters/digits/_만 사용.\n"
-    "2) battery_relevance(0~100): 배터리 산업과의 직접 연관성.\n"
-    "3) monitoring_importance(0~100): 산업 전반 모니터링 중요도(투자/증설/공급계약/정책·규제/관세/공급망/리콜·사고/핵심기술 등).\n"
+    "당신은 배터리 산업 전문 모니터링 담당자입니다.\n"
+    "제목만 보고 아래 3가지를 산출합니다.\n\n"
+
+    "1) event_key:\n"
+    "- 동일 사건/이슈면 동일 키를 부여합니다.\n"
+    "- 표현이 달라도 실제 사건이 같으면 동일 키.\n"
+    "- 단, 단순히 주제가 비슷한 것은 동일 사건이 아닙니다.\n"
+    "- ASCII letters/digits/_만 사용.\n\n"
+
+    "2) battery_relevance (0~100):\n"
+    "- 배터리 산업과의 '직접적 연관성'을 평가합니다.\n"
+    "- 전고체, 리튬, 양극재, 음극재, 전해질, 셀/팩 생산, ESS, 전기차 배터리 등은 높은 점수.\n"
+    "- 일반 정책, 펀드, 거시경제 뉴스는 배터리 직접 언급이 없으면 낮은 점수.\n\n"
+
+    "3) monitoring_importance (0~100):\n"
+    "- 배터리 산업 구조 변화에 직접 영향을 주는지 평가.\n"
+    "- 높은 점수 예시:\n"
+    "  • 배터리 기업 대규모 투자/증설\n"
+    "  • 리튬/양극재 공급 계약\n"
+    "  • 배터리 규제/관세 변화\n"
+    "  • 핵심 기술 상용화\n"
+    "- 낮은 점수 예시:\n"
+    "  • 일반 정책 펀드 조성\n"
+    "  • 거시경제 뉴스\n"
+    "  • 배터리와 직접 연결되지 않는 산업 뉴스\n\n"
+
     "규칙:\n"
-    "- 모든 index는 정확히 1번씩 포함되어야 합니다.\n"
-    "- JSON만 출력합니다."
+    "- 배터리 직접성이 낮으면 monitoring_importance도 낮게 부여합니다.\n"
+    "- 펀드/정책 뉴스라도 배터리 기업이 명확히 언급되지 않으면 60점 이상 부여하지 마세요.\n"
+    "- 모든 index는 정확히 1번씩 포함.\n"
+    "- JSON만 출력."
 )
 
 
@@ -324,7 +345,7 @@ def collect_naver_top_last24h_deduped_and_ranked(
     reps_use = reps_rel if reps_rel else reps
 
     # final ranking: importance desc, relevance desc, rank asc
-    reps_use.sort(key=lambda j: (-imp_by_i.get(j, 0), -rel_by_i.get(j, 0), raw[j].rank))
+    reps_use.sort(key=lambda j: (-rel_by_i.get(j, 0), -imp_by_i.get(j, 0), raw[j].rank))
 
     picked_idxs = reps_use[:top_k]
     picked = [raw[i] for i in picked_idxs]
