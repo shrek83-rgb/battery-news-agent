@@ -4,39 +4,39 @@
 
 | # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
 |---:|:---:|:---|:---:|:---|:---|:---|:---|
-| 1 | 3 | 기타 | 2026-02-26 | CarNewsChina.com | New breakthrough in lithium battery technology enables 700 Wh/kg energy density | https://news.google.com/rss/articles/CBMitwFBVV95cUxPbGRoXy05ay1FczdTUlRldEJjckxDZGxFM21KeXBhRUpiNnptWXZzanRsd2xHYVpwY3FKNC1iX1piSnpJSWxBOEY4TFRXa19OQW5aSnhnUG84MDdzLWM0OTVKTmdncWllQ1RCMW96T2FhMzNJWlhOUjJMRnp0Z3VHZXhic0tHTkx4dW9Jd25vY0hBLTFlSGlMVlFMb09vbUx6SDY4d1BTemRrVmpFVnpGUV8tNUJsQjA?oc=5 | unknown |
+| 1 | 3 | 기타 | 2026-02-26 | IDTechEx | Lithium-ion Batteries: Growing Demand, Falling Prices | https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3MzNU83bVR5M0lTME5qdFlPV3I0N2R6WjFzMnJQOFdtQy1nQ0Y2bF9YcjdEZzdhcDRWZ3FLLTc3VG5CcDhuWlhhTDJBb2VZYnJjOFh5THhpQWtSMlQ4MFlzRGdwalN5bG9KM09MYU4yaHhmeklPQXhUU1ljX2cwdGRRWURHTTZFMWw2Vm1pcXlaakVkQXc?oc=5 | unknown |
 | 2 | 3 | electrolyte | 2026-02-26 | Precedence Research | LiFSI (Lithium bis(fluorosulfonyl)imide) for Lithium-Battery Electrolyte Market Size to Hit USD 3,139.80 Million by 2035 | https://news.google.com/rss/articles/CBMihgFBVV95cUxPUWFvaFZKSXEyeXQ1Sm9DYUtWTlo3NS1fYnNJWEtBYW40QXRKM2E2MVFRNDdLWVhCdXpuVnJ4bEJNc2kycmxzS2tKSDdrdkI1dWhodXRfblc5NGk5VDdHYXdtR2VpQzhMaEtBa2RlLTFqY0pJUHg0azQzb3VNNHhBYnhlZnNzdw?oc=5 | unknown |
-| 3 | 3 | 기타 | 2026-02-26 | IDTechEx | Lithium-ion Batteries: Growing Demand, Falling Prices | https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3MzNU83bVR5M0lTME5qdFlPV3I0N2R6WjFzMnJQOFdtQy1nQ0Y2bF9YcjdEZzdhcDRWZ3FLLTc3VG5CcDhuWlhhTDJBb2VZYnJjOFh5THhpQWtSMlQ4MFlzRGdwalN5bG9KM09MYU4yaHhmeklPQXhUU1ljX2cwdGRRWURHTTZFMWw2Vm1pcXlaakVkQXc?oc=5 | unknown |
+| 3 | 3 | 기타 | 2026-02-26 | CarNewsChina.com | New breakthrough in lithium battery technology enables 700 Wh/kg energy density | https://news.google.com/rss/articles/CBMitwFBVV95cUxPbGRoXy05ay1FczdTUlRldEJjckxDZGxFM21KeXBhRUpiNnptWXZzanRsd2xHYVpwY3FKNC1iX1piSnpJSWxBOEY4TFRXa19OQW5aSnhnUG84MDdzLWM0OTVKTmdncWllQ1RCMW96T2FhMzNJWlhOUjJMRnp0Z3VHZXhic0tHTkx4dW9Jd25vY0hBLTFlSGlMVlFMb09vbUx6SDY4d1BTemRrVmpFVnpGUV8tNUJsQjA?oc=5 | unknown |
 | 4 | 3 | 기타 | 2026-02-26 | vocal.media | Japan Lithium-Ion Battery Market: Size, Share and Growth Forecast | https://news.google.com/rss/articles/CBMijwFBVV95cUxOSF9mVHdiUk1TbUVIbEdlS0EzeGMxU1drT3lLejJ0OWVORk1PeG5RUFlSU05Rck43Sk13YlRkODRHZ3F2QkVSdDloWWRmcTQtYlI3YnlaZ01oMjdCS05ObEJoYlZ3WXR1YUhnRG1pcWhleHhUczVUTUJ5Zl9sWnd1b3poQWpRWnNGZlhRS0JEdw?oc=5 | unknown |
 | 5 | 3 | 기타 | 2026-02-26 | Grand View Research | Lithium Iron Phosphate Powder Market Size Report, 2033 | https://news.google.com/rss/articles/CBMimwFBVV95cUxPR0JyNzdYdzR2Vjk2WnhQOTNwZzZiR3BlajFvaHpRckNGUm9UVjhkVzAyM2pwZUs3anY5cFNUSjVjYWEzTGRpcFVrTmNuRzJwREtnV1RaV0RXWEVfaFpHMHg1OTFUSGtPQUgtS0hYOU9Kby12aWpnSlZGRkloY0ZVcnhfT3R6T0hQbW5BVzliM0RqblZFbjV2MDBRMA?oc=5 | unknown |
-| 6 | 3 | 전고체 | 2026-02-26 | www.press9.kr | 신한투자증권, 전고체 밸류체인 주목…Top Pick은 이수스페셜티케미컬 | http://www.press9.kr/news/articleView.html?idxno=72817 | unknown |
-| 7 | 3 | 기타 | 2026-02-26 | news.dealsitetv.com | [프라임 딥톡] "캐즘은 지났다"…K-배터리, 다시 주도주로 부상 | https://news.dealsitetv.com/articles/166124 | unknown |
-| 8 | 3 | 전고체 | 2026-02-26 | www.wowtv.co.kr | 국민성장펀드 픽 이수스페셜티…"황화리튬 증설에 1천억" | https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202602260427&t=NNv | unknown |
-| 9 | 3 | 기타 | 2026-02-26 | www.choicenews.co.kr | ESS 배터리 주목, 삼성SDI '장중 급등'...다른 2차전지주는? | http://www.choicenews.co.kr/news/articleView.html?idxno=161589 | unknown |
-| 10 | 3 | 전고체 | 2026-02-27 | biz.chosun.com | [특징주] 이수스페셜티케미컬, 정부 지원 소식에 9% 급등 | https://biz.chosun.com/stock/stock_general/2026/02/27/GSQBLENTNJEFPPSVYHXMQP27ZE/ | unknown |
-| 11 | 3 | 전고체 | 2026-02-27 | www.ggilbo.com | 이수스페셜티케미컬 주가, 11% 강세... 왜? | https://www.ggilbo.com/news/articleView.html?idxno=1143987 | unknown |
-| 12 | 3 | anode | 2026-02-27 | biz.heraldcorp.com | “ESS 확대·전고체 로드맵 가속”…LG엔솔, ‘올라운드’ 배터리 기업... | https://biz.heraldcorp.com/article/10683593?ref=naver | unknown |
-| 13 | 3 | 전고체 | 2026-02-27 | www.autodaily.co.kr | 美 EV 스타트업 도넛랩, 5분 충전 가능한 전고체 배터리 테스트 결과 공... | https://www.autodaily.co.kr/news/articleView.html?idxno=541937 | unknown |
-| 14 | 3 | 전고체 | 2026-02-26 | www.finomy.com | 전고체 배터리, 연구 넘어 '양산성 검증' 단계···상용화 시계 빨라지... | http://www.finomy.com/news/articleView.html?idxno=250408 | unknown |
-| 15 | 3 | 전고체 | 2026-02-26 | www.businesspost.co.kr | 전고체 배터리 개발사 솔리드파워 "SK온과 1분기 장비 검증 마무리", 자... | https://www.businesspost.co.kr/BP?command=article_view&num=431266 | unknown |
-| 16 | 3 | 전고체 | 2026-02-26 | www.thebigdata.co.kr | 전고체로 눈 돌린 배터리 3사, 미래 시장 선점 나선다 | http://www.thebigdata.co.kr/view.php?ud=202602261123057038d92db81c5b_23 | unknown |
-| 17 | 3 | electrolyte | 2026-02-26 | www.ksmnews.co.kr | 김영규 경북대 교수팀, 물로 만든 난연성 고체전해질 개발 | https://www.ksmnews.co.kr/news/view.php?idx=592538 | unknown |
-| 18 | 3 | electrolyte | 2026-02-26 | www.etnews.com | 경북대, 물로 만든 난연성 고체전해질 개발…전기화학적 성능↑ | https://www.etnews.com/20260226000446 | unknown |
-| 19 | 3 | 기타 | 2026-02-27 | www.ilyoseoul.co.kr | 포스코그룹-SK온, 유럽·북미 전기차 배터리용 리튬 공급 계약 체결…기... | https://www.ilyoseoul.co.kr/news/articleView.html?idxno=513594 | unknown |
-| 20 | 3 | cathode | 2026-02-27 | www.goodkyung.com | 양극재 넘어 리튬까지…K배터리, 원료 혈맹으로 '초격차 밸류체인' 쌓는... | https://www.goodkyung.com/news/articleView.html?idxno=283635 | unknown |
+| 6 | 3 | 기타 | 2026-02-27 | www.thebell.co.kr | [더벨][주주총회 프리뷰] 포스코퓨처엠, 이사회 소위원회 확대 | https://www.thebell.co.kr/free/content/ArticleView.asp?key=202602251610371160103426 | unknown |
+| 7 | 3 | 기타 | 2026-02-27 | www.hankookilbo.com | “명품특허로 글로벌 경쟁력 강화” | https://www.hankookilbo.com/news/article/A2026022709220004531?did=NA | unknown |
+| 8 | 3 | 전고체 | 2026-02-27 | www.junggi.co.kr | 전고체 배터리·AI반도체에 국민성장펀드 2.6조 | https://www.junggi.co.kr/news/articleView.html?idxno=35615 | unknown |
+| 9 | 3 | 기타 | 2026-02-27 | www.wowtv.co.kr | 엔비디아발 훈풍, AI 반도체 신화…흔들림 없는 시장?&lt;진짜주식 1부 : 시... | https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202602270320&t=NNv | unknown |
+| 10 | 3 | 전고체 | 2026-02-27 | www.e-platform.net | 정부, 차세대 이차전지‧첨단반도체 국민성장펀드 지원 | http://www.e-platform.net/news/articleView.html?idxno=100334 | unknown |
+| 11 | 3 | 전고체 | 2026-02-27 | news.bizwatch.co.kr | 국민성장펀드, 삼성전자 평택 AI 반도체 공장에 2.5조 저리대출 | https://news.bizwatch.co.kr/article/finance/2026/02/26/0049 | unknown |
+| 12 | 3 | 전고체 | 2026-02-27 | www.joseilbo.com | 울산은 전고체, 평택은 AI반도체…국민성장펀드, 2.6조원 지원 | http://www.joseilbo.com/news/news_read.php?uid=563649&class=18&grp= | unknown |
+| 13 | 3 | 전고체 | 2026-02-27 | www.bizwork.co.kr | 국민성장펀드로 차세대 이차전지 ㆍ첨단반도체 기술 초격차 등 지원사격 | https://www.bizwork.co.kr/news/articleView.html?idxno=412938 | unknown |
+| 14 | 3 | 기타 | 2026-02-27 | www.thebell.co.kr | [더벨]LG엔솔, 라이온타운 지분 블록딜…파트너십 변화 '촉각' | https://www.thebell.co.kr/free/content/ArticleView.asp?key=202602251645065200105159 | unknown |
+| 15 | 3 | 기타 | 2026-02-27 | www.sedaily.com | 고래싸움에 득 보는 2차전지...미국, 中 배터리 견제에 주가 ‘훨훨’ ... | https://www.sedaily.com/article/20013206?ref=naver | unknown |
+| 16 | 3 | 기타 | 2026-02-27 | www.sedaily.com | [시론] 핵심광물 공급망, 과감한 기업 지원 필요하다 | https://www.sedaily.com/article/20013088?ref=naver | unknown |
+| 17 | 3 | 장비 | 2026-02-27 | www.finomy.com | 피지컬 AI·휴머노이드 로봇 관련주, '함박웃음' 아이엘·케이엔에스·아... | http://www.finomy.com/news/articleView.html?idxno=250402 | unknown |
+| 18 | 3 | 장비 | 2026-02-27 | www.finomy.com | 반도체 장비 관련주, '봄꽃만개' HPSP·한미반도체·한화비전·SFA반도체... | http://www.finomy.com/news/articleView.html?idxno=250400 | unknown |
+| 19 | 3 | 전고체 | 2026-02-26 | www.khan.co.kr | 국민성장펀드 2·3호 투자처는…2차전지 공장·AI 반도체 클러스터 구축 | https://www.khan.co.kr/article/202602262129015 | unknown |
+| 20 | 3 | separator | 2026-02-26 | www.mk.co.kr | ‘삼성후자’만 있나…SK하이닉스 잘나가지만 우린 ‘SK로우닉스’ | https://www.mk.co.kr/article/11967263 | unknown |
 
 ## 상세 요약
 
-### 1. New breakthrough in lithium battery technology enables 700 Wh/kg energy density
+### 1. Lithium-ion Batteries: Growing Demand, Falling Prices
 - 발행일: 2026-02-26
-- 매체: CarNewsChina.com (출처등급 3)
+- 매체: IDTechEx (출처등급 3)
 - 분야: 기타
-- 링크: https://news.google.com/rss/articles/CBMitwFBVV95cUxPbGRoXy05ay1FczdTUlRldEJjckxDZGxFM21KeXBhRUpiNnptWXZzanRsd2xHYVpwY3FKNC1iX1piSnpJSWxBOEY4TFRXa19OQW5aSnhnUG84MDdzLWM0OTVKTmdncWllQ1RCMW96T2FhMzNJWlhOUjJMRnp0Z3VHZXhic0tHTkx4dW9Jd25vY0hBLTFlSGlMVlFMb09vbUx6SDY4d1BTemRrVmpFVnpGUV8tNUJsQjA?oc=5
+- 링크: https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3MzNU83bVR5M0lTME5qdFlPV3I0N2R6WjFzMnJQOFdtQy1nQ0Y2bF9YcjdEZzdhcDRWZ3FLLTc3VG5CcDhuWlhhTDJBb2VZYnJjOFh5THhpQWtSMlQ4MFlzRGdwalN5bG9KM09MYU4yaHhmeklPQXhUU1ljX2cwdGRRWURHTTZFMWw2Vm1pcXlaakVkQXc?oc=5
 - 인기신호: unknown
 - 3문장 요약:
-  - 리튬 배터리 기술의 새로운 돌파구로 700 Wh/kg의 에너지 밀도가 가능해졌습니다.
-  - 이는 기존 배터리 기술의 한계를 뛰어넘는 중요한 발전입니다.
-  - 이 기술은 전기 자동차 및 휴대용 전자기기의 성능을 크게 향상시킬 잠재력을 가지고 있습니다.
+  - 리튬이온 배터리에 대한 수요가 증가하고 가격은 하락하고 있습니다.
+  - 이는 전기차 및 에너지 저장 시스템 시장의 성장을 촉진할 것으로 예상됩니다.
+  - IDTechEx는 이러한 추세가 향후 몇 년간 지속될 것으로 전망합니다.
 
 ### 2. LiFSI (Lithium bis(fluorosulfonyl)imide) for Lithium-Battery Electrolyte Market Size to Hit USD 3,139.80 Million by 2035
 - 발행일: 2026-02-26
@@ -45,20 +45,20 @@
 - 링크: https://news.google.com/rss/articles/CBMihgFBVV95cUxPUWFvaFZKSXEyeXQ1Sm9DYUtWTlo3NS1fYnNJWEtBYW40QXRKM2E2MVFRNDdLWVhCdXpuVnJ4bEJNc2kycmxzS2tKSDdrdkI1dWhodXRfblc5NGk5VDdHYXdtR2VpQzhMaEtBa2RlLTFqY0pJUHg0azQzb3VNNHhBYnhlZnNzdw?oc=5
 - 인기신호: unknown
 - 3문장 요약:
-  - LiFSI(리튬 비스(플루오로설포닐)이미드) 전해질 시장은 2035년까지 31억 3,980만 달러에 달할 것으로 예상됩니다.
-  - 이는 리튬 배터리 기술의 발전과 수요 증가에 따른 결과입니다.
-  - 이러한 성장은 전고체 배터리 및 차세대 배터리 기술 개발을 더욱 가속화할 것입니다.
+  - LiFSI(리튬 비스(플루오로설포닐)이미드)를 포함한 리튬 배터리 전해질 시장 규모는 2035년까지 31억 3,980만 달러에 달할 것으로 예상됩니다.
+  - 이는 전기차 및 휴대용 전자기기에 대한 수요 증가에 힘입은 결과입니다.
+  - Precedence Research는 LiFSI가 차세대 배터리 기술에서 중요한 역할을 할 것으로 전망합니다.
 
-### 3. Lithium-ion Batteries: Growing Demand, Falling Prices
+### 3. New breakthrough in lithium battery technology enables 700 Wh/kg energy density
 - 발행일: 2026-02-26
-- 매체: IDTechEx (출처등급 3)
+- 매체: CarNewsChina.com (출처등급 3)
 - 분야: 기타
-- 링크: https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3MzNU83bVR5M0lTME5qdFlPV3I0N2R6WjFzMnJQOFdtQy1nQ0Y2bF9YcjdEZzdhcDRWZ3FLLTc3VG5CcDhuWlhhTDJBb2VZYnJjOFh5THhpQWtSMlQ4MFlzRGdwalN5bG9KM09MYU4yaHhmeklPQXhUU1ljX2cwdGRRWURHTTZFMWw2Vm1pcXlaakVkQXc?oc=5
+- 링크: https://news.google.com/rss/articles/CBMitwFBVV95cUxPbGRoXy05ay1FczdTUlRldEJjckxDZGxFM21KeXBhRUpiNnptWXZzanRsd2xHYVpwY3FKNC1iX1piSnpJSWxBOEY4TFRXa19OQW5aSnhnUG84MDdzLWM0OTVKTmdncWllQ1RCMW96T2FhMzNJWlhOUjJMRnp0Z3VHZXhic0tHTkx4dW9Jd25vY0hBLTFlSGlMVlFMb09vbUx6SDY4d1BTemRrVmpFVnpGUV8tNUJsQjA?oc=5
 - 인기신호: unknown
 - 3문장 요약:
-  - 리튬 이온 배터리에 대한 수요가 증가하고 가격은 하락하고 있습니다.
-  - 이는 전기 자동차 및 휴대용 전자기기 시장의 성장에 기여하고 있습니다.
-  - 배터리 기술의 지속적인 발전은 에너지 저장 시스템 및 기타 응용 분야에서도 중요한 역할을 할 것입니다.
+  - 새로운 리튬 배터리 기술의 혁신으로 700 Wh/kg의 에너지 밀도를 달성했습니다.
+  - 이는 기존 리튬이온 배터리보다 훨씬 높은 에너지 저장 능력을 제공합니다.
+  - 이 기술은 전기차의 주행 거리를 늘리고 휴대용 전자기기의 사용 시간을 연장하는 데 기여할 것으로 기대됩니다.
 
 ### 4. Japan Lithium-Ion Battery Market: Size, Share and Growth Forecast
 - 발행일: 2026-02-26
@@ -67,9 +67,9 @@
 - 링크: https://news.google.com/rss/articles/CBMijwFBVV95cUxOSF9mVHdiUk1TbUVIbEdlS0EzeGMxU1drT3lLejJ0OWVORk1PeG5RUFlSU05Rck43Sk13YlRkODRHZ3F2QkVSdDloWWRmcTQtYlI3YnlaZ01oMjdCS05ObEJoYlZ3WXR1YUhnRG1pcWhleHhUczVUTUJ5Zl9sWnd1b3poQWpRWnNGZlhRS0JEdw?oc=5
 - 인기신호: unknown
 - 3문장 요약:
-  - 일본 리튬 이온 배터리 시장의 규모, 점유율 및 성장 전망에 대한 보고서가 발표되었습니다.
-  - 이 보고서는 일본 내 리튬 이온 배터리 시장의 현재 상황과 미래 동향을 분석합니다.
-  - 이는 일본의 전기 자동차 및 에너지 저장 시스템 시장 성장에 대한 통찰력을 제공할 것입니다.
+  - 일본 리튬이온 배터리 시장의 규모, 점유율 및 성장 전망에 대한 보고서입니다.
+  - 일본은 전기차 및 에너지 저장 시스템 시장에서 리튬이온 배터리의 주요 생산국 및 소비국입니다.
+  - vocal.media는 일본 리튬이온 배터리 시장이 향후 몇 년간 꾸준히 성장할 것으로 예측합니다.
 
 ### 5. Lithium Iron Phosphate Powder Market Size Report, 2033
 - 발행일: 2026-02-26
@@ -78,171 +78,171 @@
 - 링크: https://news.google.com/rss/articles/CBMimwFBVV95cUxPR0JyNzdYdzR2Vjk2WnhQOTNwZzZiR3BlajFvaHpRckNGUm9UVjhkVzAyM2pwZUs3anY5cFNUSjVjYWEzTGRpcFVrTmNuRzJwREtnV1RaV0RXWEVfaFpHMHg1OTFUSGtPQUgtS0hYOU9Kby12aWpnSlZGRkloY0ZVcnhfT3R6T0hQbW5BVzliM0RqblZFbjV2MDBRMA?oc=5
 - 인기신호: unknown
 - 3문장 요약:
-  - 리튬 철 인산염(LFP) 분말 시장은 2033년까지 상당한 성장이 예상됩니다.
-  - LFP 배터리는 안정성과 긴 수명으로 인해 전기 자동차 및 에너지 저장 시스템에 널리 사용됩니다.
-  - 이러한 시장 성장은 LFP 배터리 생산 및 기술 개발에 대한 투자를 촉진할 것입니다.
+  - 리튬인산철(LFP) 파우더 시장 규모에 대한 보고서로, 2033년까지의 시장 전망을 다룹니다.
+  - LFP 배터리는 저렴한 가격과 높은 안전성으로 인해 전기차 및 에너지 저장 시스템에 널리 사용됩니다.
+  - Grand View Research는 LFP 파우더 시장이 지속적으로 성장할 것으로 예상합니다.
 
-### 6. 신한투자증권, 전고체 밸류체인 주목…Top Pick은 이수스페셜티케미컬
-- 발행일: 2026-02-26
-- 매체: www.press9.kr (출처등급 3)
-- 분야: 전고체
-- 링크: http://www.press9.kr/news/articleView.html?idxno=72817
-- 인기신호: unknown
-- 3문장 요약:
-  - 신한투자증권은 전고체 배터리 밸류체인의 핵심 수혜주로 이수스페셜티케미컬과 에코프로머티를 주목하고 있습니다.
-  - 특히 이수스페셜티케미컬은 황화리튬 사업을 본격적으로 확대하고 있습니다.
-  - 전고체 배터리는 차세대 2차전지 시장에서 중요한 역할을 할 것으로 기대됩니다.
-
-### 7. [프라임 딥톡] "캐즘은 지났다"…K-배터리, 다시 주도주로 부상
-- 발행일: 2026-02-26
-- 매체: news.dealsitetv.com (출처등급 3)
+### 6. [더벨][주주총회 프리뷰] 포스코퓨처엠, 이사회 소위원회 확대
+- 발행일: 2026-02-27
+- 매체: www.thebell.co.kr (출처등급 3)
 - 분야: 기타
-- 링크: https://news.dealsitetv.com/articles/166124
+- 링크: https://www.thebell.co.kr/free/content/ArticleView.asp?key=202602251610371160103426
 - 인기신호: unknown
 - 3문장 요약:
-  - K-배터리가 '캐즘'을 지나 다시 주도주로 부상하고 있습니다.
-  - 과거에는 기대감 중심이었으나, 현재는 혹독한 조정을 거친 후 재평가받고 있습니다.
-  - 이는 국내 배터리 산업의 경쟁력 회복과 성장을 시사합니다.
+  - 포스코퓨처엠은 핵심 사업인 2차전지의 부진 속에서 손익 목표 달성을 위해 전 부문에 걸쳐 30%의 비용 절감 계획을 추진합니다.
+  - 이사회는 사외이사를 포함한 소위원회를 확대하여 경영 효율성을 높이고자 합니다.
+  - LG화학 배터리연구소 책임연구원 출신 교수가 사외이사로 합류하여 전문성을 더했습니다.
 
-### 8. 국민성장펀드 픽 이수스페셜티…"황화리튬 증설에 1천억"
-- 발행일: 2026-02-26
+### 7. “명품특허로 글로벌 경쟁력 강화”
+- 발행일: 2026-02-27
+- 매체: www.hankookilbo.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.hankookilbo.com/news/article/A2026022709220004531?did=NA
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 국내에서 가장 먼저 2차전지 시장을 개척해 온 기업으로, 특허를 통해 글로벌 경쟁력을 강화하고 있습니다.
+  - 이는 특허를 보유한 혁신가들에게 경제적 수익 창출의 기회를 제공하는 강력한 무기가 될 수 있습니다.
+  - 이러한 혁신은 배터리 시장의 기술 발전과 성장을 촉진할 것으로 기대됩니다.
+
+### 8. 전고체 배터리·AI반도체에 국민성장펀드 2.6조
+- 발행일: 2026-02-27
+- 매체: www.junggi.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.junggi.co.kr/news/articleView.html?idxno=35615
+- 인기신호: unknown
+- 3문장 요약:
+  - 정부는 전고체 배터리 상용화 시점에 맞춰 글로벌 밸류체인 내 주도권을 확보하기 위해 황화리튬 생산 원가를 낮추는 데 국민성장펀드 2.6조원을 지원합니다.
+  - 울산 첨단이차전지 특화단지 내 연구기관들은 이 자금을 활용하여 전고체 배터리 기술 개발에 박차를 가할 것입니다.
+  - 이는 차세대 배터리 기술 경쟁에서 한국의 입지를 강화하는 데 기여할 것으로 보입니다.
+
+### 9. 엔비디아발 훈풍, AI 반도체 신화…흔들림 없는 시장?&lt;진짜주식 1부 : 시...
+- 발행일: 2026-02-27
 - 매체: www.wowtv.co.kr (출처등급 3)
-- 분야: 전고체
-- 링크: https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202602260427&t=NNv
-- 인기신호: unknown
-- 3문장 요약:
-  - 국민성장펀드가 이수스페셜티케미컬에 1천억 원을 투자하며 황화리튬 증설을 지원합니다.
-  - 정부는 이수스페셜티케미컬의 황화리튬 기술을 육성하려는 의지를 보이고 있습니다.
-  - 황화리튬은 전고체 배터리의 핵심 소재로, 기술 개발 및 생산 확대가 중요합니다.
-
-### 9. ESS 배터리 주목, 삼성SDI '장중 급등'...다른 2차전지주는?
-- 발행일: 2026-02-26
-- 매체: www.choicenews.co.kr (출처등급 3)
 - 분야: 기타
-- 링크: http://www.choicenews.co.kr/news/articleView.html?idxno=161589
+- 링크: https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202602270320&t=NNv
 - 인기신호: unknown
 - 3문장 요약:
-  - ESS 배터리 부문이 올해 실적 개선을 주도할 것이라는 전망 속에 삼성SDI 주가가 장중 급등했습니다.
-  - 증권계에서는 ESS 배터리 시장의 성장 가능성을 높게 평가하고 있습니다.
-  - LG에너지솔루션, LG화학, 엘앤에프 등 다른 2차전지 관련주들도 시장의 주목을 받고 있습니다.
+  - 전태룡 대표는 KODEX 2차전지 산업 ETF를 근거로 2차전지 시장의 높은 성장 잠재력을 강조했습니다.
+  - 미국의 중국 견제 정책 강화는 테슬라와 같은 중국 배터리 의존 기업에 영향을 미칠 수 있습니다.
+  - 이러한 시장 상황 속에서 국내 2차전지 기업들의 경쟁력 확보가 중요해지고 있습니다.
 
-### 10. [특징주] 이수스페셜티케미컬, 정부 지원 소식에 9% 급등
+### 10. 정부, 차세대 이차전지‧첨단반도체 국민성장펀드 지원
 - 발행일: 2026-02-27
-- 매체: biz.chosun.com (출처등급 3)
+- 매체: www.e-platform.net (출처등급 3)
 - 분야: 전고체
-- 링크: https://biz.chosun.com/stock/stock_general/2026/02/27/GSQBLENTNJEFPPSVYHXMQP27ZE/
+- 링크: http://www.e-platform.net/news/articleView.html?idxno=100334
 - 인기신호: unknown
 - 3문장 요약:
-  - 이수스페셜티케미컬이 정부의 첨단전략산업기금 지원 소식에 9% 급등했습니다.
-  - 이 회사는 전고체 배터리의 핵심 소재인 황화리튬 생산 공장을 건설할 예정입니다.
-  - 정부의 장기 저리 자금 지원은 이수스페셜티케미컬의 성장에 긍정적인 영향을 미칠 것으로 보입니다.
+  - 정부는 차세대 이차전지 및 첨단 반도체 분야에 국민성장펀드를 통해 자금을 지원합니다.
+  - 특히 전고체 배터리의 핵심 소재인 황화리튬의 생산 원가 절감 및 상용화를 지원할 계획입니다.
+  - 기존 상생펀드 및 ESG 펀드의 지원 대상도 2차 협력사까지 확대하여 금융 지원을 강화합니다.
 
-### 11. 이수스페셜티케미컬 주가, 11% 강세... 왜?
+### 11. 국민성장펀드, 삼성전자 평택 AI 반도체 공장에 2.5조 저리대출
 - 발행일: 2026-02-27
-- 매체: www.ggilbo.com (출처등급 3)
+- 매체: news.bizwatch.co.kr (출처등급 3)
 - 분야: 전고체
-- 링크: https://www.ggilbo.com/news/articleView.html?idxno=1143987
+- 링크: https://news.bizwatch.co.kr/article/finance/2026/02/26/0049
 - 인기신호: unknown
 - 3문장 요약:
-  - 이수스페셜티케미컬의 황화리튬 생산 공장 구축 소식에 주가가 11% 강세를 보였습니다.
-  - 이 공장은 전고체 배터리 핵심 소재의 국내 공급망 확보를 목표로 합니다.
-  - 이수스페셜티케미컬은 황화리튬 소재 분야에서 글로벌 선두 공급사로 성장할 것으로 기대됩니다.
+  - 국민성장펀드는 삼성전자 평택 AI 반도체 공장에 2.5조원의 저리 대출을 제공합니다.
+  - 황화리튬은 차세대 이차전지인 전고체 배터리의 핵심 소재로 주목받고 있습니다.
+  - 금융위원회는 지원 대상을 2차 협력사까지 확대하고 ESG 펀드의 지원 한도도 늘릴 계획입니다.
 
-### 12. “ESS 확대·전고체 로드맵 가속”…LG엔솔, ‘올라운드’ 배터리 기업...
+### 12. 울산은 전고체, 평택은 AI반도체…국민성장펀드, 2.6조원 지원
 - 발행일: 2026-02-27
-- 매체: biz.heraldcorp.com (출처등급 3)
-- 분야: anode
-- 링크: https://biz.heraldcorp.com/article/10683593?ref=naver
-- 인기신호: unknown
-- 3문장 요약:
-  - LG에너지솔루션은 ESS 확대와 전고체 배터리 로드맵 구체화를 통해 '올라운드' 배터리 기업으로 나아가고 있습니다.
-  - 2029년 전기차용, 2030년 휴머노이드 로봇용 전고체 배터리 상용화를 목표로 하고 있습니다.
-  - 이는 미래 배터리 시장에서의 경쟁력 확보를 위한 전략입니다.
-
-### 13. 美 EV 스타트업 도넛랩, 5분 충전 가능한 전고체 배터리 테스트 결과 공...
-- 발행일: 2026-02-27
-- 매체: www.autodaily.co.kr (출처등급 3)
+- 매체: www.joseilbo.com (출처등급 3)
 - 분야: 전고체
-- 링크: https://www.autodaily.co.kr/news/articleView.html?idxno=541937
+- 링크: http://www.joseilbo.com/news/news_read.php?uid=563649&class=18&grp=
 - 인기신호: unknown
 - 3문장 요약:
-  - 미국 전기차 스타트업 도넛랩이 5분 충전 가능한 전고체 배터리 '도넛 배터리'의 시험 결과를 공개했습니다.
-  - 핀란드 기술연구센터 VTT가 수행한 시험에서 이러한 결과가 나왔습니다.
-  - 이는 전고체 배터리의 충전 속도 개선 가능성을 보여줍니다.
+  - 정부는 차세대 이차전지와 AI 반도체 분야의 기술 초격차 확보를 위해 국민성장펀드를 통해 2.6조원을 지원합니다.
+  - 황화리튬은 높은 안전성과 고속 충전이 가능한 전고체 배터리의 핵심 소재입니다.
+  - 이번 지원은 울산의 전고체 배터리 관련 산업 육성과 평택의 AI 반도체 클러스터 구축에 활용될 예정입니다.
 
-### 14. 전고체 배터리, 연구 넘어 '양산성 검증' 단계···상용화 시계 빨라지...
-- 발행일: 2026-02-26
+### 13. 국민성장펀드로 차세대 이차전지 ㆍ첨단반도체 기술 초격차 등 지원사격
+- 발행일: 2026-02-27
+- 매체: www.bizwork.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.bizwork.co.kr/news/articleView.html?idxno=412938
+- 인기신호: unknown
+- 3문장 요약:
+  - 국민성장펀드는 차세대 이차전지와 첨단 반도체 기술의 초격차 확보를 위해 대규모 정책 금융을 지원합니다.
+  - 황화리튬은 전고체 배터리의 핵심 소재로, 높은 에너지 밀도와 빠른 충전 속도를 자랑합니다.
+  - 지원 대상은 2차 협력사까지 확대되며, ESG 펀드의 경우 지원 규모도 최대 2배까지 늘어납니다.
+
+### 14. [더벨]LG엔솔, 라이온타운 지분 블록딜…파트너십 변화 '촉각'
+- 발행일: 2026-02-27
+- 매체: www.thebell.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.thebell.co.kr/free/content/ArticleView.asp?key=202602251645065200105159
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 라이온타운 지분 블록딜을 통해 파트너십 변화에 대한 주목을 받고 있습니다.
+  - 리튬 정광은 수산화리튬 제조에 사용되는 원자재로, 국내 2차전지 기업들이 수급 확보에 힘쓰고 있습니다.
+  - 이번 지분 매각은 LG에너지솔루션의 공급망 전략 변화를 시사할 수 있습니다.
+
+### 15. 고래싸움에 득 보는 2차전지...미국, 中 배터리 견제에 주가 ‘훨훨’ ...
+- 발행일: 2026-02-27
+- 매체: www.sedaily.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.sedaily.com/article/20013206?ref=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국 공화당이 중국산 에너지 저장 장치(ESS) 배터리 수입 금지 법안을 발의함에 따라 국내 2차전지 관련주가 강세를 보일 전망입니다.
+  - 이는 삼성, LG, SK 등 국내 주요 2차전지 기업들에게 기회가 될 수 있습니다.
+  - 미국 시장에서의 중국 배터리 견제는 국내 기업들의 시장 점유율 확대에 긍정적인 영향을 미칠 것으로 예상됩니다.
+
+### 16. [시론] 핵심광물 공급망, 과감한 기업 지원 필요하다
+- 발행일: 2026-02-27
+- 매체: www.sedaily.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.sedaily.com/article/20013088?ref=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - 전기차 배터리 및 2차전지 소재 기업들은 중국 외 제3국에서의 자원 개발과 글로벌 기업과의 장기 공급 계약 체결을 통해 원료 공급망 다변화를 추진하고 있습니다.
+  - 이는 특정 국가에 대한 의존도를 낮추고 안정적인 원료 확보를 위한 대응책입니다.
+  - 정부의 과감한 기업 지원은 핵심 광물 공급망 안정화에 기여할 수 있습니다.
+
+### 17. 피지컬 AI·휴머노이드 로봇 관련주, '함박웃음' 아이엘·케이엔에스·아...
+- 발행일: 2026-02-27
 - 매체: www.finomy.com (출처등급 3)
-- 분야: 전고체
-- 링크: http://www.finomy.com/news/articleView.html?idxno=250408
+- 분야: 장비
+- 링크: http://www.finomy.com/news/articleView.html?idxno=250402
 - 인기신호: unknown
 - 3문장 요약:
-  - 국내 배터리 3사가 전고체 배터리 파일럿 라인을 가동하며 시제품 생산과 고객사 테스트를 병행하고 있습니다.
-  - 아직 대규모 상업 양산 단계는 아니지만, 상용화 목표 시점을 구체화하고 투자를 확대하고 있습니다.
-  - 이는 전고체 배터리 기술의 연구 단계를 넘어 양산성 검증 단계로 진입했음을 의미합니다.
+  - 케이엔에스는 2차전지 자동화 장비 전문 기업으로, 원통형 배터리용 전류차단장치(CID) 및 배터리 모듈 어셈블리(BMA) 자동화 설비를 주력으로 생산합니다.
+  - 이러한 자동화 설비는 배터리 생산 효율성과 안전성을 높이는 데 기여합니다.
+  - 회사의 기술력은 피지컬 AI 및 휴머노이드 로봇 분야와도 연관되어 성장 잠재력을 보여줍니다.
 
-### 15. 전고체 배터리 개발사 솔리드파워 "SK온과 1분기 장비 검증 마무리", 자...
-- 발행일: 2026-02-26
-- 매체: www.businesspost.co.kr (출처등급 3)
-- 분야: 전고체
-- 링크: https://www.businesspost.co.kr/BP?command=article_view&num=431266
-- 인기신호: unknown
-- 3문장 요약:
-  - 미국 전고체 배터리 개발사 솔리드파워가 SK온과 생산 장비 검증을 1분기 안에 마무리할 계획이라고 밝혔습니다.
-  - 이는 솔리드파워가 개발한 전고체 배터리 소재의 상용화를 위한 중요한 단계입니다.
-  - SK온과의 협력을 통해 전고체 배터리 시장에서의 경쟁력을 강화할 것으로 예상됩니다.
-
-### 16. 전고체로 눈 돌린 배터리 3사, 미래 시장 선점 나선다
-- 발행일: 2026-02-26
-- 매체: www.thebigdata.co.kr (출처등급 3)
-- 분야: 전고체
-- 링크: http://www.thebigdata.co.kr/view.php?ud=202602261123057038d92db81c5b_23
-- 인기신호: unknown
-- 3문장 요약:
-  - LG에너지솔루션, 삼성SDI, SK온 등 국내 배터리 3사가 전고체 배터리 생산 기술 개발과 양산 준비에 속도를 내고 있습니다.
-  - 이는 휴머노이드 로봇 및 전기차 배터리 시장에서의 미래 경쟁력 확보를 위한 전략입니다.
-  - 전고체 배터리 시장 선점을 위한 경쟁이 치열해지고 있습니다.
-
-### 17. 김영규 경북대 교수팀, 물로 만든 난연성 고체전해질 개발
-- 발행일: 2026-02-26
-- 매체: www.ksmnews.co.kr (출처등급 3)
-- 분야: electrolyte
-- 링크: https://www.ksmnews.co.kr/news/view.php?idx=592538
-- 인기신호: unknown
-- 3문장 요약:
-  - 경북대학교 김영규 교수팀이 물로 만든 난연성 고체전해질을 개발했습니다.
-  - 첨가제(SHMP)를 사용하여 내부 구조를 조절하고 나트륨 이온 이동 경로를 확장했습니다.
-  - 이 기술은 기존 대비 향상된 이온전도도를 제공합니다.
-
-### 18. 경북대, 물로 만든 난연성 고체전해질 개발…전기화학적 성능↑
-- 발행일: 2026-02-26
-- 매체: www.etnews.com (출처등급 3)
-- 분야: electrolyte
-- 링크: https://www.etnews.com/20260226000446
-- 인기신호: unknown
-- 3문장 요약:
-  - 경북대학교 연구팀이 물을 기반으로 한 난연성 고체전해질 개발에 성공했습니다.
-  - SHMP 첨가제를 활용하여 고분자 사슬과의 상호작용을 통해 나트륨 이온 이동 경로를 확장했습니다.
-  - 개발된 고체전해질은 기존 대비 전기화학적 성능이 향상되었습니다.
-
-### 19. 포스코그룹-SK온, 유럽·북미 전기차 배터리용 리튬 공급 계약 체결…기...
+### 18. 반도체 장비 관련주, '봄꽃만개' HPSP·한미반도체·한화비전·SFA반도체...
 - 발행일: 2026-02-27
-- 매체: www.ilyoseoul.co.kr (출처등급 3)
-- 분야: 기타
-- 링크: https://www.ilyoseoul.co.kr/news/articleView.html?idxno=513594
+- 매체: www.finomy.com (출처등급 3)
+- 분야: 장비
+- 링크: http://www.finomy.com/news/articleView.html?idxno=250400
 - 인기신호: unknown
 - 3문장 요약:
-  - 포스코그룹과 SK온이 유럽 및 북미 전기차 배터리용 리튬 공급 계약을 체결했습니다.
-  - 이번 계약은 빠르게 성장하는 ESS 시장에 대한 협력도 포함합니다.
-  - 이는 양사의 배터리 원료 공급망 강화 및 시장 경쟁력 확보에 기여할 것입니다.
+  - 서진시스템은 배터리를 제외한 ESS의 핵심 부품을 고객사 주문에 따라 생산합니다.
+  - 원익 그룹은 원익아이피에스, 원익피앤이, 원익큐엔씨 등 자회사를 통해 반도체, 2차전지·소재 등 다양한 사업 분야를 영위하고 있습니다.
+  - 이들 기업은 반도체 장비 및 2차전지 관련 사업에서 성장을 기대하고 있습니다.
 
-### 20. 양극재 넘어 리튬까지…K배터리, 원료 혈맹으로 '초격차 밸류체인' 쌓는...
-- 발행일: 2026-02-27
-- 매체: www.goodkyung.com (출처등급 3)
-- 분야: cathode
-- 링크: https://www.goodkyung.com/news/articleView.html?idxno=283635
+### 19. 국민성장펀드 2·3호 투자처는…2차전지 공장·AI 반도체 클러스터 구축
+- 발행일: 2026-02-26
+- 매체: www.khan.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.khan.co.kr/article/202602262129015
 - 인기신호: unknown
 - 3문장 요약:
-  - 포스코그룹과 SK온은 아르헨티나 리튬 공급을 넘어 폐배터리 재활용 및 ESS 시장 공동 대응까지 협력 범위를 넓히며 '풀 밸류체인' 동맹을 맺었습니다.
-  - 에코프로와 삼성SDI는 양극재 장기 계약을 통해 협력을 강화하고 있습니다.
-  - 이는 K-배터리 산업의 원료 확보 및 밸류체인 경쟁력 강화를 위한 움직임입니다.
+  - 국민성장펀드는 2차전지 공장 건설과 AI 반도체 클러스터 구축에 투자될 예정입니다.
+  - 황화리튬은 차세대 전고체 배터리의 핵심 소재로, 높은 에너지 밀도, 빠른 충전 속도, 우수한 안전성을 특징으로 합니다.
+  - 이수스페셜티케미컬은 전고체 배터리 공장 구축을 위해 대규모 투자를 진행하고 있습니다.
+
+### 20. ‘삼성후자’만 있나…SK하이닉스 잘나가지만 우린 ‘SK로우닉스’
+- 발행일: 2026-02-26
+- 매체: www.mk.co.kr (출처등급 3)
+- 분야: separator
+- 링크: https://www.mk.co.kr/article/11967263
+- 인기신호: unknown
+- 3문장 요약:
+  - 전기차 배터리 분리막 제조 업체인 SKIET는 지난해 연결 기준 영업손실 2,463억 원을 기록했습니다.
+  - 이는 전년 대비 손실 폭이 감소한 수치이지만, 여전히 수익성 개선이 필요한 상황입니다.
+  - 2차전지 및 화학 사업에서의 공정 효율화 노력과 함께 유형자산 손상 등 일회성 비용이 실적에 영향을 미쳤습니다.
