@@ -300,7 +300,7 @@ def collect_naver_items(target_date: str, need: int, models: Dict[str, str]) -> 
     queries = _get_naver_queries()
 
     # NOTE: Your naver_collector already supports dedupe+rank (title-only).
-    picked, picked_scores, stats = nc.collect_naver_top15_last24h_deduped_and_ranked(
+    picked, picked_scores, stats = nc.collect_naver_top_last24h_deduped_and_ranked(
         client_id=naver_id,
         client_secret=naver_secret,
         queries=queries,
