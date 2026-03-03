@@ -27,6 +27,59 @@
     "uid": "461b976a74936281b4a4290107b5b1057136fbd0"
   },
   {
+    "title": "LG엔솔·삼성SDI·SK온, 보릿고개 버티기 전략 제각각",
+    "description": "삼성SDI는 확보된 10조원의 실탄을 활용해 ‘차세대 꿈의 배터리’로 불리는 전고체 배터리 양산 라인 구축과 급성장하는 에너지저장장치(ESS)용 LFP 배터리 생산거점 확대에 집중 투자할 계획이다. 삼성SDI는 지난해...",
+    "link": "https://www.topdaily.kr/articles/109034",
+    "source": "www.topdaily.kr",
+    "published_at": "2026-03-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG엔솔",
+      "삼성SDI",
+      "SK온"
+    ],
+    "summary_3_sentences": [
+      "LG Energy Solution, Samsung SDI, and SK On are adopting distinct strategies to navigate industry challenges.",
+      "Samsung SDI plans to invest its secured funds into building production lines for solid-state batteries, termed 'dream batteries', and expanding LFP battery production for the rapidly growing Energy Storage System (ESS) market.",
+      "This strategic focus highlights Samsung SDI's commitment to next-generation battery technologies and market expansion."
+    ],
+    "uid": "8822aa1b4036aa701ba45c244586f8f60d6edba3"
+  },
+  {
+    "title": "나인테크, 전고체 배터리 양산라인서 건식전극 장비 검증",
+    "description": "나인테크가 전고체 배터리 제조사의 실제 양산 환경에서 건식전극공정 장비 성능 검증에 착수했다. 파일럿 단계를 넘어 양산 조건을 시험하며 상용화 가능성을 확인하는 절차다. 나인테크는 3일 전고체 배터리...",
+    "link": "https://www.thelec.kr/news/articleView.html?idxno=52955",
+    "source": "www.thelec.kr",
+    "published_at": "2026-03-03",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "kr.aving.net",
+        "link": "https://kr.aving.net/news/articleView.html?idxno=1809180"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "나인테크"
+    ],
+    "summary_3_sentences": [
+      "Nine Tech has begun verifying the performance of its dry electrode equipment on a solid-state battery manufacturer's mass production line.",
+      "This process goes beyond the pilot stage to test actual mass production conditions, aiming to confirm commercialization viability.",
+      "The company is actively demonstrating its capabilities in a real-world manufacturing setting."
+    ],
+    "uid": "7a7d03e112af32107fc8e195d12423ba7c7e3b06"
+  },
+  {
     "title": "정헌율 \"새만금이 미래산업 두뇌라면 익산은 실질적 '실행 거점' 도시\"",
     "description": "및 2차전지 밸류체인 구축까지 이어진다면 전북은 명실상부한 산업대전환의 중심지로 도약할 것\"이라고... 있다\"며 \"AI·배터리·수소산업과 식품·농생명산업이 결합하는 융합생태계를 구축해 전북 200만 메가시티 실현의 한...",
     "link": "https://www.pressian.com/pages/articles/2026030309565015042",
@@ -75,6 +128,54 @@
       "현재 LG에너지솔루션은 2.58% 하락한 41만 6000원에 거래되고 있습니다."
     ],
     "uid": "1c832a63817e581588378d9a390aa79e9e60e2d0"
+  },
+  {
+    "title": "포스코홀딩스, 아르헨 염호 상업가동 본격화…리튬 적자 탈출 시험대",
+    "description": "이는 전기차 약 40만대 분 배터리를 생산할 수 있는 규모다. 투자도 병행된다. 올해는 포스코아르헨티나의... 업계 관계자는 \"중국의 공급 측 구조조정 움직임과 ESS를 중심으로 회복되는 2차전지 수요를 감안하면 리튬...",
+    "link": "http://www.metroseoul.co.kr/article/20260303500465",
+    "source": "www.metroseoul.co.kr",
+    "published_at": "2026-03-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "포스코홀딩스",
+      "포스코아르헨티나",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "POSCO Argentina has begun commercial operations at its lithium salt lake, aiming to overcome losses in the lithium sector.",
+      "This operation is expected to produce enough battery materials for approximately 400,000 electric vehicles annually.",
+      "The company's success will be tested against market dynamics, including supply-side adjustments in China and recovering demand for secondary batteries, particularly for ESS."
+    ],
+    "uid": "d7f53d173d6aa5507f2a52c9a15f143085762f0b"
+  },
+  {
+    "title": "나인테크, 전고체 배터리 제조사 양산 환경서 성능 검증 테스트...\"상용...",
+    "description": "|중앙이코노미뉴스 엄현식 기자|나인테크가 건식전극공정 장비의 상용화 가능성을 확인하기 위해 전고체 배터리 제조사의 실제 양산 환경에서 성능 검증 테스트를 진행하고 있다고 밝혔다. [사진=나인테크] 나인테크가...",
+    "link": "https://www.joongangenews.com/news/articleView.html?idxno=498921",
+    "source": "www.joongangenews.com",
+    "published_at": "2026-03-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "나인테크"
+    ],
+    "summary_3_sentences": [
+      "Nine Tech is conducting performance verification tests for its dry electrode process equipment in the actual mass production environment of a solid-state battery manufacturer.",
+      "These tests are crucial for confirming the commercialization potential of their equipment.",
+      "The company aims to validate the performance under real-world mass production conditions."
+    ],
+    "uid": "f9d270e7070d1a9d3e5c4bd697c533d130ca0481"
   },
   {
     "title": "전기차는 잠시…K배터리, AI·로봇·드론 신기술 띄운다",
@@ -127,6 +228,30 @@
     "uid": "aa68a00f40cd6ae10c7c3e2e7a086da4298c4f50"
   },
   {
+    "title": "나인테크, 전고체 배터리 제조 인프라 핵심 장비 부각… 본격 성장 사이...",
+    "description": "인더스트리뉴스 박현우 기자 이차전지 장비 전문기업 나인테크가 건식전극공정 장비의 상용화 가능성을 확인하기 위해 전고체 배터리 제조사의 실제 양산 환경에서 성능 검증 테스트를 진행 중이라고 3일 밝혔다. 이번...",
+    "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=78605",
+    "source": "www.industrynews.co.kr",
+    "published_at": "2026-03-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "나인테크",
+      "이차전지"
+    ],
+    "summary_3_sentences": [
+      "Nine Tech, a specialist in secondary battery equipment, announced on the 3rd that it is conducting performance verification tests for its dry electrode process equipment.",
+      "These tests are being carried out in the actual mass production environment of a solid-state battery manufacturer to confirm the commercialization potential of the equipment.",
+      "The company is focusing on validating its technology in real production settings."
+    ],
+    "uid": "bdf46c3e6b12c88ae3fd90a193336cc67ef40836"
+  },
+  {
     "title": "강원에너지, 2차전지 소재 매출 전년比 34%↑...무수수산화리튬 수요 기...",
     "description": "반면 2차전지소재 부문은 전년 대비 34% 증가하며 뚜렷한 성장세를 기록했다. 전기차 캐즘과 플랜트·설비... 강원에너지가 생산하는 무수수산화리튬은 리튬이온 배터리 양극재 제조에 필수적인 핵심 소재다. 수분 함량이...",
     "link": "https://www.ggilbo.com/news/articleView.html?idxno=1144317",
@@ -150,6 +275,40 @@
       "강원에너지가 생산하는 무수수산화리튬은 리튬이온 배터리 양극재 제조에 필수적인 핵심 소재로 수요가 증가하고 있습니다."
     ],
     "uid": "217ea257e9b1d49fcb3dab65c3b84f94ba386492"
+  },
+  {
+    "title": "EV 넘어 ESS·로봇·AI로...K-배터리 '미래 포트폴리오 다각화 격돌'",
+    "description": "아울러 피지컬 AI 로봇 시대에 대응할 전고체 배터리의 다양한 적용 사례도 함께 소개하며 차별화된 초격차 기술력을 강조할 예정이다. ◆ 어워즈로 미리 엿본 K-배터리 초격차 기술… 소부장 혁신도 '눈길' 본...",
+    "link": "https://www.electimes.com/news/articleView.html?idxno=365645",
+    "source": "www.electimes.com",
+    "published_at": "2026-03-03",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.newstomato.com",
+        "link": "http://www.newstomato.com/ReadNews.aspx?no=1292982&inflow=N"
+      },
+      {
+        "source": "sports.donga.com",
+        "link": "https://sports.donga.com/economy/article/all/20260303/133451657/1"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "ESS·로봇·AI로...K-배터리",
+      "K-배터리",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "The K-battery industry is diversifying its portfolio beyond electric vehicles to include Energy Storage Systems (ESS), robots, and AI applications.",
+      "This strategic shift aims to secure a competitive edge in future technology landscapes, including showcasing diverse applications of solid-state batteries for the physical AI robot era.",
+      "The industry is emphasizing its differentiated, leading-edge technological capabilities and innovations in materials, parts, and equipment (Sobu-jang)."
+    ],
+    "uid": "bb331281875d69e15fdfdfdb3fca25cfae159bd2"
   },
   {
     "title": "강원에너지, 작년 매출 2123억…이차전지소재 부문 34% 성장",
@@ -619,6 +778,28 @@
     "uid": "ce1f0dff087f0360c8dd4fc31ff4946d61b682f8"
   },
   {
+    "title": "All European sodium-ion battery manufacturers at a glance",
+    "published_at": "2026-03-02",
+    "source": "pv magazine International",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbmZuZUxhbHlLZGpwb2lnbk5tZFBTM3lxczJQRWFDYk5YUmoyaWQyMXFiZjZRZndxa2Q1Wi10SmUzN1dLbGVxck85cC1Sc0RCUHZpNGhCWEhsU3hEai1rMUZHOHN0VVpGUG9JUGNtZ3hfRXFfQlR6TDZxYno1cnlVakp6Z1lPME1GWDJ3TkFkWW9zbmt6MTFFQlk2aTVHZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQbmZuZUxhbHlLZGpwb2lnbk5tZFBTM3lxczJQRWFDYk5YUmoyaWQyMXFiZjZRZndxa2Q1Wi10SmUzN1dLbGVxck85cC1Sc0RCUHZpNGhCWEhsU3hEai1rMUZHOHN0VVpGUG9JUGNtZ3hfRXFfQlR6TDZxYno1cnlVakp6Z1lPME1GWDJ3TkFkWW9zbmt6MTFFQlk2aTVHZw?oc=5\" target=\"_blank\">All European sodium-ion battery manufacturers at a glance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pv magazine International</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [],
+    "summary_3_sentences": [
+      "This article provides an overview of all European manufacturers producing sodium-ion batteries.",
+      "It serves as a guide to the companies involved in this specific segment of the battery industry within Europe.",
+      "The focus is on identifying and listing the key players in the European sodium-ion battery market."
+    ],
+    "uid": "6e636ae728c5713bd92c5efbd48dbecc595bc739"
+  },
+  {
     "title": "Waste Lithium Battery Recycling Market 2026, Global Demand",
     "published_at": "2026-03-02",
     "source": "openPR.com",
@@ -639,6 +820,28 @@
       "이러한 추세는 배터리 재활용 기술 개발 및 관련 산업 생태계 구축을 가속화할 것입니다."
     ],
     "uid": "fc85aeece707aeba5d73b4f7cabc3ca1f7677c9b"
+  },
+  {
+    "title": "Lithium-Metal Secondary Battery Market Forecast 2026-2032:",
+    "published_at": "2026-03-02",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYUwzeFlmZE9aQWJpNDVTcml3RFQxMFN4ZXhnazRpUThGSFVzWE12Q0NJUHU2MXk3QnJaMUdNckNmc3hWYzJncV91U0prMVc3YzRwbVlBNHRmUVRuQnhpVmVwSzI4U2VmX3dFZ2xhc25fOXhLdXplWnlxWmJMYUZCMHIzU2ZDT2NlQ2w3Sk1GdnBGVl9PMFhURA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOYUwzeFlmZE9aQWJpNDVTcml3RFQxMFN4ZXhnazRpUThGSFVzWE12Q0NJUHU2MXk3QnJaMUdNckNmc3hWYzJncV91U0prMVc3YzRwbVlBNHRmUVRuQnhpVmVwSzI4U2VmX3dFZ2xhc25fOXhLdXplWnlxWmJMYUZCMHIzU2ZDT2NlQ2w3Sk1GdnBGVl9PMFhURA?oc=5\" target=\"_blank\">Lithium-Metal Secondary Battery Market Forecast 2026-2032:</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "This report forecasts the market for lithium-metal secondary batteries.",
+      "The analysis covers the period from 2026 to 2032.",
+      "It provides insights into the expected growth and trends within this battery market segment."
+    ],
+    "uid": "61f951569181b826c62802f26838dcaf3f5dfc1a"
   },
   {
     "title": "포스코퓨처엠, '게임체인저' 전고체 배터리용 양극재 로드맵 …인터배터...",
@@ -688,13 +891,43 @@
     "uid": "4aaab6b35315df71b2d58bbf8b66a2321d8091c9"
   },
   {
+    "title": "Factorial evaluates Philenergy production technology for solid-state batteries",
+    "published_at": "2026-03-02",
+    "source": "electrive.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVllMdUhNT3RmdnEtekItQ2lhUFIyMnJDeG5EQ0ZjVWhOd0RQeF9sZWpEcFhIQlhKS05PVmJwVEczVHM4bFhXSGVXcEtBZlNLQ1BxOUtzTXB6WDBMMjZYVkhMMzBMSGdPeVJSbmEycV9uT3huYlM1RlJCOUhCdHNtNGdpSFcyWlNNTkdRV0RiOWNxa2ItQlVRbm4tR1RUOHlqRGJtQ1dHVnFLM0pYMkR4cDZVdFhrTVk?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQVllMdUhNT3RmdnEtekItQ2lhUFIyMnJDeG5EQ0ZjVWhOd0RQeF9sZWpEcFhIQlhKS05PVmJwVEczVHM4bFhXSGVXcEtBZlNLQ1BxOUtzTXB6WDBMMjZYVkhMMzBMSGdPeVJSbmEycV9uT3huYlM1RlJCOUhCdHNtNGdpSFcyWlNNTkdRV0RiOWNxa2ItQlVRbm4tR1RUOHlqRGJtQ1dHVnFLM0pYMkR4cDZVdFhrTVk?oc=5\" target=\"_blank\">Factorial evaluates Philenergy production technology for solid-state batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrive.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 75,
+    "monitor_score": 89,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Factorial",
+      "Philenergy"
+    ],
+    "summary_3_sentences": [
+      "Factorial is evaluating Philenergy's production technology for solid-state batteries.",
+      "This evaluation is a critical step in assessing the viability and scalability of the technology.",
+      "The outcome could influence the future development and adoption of solid-state batteries."
+    ],
+    "uid": "304243635f8c47428cb089c2c65abdf762f383db"
+  },
+  {
     "title": "New type of lithium battery developed in China can double EV range",
     "published_at": "2026-03-02",
     "source": "The Independent",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUIybmF5TzJLUVhUUzFvdGVnaXRsWXNJbTdudjVfRkZjOF9RU05KUUFxMVF1RXBWUGhKQnZuM3VsalNaM2RvZTB0M2RLNnRmeV9xSjFIYWpEclpsVGs5cXBwNXN6V1RZLVhwS0d5aE5ncWJIUldLeTZJTmVneTQ5OHJKMnp3dVROd1UxSnczVQ?oc=5",
     "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUIybmF5TzJLUVhUUzFvdGVnaXRsWXNJbTdudjVfRkZjOF9RU05KUUFxMVF1RXBWUGhKQnZuM3VsalNaM2RvZTB0M2RLNnRmeV9xSjFIYWpEclpsVGs5cXBwNXN6V1RZLVhwS0d5aE5ncWJIUldLeTZJTmVneTQ5OHJKMnp3dVROd1UxSnczVQ?oc=5\" target=\"_blank\">New type of lithium battery developed in China can double EV range</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>",
     "provider": "google",
-    "related_links": [],
+    "related_links": [
+      {
+        "source": "The Independent",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSWtyb3Jjbm91bF8zeHBPbjkwY1lLMWpFRnM4MlBCYUVHSVg4dURhakgzT3hXcUhmbkE4aWhyZ3pRcWN4eE1pZWJ2QV8wTGttQ2dFMXh1VDJmZUh6MnpKMzVjNlZaX1M1ak0weVZjb1dXQ180RjctMWs5V1hYSHNEdW02dXQxcENZSk1ybmVUay1yX1ZWS2p3SQ?oc=5"
+      }
+    ],
     "popularity_signal": "unknown",
     "battery_relevance": 95,
     "monitoring_importance": 85,
@@ -703,9 +936,9 @@
     "category": "기타",
     "companies": [],
     "summary_3_sentences": [
-      "중국에서 개발된 새로운 유형의 리튬 배터리는 전기차 주행 거리를 두 배로 늘릴 수 있습니다.",
-      "이 기술은 기존 배터리보다 훨씬 높은 에너지 저장 용량을 제공합니다.",
-      "이는 전기차의 성능을 혁신하고 장거리 주행에 대한 제약을 완화할 잠재력을 가지고 있습니다."
+      "A new type of lithium battery has been developed in China.",
+      "This innovative battery technology has the potential to significantly increase the range of electric vehicles.",
+      "The development could lead to doubled EV range compared to current standards."
     ],
     "uid": "1d52862e6f47cc9b1c4a692ddc8616cf2198e67d"
   },
@@ -777,6 +1010,108 @@
       "이러한 시장 동향은 글로벌 배터리 공급망 및 지속 가능성 논의에 중요한 영향을 미칠 수 있습니다."
     ],
     "uid": "71712af133554b0d60a2005b4ea01e58382633bd"
+  },
+  {
+    "title": "South Korea's Solivis Sulphide Solid Electrolyte Layout",
+    "published_at": "2026-03-02",
+    "source": "Metal.com",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaWNVY3BlS25CcHl4QkVuaFdaWThwU2lUdHYwN0RMejZzOU1iQVBPODRlS3VLV0hVdGNQbF9ZdkR5RXFRdDVUQUlHNV93VmdmTXdibUVKeHlFamJ3cURCR0tWRFVURkJGb19JNUpSaUQxZ1ptUjZvZVlzTTFMelR3NnZEU3p2V1JnR25majhCY0pIblV5QVFjcFFtUTJYUnEwdGhNVg?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPaWNVY3BlS25CcHl4QkVuaFdaWThwU2lUdHYwN0RMejZzOU1iQVBPODRlS3VLV0hVdGNQbF9ZdkR5RXFRdDVUQUlHNV93VmdmTXdibUVKeHlFamJ3cURCR0tWRFVURkJGb19JNUpSaUQxZ1ptUjZvZVlzTTFMelR3NnZEU3p2V1JnR25majhCY0pIblV5QVFjcFFtUTJYUnEwdGhNVg?oc=5\" target=\"_blank\">South Korea's Solivis Sulphide Solid Electrolyte Layout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Metal.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "Solivis"
+    ],
+    "summary_3_sentences": [
+      "South Korea's Solivis is implementing its layout for sulfide solid electrolyte production.",
+      "This move is crucial for advancing solid-state battery technology.",
+      "The company's efforts are aimed at enhancing the performance and manufacturability of next-generation batteries."
+    ],
+    "uid": "e752b66d5a4c420bd9053212b6ba6a13ba80cc28"
+  },
+  {
+    "title": "How EV Battery Material Trends Lead to Lower Prices and Increased Energy Density",
+    "published_at": "2026-03-02",
+    "source": "IDTechEx",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMENHRFZLVDNXOW9KaGdvZ1I5dWkxY0ZrTk96dG5od2sweVNxQU9ycjZXZ3AyMVdLS2VQWERjakhvQmpVX1JzWUduektXV2tBNnROUTNnWXFYT2xzSW9BbzFRN0JrU1lNb2F5emV5MEYzSGt3UnJaUjRzanV5ZWpOMVQ4clZ2eDVLTTZOVmNkMFNIWHVEYmprYmdnNElQaHBIWHFDM1JoWlhHQnA3ZDJ5aWk5RGlvNlhjOENjcg?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOMENHRFZLVDNXOW9KaGdvZ1I5dWkxY0ZrTk96dG5od2sweVNxQU9ycjZXZ3AyMVdLS2VQWERjakhvQmpVX1JzWUduektXV2tBNnROUTNnWXFYT2xzSW9BbzFRN0JrU1lNb2F5emV5MEYzSGt3UnJaUjRzanV5ZWpOMVQ4clZ2eDVLTTZOVmNkMFNIWHVEYmprYmdnNElQaHBIWHFDM1JoWlhHQnA3ZDJ5aWk5RGlvNlhjOENjcg?oc=5\" target=\"_blank\">How EV Battery Material Trends Lead to Lower Prices and Increased Energy Density</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IDTechEx</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "IDTechEx"
+    ],
+    "summary_3_sentences": [
+      "Trends in EV battery materials are leading to reduced costs and higher energy density.",
+      "These advancements are crucial for making electric vehicles more accessible and performant.",
+      "The article explores how material innovations are driving these positive changes in the EV battery sector."
+    ],
+    "uid": "095be9b5ea5668609e3cd8027a0194466519d16d"
+  },
+  {
+    "title": "Donut Lab solid-state battery survives 100°C discharge in second independent test",
+    "published_at": "2026-03-02",
+    "source": "Electrek",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWDA5V1FfZ3A3OENORkJZbXVwZU9yWXNwZ2ZsV2ZkZkI3Zi1YVXRrRm1xWDRHbDZ2Y01iNGNmNjlqa3NtNE1fOVR2TmZncVlBNUl4NW1FekVPMWozZ1ltd1Z1QUJlSEVndTAxc3RBS3htTXVMbWRDX1pHUTdpZlJscEllYWxNU1FQUXl1VGp6WE0?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOWDA5V1FfZ3A3OENORkJZbXVwZU9yWXNwZ2ZsV2ZkZkI3Zi1YVXRrRm1xWDRHbDZ2Y01iNGNmNjlqa3NtNE1fOVR2TmZncVlBNUl4NW1FekVPMWozZ1ltd1Z1QUJlSEVndTAxc3RBS3htTXVMbWRDX1pHUTdpZlJscEllYWxNU1FQUXl1VGp6WE0?oc=5\" target=\"_blank\">Donut Lab solid-state battery survives 100°C discharge in second independent test</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electrek</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 70,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Donut Lab"
+    ],
+    "summary_3_sentences": [
+      "Donut Lab's solid-state battery has successfully passed a second independent test, enduring a 100°C discharge.",
+      "This demonstrates the battery's robustness and performance under demanding conditions.",
+      "The results further validate the potential of Donut Lab's solid-state battery technology."
+    ],
+    "uid": "77a15fe06561a347bf4cd57e2cf5bb72475c80ac"
+  },
+  {
+    "title": "Volkswagen-backed Gotion locks in 2GWh solid-state battery line design, eyes 2026 EV debut",
+    "published_at": "2026-03-02",
+    "source": "CarNewsChina.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMEZsRWtaaDFBX1dUWGR3empDM2Zacy1XV2FDYThpVmk1bDMzRGtDTnJBWXBxaWlsakptU25ZYlc2aFBuZUJYaWMxTXJDXzJxTVRHNXhDNmRaNzB3blpYd1AxbG1yLWM4X29GdXdmaVpCUnZTa1c5MjlxNFV4RUNYU0RYMDlONDI0X3VZZ2ZNY2Vka1I2emdpeVQ3anlRX0cwbmhJbFRMU0xyY1ctX2t6aUN3dmFlaC14a2c?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPMEZsRWtaaDFBX1dUWGR3empDM2Zacy1XV2FDYThpVmk1bDMzRGtDTnJBWXBxaWlsakptU25ZYlc2aFBuZUJYaWMxTXJDXzJxTVRHNXhDNmRaNzB3blpYd1AxbG1yLWM4X29GdXdmaVpCUnZTa1c5MjlxNFV4RUNYU0RYMDlONDI0X3VZZ2ZNY2Vka1I2emdpeVQ3anlRX0cwbmhJbFRMU0xyY1ctX2t6aUN3dmFlaC14a2c?oc=5\" target=\"_blank\">Volkswagen-backed Gotion locks in 2GWh solid-state battery line design, eyes 2026 EV debut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CarNewsChina.com</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "CnEVPost",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRkVOMkw4WHJBTEFkS0hqSVNLekFFM01CS0xoNkxFTEx4cjdQckRtVlNpZGhtN2hqaXVFeU1wbm5EUTFSZVNtY29xZmk4RDBMSDFHRkh5UVlFcVBTdk5rRkNxbGJnRDNKWW5DMDBGRk9fd0ZSZ0ZkWXlGdE9pdllXcDd1ZHZPYldIY1J6anVFWGk?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Volkswagen",
+      "Gotion"
+    ],
+    "summary_3_sentences": [
+      "Volkswagen-backed Gotion has finalized the design for a 2GWh solid-state battery production line.",
+      "This development signals a significant step towards the commercialization of solid-state batteries in electric vehicles.",
+      "The company is targeting a debut in EVs by 2026."
+    ],
+    "uid": "f499c36826bdf9afb5037b7a0b66064bf8cb0de7"
   },
   {
     "title": "‘소듐 배터리’ 시대 성큼…中에 또 주도권 뺏길 판",

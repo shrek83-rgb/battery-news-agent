@@ -1,226 +1,191 @@
 # 배터리 뉴스 데일리 브리핑 (2026-03-02 전날 기준)
 
-- 총 18건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+- 총 14건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
 
 | # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
 |---:|:---:|:---|:---:|:---|:---|:---|:---|
-| 1 | 3 | 재활용 | 2026-03-02 | openPR.com | Waste Lithium Battery Recycling Market 2026, Global Demand | https://news.google.com/rss/articles/CBMimAFBVV95cUxQbnRGSUk5NWNpY0JJQnFxNFk4VzZpX3dRZWRwVXRmOFR0YldWY0xWV2FXMUJMVkpON2dCMExQNkNkUHo1RjZNcG9tRDhvOTJfZEh0eGtDelJpeWNfbzZMMVljYThCZGU1SDNOSFZ4S295SFphMUJpcjZ0cWRkcHNlY0pIdXduaXVOdnAxWTVwVkNZMUwxN1NUSQ?oc=5 | unknown |
-| 2 | 3 | 기타 | 2026-03-02 | Stock Titan | Li-FT Power launches 30ktpa lithium study for Canada battery supply chain | https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR3BWVGNKSldWendPaFR6RHFGVmRnUVJDWFJ5NDZPU0xHZ0U5dWZjVWR0S3hnUV9RUWVDWDFTaUpiSTlZSVREZ0hJWkxoVERnVklrQkVndGxBanBxdVJwbTNQLV9DeFQtU0sxa2ZwaklkMV9oVGhqRjZIVE9rM0xXQTc5OS02UGJUc2pXY1hScUl2dGlpa3dBMXBkcDNpTGhLSFIzX09vNkFEZ1JRVjZiYVlMUFpIZFdUcFluWnU0MkE?oc=5 | unknown |
-| 3 | 3 | 기타 | 2026-03-02 | The Independent | New Chinese lithium battery could see EV range boosted to 1,000km | https://news.google.com/rss/articles/CBMimAFBVV95cUxPSWtyb3Jjbm91bF8zeHBPbjkwY1lLMWpFRnM4MlBCYUVHSVg4dURhakgzT3hXcUhmbkE4aWhyZ3pRcWN4eE1pZWJ2QV8wTGttQ2dFMXh1VDJmZUh6MnpKMzVjNlZaX1M1ak0weVZjb1dXQ180RjctMWs5V1hYSHNEdW02dXQxcENZSk1ybmVUay1yX1ZWS2p3SQ?oc=5 | unknown |
-| 4 | 3 | 기타 | 2026-03-02 | The Independent | New type of lithium battery developed in China can double EV range | https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUIybmF5TzJLUVhUUzFvdGVnaXRsWXNJbTdudjVfRkZjOF9RU05KUUFxMVF1RXBWUGhKQnZuM3VsalNaM2RvZTB0M2RLNnRmeV9xSjFIYWpEclpsVGs5cXBwNXN6V1RZLVhwS0d5aE5ncWJIUldLeTZJTmVneTQ5OHJKMnp3dVROd1UxSnczVQ?oc=5 | unknown |
-| 5 | 3 | 재활용 | 2026-03-02 | Mysteel | China Battery Recycling Market Pric... | https://news.google.com/rss/articles/CBMinAFBVV95cUxPclBZMUlDZ0RVb3dPNUs5akNiSVdFaFlpQ2J3QVdjYXF6bFVXQ3h3a25sb1liX2Q4VG5jT1NOVlUxZ1FQSWhvajZuYzNSLVo5MmpOTVZBYzFsaHVva181OFJtd2hDWkFoWmxaUUtnWkFtSElnRzZxN3JoX2NkeTJVek5NZUtSZDZGdlB2T042bk1hQTYwSDJkUktTck4?oc=5 | unknown |
-| 6 | 3 | cathode | 2026-03-03 | www.dt.co.kr | 플랜트 부진 속 소재 성장…강원에너지, 실적 반등 시동 | https://www.dt.co.kr/article/12049228?ref=naver | unknown |
-| 7 | 3 | cathode | 2026-03-03 | www.edaily.co.kr | 강원에너지, 작년 매출 2123억…이차전지소재 부문 34% 성장 | http://www.edaily.co.kr/news/newspath.asp?newsid=03886806645379712 | unknown |
-| 8 | 3 | cathode | 2026-03-03 | www.ggilbo.com | 강원에너지, 2차전지 소재 매출 전년比 34%↑...무수수산화리튬 수요 기... | https://www.ggilbo.com/news/articleView.html?idxno=1144317 | unknown |
-| 9 | 3 | 기타 | 2026-03-03 | www.pinpointnews.co.kr | 하늘길 열리자 돈길도 열렸네… 에이치브이엠, 민간 우주 시대 최대 수... | https://www.pinpointnews.co.kr/news/articleView.html?idxno=433517 | unknown |
-| 10 | 3 | 기타 | 2026-03-03 | www.pressian.com | 정헌율 "새만금이 미래산업 두뇌라면 익산은 실질적 '실행 거점' 도시" | https://www.pressian.com/pages/articles/2026030309565015042 | unknown |
-| 11 | 3 | cathode | 2026-03-03 | www.widedaily.com | 강원에너지, 지난해 매출 2123억…"2차전지소재 34% 성장" | https://www.widedaily.com/news/articleView.html?idxno=289533 | unknown |
-| 12 | 3 | 기타 | 2026-03-03 | www.it-b.co.kr | 스프레이시스템코리아, 인터배터리 2026서 2차전지 공정 최적화 스프레... | https://www.it-b.co.kr/news/articleView.html?idxno=87043 | unknown |
-| 13 | 3 | electrolyte | 2026-03-03 | www.joongang.co.kr | 전기차는 잠시…K배터리, AI·로봇·드론 신기술 띄운다 | https://www.joongang.co.kr/article/25408586 | unknown |
-| 14 | 3 | 기타 | 2026-03-02 | www.ulsanpress.net | DN오토모티브 노조 "납 흄 비산 여전…고용부 조사 시급" | https://www.ulsanpress.net/news/articleView.html?idxno=570029 | unknown |
-| 15 | 3 | 기타 | 2026-03-02 | www.ksmnews.co.kr | 경북도, 제조AX 혁신 이끌 ‘K-로봇 메가클러스터’ 본격 추진 | https://www.ksmnews.co.kr/news/view.php?idx=592731 | unknown |
-| 16 | 3 | 기타 | 2026-03-02 | www.snmnews.com | [대장간]'도시광산', 더 이상 선택 아닌 국가 안보로 인식해야 | http://www.snmnews.com/news/articleView.html?idxno=565842 | unknown |
-| 17 | 3 | 장비 | 2026-03-02 | www.pinpointnews.co.kr | 네오티스, SUV 썬루프 제어기 출격… 단순 부품사 넘어 전장 솔루션 기... | https://www.pinpointnews.co.kr/news/articleView.html?idxno=433335 | unknown |
-| 18 | 3 | 정책 | 2026-03-02 | www.sedaily.com | [청론직설] “국민성장펀드˙한국판IRA로 K반도체 더 강하게 키워야” | https://www.sedaily.com/article/20014229?ref=naver | unknown |
+| 1 | 3 | 전고체 | 2026-03-02 | CarNewsChina.com | Volkswagen-backed Gotion locks in 2GWh solid-state battery line design, eyes 2026 EV debut | https://news.google.com/rss/articles/CBMiugFBVV95cUxPMEZsRWtaaDFBX1dUWGR3empDM2Zacy1XV2FDYThpVmk1bDMzRGtDTnJBWXBxaWlsakptU25ZYlc2aFBuZUJYaWMxTXJDXzJxTVRHNXhDNmRaNzB3blpYd1AxbG1yLWM4X29GdXdmaVpCUnZTa1c5MjlxNFV4RUNYU0RYMDlONDI0X3VZZ2ZNY2Vka1I2emdpeVQ3anlRX0cwbmhJbFRMU0xyY1ctX2t6aUN3dmFlaC14a2c?oc=5 | unknown |
+| 2 | 3 | 기타 | 2026-03-02 | The Independent | New type of lithium battery developed in China can double EV range | https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUIybmF5TzJLUVhUUzFvdGVnaXRsWXNJbTdudjVfRkZjOF9RU05KUUFxMVF1RXBWUGhKQnZuM3VsalNaM2RvZTB0M2RLNnRmeV9xSjFIYWpEclpsVGs5cXBwNXN6V1RZLVhwS0d5aE5ncWJIUldLeTZJTmVneTQ5OHJKMnp3dVROd1UxSnczVQ?oc=5 | unknown |
+| 3 | 3 | 나트륨 | 2026-03-02 | pv magazine International | All European sodium-ion battery manufacturers at a glance | https://news.google.com/rss/articles/CBMingFBVV95cUxQbmZuZUxhbHlLZGpwb2lnbk5tZFBTM3lxczJQRWFDYk5YUmoyaWQyMXFiZjZRZndxa2Q1Wi10SmUzN1dLbGVxck85cC1Sc0RCUHZpNGhCWEhsU3hEai1rMUZHOHN0VVpGUG9JUGNtZ3hfRXFfQlR6TDZxYno1cnlVakp6Z1lPME1GWDJ3TkFkWW9zbmt6MTFFQlk2aTVHZw?oc=5 | unknown |
+| 4 | 3 | electrolyte | 2026-03-02 | Metal.com | South Korea's Solivis Sulphide Solid Electrolyte Layout | https://news.google.com/rss/articles/CBMipAFBVV95cUxPaWNVY3BlS25CcHl4QkVuaFdaWThwU2lUdHYwN0RMejZzOU1iQVBPODRlS3VLV0hVdGNQbF9ZdkR5RXFRdDVUQUlHNV93VmdmTXdibUVKeHlFamJ3cURCR0tWRFVURkJGb19JNUpSaUQxZ1ptUjZvZVlzTTFMelR3NnZEU3p2V1JnR25majhCY0pIblV5QVFjcFFtUTJYUnEwdGhNVg?oc=5 | unknown |
+| 5 | 3 | 기타 | 2026-03-02 | openPR.com | Lithium-Metal Secondary Battery Market Forecast 2026-2032: | https://news.google.com/rss/articles/CBMimAFBVV95cUxOYUwzeFlmZE9aQWJpNDVTcml3RFQxMFN4ZXhnazRpUThGSFVzWE12Q0NJUHU2MXk3QnJaMUdNckNmc3hWYzJncV91U0prMVc3YzRwbVlBNHRmUVRuQnhpVmVwSzI4U2VmX3dFZ2xhc25fOXhLdXplWnlxWmJMYUZCMHIzU2ZDT2NlQ2w3Sk1GdnBGVl9PMFhURA?oc=5 | unknown |
+| 6 | 3 | 전고체 | 2026-03-02 | electrive.com | Factorial evaluates Philenergy production technology for solid-state batteries | https://news.google.com/rss/articles/CBMitwFBVV95cUxQVllMdUhNT3RmdnEtekItQ2lhUFIyMnJDeG5EQ0ZjVWhOd0RQeF9sZWpEcFhIQlhKS05PVmJwVEczVHM4bFhXSGVXcEtBZlNLQ1BxOUtzTXB6WDBMMjZYVkhMMzBMSGdPeVJSbmEycV9uT3huYlM1RlJCOUhCdHNtNGdpSFcyWlNNTkdRV0RiOWNxa2ItQlVRbm4tR1RUOHlqRGJtQ1dHVnFLM0pYMkR4cDZVdFhrTVk?oc=5 | unknown |
+| 7 | 3 | 기타 | 2026-03-02 | IDTechEx | How EV Battery Material Trends Lead to Lower Prices and Increased Energy Density | https://news.google.com/rss/articles/CBMivAFBVV95cUxOMENHRFZLVDNXOW9KaGdvZ1I5dWkxY0ZrTk96dG5od2sweVNxQU9ycjZXZ3AyMVdLS2VQWERjakhvQmpVX1JzWUduektXV2tBNnROUTNnWXFYT2xzSW9BbzFRN0JrU1lNb2F5emV5MEYzSGt3UnJaUjRzanV5ZWpOMVQ4clZ2eDVLTTZOVmNkMFNIWHVEYmprYmdnNElQaHBIWHFDM1JoWlhHQnA3ZDJ5aWk5RGlvNlhjOENjcg?oc=5 | unknown |
+| 8 | 3 | 전고체 | 2026-03-02 | Electrek | Donut Lab solid-state battery survives 100°C discharge in second independent test | https://news.google.com/rss/articles/CBMikAFBVV95cUxOWDA5V1FfZ3A3OENORkJZbXVwZU9yWXNwZ2ZsV2ZkZkI3Zi1YVXRrRm1xWDRHbDZ2Y01iNGNmNjlqa3NtNE1fOVR2TmZncVlBNUl4NW1FekVPMWozZ1ltd1Z1QUJlSEVndTAxc3RBS3htTXVMbWRDX1pHUTdpZlJscEllYWxNU1FQUXl1VGp6WE0?oc=5 | unknown |
+| 9 | 3 | electrolyte | 2026-03-03 | www.metroseoul.co.kr | 포스코홀딩스, 아르헨 염호 상업가동 본격화…리튬 적자 탈출 시험대 | http://www.metroseoul.co.kr/article/20260303500465 | unknown |
+| 10 | 3 | cathode | 2026-03-03 | www.topdaily.kr | LG엔솔·삼성SDI·SK온, 보릿고개 버티기 전략 제각각 | https://www.topdaily.kr/articles/109034 | unknown |
+| 11 | 3 | 전고체 | 2026-03-03 | www.electimes.com | EV 넘어 ESS·로봇·AI로...K-배터리 '미래 포트폴리오 다각화 격돌' | https://www.electimes.com/news/articleView.html?idxno=365645 | unknown |
+| 12 | 3 | 전고체 | 2026-03-03 | www.joongangenews.com | 나인테크, 전고체 배터리 제조사 양산 환경서 성능 검증 테스트..."상용... | https://www.joongangenews.com/news/articleView.html?idxno=498921 | unknown |
+| 13 | 3 | 전고체 | 2026-03-03 | www.industrynews.co.kr | 나인테크, 전고체 배터리 제조 인프라 핵심 장비 부각… 본격 성장 사이... | https://www.industrynews.co.kr/news/articleView.html?idxno=78605 | unknown |
+| 14 | 3 | 전고체 | 2026-03-03 | www.thelec.kr | 나인테크, 전고체 배터리 양산라인서 건식전극 장비 검증 | https://www.thelec.kr/news/articleView.html?idxno=52955 | unknown |
 
 ## 상세 요약
 
-### 1. Waste Lithium Battery Recycling Market 2026, Global Demand
+### 1. Volkswagen-backed Gotion locks in 2GWh solid-state battery line design, eyes 2026 EV debut
 - 발행일: 2026-03-02
-- 매체: openPR.com (출처등급 3)
-- 분야: 재활용
-- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxQbnRGSUk5NWNpY0JJQnFxNFk4VzZpX3dRZWRwVXRmOFR0YldWY0xWV2FXMUJMVkpON2dCMExQNkNkUHo1RjZNcG9tRDhvOTJfZEh0eGtDelJpeWNfbzZMMVljYThCZGU1SDNOSFZ4S295SFphMUJpcjZ0cWRkcHNlY0pIdXduaXVOdnAxWTVwVkNZMUwxN1NUSQ?oc=5
+- 매체: CarNewsChina.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMiugFBVV95cUxPMEZsRWtaaDFBX1dUWGR3empDM2Zacy1XV2FDYThpVmk1bDMzRGtDTnJBWXBxaWlsakptU25ZYlc2aFBuZUJYaWMxTXJDXzJxTVRHNXhDNmRaNzB3blpYd1AxbG1yLWM4X29GdXdmaVpCUnZTa1c5MjlxNFV4RUNYU0RYMDlONDI0X3VZZ2ZNY2Vka1I2emdpeVQ3anlRX0cwbmhJbFRMU0xyY1ctX2t6aUN3dmFlaC14a2c?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMikAFBVV95cUxQRkVOMkw4WHJBTEFkS0hqSVNLekFFM01CS0xoNkxFTEx4cjdQckRtVlNpZGhtN2hqaXVFeU1wbm5EUTFSZVNtY29xZmk4RDBMSDFHRkh5UVlFcVBTdk5rRkNxbGJnRDNKWW5DMDBGRk9fd0ZSZ0ZkWXlGdE9pdllXcDd1ZHZPYldIY1J6anVFWGk?oc=5
 - 인기신호: unknown
 - 3문장 요약:
-  - 폐 리튬 배터리 재활용 시장은 2026년까지 상당한 성장이 예상됩니다.
-  - 이는 전기차 보급 확대와 지속 가능한 자원 관리에 대한 요구 증가에 따른 것입니다.
-  - 이러한 추세는 배터리 재활용 기술 개발 및 관련 산업 생태계 구축을 가속화할 것입니다.
+  - Volkswagen-backed Gotion has finalized the design for a 2GWh solid-state battery production line.
+  - This development signals a significant step towards the commercialization of solid-state batteries in electric vehicles.
+  - The company is targeting a debut in EVs by 2026.
+- 관련 기업: Volkswagen, Gotion
 
-### 2. Li-FT Power launches 30ktpa lithium study for Canada battery supply chain
-- 발행일: 2026-03-02
-- 매체: Stock Titan (출처등급 3)
-- 분야: 기타
-- 링크: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR3BWVGNKSldWendPaFR6RHFGVmRnUVJDWFJ5NDZPU0xHZ0U5dWZjVWR0S3hnUV9RUWVDWDFTaUpiSTlZSVREZ0hJWkxoVERnVklrQkVndGxBanBxdVJwbTNQLV9DeFQtU0sxa2ZwaklkMV9oVGhqRjZIVE9rM0xXQTc5OS02UGJUc2pXY1hScUl2dGlpa3dBMXBkcDNpTGhLSFIzX09vNkFEZ1JRVjZiYVlMUFpIZFdUcFluWnU0MkE?oc=5
-- 인기신호: unknown
-- 3문장 요약:
-  - Li-FT Power는 캐나다 배터리 공급망을 위한 연간 30kt 규모의 리튬 연구를 시작했습니다.
-  - 이 연구는 캐나다 내 리튬 자원 개발 및 배터리 생산 능력 확대를 목표로 합니다.
-  - 이는 북미 지역의 배터리 공급망 안정화에 기여할 것으로 기대됩니다.
-
-### 3. New Chinese lithium battery could see EV range boosted to 1,000km
-- 발행일: 2026-03-02
-- 매체: The Independent (출처등급 3)
-- 분야: 기타
-- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxPSWtyb3Jjbm91bF8zeHBPbjkwY1lLMWpFRnM4MlBCYUVHSVg4dURhakgzT3hXcUhmbkE4aWhyZ3pRcWN4eE1pZWJ2QV8wTGttQ2dFMXh1VDJmZUh6MnpKMzVjNlZaX1M1ak0weVZjb1dXQ180RjctMWs5V1hYSHNEdW02dXQxcENZSk1ybmVUay1yX1ZWS2p3SQ?oc=5
-- 인기신호: unknown
-- 3문장 요약:
-  - 중국에서 새로운 리튬 배터리가 개발되어 전기차 주행 거리를 1,000km까지 늘릴 수 있게 되었습니다.
-  - 이 배터리는 향상된 에너지 밀도와 효율성을 제공하여 전기차의 성능을 크게 향상시킬 것입니다.
-  - 이는 전기차의 실용성을 높이고 소비자들의 충전 불안감을 해소하는 데 기여할 것으로 예상됩니다.
-
-### 4. New type of lithium battery developed in China can double EV range
+### 2. New type of lithium battery developed in China can double EV range
 - 발행일: 2026-03-02
 - 매체: The Independent (출처등급 3)
 - 분야: 기타
 - 링크: https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUIybmF5TzJLUVhUUzFvdGVnaXRsWXNJbTdudjVfRkZjOF9RU05KUUFxMVF1RXBWUGhKQnZuM3VsalNaM2RvZTB0M2RLNnRmeV9xSjFIYWpEclpsVGs5cXBwNXN6V1RZLVhwS0d5aE5ncWJIUldLeTZJTmVneTQ5OHJKMnp3dVROd1UxSnczVQ?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxPSWtyb3Jjbm91bF8zeHBPbjkwY1lLMWpFRnM4MlBCYUVHSVg4dURhakgzT3hXcUhmbkE4aWhyZ3pRcWN4eE1pZWJ2QV8wTGttQ2dFMXh1VDJmZUh6MnpKMzVjNlZaX1M1ak0weVZjb1dXQ180RjctMWs5V1hYSHNEdW02dXQxcENZSk1ybmVUay1yX1ZWS2p3SQ?oc=5
 - 인기신호: unknown
 - 3문장 요약:
-  - 중국에서 개발된 새로운 유형의 리튬 배터리는 전기차 주행 거리를 두 배로 늘릴 수 있습니다.
-  - 이 기술은 기존 배터리보다 훨씬 높은 에너지 저장 용량을 제공합니다.
-  - 이는 전기차의 성능을 혁신하고 장거리 주행에 대한 제약을 완화할 잠재력을 가지고 있습니다.
+  - A new type of lithium battery has been developed in China.
+  - This innovative battery technology has the potential to significantly increase the range of electric vehicles.
+  - The development could lead to doubled EV range compared to current standards.
 
-### 5. China Battery Recycling Market Pric...
+### 3. All European sodium-ion battery manufacturers at a glance
 - 발행일: 2026-03-02
-- 매체: Mysteel (출처등급 3)
-- 분야: 재활용
-- 링크: https://news.google.com/rss/articles/CBMinAFBVV95cUxPclBZMUlDZ0RVb3dPNUs5akNiSVdFaFlpQ2J3QVdjYXF6bFVXQ3h3a25sb1liX2Q4VG5jT1NOVlUxZ1FQSWhvajZuYzNSLVo5MmpOTVZBYzFsaHVva181OFJtd2hDWkFoWmxaUUtnWkFtSElnRzZxN3JoX2NkeTJVek5NZUtSZDZGdlB2T042bk1hQTYwSDJkUktTck4?oc=5
+- 매체: pv magazine International (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMingFBVV95cUxQbmZuZUxhbHlLZGpwb2lnbk5tZFBTM3lxczJQRWFDYk5YUmoyaWQyMXFiZjZRZndxa2Q1Wi10SmUzN1dLbGVxck85cC1Sc0RCUHZpNGhCWEhsU3hEai1rMUZHOHN0VVpGUG9JUGNtZ3hfRXFfQlR6TDZxYno1cnlVakp6Z1lPME1GWDJ3TkFkWW9zbmt6MTFFQlk2aTVHZw?oc=5
 - 인기신호: unknown
 - 3문장 요약:
-  - 중국의 배터리 재활용 시장 가격 동향에 대한 정보가 제공됩니다.
-  - 이는 중국 내 배터리 재활용 산업의 성장과 관련된 시장 역학을 나타냅니다.
-  - 이러한 시장 동향은 글로벌 배터리 공급망 및 지속 가능성 논의에 중요한 영향을 미칠 수 있습니다.
+  - This article provides an overview of all European manufacturers producing sodium-ion batteries.
+  - It serves as a guide to the companies involved in this specific segment of the battery industry within Europe.
+  - The focus is on identifying and listing the key players in the European sodium-ion battery market.
 
-### 6. 플랜트 부진 속 소재 성장…강원에너지, 실적 반등 시동
-- 발행일: 2026-03-03
-- 매체: www.dt.co.kr (출처등급 3)
-- 분야: cathode
-- 링크: https://www.dt.co.kr/article/12049228?ref=naver
-- 인기신호: unknown
-- 3문장 요약:
-  - 강원에너지는 플랜트 부문의 부진에도 불구하고 2차전지 소재 부문의 성장으로 실적 반등을 시도하고 있습니다.
-  - 강원에너지가 생산하는 무수수산화리튬은 리튬이온 배터리 양극재 제조에 필수적인 핵심 소재입니다.
-  - 낮은 가동률에도 불구하고 소재 부문의 두 자릿수 성장세는 향후 실적 개선에 대한 기대를 높입니다.
-
-### 7. 강원에너지, 작년 매출 2123억…이차전지소재 부문 34% 성장
-- 발행일: 2026-03-03
-- 매체: www.edaily.co.kr (출처등급 3)
-- 분야: cathode
-- 링크: http://www.edaily.co.kr/news/newspath.asp?newsid=03886806645379712
-- 참고 링크: https://www.sentv.co.kr/article/view/sentv202603030036
-- 인기신호: unknown
-- 3문장 요약:
-  - 강원에너지는 지난해 매출 2123억원을 기록했으며, 특히 2차전지소재 부문에서 34%의 성장을 달성했습니다.
-  - 회사는 부진했던 플랜트 및 2차전지 설비 부문도 1분기부터 반등이 시작되었다고 밝혔습니다.
-  - 올해는 2차전지소재 부문의 성장을 바탕으로 전반적인 실적 개선을 목표로 하고 있습니다.
-
-### 8. 강원에너지, 2차전지 소재 매출 전년比 34%↑...무수수산화리튬 수요 기...
-- 발행일: 2026-03-03
-- 매체: www.ggilbo.com (출처등급 3)
-- 분야: cathode
-- 링크: https://www.ggilbo.com/news/articleView.html?idxno=1144317
-- 인기신호: unknown
-- 3문장 요약:
-  - 강원에너지는 2차전지 소재 매출이 전년 대비 34% 증가하며 뚜렷한 성장세를 기록했습니다.
-  - 이는 전기차 시장의 캐즘 현상과 플랜트·설비 부문의 부진 속에서 이룬 성과입니다.
-  - 강원에너지가 생산하는 무수수산화리튬은 리튬이온 배터리 양극재 제조에 필수적인 핵심 소재로 수요가 증가하고 있습니다.
-
-### 9. 하늘길 열리자 돈길도 열렸네… 에이치브이엠, 민간 우주 시대 최대 수...
-- 발행일: 2026-03-03
-- 매체: www.pinpointnews.co.kr (출처등급 3)
-- 분야: 기타
-- 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=433517
-- 인기신호: unknown
-- 3문장 요약:
-  - LG에너지솔루션은 스페이스X와의 배터리 공급 협력 기대감에도 불구하고 주가가 하락했습니다.
-  - 이는 우주 테마 이슈보다는 전기차 업황 둔화 등 본업에 대한 우려가 주가에 더 큰 영향을 미치고 있기 때문입니다.
-  - 현재 LG에너지솔루션은 2.58% 하락한 41만 6000원에 거래되고 있습니다.
-
-### 10. 정헌율 "새만금이 미래산업 두뇌라면 익산은 실질적 '실행 거점' 도시"
-- 발행일: 2026-03-03
-- 매체: www.pressian.com (출처등급 3)
-- 분야: 기타
-- 링크: https://www.pressian.com/pages/articles/2026030309565015042
-- 인기신호: unknown
-- 3문장 요약:
-  - 정헌율 시장은 새만금을 미래산업의 두뇌로, 익산을 실질적인 실행 거점 도시로 강조했습니다.
-  - AI, 배터리, 수소산업과 식품, 농생명산업의 융합 생태계 구축을 통해 전북을 산업 대전환의 중심지로 만들겠다는 비전을 제시했습니다.
-  - 이는 전북 200만 메가시티 실현을 위한 구체적인 전략의 일환입니다.
-
-### 11. 강원에너지, 지난해 매출 2123억…"2차전지소재 34% 성장"
-- 발행일: 2026-03-03
-- 매체: www.widedaily.com (출처등급 3)
-- 분야: cathode
-- 링크: https://www.widedaily.com/news/articleView.html?idxno=289533
-- 참고 링크: https://www.newsis.com/view/NISX20260303_0003531891
-- 인기신호: unknown
-- 3문장 요약:
-  - 강원에너지는 지난해 매출 2123억원을 기록했으며, 이 중 2차전지소재 부문이 전년 대비 34% 성장했습니다.
-  - 회사는 전기차 시장의 성장 둔화에도 불구하고 2차전지 소재 부문의 뚜렷한 성장세를 이어갔습니다.
-  - 강원에너지가 생산하는 무수수산화리튬은 리튬이온 배터리 양극재 제조에 필수적인 핵심 소재입니다.
-
-### 12. 스프레이시스템코리아, 인터배터리 2026서 2차전지 공정 최적화 스프레...
-- 발행일: 2026-03-03
-- 매체: www.it-b.co.kr (출처등급 3)
-- 분야: 기타
-- 링크: https://www.it-b.co.kr/news/articleView.html?idxno=87043
-- 인기신호: unknown
-- 3문장 요약:
-  - 스프레이시스템코리아는 인터배터리 2026에서 2차전지 공정 최적화를 위한 정밀 분사 솔루션을 선보일 예정입니다.
-  - 이번 전시는 2차전지 핵심 공정의 효율성과 성능을 향상시키는 혁신적인 기술을 소개하는 자리가 될 것입니다.
-  - 스프레이시스템코리아는 글로벌 리딩 기업으로서 2차전지 산업 발전에 기여할 것으로 기대됩니다.
-
-### 13. 전기차는 잠시…K배터리, AI·로봇·드론 신기술 띄운다
-- 발행일: 2026-03-03
-- 매체: www.joongang.co.kr (출처등급 3)
+### 4. South Korea's Solivis Sulphide Solid Electrolyte Layout
+- 발행일: 2026-03-02
+- 매체: Metal.com (출처등급 3)
 - 분야: electrolyte
-- 링크: https://www.joongang.co.kr/article/25408586
+- 링크: https://news.google.com/rss/articles/CBMipAFBVV95cUxPaWNVY3BlS25CcHl4QkVuaFdaWThwU2lUdHYwN0RMejZzOU1iQVBPODRlS3VLV0hVdGNQbF9ZdkR5RXFRdDVUQUlHNV93VmdmTXdibUVKeHlFamJ3cURCR0tWRFVURkJGb19JNUpSaUQxZ1ptUjZvZVlzTTFMelR3NnZEU3p2V1JnR25majhCY0pIblV5QVFjcFFtUTJYUnEwdGhNVg?oc=5
 - 인기신호: unknown
 - 3문장 요약:
-  - 삼성SDI는 2027년부터 양산 예정인 전고체배터리를 휴머노이드, 이동형 로봇 등에 적용할 계획입니다.
-  - 전고체배터리는 기존 리튬이온 배터리의 안정성과 에너지 밀도를 높인 차세대 배터리로 주목받고 있습니다.
-  - 이는 전기차를 넘어 로봇 등 다양한 분야로의 배터리 기술 확장을 보여줍니다.
+  - South Korea's Solivis is implementing its layout for sulfide solid electrolyte production.
+  - This move is crucial for advancing solid-state battery technology.
+  - The company's efforts are aimed at enhancing the performance and manufacturability of next-generation batteries.
+- 관련 기업: Solivis
 
-### 14. DN오토모티브 노조 "납 흄 비산 여전…고용부 조사 시급"
+### 5. Lithium-Metal Secondary Battery Market Forecast 2026-2032:
 - 발행일: 2026-03-02
-- 매체: www.ulsanpress.net (출처등급 3)
+- 매체: openPR.com (출처등급 3)
 - 분야: 기타
-- 링크: https://www.ulsanpress.net/news/articleView.html?idxno=570029
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxOYUwzeFlmZE9aQWJpNDVTcml3RFQxMFN4ZXhnazRpUThGSFVzWE12Q0NJUHU2MXk3QnJaMUdNckNmc3hWYzJncV91U0prMVc3YzRwbVlBNHRmUVRuQnhpVmVwSzI4U2VmX3dFZ2xhc25fOXhLdXplWnlxWmJMYUZCMHIzU2ZDT2NlQ2w3Sk1GdnBGVl9PMFhURA?oc=5
 - 인기신호: unknown
 - 3문장 요약:
-  - DN오토모티브 울산공장에서 납 흄 비산 등 유해물질 노출 및 산업보건 논란이 재점화되었습니다.
-  - 특히 배터리 박스 내 납 급판 투입 공정에서 국소배기장치 배관 이탈 상태로 라인이 가동된 사실이 드러났습니다.
-  - 노동조합은 고용노동부의 긴급 조사를 촉구하고 있습니다.
+  - This report forecasts the market for lithium-metal secondary batteries.
+  - The analysis covers the period from 2026 to 2032.
+  - It provides insights into the expected growth and trends within this battery market segment.
 
-### 15. 경북도, 제조AX 혁신 이끌 ‘K-로봇 메가클러스터’ 본격 추진
+### 6. Factorial evaluates Philenergy production technology for solid-state batteries
 - 발행일: 2026-03-02
-- 매체: www.ksmnews.co.kr (출처등급 3)
+- 매체: electrive.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMitwFBVV95cUxQVllMdUhNT3RmdnEtekItQ2lhUFIyMnJDeG5EQ0ZjVWhOd0RQeF9sZWpEcFhIQlhKS05PVmJwVEczVHM4bFhXSGVXcEtBZlNLQ1BxOUtzTXB6WDBMMjZYVkhMMzBMSGdPeVJSbmEycV9uT3huYlM1RlJCOUhCdHNtNGdpSFcyWlNNTkdRV0RiOWNxa2ItQlVRbm4tR1RUOHlqRGJtQ1dHVnFLM0pYMkR4cDZVdFhrTVk?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Factorial is evaluating Philenergy's production technology for solid-state batteries.
+  - This evaluation is a critical step in assessing the viability and scalability of the technology.
+  - The outcome could influence the future development and adoption of solid-state batteries.
+- 관련 기업: Factorial, Philenergy
+
+### 7. How EV Battery Material Trends Lead to Lower Prices and Increased Energy Density
+- 발행일: 2026-03-02
+- 매체: IDTechEx (출처등급 3)
 - 분야: 기타
-- 링크: https://www.ksmnews.co.kr/news/view.php?idx=592731
+- 링크: https://news.google.com/rss/articles/CBMivAFBVV95cUxOMENHRFZLVDNXOW9KaGdvZ1I5dWkxY0ZrTk96dG5od2sweVNxQU9ycjZXZ3AyMVdLS2VQWERjakhvQmpVX1JzWUduektXV2tBNnROUTNnWXFYT2xzSW9BbzFRN0JrU1lNb2F5emV5MEYzSGt3UnJaUjRzanV5ZWpOMVQ4clZ2eDVLTTZOVmNkMFNIWHVEYmprYmdnNElQaHBIWHFDM1JoWlhHQnA3ZDJ5aWk5RGlvNlhjOENjcg?oc=5
 - 인기신호: unknown
 - 3문장 요약:
-  - 경상북도는 제조AX 혁신을 이끌 'K-로봇 메가클러스터' 조성을 본격 추진합니다.
-  - 이 클러스터는 스마트 액츄에이터, 센서, 카메라, 배터리 등 로봇 부품 생산 기반을 활용할 것입니다.
-  - 영일만 항만과의 인접성은 로봇산업의 글로벌 공급망 편입에 유리한 위치를 제공합니다.
+  - Trends in EV battery materials are leading to reduced costs and higher energy density.
+  - These advancements are crucial for making electric vehicles more accessible and performant.
+  - The article explores how material innovations are driving these positive changes in the EV battery sector.
+- 관련 기업: IDTechEx
 
-### 16. [대장간]'도시광산', 더 이상 선택 아닌 국가 안보로 인식해야
+### 8. Donut Lab solid-state battery survives 100°C discharge in second independent test
 - 발행일: 2026-03-02
-- 매체: www.snmnews.com (출처등급 3)
-- 분야: 기타
-- 링크: http://www.snmnews.com/news/articleView.html?idxno=565842
+- 매체: Electrek (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMikAFBVV95cUxOWDA5V1FfZ3A3OENORkJZbXVwZU9yWXNwZ2ZsV2ZkZkI3Zi1YVXRrRm1xWDRHbDZ2Y01iNGNmNjlqa3NtNE1fOVR2TmZncVlBNUl4NW1FekVPMWozZ1ltd1Z1QUJlSEVndTAxc3RBS3htTXVMbWRDX1pHUTdpZlJscEllYWxNU1FQUXl1VGp6WE0?oc=5
 - 인기신호: unknown
 - 3문장 요약:
-  - 중국에 대한 핵심 광물 의존도를 낮추고 국가 안보 차원에서 폐배터리 재활용 시스템 구축이 시급합니다.
-  - 반도체 필수 요소인 인듐 88%, 2차전지 핵심인 리튬 71%를 중국에 의존하고 있어 공급망 리스크가 큽니다.
-  - 2030년 이후 폐배터리 발생량 급증에 대비하여 배터리 전주기 이력관리 시스템과 재생원료 활용 방안 마련이 필요합니다.
+  - Donut Lab's solid-state battery has successfully passed a second independent test, enduring a 100°C discharge.
+  - This demonstrates the battery's robustness and performance under demanding conditions.
+  - The results further validate the potential of Donut Lab's solid-state battery technology.
+- 관련 기업: Donut Lab
 
-### 17. 네오티스, SUV 썬루프 제어기 출격… 단순 부품사 넘어 전장 솔루션 기...
-- 발행일: 2026-03-02
-- 매체: www.pinpointnews.co.kr (출처등급 3)
-- 분야: 장비
-- 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=433335
+### 9. 포스코홀딩스, 아르헨 염호 상업가동 본격화…리튬 적자 탈출 시험대
+- 발행일: 2026-03-03
+- 매체: www.metroseoul.co.kr (출처등급 3)
+- 분야: electrolyte
+- 링크: http://www.metroseoul.co.kr/article/20260303500465
 - 인기신호: unknown
 - 3문장 요약:
-  - 네오티스는 SUV 썬루프 제어기 출시를 통해 단순 부품사를 넘어 전장 솔루션 기업으로 도약하고 있습니다.
-  - SK이노베이션, 유일에너테크, 상신이디피, LS머트리얼즈, 성문전자 등 정유 및 배터리 관련 기업들의 주가가 하락했습니다.
-  - LS ELECTRIC, 이지트로닉스, 엣지파운드리 등 전력 기기 관련 기업들도 부진한 모습을 보였습니다.
+  - POSCO Argentina has begun commercial operations at its lithium salt lake, aiming to overcome losses in the lithium sector.
+  - This operation is expected to produce enough battery materials for approximately 400,000 electric vehicles annually.
+  - The company's success will be tested against market dynamics, including supply-side adjustments in China and recovering demand for secondary batteries, particularly for ESS.
+- 관련 기업: 포스코홀딩스, 포스코아르헨티나, 2차전지
 
-### 18. [청론직설] “국민성장펀드˙한국판IRA로 K반도체 더 강하게 키워야”
-- 발행일: 2026-03-02
-- 매체: www.sedaily.com (출처등급 3)
-- 분야: 정책
-- 링크: https://www.sedaily.com/article/20014229?ref=naver
+### 10. LG엔솔·삼성SDI·SK온, 보릿고개 버티기 전략 제각각
+- 발행일: 2026-03-03
+- 매체: www.topdaily.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.topdaily.kr/articles/109034
 - 인기신호: unknown
 - 3문장 요약:
-  - 반도체뿐만 아니라 AI, 로봇, 자율주행차, 2차전지 등 첨단 산업 전반에 걸쳐 기술 경쟁력 강화가 필요합니다.
-  - 새로운 기술 패러다임 등장 시 격차가 급격히 좁혀질 수 있다는 점을 명심해야 합니다.
-  - 국민성장펀드 및 한국판 IRA와 같은 정책 지원을 통해 K-반도체 산업을 더욱 강화해야 합니다.
+  - LG Energy Solution, Samsung SDI, and SK On are adopting distinct strategies to navigate industry challenges.
+  - Samsung SDI plans to invest its secured funds into building production lines for solid-state batteries, termed 'dream batteries', and expanding LFP battery production for the rapidly growing Energy Storage System (ESS) market.
+  - This strategic focus highlights Samsung SDI's commitment to next-generation battery technologies and market expansion.
+- 관련 기업: LG엔솔, 삼성SDI, SK온
+
+### 11. EV 넘어 ESS·로봇·AI로...K-배터리 '미래 포트폴리오 다각화 격돌'
+- 발행일: 2026-03-03
+- 매체: www.electimes.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.electimes.com/news/articleView.html?idxno=365645
+- 참고 링크: http://www.newstomato.com/ReadNews.aspx?no=1292982&inflow=N, https://sports.donga.com/economy/article/all/20260303/133451657/1
+- 인기신호: unknown
+- 3문장 요약:
+  - The K-battery industry is diversifying its portfolio beyond electric vehicles to include Energy Storage Systems (ESS), robots, and AI applications.
+  - This strategic shift aims to secure a competitive edge in future technology landscapes, including showcasing diverse applications of solid-state batteries for the physical AI robot era.
+  - The industry is emphasizing its differentiated, leading-edge technological capabilities and innovations in materials, parts, and equipment (Sobu-jang).
+- 관련 기업: ESS·로봇·AI로...K-배터리, K-배터리, AI
+
+### 12. 나인테크, 전고체 배터리 제조사 양산 환경서 성능 검증 테스트..."상용...
+- 발행일: 2026-03-03
+- 매체: www.joongangenews.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.joongangenews.com/news/articleView.html?idxno=498921
+- 인기신호: unknown
+- 3문장 요약:
+  - Nine Tech is conducting performance verification tests for its dry electrode process equipment in the actual mass production environment of a solid-state battery manufacturer.
+  - These tests are crucial for confirming the commercialization potential of their equipment.
+  - The company aims to validate the performance under real-world mass production conditions.
+- 관련 기업: 나인테크
+
+### 13. 나인테크, 전고체 배터리 제조 인프라 핵심 장비 부각… 본격 성장 사이...
+- 발행일: 2026-03-03
+- 매체: www.industrynews.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.industrynews.co.kr/news/articleView.html?idxno=78605
+- 인기신호: unknown
+- 3문장 요약:
+  - Nine Tech, a specialist in secondary battery equipment, announced on the 3rd that it is conducting performance verification tests for its dry electrode process equipment.
+  - These tests are being carried out in the actual mass production environment of a solid-state battery manufacturer to confirm the commercialization potential of the equipment.
+  - The company is focusing on validating its technology in real production settings.
+- 관련 기업: 나인테크, 이차전지
+
+### 14. 나인테크, 전고체 배터리 양산라인서 건식전극 장비 검증
+- 발행일: 2026-03-03
+- 매체: www.thelec.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.thelec.kr/news/articleView.html?idxno=52955
+- 참고 링크: https://kr.aving.net/news/articleView.html?idxno=1809180
+- 인기신호: unknown
+- 3문장 요약:
+  - Nine Tech has begun verifying the performance of its dry electrode equipment on a solid-state battery manufacturer's mass production line.
+  - This process goes beyond the pilot stage to test actual mass production conditions, aiming to confirm commercialization viability.
+  - The company is actively demonstrating its capabilities in a real-world manufacturing setting.
+- 관련 기업: 나인테크
