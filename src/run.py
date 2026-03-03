@@ -4,7 +4,7 @@ from __future__ import annotations
 import os
 import time
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Tuple, Optional
 
 import yaml
 
@@ -45,7 +45,6 @@ def _normalize_model_name(name: str) -> str:
     if not n:
         return n
     low = n.lower().strip()
-    # normalize common typos
     low = low.replace("light", "lite")
     return low
 
@@ -57,7 +56,7 @@ def get_models() -> Dict[str, str]:
       GEMINI_MODEL (base)
       GEMINI_MODEL_DEDUPE
       GEMINI_MODEL_RANK
-      GEMINI_MODEL_SUMMARY (optional override for summary)
+      GEMINI_MODEL_SUMMARY
     """
     base = _normalize_model_name(os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite"))
     dedupe = _normalize_model_name(os.getenv("GEMINI_MODEL_DEDUPE", base))
@@ -67,7 +66,6 @@ def get_models() -> Dict[str, str]:
 
 
 def build_google_news_queries() -> list[tuple[str, str]]:
-    # Broad battery-related query set; downstream LLM will filter by relevance/importance.
     core = "battery (cathode OR anode OR electrolyte OR separator OR solid-state OR sodium-ion OR recycling OR LFP OR NCM OR precursor OR lithium)"
     scale = "battery (gigafactory OR plant OR production OR capacity OR investment OR supply agreement OR off-take OR MOU OR JV OR merger OR acquisition)"
     policy = "battery (policy OR regulation OR subsidy OR tariff OR IRA OR CBAM OR export control OR sanctions)"
@@ -98,26 +96,32 @@ def _get_naver_queries() -> list[str]:
 
 
 # -----------------------------
-# Google/RSS: collect candidates, then LLM select by battery relevance + monitoring importance
+# Scoring helpers
 # -----------------------------
 def _monitor_score(rel: int, imp: int) -> float:
-    # You can tune weights later
     return 0.7 * float(rel) + 0.3 * float(imp)
 
 
+def _pop_strength(sig: str) -> int:
+    # sort helper: stronger popularity first
+    s = (sig or "").lower()
+    if s in ("most_read", "trending", "top_ranked"):
+        return 3
+    if s in ("multi_source",):
+        return 2
+    if s in ("unknown", "", None):
+        return 0
+    return 1
+
+
+# -----------------------------
+# GOOGLE/RSS: collect candidates, then LLM select by battery relevance + monitoring importance
+# -----------------------------
 def _select_google_by_llm_battery_relevance(
     candidates: List[Dict[str, Any]],
     top_k: int,
     models: Dict[str, str],
 ) -> List[Dict[str, Any]]:
-    """
-    Uses naver_collector's LLM scoring utilities if available, otherwise fallback to simple ranking.
-    Strategy:
-      - limit candidates size
-      - call one-shot LLM title scoring (relevance+importance+event_key)
-      - pick representative per event_key
-      - select top_k by monitor_score
-    """
     api_key = (os.getenv("GEMINI_API_KEY") or "").strip()
     if not api_key or not candidates:
         picked = candidates[:top_k]
@@ -127,8 +131,6 @@ def _select_google_by_llm_battery_relevance(
             it["monitor_score"] = int(round(_monitor_score(60, 10)))
         return picked
 
-    # Optional: import helper from naver_collector (keeps one place of schema/prompt if you implemented there)
-    # But to avoid circular complexity, we do local minimal one-shot scoring here via google-genai.
     try:
         from google import genai
         from pydantic import BaseModel, Field
@@ -171,7 +173,6 @@ def _select_google_by_llm_battery_relevance(
         )
 
         text = (resp.text or "").strip()
-        # best-effort JSON extraction
         s = text.find("{")
         e = text.rfind("}")
         if s != -1 and e != -1 and e > s:
@@ -188,7 +189,7 @@ def _select_google_by_llm_battery_relevance(
             ek = (x.event_key or f"item_{x.index}").strip()[:80] or f"item_{x.index}"
             ek_by_i[int(x.index)] = ek
 
-        # representative per event
+        # one representative per event_key
         by_event: Dict[str, List[int]] = {}
         for i in range(len(candidates)):
             by_event.setdefault(ek_by_i.get(i, f"item_{i}"), []).append(i)
@@ -201,9 +202,9 @@ def _select_google_by_llm_battery_relevance(
             )
             reps.append(rep)
 
-        # apply relevance threshold
-        relevance_min = int(os.getenv("BATTERY_RELEVANCE_MIN", "55"))
-        reps = [i for i in reps if rel_by_i.get(i, 0) >= relevance_min] or reps
+        relevance_min = int(os.getenv("BATTERY_RELEVANCE_MIN", "60"))
+        reps2 = [i for i in reps if rel_by_i.get(i, 0) >= relevance_min]
+        reps = reps2 or reps
 
         reps.sort(
             key=lambda j: (
@@ -240,7 +241,6 @@ def _select_google_by_llm_battery_relevance(
 def collect_google_candidates(target_date: str, cfg: dict) -> List[Dict[str, Any]]:
     raw: List[Dict[str, Any]] = []
 
-    # google news queries
     for source_name, url in build_google_news_queries():
         got = collect_from_rss(url, source_name, target_date)
         for it in got:
@@ -249,7 +249,6 @@ def collect_google_candidates(target_date: str, cfg: dict) -> List[Dict[str, Any
             it["popularity_signal"] = popularity_signal_from_source(it.get("source", ""))
         raw.extend(got)
 
-    # fixed RSS sources in config
     for src in cfg.get("rss_sources", {}).get("fixed", []):
         name = src.get("name", "RSS")
         url = src.get("url", "")
@@ -265,18 +264,16 @@ def collect_google_candidates(target_date: str, cfg: dict) -> List[Dict[str, Any
     if not raw:
         return []
 
-    # basic dedupe by title similarity
     return dedupe_items(raw, sim_threshold=float(os.getenv("GOOGLE_DEDUPE_THRESHOLD", "0.88")))
 
 
 def collect_google_items(target_date: str, need: int, cfg: dict, models: Dict[str, str]) -> List[Dict[str, Any]]:
     cand = collect_google_candidates(target_date, cfg)
     _log(f"[INFO] GOOGLE candidates: {len(cand)}")
-
     if not cand:
         return []
 
-    cand_limit = int(os.getenv("GOOGLE_CANDIDATES", "90"))
+    cand_limit = int(os.getenv("GOOGLE_CANDIDATES", "120"))
     cand = cand[:cand_limit]
 
     picked = _select_google_by_llm_battery_relevance(cand, top_k=need, models=models)
@@ -285,7 +282,7 @@ def collect_google_items(target_date: str, need: int, cfg: dict, models: Dict[st
 
 
 # -----------------------------
-# NAVER: use naver_collector module (your current version)
+# NAVER
 # -----------------------------
 def collect_naver_items(target_date: str, need: int, models: Dict[str, str]) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
     naver_id = (os.getenv("NAVER_CLIENT_ID") or "").strip()
@@ -294,12 +291,11 @@ def collect_naver_items(target_date: str, need: int, models: Dict[str, str]) -> 
         _log("[WARN] NAVER_CLIENT_ID/SECRET not set. Skipping NAVER.")
         return [], {"raw_count": 0, "deduped_count": 0, "dropped": 0, "picked": 0}
 
-    import src.naver_collector as nc
+    from . import naver_collector as nc
 
     fetch_n = getenv_int("NAVER_FETCH_N", 150)
     queries = _get_naver_queries()
 
-    # NOTE: Your naver_collector already supports dedupe+rank (title-only).
     picked, picked_scores, stats = nc.collect_naver_top_last24h_deduped_and_ranked(
         client_id=naver_id,
         client_secret=naver_secret,
@@ -329,8 +325,6 @@ def collect_naver_items(target_date: str, need: int, models: Dict[str, str]) -> 
             "popularity_signal": "unknown",
         }
 
-        # If your naver_collector returns per-item scores in stats later, you can map them here.
-        # picked_scores is importance score (0-100)
         if idx < len(picked_scores):
             d["monitor_score"] = int(picked_scores[idx])
             d["monitoring_importance"] = int(picked_scores[idx])
@@ -341,6 +335,123 @@ def collect_naver_items(target_date: str, need: int, models: Dict[str, str]) -> 
     stats.setdefault("picked", len(out))
     stats.setdefault("models", {"base": models["base"], "dedupe": models["dedupe"], "rank": models["rank"]})
     return out, stats
+
+
+# -----------------------------
+# GLOBAL: Strong dedupe by LLM event_key (1 call) -> fallback to sim dedupe
+# -----------------------------
+def global_dedupe_items(items: List[Dict[str, Any]], models: Dict[str, str]) -> List[Dict[str, Any]]:
+    """
+    Stronger dedupe than pure string similarity:
+      - If GEMINI_API_KEY present: 1 request -> assign event_key to each title and keep 1 representative per event.
+      - Representative preference: lower tier (1 better), higher popularity, higher monitor_score, then 최신.
+      - On any failure/quota: fallback to dedupe_items(sim_threshold=GLOBAL_DEDUPE_THRESHOLD)
+    """
+    if not items:
+        return items
+
+    api_key = (os.getenv("GEMINI_API_KEY") or "").strip()
+    if not api_key:
+        return dedupe_items(items, sim_threshold=float(os.getenv("GLOBAL_DEDUPE_THRESHOLD", "0.88")))
+
+    # allow disable
+    if (os.getenv("GLOBAL_LLM_DEDUPE", "1").strip() != "1"):
+        return dedupe_items(items, sim_threshold=float(os.getenv("GLOBAL_DEDUPE_THRESHOLD", "0.88")))
+
+    try:
+        from google import genai
+        from pydantic import BaseModel, Field
+        from typing import List as _List
+
+        class _EK(BaseModel):
+            index: int
+            event_key: str = Field(..., description="same event => same key, ASCII letters/digits/_")
+
+        class _Resp(BaseModel):
+            items: _List[_EK]
+
+        client = genai.Client(api_key=api_key)
+        titles = [(i, (items[i].get("title") or "").strip()[:200]) for i in range(len(items))]
+
+        prompt = (
+            "아래 뉴스 제목들을 '같은 사건/이슈' 단위로 묶기 위한 event_key를 부여하세요.\n"
+            "조건:\n"
+            "- event_key는 ASCII letters/digits/_ 만 사용.\n"
+            "- 표현이 달라도 같은 사건이면 같은 event_key.\n"
+            "- 단순히 주제가 비슷한 정도는 같은 event_key로 묶지 말 것.\n"
+            "- 모든 index(0..N-1)를 반드시 1개씩 출력.\n"
+            "- 반드시 JSON만 출력.\n\n"
+            "출력: {\"items\": [{\"index\":0,\"event_key\":\"...\"}, ...]}\n\n"
+            "[제목 목록]\n"
+            + "\n".join([f"{i}: {t}" for i, t in titles])
+        )
+
+        resp = client.models.generate_content(
+            model=models["dedupe"],
+            contents=prompt,
+            config={"temperature": 0.0},
+        )
+
+        text = (resp.text or "").strip()
+        s = text.find("{")
+        e = text.rfind("}")
+        if s != -1 and e != -1 and e > s:
+            text = text[s : e + 1]
+
+        parsed = _Resp.model_validate_json(text)
+
+        ek_by_i: Dict[int, str] = {}
+        for x in parsed.items:
+            ek = (x.event_key or f"item_{x.index}").strip()[:80] or f"item_{x.index}"
+            ek_by_i[int(x.index)] = ek
+
+        def _rep_score(it: Dict[str, Any]) -> Tuple[int, int, int, str]:
+            tier = int(it.get("tier", 3))  # lower is better
+            pop = _pop_strength(it.get("popularity_signal", "unknown"))
+            ms = int(it.get("monitor_score", 0))
+            pub = str(it.get("published_at", ""))  # ISO string compare ok
+            # we want: tier asc, pop desc, ms desc, pub desc
+            return (tier, -pop, -ms, pub)
+
+        grouped: Dict[str, List[int]] = {}
+        for i in range(len(items)):
+            grouped.setdefault(ek_by_i.get(i, f"item_{i}"), []).append(i)
+
+        kept: List[Dict[str, Any]] = []
+        for ek, idxs in grouped.items():
+            # choose best representative
+            best_i = min(idxs, key=lambda j: _rep_score(items[j]))
+            rep = dict(items[best_i])
+
+            # attach up to 2 related links
+            related = []
+            for j in idxs:
+                if j == best_i:
+                    continue
+                link = (items[j].get("link") or "").strip()
+                src = (items[j].get("source") or "").strip()
+                if link and all(link != x.get("link") for x in related):
+                    related.append({"source": src, "link": link})
+                if len(related) >= 2:
+                    break
+
+            rep.setdefault("related_links", [])
+            # keep existing + new unique
+            seen = set((x.get("link") for x in rep["related_links"] if isinstance(x, dict)))
+            for r in related:
+                if r["link"] not in seen:
+                    rep["related_links"].append(r)
+                    seen.add(r["link"])
+                if len(rep["related_links"]) >= 2:
+                    break
+
+            kept.append(rep)
+
+        return kept
+
+    except Exception as e:
+        _log(f"[WARN] GLOBAL LLM dedupe failed -> fallback sim dedupe. err={e}")
+        return dedupe_items(items, sim_threshold=float(os.getenv("GLOBAL_DEDUPE_THRESHOLD", "0.88")))
 
 
 # -----------------------------
@@ -358,10 +469,12 @@ def main() -> None:
     _log(f"[INFO] Gemini models (BASE/DEDUP/RANK/SUMMARY): {models['base']} / {models['dedupe']} / {models['rank']} / {models['summary']}")
     _log(f"[CONFIG] target_date={target_date}")
 
-    naver_count = getenv_int("NAVER_COUNT", 10)
-    google_count = getenv_int("GOOGLE_COUNT", 10)
-    max_items = getenv_int("MAX_ITEMS", naver_count + google_count)
-    min_items = getenv_int("MIN_ITEMS", min(10, max_items))
+    max_items = int(os.getenv("MAX_ITEMS", "20"))
+    min_items = int(os.getenv("MIN_ITEMS", "10"))
+
+    # hard policy: 10 + 10 (within MAX)
+    naver_count = min(10, max_items)
+    google_count = min(10, max_items - naver_count)
 
     _log(f"[CONFIG] counts NAVER={naver_count} GOOGLE={google_count} MAX={max_items} MIN={min_items}")
 
@@ -371,58 +484,62 @@ def main() -> None:
     naver_items, naver_stats = collect_naver_items(target_date, need=naver_count, models=models)
     _log(f"[DONE] NAVER items={len(naver_items)} in {(_t()-t1):.1f}s | stats={naver_stats}")
 
-    # 2) Collect GOOGLE/RSS candidates and pick by battery relevance + importance
+    # 2) Collect GOOGLE/RSS
     _log("[STEP] Collect GOOGLE/RSS candidates -> LLM pick by battery relevance ...")
     t2 = _t()
     google_items = collect_google_items(target_date, need=google_count, cfg=cfg, models=models)
     _log(f"[DONE] GOOGLE/RSS picked={len(google_items)} in {(_t()-t2):.1f}s")
 
-    # 3) Merge and global dedupe
+    # 3) Merge
     raw = naver_items + google_items
-    raw = dedupe_items(raw, sim_threshold=float(os.getenv("GLOBAL_DEDUPE_THRESHOLD", "0.88")))
-    _log(f"[STEP] After merge dedupe: raw={len(raw)}")
 
-    # 4) Add tier/category/companies and ensure basic score fields exist
+    # 4) Add tier/category/companies early (helps dedupe representative selection)
     _log("[STEP] Add tier/category/companies ...")
     for it in raw:
         it["tier"] = infer_tier(it.get("link", ""), cfg)
         it["category"] = classify_category(it.get("title", ""), it.get("description", ""))
         it["companies"] = extract_companies(it.get("title", ""), it.get("description", ""), max_n=3)
-
         it.setdefault("popularity_signal", popularity_signal_from_source(it.get("source", "")))
-        it.setdefault("monitor_score", it.get("monitor_score", 0))
+        it.setdefault("monitor_score", int(it.get("monitor_score", 0)))
 
-    # 5) Sort and pick final MAX
-    def _sort_key(x: Dict[str, Any]) -> Tuple[int, int, int]:
-        # tier asc, monitor_score desc, (optional) relevance desc
-        tier = int(x.get("tier", 3))
+    # 5) Strong global dedupe (LLM event_key if possible)
+    _log("[STEP] Global dedupe (strong) ...")
+    before = len(raw)
+    raw = global_dedupe_items(raw, models=models)
+    _log(f"[STEP] After global dedupe: {before} -> {len(raw)}")
+
+    # 6) Sort and pick final MAX
+    def _sort_key(x: Dict[str, Any]) -> Tuple[int, int, int, str]:
+        tier = int(x.get("tier", 3))             # 1 best
+        pop = _pop_strength(x.get("popularity_signal", "unknown"))
         mscore = int(x.get("monitor_score", 0))
-        rel = int(x.get("battery_relevance", 0)) if x.get("battery_relevance") is not None else 0
-        return (tier, -mscore, -rel)
+        pub = str(x.get("published_at", ""))
+        # tier asc, pop desc, mscore desc, pub desc
+        return (tier, -pop, -mscore, pub)
 
     raw.sort(key=_sort_key)
     items = raw[:max_items]
 
-    _log(f"[STATS] items_final={len(items)} "
-         f"providers(naver={sum(1 for x in items if x.get('provider')=='naver')}, "
-         f"google={sum(1 for x in items if x.get('provider')=='google')}, "
-         f"rss={sum(1 for x in items if x.get('provider')=='rss')})")
+    _log(
+        f"[STATS] items_final={len(items)} "
+        f"providers(naver={sum(1 for x in items if x.get('provider')=='naver')}, "
+        f"google={sum(1 for x in items if x.get('provider')=='google')}, "
+        f"rss={sum(1 for x in items if x.get('provider')=='rss')})"
+    )
 
     if len(items) < min_items:
         _log(f"[WARN] Only {len(items)} items found (min requested {min_items}). Will still write outputs.")
 
-    # 6) Gemini batch enrichment for summaries + companies
-    # NOTE: llm_enrich_gemini.enrich_items already does per-item fallback to content-based summary.
+    # 7) Gemini batch enrichment for summaries + companies
     _log("[STEP] Gemini enrich (summary_3_sentences + companies) ...")
     t3 = _t()
     items = enrich_items(items, max_items=len(items), model=models["summary"])
     _log(f"[DONE] Gemini enrich finished in {(_t()-t3):.1f}s")
 
-    # Ensure all have 3-sentence summary list
     summaries_present = sum(1 for x in items if x.get("summary_3_sentences"))
     _log(f"[STATS] summaries_present={summaries_present}/{len(items)}")
 
-    # 7) Write outputs (ALWAYS write, even if small)
+    # 8) Write outputs + pages + DB
     _log("[STEP] Write outputs + pages + db ...")
     _log(f"[WRITE] target_date={target_date}")
     _log(f"[WRITE] outputs_dir=outputs/{target_date} docs_dir=docs/{target_date}")
