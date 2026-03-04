@@ -1,5 +1,143 @@
 [
   {
+    "title": "'인터배터리 출격' K-배터리, 전기차 한계 넘어 신기술 승부수",
+    "description": "이외에 전고체 배터리 등 차세대 기술 개발 현황도 공개할 방침이다. 이와 함께 국내 전력 환경에 최적화된 리튬인산철(LFP) 기반 ESS 솔루션 'JF2 DC LINK 5.0'을 선보이고, AI 데이터센터용으로 LFP 기반의 차세대 JP6 UPS...",
+    "link": "http://www.newsprime.co.kr/news/article.html?no=725951",
+    "source": "www.newsprime.co.kr",
+    "published_at": "2026-03-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "인터배터리",
+      "K-배터리",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "국내 배터리 기업들이 ‘인터배터리’ 전시회에서 전기차 시장을 넘어선 신기술 경쟁에 나섭니다.",
+      "전고체 배터리 등 차세대 기술 개발 현황을 공개하고, 국내 전력 환경에 최적화된 리튬인산철(LFP) 기반 ESS 솔루션과 AI 데이터센터용 LFP 기반 차세대 UPS를 선보일 예정입니다.",
+      "이는 K-배터리의 기술 혁신과 새로운 시장 개척 의지를 보여줍니다."
+    ],
+    "uid": "990efdf467f601908734f4b138bf3fb598cce7ec"
+  },
+  {
+    "title": "전남도, 광양만권 총 10조 규모 이차전지 \"특화단지 유치전\" 총력",
+    "description": "광양만권은 항만·철강·석유화학·소재 산업이 집적한 국내 최대 산업벨트를 기반으로 리튬·니켈 등 핵심 광물 정련, 양극재 생산, 사용후 배터리 재활용까지 국내 유일의 2차전지 전주기 공급망을 갖춘 지역으로...",
+    "link": "http://www.jeollailbo.com/news/articleView.html?idxno=793699",
+    "source": "www.jeollailbo.com",
+    "published_at": "2026-03-04",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.sedaily.com",
+        "link": "https://www.sedaily.com/article/20014932?ref=naver"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "이차전지",
+      "항만·철강·석유화학·소재",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "전라남도가 광양만권을 이차전지 특화단지로 유치하기 위해 총력을 기울이고 있습니다.",
+      "광양만권은 항만, 철강, 석유화학, 소재 산업이 집적되어 있으며, 리튬·니켈 등 핵심 광물 정련부터 양극재 생산, 사용후 배터리 재활용까지 전주기 공급망을 갖춘 지역입니다.",
+      "이러한 강점을 바탕으로 이차전지 산업의 핵심 거점으로 도약하겠다는 목표입니다."
+    ],
+    "uid": "b64f907a43bbbdbf362e7b098a774160f46d433e"
+  },
+  {
+    "title": "전고체 배터리 승부 가른다…\"속도는 에코프로, 원가는 포스코\" [찐코노...",
+    "description": "이투데이=이은지 PD 기자 | 차세대 배터리로 꼽히는 전고체 배터리 상용화 경쟁이 본격화되는 가운데, 기술 경쟁력과 원가 경쟁력을 둘러싼 기업 간 전략 차이가 투자 판도를 좌우할 것이라는 분석이 나왔다. 윤석천...",
+    "link": "https://www.etoday.co.kr/news/view/2561656",
+    "source": "www.etoday.co.kr",
+    "published_at": "2026-03-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "에코프로",
+      "포스코",
+      "PD"
+    ],
+    "summary_3_sentences": [
+      "차세대 배터리로 주목받는 전고체 배터리 상용화 경쟁이 본격화되고 있습니다.",
+      "기술 경쟁력은 에코프로가, 원가 경쟁력은 포스코가 강점을 보이며, 기업 간 전략 차이가 투자 판도를 좌우할 것이라는 분석이 나왔습니다.",
+      "이는 전고체 배터리 시장의 향방을 결정할 중요한 요소로 작용할 것입니다."
+    ],
+    "uid": "de9412ba3b42398e5acf08879a4c118708ed00c3"
+  },
+  {
+    "title": "LG에너지솔루션 CTO, '더 배터리 콘퍼런스' 연사로 나서 미래 전략 공개",
+    "description": "이 밖에도 김 CTO는 프리미엄 전기차용 고에너지 밀도 배터리, 중저가 시장 겨냥 솔루션, ESS 전용 LFP 제품 등 시장 세그먼트별 맞춤형 제품 전략과 함께 소듐이온 배터리, 전고체 배터리 등 차세대 전지 기술 개발...",
+    "link": "https://www.businessplus.kr/news/articleView.html?idxno=108204",
+    "source": "www.businessplus.kr",
+    "published_at": "2026-03-04",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.fnnews.com",
+        "link": "http://www.fnnews.com/news/202603041047508216"
+      },
+      {
+        "source": "www.nocutnews.co.kr",
+        "link": "https://www.nocutnews.co.kr/news/6479098?utm_source=naver&utm_medium=article&utm_campaign=20260304094610"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG에너지솔루션",
+      "소듐이온",
+      "CTO"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션 CTO가 ‘더 배터리 콘퍼런스’에서 미래 배터리 전략을 공개했습니다.",
+      "프리미엄 전기차용 고에너지 밀도 배터리, 중저가 시장용 솔루션, ESS 전용 LFP 제품 등 시장 세그먼트별 맞춤형 전략과 함께 소듐이온 배터리, 전고체 배터리 등 차세대 전지 기술 개발 현황을 공유했습니다.",
+      "이는 LG에너지솔루션의 기술 혁신과 시장 대응 전략을 보여줍니다."
+    ],
+    "uid": "46ab009011e1421c9a636af7836b8b14e2be0336"
+  },
+  {
+    "title": "전기차에 데인 K-배터리… 로봇·ESS용 기술 경쟁 '2R'",
+    "description": "차세대 기술인 전고체 배터리 개발 현황도 소개한다. 삼성SDI는 내년 하반기 양산을 목표로 기술 고도화에 속도를 내고 있다. 업계에서는 전고체 배터리가 상용화될 경우 안전성과 에너지 밀도 측면에서 '게임 체인저...",
+    "link": "https://it.chosun.com/news/articleView.html?idxno=2023092157999",
+    "source": "it.chosun.com",
+    "published_at": "2026-03-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "K-배터리"
+    ],
+    "summary_3_sentences": [
+      "K-배터리 업계가 전기차 시장의 한계를 넘어 로봇 및 ESS용 배터리 기술 경쟁에 집중하고 있습니다.",
+      "차세대 기술인 전고체 배터리 개발에 속도를 내고 있으며, 삼성SDI는 내년 하반기 양산을 목표로 기술 고도화에 힘쓰고 있습니다.",
+      "전고체 배터리가 상용화되면 안전성과 에너지 밀도 측면에서 게임 체인저가 될 것으로 기대됩니다."
+    ],
+    "uid": "9b8e12ce0647d9b1854251b0b293449e7b09900a"
+  },
+  {
     "title": "강원에너지, 지난해 매출 2123억…\"2차전지소재 34% 성장\"",
     "description": "회사 측에 따르면 반면 2차전지소재 부문은 전년 대비 34% 증가하며 뚜렷한 성장세를 기록했다. 전기차... 강원에너지가 생산하는 무수수산화리튬은 리튬이온 배터리 양극재 제조에 필수적인 핵심 소재다. 수분 함량이 0.1...",
     "link": "https://www.widedaily.com/news/articleView.html?idxno=289533",
@@ -78,6 +216,31 @@
       "The company is actively demonstrating its capabilities in a real-world manufacturing setting."
     ],
     "uid": "7a7d03e112af32107fc8e195d12423ba7c7e3b06"
+  },
+  {
+    "title": "“2차전지 핵심거점으로 도약”…충남도, 첨단산단 지정 총력",
+    "description": "이차전지 산업 생태계’를 조성한다는 구상이다. 이번 협약에는 한국유미코아배터리머티리얼즈... 이차전지 특화단지와의 이른바 2차 경쟁 구도 속에서 산업·인력·입지 경쟁력을 입증하겠다는 전략이다. 충남도가 구상...",
+    "link": "https://www.sedaily.com/article/20014737?ref=naver",
+    "source": "www.sedaily.com",
+    "published_at": "2026-03-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "한국유미코아배터리머티리얼즈",
+      "2차전지",
+      "이차전지"
+    ],
+    "summary_3_sentences": [
+      "충남도가 이차전지 산업 생태계 조성을 위해 첨단산업단지 지정을 추진합니다.",
+      "이는 이차전지 특화단지와의 경쟁 속에서 산업, 인력, 입지 경쟁력을 확보하려는 전략입니다.",
+      "한국유미코아배터리머티리얼즈 등이 협약에 참여했습니다."
+    ],
+    "uid": "f5ff4479514dad789d664c4a67ca79669c2b2381"
   },
   {
     "title": "정헌율 \"새만금이 미래산업 두뇌라면 익산은 실질적 '실행 거점' 도시\"",
@@ -277,6 +440,31 @@
     "uid": "217ea257e9b1d49fcb3dab65c3b84f94ba386492"
   },
   {
+    "title": "LG에너지솔루션, ‘인터배터리 2026’ 참가… AI·로봇용 차세대 배터리...",
+    "description": "이 밖에도 ‘미래 기술 존’에서는 전고체 배터리를 비롯해 리튬 메탈, 바이폴라, 소듐 배터리 등 차세대 제품군을 통해 지속 가능한 에너지 전환을 선도하겠다는 R&D 혁신 전략을 공유한다. LG에너지솔루션 관계자는...",
+    "link": "https://www.geconomy.co.kr/news/article.html?no=316667",
+    "source": "www.geconomy.co.kr",
+    "published_at": "2026-03-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "LG에너지솔루션",
+      "인터배터리",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션이 ‘인터배터리 2026’에 참가하여 AI 및 로봇용 차세대 배터리 기술을 선보입니다.",
+      "전고체 배터리, 리튬 메탈, 바이폴라, 소듐 배터리 등 미래 기술을 통해 지속 가능한 에너지 전환을 선도하겠다는 R&D 혁신 전략을 공유할 예정입니다.",
+      "LG에너지솔루션은 차세대 제품군을 통해 미래 기술 경쟁력을 강조할 것입니다."
+    ],
+    "uid": "8bcefc8b66e83e6edfc3e71488a0da7b8a64969c"
+  },
+  {
     "title": "EV 넘어 ESS·로봇·AI로...K-배터리 '미래 포트폴리오 다각화 격돌'",
     "description": "아울러 피지컬 AI 로봇 시대에 대응할 전고체 배터리의 다양한 적용 사례도 함께 소개하며 차별화된 초격차 기술력을 강조할 예정이다. ◆ 어워즈로 미리 엿본 K-배터리 초격차 기술… 소부장 혁신도 '눈길' 본...",
     "link": "https://www.electimes.com/news/articleView.html?idxno=365645",
@@ -361,6 +549,242 @@
       "낮은 가동률에도 불구하고 소재 부문의 두 자릿수 성장세는 향후 실적 개선에 대한 기대를 높입니다."
     ],
     "uid": "9c34ac8d07541a9cedbb2d9ebf8c8402483a1654"
+  },
+  {
+    "title": "Fraunhofer ILT identifies lasers as a key technology for Solid-State batteries",
+    "published_at": "2026-03-03",
+    "source": "electrive.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPd3lNODMzcFk4ZnZIZnpqcUx3X19ldWpKNTZRWkMybW85bWlYUG1TVUJ6V29ReXByTTZvV2xzSmFYVjBQQVNmV3dvOTNjT2c4YnU0UUxITmt6YlBNQVh2aTFtXzFHazNmUjhIU29OejZQamdIYlhfSmtBTm9MSHBvd0lzQkpWbkJDN0oyY2M2cUllLU5yenl0QzJuLXJBUDlfY1ZCSjRZQjR6ZnFyeThPWU0yOHExdU0?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPd3lNODMzcFk4ZnZIZnpqcUx3X19ldWpKNTZRWkMybW85bWlYUG1TVUJ6V29ReXByTTZvV2xzSmFYVjBQQVNmV3dvOTNjT2c4YnU0UUxITmt6YlBNQVh2aTFtXzFHazNmUjhIU29OejZQamdIYlhfSmtBTm9MSHBvd0lzQkpWbkJDN0oyY2M2cUllLU5yenl0QzJuLXJBUDlfY1ZCSjRZQjR6ZnFyeThPWU0yOHExdU0?oc=5\" target=\"_blank\">Fraunhofer ILT identifies lasers as a key technology for Solid-State batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrive.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Fraunhofer ILT",
+      "ILT"
+    ],
+    "summary_3_sentences": [
+      "Fraunhofer ILT는 레이저 기술이 전고체 배터리 생산에 핵심적인 역할을 할 것이라고 밝혔습니다.",
+      "레이저 기술은 전고체 배터리의 제조 공정을 개선하고 효율성을 높이는 데 기여할 수 있습니다.",
+      "이는 전고체 배터리 상용화를 앞당기는 데 중요한 요소가 될 것입니다."
+    ],
+    "uid": "a8dc5562bd2d87bb24bd6c7edff84da44b47f024"
+  },
+  {
+    "title": "Independent Testing Shows Donut Lab's Fast-Charging Solid-State Battery Works Reliably at High Temps",
+    "published_at": "2026-03-03",
+    "source": "autoevolution",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWldKTTVJUWNpcFh3VnNzeXRGMlpnS3kydFh3RGN3MVV5VVlod1h2Ym5sNDFPZHhYbEFaa0N2ZmVDLUhoamQ1TmNKTzZoXy1uTlBqOXAzUDhoSTh1NnluVHk0OWF0dTZHRG1fa0ZYZmpjeXhXdnZ2LV9pbThEaDRHY0g3RmFqSHRkdy04ME40cGZFVk8zRGRvWUFNSE1hRHd0ZHVublZBaDh4STNHVXNCMFNWMUpiN3pobUV6WFNKVWlLcEtjX2JZMUhlalAxY1VWdG5TSHc5Wno3VWRn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWldKTTVJUWNpcFh3VnNzeXRGMlpnS3kydFh3RGN3MVV5VVlod1h2Ym5sNDFPZHhYbEFaa0N2ZmVDLUhoamQ1TmNKTzZoXy1uTlBqOXAzUDhoSTh1NnluVHk0OWF0dTZHRG1fa0ZYZmpjeXhXdnZ2LV9pbThEaDRHY0g3RmFqSHRkdy04ME40cGZFVk8zRGRvWUFNSE1hRHd0ZHVublZBaDh4STNHVXNCMFNWMUpiN3pobUV6WFNKVWlLcEtjX2JZMUhlalAxY1VWdG5TSHc5Wno3VWRn?oc=5\" target=\"_blank\">Independent Testing Shows Donut Lab's Fast-Charging Solid-State Battery Works Reliably at High Temps</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">autoevolution</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "Donut Lab"
+    ],
+    "summary_3_sentences": [
+      "독립적인 테스트 결과 Donut Lab의 고속 충전 전고체 배터리가 고온에서도 안정적으로 작동하는 것으로 나타났습니다.",
+      "이 배터리는 극한의 온도 조건에서도 신뢰성을 유지하는 성능을 보여줍니다.",
+      "이는 전고체 배터리의 실용성과 적용 범위를 넓힐 수 있는 중요한 결과입니다."
+    ],
+    "uid": "0eabeaf9a700520c308b8b0f4be4e83034cff619"
+  },
+  {
+    "title": "A clear view to better batteries: Engineers show moment lithium-ion batteries begin to fail",
+    "published_at": "2026-03-03",
+    "source": "Tech Xplore",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80Rm9XU3IwWnl5T2FCdUlfNzdtMjg0Qk5yRUxrRGN0OHhsN2RtWnpScU1jYXlHOVNGYmszSHA2Z3F4OXQwa1J3ajdKcTRJczJVNEVESm1aNEkxNlJYTjdKR19nOVlKRUNmTi0zTnhJZzVUUFdyc1Y2NWdZcE9uV00?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE80Rm9XU3IwWnl5T2FCdUlfNzdtMjg0Qk5yRUxrRGN0OHhsN2RtWnpScU1jYXlHOVNGYmszSHA2Z3F4OXQwa1J3ajdKcTRJczJVNEVESm1aNEkxNlJYTjdKR19nOVlKRUNmTi0zTnhJZzVUUFdyc1Y2NWdZcE9uV00?oc=5\" target=\"_blank\">A clear view to better batteries: Engineers show moment lithium-ion batteries begin to fail</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Xplore</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "엔지니어들이 리튬이온 배터리가 고장나는 순간을 포착하는 데 성공했습니다.",
+      "이는 배터리 내부의 복잡한 현상을 시각적으로 이해하는 데 도움을 줄 수 있습니다.",
+      "이러한 연구는 더 안전하고 효율적인 배터리 개발로 이어질 수 있습니다."
+    ],
+    "uid": "c90b6ad41dc3e99faf44ceb3e52f3dcb47bbf08e"
+  },
+  {
+    "title": "PyroGenesis claims primary testing success with battery recycler",
+    "published_at": "2026-03-03",
+    "source": "Recycling Today",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcnozYmplYnFaZ19ZZDZMZTNoc3RjZkxiZ2VFZ3VMdEtNOXJNbzk4OWh3V19zNHpiMUc3N0RfaXRvRjhHUzNzdWxzYmJZR0lWeHJHd3ptdTZHYVN5Vks0LXlzbWJ1UFJJTWU5ZC03ajJZUjRJNnRReWpGclIzNjFHdFNINndzSTRlUlRmeDVrYXQ2dGwySHJVQ0pXSFdSVk54MkRJ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPcnozYmplYnFaZ19ZZDZMZTNoc3RjZkxiZ2VFZ3VMdEtNOXJNbzk4OWh3V19zNHpiMUc3N0RfaXRvRjhHUzNzdWxzYmJZR0lWeHJHd3ptdTZHYVN5Vks0LXlzbWJ1UFJJTWU5ZC03ajJZUjRJNnRReWpGclIzNjFHdFNINndzSTRlUlRmeDVrYXQ2dGwySHJVQ0pXSFdSVk54MkRJ?oc=5\" target=\"_blank\">PyroGenesis claims primary testing success with battery recycler</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Recycling Today</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "PyroGenesis"
+    ],
+    "summary_3_sentences": [
+      "PyroGenesis는 배터리 재활용 장치의 초기 테스트에서 성공을 거두었다고 주장했습니다.",
+      "이 재활용 장치는 배터리 폐기물을 효과적으로 처리할 수 있는 기술을 보유하고 있습니다.",
+      "이는 배터리 재활용 산업의 발전에 기여할 수 있습니다."
+    ],
+    "uid": "b3b03bafdfe4604c042c0da19410fd7dd97d970f"
+  },
+  {
+    "title": "NextSource Materials and Mitsubishi Chemical Corporation agree timetable for Battery Anode Facility",
+    "published_at": "2026-03-03",
+    "source": "Proactive financial news",
+    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNTmtkNm5oZ2xFQUx5QXprZFRNVU9vREx3dWxCTG1RMnQ1ZENpSURzamtfOWZsRWs3dEEwc3RxVDU5SXJ2V0hTX1ctcUJpcHUxNFFGcVVsOU9kczlndi1KZjFGUFd1dlJOS2RPQS10VWUxSk5IRjJXZTl4QUM4YlR3SEdmRjJTbFZOekpxRDE3aUtHV0ludjRnSmZjMVM2NUlRTEpmMVh2cC1aQUY2RS1CRVZwcjZBQUtiT2dRcGh5a1pId2hsZFFmbTZDWTZWNFZQWnpybENiQTUwOXNDSGVwRVU4UTVwMFRhUmNsYzdOQUVzSjdNNnZoWGsxNmxKck0?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi_wFBVV95cUxNTmtkNm5oZ2xFQUx5QXprZFRNVU9vREx3dWxCTG1RMnQ1ZENpSURzamtfOWZsRWs3dEEwc3RxVDU5SXJ2V0hTX1ctcUJpcHUxNFFGcVVsOU9kczlndi1KZjFGUFd1dlJOS2RPQS10VWUxSk5IRjJXZTl4QUM4YlR3SEdmRjJTbFZOekpxRDE3aUtHV0ludjRnSmZjMVM2NUlRTEpmMVh2cC1aQUY2RS1CRVZwcjZBQUtiT2dRcGh5a1pId2hsZFFmbTZDWTZWNFZQWnpybENiQTUwOXNDSGVwRVU4UTVwMFRhUmNsYzdOQUVzSjdNNnZoWGsxNmxKck0?oc=5\" target=\"_blank\">NextSource Materials and Mitsubishi Chemical Corporation agree timetable for Battery Anode Facility</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Proactive financial news</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "NextSource Materials",
+      "Mitsubishi Chemical Corporation"
+    ],
+    "summary_3_sentences": [
+      "NextSource Materials와 Mitsubishi Chemical Corporation은 배터리 음극재 시설 구축 일정을 합의했습니다.",
+      "이는 양극재 시설 구축을 위한 구체적인 계획을 수립한 것입니다.",
+      "두 회사는 배터리 핵심 소재 생산 협력을 강화할 것으로 보입니다."
+    ],
+    "uid": "2f6fb1ccb0d60bed576e988198406e6111c30ea1"
+  },
+  {
+    "title": "Full Circle Lithium Plant at Full Capacity Ahead of April Retail Rollout of FCL-X™ Lithium Battery Fire Extinguishers",
+    "published_at": "2026-03-03",
+    "source": "PR Newswire",
+    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQNjEwWnJ6MDNZSlZmQ0xQNWF4c2JjYmJFdTFSZGNlbklmbktUdzVGX2dmSjBQU0c1S0ZzeDFWNk55Qjh2NmhGMk1CaUJzSTFYOV9nWnh4cWdqVVl3V2Nua3JVWS0wdURHV0I5b1RIWFVfcHNfNVhjQ19YUmh4TlJsNTRzcWtMTEU5SDNNZWRicmRBMFp6UEJXNWFfc3VTYVJHZDVocUM3anpIbEZZNU9ZVDc5LUtHcmd1NjRKdDVNMU9sNUNWV2lPUENlV2V4VVA2UmNGR0dkVTZfa085SGtuSzBiajRLUmNiVWoxQUFhUnM1RGRQOU5GM2IyZzVPWkkxaUE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxQNjEwWnJ6MDNZSlZmQ0xQNWF4c2JjYmJFdTFSZGNlbklmbktUdzVGX2dmSjBQU0c1S0ZzeDFWNk55Qjh2NmhGMk1CaUJzSTFYOV9nWnh4cWdqVVl3V2Nua3JVWS0wdURHV0I5b1RIWFVfcHNfNVhjQ19YUmh4TlJsNTRzcWtMTEU5SDNNZWRicmRBMFp6UEJXNWFfc3VTYVJHZDVocUM3anpIbEZZNU9ZVDc5LUtHcmd1NjRKdDVNMU9sNUNWV2lPUENlV2V4VVA2UmNGR0dkVTZfa085SGtuSzBiajRLUmNiVWoxQUFhUnM1RGRQOU5GM2IyZzVPWkkxaUE?oc=5\" target=\"_blank\">Full Circle Lithium Plant at Full Capacity Ahead of April Retail Rollout of FCL-X™ Lithium Battery Fire Extinguishers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PR Newswire</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Full Circle Lithium",
+      "FCL",
+      "PR"
+    ],
+    "summary_3_sentences": [
+      "Full Circle Lithium은 FCL-X™ 리튬 배터리 소화기 출시를 앞두고 공장을 최대 생산 능력으로 가동하고 있습니다.",
+      "이 소화기는 리튬 배터리 화재 진압에 특화된 제품입니다.",
+      "이는 리튬 배터리 사용 증가에 따른 안전 문제에 대한 해결책을 제시합니다."
+    ],
+    "uid": "44d1a1724d29fa3340dcd09760b9ddb3d4bc5c3a"
+  },
+  {
+    "title": "Solid-State Battery 202602： Rumors of Testing ; Multiple Enterprises Rapidly Rolled Out Pilot-Scale Validation",
+    "published_at": "2026-03-03",
+    "source": "Metal.com",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObVJkUUNTQUpHeWF0aTJ5dWpKaDc3S3lLS1JRZWRGTFItMWxoM0tjdHM5ZnZpVGpSWlhEcjYtVGxyLWdCXzM0Qms1QTBHQ3N6dmZqYUlncG1hQVN0azM5ZlRQUU9HX0lYNTNuRlQ5WG1jVnhLMmxSaWdfZ1hNSTY5NW9LTjlqRHQ1cnJsRmtXTnlLV25GZHdhcXhPLWxKamZrQTFtQmRpNnpTTVpJLWNTaDllSUpUeXREWEh2R0xPVGpvUE5YM2xNTWk2elNxUDkwbnJzaThua3NhaEdfWmxlODVIU1g3OTZBZEZJ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxObVJkUUNTQUpHeWF0aTJ5dWpKaDc3S3lLS1JRZWRGTFItMWxoM0tjdHM5ZnZpVGpSWlhEcjYtVGxyLWdCXzM0Qms1QTBHQ3N6dmZqYUlncG1hQVN0azM5ZlRQUU9HX0lYNTNuRlQ5WG1jVnhLMmxSaWdfZ1hNSTY5NW9LTjlqRHQ1cnJsRmtXTnlLV25GZHdhcXhPLWxKamZrQTFtQmRpNnpTTVpJLWNTaDllSUpUeXREWEh2R0xPVGpvUE5YM2xNTWk2elNxUDkwbnJzaThua3NhaEdfWmxlODVIU1g3OTZBZEZJ?oc=5\" target=\"_blank\">Solid-State Battery 202602： Rumors of Testing ; Multiple Enterprises Rapidly Rolled Out Pilot-Scale Validation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Metal.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "전고체 배터리 관련 테스트가 진행 중이며, 여러 기업이 파일럿 규모의 검증을 신속하게 진행하고 있습니다.",
+      "이는 전고체 배터리 기술의 상용화를 위한 중요한 단계입니다.",
+      "다수의 기업들이 이 분야에서 경쟁하며 기술 개발에 박차를 가하고 있습니다."
+    ],
+    "uid": "424c35802655af2d87836010dc547b83aacca1af"
+  },
+  {
+    "title": "Scientists use 270-year-old physics effect to boost cathode in sodium-ion batteries",
+    "published_at": "2026-03-03",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYmtyMzZXc3FLX3FtYW9BQmV0YWY1OXVKMHVXQzl0U05Qb3E0ODlkRjRrZzNVeFc4TDBQcU1HVmpCamVjdjZ0RTFPNGNBR0ZucndIWDFrcDNvNlc5d0hCT3UwMC01SVpZbWhFcWd1THlfejJzcmd5bnRvT1lwaEJ2bTBZdTBHNFVMaEswXw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNYmtyMzZXc3FLX3FtYW9BQmV0YWY1OXVKMHVXQzl0U05Qb3E0ODlkRjRrZzNVeFc4TDBQcU1HVmpCamVjdjZ0RTFPNGNBR0ZucndIWDFrcDNvNlc5d0hCT3UwMC01SVpZbWhFcWd1THlfejJzcmd5bnRvT1lwaEJ2bTBZdTBHNFVMaEswXw?oc=5\" target=\"_blank\">Scientists use 270-year-old physics effect to boost cathode in sodium-ion batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [],
+    "summary_3_sentences": [
+      "과학자들이 270년 된 물리 효과를 활용하여 나트륨 이온 배터리의 양극재 성능을 향상시켰습니다.",
+      "이 연구는 기존의 물리 원리를 배터리 기술에 접목하여 효율성을 높이는 새로운 가능성을 보여줍니다.",
+      "이는 차세대 배터리 기술 개발에 새로운 방향을 제시할 수 있습니다."
+    ],
+    "uid": "2c3b01339913fff05699dd90ae3ebdae3efaa1ec"
+  },
+  {
+    "title": "What is direct recycling?",
+    "published_at": "2026-03-03",
+    "source": "Benchmark Mineral Intelligence",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUm5LMEVXcXJkbmRxb1NHc240ZDEwRXBSaE44WVlCNmc4MTFmZTVnMm9PakNrenRIOFpSM1FIeTItRHh0U2YteXlQa2RXV2dnRVZMU251RVBVd1E2QmQ1LThWWWxNY1JvTWJVQkQzR2JKVXJialZQUUdwVWdNdG00SVdOb0phWXRHLWtB?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUm5LMEVXcXJkbmRxb1NHc240ZDEwRXBSaE44WVlCNmc4MTFmZTVnMm9PakNrenRIOFpSM1FIeTItRHh0U2YteXlQa2RXV2dnRVZMU251RVBVd1E2QmQ1LThWWWxNY1JvTWJVQkQzR2JKVXJialZQUUdwVWdNdG00SVdOb0phWXRHLWtB?oc=5\" target=\"_blank\">What is direct recycling?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benchmark Mineral Intelligence</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "직접 재활용(direct recycling)은 배터리 재활용의 한 방법입니다.",
+      "이 기술은 배터리 구성 요소를 직접 추출하여 재활용하는 방식입니다.",
+      "이는 배터리 산업의 지속 가능성을 높이는 데 기여할 수 있습니다."
+    ],
+    "uid": "2cc99375a6e20b07bd9b5fabd8e9202e07dc9d8d"
+  },
+  {
+    "title": "Don’t Miss Nyobolt’s Game-Changing Fast-Charging Battery Innovations",
+    "published_at": "2026-03-03",
+    "source": "Battery Technology",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ1Y4N1FLS1FJUXktQW1pczVmYU1aSHpabVhOaDVqSDg3cGdMRjN1SUx3Vk5jb2pkWGNaWmVvbFNaT3d0MDFKYzNrLW1uaEZ4NUdRLVRyRmc0YTdmWGhUOUpWZEFHbjFQLTZzSDYzOG1URVQtd3ZZaWdyR2FWX3lwNWdlWmdnRml6a21DRmh6dFFvckMxQWpxb2pVWWw2US15VnRYUFJvUDRMTWhLODhHQzJlSmZUdw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ1Y4N1FLS1FJUXktQW1pczVmYU1aSHpabVhOaDVqSDg3cGdMRjN1SUx3Vk5jb2pkWGNaWmVvbFNaT3d0MDFKYzNrLW1uaEZ4NUdRLVRyRmc0YTdmWGhUOUpWZEFHbjFQLTZzSDYzOG1URVQtd3ZZaWdyR2FWX3lwNWdlWmdnRml6a21DRmh6dFFvckMxQWpxb2pVWWw2US15VnRYUFJvUDRMTWhLODhHQzJlSmZUdw?oc=5\" target=\"_blank\">Don’t Miss Nyobolt’s Game-Changing Fast-Charging Battery Innovations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Battery Technology</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Nyobolt"
+    ],
+    "summary_3_sentences": [
+      "Nyobolt는 획기적인 고속 충전 배터리 기술을 선보입니다.",
+      "이 기술은 기존 배터리의 충전 시간을 대폭 단축할 수 있는 잠재력을 가지고 있습니다.",
+      "이는 전기차 및 기타 전자 기기의 사용 편의성을 크게 향상시킬 수 있습니다."
+    ],
+    "uid": "463d0cdf6da1e29b244ee7fd38e488640eab93a2"
   },
   {
     "title": "DN오토모티브 노조 \"납 흄 비산 여전…고용부 조사 시급\"",
