@@ -1,0 +1,228 @@
+# 배터리 뉴스 데일리 브리핑 (2026-03-07 전날 기준)
+
+- 총 17건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 전고체 | 2026-03-08 | www.newsway.co.kr | 중국 CATL도 참가... 역대 최대 규모 '인터배터리 2026' 개막 | https://www.newsway.co.kr/news/view?ud=2026030408492842680 | unknown |
+| 2 | 3 | 전고체 | 2026-03-08 | www.digitaltoday.co.kr | K-베터리 업계, 휴머노이드 핵심 '전고체 배터리' 양산 정조준 | https://www.digitaltoday.co.kr/news/articleView.html?idxno=637859 | unknown |
+| 3 | 3 | 나트륨 | 2026-03-07 | R&D World | 175 Wh/kg: How CATL’s Naxtra Architecture Moves Sodium-Ion Beyond the Lab | https://news.google.com/rss/articles/CBMipAFBVV95cUxQRWtOZWpMNzlnRklRLVBWYVVvY3AwZHpUTEFJNDNjVjcxV21aNFRGN2ZfMEQ3Q2w5Sk1WMmJDc1FnckhVZnUtOU9nTnh2NHBFR2FlVTdTNFhZRXRSbFNfTjlFZXNHWWpFbHRuTzJPSGJudDJ2eThfN3k0dUxETkN4Tjd0Um0tbnVHSFhFVFNPbnI0aVk4S3d3Q20zdFhOWm5Nb0lHeQ?oc=5 | unknown |
+| 4 | 3 | anode | 2026-03-07 | HPQ Silicon | Silicon Battery Materials | https://news.google.com/rss/articles/CBMibEFVX3lxTE9yUmpMNndiTjRQcEdkRTJ3a2h1Y3UwU2FyRm82c2NXTU1RTzJYaXhqdHpKazEwMWdWTUc5OGszQlNGSm9ldjh6QkppTTRvUXlRWjJVdFE3Sml1Vi1EMXB6NlVZYUVqS0xRdjBJcQ?oc=5 | unknown |
+| 5 | 3 | 전고체 | 2026-03-07 | TechRadar | 'A huge leap if true': Chinese researchers say this semi-solid-state EV battery delivers a 620-mile range — and could soon break the 1,000-mile barrier | https://news.google.com/rss/articles/CBMijAJBVV95cUxNNFdkYVpBeFZuZUphSlBSZXVaaDM0ZU5VZlFsTHZVM2RIYXg2bEQ1cGtIallvTkZqUkZ5eU1SdTZhQm1zcWVfTFl0TEVUQUphY0U2ZWh5dVhtSmdKNUNOM2UyWEpCM2lZbC1MR0pLZ19sa1pBdkJCMzZXS2hpb1NNN2tvUDB1OWozc3E3cHY4UlpqUjJCU2sxNHdvNUxkQkI1TjA4ajktVEswMDZzWGhpZ3AwNlpMZ0hlYzJjQno2MEtOaUxkV1ItXzZVemVpSllGMkFyWkRDemE0VTk4blhkZzNiWTFSMnNlZ2lDZGRVdnVfYmtWSGlCVVl5VVl4TjBNeVF6Rk5MNzVXNjlI?oc=5 | unknown |
+| 6 | 3 | 기타 | 2026-03-07 | Charged EVs | Forget about X, AI and robots—Tesla is quietly building a complete EV battery supply chain | https://news.google.com/rss/articles/CBMivwFBVV95cUxOWVZ1UUZUNHhvU3lRdWJIbkRNLTFhdURwQ0pFcEtUeTZYblg5ZFhZTWJnQjZ2dU56TUkwN1B3TWZtdzRBX2N0VW9lUjloYS1HdzdNY2FZN0VjS1VTOTVnTXhRM3N3eThfV2V0WngwVWQzM1pXcE0wOHo3ZVJLRE95YzBXLUY2OXpPU2RPTXY0RW1BWjdROGdiZTVGUmJ3VkNySi1OLXNwV295WDZsdDJBTEhVbWY2NlV5WnE3S2RQNA?oc=5 | unknown |
+| 7 | 3 | 전고체 | 2026-03-07 | Batteries News | BASQUEVOLT appoints Nicolò Campagnol as Chief Program Officer to lead customer programs and commercialization of solid-state battery technology | https://news.google.com/rss/articles/CBMi_wFBVV95cUxQUWVpVXJMbGJYbEJ2UUVqd3BXcGJ2bVUtWWUwVk91OGxjaG0zZ3FzdzR1RWx3WUVJNDBqUFd1Z3J3SVlSRTUybEJmNTg4UXFEODdUNFM3c0pkd0FYVjF3YXJ6VmlQcEJ6YkNTdy16RFRld1BPcEtmRWZSb0lRM3ctajhGUEVYLThBLWZ0TzQ3SzA1dXdwNWVWTjZhbUJmR2JrN3hnek91QW5xWkVLU3NXRHNqS05rT0dGUWlhUnFNVHE1OUV1QnVad0htdGZxYTdzMDAxT2NEWlBhVWNabjBxVUx1dFoweTlEdi1MSzFtMEM3ZFhwOWMyVVNsVDV5N0k?oc=5 | unknown |
+| 8 | 3 | 전고체 | 2026-03-07 | thelec.net | Mintech to Showcase Solid-State Battery Inspection System at InterBattery 2026 | https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QSmpUaHlkcTdxUHYxOW5STkJicDgwbWVSVGJVRDlCTEl6M0RHTjJGSGNHd0Jnd1VGcmNyTHZyOENZbVZCX04yOUhlemdPeVotTjluMmd3VHlGVndIa01PTDlVOTJfdw?oc=5 | unknown |
+| 9 | 3 | electrolyte | 2026-03-07 | R&D World | Flexible electrolyte for solid batteries achieves 0.73 Li+ transference | https://news.google.com/rss/articles/CBMiowFBVV95cUxNU1JnT2ZIMXlXVEt4NGdQdzJRcEFoTjZHSGhFcTI3Nnp5QUxGOVZQXzkwVUx3aHMxa1VWOFFfdkNIY3o5SWpPanJPWXhOSkxlYWpGV2h4TnlHVFNfNVhJU2dXMW5ETFpnby15bTRYWWZlNm1JQXN0RGNseGVJcENqWVRSU0hLSXR5aFA3ckZuMml5OUNyOWYtZVZGcDBxak9Vemxj?oc=5 | unknown |
+| 10 | 3 | 전고체 | 2026-03-07 | Electrek | This Japanese brand bought out an all-solid-state EV battery company, and it’s not Toyota | https://news.google.com/rss/articles/CBMimAFBVV95cUxQb3I4NFg5MU5sNkdZam5VeElJUUxKaHpjU0dIVlJra0xudE9mNVFRMjhhRjRvMnFuaXk0ZGs1YU9xX1ZRQ3Nmb2tfcFFod091dzloVnZRczNTdDBSbFRjWS12TDdBdlFxeS1pYjZyckdfZUpMM2V4dlVMUFBiZXJvVmttQlA2dWxpeDl1dUc3aGZRb3hFa21SQg?oc=5 | unknown |
+| 11 | 3 | 전고체 | 2026-03-07 | ilyo.co.kr | 에코프로, '2026 인터배터리' 참가…전고체 배터리 소재 라인업 공개 | https://ilyo.co.kr/?ac=article_view&entry_id=509373 | unknown |
+| 12 | 3 | 재활용 | 2026-03-07 | KEZI | Oregon's new battery recycling law aims to curb fire hazards | https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWkpldlhFbGNoOXNMSWtlc1NSS0NlOUVwQUdvUC0zX25EVjlLbENseXNGU1o2cDJNbTNabzJuYTVBWG9qVzQxSll3ZzRXQ2JjWmpobHUzYWVnVDZfQ0hDc0ppZnYyajVUMUx5U2k2Z2hBU2Rhb0VYam54OXVlTkJjUVJiTjNGbWEtSENCNDNYRmctSnBtR2lvNlNBX1NzS1hubW1yaWd0M0NEU0xYcTh6aUFBdWduTWZJZHhFRFFMZmJzREZ4MnVfY3VmaURheVRiUnBBLUNDbjJyZ21U?oc=5 | unknown |
+| 13 | 3 | 재활용 | 2026-03-07 | Resource Recycling | Oregon passes battery EPR Law, banning lithium-ion disposal | https://news.google.com/rss/articles/CBMirgFBVV95cUxPMjhkYnZ3RkNZaEhxV25ybnJfUjBBTFFPRDhxQlloUXM2NFFEQ2Q0QVFLa1ZEOGRlRURRejFWWVlEdmU3LUJQMHNoZTQwQ3llSG9vNlZ4SnRSNUtlYmFIMUt6bkMyb1hlNzBuck1Pd3MzNGRYYnlhMHJxbURZTDltQjk2c0ZnR2ZQVFVQNlZLOEgwS0Fkc2dIV19xUVM1eDRtXzBZZmx6OFktV3Bfd3c?oc=5 | unknown |
+| 14 | 3 | 전고체 | 2026-03-08 | www.imaeil.com | 에코프로, 인터배터리에서 하이니켈 삼원계 및 전고체 소재 공개 | https://www.imaeil.com/page/view/2026030510290427224 | unknown |
+| 15 | 3 | cathode | 2026-03-08 | www.thebigdata.co.kr | 인터배터리 개막 앞둬…배터리업계, AI·ESS 시장 겨냥 기술 공개 | http://www.thebigdata.co.kr/view.php?ud=2026030613354751710ecbf9426b_23 | unknown |
+| 16 | 3 | cathode | 2026-03-08 | www.ekn.kr | “중국산 배터리 아웃”…EU 초강수 철퇴에 K-배터리 ‘역전 잭팟’ | https://www.ekn.kr/web/view.php?key=20260308024415988 | unknown |
+| 17 | 3 | 기타 | 2026-03-08 | www.hansbiz.co.kr | 삼성SDI, AI 기반 ESS 화재 예방 SW 'SBI' 전격 공개 | http://www.hansbiz.co.kr/news/articleView.html?idxno=822325 | unknown |
+
+## 상세 요약
+
+### 1. 중국 CATL도 참가... 역대 최대 규모 '인터배터리 2026' 개막
+- 발행일: 2026-03-08
+- 매체: www.newsway.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.newsway.co.kr/news/view?ud=2026030408492842680
+- 인기신호: unknown
+- 3문장 요약:
+  - 인터배터리 2026이 역대 최대 규모로 개막하며 중국 CATL 등 글로벌 기업들이 참가했습니다.
+  - SK온은 액침냉각 기술, 전고체 배터리, 셀투팩 솔루션 등 차세대 기술을 선보일 예정입니다.
+  - 이번 전시회는 전 세계 배터리 시장의 최신 동향과 기술 발전을 조망하는 중요한 기회가 될 것입니다.
+- 관련 기업: CATL, SK온, 인터배터리
+
+### 2. K-베터리 업계, 휴머노이드 핵심 '전고체 배터리' 양산 정조준
+- 발행일: 2026-03-08
+- 매체: www.digitaltoday.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.digitaltoday.co.kr/news/articleView.html?idxno=637859
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 배터리 업계가 2027년 전고체 배터리 양산을 목표로 총력을 기울이고 있습니다.
+  - 에너지 밀도 1000Wh/L급의 전고체 배터리는 휴머노이드, 드론 등 차세대 산업의 핵심 동력이 될 전망입니다.
+  - 셀 제조부터 소재 개발까지 밸류체인 전반에 걸친 기술 개발 경쟁이 치열하게 전개될 것으로 예상됩니다.
+- 관련 기업: 유비텍 로보틱스
+
+### 3. 175 Wh/kg: How CATL’s Naxtra Architecture Moves Sodium-Ion Beyond the Lab
+- 발행일: 2026-03-07
+- 매체: R&D World (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMipAFBVV95cUxQRWtOZWpMNzlnRklRLVBWYVVvY3AwZHpUTEFJNDNjVjcxV21aNFRGN2ZfMEQ3Q2w5Sk1WMmJDc1FnckhVZnUtOU9nTnh2NHBFR2FlVTdTNFhZRXRSbFNfTjlFZXNHWWpFbHRuTzJPSGJudDJ2eThfN3k0dUxETkN4Tjd0Um0tbnVHSFhFVFNPbnI0aVk4S3d3Q20zdFhOWm5Nb0lHeQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - CATL의 Naxtra 아키텍처는 175 Wh/kg의 에너지 밀도를 달성하며 나트륨 이온 배터리의 실험실 단계를 넘어섰습니다.
+  - 이는 기존 나트륨 이온 배터리 기술의 한계를 극복하고 상용화를 앞당길 수 있는 중요한 진전입니다.
+  - CATL은 이번 기술 개발을 통해 차세대 배터리 시장에서의 경쟁력을 강화할 것으로 보입니다.
+- 관련 기업: CATL
+
+### 4. Silicon Battery Materials
+- 발행일: 2026-03-07
+- 매체: HPQ Silicon (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE9yUmpMNndiTjRQcEdkRTJ3a2h1Y3UwU2FyRm82c2NXTU1RTzJYaXhqdHpKazEwMWdWTUc5OGszQlNGSm9ldjh6QkppTTRvUXlRWjJVdFE3Sml1Vi1EMXB6NlVZYUVqS0xRdjBJcQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - HPQ Silicon은 실리콘 배터리 소재 분야의 혁신을 주도하고 있습니다.
+  - 이러한 소재 개발은 배터리의 에너지 밀도와 성능을 향상시키는 데 중요한 역할을 할 것으로 기대됩니다.
+  - 실리콘 배터리 소재의 발전은 전기차 및 에너지 저장 장치 시장의 성장을 가속화할 것입니다.
+- 관련 기업: HPQ Silicon, HPQ
+
+### 5. 'A huge leap if true': Chinese researchers say this semi-solid-state EV battery delivers a 620-mile range — and could soon break the 1,000-mile barrier
+- 발행일: 2026-03-07
+- 매체: TechRadar (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMijAJBVV95cUxNNFdkYVpBeFZuZUphSlBSZXVaaDM0ZU5VZlFsTHZVM2RIYXg2bEQ1cGtIallvTkZqUkZ5eU1SdTZhQm1zcWVfTFl0TEVUQUphY0U2ZWh5dVhtSmdKNUNOM2UyWEpCM2lZbC1MR0pLZ19sa1pBdkJCMzZXS2hpb1NNN2tvUDB1OWozc3E3cHY4UlpqUjJCU2sxNHdvNUxkQkI1TjA4ajktVEswMDZzWGhpZ3AwNlpMZ0hlYzJjQno2MEtOaUxkV1ItXzZVemVpSllGMkFyWkRDemE0VTk4blhkZzNiWTFSMnNlZ2lDZGRVdnVfYmtWSGlCVVl5VVl4TjBNeVF6Rk5MNzVXNjlI?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국 연구진이 개발한 반고체 EV 배터리는 620마일의 주행 거리를 제공하며 1,000마일 돌파 가능성을 제시했습니다.
+  - 이 기술은 기존 EV 배터리의 주행 거리 한계를 크게 확장할 수 있는 잠재력을 가지고 있습니다.
+  - 만약 이 기술이 상용화된다면 전기차 시장에 혁신적인 변화를 가져올 수 있을 것입니다.
+
+### 6. Forget about X, AI and robots—Tesla is quietly building a complete EV battery supply chain
+- 발행일: 2026-03-07
+- 매체: Charged EVs (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMivwFBVV95cUxOWVZ1UUZUNHhvU3lRdWJIbkRNLTFhdURwQ0pFcEtUeTZYblg5ZFhZTWJnQjZ2dU56TUkwN1B3TWZtdzRBX2N0VW9lUjloYS1HdzdNY2FZN0VjS1VTOTVnTXhRM3N3eThfV2V0WngwVWQzM1pXcE0wOHo3ZVJLRE95YzBXLUY2OXpPU2RPTXY0RW1BWjdROGdiZTVGUmJ3VkNySi1OLXNwV295WDZsdDJBTEhVbWY2NlV5WnE3S2RQNA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Tesla는 AI나 로봇 기술 외에도 EV 배터리 공급망 구축에 집중하고 있습니다.
+  - 이는 Tesla가 전기차 생산의 핵심 요소인 배터리 분야에서 수직 계열화를 통해 경쟁 우위를 확보하려는 전략으로 해석됩니다.
+  - Tesla의 이러한 행보는 배터리 산업 전반에 걸쳐 공급망 안정성과 기술 혁신을 촉진할 수 있습니다.
+- 관련 기업: Tesla, AI
+
+### 7. BASQUEVOLT appoints Nicolò Campagnol as Chief Program Officer to lead customer programs and commercialization of solid-state battery technology
+- 발행일: 2026-03-07
+- 매체: Batteries News (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMi_wFBVV95cUxQUWVpVXJMbGJYbEJ2UUVqd3BXcGJ2bVUtWWUwVk91OGxjaG0zZ3FzdzR1RWx3WUVJNDBqUFd1Z3J3SVlSRTUybEJmNTg4UXFEODdUNFM3c0pkd0FYVjF3YXJ6VmlQcEJ6YkNTdy16RFRld1BPcEtmRWZSb0lRM3ctajhGUEVYLThBLWZ0TzQ3SzA1dXdwNWVWTjZhbUJmR2JrN3hnek91QW5xWkVLU3NXRHNqS05rT0dGUWlhUnFNVHE1OUV1QnVad0htdGZxYTdzMDAxT2NEWlBhVWNabjBxVUx1dFoweTlEdi1MSzFtMEM3ZFhwOWMyVVNsVDV5N0k?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - BASQUEVOLT는 Nicolò Campagnol을 최고 프로그램 책임자로 임명하여 고객 프로그램 및 전고체 배터리 기술 상용화를 이끌도록 했습니다.
+  - 이번 인사는 BASQUEVOLT가 전고체 배터리 기술 개발 및 시장 출시를 가속화하려는 의지를 보여줍니다.
+  - Campagnol의 리더십 아래 BASQUEVOLT는 차세대 배터리 시장에서 중요한 역할을 할 것으로 기대됩니다.
+- 관련 기업: BASQUEVOLT
+
+### 8. Mintech to Showcase Solid-State Battery Inspection System at InterBattery 2026
+- 발행일: 2026-03-07
+- 매체: thelec.net (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QSmpUaHlkcTdxUHYxOW5STkJicDgwbWVSVGJVRDlCTEl6M0RHTjJGSGNHd0Jnd1VGcmNyTHZyOENZbVZCX04yOUhlemdPeVotTjluMmd3VHlGVndIa01PTDlVOTJfdw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Mintech는 '인터배터리 2026'에서 전고체 배터리 검사 시스템을 선보일 예정입니다.
+  - 이 시스템은 전고체 배터리의 품질과 신뢰성을 보장하는 데 중요한 역할을 할 것으로 기대됩니다.
+  - Mintech의 기술은 차세대 배터리 상용화를 위한 필수적인 요소가 될 수 있습니다.
+- 관련 기업: Mintech
+
+### 9. Flexible electrolyte for solid batteries achieves 0.73 Li+ transference
+- 발행일: 2026-03-07
+- 매체: R&D World (출처등급 3)
+- 분야: electrolyte
+- 링크: https://news.google.com/rss/articles/CBMiowFBVV95cUxNU1JnT2ZIMXlXVEt4NGdQdzJRcEFoTjZHSGhFcTI3Nnp5QUxGOVZQXzkwVUx3aHMxa1VWOFFfdkNIY3o5SWpPanJPWXhOSkxlYWpGV2h4TnlHVFNfNVhJU2dXMW5ETFpnby15bTRYWWZlNm1JQXN0RGNseGVJcENqWVRSU0hLSXR5aFA3ckZuMml5OUNyOWYtZVZGcDBxak9Vemxj?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 유연한 전해질을 사용하여 고체 배터리에서 0.73의 Li+ 전달률을 달성했습니다.
+  - 이는 기존 고체 배터리의 이온 전도성 문제를 개선할 수 있는 중요한 연구 결과입니다.
+  - 이러한 기술 발전은 더 안전하고 효율적인 고체 배터리 개발에 기여할 수 있습니다.
+
+### 10. This Japanese brand bought out an all-solid-state EV battery company, and it’s not Toyota
+- 발행일: 2026-03-07
+- 매체: Electrek (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxQb3I4NFg5MU5sNkdZam5VeElJUUxKaHpjU0dIVlJra0xudE9mNVFRMjhhRjRvMnFuaXk0ZGs1YU9xX1ZRQ3Nmb2tfcFFod091dzloVnZRczNTdDBSbFRjWS12TDdBdlFxeS1pYjZyckdfZUpMM2V4dlVMUFBiZXJvVmttQlA2dWxpeDl1dUc3aGZRb3hFa21SQg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 한 일본 브랜드가 Toyota가 아닌 다른 회사의 전고체 EV 배터리 기업을 인수했습니다.
+  - 이는 일본 자동차 및 배터리 업계가 전고체 배터리 기술 확보에 적극적으로 나서고 있음을 시사합니다.
+  - 이번 인수는 전고체 배터리 시장의 경쟁 구도에 영향을 미칠 수 있습니다.
+- 관련 기업: Toyota
+
+### 11. 에코프로, '2026 인터배터리' 참가…전고체 배터리 소재 라인업 공개
+- 발행일: 2026-03-07
+- 매체: ilyo.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://ilyo.co.kr/?ac=article_view&entry_id=509373
+- 인기신호: unknown
+- 3문장 요약:
+  - 에코프로는 '2026 인터배터리'에 참가하여 전고체 배터리 소재 라인업을 공개합니다.
+  - 이 회사는 하이니켈 삼원계 및 전고체 배터리 소재의 풀 밸류체인을 강조하며, EV를 넘어 휴머노이드 시대를 겨냥하고 있습니다.
+  - 또한 인도네시아 니켈 투자를 통해 광물 주권을 확보하고 배터리 생애 주기 전반을 관리하는 전략을 추진 중입니다.
+- 관련 기업: 에코프로, 인터배터리
+
+### 12. Oregon's new battery recycling law aims to curb fire hazards
+- 발행일: 2026-03-07
+- 매체: KEZI (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWkpldlhFbGNoOXNMSWtlc1NSS0NlOUVwQUdvUC0zX25EVjlLbENseXNGU1o2cDJNbTNabzJuYTVBWG9qVzQxSll3ZzRXQ2JjWmpobHUzYWVnVDZfQ0hDc0ppZnYyajVUMUx5U2k2Z2hBU2Rhb0VYam54OXVlTkJjUVJiTjNGbWEtSENCNDNYRmctSnBtR2lvNlNBX1NzS1hubW1yaWd0M0NEU0xYcTh6aUFBdWduTWZJZHhFRFFMZmJzREZ4MnVfY3VmaURheVRiUnBBLUNDbjJyZ21U?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 오리건주의 새로운 배터리 재활용 법안은 화재 위험을 줄이는 것을 목표로 합니다.
+  - 이 법안은 배터리 폐기물 관리의 중요성을 강조하며 안전한 재활용 시스템 구축을 촉구합니다.
+  - 이는 배터리 산업의 지속 가능성을 높이는 데 기여할 수 있습니다.
+- 관련 기업: KEZI
+
+### 13. Oregon passes battery EPR Law, banning lithium-ion disposal
+- 발행일: 2026-03-07
+- 매체: Resource Recycling (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMirgFBVV95cUxPMjhkYnZ3RkNZaEhxV25ybnJfUjBBTFFPRDhxQlloUXM2NFFEQ2Q0QVFLa1ZEOGRlRURRejFWWVlEdmU3LUJQMHNoZTQwQ3llSG9vNlZ4SnRSNUtlYmFIMUt6bkMyb1hlNzBuck1Pd3MzNGRYYnlhMHJxbURZTDltQjk2c0ZnR2ZQVFVQNlZLOEgwS0Fkc2dIV19xUVM1eDRtXzBZZmx6OFktV3Bfd3c?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 오리건주가 배터리 EPR 법안을 통과시켜 리튬 이온 배터리 폐기를 금지했습니다.
+  - 이 법안은 배터리 폐기물 관리 및 재활용에 대한 새로운 규제를 도입하여 환경 보호를 강화합니다.
+  - 이는 배터리 생산 및 폐기 과정 전반에 걸쳐 책임 있는 관리를 요구하는 추세에 부합합니다.
+- 관련 기업: EPR
+
+### 14. 에코프로, 인터배터리에서 하이니켈 삼원계 및 전고체 소재 공개
+- 발행일: 2026-03-08
+- 매체: www.imaeil.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.imaeil.com/page/view/2026030510290427224
+- 인기신호: unknown
+- 3문장 요약:
+  - 에코프로는 '인터배터리 2026'에서 하이니켈 삼원계 및 전고체 배터리 소재 기술을 공개할 예정입니다.
+  - 회사는 전기차와 휴머노이드 로봇 시대를 이끌 핵심 소재 기술력을 선보이며, 배터리 생애 주기 관리에도 힘쓰고 있습니다.
+  - 이번 전시회 참가를 통해 에코프로는 기술 리더십을 강화하고 미래 배터리 시장에서의 입지를 다질 것으로 보입니다.
+- 관련 기업: 에코프로, 인터배터리
+
+### 15. 인터배터리 개막 앞둬…배터리업계, AI·ESS 시장 겨냥 기술 공개
+- 발행일: 2026-03-08
+- 매체: www.thebigdata.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: http://www.thebigdata.co.kr/view.php?ud=2026030613354751710ecbf9426b_23
+- 인기신호: unknown
+- 3문장 요약:
+  - '인터배터리 2026' 개막을 앞두고 배터리 업계는 AI 및 ESS 시장을 겨냥한 신기술 공개에 집중하고 있습니다.
+  - 전고체 배터리 연구개발 협력 현황과 리튬 확보 기술 등 배터리 소재 공급망 전략도 주요 관심사입니다.
+  - 엘앤에프는 울트라 하이니켈 및 LFP 양극재를 중심으로 전기차와 ESS 시장 공략을 위한 소재 전략을 소개할 계획입니다.
+- 관련 기업: 엘앤에프, 인터배터리, AI
+
+### 16. “중국산 배터리 아웃”…EU 초강수 철퇴에 K-배터리 ‘역전 잭팟’
+- 발행일: 2026-03-08
+- 매체: www.ekn.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.ekn.kr/web/view.php?key=20260308024415988
+- 인기신호: unknown
+- 3문장 요약:
+  - EU의 새로운 규제로 인해 중국산 배터리 사용이 제한되면서 K-배터리 업계에 기회가 될 수 있습니다.
+  - EU 내 전기차 조립 및 배터리 핵심 부품 생산 의무화는 유럽 현지 생산 기반을 갖춘 K-배터리 기업에게 유리하게 작용할 수 있습니다.
+  - 이는 K-배터리 기업들이 유럽 시장에서 경쟁 우위를 확보하고 수출을 확대할 수 있는 중요한 전환점이 될 수 있습니다.
+- 관련 기업: K-배터리, 셀·모듈·팩·양극재·분리막·배터리, EU
+
+### 17. 삼성SDI, AI 기반 ESS 화재 예방 SW 'SBI' 전격 공개
+- 발행일: 2026-03-08
+- 매체: www.hansbiz.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: http://www.hansbiz.co.kr/news/articleView.html?idxno=822325
+- 참고 링크: https://www.g-enews.com/view.php?ud=202603081031221562ea14faf6f5_1, https://www.dailian.co.kr/news/view/1618076/?sc=Naver
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성SDI는 AI 기반의 ESS 화재 예방 소프트웨어 'SBI'를 공개했습니다.
+  - 이 소프트웨어는 ESS용 배터리의 안전 관리 표준을 제시하며, 'SBB(Samsung Battery Box) 1.5' 제품에 우선 적용될 예정입니다.
+  - 삼성SDI는 SBI 도입을 통해 ESS 화재 위험을 줄이고 제품 안전성을 강화하여 시장 경쟁력을 높일 것으로 기대됩니다.
+- 관련 기업: 삼성SDI, AI, SW
