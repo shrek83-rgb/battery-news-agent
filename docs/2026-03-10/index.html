@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-03-10</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-03-10 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQMnVWYVdvTWhvY3gxcWZzMzR4S2FSSVQ4T3ZCZ1A2VnNlLUI4TG9KbDJBLXJ6NzlPd1cyMkhzQnRVWGk3TTRzaHE0djZESVVrblBxdG1FOGZXc3gwUzRhekJBNGJDR2NMLVZuakFWV2diRHBQb3RSWTNtVWRFU3dWeS1sbUtidUJUakpBNGZTTkhYeE9kMFVBS2lXclJpUnJLa1pjV2NpZDFsMmdHaGlrOEhJZ1U?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">A US startup just cleared a major solid-state battery milestone – production is next</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Electrek</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">US</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>A US startup has achieved a significant milestone in solid-state battery technology.</li><li>This breakthrough paves the way for the next stage of development, which is production.</li><li>The company&#x27;s success marks a notable advancement in the quest for next-generation batteries.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMi0gJBVV95cUxNY3l5eGVnZGRGWjgtcFFSejkxeFJ3YUUzRGdrdlpzRG1xTUFXeTJhRzBZOUtBb0RUVm1GQ21yVVBFczdtSU5NRXhQaTA4OF8zZjdqbUpHLWVBQzJPRlNwMDhBZkF2SVoyMHVKWms4dldCaU1iZHB5cUgzcGpXTV9nc083bXNZMG5DZXBkQUJsd0RsNnMwQXgzMm1XamMzbE85enJRS3V2VE1LQjFDbTctb3RrTTZTaHl1NXMxaTRSZm1jV2xDYkJpNml2RVpmaGhWZnRtN2VKWE5Lb1JzN0t4WU5NcGFKMEJucXowdndGRTRmZXdDTWRPbTlSbXNIWFRRZHFXa28xVEhic1FTV2I4Z2lUUjhhdHljcU1oY3N4dUhXY183bXBRZjZRY0lxZE1HX0xUM2p0VmIzN3hBcGxuSjVnWDQ3MHkxSHlYQ1FwYmV0QQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">ION Storage Systems Announced Successful Customer Qualification of Cornerstone™ Cell Performance, Becoming the First U.S. Solid-State Battery Tech Company to Achieve This Milestone</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">PR Newswire</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">ION Storage Systems</span><span class="chip">ION</span><span class="chip">PR</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>ION Storage Systems announced the successful customer qualification of its Cornerstone™ cell performance.</li><li>This achievement makes ION Storage Systems the first U.S. solid-state battery tech company to reach this milestone.</li><li>The qualification signifies a critical step towards commercialization and market adoption of their solid-state battery technology.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOeWZRUUJ5cXRuYWZkSkU0S05sT1JfRHVmR3dOaW5LWUNxdHFMcGFaVHR5bXh4eWdVOTAxVDVEWE0xS0FXYUZiSHZMRUFYNWJXZWJfOUVGREVhamhIbDVlLTBzZ0FJMkZ0WkxkYTY0Sm11V1dKNC1lZjRYS0pfOHg1T2pEQ1g2QTc4bG1CYzBn?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Donut Lab solid-state battery retains 97.7% charge after 10 days in third test</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Electrek</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Donut Lab</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Donut Lab&#x27;s solid-state battery demonstrated impressive charge retention in its third test, holding 97.7% after 10 days.</li><li>This result further validates the performance and reliability of their solid-state battery technology.</li><li>The sustained charge retention is a key indicator for practical applications in various electronic devices and electric vehicles.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMisgFBVV95cUxOdjdHVGpseTJ2VU9jMl9BNXQwSHFLeUZ0Wk9FbVpKanZuWW5BVl95Ym9ZTXdjdERIT2ZTZVNWcmNyOVVSMEMzb29JZmE3SERjWmcxNVVLeGlPM3FTaTg5OXBIQUIwNGZyQko1WjByRlRpRHRQQXV1b0ltbGttSHpMV0xqWWNMOHJ6UlpEWXVKajZpVHM4M3pFQkpKbXg3Q2xLTzdMRW03ZW1YMjh0SkRfZzFR?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Desk-calendar sized: CALB debuts 60Ah solid-state battery with 1,000 km range</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CarNewsChina.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CALB</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>CALB has unveiled a new 60Ah solid-state battery with a claimed range of 1,000 km.</li><li>The battery is notably compact, described as desk-calendar sized, suggesting advancements in energy density and form factor.</li><li>This development could significantly impact the electric vehicle market by offering longer ranges in a smaller package.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMingFBVV95cUxNR1NMbEkwSWl6M2pwdGZIeUhYaW9sWkppcEJTUlNDdWcwV0V3U19YcHhVWVVrLWhPMFZfX1hkeEhXSDRqX1VkejhuWVBmRVNEbk41RFZ4SFZWRktTS0J5U1ZUNFFRZkFEOFZoVkNhWXprdG9rdHlMN084aXJQVHN6TzhjUFQzZFlXYkpoN1FPWklTcnloQWhNVGllYnVtdw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Solid State Battery Market size to cross $27.7 Billion by 2035 |</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">openPR.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The global solid-state battery market is projected to exceed $27.7 billion by 2035.</li><li>This significant growth indicates a strong demand and rapid adoption of solid-state battery technology in the coming years.</li><li>The market expansion is driven by advancements in battery performance, safety, and the increasing needs of electric vehicles and consumer electronics.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNRWRGUEtoSkpoS3B4MGhDVjNvUjREMGRKM3c3YnBaQWZHekR2QkxLNGY1WnBqb29lT2wzYmNUdk1WTGozaU9kN2FJWDltdXo3cGlMeUo1RXpsUEdkMHJ4c3dPd1I2NEJlMUpwQnd6YUxsazlZZlJnNDVaNVIzU3NmVjRsR0xrMXZ0VHhPZUV5dW9qVjVXRUFXWHJDTDRHNnBVUWkwM2pn?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Donut Lab says latest test proves its solid-state battery isn’t a supercapacitor</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">The Verge</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Donut Lab</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Donut Lab has released data from its latest test, asserting that its solid-state battery is not a supercapacitor.</li><li>This clarification addresses potential market confusion and highlights the battery&#x27;s distinct energy storage capabilities.</li><li>The company aims to position its technology as a true solid-state battery solution for demanding applications.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNWFRIRF91cEVGRWFYTUVKZEpqQzdoZHFVTFl5bmxiamlCQ0drVkViTWk2M1RjbkN6a1lGSWRkMjJpUFg5NGRmMkV0bzdoYk5OSndzWjFEMUtNYktPMnRxVTdJb3Q2cEkyeFM4eTV5c2tCRWZnMHN5WEkwQzFpT280T2FVRW9YdUNqYUE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Donut Lab publishes data on charge retention</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">electrive.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Donut Lab</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Donut Lab has published data detailing the charge retention capabilities of its solid-state battery.</li><li>The published data provides evidence of the battery&#x27;s performance over time.</li><li>This transparency aims to build confidence in the technology&#x27;s reliability for future applications.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.newswhoplus.com/news/articleView.html?idxno=56507" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG에너지솔루션 vs 삼성SDI…인터배터리서 &#x27;배터리 특허전&#x27; 공개 충돌</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.newswhoplus.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">삼성SDI</span><span class="chip">인터배터리</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG Energy Solution and Samsung SDI engaged in a public debate regarding battery patents at InterBattery.</li><li>A question was raised about the necessity of prismatic cases for solid-state batteries, given their enhanced safety.</li><li>Samsung SDI responded by emphasizing their tailored strategies for different market segments.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.yna.co.kr/view/AKR20260311106500003?input=1195m" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">K배터리, 팽팽한 특허 &#x27;신경전&#x27;…&quot;특허 침해 좌시하지 않을 것&quot;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.yna.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">삼성SDI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>A representative from LG Energy Solution inquired about Samsung SDI&#x27;s most fundamental and powerful patent.</li><li>Another LG Energy Solution employee questioned the need for prismatic cases if solid-state batteries are inherently safe.</li><li>This exchange highlights the intense patent competition and differing technological perspectives between the two companies.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.newspim.com/news/view/20260311000887" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&quot;각형 특허만 1200건&quot;…삼성SDI &quot;기술 도용 좌시 않겠다&quot;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.newspim.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">삼성SDI</span><span class="chip">LG에너지솔루션</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Samsung SDI stated they hold 1,200 patents related to prismatic battery cases and will not tolerate technology infringement.</li><li>An LG Energy Solution representative questioned the necessity of prismatic form factors for solid-state batteries, given their safety.</li><li>Samsung SDI&#x27;s head responded by highlighting their customized strategies for various market needs.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.ddaily.co.kr/page/view/2026031112441207068" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG엔솔 &quot;카피 멈추고 수업료 내라&quot; vs 삼성SDI &quot;국내 타사 특허 고작 30건...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.ddaily.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">삼성SDI</span><span class="chip">LG엔솔</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>An LG Energy Solution employee questioned the need for heavy prismatic cases in electric vehicles and UAMs if solid-state batteries are sufficiently safe.</li><li>This point was raised during a discussion at InterBattery, targeting potential overlap in Samsung SDI&#x27;s product portfolio.</li><li>The exchange underscores the competitive landscape and differing technological approaches in the battery industry.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.sisajournal-e.com/news/articleView.html?idxno=419712" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[인터배터리 2026] 개막 D-1···관전 포인트는 &#x27;전고체 배터리&#x27;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.sisajournal-e.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Hana Technology</span><span class="chip">인터배터리</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>InterBattery 2026 is set to highlight solid-state batteries as a key area of focus.</li><li>Hana Technology will be showcasing its turnkey solutions for the entire solid-state battery manufacturing process.</li><li>The company emphasizes its capability to supply integrated solutions for all existing lithium-ion battery form factors, including cylindrical, prismatic, and pouch types.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-equipment" href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=435539" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">장비</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">유럽·북미가 먼저 찾는다… 성일하이텍, 글로벌 &#x27;폐배터리 허브&#x27; 도약</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.pinpointnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">성일하이텍</span><span class="chip">미래산업</span><span class="chip">미래나노텍</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Sungil Hi-Tech is emerging as a global hub for battery recycling, attracting interest from Europe and North America.</li><li>The company aims to become a crucial part of the global battery material supply chain.</li><li>Mirae Industry and Mirae NanoTech, involved in semiconductor, display equipment, and lithium carbonate processing respectively, are also showing strong performance.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="http://www.economytalk.kr/news/articleView.html?idxno=418818" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&quot;차세대 ESS·EV 시장을 겨냥한 배터리 핵심 소재 기술을 선보인다&quot;… 동...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.economytalk.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">동원시스템즈</span><span class="chip">인터배터리</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Dongwon Systems introduced its &#x27;Coated Anode Foil (PCAF)&#x27; at InterBattery 2026, a key material for next-generation ESS and EV markets.</li><li>This marks the first domestic unveiling of this advanced battery material in Korea.</li><li>The coated anode foil utilizes a carbon-based primer applied to aluminum foil, enhancing battery performance.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="http://www.smedaily.co.kr/news/articleView.html?idxno=353267" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">15</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[인터배터리 2026 개막] 2차전지 기술부터 공급망까지 생태계 아우른다</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.smedaily.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">인터배터리</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The 2026 InterBattery exhibition, the largest of its kind in Korea, commenced today at COEX.</li><li>This 14th iteration of the event covers the entire battery ecosystem, from technology to supply chains.</li><li>The exhibition will run for three days, showcasing the latest advancements in the battery industry.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="http://www.hansbiz.co.kr/news/articleView.html?idxno=822780" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">16</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&quot;적자 2조 늪&quot;…K-배터리, 성장 대신 &#x27;수성&#x27; 선회하나</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.hansbiz.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">K-배터리</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Major South Korean battery companies recorded a combined operating loss of approximately 2 trillion won last year.</li><li>This financial performance suggests a potential shift from growth-focused strategies to a focus on profitability and stability.</li><li>The industry is facing challenges that necessitate a re-evaluation of business approaches.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.enetnews.co.kr/news/articleView.html?idxno=47691" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">17</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG에너지솔루션 김제영 CTO, &#x27;AI 에이전트 활용 R&amp;D 혁신&#x27; 제시</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.enetnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">CTO</span><span class="chip">AI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG Energy Solution&#x27;s CTO, Kim Gye-young, proposed innovations in R&amp;D utilizing AI agents.</li><li>He also outlined market-specific strategies including high-energy density batteries for premium EVs, cost-effective solutions for mid-to-low-end markets, and LFP-based products for ESS.</li><li>Furthermore, he mentioned advancements in next-generation batteries such as sodium-ion and solid-state batteries.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-11</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
