@@ -1,5 +1,103 @@
 [
   {
+    "title": "[인터배터리] LG엔솔, 전기차 화재 '확' 줄인다… \"전고체 배터리 곧 양...",
+    "description": "12일 업계에 따르면 LG에너지솔루션이 꿈의 배터리로 이름난 전고체 배터리 셀과 모듈을 선보인다. LG엔솔이 우선 전고체 배터리 급속 충전형과 고에너지밀도형 등을 개발하고 있다고 설명했다. 전고체 배터리가...",
+    "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=125298",
+    "source": "www.lcnews.co.kr",
+    "published_at": "2026-03-12",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "LG에너지솔루션",
+      "인터배터리",
+      "LG엔솔"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션은 인터배터리 전시회에서 전기차 화재 위험을 크게 줄일 수 있는 전고체 배터리 셀과 모듈을 선보입니다.",
+      "LG에너지솔루션은 전고체 배터리의 급속 충전형 및 고에너지밀도형 모델을 우선 개발 중이라고 밝혔습니다.",
+      "이는 전고체 배터리의 상용화가 임박했음을 시사하며, 전기차 안전성 향상에 대한 기대를 높입니다."
+    ],
+    "uid": "2c9c31bc19437b90759ce1b3a04baa952f610560"
+  },
+  {
+    "title": "[르포] 전고체 실물 첫 등판… EV 다음 '로봇·AI' 정조준한 K배터리 3사",
+    "description": "올해 전시의 최대 화두는 단연 전고체 배터리 실물 '첫 등판'이다. LG에너지솔루션 삼성SDI SK온 등 배터리 3사는 기존 리튬이온 배터리의 한계를 뛰어넘을 전고체 배터리 실물과 샘플을 일제히 전면에 내세우며...",
+    "link": "https://www.ddaily.co.kr/page/view/2026031210590969279",
+    "source": "www.ddaily.co.kr",
+    "published_at": "2026-03-12",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "LG에너지솔루션",
+      "삼성SDI",
+      "SK온"
+    ],
+    "summary_3_sentences": [
+      "인터배터리 전시회에서 K배터리 3사인 LG에너지솔루션, 삼성SDI, SK온이 전고체 배터리 실물을 처음으로 공개했습니다.",
+      "이들 기업은 기존 리튬이온 배터리의 한계를 뛰어넘는 전고체 배터리 기술을 전면에 내세웠습니다.",
+      "전고체 배터리는 전기차 시장의 다음 혁신 동력이 될 것으로 기대되며, 로봇 및 AI 분야까지 적용 범위를 넓힐 것으로 보입니다."
+    ],
+    "uid": "846c35209900e6828a112db1611e3df4ef56ee2a"
+  },
+  {
+    "title": "'온실가스' 메탄서 배터리 음극재 생산…포스코퓨처엠, 청사진 공개",
+    "description": "한편, 이날 포스코퓨처엠과 전고체 배터리 분야에서 협업하고 있는 팩토리얼에너지의 시유황(Siyu Huang) 최고경영자(CEO)도 참석해 전고체 배터리 개발 현황을 공유했다.",
+    "link": "https://view.asiae.co.kr/article/2026031213320994196",
+    "source": "view.asiae.co.kr",
+    "published_at": "2026-03-12",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "포스코퓨처엠",
+      "팩토리얼에너지",
+      "CEO"
+    ],
+    "summary_3_sentences": [
+      "포스코퓨처엠은 온실가스인 메탄을 활용하여 배터리 음극재를 생산하는 청사진을 공개했습니다.",
+      "이와 관련하여 포스코퓨처엠과 협력 중인 팩토리얼에너지의 CEO 시유황도 참석하여 전고체 배터리 개발 현황을 공유했습니다.",
+      "이는 친환경적인 배터리 소재 생산 기술 개발에 대한 포스코퓨처엠의 의지를 보여줍니다."
+    ],
+    "uid": "dfe6f63af020c9d88ff4f27b33a3dc170d3c7f89"
+  },
+  {
+    "title": "포스코퓨처엠 “전고체 양극재 개발 연내 양산, 내년 전기차 탑재 테스...",
+    "description": "정경수 기자 포스코퓨처엠이 전고체 배터리용 양극재 개발을 사실상 마무리하고 양산 준비에 속도를 낸다. 액체 전해질 대신 고체 전해질을 쓰는 전고체 배터리가 전기차를 넘어 휴머노이드 로봇, 드론 등 차세대...",
+    "link": "https://biz.heraldcorp.com/article/10692773?ref=naver",
+    "source": "biz.heraldcorp.com",
+    "published_at": "2026-03-12",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "포스코퓨처엠"
+    ],
+    "summary_3_sentences": [
+      "포스코퓨처엠은 전고체 배터리용 양극재 개발을 연내 양산 목표로 마무리하고 있으며, 내년에는 전기차 탑재 테스트를 진행할 예정입니다.",
+      "액체 전해질 대신 고체 전해질을 사용하는 전고체 배터리는 전기차뿐만 아니라 휴머노이드 로봇, 드론 등 차세대 기기에도 적용될 전망입니다.",
+      "이는 포스코퓨처엠이 전고체 배터리 소재 시장을 선점하기 위한 발걸음을 가속화하고 있음을 보여줍니다."
+    ],
+    "uid": "f6ef40cad75346af033192c61d40cff155537b16"
+  },
+  {
     "title": "K배터리, 팽팽한 특허 '신경전'…\"특허 침해 좌시하지 않을 것\"",
     "description": "LG에너지솔루션 소속이라고 밝힌 한 청중은 주 부사장에게 삼성SDI의 가장 원천적이고 강력한 특허를 딱 하나만 소개해달라고 요청했고, 또 다른 LG에너지솔루션 직원도 \"전고체 배터리가 안전하다면 전기차나...",
     "link": "https://www.yna.co.kr/view/AKR20260311106500003?input=1195m",
@@ -122,6 +220,40 @@
     "uid": "2f8d2bdec3d1a0fc094b26cead7546af2de96db3"
   },
   {
+    "title": "막오른 ‘인터배터리’… K배터리 \"고밀도 신기술로 캐즘 돌파\"",
+    "description": "배터리 사용량은 전년 동기 대비 16.2% 하락했고 SK온과 삼성SDI는 각각 21.3%, 24.4% 줄어들었다. 엄기천 포스코퓨처엠 사장은 기자들과 만나 \"지금 상황을 극복하기 위해서는 셀 기업부터 소재·부품·장비까지 2차전지...",
+    "link": "http://www.fnnews.com/news/202603111815491495",
+    "source": "www.fnnews.com",
+    "published_at": "2026-03-11",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.efnews.co.kr",
+        "link": "http://www.efnews.co.kr/news/articleView.html?idxno=128131"
+      },
+      {
+        "source": "www.thebell.co.kr",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202603111525009960103726"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "장비",
+    "companies": [
+      "SK온",
+      "삼성SDI",
+      "포스코퓨처엠"
+    ],
+    "summary_3_sentences": [
+      "인터배터리 전시회가 개막했으며, K배터리 업계는 고밀도 신기술로 캐즘 돌파를 목표로 하고 있습니다.",
+      "배터리 사용량은 전년 동기 대비 16.2% 하락했으며, SK온과 삼성SDI의 사용량도 각각 21.3%, 24.4% 감소했습니다.",
+      "포스코퓨처엠 사장은 셀 기업부터 소재·부품·장비까지 2차전지 산업 전체의 협력을 통해 현재 상황을 극복해야 한다고 강조했습니다."
+    ],
+    "uid": "bfda400487d55e563a6314cad30dce35c395c835"
+  },
+  {
     "title": "LG에너지솔루션 김제영 CTO, 'AI 에이전트 활용 R&D 혁신' 제시",
     "description": "이 밖에도 김 CTO는 ▲프리미엄 전기차용 고에너지밀도 배터리, 가격 경쟁력을 갖춘 중저가 솔루션, ESS 전용 LFP 기반 제품 등 시장 세그먼트별 맞춤 전략 ▲소듐 이온 배터리, 전고체 배터리와 같은 차세대...",
     "link": "https://www.enetnews.co.kr/news/articleView.html?idxno=47691",
@@ -195,6 +327,228 @@
       "The exchange underscores the competitive landscape and differing technological approaches in the battery industry."
     ],
     "uid": "4e7cc5f4c1ba3d2c036e7856e876a48713d96f8b"
+  },
+  {
+    "title": "[현장] 한국전자기술연구원 \"전고체 배터리 개발과 초기 시장 형성에 더...",
+    "description": "김경수 한국전자기술연구원 수석연구원이 11일 서울 강남구 코엑스에서 열린 '더 배터리 콘퍼런스 2026'에서... 그는 \"지난 2023년 2차전지 전체 분야 연구개발에 1100억 원을 투입하는 안이 산업통상부의 예비타당성 조사를...",
+    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=432600",
+    "source": "www.businesspost.co.kr",
+    "published_at": "2026-03-11",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "한국전자기술연구원",
+      "한국전자",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "한국전자기술연구원은 전고체 배터리 개발과 초기 시장 형성에 더 많은 노력이 필요하다고 밝혔습니다.",
+      "김경수 한국전자기술연구원 수석연구원은 '더 배터리 콘퍼런스 2026'에서 관련 내용을 발표했습니다.",
+      "지난 2023년 2차전지 분야 연구개발에 1100억 원 투입 안이 산업통상부 예비타당성 조사를 통과했습니다."
+    ],
+    "uid": "b63e625f783ad49214ea8678dfe8c034a717c6f4"
+  },
+  {
+    "title": "From Bench to Factory: The Role of Chemical Purity and Process Control in Lithium-Ion Battery Innovation",
+    "published_at": "2026-03-11",
+    "source": "Spectroscopy Online",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZmRvZWpGUVh1cS1xTG95ZHRBNzh6ZW1SblVJVkdscXFNTjBaMTkzbzRrek5LN3JYWlc2VG5seWhONlAwUVBwZE8walkyV2V6RXk5TThiVnhLV1lPLWNmcEJtSG1hTGlIQ0FJOHJiVWp5OGlHNm16NDBDeGFzMW5qekU1MG5kb05EdG1YLTFPbzQ3Y3BuVE55VC01T1RsUWNWQkhFajBodWpxQnFhSGtIRWNmdEYzWGoyR2V5RXhfS0t2SUlTUjluS2V3S0pUMm5hX3pTS1BFWG03Z3M?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZmRvZWpGUVh1cS1xTG95ZHRBNzh6ZW1SblVJVkdscXFNTjBaMTkzbzRrek5LN3JYWlc2VG5seWhONlAwUVBwZE8walkyV2V6RXk5TThiVnhLV1lPLWNmcEJtSG1hTGlIQ0FJOHJiVWp5OGlHNm16NDBDeGFzMW5qekU1MG5kb05EdG1YLTFPbzQ3Y3BuVE55VC01T1RsUWNWQkhFajBodWpxQnFhSGtIRWNmdEYzWGoyR2V5RXhfS0t2SUlTUjluS2V3S0pUMm5hX3pTS1BFWG03Z3M?oc=5\" target=\"_blank\">From Bench to Factory: The Role of Chemical Purity and Process Control in Lithium-Ion Battery Innovation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Spectroscopy Online</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "리튬이온 배터리 혁신에서 화학적 순도와 공정 제어의 역할이 중요합니다.",
+      "이는 실험실 연구에서 실제 공장 생산으로 나아가는 과정에서 필수적인 요소입니다.",
+      "이러한 요소들은 배터리 성능과 안전성을 보장하는 데 핵심적인 역할을 합니다."
+    ],
+    "uid": "a040bcc1bb496dfea5dbb55780df89db403c3851"
+  },
+  {
+    "title": "Solid-state batteries still twice the price cautions CALB as its tiny 60 Ah cells double EV range",
+    "published_at": "2026-03-11",
+    "source": "Notebookcheck",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOai1rb2k0a240Um9HdUN5M2tpOUxTN3lDaFYwRnVqenZBQUt4bEFVSW02ZUcyMF9sb3VRNjE0bjFMZmNoR28yWldIMFItOUd1S1Z5TnZNRGNBQ3hYX09lUkw5YUFMNi1vRkVjT1NEUHFnaFhfX0x6dl9kV1hOSXhnY0tuNWVwWDdUVzAwamViYUdKRXo3VjJlcFMyY1ZET09CeFBOOENHSXg2cVNoVVFfMkFyc25ZcGdjcjZvYkROZG4tSF82RzJNcmx3aHF2dXNQS2kxWnE4dTRrZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOai1rb2k0a240Um9HdUN5M2tpOUxTN3lDaFYwRnVqenZBQUt4bEFVSW02ZUcyMF9sb3VRNjE0bjFMZmNoR28yWldIMFItOUd1S1Z5TnZNRGNBQ3hYX09lUkw5YUFMNi1vRkVjT1NEUHFnaFhfX0x6dl9kV1hOSXhnY0tuNWVwWDdUVzAwamViYUdKRXo3VjJlcFMyY1ZET09CeFBOOENHSXg2cVNoVVFfMkFyc25ZcGdjcjZvYkROZG4tSF82RzJNcmx3aHF2dXNQS2kxWnE4dTRrZw?oc=5\" target=\"_blank\">Solid-state batteries still twice the price cautions CALB as its tiny 60 Ah cells double EV range</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Notebookcheck</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "CALB"
+    ],
+    "summary_3_sentences": [
+      "CALB는 고체 배터리의 가격이 여전히 리튬이온 배터리의 두 배에 달한다고 경고했습니다.",
+      "하지만 CALB의 작은 60Ah 셀은 전기차 주행 거리를 두 배로 늘리는 성능을 보여주었습니다.",
+      "이는 고체 배터리의 높은 가격에도 불구하고 기술적 잠재력이 크다는 것을 시사합니다."
+    ],
+    "uid": "531816ac402a68f405e58b190e6532c034dcc802"
+  },
+  {
+    "title": "First in US: New solid-state battery passes customer approval",
+    "published_at": "2026-03-11",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeFphbnBOSGx3SEF4Vm9iYkl0cVY5YlpiVHlrdG5FaHY1aGNtYmJOeFpDc1I0U1FBRW9HT1Q5MWkzX2JuWkxCQWR2TnpnN3pKUnRVeXdIS3ZPWkpDcG80NVQ0RjlFeDJJU3BUbUtQV25raEpxYXg1M3l4dngyRUJfdXA2ei1sdGZ3bGQwX3psOWxMSEpO?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOeFphbnBOSGx3SEF4Vm9iYkl0cVY5YlpiVHlrdG5FaHY1aGNtYmJOeFpDc1I0U1FBRW9HT1Q5MWkzX2JuWkxCQWR2TnpnN3pKUnRVeXdIS3ZPWkpDcG80NVQ0RjlFeDJJU3BUbUtQV25raEpxYXg1M3l4dngyRUJfdXA2ei1sdGZ3bGQwX3psOWxMSEpO?oc=5\" target=\"_blank\">First in US: New solid-state battery passes customer approval</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "Batteries News",
+        "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOYk1iRWpoWFc4cWNGcXViQ2N1Nl9fZThnTzl4SFJOZUxMZ29BdUk2YnZHeThRTmFNTkU2dmZoajlVQk1TSndUWmkxTjdGZU1zWERONjdrMHRMR3RDV2llYmttclRqc0JIMThkRDhORzRjQTV1M1lfN29Qbm0zdXVKTENsaktyRWFlZWFpVE9ibGhkWXcwVGJOcjNtZVVGOE5sMXV0ZHRMUDlSbkQyYjRqOC1HNkxHeVljNUM1eUpTSnlLRmtORW5yVG55YU5TckpLVVFMNnBubjd1QmRoSm1TZ3hmYWhvTmFja2NBcTlvWXFYaTFkNjQzQXhEZ2RDUnAzUzdDcV9zLUIwWUcwTTVFOXRCSjJwY29wRjJoMDFjaGVyenVyTmpUUTNKRQ?oc=5"
+      },
+      {
+        "source": "Electric Cars Report",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcmVVUTVGWm00M0hJT2J0T1hDRF9RR01tUHA4eXkwTTlfdWdrM2tNRkFKYVExWjFLWXJMakJrWTJvNHRCRndTaFJBN1ZHZWlhVVZzU2xNdjZnRzJaSWFEX19JTGFlVTlHT0NIdzZ4Uy1mNGhKMlJjdVFPZThLckkxSk5zR0ZkMWczMVJBYVQ2WVZxWkxrYlh6aGpzcWZhSDBJaFVyRGJ3VmZQeEttak9VUk05a2E4bGpFTzhfdA?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "US"
+    ],
+    "summary_3_sentences": [
+      "미국에서 최초로 고체 배터리가 고객 승인을 통과했습니다.",
+      "이는 배터리 기술의 중요한 진전을 나타냅니다.",
+      "이 승인은 향후 고체 배터리 상용화에 대한 기대를 높입니다."
+    ],
+    "uid": "2e88c932884d23a96db814e92e7e07b291d619a9"
+  },
+  {
+    "title": "Donut Lab Is On the Defensive for Its Solid-State Battery Claims",
+    "published_at": "2026-03-11",
+    "source": "IEEE Spectrum",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pU2ZOd2xZZDFBbncyNk00bW9oaDktTXFsT2lQeV9kc2hNYnFkdGk1Q2FaWVBpbVRQbzJITzcwWU9OXy1rWTJQZjUxTTE4SjZxR3k5ZV9Yb3BJX203WF9sV1ZPRU1pSTjSAXtBVV95cUxOWUZVTlZpYThZQ2xseEQxRVZhckFudFNxbFFjWjM3WURfcUZNRFNKOXRENURBOWlaLTFEdllLTVY3bDlnRXc2TENMUl9CbmxKNXdpTEVuRENoQl9ZVUlLZnA4VkFDRElHcG9aaFllYWQteXhfYnlVdUFGQTA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pU2ZOd2xZZDFBbncyNk00bW9oaDktTXFsT2lQeV9kc2hNYnFkdGk1Q2FaWVBpbVRQbzJITzcwWU9OXy1rWTJQZjUxTTE4SjZxR3k5ZV9Yb3BJX203WF9sV1ZPRU1pSTjSAXtBVV95cUxOWUZVTlZpYThZQ2xseEQxRVZhckFudFNxbFFjWjM3WURfcUZNRFNKOXRENURBOWlaLTFEdllLTVY3bDlnRXc2TENMUl9CbmxKNXdpTEVuRENoQl9ZVUlLZnA4VkFDRElHcG9aaFllYWQteXhfYnlVdUFGQTA?oc=5\" target=\"_blank\">Donut Lab Is On the Defensive for Its Solid-State Battery Claims</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IEEE Spectrum</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Donut Lab",
+      "IEEE"
+    ],
+    "summary_3_sentences": [
+      "Donut Lab은 자사의 전고체 배터리 주장에 대해 방어적인 입장을 취하고 있습니다.",
+      "이는 전고체 배터리 기술의 실현 가능성과 성능에 대한 의문이 제기되고 있음을 시사합니다.",
+      "향후 Donut Lab은 자사의 기술력을 입증하기 위한 추가적인 데이터와 검증을 제공해야 할 것입니다."
+    ],
+    "uid": "a114dde8a617774a09fd2d3bce6b05c512ddf99d"
+  },
+  {
+    "title": "Solid-state patent: CATL tackles sulfide instability ahead of 2027 pilot",
+    "published_at": "2026-03-11",
+    "source": "CarNewsChina.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGNINFppZWJhemg5aERXLUJBNWZGbWJRMS11SDNUY1Q0OGFKREZBV1hVLXJoNW1UMmp3NE81YmMtSDFKQUZXbG1JNzFxMkp2S3VHSHA3NFJTdXRxdzY1NmtyU2dRMlFGLXc5TUZPc2R0Y0Z1NUU4SHU5TVFfcmtyYlpOLTRJaldBNDgtTDZnbVRhWTUtckRDTHo2QVc5UXNEU2tiRF95cVpCREtj?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGNINFppZWJhemg5aERXLUJBNWZGbWJRMS11SDNUY1Q0OGFKREZBV1hVLXJoNW1UMmp3NE81YmMtSDFKQUZXbG1JNzFxMkp2S3VHSHA3NFJTdXRxdzY1NmtyU2dRMlFGLXc5TUZPc2R0Y0Z1NUU4SHU5TVFfcmtyYlpOLTRJaldBNDgtTDZnbVRhWTUtckRDTHo2QVc5UXNEU2tiRF95cVpCREtj?oc=5\" target=\"_blank\">Solid-state patent: CATL tackles sulfide instability ahead of 2027 pilot</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CarNewsChina.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL은 2027년 파일럿 생산을 앞두고 황화물계 고체 전해질의 불안정성 문제를 해결하는 특허를 확보했습니다.",
+      "이는 고체 배터리 상용화를 위한 중요한 기술적 난제를 해결하려는 노력의 일환입니다.",
+      "CATL은 이 기술을 통해 고체 배터리 시장에서의 경쟁력을 강화할 것으로 예상됩니다."
+    ],
+    "uid": "19917449842cc787e2d681fe45bf81e1261bea06"
+  },
+  {
+    "title": "Samsung SDI Leads Battery Innovation with 1,200 Prismatic, 1,100 All-Solid-State Patents",
+    "published_at": "2026-03-11",
+    "source": "Businesskorea",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DRTdka2hNUHRrOF85X0pmQzdlY3hQRFZZNk9ORTBLb2ZPdlZiQzBMRE1RbWM1Y241VnZzeS1RdFE5Q2RGRGNIMTJjamZ4V1V3cm5BaUNvbWJxajV3ZzU2ZmQ4bUVZcGRyVWgtWVoteFhqUVJz?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE1DRTdka2hNUHRrOF85X0pmQzdlY3hQRFZZNk9ORTBLb2ZPdlZiQzBMRE1RbWM1Y241VnZzeS1RdFE5Q2RGRGNIMTJjamZ4V1V3cm5BaUNvbWJxajV3ZzU2ZmQ4bUVZcGRyVWgtWVoteFhqUVJz?oc=5\" target=\"_blank\">Samsung SDI Leads Battery Innovation with 1,200 Prismatic, 1,100 All-Solid-State Patents</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Businesskorea</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "SDI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 1,200건의 프리즘형 배터리 및 1,100건의 전고체 배터리 관련 특허를 보유하며 배터리 혁신을 주도하고 있습니다.",
+      "이는 삼성SDI가 차세대 배터리 기술 개발에 적극적으로 투자하고 있음을 보여줍니다.",
+      "이러한 특허 포트폴리오는 삼성SDI의 기술 리더십을 강화하고 미래 시장에서의 경쟁 우위를 확보하는 데 기여할 것입니다."
+    ],
+    "uid": "70df97dfcca017727963dbd7811904fb5bbba3ca"
+  },
+  {
+    "title": "Solid-state battery claims need better tests",
+    "published_at": "2026-03-11",
+    "source": "Battery Technology",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZm1PLTBaSWdsOE13UjQzUlloekVEZ2hjS1c4UGRMTmxheWJiQUFhRE1TSGVuQmYyeENLYy1KYzJVVENndlhZZTh3ODExZjRxWEFFaGlmWU4xODFFTU5jb0h5b2o0eFB2WmkyNmladzJCTDNtRWRxNEViSmJ2SWE2NDUzaXo1dVpiWG5sd1VQeUlDZ09UY25heC1JMTF5MFQyRXZ4eUUwUVZZeVVVWFFydUwzVmVsWlMyMWRuVElYdWl5blVadUt6ZFVuM1FFSlhRdUNVd2szTlFlUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZm1PLTBaSWdsOE13UjQzUlloekVEZ2hjS1c4UGRMTmxheWJiQUFhRE1TSGVuQmYyeENLYy1KYzJVVENndlhZZTh3ODExZjRxWEFFaGlmWU4xODFFTU5jb0h5b2o0eFB2WmkyNmladzJCTDNtRWRxNEViSmJ2SWE2NDUzaXo1dVpiWG5sd1VQeUlDZ09UY25heC1JMTF5MFQyRXZ4eUUwUVZZeVVVWFFydUwzVmVsWlMyMWRuVElYdWl5blVadUt6ZFVuM1FFSlhRdUNVd2szTlFlUQ?oc=5\" target=\"_blank\">Solid-state battery claims need better tests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Battery Technology</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "고체 배터리 관련 주장들이 더 나은 검증이 필요하다는 지적이 나왔습니다.",
+      "이는 고체 배터리 기술의 신뢰성 확보가 중요함을 시사합니다.",
+      "향후 고체 배터리 기술 발전에는 엄격한 테스트와 검증 과정이 요구될 것입니다."
+    ],
+    "uid": "24ec7d2b67a162d55197c46c6a1b1005f0b0403d"
+  },
+  {
+    "title": "Major 6-Day Industrial Auction to Feature Lithium-Ion Battery Manufacturing Facility Equipment in Midland, Michigan",
+    "published_at": "2026-03-11",
+    "source": "Batteries News",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNDUyejRHeVBPQVJLc0l0Zmo1RGh6R1NEQzV6UUpHUTJxRFlfRmxBS0FqMWZaamtaOGVuSEtiSlBXaEE0NjAzXzhmUzdzVU5aemtRcTQ5Mm0yZEdQUkVDSWFGZnlnXzJHN0NfTHVFcDVfLWdXMHdGeXNXWjFNLWE1ZzFnTWE1MDNGdHdqd2VqQ0hrNTNFLTB2LTM2RHdWWFlOZDdtS3RmWUVad3F6NEYwU2xfYl9mVXU0MWNURF96Vm1iQlNCZ1MtVWdfMjRxU3lxVjJOd1lXZHQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNDUyejRHeVBPQVJLc0l0Zmo1RGh6R1NEQzV6UUpHUTJxRFlfRmxBS0FqMWZaamtaOGVuSEtiSlBXaEE0NjAzXzhmUzdzVU5aemtRcTQ5Mm0yZEdQUkVDSWFGZnlnXzJHN0NfTHVFcDVfLWdXMHdGeXNXWjFNLWE1ZzFnTWE1MDNGdHdqd2VqQ0hrNTNFLTB2LTM2RHdWWFlOZDdtS3RmWUVad3F6NEYwU2xfYl9mVXU0MWNURF96Vm1iQlNCZ1MtVWdfMjRxU3lxVjJOd1lXZHQ?oc=5\" target=\"_blank\">Major 6-Day Industrial Auction to Feature Lithium-Ion Battery Manufacturing Facility Equipment in Midland, Michigan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Batteries News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "장비",
+    "companies": [],
+    "summary_3_sentences": [
+      "미국 미시간주 미들랜드에서 6일간의 산업 경매가 열려 리튬이온 배터리 제조 설비가 매물로 나왔습니다.",
+      "이번 경매는 배터리 제조 시설의 장비들을 대상으로 진행되었습니다.",
+      "이는 배터리 산업 내 설비 투자 및 재편 움직임을 보여줍니다."
+    ],
+    "uid": "bd128f30a8046b7fe9f042e189b43d1f6b72bd27"
   },
   {
     "title": "[인터배터리 2026] 개막 D-1···관전 포인트는 '전고체 배터리'",
