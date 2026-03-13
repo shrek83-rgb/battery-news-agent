@@ -1,5 +1,151 @@
 [
   {
+    "title": "[이슈] 삼성SDI, 휴머노이드 로봇 배터리 승부수... 전고체 '솔리드스택...",
+    "description": "삼성SDI가 전고체 배터리를 앞세워 급성장하는 휴머노이드 로봇 시장 공략에 속도를 내고 있다. 안전성과 에너지 효율을 동시에 확보한 전고체 기술을 차세대 피지컬 AI 생태계의 핵심 동력으로 삼겠다는 전략이다....",
+    "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=598169",
+    "source": "www.startuptoday.co.kr",
+    "published_at": "2026-03-13",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "news.mtn.co.kr",
+        "link": "https://news.mtn.co.kr/news-detail/2026031310110526483"
+      },
+      {
+        "source": "www.weeklytoday.com",
+        "link": "http://www.weeklytoday.com/news/articleView.html?idxno=764954"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 전고체 배터리 기술을 앞세워 급성장하는 휴머노이드 로봇 시장 공략에 속도를 내고 있습니다.",
+      "안전성과 에너지 효율을 동시에 확보한 전고체 기술을 차세대 피지컬 AI 생태계의 핵심 동력으로 삼겠다는 전략입니다.",
+      "이는 로봇 시장의 성장에 따라 배터리 기술의 중요성이 더욱 부각될 것임을 시사합니다."
+    ],
+    "uid": "18cb32294f9f2fa11a3a8682477ad5dd87413464"
+  },
+  {
+    "title": "포스코퓨처엠, 미국 실라社와 협약 통해 ‘첨단 배터리소재 기술개발’...",
+    "description": "한편 포스코퓨처엠은 11일 개막한 인터배터리 전시관의 오픈 이노베이션(Open Innovation)존에 실라와 함께 전고체 배터리 기술 협력사인 팩토리얼 등 협력 중인 기업들의 연구개발 현황을 공개하고 있다. NSP통신",
+    "link": "https://www.nspna.com/news/?mode=view&newsid=806126",
+    "source": "www.nspna.com",
+    "published_at": "2026-03-13",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "포스코퓨처엠",
+      "실라",
+      "팩토리얼"
+    ],
+    "summary_3_sentences": [
+      "포스코퓨처엠은 미국 실라(Sila)사와 협약을 맺고 첨단 배터리 소재 기술 개발에 나섰습니다.",
+      "인터배터리 2024 전시회에서 실라와 함께 전고체 배터리 기술 협력사인 팩토리얼 등 협력 기업들의 연구개발 현황을 공개했습니다.",
+      "이는 차세대 배터리 기술 개발을 위한 글로벌 협력의 중요성을 보여줍니다."
+    ],
+    "uid": "4a65b70cdc92a0527294cd5b7f3284fac2499cbd"
+  },
+  {
+    "title": "‘주행거리 10배’ 실리콘 음극재 개발..포스코퓨처엠·실라 ‘맞손’ ...",
+    "description": "포스코퓨처엠은 11일 개막한 ‘인터배터리 2024’ 전시관 내 오픈 이노베이션 존을 통해 실라를 비롯해 전고체 배터리 협력사인 팩토리얼 등과의 최신 연구개발 현황을 일반에 공개하고 있다.",
+    "link": "https://www.dailycar.co.kr/content/news.html?type=view&autoId=60939",
+    "source": "www.dailycar.co.kr",
+    "published_at": "2026-03-13",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.mtnews.net",
+        "link": "https://www.mtnews.net/news/articleView.html?idxno=24180"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "포스코퓨처엠",
+      "실라",
+      "팩토리얼"
+    ],
+    "summary_3_sentences": [
+      "포스코퓨처엠은 인터배터리 2024에서 실라 및 전고체 배터리 협력사인 팩토리얼 등과의 최신 연구개발 현황을 공개했습니다.",
+      "특히 주행거리를 10배 늘릴 수 있는 실리콘 음극재 개발에 대한 기대감을 높였습니다.",
+      "이는 차세대 배터리 소재 기술 개발 경쟁이 치열함을 보여줍니다."
+    ],
+    "uid": "a1b3e69ceffde4a494ee59c9e31921a6ffab5c3f"
+  },
+  {
+    "title": "“‘로봇시대 게임체인저’ 전고체 배터리 표준될 것”",
+    "description": "“전고체 배터리가 휴머노이드 로봇 시대의 궁극적인 ‘게임 체인저’가 될 것입니다.” 현장석(사진) 삼성SDI 전략마케팅실 상무는 12일 서울 코엑스에서 열린 ‘인터배터리 2026’의 부대행사 ‘더 배터리 컨퍼런스’...",
+    "link": "https://biz.heraldcorp.com/article/10693701?ref=naver",
+    "source": "biz.heraldcorp.com",
+    "published_at": "2026-03-13",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "인터배터리"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI 현장석 상무는 전고체 배터리가 휴머노이드 로봇 시대의 궁극적인 게임 체인저가 될 것이라고 밝혔습니다.",
+      "그는 12일 서울 코엑스에서 열린 ‘인터배터리 2026’ 부대행사에서 이같이 말했습니다.",
+      "이는 전고체 배터리 기술이 미래 로봇 산업의 핵심 동력이 될 가능성을 시사합니다."
+    ],
+    "uid": "75b599586c0f8a22cd7fc4945fbf355efee7dd1c"
+  },
+  {
+    "title": "[현장] ‘배터리 올림픽’ 막 올랐다…인터배터리 2026, 차세대 배터리...",
+    "description": "포스코퓨처엠은 고성능 양극재와 음극재 기술을 중심으로 고에너지밀도 배터리 구현 전략을 펼쳤다. 이에 따라 이 업체 전시장에는 전기차와 ESS 시장 확대에 대응하기 위한 2차전지 핵심 소재 기술과 함께 차세대...",
+    "link": "https://www.news2day.co.kr/article/20260312500153",
+    "source": "www.news2day.co.kr",
+    "published_at": "2026-03-12",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.econovill.com",
+        "link": "https://www.econovill.com/news/articleView.html?idxno=733078"
+      },
+      {
+        "source": "www.news2day.co.kr",
+        "link": "https://www.news2day.co.kr/article/20260312500266"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 100,
+    "monitoring_importance": 100,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "포스코퓨처엠",
+      "인터배터리",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "포스코퓨처엠은 인터배터리 2026에서 고성능 양극재와 음극재 기술을 중심으로 고에너지밀도 배터리 구현 전략을 선보였습니다.",
+      "이번 전시는 전기차 및 ESS 시장 확대에 대응하기 위한 2차전지 핵심 소재 기술을 중심으로 구성되었습니다.",
+      "차세대 배터리 소재 기술 동향을 파악하고 미래 시장을 준비하는 중요한 기회가 될 것으로 보입니다."
+    ],
+    "uid": "b0fcd2610b898d619875abba8dc17e2f679b9c16"
+  },
+  {
     "title": "[인터배터리] LG엔솔, 전기차 화재 '확' 줄인다… \"전고체 배터리 곧 양...",
     "description": "12일 업계에 따르면 LG에너지솔루션이 꿈의 배터리로 이름난 전고체 배터리 셀과 모듈을 선보인다. LG엔솔이 우선 전고체 배터리 급속 충전형과 고에너지밀도형 등을 개발하고 있다고 설명했다. 전고체 배터리가...",
     "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=125298",
@@ -75,6 +221,78 @@
     "uid": "dfe6f63af020c9d88ff4f27b33a3dc170d3c7f89"
   },
   {
+    "title": "JR Energy Solution Partners With Norway's Morrow on Battery Foundry Production",
+    "published_at": "2026-03-12",
+    "source": "thelec.net",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wZnZ2bWdTRmd0cGlBS3Fad0ZxTHpZRVZJTW5wTVFITURaVFVVU0ZUZHdrd0RYY1hXRk5ZcDhQQ2o1R1Y0cjlySDRDWFhXYjdZWDZLWDN6bnZpUnctT2p2TXZBNm1qZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wZnZ2bWdTRmd0cGlBS3Fad0ZxTHpZRVZJTW5wTVFITURaVFVVU0ZUZHdrd0RYY1hXRk5ZcDhQQ2o1R1Y0cjlySDRDWFhXYjdZWDZLWDN6bnZpUnctT2p2TXZBNm1qZw?oc=5\" target=\"_blank\">JR Energy Solution Partners With Norway's Morrow on Battery Foundry Production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thelec.net</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "JR Energy Solution",
+      "Morrow",
+      "JR"
+    ],
+    "summary_3_sentences": [
+      "JR Energy Solution은 노르웨이의 Morrow와 협력하여 배터리 파운드리 생산을 진행합니다.",
+      "이는 배터리 생산 분야에서의 글로벌 협력을 강화하는 사례입니다.",
+      "향후 배터리 생산 능력 확대 및 기술 발전에 기여할 것으로 보입니다."
+    ],
+    "uid": "286fc9fbec0d6997bba9defb68d554e2d2c8ef65"
+  },
+  {
+    "title": "Top Companies in Sodium-Ion Battery Market - Benchmarking Performance & Future Value Creation",
+    "published_at": "2026-03-12",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnRmSnoxQzVPUXpkb3I3Vnc0U09nTEZlSWlPTzNvS3BqQ3JDdnZKS2J0TWNyQWlTaWh6X1R6MV81eDdCUXJOSURTOGFXNWgwZkpva1A1VWxEMDBLcHJJVmpIbGpTR09YWXRuSlk5MXV6emJ0cms2Q2V2ZnlrLUdwYmNaS3RHbTFlNG9YeTQ1MHY1NW9iZWc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnRmSnoxQzVPUXpkb3I3Vnc0U09nTEZlSWlPTzNvS3BqQ3JDdnZKS2J0TWNyQWlTaWh6X1R6MV81eDdCUXJOSURTOGFXNWgwZkpva1A1VWxEMDBLcHJJVmpIbGpTR09YWXRuSlk5MXV6emJ0cms2Q2V2ZnlrLUdwYmNaS3RHbTFlNG9YeTQ1MHY1NW9iZWc?oc=5\" target=\"_blank\">Top Companies in Sodium-Ion Battery Market - Benchmarking Performance & Future Value Creation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [],
+    "summary_3_sentences": [
+      "나트륨 이온 배터리 시장의 주요 기업들에 대한 분석 보고서가 발표되었습니다.",
+      "이 보고서는 시장 성과와 미래 가치 창출 기회를 평가합니다.",
+      "나트륨 이온 배터리 시장의 동향과 전망을 파악하는 데 유용한 정보를 제공할 것으로 보입니다."
+    ],
+    "uid": "e9e516d8976511f1f5c6b12efd43865afa692a53"
+  },
+  {
+    "title": "Battery Materials Market (2026-2033) | Lithium, Cobalt & Graphite Supply Chain Opportunities & ESG Focus",
+    "published_at": "2026-03-12",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUkttanlsUGxPanRmb3ktaVRyUU5qdHpRYWt0Y19OenVaT3dzOEUwRENtb0JrTGdDNlIxd3h1R2RNMy16TXp6ejlTeE5UR3VSSkQ4cjBla0FGZ0Z3VlJCRnVJaUcwZm5KUzR2OTlZSllNZ0hiQlY2Z01RV1gxVEFVc0dnOWJHUHljWmR1b3BR?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNUkttanlsUGxPanRmb3ktaVRyUU5qdHpRYWt0Y19OenVaT3dzOEUwRENtb0JrTGdDNlIxd3h1R2RNMy16TXp6ejlTeE5UR3VSSkQ4cjBla0FGZ0Z3VlJCRnVJaUcwZm5KUzR2OTlZSllNZ0hiQlY2Z01RV1gxVEFVc0dnOWJHUHljWmR1b3BR?oc=5\" target=\"_blank\">Battery Materials Market (2026-2033) | Lithium, Cobalt & Graphite Supply Chain Opportunities & ESG Focus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "ESG"
+    ],
+    "summary_3_sentences": [
+      "배터리 소재 시장(2026-2033)에 대한 분석 보고서가 발표되었습니다.",
+      "보고서는 리튬, 코발트, 흑연 공급망 기회와 ESG 초점을 다룹니다.",
+      "이는 향후 배터리 소재 시장의 발전 방향과 투자 기회를 예측하는 데 도움을 줄 것입니다."
+    ],
+    "uid": "b42fff7e6b71ef9c971baab449330fa746ce0626"
+  },
+  {
     "title": "포스코퓨처엠 “전고체 양극재 개발 연내 양산, 내년 전기차 탑재 테스...",
     "description": "정경수 기자 포스코퓨처엠이 전고체 배터리용 양극재 개발을 사실상 마무리하고 양산 준비에 속도를 낸다. 액체 전해질 대신 고체 전해질을 쓰는 전고체 배터리가 전기차를 넘어 휴머노이드 로봇, 드론 등 차세대...",
     "link": "https://biz.heraldcorp.com/article/10692773?ref=naver",
@@ -96,6 +314,179 @@
       "이는 포스코퓨처엠이 전고체 배터리 소재 시장을 선점하기 위한 발걸음을 가속화하고 있음을 보여줍니다."
     ],
     "uid": "f6ef40cad75346af033192c61d40cff155537b16"
+  },
+  {
+    "title": "Sheffield’s AmpliSi raises £2M to kill graphite in lithium-ion batteries",
+    "published_at": "2026-03-12",
+    "source": "Tech Funding News",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWEJ0X01RaFUwSGFrUXlwaWhQaUNaMTRQWDg3T0pWUV9hbDduZjhKdWJxVEU4aEJ6cW5GTVJCOXpQc2trX1BpQktIX3J1d2R5aGhiRGVaZGpkcmJuRUFRWkJqeUJtYlpvRlUwdEpLT2NLeHI2QjhDOUdEZFcySHFYNXZMaE0yUTVhR0N1OE9LcUN1Uk5VSmZmd3ZwR3czck9T?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNWEJ0X01RaFUwSGFrUXlwaWhQaUNaMTRQWDg3T0pWUV9hbDduZjhKdWJxVEU4aEJ6cW5GTVJCOXpQc2trX1BpQktIX3J1d2R5aGhiRGVaZGpkcmJuRUFRWkJqeUJtYlpvRlUwdEpLT2NLeHI2QjhDOUdEZFcySHFYNXZMaE0yUTVhR0N1OE9LcUN1Uk5VSmZmd3ZwR3czck9T?oc=5\" target=\"_blank\">Sheffield’s AmpliSi raises £2M to kill graphite in lithium-ion batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Funding News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "AmpliSi"
+    ],
+    "summary_3_sentences": [
+      "Sheffield의 AmpliSi는 리튬 이온 배터리에서 흑연을 대체하기 위한 기술 개발에 2백만 파운드를 투자받았습니다.",
+      "이는 기존 리튬 이온 배터리의 성능을 향상시킬 수 있는 새로운 소재 기술의 가능성을 보여줍니다.",
+      "향후 배터리 기술 발전에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "976f9b1582398e4106f27bd2a5773f421ebb0c5d"
+  },
+  {
+    "title": "Peak Energy Signs Agreement to Deploy MISO's First Low-Cost Sodium-Ion Grid Storage Battery",
+    "published_at": "2026-03-12",
+    "source": "PR Newswire",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQnZydHZfSElEWWRGRzBVa3BSM3hpTGlhSU5vWlY3TEw5NnZLZ3NnZE1fRDkzWU9MTENKUDFaUFNDZTFxTGo0YzVBZi00UnhIbzd0LUQ5V0ZwWV9qWW1LMU5vRnNUZ1ducWVZYmZtcE54VFFURTJwZEdNR2hiN2ZWZFFKaWE1NmVVbzltNjF1RTJ6aDllSEFlamhad055bjNkRU1PdkI0MXZZNkR2MkFKSXJ1eE90RjIxdGgwVUo0QlkydjJzYzdHSDlwWWNJb0FjeHNUazhKek92akY1SVFB?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQnZydHZfSElEWWRGRzBVa3BSM3hpTGlhSU5vWlY3TEw5NnZLZ3NnZE1fRDkzWU9MTENKUDFaUFNDZTFxTGo0YzVBZi00UnhIbzd0LUQ5V0ZwWV9qWW1LMU5vRnNUZ1ducWVZYmZtcE54VFFURTJwZEdNR2hiN2ZWZFFKaWE1NmVVbzltNjF1RTJ6aDllSEFlamhad055bjNkRU1PdkI0MXZZNkR2MkFKSXJ1eE90RjIxdGgwVUo0QlkydjJzYzdHSDlwWWNJb0FjeHNUazhKek92akY1SVFB?oc=5\" target=\"_blank\">Peak Energy Signs Agreement to Deploy MISO's First Low-Cost Sodium-Ion Grid Storage Battery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PR Newswire</font>",
+    "provider": "google",
+    "related_links": [
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSnktNk1OUXo5bzU2Q1FSTnRtcVVfSTRvcHpSNWJGRm9JTnRtemVXcUdiZVJoX0l5a0VzdThzRHV4MVFuVVEya1hVTGtoVHlPMUxDNkhfQ1h5RTQyeUZ3TmpDN0NMNG9KcU9wRHVSejhSQVZqZjlKTnExcTJDUGpidklzVUNnWGtRbml4LXZyVVQwYnJQVkQybkhKOXZJZ3ZXUXNYVDA5WDQ5X1E2R2dXazJnbl85MUsy?oc=5"
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "Peak Energy",
+      "MISO",
+      "PR"
+    ],
+    "summary_3_sentences": [
+      "Peak Energy는 MISO 지역 최초의 저비용 나트륨 이온 그리드 저장 배터리 배치를 위한 계약을 체결했습니다.",
+      "이는 나트륨 이온 배터리 기술이 상용화 단계로 나아가고 있음을 보여줍니다.",
+      "향후 에너지 저장 시장에서 중요한 역할을 할 것으로 기대됩니다."
+    ],
+    "uid": "bdd0fd1d026d063af1618d6e9da13378800e3d33"
+  },
+  {
+    "title": "Solid-state EV battery patent reveals CATL’s ambitious plans",
+    "published_at": "2026-03-12",
+    "source": "Electrek",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT2ZwdlhiTlFIWXdybktzY3ZxQ2dYSFlXXzUycEV5QjllV3Y1Ry02aGQxbVhldk9Eb21HV1hWbm9LXzRpeWVSOHkwZ1BaZ3d5RE5pbGozUkxNaHJWSzI0R2xrS01LWkJqX1lBNjhwb0RfXzk1R1FoVGFULUpzNzBtZHhoZ1BrZUtjT0c5N3dOTWEtTGpDQkE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOT2ZwdlhiTlFIWXdybktzY3ZxQ2dYSFlXXzUycEV5QjllV3Y1Ry02aGQxbVhldk9Eb21HV1hWbm9LXzRpeWVSOHkwZ1BaZ3d5RE5pbGozUkxNaHJWSzI0R2xrS01LWkJqX1lBNjhwb0RfXzk1R1FoVGFULUpzNzBtZHhoZ1BrZUtjT0c5N3dOTWEtTGpDQkE?oc=5\" target=\"_blank\">Solid-state EV battery patent reveals CATL’s ambitious plans</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electrek</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL은 전고체 EV 배터리에 대한 특허를 출원하며 야심찬 계획을 드러냈습니다.",
+      "이는 CATL이 차세대 배터리 기술 개발에 적극적으로 투자하고 있음을 보여줍니다.",
+      "향후 전고체 배터리 시장에서의 경쟁 구도에 영향을 미칠 것으로 예상됩니다."
+    ],
+    "uid": "c8865feb9920605e8fc63420e9ac9be133661162"
+  },
+  {
+    "title": "Sodium-ion batteries hit the Midwestern grid in first-of-its-kind pilot",
+    "published_at": "2026-03-12",
+    "source": "Electrek",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUjZwUXRwa3BHdzVxeVZxbzhsZVpfS3QyMnhobGFtRDltWTZLeE5kNnZtTnNDelF6d1N6OUNCbjFQV3d6ZDRYbnpYTDN3b2JOVDlIUlNhVDA1Z3J2TDlHeHliMEROVkozZDVwQ0k5ZE9lN3FSeUEzMnhiUC1ObFVFRXI0a01VdnVHVU1Dbm10TUpyNHBmbWVnOUZTMXhSbkR2NmVBeEpn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQUjZwUXRwa3BHdzVxeVZxbzhsZVpfS3QyMnhobGFtRDltWTZLeE5kNnZtTnNDelF6d1N6OUNCbjFQV3d6ZDRYbnpYTDN3b2JOVDlIUlNhVDA1Z3J2TDlHeHliMEROVkozZDVwQ0k5ZE9lN3FSeUEzMnhiUC1ObFVFRXI0a01VdnVHVU1Dbm10TUpyNHBmbWVnOUZTMXhSbkR2NmVBeEpn?oc=5\" target=\"_blank\">Sodium-ion batteries hit the Midwestern grid in first-of-its-kind pilot</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electrek</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [],
+    "summary_3_sentences": [
+      "나트륨 이온 배터리가 미국 중서부 전력망에 처음으로 도입되는 시범 사업에 참여합니다.",
+      "이는 나트륨 이온 배터리의 실증적인 적용 가능성을 보여주는 중요한 사례입니다.",
+      "향후 에너지 저장 시스템 분야에서의 활용 확대가 기대됩니다."
+    ],
+    "uid": "3cd79c5e180452c6222457992d3f44dcc04f3198"
+  },
+  {
+    "title": "Peak Energy, RWE to deploy first sodium-ion battery in MISO",
+    "published_at": "2026-03-12",
+    "source": "ESS News",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQW9uM1RnUExUWnU3NzN4RWF3RUhiaXFGT0wxTlJtM0JyWk1rUk5peVoyUEoyZ2FOTkxPTUZKV1RSUDdpSVZKZXAtNmFDWXdiWEhyc1A3RERaMVpoVUVqYXNzWV9HNHJqQ01Jd2NUSlp6YzVNVlBodEtjT3ctS1ZDanlDeldmS3A1amhTTGFmNXdWYzNDODZJR0F1UQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQQW9uM1RnUExUWnU3NzN4RWF3RUhiaXFGT0wxTlJtM0JyWk1rUk5peVoyUEoyZ2FOTkxPTUZKV1RSUDdpSVZKZXAtNmFDWXdiWEhyc1A3RERaMVpoVUVqYXNzWV9HNHJqQ01Jd2NUSlp6YzVNVlBodEtjT3ctS1ZDanlDeldmS3A1amhTTGFmNXdWYzNDODZJR0F1UQ?oc=5\" target=\"_blank\">Peak Energy, RWE to deploy first sodium-ion battery in MISO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESS News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "Peak Energy",
+      "RWE",
+      "MISO"
+    ],
+    "summary_3_sentences": [
+      "Peak Energy와 RWE는 MISO 지역에 최초의 나트륨 이온 배터리를 배치할 예정입니다.",
+      "이는 나트륨 이온 배터리가 그리드 규모의 에너지 저장 시스템에 적용될 수 있음을 보여주는 중요한 사례입니다.",
+      "향후 저비용 고효율 에너지 저장 솔루션 개발에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "b6d50d09ee15c5d5f78e404272e389d4150b0a33"
+  },
+  {
+    "title": "POSCO Future M Develops Methane-Based Battery Anode Technology",
+    "published_at": "2026-03-12",
+    "source": "Businesskorea",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBERUF2dWw1XzBySmRLRU9nV2h2V1pQWFhrOWNvYVB1NkxlanRLaDFQdzJfLWIzXzl0dnJtcGNhOGdwbF9oU191X1hvTHhzM2QxWGVJcUZTMjNidUJvZ2JiYkJSMG9NWklyVEhLUmZfYlltY180?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBERUF2dWw1XzBySmRLRU9nV2h2V1pQWFhrOWNvYVB1NkxlanRLaDFQdzJfLWIzXzl0dnJtcGNhOGdwbF9oU191X1hvTHhzM2QxWGVJcUZTMjNidUJvZ2JiYkJSMG9NWklyVEhLUmZfYlltY180?oc=5\" target=\"_blank\">POSCO Future M Develops Methane-Based Battery Anode Technology</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Businesskorea</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "POSCO Future M",
+      "POSCO"
+    ],
+    "summary_3_sentences": [
+      "POSCO Future M은 메탄 기반 배터리 음극재 기술을 개발했습니다.",
+      "이는 기존 음극재 기술의 한계를 극복하고 배터리 성능을 향상시킬 수 있는 새로운 가능성을 제시합니다.",
+      "향후 차세대 배터리 소재 개발에 중요한 역할을 할 것으로 예상됩니다."
+    ],
+    "uid": "f825366a92f14f8b4d0f198e65a6b4b7dd8165ad"
+  },
+  {
+    "title": "Group14 begins silicon battery material output",
+    "published_at": "2026-03-12",
+    "source": "Battery Technology",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMkpkNlVrMHhLYVdZTTZ4ZHVGWFVOU3lub1BUUlE0NFNuUU5JLUFLQXV6bnVPYXpvSFNVemVDRlRka3p3RUIyaloza1lpdDNoQXlROVlORjBSOGRhYXBUZ2pXV2E3Rmh6RWFFb0VQcFVzWlZwVFhDZWpNUDFrZnBkUHJVai1wNkxkWWpSNjV0T1hZQ1RHcjE0eFFkUmp3RlFUNFFHd2p3T1VPUjVxS2JQQ1RsZDNhZmtwa3JiMEItMHV0Tk9IU0JlQWxhbTlYb2pKSkhnMkptc2szUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMkpkNlVrMHhLYVdZTTZ4ZHVGWFVOU3lub1BUUlE0NFNuUU5JLUFLQXV6bnVPYXpvSFNVemVDRlRka3p3RUIyaloza1lpdDNoQXlROVlORjBSOGRhYXBUZ2pXV2E3Rmh6RWFFb0VQcFVzWlZwVFhDZWpNUDFrZnBkUHJVai1wNkxkWWpSNjV0T1hZQ1RHcjE0eFFkUmp3RlFUNFFHd2p3T1VPUjVxS2JQQ1RsZDNhZmtwa3JiMEItMHV0Tk9IU0JlQWxhbTlYb2pKSkhnMkptc2szUQ?oc=5\" target=\"_blank\">Group14 begins silicon battery material output</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Battery Technology</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "Group14"
+    ],
+    "summary_3_sentences": [
+      "Group14는 실리콘 배터리 소재 생산을 시작했습니다.",
+      "이는 차세대 배터리 소재의 상용화 가능성을 높이는 중요한 진전입니다.",
+      "향후 배터리 성능 향상 및 전기차 시장 확대에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "0f99ca14e7464c756ab12d770ae1ff6202d0d4e5"
   },
   {
     "title": "K배터리, 팽팽한 특허 '신경전'…\"특허 침해 좌시하지 않을 것\"",
