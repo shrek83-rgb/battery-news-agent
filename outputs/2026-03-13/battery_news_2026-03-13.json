@@ -1,0 +1,456 @@
+{
+  "date_range": "2026-03-13",
+  "items": [
+    {
+      "title": "이재용, 유럽 출장 귀국... 獨 완성차 업체 배터리 세일즈 힘 보태",
+      "description": "이 회장이 이번에 직접 배터리 사업을 챙기면서 삼성의 전장 사업 및 2차전지 분야의 추가 수주가 나올 것으로 업계는 기대하고 있다. 한편, 이 회장은 오는 18일 방한하는 리사 수 AMD 최고경영자(CEO)와의 반도체 사업...",
+      "link": "https://www.mediawatch.kr/news/article.html?no=258924",
+      "source": "www.mediawatch.kr",
+      "published_at": "2026-03-13",
+      "provider": "naver",
+      "related_links": [
+        {
+          "source": "weekly.hankooki.com",
+          "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7154569"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "monitor_score": 95,
+      "monitoring_importance": 95,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "삼성",
+        "2차전지",
+        "AMD"
+      ],
+      "summary_3_sentences": [
+        "이재용 회장이 유럽 출장에서 귀국하며 독일 완성차 업체를 대상으로 배터리 세일즈에 힘을 보탰습니다.",
+        "이 회장의 직접적인 배터리 사업 챙기기는 삼성의 전장 사업 및 2차전지 분야 추가 수주에 대한 기대를 높이고 있습니다.",
+        "한편, 이 회장은 오는 18일 방한하는 AMD CEO와의 반도체 사업 관련 만남도 예정하고 있습니다."
+      ]
+    },
+    {
+      "title": "‘역대 최대 규모’ 인터배터리 2026 폐막…‘ESS‧로봇’ 신시장 확장...",
+      "description": "전시 기간 동안 전고체 배터리를 비롯한 고성능·고안전성 차세대 배터리 기술과 리튬인산철(LFP) 배터리의 전략적 고도화, 건식 전극 공정 등 제조 혁신 기술들이 대거 공개됐다. 특히 해외 정부 기관과 글로벌...",
+      "link": "https://www.kukinews.com/article/view/kuk202603130187",
+      "source": "www.kukinews.com",
+      "published_at": "2026-03-13",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 95,
+      "monitoring_importance": 95,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "인터배터리",
+        "LFP"
+      ],
+      "summary_3_sentences": [
+        "역대 최대 규모로 개최된 인터배터리 2026이 폐막했습니다.",
+        "이번 전시회에서는 전고체 배터리, 리튬인산철(LFP) 배터리 고도화, 건식 전극 공정 등 차세대 배터리 기술과 제조 혁신 기술이 대거 공개되었습니다.",
+        "특히 에너지 저장 시스템(ESS)과 로봇 분야로의 신시장 확장이 주목받았습니다."
+      ]
+    },
+    {
+      "title": "포스코퓨처엠, 미국 실라社와 첨단 배터리 소재 기술개발 위한 MOU 체결",
+      "description": "한편 포스코퓨처엠은 지난 11일 개막한 인터배터리 전시관의 오픈 이노베이션(Open Innovation)존에 실라와 함께 전고체 배터리 기술 협력사인 팩토리얼 등 협력 중인 기업들의 연구개발 현황을 공개하고 있다.",
+      "link": "http://www.hidomin.com/news/articleView.html?idxno=612218",
+      "source": "www.hidomin.com",
+      "published_at": "2026-03-13",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 95,
+      "monitoring_importance": 95,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "포스코퓨처엠",
+        "실라",
+        "팩토리얼"
+      ],
+      "summary_3_sentences": [
+        "포스코퓨처엠이 미국 실라(Sila)사와 첨단 배터리 소재 기술 개발을 위한 양해각서(MOU)를 체결했습니다.",
+        "양사는 인터배터리 전시회 오픈 이노베이션 존에서 전고체 배터리 기술 협력사인 팩토리얼 등과 함께 연구개발 현황을 공개했습니다.",
+        "이는 차세대 배터리 소재 기술 개발 협력을 강화하려는 움직임입니다."
+      ]
+    },
+    {
+      "title": "ESS·로봇으로 '영토 확장'…K배터리, 차세대 기술로 캐즘 정면돌파",
+      "description": "삼성SDI는 전고체 배터리 양산 로드맵과 함께 ESS 통합 솔루션인 '삼성 배터리 박스(SBB)' 풀라인업을 공개했다. 내년 하반기 양산을 목표로 하는 '피지컬 AI용' 파우치형 전고체 배터리 샘플을 최초로 선보여 관람객의...",
+      "link": "https://www.gpkorea.com/news/articleView.html?idxno=140868",
+      "source": "www.gpkorea.com",
+      "published_at": "2026-03-13",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 95,
+      "monitoring_importance": 95,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "삼성SDI",
+        "SBB"
+      ],
+      "summary_3_sentences": [
+        "삼성SDI는 인터배터리 2026에서 전고체 배터리 양산 로드맵과 ESS 통합 솔루션 '삼성 배터리 박스(SBB)' 풀라인업을 공개했습니다.",
+        "특히 내년 하반기 양산을 목표로 하는 '피지컬 AI용' 파우치형 전고체 배터리 샘플을 최초로 선보였습니다.",
+        "이는 ESS와 로봇 등 신시장을 겨냥한 차세대 기술 경쟁력 확보를 위한 전략입니다."
+      ]
+    },
+    {
+      "title": "게임체인저 '전고체 배터리' 열기로 뜨거웠던 현장 [인터배터리 2026]",
+      "description": "삼성SDI가 '인터배터리 2026'에서 선보인 파우치형 전고체 배터리(좌측) '솔리드스택(SolidStack)'/사진=머니투데이방송국내 최대 배터리 산업 전시회 '인터배터리 2026'가 올해 전면으로 내세운 것은 로봇으로 대표되는...",
+      "link": "https://news.mtn.co.kr/news-detail/2026031317321531618",
+      "source": "news.mtn.co.kr",
+      "published_at": "2026-03-13",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 95,
+      "monitoring_importance": 95,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "삼성SDI",
+        "인터배터리"
+      ],
+      "summary_3_sentences": [
+        "국내 최대 배터리 산업 전시회인 인터배터리 2026이 로봇을 전면에 내세우며 성황리에 개최되었습니다.",
+        "삼성SDI는 '솔리드스택(SolidStack)'이라는 이름의 파우치형 전고체 배터리 샘플을 선보였습니다.",
+        "이번 전시회는 차세대 배터리 기술과 로봇 산업의 융합 가능성을 보여주었습니다."
+      ]
+    },
+    {
+      "title": "인터배터리 2026 폐막…EV 캐즘 속 돌파구 찾는 배터리 업계",
+      "description": "대신 AI 데이터센터와 ESS, 프리미엄 전기차를 비롯 휴머노이드 로봇 및 도심항공교통(UAM)용 전고체 배터리 등 차세대 기술을 중심으로 전시 구성을 마련했다. 특히 LG에너지솔루션은 황화물계 전고체 배터리 실물과...",
+      "link": "https://www.etnews.com/20260313000216",
+      "source": "www.etnews.com",
+      "published_at": "2026-03-14",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 95,
+      "monitoring_importance": 95,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "LG에너지솔루션",
+        "인터배터리",
+        "AI"
+      ],
+      "summary_3_sentences": [
+        "인터배터리 2026이 폐막하며 전기차(EV) 시장의 캐즘(Chasm) 현상 속 돌파구를 모색하는 배터리 업계의 노력이 돋보였습니다.",
+        "전시회는 AI 데이터센터, ESS, 프리미엄 전기차, 휴머노이드 로봇, 도심항공교통(UAM)용 전고체 배터리 등 차세대 기술에 집중했습니다.",
+        "LG에너지솔루션은 황화물계 전고체 배터리 실물을 전시하며 기술력을 과시했습니다."
+      ]
+    },
+    {
+      "title": "기술 각도 전고체·ESS로 반등 노리는 K-배터리…CEO들, 행사장 아닌 해...",
+      "description": "또 리튬이온배터리(LIB) 한계를 넘어서는 높은 에너지 밀도와 빠른 충전 기능을 갖춘 황화물계 전고체 배터리 실물을 처음 전시했다. 삼성SDI도 ESS와 로봇 등에 대응하기 위한 혁신 기술로 각형·전고체 배터리...",
+      "link": "https://it.chosun.com/news/articleView.html?idxno=2023092158588",
+      "source": "it.chosun.com",
+      "published_at": "2026-03-14",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 95,
+      "monitoring_importance": 95,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "삼성SDI",
+        "K-배터리",
+        "리튬이온배터리"
+      ],
+      "summary_3_sentences": [
+        "K-배터리 업계는 전고체 배터리와 ESS 기술을 통해 반등을 노리고 있습니다.",
+        "특히 리튬이온배터리(LIB)의 한계를 넘어서는 높은 에너지 밀도와 빠른 충전 기능을 갖춘 황화물계 전고체 배터리 실물이 처음 전시되었습니다.",
+        "삼성SDI 역시 ESS와 로봇 시장 대응을 위한 각형 및 전고체 배터리 기술을 선보였습니다."
+      ]
+    },
+    {
+      "title": "전기차 넘어 로봇·ESS로...'K-배터리' 총출동",
+      "description": "삼성SDI는 피지컬 인공지능에 사용될 파우치형 전고체 배터리 샘플을 처음으로 공개했습니다. [이승준 / 삼성SDI 프로 : (파우치형 배터리는) 가벼운 무게와 더불어 유연한 설계 가능성 때문에 다양한 형태의 로봇에 적용...",
+      "link": "https://www.ytn.co.kr/_ln/0102_202603140537416538",
+      "source": "www.ytn.co.kr",
+      "published_at": "2026-03-14",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 95,
+      "monitoring_importance": 95,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "삼성SDI",
+        "K-배터리"
+      ],
+      "summary_3_sentences": [
+        "전기차를 넘어 로봇과 ESS 분야로 'K-배터리'의 영토 확장이 본격화되고 있습니다.",
+        "삼성SDI는 피지컬 인공지능(AI)에 사용될 파우치형 전고체 배터리 샘플을 처음 공개했습니다.",
+        "이 파우치형 배터리는 가벼운 무게와 유연한 설계 가능성으로 다양한 형태의 로봇에 적용될 수 있습니다."
+      ]
+    },
+    {
+      "title": "전기차 대신 ESS, 차세대 배터리 기술로 꽉 채웠다, 인터배터리 2026 폐막",
+      "description": "현장에서는 전고체 배터리를 비롯해 고성능·고안전성 차세대 배터리 기술과 LFP 배터리의 전략적 고도화, 건식 전극 공정 등 제조 혁신 기술들이 공개됐다. 이를 통해 글로벌 배터리 기술 경쟁에서 한국 기업들의...",
+      "link": "https://www.autodaily.co.kr/news/articleView.html?idxno=542347",
+      "source": "www.autodaily.co.kr",
+      "published_at": "2026-03-14",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 95,
+      "monitoring_importance": 95,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "인터배터리",
+        "LFP"
+      ],
+      "summary_3_sentences": [
+        "인터배터리 2026이 폐막하며 전기차 대신 ESS와 차세대 배터리 기술에 집중하는 모습을 보였습니다.",
+        "전고체 배터리를 비롯한 고성능·고안전성 차세대 배터리 기술, LFP 배터리 고도화, 건식 전극 공정 등 제조 혁신 기술들이 공개되었습니다.",
+        "이번 전시회는 글로벌 배터리 기술 경쟁에서 한국 기업들의 위상을 보여주었습니다."
+      ]
+    },
+    {
+      "title": "Solid-State Battery Gets Customer Approval For Mass Production",
+      "published_at": "2026-03-13",
+      "source": "Tomorrow's World Today",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONjFWQk84S3dTMXl0d011WE5DanBib2JuRF9tSVp2RlpUckQ2OFJrZHQ1cmRwTk1HTU1TZkFHSGh6WjVILUxwSjM4Y1VKazRGSmtwWGNRV1I1Y3owaU1idkZuMjE4OUtVRWpaNjVFdUpFeVJOZUtIN0Q3YVJUejN5UFQ1d1c5YS1TYkZYRzhhWEhHVkRYbWxGeFphU0pONUZaTDlrbFZBaW02bXJSUHdma2lWQQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxONjFWQk84S3dTMXl0d011WE5DanBib2JuRF9tSVp2RlpUckQ2OFJrZHQ1cmRwTk1HTU1TZkFHSGh6WjVILUxwSjM4Y1VKazRGSmtwWGNRV1I1Y3owaU1idkZuMjE4OUtVRWpaNjVFdUpFeVJOZUtIN0Q3YVJUejN5UFQ1d1c5YS1TYkZYRzhhWEhHVkRYbWxGeFphU0pONUZaTDlrbFZBaW02bXJSUHdma2lWQQ?oc=5\" target=\"_blank\">Solid-State Battery Gets Customer Approval For Mass Production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tomorrow's World Today</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [],
+      "summary_3_sentences": [
+        "Solid-State Battery Gets Customer Approval For Mass Production.",
+        "This indicates significant progress in the development and potential commercialization of solid-state battery technology.",
+        "Customer approval is a crucial step towards mass production and market adoption."
+      ]
+    },
+    {
+      "title": "RWE to pilot Peak Energy’s sodium-ion grid battery in MISO region",
+      "published_at": "2026-03-13",
+      "source": "Renewables Now",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOY0gxNnR6dGJhYmVya0Mza1AydDVuNmJsS0NtN3NTZ2d6ZmJ1S3g2Y2ZZcVBQcWtYU2JmRjlGUVFXT2RaN0JBU0VfUHlJb3NNaXNNbDkwSnlsYXhoQjNFMGxQWkVyMWlhZXVYS29EUXoxcHItbzB0YWFxeVFQYTQxS3otYWh5Q2ROWEdJZHFSWnk3blREN3d6bzJiekY0bC1uRDV6ZTB4TQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOY0gxNnR6dGJhYmVya0Mza1AydDVuNmJsS0NtN3NTZ2d6ZmJ1S3g2Y2ZZcVBQcWtYU2JmRjlGUVFXT2RaN0JBU0VfUHlJb3NNaXNNbDkwSnlsYXhoQjNFMGxQWkVyMWlhZXVYS29EUXoxcHItbzB0YWFxeVFQYTQxS3otYWh5Q2ROWEdJZHFSWnk3blREN3d6bzJiekY0bC1uRDV6ZTB4TQ?oc=5\" target=\"_blank\">RWE to pilot Peak Energy’s sodium-ion grid battery in MISO region</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Renewables Now</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [
+        "RWE",
+        "Peak Energy",
+        "MISO"
+      ],
+      "summary_3_sentences": [
+        "RWE will pilot Peak Energy's sodium-ion grid battery in the MISO region.",
+        "This pilot project marks a significant step in deploying non-lithium-ion battery technologies for grid-scale energy storage.",
+        "The collaboration aims to test the performance and viability of sodium-ion batteries in a real-world grid environment."
+      ]
+    },
+    {
+      "title": "First MISO Sodium-Ion Battery: Peak Energy & RWE Pilot in Wisconsin - News and Statistics",
+      "published_at": "2026-03-13",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNb0VCVVctQkRQYURzdlEtRXoycm5CWVhQa0p4bENERkVwSTAta25qQTQyc1VtdHJTT2RQcHlVcjBjNFc1SU0wWGFDNHJvMld0RnN6MnJ1bUMxZ2FEbWVrci1ZU0ZEeEhwWUswTGR2WGNSZzd0dm9obGx2MTJoTFV3cUVxQ3ViaDBRYkMyeDE2c1dzX2hiU2Nj?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNb0VCVVctQkRQYURzdlEtRXoycm5CWVhQa0p4bENERkVwSTAta25qQTQyc1VtdHJTT2RQcHlVcjBjNFc1SU0wWGFDNHJvMld0RnN6MnJ1bUMxZ2FEbWVrci1ZU0ZEeEhwWUswTGR2WGNSZzd0dm9obGx2MTJoTFV3cUVxQ3ViaDBRYkMyeDE2c1dzX2hiU2Nj?oc=5\" target=\"_blank\">First MISO Sodium-Ion Battery: Peak Energy & RWE Pilot in Wisconsin - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [
+        "Peak Energy",
+        "RWE",
+        "MISO"
+      ],
+      "summary_3_sentences": [
+        "Peak Energy and RWE are piloting the first sodium-ion battery in the MISO region, Wisconsin.",
+        "This initiative represents a key development in diversifying grid battery technology beyond lithium-ion.",
+        "The project will provide valuable data on the performance and integration of sodium-ion batteries into the US grid."
+      ]
+    },
+    {
+      "title": "RWE, Peak Energy to deploy first sodium-ion battery in US grid",
+      "published_at": "2026-03-13",
+      "source": "pv magazine International",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS2VoeGVVY2o5eTZlNjluZEdxN3Q4UTJFQld3d01XUG1NTzVmS1dqQ2hQQjhZRnMyMVhVUm9iM2cySDV1bGlsUFh1R28zT08yQ2JZT2xHc0EzQ2pJSFpHbUwxbjBfZ2lPYVhKU1pfeGJLU1hpRy1ueDJEM0VwMF90SHp2a0JUV0JCU0c3NnNCbDZJUWVneFdQNGdxbHdFczA?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOS2VoeGVVY2o5eTZlNjluZEdxN3Q4UTJFQld3d01XUG1NTzVmS1dqQ2hQQjhZRnMyMVhVUm9iM2cySDV1bGlsUFh1R28zT08yQ2JZT2xHc0EzQ2pJSFpHbUwxbjBfZ2lPYVhKU1pfeGJLU1hpRy1ueDJEM0VwMF90SHp2a0JUV0JCU0c3NnNCbDZJUWVneFdQNGdxbHdFczA?oc=5\" target=\"_blank\">RWE, Peak Energy to deploy first sodium-ion battery in US grid</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pv magazine International</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [
+        "RWE",
+        "Peak Energy",
+        "US"
+      ],
+      "summary_3_sentences": [
+        "RWE and Peak Energy are set to deploy the first sodium-ion battery in the US grid.",
+        "This deployment is a significant milestone for grid-scale energy storage solutions utilizing sodium-ion technology.",
+        "The project aims to demonstrate the capabilities of sodium-ion batteries in supporting grid stability and renewable energy integration."
+      ]
+    },
+    {
+      "title": "Lithium-Ion Battery for Energy Storage Market - Global Growth Opportunities 2020-2033",
+      "published_at": "2026-03-13",
+      "source": "openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOUo1dTRfazNHSG1lTHJNY3FYQUVRLV95QUtPS2tUMjR2QW1Zdko5bDAzYnFvVFBPWGNHQnpOTk15VDJ1a01POEFNOG93OVhQNkdZeU15c1lPMDgyWTRvNmgwZkpvM0tsbUVyaGZZdGVLeVhIdHRHZHZPVFNUN3lQeWVQcjRHNmZPMHR4TWR6SEVnajNDc05TaEZnOA?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPOUo1dTRfazNHSG1lTHJNY3FYQUVRLV95QUtPS2tUMjR2QW1Zdko5bDAzYnFvVFBPWGNHQnpOTk15VDJ1a01POEFNOG93OVhQNkdZeU15c1lPMDgyWTRvNmgwZkpvM0tsbUVyaGZZdGVLeVhIdHRHZHZPVFNUN3lQeWVQcjRHNmZPMHR4TWR6SEVnajNDc05TaEZnOA?oc=5\" target=\"_blank\">Lithium-Ion Battery for Energy Storage Market - Global Growth Opportunities 2020-2033</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "기타",
+      "companies": [],
+      "summary_3_sentences": [
+        "The Lithium-Ion Battery for Energy Storage Market is projected to experience global growth opportunities between 2020 and 2033.",
+        "This report analyzes the market dynamics and potential for expansion in the energy storage sector.",
+        "Lithium-ion batteries remain a dominant technology for energy storage solutions."
+      ]
+    },
+    {
+      "title": "Hyundai-LGES, Huayou in battery recycling partnership in Indonesia",
+      "published_at": "2026-03-13",
+      "source": "Just Auto",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZFVreE9BeWpKRFFESmlwM1BkRkxrOUdyNFplUGRlRmdjSEpnb0M0Zy11ZHc3NmJPeU0tRmxKeFJnNTVJdTg4Nm1yOWV4ZXFjUlBpWjhuUmdSbG1OTkZIMnkzQThZUjl5Rno5SG9NdFFWZjQ4c05QdTBPN3ZHRjR3UGo3TkY2OUlpS2xwUGc1eUhCRXlwQ1dyNy11V0d2Zw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPZFVreE9BeWpKRFFESmlwM1BkRkxrOUdyNFplUGRlRmdjSEpnb0M0Zy11ZHc3NmJPeU0tRmxKeFJnNTVJdTg4Nm1yOWV4ZXFjUlBpWjhuUmdSbG1OTkZIMnkzQThZUjl5Rno5SG9NdFFWZjQ4c05QdTBPN3ZHRjR3UGo3TkY2OUlpS2xwUGc1eUhCRXlwQ1dyNy11V0d2Zw?oc=5\" target=\"_blank\">Hyundai-LGES, Huayou in battery recycling partnership in Indonesia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Just Auto</font>",
+      "provider": "google",
+      "related_links": [
+        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX1diNkdJc2ZsYXhMTm1mbFVuWDFrVmNvd0V5a2hVX3oza0lOQ3diNWhuQzB2OVNYWDc4S3YwY0JpckV2cndOeVltTlllcjlBU25HM3Ntb2tOQzNodTlRYVVvOXdHVGY4NEI2ZG1NMWpkdzVqZGN6aE9HOGpRNHVmOUYzRDlzcEtFaWVn?oc=5"
+      ],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "재활용",
+      "companies": [
+        "Hyundai",
+        "LG Energy Solution",
+        "Huayou"
+      ],
+      "summary_3_sentences": [
+        "Hyundai, LG Energy Solution (LGES), and Huayou have formed a battery recycling partnership in Indonesia.",
+        "This collaboration aims to establish a sustainable battery supply chain by focusing on recycling processes.",
+        "The partnership highlights the growing importance of battery recycling in the electric vehicle industry."
+      ]
+    },
+    {
+      "title": "CATL makes progress on its solid-state battery",
+      "published_at": "2026-03-13",
+      "source": "electrive.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcTZ3QnJVdkZBS1lxZ0k0MFZsM2FJUjNsZWdBamdVNU43cGttbnkxa2l2akZpTHNMSEEtSVNBUVJqSGFFOUZRMXR6UzBTNlA5Smt6a3ZhUEs2Q0pxemJCRXRYMk4wVTR2YTlvbjBrS1l3bTktaEI0TnZMOUVOWmlFT0lOVU9PVW1CNkpOSw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPcTZ3QnJVdkZBS1lxZ0k0MFZsM2FJUjNsZWdBamdVNU43cGttbnkxa2l2akZpTHNMSEEtSVNBUVJqSGFFOUZRMXR6UzBTNlA5Smt6a3ZhUEs2Q0pxemJCRXRYMk4wVTR2YTlvbjBrS1l3bTktaEI0TnZMOUVOWmlFT0lOVU9PVW1CNkpOSw?oc=5\" target=\"_blank\">CATL makes progress on its solid-state battery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrive.com</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "CATL"
+      ],
+      "summary_3_sentences": [
+        "CATL is making progress on its solid-state battery development.",
+        "This advancement suggests that CATL is actively pursuing next-generation battery technologies.",
+        "Further details on the progress and timeline for CATL's solid-state batteries are anticipated."
+      ]
+    },
+    {
+      "title": "Peak Energy Bringing Sodium-Ion Battery Storage To Wisconsin",
+      "published_at": "2026-03-13",
+      "source": "CleanTechnica",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT1V1VlZWb0tES3RwLW9WVndDY3NzX2R5YnQxZV96eUluWWxrUXotVWpPNC1DRlFUN1k3ZVhxWTZzX25rbGtHaUVieUhqdjNkOXkwNW5HSDVOOU9XUUplZnBmZVg3QnJqNjFFNGU3NXpuMkpINFNpZWFoQ25kbnNHRldxY2pUeU9lTUxpOTJTOUdmU2FHeFBlWHhZc3ZkZFXSAacBQVVfeXFMUDZ2OXE2WWMxS0w4VnQ2dlhzODdWQ3Y3UHc2N0duM1NWZFhJdEgxdFRyU1VrRjFxMDg0S3FfeUZDc0xKODg0a1pQX1FPbG9XQXVDT2xNeUtyc3UxNkZTOFNSU0g3YzB5S29ESWZzX0x0cmRfTmFPVFc4WDItVzZHMEtIS202SlI3UVlnNmQ2MTJTNGx3NnN6X3FOU19JZVkzZXU3Sjhralk?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPT1V1VlZWb0tES3RwLW9WVndDY3NzX2R5YnQxZV96eUluWWxrUXotVWpPNC1DRlFUN1k3ZVhxWTZzX25rbGtHaUVieUhqdjNkOXkwNW5HSDVOOU9XUUplZnBmZVg3QnJqNjFFNGU3NXpuMkpINFNpZWFoQ25kbnNHRldxY2pUeU9lTUxpOTJTOUdmU2FHeFBlWHhZc3ZkZFXSAacBQVVfeXFMUDZ2OXE2WWMxS0w4VnQ2dlhzODdWQ3Y3UHc2N0duM1NWZFhJdEgxdFRyU1VrRjFxMDg0S3FfeUZDc0xKODg0a1pQX1FPbG9XQXVDT2xNeUtyc3UxNkZTOFNSU0g3YzB5S29ESWZzX0x0cmRfTmFPVFc4WDItVzZHMEtIS202SlI3UVlnNmQ2MTJTNGx3NnN6X3FOU19JZVkzZXU3Sjhralk?oc=5\" target=\"_blank\">Peak Energy Bringing Sodium-Ion Battery Storage To Wisconsin</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CleanTechnica</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [
+        "Peak Energy"
+      ],
+      "summary_3_sentences": [
+        "Peak Energy is bringing its sodium-ion battery storage solution to Wisconsin.",
+        "This initiative marks a significant step in diversifying the grid energy storage landscape in the US.",
+        "The deployment will showcase the potential of sodium-ion technology for grid applications."
+      ]
+    },
+    {
+      "title": "Lyten Agrees To Buy Northvolt’s Revolt Battery Recycling Site",
+      "published_at": "2026-03-13",
+      "source": "Finimize",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWGtPZjYzeER3Q3JHb0pKZFBoUGZTZEdEdXJaV0U2TjRNcklkT3Vxemp0Y04tdnI2TlpNNVZUdk9jM0dGWUtucVh4ZXZPWlVnMERzVjk4SzctTWN0Ykd1RHV5MXlENTgtVG5HakdMQy1UZjljWDdNQm5EdUhlS1RUUTh0OFI5cTVTYUtYZnlmbkpNUXM?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWGtPZjYzeER3Q3JHb0pKZFBoUGZTZEdEdXJaV0U2TjRNcklkT3Vxemp0Y04tdnI2TlpNNVZUdk9jM0dGWUtucVh4ZXZPWlVnMERzVjk4SzctTWN0Ykd1RHV5MXlENTgtVG5HakdMQy1UZjljWDdNQm5EdUhlS1RUUTh0OFI5cTVTYUtYZnlmbkpNUXM?oc=5\" target=\"_blank\">Lyten Agrees To Buy Northvolt’s Revolt Battery Recycling Site</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finimize</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "재활용",
+      "companies": [
+        "Lyten",
+        "Northvolt"
+      ],
+      "summary_3_sentences": [
+        "Lyten has agreed to acquire Northvolt's Revolt battery recycling site.",
+        "This acquisition is expected to enhance Lyten's capabilities in battery recycling and material recovery.",
+        "The deal signifies consolidation and strategic moves within the battery recycling sector."
+      ]
+    },
+    {
+      "title": "Lithium Battery Recycling Solution Market Booming with Rapid",
+      "published_at": "2026-03-13",
+      "source": "openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV2ZTRTNoUlhxRVRTalNqLWxfM3ljZElQVUlxaDNDTm13VlFqdXlTVTBibTB5QkhDRHU1Q21rZGNSanh1WFowLWhhZmd3Ynd6M3BVTnZzbnN4U05xdXFwM1QyS2dxdXlkOHdaVnZIR2ZyWnBFQXBERGpsbW9YSHByVVAwMEVmemJwb0ZFb1g2Wk1NOU1wcU04SGY5d2M?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNV2ZTRTNoUlhxRVRTalNqLWxfM3ljZElQVUlxaDNDTm13VlFqdXlTVTBibTB5QkhDRHU1Q21rZGNSanh1WFowLWhhZmd3Ynd6M3BVTnZzbnN4U05xdXFwM1QyS2dxdXlkOHdaVnZIR2ZyWnBFQXBERGpsbW9YSHByVVAwMEVmemJwb0ZFb1g2Wk1NOU1wcU04SGY5d2M?oc=5\" target=\"_blank\">Lithium Battery Recycling Solution Market Booming with Rapid</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "재활용",
+      "companies": [],
+      "summary_3_sentences": [
+        "The Lithium Battery Recycling Solution Market is experiencing rapid growth.",
+        "This indicates a significant increase in demand for efficient and sustainable methods to recycle lithium batteries.",
+        "The market expansion is driven by environmental concerns and the need for resource recovery."
+      ]
+    }
+  ]
+}
