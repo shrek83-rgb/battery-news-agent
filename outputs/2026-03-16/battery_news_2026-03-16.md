@@ -1,0 +1,217 @@
+# 배터리 뉴스 데일리 브리핑 (2026-03-16 전날 기준)
+
+- 총 16건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | anode | 2026-03-16 | www.kyongbuk.co.kr | 포스코퓨처엠, 1조원 인조흑연 음극재 장기 공급계약 체결 | https://www.kyongbuk.co.kr/news/articleView.html?idxno=4067095 | unknown |
+| 2 | 3 | anode | 2026-03-16 | www.popcornnews.net | 차세대 배터리 소재 올해 인터배터리서 '주목'…적용 시장도 확대 | http://www.popcornnews.net/news/articleView.html?idxno=115250 | unknown |
+| 3 | 3 | 전고체 | 2026-03-16 | www.sisaon.co.kr | '전고체 배터리'를 둔 두 가지 시선 [기자수첩] | http://www.sisaon.co.kr/news/articleView.html?idxno=181460 | unknown |
+| 4 | 3 | 기타 | 2026-03-16 | PR Newswire | Europe Solid State Battery Market Set for Rapid Expansion, Projected to Reach USD 624 Million by 2032 as Automakers Invest in Safer and High-Energy Battery Technologies \| MarkNtel Advisors | https://news.google.com/rss/articles/CBMi3wJBVV95cUxQdWZVb2p1UkhCZzNQTVhwVU9qYklnTTNNeHJZYThaazR4Q0N0SFozZWhRNkNMaGotWlZaMWl1Q0lnaDA3TjJXMFRHVkF6bkMzTUtyRnAyclpHRkJHVEk5b3ZHdmEwN0dUTkhrSm1nSzRGQk9OdW83Z0R1b3BJYWVZd3lYbTVjMjZwNVlQaW9RVVVHMVFjY3lTdFZGb3VUUGF6SWYxVHlWNXRVR1BUSnpVVWZmeTFCc01oR0lkenpiOXR3XzFKc2Q4MVN4ankwb1VFZlZHOWtGcE9jNzFXWTFQVkY3MzdKODNHVGFwTmQ5NEFBejNpejBBcHhRN2t2TUxURFNPbjhYeDJBbW9PaXlwLUZyT0F0UnhxNUhFekNMRTlWQXN2ZElYUDJDMW5BRUctNWJGYXlKU1JFa0pIQ2hMNmZRM0NjZFNEcm1LaWFvdzAyRDNsMmlHVjhHbm5TUDg?oc=5 | unknown |
+| 5 | 3 | electrolyte | 2026-03-16 | openPR.com | Battery Electrolyte Production Cost 2026: Investment Cost, Market Growth & ROI | https://news.google.com/rss/articles/CBMilwFBVV95cUxOcUdjMkFzZGRJTHFoZ0V2ZUdtUVBBVGRGRFZvYVZiR3drb3VvdDR6T3hmWUE3YXhkdkk2WW13aVZZSUxXZGpiOG12MkwtTWlqZWNtNzJUaEw3U2ZmUUZQcF9pTmYxQU9ZQVNzSDhjeTIxak4zUURzaDF3b2djbXBOako5b3lwUl91WWxaRUJnQV9lZ3JpX0xv?oc=5 | unknown |
+| 6 | 3 | 나트륨 | 2026-03-16 | Dallas Express | Sodium-Ion Batteries: MIT’s Breakthrough Tech Beats Lithium On Cost & Safety | https://news.google.com/rss/articles/CBMitwFBVV95cUxQbWpyR1FxTXlWbU9USS1YbXd3TU83UXI3WEdYdVhwMEt0MFUyb3FkejRfb1drbHJ3RldWd1ZlTDBiTlEtQ2QzT2Z1azVQUDFULVp2Z3FPS0k4SVd5Ry00RE1VRmRvNjhNVjdIN1FHRjJ5MXE4bmFtOTVmdEJwME1heTN3c3h2aVI4SUZDR0xKdjZhOHBTVkZoZDlrcTNKWkgxeWo0RzYwQkdyUThyUHZES0JlcmV0a2s?oc=5 | unknown |
+| 7 | 3 | 나트륨 | 2026-03-16 | EdexLive | Breakthrough Sodium-Ion Battery Research wins KPIT Shodh Award 2026 | https://news.google.com/rss/articles/CBMingFBVV95cUxQV0tCVEZKVlB2TG1ETFpNLTFQNGI2WHNEaktvYnZWa2dfUjRKYXJIeW1qM2hfcDJ2bmpWWjZ3Q3pSaFQtVVZWakRFNDZDRHRMc2c1TXFsSjhNaE9nY0NNbHExaEh2TW8xQzZ3UDVrV0l5Y0FUUHhhbTh6XzBnbjhHUmtCZDcyU0tLanZOREo3MkRiR29TSUFpU2FsXzd3Z9IBqwFBVV95cUxPQnpxdFp4dERvOXF4SmNVSFVvcWhieUc1SmdMamdPQU9CV2tIZkRFNXBuQ0g5Ym1JZWVlM1d3RlNDUllkSnpvVE1sa0Z6VlFFRG9oQ1NxQk93LXZFRDVVd0JWQ3dxUDZib2FCamI5UXNUUXhsbXljT3gxMV9TeVZyLWtjOGkyMEJfeFFBRVItOEl2dHc3Q1ZjaHdLaG1idzB2ODM5V3ZyQkNxZGc?oc=5 | unknown |
+| 8 | 3 | 전고체 | 2026-03-17 | www.electimes.com | 꿈의 배터리 '전고체', 기술은 넘었지만 '가격·수율' 문턱이 문제 | https://www.electimes.com/news/articleView.html?idxno=366065 | unknown |
+| 9 | 3 | 전고체 | 2026-03-17 | www.theguru.co.kr | 中 배터리 권위자 "전고체 배터리 상용화, 최소 2년 더 기다려야" | https://www.theguru.co.kr/news/article.html?no=99318 | unknown |
+| 10 | 3 | 전고체 | 2026-03-17 | sports.donga.com | 삼성SDI, “전고체 배터리, 휴머노이드 시대의 게임 체인저 될 것” | https://sports.donga.com/economy/article/all/20260315/133535309/1 | unknown |
+| 11 | 3 | 전고체 | 2026-03-16 | Charged EVs | ION Storage Systems qualifies its solid-state battery cells with a customer—production to start this year | https://news.google.com/rss/articles/CBMi1AFBVV95cUxOM1QycktoTUF5UF9URU42UkRGY1FWN3hGaDRMS1B5dlh6Q3Ayc3pVMnJmX0UtdmR6NUpDVHM5VlZGUV9nOGY4VVRvalFKUHZwRGg2OGxqZktPSVV4MlpMSVdsWVRkU0dfWmlfa2ZEM1JZS0JSb0ZYRUJWX1V4WjVOYUVLaDNBejdwNTdEeUlVZHFyZVN6Q211MXFOdHB6ZklKeXJLb1MzWEwzTlRpN1MtRlZkUlJ0d0s4bTZlTkpON0tYbG1zczVEWGt0ZXZDT2QxcjhGTg?oc=5 | unknown |
+| 12 | 3 | 전고체 | 2026-03-16 | The Motley Fool | Massive News: QuantumScape's Solid-State Battery Race Just Heated Up | https://news.google.com/rss/articles/CBMimAFBVV95cUxNMDFPdDEwY0Y5Q0VfWHE5Y3Z1WXNhVlFzTmNWdHdhYjVIVU1sdnZmTXdUOXN2bmdJN0FlRFdBbGlfcC1yZWFwQ1lVN2hhM0gxZVRGbEMtWXd1cjFUekJmMjFJRUFsRDV2c3BkbkJWWlc0S0J5LWJUMXlycDBkSm5kQktlWjN4aUhqMmlJRVNoM2xsTVVNMG5YUQ?oc=5 | unknown |
+| 13 | 3 | 나트륨 | 2026-03-16 | pv magazine USA | RWE, Peak Energy to deploy first sodium-ion battery in U.S. grid | https://news.google.com/rss/articles/CBMipAFBVV95cUxNQnVSY2dyeXZreXItWFc3TDItUmhzTUxzTjZLb2hnVWpYcGN4T2ZlTlJZdVV5a3R6Z1ZWaWVoQk9vdUpYdmQtaGIxRC1GNmhZbWd0Uk5DbEJJVXlCR2RLY1ZmYjc0N1M0NEh2UUljUUp5SXc2MExZUGNoUldOR2E2bFVkQU5hanJlSGxfZXQ2Y3ZNZHhONG9KeFlISjBBSlV6bW1UNQ?oc=5 | unknown |
+| 14 | 3 | 나트륨 | 2026-03-16 | Energy-Storage.News | US sodium-ion startup Peak Energy piloting 3.1MWh system at RWE Wisconsin lab | https://news.google.com/rss/articles/CBMirwFBVV95cUxPcjVCTzNBeFBCdFhJdnBDMEk0NWhFUElHLVRtcXRoZDZuOGp0OUZreW9pb2dwWGpnTFhHMmZUaVZ6aHIzeExXLWpZUWl6ME4tZUhKbTlxUkhpU2k0djV2SHpHWmF0VE14NGVmNlEtWnh1Q2s1ZDZOQng2eUhwTG50R3lIU1dIUkliU3hxX3ctUldBbXJFZjI4R291ZVEyWGFVOHlicFY0Z3pQa2FqVldB?oc=5 | unknown |
+| 15 | 3 | 전고체 | 2026-03-16 | thelec.net | Ecopro Unveils Solid-State Battery Materials Strategy, Draws Interest from Automakers and Cell Makers | https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nbW5yc2RqRUpHRXcxY3kzSGFybkFPRk9aYTlGcFFKeUpXaS1PS0hla3kxUmV6QW1hRHM1bV9yS0FQMktzc1hXbnpySERHRGFDdjB0X0M1My00WDJfYmJDd3dPbHNqZw?oc=5 | unknown |
+| 16 | 3 | 나트륨 | 2026-03-16 | SolarQuarter | Peak Energy Deploys Passively Cooled Sodium-Ion Battery System with RWE Americas | https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQzdTcUNBQXY5Z0owaXRvRlRsU0FrZU9FVmRRcWxxUTZoUkZVbXhpcFhrM3AtSGJZSjI2Z2hpYTlOTkFIOGxEVG5Xb1YyWjlnYUltakpmbGg1eXdodndGV1VLTGJWOUItX28xdzFNMTVKbUVpT0tsZDlERmJ0WlY3UEIzeTdFcmpZMFV0RDhzNE1EOGpBTU1ySVo3dUs3WjR2dV9KMzZaOXNNTXpFdXM0UjYzZGtya0lO?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. 포스코퓨처엠, 1조원 인조흑연 음극재 장기 공급계약 체결
+- 발행일: 2026-03-16
+- 매체: www.kyongbuk.co.kr (출처등급 3)
+- 분야: anode
+- 링크: https://www.kyongbuk.co.kr/news/articleView.html?idxno=4067095
+- 참고 링크: https://news.dealsitetv.com/articles/166961, http://www.ferrotimes.com/news/articleView.html?idxno=46857
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코퓨처엠이 1조원 규모의 인조흑연 음극재 장기 공급 계약을 체결했습니다.
+  - 이를 통해 천연흑연과 인조흑연 음극재를 모두 양산하고 전고체 배터리용 실리콘 음극재 사업화도 추진합니다.
+  - 이는 고객 요구에 맞춘 폭넓은 제품 포트폴리오 구축을 위한 노력의 일환입니다.
+- 관련 기업: 포스코퓨처엠
+
+### 2. 차세대 배터리 소재 올해 인터배터리서 '주목'…적용 시장도 확대
+- 발행일: 2026-03-16
+- 매체: www.popcornnews.net (출처등급 3)
+- 분야: anode
+- 링크: http://www.popcornnews.net/news/articleView.html?idxno=115250
+- 인기신호: unknown
+- 3문장 요약:
+  - SK넥실리스는 인터배터리 2026에서 2차전지 음극재용 핵심 소재인 동박 기술 경쟁력을 선보였습니다.
+  - 이 회사는 전해 도금 방식을 통해 초박형 동박을 생산하며 최대 폭 기술을 보유하고 있습니다.
+  - 이는 차세대 배터리 소재 시장에서 기술력을 강조하려는 전략입니다.
+- 관련 기업: SK넥실리스, 인터배터리, 2차전지
+
+### 3. '전고체 배터리'를 둔 두 가지 시선 [기자수첩]
+- 발행일: 2026-03-16
+- 매체: www.sisaon.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: http://www.sisaon.co.kr/news/articleView.html?idxno=181460
+- 인기신호: unknown
+- 3문장 요약:
+  - 올해 인터배터리 행사에서는 각 기업의 전고체 배터리 로드맵이 구체적으로 이행되고 있다는 인상을 주었습니다.
+  - 배터리 3사는 전고체 배터리 실물을 전시하며 양산 목표 달성에 대한 자신감을 내비쳤습니다.
+  - 이는 전고체 배터리 기술의 상용화 가능성에 대한 기대감을 높이고 있습니다.
+
+### 4. Europe Solid State Battery Market Set for Rapid Expansion, Projected to Reach USD 624 Million by 2032 as Automakers Invest in Safer and High-Energy Battery Technologies | MarkNtel Advisors
+- 발행일: 2026-03-16
+- 매체: PR Newswire (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi3wJBVV95cUxQdWZVb2p1UkhCZzNQTVhwVU9qYklnTTNNeHJZYThaazR4Q0N0SFozZWhRNkNMaGotWlZaMWl1Q0lnaDA3TjJXMFRHVkF6bkMzTUtyRnAyclpHRkJHVEk5b3ZHdmEwN0dUTkhrSm1nSzRGQk9OdW83Z0R1b3BJYWVZd3lYbTVjMjZwNVlQaW9RVVVHMVFjY3lTdFZGb3VUUGF6SWYxVHlWNXRVR1BUSnpVVWZmeTFCc01oR0lkenpiOXR3XzFKc2Q4MVN4ankwb1VFZlZHOWtGcE9jNzFXWTFQVkY3MzdKODNHVGFwTmQ5NEFBejNpejBBcHhRN2t2TUxURFNPbjhYeDJBbW9PaXlwLUZyT0F0UnhxNUhFekNMRTlWQXN2ZElYUDJDMW5BRUctNWJGYXlKU1JFa0pIQ2hMNmZRM0NjZFNEcm1LaWFvdzAyRDNsMmlHVjhHbm5TUDg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 유럽 전고체 배터리 시장은 2032년까지 6억 2,400만 달러 규모로 빠르게 성장할 것으로 예상됩니다.
+  - 이는 자동차 제조사들이 더 안전하고 에너지 밀도가 높은 배터리 기술에 투자하고 있기 때문입니다.
+  - 이러한 투자는 유럽 시장의 급격한 확장을 견인할 것으로 보입니다.
+- 관련 기업: USD, PR
+
+### 5. Battery Electrolyte Production Cost 2026: Investment Cost, Market Growth & ROI
+- 발행일: 2026-03-16
+- 매체: openPR.com (출처등급 3)
+- 분야: electrolyte
+- 링크: https://news.google.com/rss/articles/CBMilwFBVV95cUxOcUdjMkFzZGRJTHFoZ0V2ZUdtUVBBVGRGRFZvYVZiR3drb3VvdDR6T3hmWUE3YXhkdkk2WW13aVZZSUxXZGpiOG12MkwtTWlqZWNtNzJUaEw3U2ZmUUZQcF9pTmYxQU9ZQVNzSDhjeTIxak4zUURzaDF3b2djbXBOako5b3lwUl91WWxaRUJnQV9lZ3JpX0xv?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 2026년 배터리 전해액 생산 비용에 대한 분석 보고서가 발표되었습니다.
+  - 보고서는 투자 비용, 시장 성장 및 투자 수익률(ROI)을 다룰 예정입니다.
+  - 이는 향후 배터리 전해액 시장의 경제성을 예측하는 데 중요한 정보를 제공할 것입니다.
+- 관련 기업: ROI
+
+### 6. Sodium-Ion Batteries: MIT’s Breakthrough Tech Beats Lithium On Cost & Safety
+- 발행일: 2026-03-16
+- 매체: Dallas Express (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMitwFBVV95cUxQbWpyR1FxTXlWbU9USS1YbXd3TU83UXI3WEdYdVhwMEt0MFUyb3FkejRfb1drbHJ3RldWd1ZlTDBiTlEtQ2QzT2Z1azVQUDFULVp2Z3FPS0k4SVd5Ry00RE1VRmRvNjhNVjdIN1FHRjJ5MXE4bmFtOTVmdEJwME1heTN3c3h2aVI4SUZDR0xKdjZhOHBTVkZoZDlrcTNKWkgxeWo0RzYwQkdyUThyUHZES0JlcmV0a2s?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - MIT 연구진이 리튬 이온 배터리보다 비용과 안전성 면에서 우수한 차세대 나트륨 이온 배터리 기술을 개발했습니다.
+  - 이 기술은 기존 리튬 이온 배터리의 단점을 극복할 잠재력을 가지고 있습니다.
+  - 이는 배터리 기술의 새로운 가능성을 제시하며 향후 상용화에 대한 기대를 모으고 있습니다.
+- 관련 기업: MIT
+
+### 7. Breakthrough Sodium-Ion Battery Research wins KPIT Shodh Award 2026
+- 발행일: 2026-03-16
+- 매체: EdexLive (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMingFBVV95cUxQV0tCVEZKVlB2TG1ETFpNLTFQNGI2WHNEaktvYnZWa2dfUjRKYXJIeW1qM2hfcDJ2bmpWWjZ3Q3pSaFQtVVZWakRFNDZDRHRMc2c1TXFsSjhNaE9nY0NNbHExaEh2TW8xQzZ3UDVrV0l5Y0FUUHhhbTh6XzBnbjhHUmtCZDcyU0tLanZOREo3MkRiR29TSUFpU2FsXzd3Z9IBqwFBVV95cUxPQnpxdFp4dERvOXF4SmNVSFVvcWhieUc1SmdMamdPQU9CV2tIZkRFNXBuQ0g5Ym1JZWVlM1d3RlNDUllkSnpvVE1sa0Z6VlFFRG9oQ1NxQk93LXZFRDVVd0JWQ3dxUDZib2FCamI5UXNUUXhsbXljT3gxMV9TeVZyLWtjOGkyMEJfeFFBRVItOEl2dHc3Q1ZjaHdLaG1idzB2ODM5V3ZyQkNxZGc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 획기적인 나트륨 이온 배터리 연구가 2026년 KPIT Shodh Award를 수상했습니다.
+  - 이 연구는 나트륨 이온 배터리 기술의 발전에 기여할 것으로 기대됩니다.
+  - 수상은 해당 연구의 중요성과 혁신성을 인정받은 결과입니다.
+- 관련 기업: KPIT
+
+### 8. 꿈의 배터리 '전고체', 기술은 넘었지만 '가격·수율' 문턱이 문제
+- 발행일: 2026-03-17
+- 매체: www.electimes.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.electimes.com/news/articleView.html?idxno=366065
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리는 배터리 업계의 새로운 성장 동력으로 주목받고 있습니다.
+  - 하지만 가격 경쟁력 확보와 수율 개선이라는 과제가 남아있습니다.
+  - 이러한 문제 해결이 전고체 배터리 상용화의 핵심이 될 것입니다.
+
+### 9. 中 배터리 권위자 "전고체 배터리 상용화, 최소 2년 더 기다려야"
+- 발행일: 2026-03-17
+- 매체: www.theguru.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.theguru.co.kr/news/article.html?no=99318
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국 전고체 배터리 상용화까지 최소 2년이 더 필요하다는 전문가의 지적이 나왔습니다.
+  - 중국과학원 원사는 추가 개발과 테스트가 필요하며, 3~5년 내 상용화가 가능할 것으로 전망했습니다.
+  - 이는 중국의 차세대 전고체 배터리 기술 개발 및 상용화 일정에 대한 예측입니다.
+- 관련 기업: 중국과학원
+
+### 10. 삼성SDI, “전고체 배터리, 휴머노이드 시대의 게임 체인저 될 것”
+- 발행일: 2026-03-17
+- 매체: sports.donga.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://sports.donga.com/economy/article/all/20260315/133535309/1
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성SDI는 전고체 배터리를 통해 휴머노이드 로봇 시장의 패권을 장악하겠다는 포부를 밝혔습니다.
+  - 삼성SDI는 전고체 배터리가 로봇 시대의 궁극적인 혁신을 이끌 '게임 체인저'가 될 것이라고 강조했습니다.
+  - 이는 미래 모빌리티 및 로봇 시장에서의 기술 리더십 확보를 위한 전략입니다.
+- 관련 기업: 삼성SDI, TBC
+
+### 11. ION Storage Systems qualifies its solid-state battery cells with a customer—production to start this year
+- 발행일: 2026-03-16
+- 매체: Charged EVs (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOM1QycktoTUF5UF9URU42UkRGY1FWN3hGaDRMS1B5dlh6Q3Ayc3pVMnJmX0UtdmR6NUpDVHM5VlZGUV9nOGY4VVRvalFKUHZwRGg2OGxqZktPSVV4MlpMSVdsWVRkU0dfWmlfa2ZEM1JZS0JSb0ZYRUJWX1V4WjVOYUVLaDNBejdwNTdEeUlVZHFyZVN6Q211MXFOdHB6ZklKeXJLb1MzWEwzTlRpN1MtRlZkUlJ0d0s4bTZlTkpON0tYbG1zczVEWGt0ZXZDT2QxcjhGTg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - ION Storage Systems가 고객사와 함께 전고체 배터리 셀을 성공적으로 검증했으며, 올해 안에 생산을 시작할 예정입니다.
+  - 이는 해당 회사의 전고체 배터리 기술이 상용화 단계에 진입했음을 의미합니다.
+  - 고객사와의 협력을 통해 실제 시장에서의 적용이 임박했음을 보여줍니다.
+- 관련 기업: ION Storage Systems, ION
+
+### 12. Massive News: QuantumScape's Solid-State Battery Race Just Heated Up
+- 발행일: 2026-03-16
+- 매체: The Motley Fool (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxNMDFPdDEwY0Y5Q0VfWHE5Y3Z1WXNhVlFzTmNWdHdhYjVIVU1sdnZmTXdUOXN2bmdJN0FlRFdBbGlfcC1yZWFwQ1lVN2hhM0gxZVRGbEMtWXd1cjFUekJmMjFJRUFsRDV2c3BkbkJWWlc0S0J5LWJUMXlycDBkSm5kQktlWjN4aUhqMmlJRVNoM2xsTVVNMG5YUQ?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZjNoT3g3ZThOdVp5bmppekF6WE1LTWdqclJKX3VreUptbl9nN2hYcm00MkhpdXhlc1FlMzlZYzFDcVJDOGpEa1pWcF9vdDJ0Z0cwMFpTTHRLdVo1NENqeGJJRWVTX0dVOGFkV3dHMXBnZlFNOGE5UHFWcnBBUV9hblBWajVCY0VkTEZlMzYtcFRtbGtTaHN4dWZHMkJTNHF1bVJWeXdVQWdmeXZjOER2VmlMNml5aENYYkoxRElVcnYyWk1uNTY4SDR6aXl2ZFl2ejA1aE9iRFhMZkVSOHNPYTBfcjM?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - QuantumScape의 전고체 배터리 개발 경쟁이 더욱 치열해지고 있다는 소식입니다.
+  - 이는 전고체 배터리 기술 선점을 위한 업계의 노력이 가속화되고 있음을 시사합니다.
+  - 경쟁 심화는 기술 발전과 상용화를 촉진할 것으로 예상됩니다.
+- 관련 기업: QuantumScape
+
+### 13. RWE, Peak Energy to deploy first sodium-ion battery in U.S. grid
+- 발행일: 2026-03-16
+- 매체: pv magazine USA (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMipAFBVV95cUxNQnVSY2dyeXZreXItWFc3TDItUmhzTUxzTjZLb2hnVWpYcGN4T2ZlTlJZdVV5a3R6Z1ZWaWVoQk9vdUpYdmQtaGIxRC1GNmhZbWd0Uk5DbEJJVXlCR2RLY1ZmYjc0N1M0NEh2UUljUUp5SXc2MExZUGNoUldOR2E2bFVkQU5hanJlSGxfZXQ2Y3ZNZHhONG9KeFlISjBBSlV6bW1UNQ?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMzhUNTZRcTBha2wtZERyMEpPWXF1OVIteHktU2lIQXdnaWE3a01OZU9vWTYtbGxMU0RmNnNmaEN0Z3BlSUhSNGJkSDNPeGN4MzVfcy1OdkZNQWFuaVowam1YOXBSbVR3NnJqamhVNk8wX0dNUlVVSlBNbVZ1VTF4V1Q4ak5lRmNudjJDa3Q1akk5WnZZSmpFckd0dmVwbDlLQm5US2VoZWJBZFk?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - RWE와 Peak Energy가 미국 최초로 나트륨 이온 배터리를 전력망에 도입합니다.
+  - 이 프로젝트는 나트륨 이온 배터리의 실증 및 상용화 가능성을 보여줄 것입니다.
+  - 이는 차세대 에너지 저장 기술의 중요한 이정표가 될 수 있습니다.
+- 관련 기업: RWE, Peak Energy, USA
+
+### 14. US sodium-ion startup Peak Energy piloting 3.1MWh system at RWE Wisconsin lab
+- 발행일: 2026-03-16
+- 매체: Energy-Storage.News (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMirwFBVV95cUxPcjVCTzNBeFBCdFhJdnBDMEk0NWhFUElHLVRtcXRoZDZuOGp0OUZreW9pb2dwWGpnTFhHMmZUaVZ6aHIzeExXLWpZUWl6ME4tZUhKbTlxUkhpU2k0djV2SHpHWmF0VE14NGVmNlEtWnh1Q2s1ZDZOQng2eUhwTG50R3lIU1dIUkliU3hxX3ctUldBbXJFZjI4R291ZVEyWGFVOHlicFY0Z3pQa2FqVldB?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국의 나트륨 이온 배터리 스타트업 Peak Energy가 RWE 위스콘신 연구소에서 3.1MWh 규모의 시스템을 시험 가동하고 있습니다.
+  - 이 시험 가동은 나트륨 이온 배터리의 실증적 성능을 평가하는 중요한 단계입니다.
+  - 성공적인 시험 가동은 향후 상용화 가능성을 높일 것입니다.
+- 관련 기업: Peak Energy, RWE, US
+
+### 15. Ecopro Unveils Solid-State Battery Materials Strategy, Draws Interest from Automakers and Cell Makers
+- 발행일: 2026-03-16
+- 매체: thelec.net (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nbW5yc2RqRUpHRXcxY3kzSGFybkFPRk9aYTlGcFFKeUpXaS1PS0hla3kxUmV6QW1hRHM1bV9yS0FQMktzc1hXbnpySERHRGFDdjB0X0M1My00WDJfYmJDd3dPbHNqZw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Ecopro가 전고체 배터리 소재 전략을 공개했으며, 자동차 제조사와 배터리 셀 제조업체들의 관심을 끌고 있습니다.
+  - 이 전략은 전고체 배터리 소재 시장에서의 Ecopro의 입지를 강화할 것으로 보입니다.
+  - 업계의 높은 관심은 해당 전략의 잠재적 성공 가능성을 시사합니다.
+- 관련 기업: Ecopro
+
+### 16. Peak Energy Deploys Passively Cooled Sodium-Ion Battery System with RWE Americas
+- 발행일: 2026-03-16
+- 매체: SolarQuarter (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQzdTcUNBQXY5Z0owaXRvRlRsU0FrZU9FVmRRcWxxUTZoUkZVbXhpcFhrM3AtSGJZSjI2Z2hpYTlOTkFIOGxEVG5Xb1YyWjlnYUltakpmbGg1eXdodndGV1VLTGJWOUItX28xdzFNMTVKbUVpT0tsZDlERmJ0WlY3UEIzeTdFcmpZMFV0RDhzNE1EOGpBTU1ySVo3dUs3WjR2dV9KMzZaOXNNTXpFdXM0UjYzZGtya0lO?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Peak Energy가 RWE Americas와 함께 수동 냉각 방식의 나트륨 이온 배터리 시스템을 배치했습니다.
+  - 이 시스템은 나트륨 이온 배터리의 실용적인 적용 가능성을 보여줍니다.
+  - RWE와의 협력을 통해 북미 시장에서의 나트륨 이온 배터리 보급이 확대될 것으로 기대됩니다.
+- 관련 기업: Peak Energy, RWE Americas, RWE
