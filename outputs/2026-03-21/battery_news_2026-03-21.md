@@ -1,0 +1,238 @@
+# 배터리 뉴스 데일리 브리핑 (2026-03-21 전날 기준)
+
+- 총 18건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 전고체 | 2026-03-22 | www.economytalk.kr | 삼성SDI, 국내 첫 전고체배터리 양산 임박… 중국 '맹추격' | http://www.economytalk.kr/news/articleView.html?idxno=419320 | unknown |
+| 2 | 3 | 기타 | 2026-03-21 | Batteries News | CIBF 2026 to Gather Global Battery Industry in Shenzhen This May, Opens Visitor Registration | https://news.google.com/rss/articles/CBMiugFBVV95cUxPQnZnaGFQcGN1Y1M2UDRwbkhZbzBVcm81eF90OGVZZjJNUHAxYXBmb3hDcVBmdkVPUDA4c0cwTjlmT2Z5eVZ5UVE4S0tMOWRYQUxqX19za1pqcFFEWVhDTWdXREVBT0ZJV0hRQ1A0UXFweU5GcDEyZlNyWTJhLVRFX1ZDWk9OM2NkT2NMUk9ua3k1Mld3LTE2UkhqUUVRZl9MZXpSb013cWxXODQycm1KQmJrYW44WFgzWlE?oc=5 | unknown |
+| 3 | 3 | 전고체 | 2026-03-22 | www.ddaily.co.kr | [위클리배터리] 배터리 주총 화두는 심화 경쟁…美 ESS 수주전 본격화 | https://www.ddaily.co.kr/page/view/2026032201013921310 | unknown |
+| 4 | 3 | 나트륨 | 2026-03-21 | Electrek | Another sodium-ion EV battery breakthrough emerges in China with 4C fast charging in 11 mins | https://news.google.com/rss/articles/CBMinAFBVV95cUxPeGVHQzBWa0F5SnlKUDE5Xzc0MnR3TEZQRWZ5TkMtSl9sX3IyZl9FTG9qakpVRGNzSVBGTFE5bFFObmkxaDRyVURWYXY1ckh1U1RqSlJwNk0xLU9UVHJnX196dHZIa1dTUE5qU2hRZm05NVZCV0hma1Q0OVYxbUJrTGhWVmlJUU02YXp0V1laWU5VdndPODlnUWhPdVE?oc=5 | unknown |
+| 5 | 3 | 기타 | 2026-03-21 | Business Insider Africa | After years of delays, Ghana enters global lithium race to help replace China in U.S. supply chains | https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLW4ySlJQcVJPU0FMRXlWdkhkQjhUc2QwcGY1OFM1WEk4cjJXWWlocDRwSDBEanQyd1BmbVVKZmVkOU1IUng2WWdJc3N6YnJDWDJRcnlwMGMyQlFEWGhuN1ZMcFBQbzZCRS1KaGxpM2hVdFViV2d2QnNFWEIwZkxuZUh4ZkZHcUYyRVJmZl9KcVNNNjFybDFZLURkV3VST25YWnRFRWdrZHg3a2R3Mmc3UDVCamxuNG9KQnowdThrX2NnR3JmTHdlNmNxQTFELVJsNFFTdUl3?oc=5 | unknown |
+| 6 | 3 | 전고체 | 2026-03-21 | Proactive financial news | Critical Resources hits significant technical milestone in solid-state battery strategy - ICYMI | https://news.google.com/rss/articles/CBMi-wFBVV95cUxPclhHQi02R1VIYW1pcjJqdzlpUjFfS3MxTkpxZmFscnpzMERuTUxOOTQ3VXpnYy1oQ0QwVjlDZlc3emp6d3E0QW5uUE5GbkwwYmprX3p0RGhWUTB6RDVUblNYWnNGOXcyWDgxbUt3RFUyMEJ3STZvTF95cGhMbW4tVm14bVFqTHpiUE5BaHVXcW40TFJtdVBfMjJhaTNxWlRJbUlaak1nVEhQbG96ME44emlqdXh0LTFTRWlBMDNvZGVVdTFpcXBrMHUwNjcxeGFWUDJtU3lpdHBnVDEzcEJOaVRLbEYwRFFNU0xGaklDUXBzLXVFZjgzT0tWNA?oc=5 | unknown |
+| 7 | 3 | 기타 | 2026-03-21 | Batteries News | BASQUEVOLT brings Axon Partners Group on board as investor to accelerate the industrialisation of next‑generation battery technology | https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbzR3WWNaSjZqSzJRR3Z6cENkTDYxbWx3a1FtTVFvUWFIZlg1LWFFUDFTeVhSYkVtVzRYMlRtUHpjdm1SenA2UUdjcGpvQXZ2VC1iWlRsVDJvcl9GMnp0bDJWTnBxdVVWVEsxa0ZYTU1nVnB4UTFTMFNfUzVDRUR4Y29NNFQyeVB5QldGQncxZHNXSXFTdnhmQnZMVEtCVXEwbjFOUmVLdnlXNU9LUlMzRlNUVEt1Zm1IdkVFRUdfbVR2Q3BJbjdQREZlaFZ4d0M5OXFBeHNVZ05tLS12UHVaNG4wYnZTZ2JYYUIyOXJ0VVk?oc=5 | unknown |
+| 8 | 3 | 기타 | 2026-03-21 | digitimes | Tesla's US$4 billion battery deal signals a shift away from China | https://news.google.com/rss/articles/CBMikgFBVV95cUxQWmkzMHQtSnRmX1BOY1p3MF85RGlmSXV4cUtwMW9FV19CcUpkLUdnV01UeDVHa2FfejBDb05nalZHaUEtTHg3VmV3TnVycHpfUkpvRVBMc2REQXFqNy1fN0o4dVQ2bG1MNVZyanh4M2M4R1N2RDVXWEFUM3p4VFh3RTh0Skw5ZVNMVFdiYnJHY2taZw?oc=5 | unknown |
+| 9 | 3 | 전고체 | 2026-03-22 | www.news1.kr | K-배터리 3사 가동률 50% 아래로…R&D 4000억 늘렸다 | https://www.news1.kr/industry/general-industry/6109310 | unknown |
+| 10 | 3 | 재활용 | 2026-03-21 | Resource Recycling | Australia battery recycling sector could reach A$6.9bn by 2050 | https://news.google.com/rss/articles/CBMisgFBVV95cUxNVDIySTNTbHBpR3hMZWFRelFTTm1lUGJJaFByMGNxYkkzSThaRVlKYl9vYzBKUEF4MzAxemQ2amdYUkRGMEZJTjlPbXRTd2o0aVB1Qmg3VHZPcVI0Zno3NGZoZndHc1V1QnVWVXhjMXBadzJWb29WckFWRzBPY2VsNVpHQUZNa3dNRHJBb1BZdThNM2Yyc3RXYU56SFVVVEFhVjlTQlVnUmYyMXg1aDN6UlRn?oc=5 | unknown |
+| 11 | 3 | 재활용 | 2026-03-21 | Canadian Auto Dealer | Cox hits EV battery recycling milestone | https://news.google.com/rss/articles/CBMihAFBVV95cUxNb3NCVUpBcXNEYW8za1Q1d21hMWt1YmdGUDhmUmFWdWZnQzIxVjNqQ1J6azlxdzE2T2s4cWM1ejJ4OFFUdWotc3E0R0FNb21uS1RCVFotS1N6ellocy01bGlfT0lhZ0dQX3kzWFB5WGJ6Z3hlVVNVcDZKY3ZxUDhXUmpwdng?oc=5 | unknown |
+| 12 | 3 | cathode | 2026-03-22 | biz.heraldcorp.com | “땡큐 아메리카” K-배터리 3사, 지난해 美 보조금 42%↑ | https://biz.heraldcorp.com/article/10699363?ref=naver | unknown |
+| 13 | 3 | 기타 | 2026-03-21 | SlashGear | This Battery Tech Breakthrough Could Be A Big Game-Changer | https://news.google.com/rss/articles/CBMinAFBVV95cUxQUzYyVVJfYnNGUHM3SThHV2gzd08xNXE2anAzeTFxNkt4My12SmhHY0J6REVfamZGZ08yekJuLUVuWVJsRlk4TTVLd0ZqSk4xakc4WUhiWWR1WWNDTVFEUk84dGZhMHFBSnRDZjBWaWFudWJiN01adlcwVTFNYl9pSmdQeHJWeXNON2MwOW8yWGFWX1RGaU5QWmlZNzM?oc=5 | unknown |
+| 14 | 3 | 전고체 | 2026-03-22 | www.mk.co.kr | 가동률 줄었는데 투자는 왜?...전기차 배터리 대신 ESS에서 활로 | https://www.mk.co.kr/article/11994685 | unknown |
+| 15 | 3 | 전고체 | 2026-03-22 | www.theguru.co.kr | 中 체리자동차, 차세대 전고체 '라이노 배터리' 공개…"8분 충전으로 50... | https://www.theguru.co.kr/news/article.html?no=99471 | unknown |
+| 16 | 3 | 나트륨 | 2026-03-21 | electrive.com | BAIC reports progress on sodium-ion batteries | https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVGwzQ1BkY2RweVlxUXJEM0JUTW5waEtOUEdPejRSYmlmMWkybFhyeWFRRzl6MzF1alJnV1czVUdqYUxPMlF5TGxCWTFlbFBJSmp2TDFtbGoxdHB3dzA4MGV1QTNuaGphOU5LQlpqRkJZanVNYkZ5Tmo3d3JIMkR1WkpWMVA5b3VsZzdB?oc=5 | unknown |
+| 17 | 3 | 장비 | 2026-03-22 | www.finomy.com | 2차전지 관련주, '껑충껑충' 소프트센·성우하이텍·씨아이에스... '주르... | http://www.finomy.com/news/articleView.html?idxno=251806 | unknown |
+| 18 | 3 | 전고체 | 2026-03-22 | www.pointdaily.co.kr | "삼성SDI만 늘었다"…배터리 3사 소액주주 '엇갈린 선택' | https://www.pointdaily.co.kr/news/articleView.html?idxno=297411 | unknown |
+
+## 상세 요약
+
+### 1. 삼성SDI, 국내 첫 전고체배터리 양산 임박… 중국 '맹추격'
+- 발행일: 2026-03-22
+- 매체: www.economytalk.kr (출처등급 3)
+- 분야: 전고체
+- 링크: http://www.economytalk.kr/news/articleView.html?idxno=419320
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성SDI가 업계 최초로 전고체배터리 양산을 앞두고 있습니다.
+  - 하지만 중국 기업의 맹추격을 따돌리기 위해서는 넘어야 할 과제가 많다는 분석이 나옵니다.
+  - 최주선 삼성SDI 대표이사는 내년 양산을 언급했습니다.
+- 관련 기업: 삼성SDI, 전고체배터리
+
+### 2. CIBF 2026 to Gather Global Battery Industry in Shenzhen This May, Opens Visitor Registration
+- 발행일: 2026-03-21
+- 매체: Batteries News (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiugFBVV95cUxPQnZnaGFQcGN1Y1M2UDRwbkhZbzBVcm81eF90OGVZZjJNUHAxYXBmb3hDcVBmdkVPUDA4c0cwTjlmT2Z5eVZ5UVE4S0tMOWRYQUxqX19za1pqcFFEWVhDTWdXREVBT0ZJV0hRQ1A0UXFweU5GcDEyZlNyWTJhLVRFX1ZDWk9OM2NkT2NMUk9ua3k1Mld3LTE2UkhqUUVRZl9MZXpSb013cWxXODQycm1KQmJrYW44WFgzWlE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - CIBF 2026이 오는 5월 중국 심천에서 개최될 예정입니다.
+  - 이번 행사는 글로벌 배터리 산업 관계자들을 한자리에 모을 것입니다.
+  - 현재 방문객 등록이 진행 중입니다.
+- 관련 기업: CIBF
+
+### 3. [위클리배터리] 배터리 주총 화두는 심화 경쟁…美 ESS 수주전 본격화
+- 발행일: 2026-03-22
+- 매체: www.ddaily.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.ddaily.co.kr/page/view/2026032201013921310
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내외 경쟁사들이 각형 및 전고체 배터리 개발에 나서면서 삼성SDI의 특허 침해 가능성이 제기되었습니다.
+  - 이에 삼성SDI는 선제적인 경고 메시지를 보낸 것으로 보입니다.
+  - 이는 배터리 업계의 심화되는 경쟁 구도를 보여줍니다.
+- 관련 기업: 삼성SDI, 위클리배터리
+
+### 4. Another sodium-ion EV battery breakthrough emerges in China with 4C fast charging in 11 mins
+- 발행일: 2026-03-21
+- 매체: Electrek (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMinAFBVV95cUxPeGVHQzBWa0F5SnlKUDE5Xzc0MnR3TEZQRWZ5TkMtSl9sX3IyZl9FTG9qakpVRGNzSVBGTFE5bFFObmkxaDRyVURWYXY1ckh1U1RqSlJwNk0xLU9UVHJnX196dHZIa1dTUE5qU2hRZm05NVZCV0hma1Q0OVYxbUJrTGhWVmlJUU02YXp0V1laWU5VdndPODlnUWhPdVE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국에서 11분 만에 4C 초고속 충전이 가능한 나트륨 이온 EV 배터리 기술이 개발되었습니다.
+  - 이는 기존 배터리 기술의 한계를 극복할 수 있는 중요한 돌파구로 평가됩니다.
+  - 이 기술은 전기차의 충전 시간을 획기적으로 단축시킬 잠재력을 가지고 있습니다.
+
+### 5. After years of delays, Ghana enters global lithium race to help replace China in U.S. supply chains
+- 발행일: 2026-03-21
+- 매체: Business Insider Africa (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLW4ySlJQcVJPU0FMRXlWdkhkQjhUc2QwcGY1OFM1WEk4cjJXWWlocDRwSDBEanQyd1BmbVVKZmVkOU1IUng2WWdJc3N6YnJDWDJRcnlwMGMyQlFEWGhuN1ZMcFBQbzZCRS1KaGxpM2hVdFViV2d2QnNFWEIwZkxuZUh4ZkZHcUYyRVJmZl9KcVNNNjFybDFZLURkV3VST25YWnRFRWdrZHg3a2R3Mmc3UDVCamxuNG9KQnowdThrX2NnR3JmTHdlNmNxQTFELVJsNFFTdUl3?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 가나의 리튬 채굴 산업이 오랜 지연 끝에 글로벌 시장에 진출했습니다.
+  - 이는 미국의 공급망에서 중국을 대체하려는 움직임의 일환으로 분석됩니다.
+  - 가나의 리튬 생산은 향후 배터리 원자재 시장에 영향을 미칠 것으로 예상됩니다.
+
+### 6. Critical Resources hits significant technical milestone in solid-state battery strategy - ICYMI
+- 발행일: 2026-03-21
+- 매체: Proactive financial news (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMi-wFBVV95cUxPclhHQi02R1VIYW1pcjJqdzlpUjFfS3MxTkpxZmFscnpzMERuTUxOOTQ3VXpnYy1oQ0QwVjlDZlc3emp6d3E0QW5uUE5GbkwwYmprX3p0RGhWUTB6RDVUblNYWnNGOXcyWDgxbUt3RFUyMEJ3STZvTF95cGhMbW4tVm14bVFqTHpiUE5BaHVXcW40TFJtdVBfMjJhaTNxWlRJbUlaak1nVEhQbG96ME44emlqdXh0LTFTRWlBMDNvZGVVdTFpcXBrMHUwNjcxeGFWUDJtU3lpdHBnVDEzcEJOaVRLbEYwRFFNU0xGaklDUXBzLXVFZjgzT0tWNA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Critical Resources가 전고체 배터리 전략에서 중요한 기술적 성과를 달성했습니다.
+  - 이는 차세대 배터리 기술 개발에 있어 중요한 진전입니다.
+  - 이 성과는 회사의 전고체 배터리 상용화 가능성을 높입니다.
+- 관련 기업: Critical Resources, ICYMI
+
+### 7. BASQUEVOLT brings Axon Partners Group on board as investor to accelerate the industrialisation of next‑generation battery technology
+- 발행일: 2026-03-21
+- 매체: Batteries News (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbzR3WWNaSjZqSzJRR3Z6cENkTDYxbWx3a1FtTVFvUWFIZlg1LWFFUDFTeVhSYkVtVzRYMlRtUHpjdm1SenA2UUdjcGpvQXZ2VC1iWlRsVDJvcl9GMnp0bDJWTnBxdVVWVEsxa0ZYTU1nVnB4UTFTMFNfUzVDRUR4Y29NNFQyeVB5QldGQncxZHNXSXFTdnhmQnZMVEtCVXEwbjFOUmVLdnlXNU9LUlMzRlNUVEt1Zm1IdkVFRUdfbVR2Q3BJbjdQREZlaFZ4d0M5OXFBeHNVZ05tLS12UHVaNG4wYnZTZ2JYYUIyOXJ0VVk?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - BASQUEVOLT는 차세대 배터리 기술 산업화를 가속화하기 위해 Axon Partners Group을 투자자로 유치했습니다.
+  - 이번 투자는 BASQUEVOLT의 기술 개발 및 생산 능력 확장에 기여할 것으로 기대됩니다.
+  - 이는 배터리 산업의 경쟁 심화 속에서 기술 혁신을 위한 중요한 움직임입니다.
+- 관련 기업: BASQUEVOLT, Axon Partners Group
+
+### 8. Tesla's US$4 billion battery deal signals a shift away from China
+- 발행일: 2026-03-21
+- 매체: digitimes (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMikgFBVV95cUxQWmkzMHQtSnRmX1BOY1p3MF85RGlmSXV4cUtwMW9FV19CcUpkLUdnV01UeDVHa2FfejBDb05nalZHaUEtTHg3VmV3TnVycHpfUkpvRVBMc2REQXFqNy1fN0o4dVQ2bG1MNVZyanh4M2M4R1N2RDVXWEFUM3p4VFh3RTh0Skw5ZVNMVFdiYnJHY2taZw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 테슬라가 40억 달러 규모의 배터리 계약을 체결하며 중국 의존도를 낮추려는 움직임을 보이고 있습니다.
+  - 이는 글로벌 배터리 공급망 재편의 신호탄으로 해석될 수 있습니다.
+  - 이번 계약은 북미 지역의 배터리 생산 능력 강화에 기여할 것으로 예상됩니다.
+- 관련 기업: Tesla, US
+
+### 9. K-배터리 3사 가동률 50% 아래로…R&D 4000억 늘렸다
+- 발행일: 2026-03-22
+- 매체: www.news1.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.news1.kr/industry/general-industry/6109310
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 배터리 3사의 평균 가동률이 50% 아래로 하락했습니다.
+  - 그럼에도 불구하고 R&D 투자는 전년 대비 4000억 원 증가한 총 3조 605억 원을 기록했습니다.
+  - 이는 전고체 배터리 분야에서 중국과의 기술 격차를 줄이고 우위를 확보하기 위한 사활을 건 투자로 풀이됩니다.
+- 관련 기업: K-배터리
+
+### 10. Australia battery recycling sector could reach A$6.9bn by 2050
+- 발행일: 2026-03-21
+- 매체: Resource Recycling (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMisgFBVV95cUxNVDIySTNTbHBpR3hMZWFRelFTTm1lUGJJaFByMGNxYkkzSThaRVlKYl9vYzBKUEF4MzAxemQ2amdYUkRGMEZJTjlPbXRTd2o0aVB1Qmg3VHZPcVI0Zno3NGZoZndHc1V1QnVWVXhjMXBadzJWb29WckFWRzBPY2VsNVpHQUZNa3dNRHJBb1BZdThNM2Yyc3RXYU56SFVVVEFhVjlTQlVnUmYyMXg1aDN6UlRn?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 호주 배터리 재활용 산업의 규모가 2050년까지 69억 호주 달러에 이를 것으로 전망됩니다.
+  - 이는 지속 가능한 배터리 생태계 구축에 대한 기대감을 높입니다.
+  - 배터리 재활용 시장의 성장은 폐배터리 처리 문제 해결에 기여할 것입니다.
+
+### 11. Cox hits EV battery recycling milestone
+- 발행일: 2026-03-21
+- 매체: Canadian Auto Dealer (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMihAFBVV95cUxNb3NCVUpBcXNEYW8za1Q1d21hMWt1YmdGUDhmUmFWdWZnQzIxVjNqQ1J6azlxdzE2T2s4cWM1ejJ4OFFUdWotc3E0R0FNb21uS1RCVFotS1N6ellocy01bGlfT0lhZ0dQX3kzWFB5WGJ6Z3hlVVNVcDZKY3ZxUDhXUmpwdng?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Cox가 전기차 배터리 재활용 분야에서 중요한 기술적 성과를 달성했습니다.
+  - 이는 배터리 재활용 기술의 발전 가능성을 보여줍니다.
+  - 이러한 성과는 환경 문제 해결에 기여할 것으로 기대됩니다.
+- 관련 기업: Cox
+
+### 12. “땡큐 아메리카” K-배터리 3사, 지난해 美 보조금 42%↑
+- 발행일: 2026-03-22
+- 매체: biz.heraldcorp.com (출처등급 3)
+- 분야: cathode
+- 링크: https://biz.heraldcorp.com/article/10699363?ref=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - 지난해 K-배터리 3사의 미국 내 보조금 수령액이 전년 대비 42% 증가했습니다.
+  - 이는 북미 지역에서 전기차 및 ESS용 배터리 대량 생산 체제를 구축한 결과입니다.
+  - 삼성SDI는 가장 가파른 증가율을 기록했습니다.
+- 관련 기업: 삼성SDI, K-배터리, LFP
+
+### 13. This Battery Tech Breakthrough Could Be A Big Game-Changer
+- 발행일: 2026-03-21
+- 매체: SlashGear (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMinAFBVV95cUxQUzYyVVJfYnNGUHM3SThHV2gzd08xNXE2anAzeTFxNkt4My12SmhHY0J6REVfamZGZ08yekJuLUVuWVJsRlk4TTVLd0ZqSk4xakc4WUhiWWR1WWNDTVFEUk84dGZhMHFBSnRDZjBWaWFudWJiN01adlcwVTFNYl9pSmdQeHJWeXNON2MwOW8yWGFWX1RGaU5QWmlZNzM?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 새로운 배터리 기술 돌파구가 게임 체인저가 될 가능성이 있습니다.
+  - 이 기술은 기존 배터리의 성능을 크게 향상시킬 수 있습니다.
+  - 이는 전기차 및 에너지 저장 장치 분야에 혁신을 가져올 수 있습니다.
+
+### 14. 가동률 줄었는데 투자는 왜?...전기차 배터리 대신 ESS에서 활로
+- 발행일: 2026-03-22
+- 매체: www.mk.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.mk.co.kr/article/11994685
+- 인기신호: unknown
+- 3문장 요약:
+  - 전기차 배터리 수요 둔화에 따라 배터리 기업들이 에너지 저장 장치(ESS) 시장에서 활로를 모색하고 있습니다.
+  - 특히 차세대 기술인 전고체 배터리 분야에서 기술 격차를 줄이기 위한 경쟁이 치열해지고 있습니다.
+  - 배터리 기업들은 사업 구조 전환에도 속도를 내고 있습니다.
+
+### 15. 中 체리자동차, 차세대 전고체 '라이노 배터리' 공개…"8분 충전으로 50...
+- 발행일: 2026-03-22
+- 매체: www.theguru.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.theguru.co.kr/news/article.html?no=99471
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국 체리자동차가 8분 충전으로 500km 주행 가능한 전고체 배터리 '라이노 S'를 공개했습니다.
+  - 이 배터리가 탑재된 모델은 내년에 양산될 예정입니다.
+  - 체리자동차는 이번 기술 공개를 통해 글로벌 전기차 시장의 기술 주도권 확보에 나섰습니다.
+- 관련 기업: 체리자동차
+
+### 16. BAIC reports progress on sodium-ion batteries
+- 발행일: 2026-03-21
+- 매체: electrive.com (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVGwzQ1BkY2RweVlxUXJEM0JUTW5waEtOUEdPejRSYmlmMWkybFhyeWFRRzl6MzF1alJnV1czVUdqYUxPMlF5TGxCWTFlbFBJSmp2TDFtbGoxdHB3dzA4MGV1QTNuaGphOU5LQlpqRkJZanVNYkZ5Tmo3d3JIMkR1WkpWMVA5b3VsZzdB?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - BAIC가 나트륨 이온 배터리 개발에서 진전을 보고했습니다.
+  - 이는 차세대 배터리 기술 개발 경쟁에서 중요한 성과입니다.
+  - 나트륨 이온 배터리는 기존 리튬 이온 배터리의 대안으로 주목받고 있습니다.
+- 관련 기업: BAIC
+
+### 17. 2차전지 관련주, '껑충껑충' 소프트센·성우하이텍·씨아이에스... '주르...
+- 발행일: 2026-03-22
+- 매체: www.finomy.com (출처등급 3)
+- 분야: 장비
+- 링크: http://www.finomy.com/news/articleView.html?idxno=251806
+- 인기신호: unknown
+- 3문장 요약:
+  - 2차전지 관련주인 소프트센, 성우하이텍, 씨아이에스 등이 상승세를 보이고 있습니다.
+  - 특히 케이엔에스는 2차전지 자동화 장비 전문 기업으로, 원통형 배터리용 CID 및 BMA 자동화 설비를 주력으로 합니다.
+  - 케이엔에스는 이번에 공급한 CAMS V2가 900종 이상의 부품을 처리할 수 있다고 밝혔습니다.
+- 관련 기업: 소프트센, 성우하이텍, 씨아이에스
+
+### 18. "삼성SDI만 늘었다"…배터리 3사 소액주주 '엇갈린 선택'
+- 발행일: 2026-03-22
+- 매체: www.pointdaily.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.pointdaily.co.kr/news/articleView.html?idxno=297411
+- 참고 링크: https://www.busan.com/view/busan/view.php?code=2026032211480203715, https://www.sentv.co.kr/article/view/sentv202603220007
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션, 삼성SDI, SK온 등 국내 배터리 3사의 소액주주 수가 엇갈린 흐름을 보이며 투자 지형 변화가 감지되고 있습니다.
+  - 특히 삼성SDI의 소액주주 수가 증가한 것으로 나타났습니다.
+  - 이는 각 기업의 실적 및 성장 전망에 대한 투자자들의 다른 평가를 반영하는 것으로 보입니다.
+- 관련 기업: LG에너지솔루션, 삼성SDI, SK온
