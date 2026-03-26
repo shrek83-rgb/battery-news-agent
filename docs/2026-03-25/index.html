@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-03-25</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-03-25 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-solid_state" href="http://www.srtimes.kr/news/articleView.html?idxno=199531" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&quot;배터리 3사 전고체 배터리 양산 시기, 삼성SDI가 앞서&quot;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.srtimes.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">삼성SDI</span><span class="chip">LG에너지솔루션</span><span class="chip">SK온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>삼성SDI 2027년 목표…LG에너지솔루션·SK온은 2029년 제시 국내 배터리 3사(LG에너지솔루션, 삼성SDI, SK온)가 각사 정기 주주총회에서 배터리 시장 &#x27;게임체인저&#x27;로 꼽히는 전고체 배터리에 대한 비전을 내세웠다....</li><li>삼성SDI 2027년 목표…LG에너지솔루션·SK온은 2029년 제시 국내 배터리 3사(LG에너지솔루션, 삼성SDI,.</li><li>SK온)가 각사 정기 주주총회에서 배터리 시장 &#x27;게임체인저&#x27;로 꼽히는 전고체 배터리에 대한 비전을 내세웠다....</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.businesspost.co.kr/BP?command=article_view&amp;num=434130" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">에코프로 송호준 &quot;전고체·소듐 등 차세대 양극재 상용화 앞당길 것&quot;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.businesspost.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">에코프로</span><span class="chip">소듐이온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&amp;lt;에코프로&amp;gt; 송 대표는 기술 리더십 및 차세대 소재 시장 선점과 관련해 &quot;하이니켈 분야의 초격차 지위를 공고히 유지할 것&quot;이라며 &quot;동시에 전고체 및 소듐이온 배터리 등 차세대 소재 기술력을 강화하고 상용화를...</li><li>&amp;lt;에코프로&amp;gt; 송 대표는 기술 리더십 및 차세대 소재 시장 선점과 관련해 &quot;하이니켈 분야의 초격차 지위.</li><li>를 공고히 유지할 것&quot;이라며 &quot;동시에 전고체 및 소듐이온 배터리 등 차세대 소재 기술력을 강화하고 상용화를...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-26</div>
+          </div>
+        </a>
+        
+        <a class="card cat-anode" href="https://www.munhwa.com/article/11577294?ref=naver" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">anode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">포스코퓨처엠·금호석화·BEI, 무음극 리튬메탈 배터리 개발협력</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.munhwa.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">1차전지</span><span class="chip">2차전지</span><span class="chip">BEI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>비이아이는 1차전지 및 축전지,2차전지용 소재, 반도체 및 2차전지 제조장비를 생산하는 기업으로, 이 같은 소재 기술을 배터리로 만들어 낼 제조 기반과 노하우를 보유하고 있다는 평가를 받고 있다.</li><li>세 회사는 이번...</li><li>소재 기술을 배터리로 만들어 낼 제조 기반과 노하우를 보유하고 있다는 평가를 받고 있다. 세 회사는 이번...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=439889" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">꿈의 배터리 심장 뚫었다… 솔루스첨단소재, 전고체 집전체 개발 완료</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.pinpointnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">솔루스첨단소재</span><span class="chip">2차전지</span><span class="chip">나인테크</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>차세대 배터리 소재 전문기업 솔루스첨단소재가 꿈의 배터리로 불리는 전고체 배터리용 핵심 소재 개발을...</li><li>검사 장비 전문 티에스이와 열처리 장비의 비아트론, 2차전지 및 OLED 장비의 나인테크가 상승 중이다.</li><li>점접착...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcEVYaGNxR3ZwVUNqUnhuMzJkVm1kZXZ4TGgwVDBuakVMdkYwVFpMZTJYdFRsRmJIMjFGX19KakFlbHRZQk9kWEx6MFFsRXAwQXFucFRNdEJyMnlKUUdvZHpYQ1NJR3FCSnh0cDFrTFA3RlVYZHJiSkdzQ3FJUnUzTnp2Q0VRNVZYWjhDc1ZYaUxOczFWUUNYRG9ZQnpnVlBNczRCMExmT3lVTWdCaFVDaWlFc1Z5NEtXRDlwMmRObFdwUjd6SW9VdGlGcDVfZUJiTUNMQlNpSk94MGJsRERhUmRPN3JWZm5pQ2FF?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">China Cuts Battery Export Rebates, Sending Lithium Prices Up and Boosting NILI’s Role in Global Lithium Supply</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CarbonCredits.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">NILI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcEVYaGNxR3ZwVUNqUnhuMzJkVm1kZXZ4TGgwVDBuakVMdkYwVFpMZTJYdFRsRmJIMjFGX19KakFlbHRZQk9kWEx6MFFsRXAwQXFucFRNdEJyMnlKUUdvZHpYQ1NJR3FCSnh0cDFrTFA3RlVYZHJiSkdzQ3FJUnUzTnp2Q0VRNVZYWjhDc1ZYaUxOczFWUUNYRG9ZQnpnVlBNczRCMExmT3lVTWdCaFVDaWlFc1Z5NEtXRDlwMmRObFdwUjd6SW9VdGlGcDVfZUJiTUNMQlNpSk94MGJsRERhUmRPN3JWZm5pQ2FF?oc=5&quot; target=&quot;_blank&quot;&gt;China Cuts Battery Export Rebates, Sending Lithium Prices Up and Boosting NILI’s Role in Global Lithium Supply&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;CarbonCredits.com&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcEVYaGNxR3ZwVUNqUnhuMzJkVm1kZXZ4TGgwVDBuakVMdkYwVFpMZTJYdFRsRmJIMjFGX19KakFlbHRZQk9kWEx6MFFsRXAwQXFucFRNdEJyMnlKUUdvZHpYQ1NJR3FCSnh0cDFrTFA3RlVYZHJiSkdzQ3FJUnUzTnp2Q0VRNVZYWjhDc1ZYaUxOczFWUUNYRG9ZQnpnVlBNczRCMExmT3lVTW.</li><li>dCaFVDaWlFc1Z5NEtXRDlwMmRObFdwUjd6SW9VdGlGcDVfZUJiTUNMQlNpSk94MGJsRERhUmRPN3JWZm5pQ2FF?oc=5&quot; target=&quot;_blank&quot;&gt;China Cuts Battery Export Rebates, Sending Lithium Prices Up and Boosting NILI’s Role in Global Lithium Supply&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;CarbonCredits.com&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQSkhFbndlQldmSlJDS1lYQmw2eEdKZTc0OUxYQnJ0aVlDbk9rTFc1aG9ZSnVYS2VOWEdyX3dTTHBnamcyRFY1dENQTk1rR1ZuVjA4MUhmcUJfTDNLM0Jvcmhmd3hYckpUbnJJNXVxTjF2S3ZONk94ekhIUEhkX092M2dfMUZUV0p3c2xyYXZWekk3VEpBQ1AwVkw3ZzI?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Electric Vehicle Battery Electrolyte Manufacturing Plant DPR &amp; Unit Setup Report 2026</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">openPR.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">DPR</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMinAFBVV95cUxQSkhFbndlQldmSlJDS1lYQmw2eEdKZTc0OUxYQnJ0aVlDbk9rTFc1aG9ZSnVYS2VOWEdyX3dTTHBnamcyRFY1dENQTk1rR1ZuVjA4MUhmcUJfTDNLM0Jvcmhmd3hYckpUbnJJNXVxTjF2S3ZONk94ekhIUEhkX092M2dfMUZUV0p3c2xyYXZWekk3VEpBQ1AwVkw3ZzI?oc=5&quot; target=&quot;_blank&quot;&gt;Electric Vehicle Battery Electrolyte Manufacturing Plant DPR &amp; Unit Setup Report 2026&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;openPR.com&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMinAFBVV95cUxQSkhFbndlQldmSlJDS1lYQmw2eEdKZTc0OUxYQnJ0aVlDbk9rTFc1aG9ZSnVYS2VOWEdyX3dTTHBnamcyRFY1dENQTk1rR1ZuVjA4MUhmcUJfTDNLM0Jvcmhmd3hYckpUbnJJNXVxTjF2S3ZONk94ek.</li><li>hIUEhkX092M2dfMUZUV0p3c2xyYXZWekk3VEpBQ1AwVkw3ZzI?oc=5&quot; target=&quot;_blank&quot;&gt;Electric Vehicle Battery Electrolyte Manufacturing Plant DPR &amp; Unit Setup Report 2026&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;openPR.com&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOM3puaW1TanJvVUxvZ2pYeEtlV0hveEFySFBqaWl2SU1vUURfQXpUV2p2eVBJTjcyS2EycDhmbnZxMzAwTk5rNi12Zi0zNFg0MkxVRlh4UGdLcm5ReVkzU0tBZFZ0bjlBV3BuLW51VTJ2UEs2LTNvN1NMWmxoN1IxamlGcDJaOTB2NkQzLWpqTFNMMUVkSjBpYUdn?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Sodium-Ion Battery Manufacturing Plant DPR &amp; Unit Setup - 2026: Machinery Cost, CapEx/OpEx, ROI, Raw Materials</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">openPR.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">DPR</span><span class="chip">ROI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMimgFBVV95cUxOM3puaW1TanJvVUxvZ2pYeEtlV0hveEFySFBqaWl2SU1vUURfQXpUV2p2eVBJTjcyS2EycDhmbnZxMzAwTk5rNi12Zi0zNFg0MkxVRlh4UGdLcm5ReVkzU0tBZFZ0bjlBV3BuLW51VTJ2UEs2LTNvN1NMWmxoN1IxamlGcDJaOTB2NkQzLWpqTFNMMUVkSjBpYUdn?oc=5&quot; target=&quot;_blank&quot;&gt;Sodium-Ion Battery Manufacturing Plant DPR &amp; Unit Setup - 2026: Machinery Cost, CapEx/OpEx, ROI, Raw Materials&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;openPR.com&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMimgFBVV95cUxOM3puaW1TanJvVUxvZ2pYeEtlV0hveEFySFBqaWl2SU1vUURfQXpUV2p2eVBJTjcyS2EycDhmbnZxMzAwTk5rNi12Zi0zNFg0MkxVRlh4UGdLcm5ReVkzU0tBZFZ0bjlBV3BuLW51VTJ2UEs2LTNvN1NMWmxoN1Ixa.</li><li>mlGcDJaOTB2NkQzLWpqTFNMMUVkSjBpYUdn?oc=5&quot; target=&quot;_blank&quot;&gt;Sodium-Ion Battery Manufacturing Plant DPR &amp; Unit Setup - 2026: Machinery Cost, CapEx/OpEx, ROI, Raw Materials&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;openPR.com&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOZEVZNDg1ckVsZTFXSWk5ZHlOVm50WFN6ZVE2UHZWZU50UEdHNDJicVdaUnBCd0FWWDBGTXd3Y3hCdmdpSWJOa3J6d0k2ay1VRWk0YWJna0lkRENzbFZhYlFGbXF1LWEyaTJsc243U2x1ZHJtUDNMOHBrMExuREY5aFI4a292MWN6RGNRT1hKRkZiRFNTcUdZ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">CATL’s domestic EV battery share reaches 50.1% in Q1 2026</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CarNewsChina.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CATL</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMilwFBVV95cUxOZEVZNDg1ckVsZTFXSWk5ZHlOVm50WFN6ZVE2UHZWZU50UEdHNDJicVdaUnBCd0FWWDBGTXd3Y3hCdmdpSWJOa3J6d0k2ay1VRWk0YWJna0lkRENzbFZhYlFGbXF1LWEyaTJsc243U2x1ZHJtUDNMOHBrMExuREY5aFI4a292MWN6RGNRT1hKRkZiRFNTcUdZ?oc=5&quot; target=&quot;_blank&quot;&gt;CATL’s domestic EV battery share reaches 50.1% in Q1 2026&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;CarNewsChina.com&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMilwFBVV95cUxOZEVZNDg1ckVsZTFXSWk5ZHlOVm50WFN6ZVE2UHZWZU50UEdHNDJicVdaUnBCd0FWWDBGTXd3Y3hCdmdpSWJOa3J6d0k2ay1VRWk0YWJna0lkRENzbFZhYlFGbXF1LWEyaTJsc24.</li><li>3U2x1ZHJtUDNMOHBrMExuREY5aFI4a292MWN6RGNRT1hKRkZiRFNTcUdZ?oc=5&quot; target=&quot;_blank&quot;&gt;CATL’s domestic EV battery share reaches 50.1% in Q1 2026&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;CarNewsChina.com&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPaW9aRkVSbmk4c0lQczQ2UlVldzlHTG9lNVl5Q0xLTmtISm41WEhHdnlLVWVrUklrTmZFc3BCTVVRV2h4V1o2U19ZVXpBb2FnVU1CbTFTQ2dEbVBoY1BEbUNBWGQwT1ByWXFwbVhsUU1LTXRmbk9EQ1IzNjdDbXJRTmY2SVZFcVl0ckNzRjdzQ1J0OHBJbFMyOUJkQVQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Global Solvents for Battery Electrolyte Market 2026-2036: How</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">openPR.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMinAFBVV95cUxPaW9aRkVSbmk4c0lQczQ2UlVldzlHTG9lNVl5Q0xLTmtISm41WEhHdnlLVWVrUklrTmZFc3BCTVVRV2h4V1o2U19ZVXpBb2FnVU1CbTFTQ2dEbVBoY1BEbUNBWGQwT1ByWXFwbVhsUU1LTXRmbk9EQ1IzNjdDbXJRTmY2SVZFcVl0ckNzRjdzQ1J0OHBJbFMyOUJkQVQ?oc=5&quot; target=&quot;_blank&quot;&gt;Global Solvents for Battery Electrolyte Market 2026-2036: How&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;openPR.com&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMinAFBVV95cUxPaW9aRkVSbmk4c0lQczQ2UlVldzlHTG9lNVl5Q0xLTmtISm41WEhHdnlLVWVrUklrTmZFc3BCTVVRV2h4V1o2U19ZVXpBb2FnVU1CbTFTQ2dEbVBoY1BEbUNBWGQwT1ByWXFwbVhsUU.</li><li>1LTXRmbk9EQ1IzNjdDbXJRTmY2SVZFcVl0ckNzRjdzQ1J0OHBJbFMyOUJkQVQ?oc=5&quot; target=&quot;_blank&quot;&gt;Global Solvents for Battery Electrolyte Market 2026-2036: How&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;openPR.com&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.dailycar.co.kr/content/news.html?type=view&amp;autoId=61097" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">허제홍 엘앤에프 대표 “NCM·LFP 투트랙 전략..46파이·차세대 소재 승...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.dailycar.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">엘앤에프</span><span class="chip">NCM</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>엘앤에프는 또 전고체 배터리 소재와 로보틱스, 우주·방산 등 미래 먹거리 발굴에도 속도를 낸다.</li><li>허제홍 엘앤에프 대표는 “지난 2년간의 전기차 수요 둔화 속에서도 선제적 투자를 통해 2025년 4분기 매출과 영업이익...</li><li>프 대표는 “지난 2년간의 전기차 수요 둔화 속에서도 선제적 투자를 통해 2025년 4분기 매출과 영업이익...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-26</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMi7AJBVV95cUxQZ3B1bm5HYy1PcTJ0NHZvRHo4bHRpUElmZHp2d3VJMm8tbERORnkwaGRXLXg1VGR6N3JfRHZIVTBybzV1R2ZVSkEzY1VyV2lUS0FNVG5zaWV2eVBDOERmY2Z0NXJzaDBMdElLMWZ2eGpFaVBzT0s1bF91TXhMNG1Yd3FVbzRyY242cHg3TXpPWVVORGhZUjZFdWI3UEZseWJtV25rQ3Z4aE5KSl8xdTVvMG0xMUYxc0Q5MlVFOEQxcXV3TEptdEZZbkc5U2d0Z2hZdG1VYVM0bDJqaXlFWTlOOGtLOHF2b0hSZ1I4YXBkaG4zdW1seFhlZncySk1adFJsdEcxTjYyZ0JXcGxBSFZPQmdIOTlqTkNhRTZac1BjLUI1WUtiNmcyZEIzc1YzS0Y2TURBMjEwOXN4UnRrZkdiUFEwZUM2eEtnUW1IMU0xelYtMGZpTDE1R2ZFWlFQTVFzRlBGWUZsY0s2eHp10gHyAkFVX3lxTE1nNWUyLVh6SFRQZ2JQUWRSSThXZmhybGpzR2I3Um5BWEQ2Z1dudjFDZ3BZYUNEN1FhOGhQRkdrLUJSNWVpeG42bU5KQmF4TGpwSHBiNkFyMVJ0MkE5cFlOZFRXN01mbFlOb2g0cmVSVU1BcVRGbE1MV041VHMzSDB0VEktTzJWRG5fQW03b1h4TFI5Q18zanpKdzJKMGVMazZzcWx6SG02TjVvSFJaOGFrU0hNWVV2SWRZbGd4c1A1TFFNY1V3ZjJUdjVUVUUwWWhGTFNOa2dYN3lQZ0syOG9Xa0w2XzlUajRURU9KRnpkaTJQNkZzMl9Lc0dnd2pvNW1XY0JZNDlCRGhIUEVPd0ZSU3lZLWJTaW1RTk1GNjIxMTFTaHprYWFoalg3R1BuNWFZYkowWDRRMmowX2lWcG10bDk5RXpXcVg0WEMyZzdSR190UWFIUXhYd1V1aGZwbVlWMFgzbHNiZjkweG5wZTM1RHc?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium Ionic Secures Offtake Agreements with Leading Integrated Lithium Producers, Including One of the World’s Largest Lithium Hydroxide Producers, for Bandeira Project Production</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">The Manila Times</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMi7AJBVV95cUxQZ3B1bm5HYy1PcTJ0NHZvRHo4bHRpUElmZHp2d3VJMm8tbERORnkwaGRXLXg1VGR6N3JfRHZIVTBybzV1R2ZVSkEzY1VyV2lUS0FNVG5zaWV2eVBDOERmY2Z0NXJzaDBMdElLMWZ2eGpFaVBzT0s1bF91TXhMNG1Yd3FVbzRyY242cHg3TXpPWVVORGhZUjZFdWI3UEZseWJtV25rQ3Z4aE5KSl8xdTVvMG0xMUYxc0Q5MlVFOEQxcXV3TEptdEZZbkc5U2d0Z2hZdG1VYVM0bDJqaXlFWTlOOGtLOHF2b0hSZ1I4YXBkaG4zdW1seFhlZncySk1adFJsdEcxTjYyZ0JXcGxBSFZPQmdIOTlqTkNhRTZac1BjLUI1WUtiNmcyZEIzc1YzS0Y2TURBMjEwOXN4UnRrZkdiUFEwZUM2eEtnUW1IMU0xelYtMGZpTDE1R2ZFWlFQTVFzRlBGWUZsY0s2eHp10gHyAkFVX3lxTE1nNWUyLVh6SFRQZ2JQUWRSSThXZmhybGpzR2I3Um5BWEQ2Z1dudjFDZ3BZYUNEN1FhOGhQRkdrLUJSNWVpeG42bU5KQmF4TGpwSHBiNkFyMVJ0MkE5cFlOZFRXN01mbFlOb2g0cmVSVU1BcVRGbE1MV041VHMzSDB0VEktTzJWRG5fQW03b1h4TFI5Q18zanpKdzJKMGVMazZzcWx6SG02TjVvSFJaOGFrU0hNWVV2SWRZbGd4c1A1TFFNY1V3ZjJUdjVUVUUwWWhGTFNOa2dYN3lQZ0syOG9Xa0w2XzlUajRURU9KRnpkaTJQNkZzMl9Lc0dnd2pvNW1XY0JZNDlCRGhIUEVPd0ZSU3lZLWJTaW1RTk1GNjIxMTFTaHprYWFoalg3R1BuNWFZYkowWDRRMmowX2lWcG10bDk5RXpXcVg0WEMyZzdSR190UWFIUXhYd1V1aGZwbVlWMFgzbHNiZjkweG5wZTM1RHc?oc=5&quot; target=&quot;_blank&quot;&gt;Lithium Ionic Secures Offtake Agreements with Leading Integrated Lithium Producers, Including One of the World’s Largest Lithium Hydroxide Producers, for Bandeira Project Production&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;The Manila Times&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMi7AJBVV95cUxQZ3B1bm5HYy1PcTJ0NHZvRHo4bHRpUElmZHp2d3VJMm8tbERORnkwaGRXLXg1VGR6N3JfRHZIVTBybzV1R2ZVSkEzY1VyV2lUS0FNVG5zaWV2eVBDOERmY2Z0NXJzaDBMdElLMWZ2eGpFaVBzT0s1bF91TXhMNG1Yd3FVbzRyY242cHg3TXpPWVVORGhZUjZFdWI3UEZseWJtV25rQ3Z4aE5KSl8xdTVvMG0xMUYxc0Q5MlVFOEQxcXV3TEptdEZZbkc5U2d0Z2hZdG1VYVM0bDJqaXlFWTlOOGtLOHF2b0hSZ1I4YXBkaG4zdW1seFhlZncySk1adFJsdEcxTjYyZ0JXcGxBSFZPQmdIOTlqTkNhRTZac1BjLUI1WUtiNmcyZEIzc1YzS0Y2TURBMjEwOXN4UnRrZkdiUFEwZUM2eEtnUW1IMU0xelYtMGZpTDE1R2ZFWlFQTVFzRlBGWUZsY0s2eHp10gHyAkFVX3lxTE1nNWUyLVh6SFRQZ2JQUWRSSThXZmhybGpzR2I3Um5BWEQ2Z1dudjFDZ3BZYUNEN1FhOGhQRkdrLUJSNWVpeG42bU5KQmF4TGpwS.</li><li>HBiNkFyMVJ0MkE5cFlOZFRXN01mbFlOb2g0cmVSVU1BcVRGbE1MV041VHMzSDB0VEktTzJWRG5fQW03b1h4TFI5Q18zanpKdzJKMGVMazZzcWx6SG02TjVvSFJaOGFrU0hNWVV2SWRZbGd4c1A1TFFNY1V3ZjJUdjVUVUUwWWhGTFNOa2dYN3lQZ0syOG9Xa0w2XzlUajRURU9KRnpkaTJQNkZzMl9Lc0dnd2pvNW1XY0JZNDlCRGhIUEVPd0ZSU3lZLWJTaW1RTk1GNjIxMTFTaHprYWFoalg3R1BuNWFZYkowWDRRMmowX2lWcG10bDk5RXpXcVg0WEMyZzdSR190UWFIUXhYd1V1aGZwbVlWMFgzbHNiZjkweG5wZTM1RHc?oc=5&quot; target=&quot;_blank&quot;&gt;Lithium Ionic Secures Offtake Agreements with Leading Integrated Lithium Producers, Including One of the World’s Largest Lithium Hydroxide Producers, for Bandeira Project Production&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;The Manila Times&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://www.dailycar.co.kr/content/news.html?type=view&amp;autoId=61090" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">이정민 LG엔솔 연구원이 전하는..전해질 용매 구조 바꿔 가스 발생 줄인...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.dailycar.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG엔솔</span><span class="chip">리튬이온배터리</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>때문에 생성된 불산은 유기용매를 2차적으로 공격하면서, 추가적인 전해질 분해 및 가스 발생을 야기할...</li><li>리튬이온배터리는 물론 미래 차세대 전지 환경까지 대비할 수 있는 기반을 마련했습니다.</li><li>Gas Free 용매를...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-26</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.mk.co.kr/article/11998132" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">배터리산업 돌파구 ESS, 데이터센터 붐 타고 年 15% 급성장 [맥킨지 경영...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.mk.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">배터리산업</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>양극재, 음극재, 전해질, 분리막 등 거의 모든 구성 요소에서 동시에 진행되고 있다.</li><li>특히 주목할 것은 소디움 이온(Na-ion) 배터리다.</li><li>LFP 궤적을 따라 ESS와 보급형 전기차 시장에서 빠르게 존재감을 확대하고 있다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMilAFBVV95cUxPbDhmTkwzNjBXZnJYSzJ0clNzaEFYSl9TRUFjamZMT1VZUFdzVVBZTlF0V2lmdUN1R2VwamtZR3hJY2Nqb0JSZ2tKTXRyc3ZobE9ZTFVWUFkxRm1OOUZuTVJVSV9VZGY0YkI5Wm9ha29seVM1X3hlNmZwZzhlV0lqWFR2MkZRZHR4Y1RzYzJhQm9PV3hW?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Solid-State Battery Market Share, Growth, Future outlook |</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">openPR.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMilAFBVV95cUxPbDhmTkwzNjBXZnJYSzJ0clNzaEFYSl9TRUFjamZMT1VZUFdzVVBZTlF0V2lmdUN1R2VwamtZR3hJY2Nqb0JSZ2tKTXRyc3ZobE9ZTFVWUFkxRm1OOUZuTVJVSV9VZGY0YkI5Wm9ha29seVM1X3hlNmZwZzhlV0lqWFR2MkZRZHR4Y1RzYzJhQm9PV3hW?oc=5&quot; target=&quot;_blank&quot;&gt;Solid-State Battery Market Share, Growth, Future outlook |&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;openPR.com&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMilAFBVV95cUxPbDhmTkwzNjBXZnJYSzJ0clNzaEFYSl9TRUFjamZMT1VZUFdzVVBZTlF0V2lmdUN1R2VwamtZR3hJY2Nqb0JSZ2tKTXRyc3ZobE9ZTFVWUFkxRm1OOUZuTVJVSV9VZGY0YkI.</li><li>5Wm9ha29seVM1X3hlNmZwZzhlV0lqWFR2MkZRZHR4Y1RzYzJhQm9PV3hW?oc=5&quot; target=&quot;_blank&quot;&gt;Solid-State Battery Market Share, Growth, Future outlook |&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;openPR.com&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQUVFGTllxWDNzNGNHMUxMMmUzd19DUnVUMURfdzAySF9GWFR5WldFSHAxSE5IbnFVb1hYRVNUYWk5U0hHdjdSUlg5RjlDU29OUUg1X1ZtZDNhTUFRM1Bza1RKbnRlWkk3NG1UUDg2aGVhUElOZ3BBOXkzZzdGSUNQdzg4eURHRUJ6b0R1X2hXZ0stdEdxdkVlSkd3?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">15</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">U.S. Solid State Battery Market Set to Boom Rapidly by 2033 | QuantumScape • Solid Power • Samsung SDI</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">openPR.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SDI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMimgFBVV95cUxQUVFGTllxWDNzNGNHMUxMMmUzd19DUnVUMURfdzAySF9GWFR5WldFSHAxSE5IbnFVb1hYRVNUYWk5U0hHdjdSUlg5RjlDU29OUUg1X1ZtZDNhTUFRM1Bza1RKbnRlWkk3NG1UUDg2aGVhUElOZ3BBOXkzZzdGSUNQdzg4eURHRUJ6b0R1X2hXZ0stdEdxdkVlSkd3?oc=5&quot; target=&quot;_blank&quot;&gt;U.S.</li><li>Solid State Battery Market Set to Boom Rapidly by 2033 | QuantumScape • Solid Power • Samsung SDI&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;openPR.com&lt;/font&gt;.</li><li>UNQdzg4eURHRUJ6b0R1X2hXZ0stdEdxdkVlSkd3?oc=5&quot; target=&quot;_blank&quot;&gt;U.S. Solid State Battery Market Set to Boom Rapidly by 2033 | QuantumScape • Solid Power • Samsung SDI&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;openPR.com&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOEFJRzBOUnhpM0hLZlB0UlpzN19SSHl4bm5CeHZQa3dsa01MMWF6UGVSU3lFMVdoXzZwU0JHRXVuYkhQdHJid1RYeS1YX0EzczNKVW5wSldrcUhtMXR3SmRzRUxLZE9OYkZsWFkyM2x5Q2JjOEdmY3hRVHhOc1lVRjhmRG4tUmRib1dQdmFkTmZTUXBnVHdNV3YyckZkRnk4Mnk4ZEJZZnBaUV9xa3pxTkJPVnlzRTNXbExj?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">16</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">American Battery Factory secures 4.5GWh offtake agreements for Arizona LFP gigafactory</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Energy-Storage.News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOEFJRzBOUnhpM0hLZlB0UlpzN19SSHl4bm5CeHZQa3dsa01MMWF6UGVSU3lFMVdoXzZwU0JHRXVuYkhQdHJid1RYeS1YX0EzczNKVW5wSldrcUhtMXR3SmRzRUxLZE9OYkZsWFkyM2x5Q2JjOEdmY3hRVHhOc1lVRjhmRG4tUmRib1dQdmFkTmZTUXBnVHdNV3YyckZkRnk4Mnk4ZEJZZnBaUV9xa3pxTkJPVnlzRTNXbExj?oc=5&quot; target=&quot;_blank&quot;&gt;American Battery Factory secures 4.5GWh offtake agreements for Arizona LFP gigafactory&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Energy-Storage.News&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOEFJRzBOUnhpM0hLZlB0UlpzN19SSHl4bm5CeHZQa3dsa01MMWF6UGVSU3lFMVdoXzZwU0JHRXVuYkhQdHJid1RYeS1YX0EzczNKVW5wSldrcUhtMXR3SmRzRUxLZE9OYkZsWFkyM2x5Q2JjOEdmY3hRVHhOc1lVRjhmRG4tUmRib1d.</li><li>QdmFkTmZTUXBnVHdNV3YyckZkRnk4Mnk4ZEJZZnBaUV9xa3pxTkJPVnlzRTNXbExj?oc=5&quot; target=&quot;_blank&quot;&gt;American Battery Factory secures 4.5GWh offtake agreements for Arizona LFP gigafactory&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Energy-Storage.News&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.businesspost.co.kr/BP?command=article_view&amp;num=434036" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">17</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">엘앤에프 2차전지 소재 &#x27;블루칩&#x27; 부상, 테슬라 ESS 투자 수혜 기대감 커...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.businesspost.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">엘앤에프</span><span class="chip">2차전지</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>엘앤에프 주가가 2차전지 소재 상장사 가운데 두드러진 상승세를 보이고 있다.</li><li>선제적인 리튬인산철(LFP)...</li><li>테슬라는 올해도 신규 및 기존 배터리 ESS 공장과 배터리 셀 생산 시설, 첨단 리튬 정제 공장 등에 200억...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-25</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
