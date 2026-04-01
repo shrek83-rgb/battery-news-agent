@@ -1,0 +1,161 @@
+# 배터리 뉴스 데일리 브리핑 (2026-03-31 전날 기준)
+
+- 총 12건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 전고체 | 2026-03-31 | topgear.com | The future is finally here! Fast-charging, lightweight solid-state batteries have arrived | https://news.google.com/rss/articles/CBMiugFBVV95cUxNaGlnQWlXQ1d6SGw5SzVldExpSGRVbnduUl91TmRpN241U2VtMll1RG44blhKc1FEaEEtMGtFdlBveWNZNElldU80bUJLVENyMG5meGN4YWdNWXBYWUN5WlB6blhQOE55SnJsVnRyMnlQbjNYN1JKN3gwaXotNzhvRHZfRzhoOHBCd2k3b3RYZU5tMENhNDFod2hTUXEwZ2ZzdFJVeEZqeEFBemhEb3poUi13MnNjUGhZYWc?oc=5 | trending |
+| 2 | 3 | 기타 | 2026-03-31 | Stellantis Media | Stellantis and Samsung SDI to Form Joint Venture for Lithium-Ion Battery Production in North America | https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdGxGcktCZGNWaGtOcU5IbWRhQThHSk56OTFaTjJKelJuRVk1NXJFZFZPdXZHMWZoazVDVXBsb19POXFUNEtSTk9ObjB3NTJaVVlnOWh0bXQwQUxqTDNmeDB6TVZlMU9Hei03dzlJZklTQ1NUR01YdXluUG00MXdaVmgyanZfU0x1TExEQVpKU3F0dFhyUnZOLVhnVGlSRUtCS0NDX0N1RU1seUgtRU90RmlSLVRERnJkenBnNlZhZ3k2ZlRyVDE3cXlkc1doTU1talhJNFJtcjR3anJKT05xTzFmdXRiWFVmbmVqOGxtLTdCODA?oc=5 | unknown |
+| 3 | 3 | 기타 | 2026-03-31 | Tech in Asia | Samsung SDI to lend $1.1b to StarPlus Energy JV | https://news.google.com/rss/articles/CBMie0FVX3lxTE5Tb1NGaXdfcjVZdHBTQkkyQXVONFk0LVBHTDUwTVNRRnNtWHBIT3ZLbV9JNXg5YjFOTFpyWmlMSWNRQ3g0ZEQ4UHpKNHpZQUJiVXEzM0dNNTliVUZnV3VDcFFsRFhmVHR4RDlqUHE4S2tVSWJQSDQ1WFdOTQ?oc=5 | unknown |
+| 4 | 3 | anode | 2026-03-31 | Electric & Hybrid Vehicle Technology International | New silicon anode design targets longer EV range with 10x graphite capacity | https://news.google.com/rss/articles/CBMizgFBVV95cUxPeDFSaDFVMllzMUxjRWRHSUx5Qk1XRjBfM1pLUXRfbHhYT2hkN3htQXoydVVxeDJKMThfZnBNQXlUZjhwMXA4NEZoOXN3XzBpNTB3SzZNNzEtaE5RWjZmVXR6QWphbjNvclE2REd6Q3R1OWpVcE5RdWVXT1ItSFJHTEtkaFNWWXpjUWF6RkVTUWlUYVk4bzhNZzFQNi1BMDJZb0l6V21xNm1adDl4ZG9ONDRJNmM0TDBId1ItTFRqVjljb1doRDYxaXBPa3JrUQ?oc=5 | unknown |
+| 5 | 3 | electrolyte | 2026-03-31 | ESS News | Chinese team reports hydrofluorocarbon electrolyte for 700 Wh/kg lithium battery | https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM1RkR212WmNBVE14YVBsTFoxS1VpdnY3ZnMxMmdVbU1sMm1tVGVsWk1WY3pWSndSQ1lrbDN3R3l5SFpTNWhCb0g3M3NtcDZYWjlKTU00Nzc1VGRBOUFxSnZQWXVfdE1NMmItTXI5bnduUTFuZ1B1bWZoOGllTTVTNE1mSVVLWFF2QnhVTW03bThpbUM3Yko0bmpTdmdpRll0alBEQy04dHdub19pRHhCbXhzcGxoN2xB?oc=5 | unknown |
+| 6 | 3 | anode | 2026-03-31 | newelectronics.co.uk | Researchers develop new battery anode that could extend EV range and device lifespans | https://news.google.com/rss/articles/CBMiywFBVV95cUxPamZrZWoyMlhpSmZsZXhTS0w4YXlHSWE1WGFxbnVXY05SQzlxS1Z6NFJBSjg2T2E0UlJMZ2wxdktoYkhkWVVmbzhVMkRQWXNnQnNVaDRJVGFrRjZVN1JsQ3pZcmttbnE5d2FuYVlwZXVpQ2s1bjVYRzJNV25JTWZZbEIzbmFGLWUyTHFhVkVpN213MlItcFVpb3plcHFzWU5wdWMxeTk5RlNfdVRXNnZMTzB1ZE1HeVVsN1hNYUo3MmxGSi1HWWtuWXByMA?oc=5 | unknown |
+| 7 | 3 | cathode | 2026-03-31 | KED Global | Hyundai to introduce mid-tier NCM batteries across key EV models to rival LFP vehicles | https://news.google.com/rss/articles/CBMibEFVX3lxTE5xU2J1TDVicjlpQnVRZXZ2anpsRzN5V0FoUzVlNHJTb2lXMzFJSDlVU0F5S19BMENocTZaZXZCalBlLWR1MTc4S2Y5Rk1YcHFWSC1XcjhvQ3Jnb05VWW45T1FBbFhuQ2FNdGp2Vg?oc=5 | unknown |
+| 8 | 3 | cathode | 2026-04-01 | www.chungnamilbo.co.kr | 연구재단, 전고체 배터리 수명 크게 향상하는 초고속 빛 공정 선봬 | http://www.chungnamilbo.co.kr/news/articleView.html?idxno=880977 | unknown |
+| 9 | 3 | separator | 2026-04-01 | www.newspim.com | GIST, 차세대 리튬금속전지 개발…충전시간 12분으로 단축 | https://www.newspim.com/news/view/20260401000487 | unknown |
+| 10 | 3 | 전고체 | 2026-03-31 | Electrek | Semi-solid-state EV batteries are now powering up trucks and flying cars | https://news.google.com/rss/articles/CBMilwFBVV95cUxNcHhYblMydDZpZVVPdnJ0U19BeWdrdmd3ajR1VUlRNlQzalp6UEJ4UWc3S0Y0dkNkNFBLRlVGeU0tV2xwaHZDSFVpY2w0YnBwTHFWU2FON0lDeXpaeENlNzdONGs1SDRpWm1vUVBwM3ltSnU2elFmeDlpcmItYzRCcGd4dklxN3lVT0lLY21lM3ZtVVZzU1FF?oc=5 | unknown |
+| 11 | 3 | 전고체 | 2026-03-31 | Road & Track | Former British Sports Car Maker MG Pioneers Semi-Solid-State Batteries | https://news.google.com/rss/articles/CBMitgFBVV95cUxPUTItQ2FpLUxxRnBEeXhKTzhGVXRzd3dlQ2FuallxMU5iUDZrbVAxd1JDYUIyaXBJVDAzdVo1NXRNM3ZHbjlWQlc4NnNDbnl4aUdPd3BKTlZDMkFNczJyOS1sQ0kzMmJEd3IycWRGU2V3WTh1cjl1eVZUc1hrNF83dnRpQms3QVN4NFpTNXJTbGdQc0FyY2hPcGFIU3c5cTU2T3dWbmN5NmowaVZjQkJiN0c0RkxtZw?oc=5 | unknown |
+| 12 | 3 | 기타 | 2026-03-31 | Finimize | Delta Lithium’s Mt Ida Testwork Points To Battery-Grade Output | https://news.google.com/rss/articles/CBMilAFBVV95cUxPOG1SMWRlb2lNRy13WmtDMXRrNTJUSk5TemVPXzJIOTNrNWRsQTZBVkwyN3dYX0tFUGFhdlY0VUEtYVdPNnFwR0ZvUnBlYVFfYWFzSGliVlRLcVhsS29wNjlqZGZBSGROSEVwcU1oWFdIUlBNZ1JDanBYdE85YW0zeDlSdE5GN3FyT2FHZklscHdzeXNF?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. The future is finally here! Fast-charging, lightweight solid-state batteries have arrived
+- 발행일: 2026-03-31
+- 매체: topgear.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMiugFBVV95cUxNaGlnQWlXQ1d6SGw5SzVldExpSGRVbnduUl91TmRpN241U2VtMll1RG44blhKc1FEaEEtMGtFdlBveWNZNElldU80bUJLVENyMG5meGN4YWdNWXBYWUN5WlB6blhQOE55SnJsVnRyMnlQbjNYN1JKN3gwaXotNzhvRHZfRzhoOHBCd2k3b3RYZU5tMENhNDFod2hTUXEwZ2ZzdFJVeEZqeEFBemhEb3poUi13MnNjUGhZYWc?oc=5
+- 인기신호: trending
+- 3문장 요약:
+  - 고체 전해질 배터리가 마침내 등장했습니다.
+  - 이 배터리는 더 빠른 충전과 가벼운 무게를 특징으로 합니다.
+  - 이는 전기차 및 휴대용 전자기기 분야에 혁신을 가져올 것으로 기대됩니다.
+
+### 2. Stellantis and Samsung SDI to Form Joint Venture for Lithium-Ion Battery Production in North America
+- 발행일: 2026-03-31
+- 매체: Stellantis Media (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdGxGcktCZGNWaGtOcU5IbWRhQThHSk56OTFaTjJKelJuRVk1NXJFZFZPdXZHMWZoazVDVXBsb19POXFUNEtSTk9ObjB3NTJaVVlnOWh0bXQwQUxqTDNmeDB6TVZlMU9Hei03dzlJZklTQ1NUR01YdXluUG00MXdaVmgyanZfU0x1TExEQVpKU3F0dFhyUnZOLVhnVGlSRUtCS0NDX0N1RU1seUgtRU90RmlSLVRERnJkenBnNlZhZ3k2ZlRyVDE3cXlkc1doTU1talhJNFJtcjR3anJKT05xTzFmdXRiWFVmbmVqOGxtLTdCODA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 스텔란티스와 삼성SDI는 북미 지역의 리튬 이온 배터리 생산을 위한 합작 투자를 발표했습니다.
+  - 이번 합작 투자는 북미 지역의 전기차 배터리 공급망 강화에 기여할 것입니다.
+  - 양사는 협력을 통해 차세대 배터리 기술 개발 및 생산 능력 확대에 나설 계획입니다.
+- 관련 기업: Stellantis, Samsung SDI, SDI
+
+### 3. Samsung SDI to lend $1.1b to StarPlus Energy JV
+- 발행일: 2026-03-31
+- 매체: Tech in Asia (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMie0FVX3lxTE5Tb1NGaXdfcjVZdHBTQkkyQXVONFk0LVBHTDUwTVNRRnNtWHBIT3ZLbV9JNXg5YjFOTFpyWmlMSWNRQ3g0ZEQ4UHpKNHpZQUJiVXEzM0dNNTliVUZnV3VDcFFsRFhmVHR4RDlqUHE4S2tVSWJQSDQ1WFdOTQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성SDI는 합작 투자사인 StarPlus Energy JV에 11억 달러를 대출할 예정입니다.
+  - 이 자금은 북미 지역의 배터리 생산 시설 구축 및 운영에 사용될 것입니다.
+  - 이는 전기차 배터리 시장에서의 경쟁력 강화 및 생산 능력 확대를 위한 전략입니다.
+- 관련 기업: Samsung SDI, StarPlus Energy JV, SDI
+
+### 4. New silicon anode design targets longer EV range with 10x graphite capacity
+- 발행일: 2026-03-31
+- 매체: Electric & Hybrid Vehicle Technology International (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMizgFBVV95cUxPeDFSaDFVMllzMUxjRWRHSUx5Qk1XRjBfM1pLUXRfbHhYT2hkN3htQXoydVVxeDJKMThfZnBNQXlUZjhwMXA4NEZoOXN3XzBpNTB3SzZNNzEtaE5RWjZmVXR6QWphbjNvclE2REd6Q3R1OWpVcE5RdWVXT1ItSFJHTEtkaFNWWXpjUWF6RkVTUWlUYVk4bzhNZzFQNi1BMDJZb0l6V21xNm1adDl4ZG9ONDRJNmM0TDBId1ItTFRqVjljb1doRDYxaXBPa3JrUQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 새로운 실리콘 음극재 설계가 개발되었습니다.
+  - 이 설계는 기존 흑연 대비 10배의 용량을 제공하여 전기차 주행 거리를 늘릴 수 있습니다.
+  - 이는 차세대 전기차 배터리 기술의 발전을 이끌 것으로 기대됩니다.
+
+### 5. Chinese team reports hydrofluorocarbon electrolyte for 700 Wh/kg lithium battery
+- 발행일: 2026-03-31
+- 매체: ESS News (출처등급 3)
+- 분야: electrolyte
+- 링크: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM1RkR212WmNBVE14YVBsTFoxS1VpdnY3ZnMxMmdVbU1sMm1tVGVsWk1WY3pWSndSQ1lrbDN3R3l5SFpTNWhCb0g3M3NtcDZYWjlKTU00Nzc1VGRBOUFxSnZQWXVfdE1NMmItTXI5bnduUTFuZ1B1bWZoOGllTTVTNE1mSVVLWFF2QnhVTW03bThpbUM3Yko0bmpTdmdpRll0alBEQy04dHdub19pRHhCbXhzcGxoN2xB?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국 연구팀이 700Wh/kg 리튬 배터리를 위한 하이드로플루오로카본 전해질을 보고했습니다.
+  - 이 전해질은 기존 배터리보다 훨씬 높은 에너지 밀도를 가능하게 합니다.
+  - 이는 전기차의 주행 거리 연장 및 소형화에 기여할 수 있는 잠재력을 가지고 있습니다.
+
+### 6. Researchers develop new battery anode that could extend EV range and device lifespans
+- 발행일: 2026-03-31
+- 매체: newelectronics.co.uk (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMiywFBVV95cUxPamZrZWoyMlhpSmZsZXhTS0w4YXlHSWE1WGFxbnVXY05SQzlxS1Z6NFJBSjg2T2E0UlJMZ2wxdktoYkhkWVVmbzhVMkRQWXNnQnNVaDRJVGFrRjZVN1JsQ3pZcmttbnE5d2FuYVlwZXVpQ2s1bjVYRzJNV25JTWZZbEIzbmFGLWUyTHFhVkVpN213MlItcFVpb3plcHFzWU5wdWMxeTk5RlNfdVRXNnZMTzB1ZE1HeVVsN1hNYUo3MmxGSi1HWWtuWXByMA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 연구원들이 전기차 주행 거리와 기기 수명을 연장할 수 있는 새로운 배터리 음극재를 개발했습니다.
+  - 이 음극재는 향상된 에너지 저장 능력과 안정성을 제공합니다.
+  - 이는 차세대 배터리 기술의 중요한 진전을 나타냅니다.
+
+### 7. Hyundai to introduce mid-tier NCM batteries across key EV models to rival LFP vehicles
+- 발행일: 2026-03-31
+- 매체: KED Global (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE5xU2J1TDVicjlpQnVRZXZ2anpsRzN5V0FoUzVlNHJTb2lXMzFJSDlVU0F5S19BMENocTZaZXZCalBlLWR1MTc4S2Y5Rk1YcHFWSC1XcjhvQ3Jnb05VWW45T1FBbFhuQ2FNdGp2Vg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 현대자동차가 LFP 차량과 경쟁하기 위해 주요 전기차 모델에 중급 NCM 배터리를 도입할 예정입니다.
+  - 이는 전기차 라인업의 다양성을 확보하고 다양한 소비자 요구를 충족시키기 위한 전략입니다.
+  - NCM 배터리는 LFP 배터리 대비 높은 에너지 밀도를 제공하여 성능 향상에 기여할 수 있습니다.
+- 관련 기업: Hyundai, NCM, LFP
+
+### 8. 연구재단, 전고체 배터리 수명 크게 향상하는 초고속 빛 공정 선봬
+- 발행일: 2026-04-01
+- 매체: www.chungnamilbo.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: http://www.chungnamilbo.co.kr/news/articleView.html?idxno=880977
+- 참고 링크: https://biz.heraldcorp.com/article/10707431?ref=naver, https://www.dongascience.com/news/view/77149
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 연구진이 수 밀리초 수준의 짧은 빛 처리만으로 전고체 배터리의 핵심 소재 안정성을 높이는 기술을 개발했습니다.
+  - 이 기술은 고니켈 양극의 안정성을 크게 향상시켜 전고체 배터리의 수명을 크게 늘릴 수 있습니다.
+  - 이는 전기차 및 에너지 저장 장치 분야의 발전에 기여할 것으로 기대됩니다.
+- 관련 기업: 한양대학교
+
+### 9. GIST, 차세대 리튬금속전지 개발…충전시간 12분으로 단축
+- 발행일: 2026-04-01
+- 매체: www.newspim.com (출처등급 3)
+- 분야: separator
+- 링크: https://www.newspim.com/news/view/20260401000487
+- 참고 링크: https://www.mk.co.kr/article/12004615, https://biz.heraldcorp.com/article/10707326?ref=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - GIST 연구진이 충전 시간을 12분으로 단축한 차세대 리튬금속전지를 개발했습니다.
+  - 기존 리튬금속전지의 덴드라이트 발생 및 부피 팽창 문제를 해결하여 수명과 안전성을 향상시켰습니다.
+  - 이는 전기차의 충전 시간 단축 및 성능 개선에 크게 기여할 것으로 예상됩니다.
+- 관련 기업: GIST, 리튬금속전지
+
+### 10. Semi-solid-state EV batteries are now powering up trucks and flying cars
+- 발행일: 2026-03-31
+- 매체: Electrek (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMilwFBVV95cUxNcHhYblMydDZpZVVPdnJ0U19BeWdrdmd3ajR1VUlRNlQzalp6UEJ4UWc3S0Y0dkNkNFBLRlVGeU0tV2xwaHZDSFVpY2w0YnBwTHFWU2FON0lDeXpaeENlNzdONGs1SDRpWm1vUVBwM3ltSnU2elFmeDlpcmItYzRCcGd4dklxN3lVT0lLY21lM3ZtVVZzU1FF?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 반고체 전고체 배터리가 트럭과 플라잉카에 탑재되기 시작했습니다.
+  - 이 배터리는 기존 기술 대비 향상된 에너지 밀도와 안전성을 제공합니다.
+  - 이는 미래 모빌리티 분야의 발전을 가속화할 것으로 보입니다.
+
+### 11. Former British Sports Car Maker MG Pioneers Semi-Solid-State Batteries
+- 발행일: 2026-03-31
+- 매체: Road & Track (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMitgFBVV95cUxPUTItQ2FpLUxxRnBEeXhKTzhGVXRzd3dlQ2FuallxMU5iUDZrbVAxd1JDYUIyaXBJVDAzdVo1NXRNM3ZHbjlWQlc4NnNDbnl4aUdPd3BKTlZDMkFNczJyOS1sQ0kzMmJEd3IycWRGU2V3WTh1cjl1eVZUc1hrNF83dnRpQms3QVN4NFpTNXJTbGdQc0FyY2hPcGFIU3c5cTU2T3dWbmN5NmowaVZjQkJiN0c0RkxtZw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 영국의 전 스포츠카 제조업체 MG가 반고체 전고체 배터리를 선도적으로 도입했습니다.
+  - 이 배터리는 기존 리튬이온 배터리보다 향상된 성능과 안전성을 제공합니다.
+  - 이는 전기차 기술의 새로운 가능성을 보여줍니다.
+- 관련 기업: MG
+
+### 12. Delta Lithium’s Mt Ida Testwork Points To Battery-Grade Output
+- 발행일: 2026-03-31
+- 매체: Finimize (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMilAFBVV95cUxPOG1SMWRlb2lNRy13WmtDMXRrNTJUSk5TemVPXzJIOTNrNWRsQTZBVkwyN3dYX0tFUGFhdlY0VUEtYVdPNnFwR0ZvUnBlYVFfYWFzSGliVlRLcVhsS29wNjlqZGZBSGROSEVwcU1oWFdIUlBNZ1JDanBYdE85YW0zeDlSdE5GN3FyT2FHZklscHdzeXNF?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 델타 리튬의 Mt Ida 시험 작업 결과, 배터리 등급의 리튬 생산 가능성이 나타났습니다.
+  - 이는 고품질 리튬 생산을 위한 잠재력을 보여주며, 배터리 원자재 공급망에 긍정적인 영향을 미칠 수 있습니다.
+  - 향후 상업 생산 가능성을 평가하기 위한 추가 연구가 진행될 것입니다.
+- 관련 기업: Delta Lithium

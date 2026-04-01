@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-03-31</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-03-31 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMiugFBVV95cUxNaGlnQWlXQ1d6SGw5SzVldExpSGRVbnduUl91TmRpN241U2VtMll1RG44blhKc1FEaEEtMGtFdlBveWNZNElldU80bUJLVENyMG5meGN4YWdNWXBYWUN5WlB6blhQOE55SnJsVnRyMnlQbjNYN1JKN3gwaXotNzhvRHZfRzhoOHBCd2k3b3RYZU5tMENhNDFod2hTUXEwZ2ZzdFJVeEZqeEFBemhEb3poUi13MnNjUGhZYWc?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">The future is finally here! Fast-charging, lightweight solid-state batteries have arrived</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">topgear.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>고체 전해질 배터리가 마침내 등장했습니다.</li><li>이 배터리는 더 빠른 충전과 가벼운 무게를 특징으로 합니다.</li><li>이는 전기차 및 휴대용 전자기기 분야에 혁신을 가져올 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdGxGcktCZGNWaGtOcU5IbWRhQThHSk56OTFaTjJKelJuRVk1NXJFZFZPdXZHMWZoazVDVXBsb19POXFUNEtSTk9ObjB3NTJaVVlnOWh0bXQwQUxqTDNmeDB6TVZlMU9Hei03dzlJZklTQ1NUR01YdXluUG00MXdaVmgyanZfU0x1TExEQVpKU3F0dFhyUnZOLVhnVGlSRUtCS0NDX0N1RU1seUgtRU90RmlSLVRERnJkenBnNlZhZ3k2ZlRyVDE3cXlkc1doTU1talhJNFJtcjR3anJKT05xTzFmdXRiWFVmbmVqOGxtLTdCODA?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Stellantis and Samsung SDI to Form Joint Venture for Lithium-Ion Battery Production in North America</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Stellantis Media</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Stellantis</span><span class="chip">Samsung SDI</span><span class="chip">SDI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>스텔란티스와 삼성SDI는 북미 지역의 리튬 이온 배터리 생산을 위한 합작 투자를 발표했습니다.</li><li>이번 합작 투자는 북미 지역의 전기차 배터리 공급망 강화에 기여할 것입니다.</li><li>양사는 협력을 통해 차세대 배터리 기술 개발 및 생산 능력 확대에 나설 계획입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE5Tb1NGaXdfcjVZdHBTQkkyQXVONFk0LVBHTDUwTVNRRnNtWHBIT3ZLbV9JNXg5YjFOTFpyWmlMSWNRQ3g0ZEQ4UHpKNHpZQUJiVXEzM0dNNTliVUZnV3VDcFFsRFhmVHR4RDlqUHE4S2tVSWJQSDQ1WFdOTQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Samsung SDI to lend $1.1b to StarPlus Energy JV</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Tech in Asia</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Samsung SDI</span><span class="chip">StarPlus Energy JV</span><span class="chip">SDI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>삼성SDI는 합작 투자사인 StarPlus Energy JV에 11억 달러를 대출할 예정입니다.</li><li>이 자금은 북미 지역의 배터리 생산 시설 구축 및 운영에 사용될 것입니다.</li><li>이는 전기차 배터리 시장에서의 경쟁력 강화 및 생산 능력 확대를 위한 전략입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-anode" href="https://news.google.com/rss/articles/CBMizgFBVV95cUxPeDFSaDFVMllzMUxjRWRHSUx5Qk1XRjBfM1pLUXRfbHhYT2hkN3htQXoydVVxeDJKMThfZnBNQXlUZjhwMXA4NEZoOXN3XzBpNTB3SzZNNzEtaE5RWjZmVXR6QWphbjNvclE2REd6Q3R1OWpVcE5RdWVXT1ItSFJHTEtkaFNWWXpjUWF6RkVTUWlUYVk4bzhNZzFQNi1BMDJZb0l6V21xNm1adDl4ZG9ONDRJNmM0TDBId1ItTFRqVjljb1doRDYxaXBPa3JrUQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">anode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">New silicon anode design targets longer EV range with 10x graphite capacity</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Electric &amp; Hybrid Vehicle Technology International</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>새로운 실리콘 음극재 설계가 개발되었습니다.</li><li>이 설계는 기존 흑연 대비 10배의 용량을 제공하여 전기차 주행 거리를 늘릴 수 있습니다.</li><li>이는 차세대 전기차 배터리 기술의 발전을 이끌 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM1RkR212WmNBVE14YVBsTFoxS1VpdnY3ZnMxMmdVbU1sMm1tVGVsWk1WY3pWSndSQ1lrbDN3R3l5SFpTNWhCb0g3M3NtcDZYWjlKTU00Nzc1VGRBOUFxSnZQWXVfdE1NMmItTXI5bnduUTFuZ1B1bWZoOGllTTVTNE1mSVVLWFF2QnhVTW03bThpbUM3Yko0bmpTdmdpRll0alBEQy04dHdub19pRHhCbXhzcGxoN2xB?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Chinese team reports hydrofluorocarbon electrolyte for 700 Wh/kg lithium battery</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">ESS News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>중국 연구팀이 700Wh/kg 리튬 배터리를 위한 하이드로플루오로카본 전해질을 보고했습니다.</li><li>이 전해질은 기존 배터리보다 훨씬 높은 에너지 밀도를 가능하게 합니다.</li><li>이는 전기차의 주행 거리 연장 및 소형화에 기여할 수 있는 잠재력을 가지고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-anode" href="https://news.google.com/rss/articles/CBMiywFBVV95cUxPamZrZWoyMlhpSmZsZXhTS0w4YXlHSWE1WGFxbnVXY05SQzlxS1Z6NFJBSjg2T2E0UlJMZ2wxdktoYkhkWVVmbzhVMkRQWXNnQnNVaDRJVGFrRjZVN1JsQ3pZcmttbnE5d2FuYVlwZXVpQ2s1bjVYRzJNV25JTWZZbEIzbmFGLWUyTHFhVkVpN213MlItcFVpb3plcHFzWU5wdWMxeTk5RlNfdVRXNnZMTzB1ZE1HeVVsN1hNYUo3MmxGSi1HWWtuWXByMA?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">anode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Researchers develop new battery anode that could extend EV range and device lifespans</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">newelectronics.co.uk</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>연구원들이 전기차 주행 거리와 기기 수명을 연장할 수 있는 새로운 배터리 음극재를 개발했습니다.</li><li>이 음극재는 향상된 에너지 저장 능력과 안정성을 제공합니다.</li><li>이는 차세대 배터리 기술의 중요한 진전을 나타냅니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5xU2J1TDVicjlpQnVRZXZ2anpsRzN5V0FoUzVlNHJTb2lXMzFJSDlVU0F5S19BMENocTZaZXZCalBlLWR1MTc4S2Y5Rk1YcHFWSC1XcjhvQ3Jnb05VWW45T1FBbFhuQ2FNdGp2Vg?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Hyundai to introduce mid-tier NCM batteries across key EV models to rival LFP vehicles</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">KED Global</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Hyundai</span><span class="chip">NCM</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>현대자동차가 LFP 차량과 경쟁하기 위해 주요 전기차 모델에 중급 NCM 배터리를 도입할 예정입니다.</li><li>이는 전기차 라인업의 다양성을 확보하고 다양한 소비자 요구를 충족시키기 위한 전략입니다.</li><li>NCM 배터리는 LFP 배터리 대비 높은 에너지 밀도를 제공하여 성능 향상에 기여할 수 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="http://www.chungnamilbo.co.kr/news/articleView.html?idxno=880977" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">연구재단, 전고체 배터리 수명 크게 향상하는 초고속 빛 공정 선봬</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.chungnamilbo.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">한양대학교</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>국내 연구진이 수 밀리초 수준의 짧은 빛 처리만으로 전고체 배터리의 핵심 소재 안정성을 높이는 기술을 개발했습니다.</li><li>이 기술은 고니켈 양극의 안정성을 크게 향상시켜 전고체 배터리의 수명을 크게 늘릴 수 있습니다.</li><li>이는 전기차 및 에너지 저장 장치 분야의 발전에 기여할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-separator" href="https://www.newspim.com/news/view/20260401000487" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">separator</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">GIST, 차세대 리튬금속전지 개발…충전시간 12분으로 단축</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.newspim.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">GIST</span><span class="chip">리튬금속전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>GIST 연구진이 충전 시간을 12분으로 단축한 차세대 리튬금속전지를 개발했습니다.</li><li>기존 리튬금속전지의 덴드라이트 발생 및 부피 팽창 문제를 해결하여 수명과 안전성을 향상시켰습니다.</li><li>이는 전기차의 충전 시간 단축 및 성능 개선에 크게 기여할 것으로 예상됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNcHhYblMydDZpZVVPdnJ0U19BeWdrdmd3ajR1VUlRNlQzalp6UEJ4UWc3S0Y0dkNkNFBLRlVGeU0tV2xwaHZDSFVpY2w0YnBwTHFWU2FON0lDeXpaeENlNzdONGs1SDRpWm1vUVBwM3ltSnU2elFmeDlpcmItYzRCcGd4dklxN3lVT0lLY21lM3ZtVVZzU1FF?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Semi-solid-state EV batteries are now powering up trucks and flying cars</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Electrek</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>반고체 전고체 배터리가 트럭과 플라잉카에 탑재되기 시작했습니다.</li><li>이 배터리는 기존 기술 대비 향상된 에너지 밀도와 안전성을 제공합니다.</li><li>이는 미래 모빌리티 분야의 발전을 가속화할 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPUTItQ2FpLUxxRnBEeXhKTzhGVXRzd3dlQ2FuallxMU5iUDZrbVAxd1JDYUIyaXBJVDAzdVo1NXRNM3ZHbjlWQlc4NnNDbnl4aUdPd3BKTlZDMkFNczJyOS1sQ0kzMmJEd3IycWRGU2V3WTh1cjl1eVZUc1hrNF83dnRpQms3QVN4NFpTNXJTbGdQc0FyY2hPcGFIU3c5cTU2T3dWbmN5NmowaVZjQkJiN0c0RkxtZw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Former British Sports Car Maker MG Pioneers Semi-Solid-State Batteries</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Road &amp; Track</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">MG</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>영국의 전 스포츠카 제조업체 MG가 반고체 전고체 배터리를 선도적으로 도입했습니다.</li><li>이 배터리는 기존 리튬이온 배터리보다 향상된 성능과 안전성을 제공합니다.</li><li>이는 전기차 기술의 새로운 가능성을 보여줍니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMilAFBVV95cUxPOG1SMWRlb2lNRy13WmtDMXRrNTJUSk5TemVPXzJIOTNrNWRsQTZBVkwyN3dYX0tFUGFhdlY0VUEtYVdPNnFwR0ZvUnBlYVFfYWFzSGliVlRLcVhsS29wNjlqZGZBSGROSEVwcU1oWFdIUlBNZ1JDanBYdE85YW0zeDlSdE5GN3FyT2FHZklscHdzeXNF?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Delta Lithium’s Mt Ida Testwork Points To Battery-Grade Output</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Finimize</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Delta Lithium</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>델타 리튬의 Mt Ida 시험 작업 결과, 배터리 등급의 리튬 생산 가능성이 나타났습니다.</li><li>이는 고품질 리튬 생산을 위한 잠재력을 보여주며, 배터리 원자재 공급망에 긍정적인 영향을 미칠 수 있습니다.</li><li>향후 상업 생산 가능성을 평가하기 위한 추가 연구가 진행될 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-03-31</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
