@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-04-01</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-04-01 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-cathode" href="https://www.mt.co.kr/industry/2026/04/02/2026040104490438525" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&quot;ESS 입찰 &#x27;국산&#x27;에 인센티브 더 줘야&quot;…K배터리 생존 정부에 달렸다</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.mt.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG화학</span><span class="chip">이차전지</span><span class="chip">첨단소재</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>정부가 배터리 산업 지원 필요성에 대한 요구가 거세지고 있습니다.</li><li>LG화학 첨단소재 부문의 지난해 영업이익은 1460억원으로 전년 대비 증가했습니다.</li><li>이는 ESS 입찰 시 국산 배터리에 인센티브를 더 줘야 한다는 업계의 요구와 맞물려 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.newsis.com/view/NISX20260401_0003573626" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">초고속 빛으로 &#x27;전고체 배터리 수명&#x27; 크게 늘린다</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.newsis.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">한국연구재단</span><span class="chip">한양대학교</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전고체 배터리의 핵심 소재인 고니켈 양극의 안정성을 높이는 기술이 개발되었습니다.</li><li>한국연구재단 한양대학교 김영범 교수팀은 짧은 빛 처리를 통해 이를 구현했습니다.</li><li>이 기술은 전기차와 ESS에 적용되는 전고체 배터리의 성능 향상에 기여할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="http://www.tjb.co.kr/sub0301/bodo/view/id/96661" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&quot;빛으로 배터리 성능 높인다&quot;…전고체 양극 안정화 기술 개발</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.tjb.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>수 밀리초의 짧은 광처리로 전고체 배터리 양극재의 안정성을 높이는 기술이 개발되었습니다.</li><li>이 기술은 용량 유지율을 55%에서 81%로 향상시키고 고전압 안정성을 2배 높였습니다.</li><li>전기차 및 ESS용 차세대 배터리 상용화에 대한 기대감을 높이고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="http://www.chungnamilbo.co.kr/news/articleView.html?idxno=880977" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">연구재단, 전고체 배터리 수명 크게 향상하는 초고속 빛 공정 선봬</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.chungnamilbo.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">한국연구재단</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>국내 연구진이 수 밀리초 수준의 짧은 빛 처리로 전고체 배터리 핵심 소재의 안정성을 높이는 기술을 개발했습니다.</li><li>이 기술은 전기차와 ESS에 사용되는 전고체 배터리의 성능 향상에 기여할 것으로 보입니다.</li><li>한국연구재단은 이 기술 개발을 통해 차세대 배터리 상용화에 한 걸음 더 다가섰다고 평가했습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.newstree.kr/newsView/ntr202604010015" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">12분만에 완충하는 &#x27;리튬금속전지&#x27; 개발...전기차 주행거리 2배 &#x27;쑥&#x27;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.newstree.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">리튬금속전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>12분 만에 완충 가능한 리튬금속전지 기술이 개발되었습니다.</li><li>이 기술은 기존 배터리의 수지상 결정 문제로 인한 수명 및 안전성 저하 문제를 해결했습니다.</li><li>개발된 리튬금속전지는 전기차 주행거리를 2배 늘릴 수 있을 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.industrynews.co.kr/news/articleView.html?idxno=79543" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">GIST, 12분 초고속 충전 가능한 리튬금속전지 구조 기술 개발</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.industrynews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">GIST</span><span class="chip">리튬금속전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>GIST 연구팀이 12분 초고속 충전이 가능한 리튬금속전지 구조 기술을 개발했습니다.</li><li>이 기술은 배터리 내부의 분리막 손상 및 단락을 유발하는 덴드라이트 형성을 억제합니다.</li><li>이는 배터리 안전성을 좌우하는 핵심 요소인 분리막의 성능을 유지하는 데 기여합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.todayenergy.kr/news/articleView.html?idxno=295998" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">GIST, 리튬금속전지 덴드라이트 억제 기술 개발…12분 초고속 충전 구현</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.todayenergy.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">GIST</span><span class="chip">리튬금속전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>GIST 연구팀이 리튬금속전지의 덴드라이트 억제 기술을 개발하여 12분 초고속 충전을 구현했습니다.</li><li>이 기술은 분리막 손상과 내부 단락을 유발하는 덴드라이트 형성을 억제하여 안전성과 수명을 향상시킵니다.</li><li>결정 분리막과 바텀업 성장 방식을 통해 리튬이온의 균일한 성장을 유도합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://zdnet.co.kr/view/?no=20260402104830" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&quot;전고체 배터리, 9분 만에 70% 충전&quot;…진짜일까</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">zdnet.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">도넛랩</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>핀란드-에스토니아 배터리 스타트업 도넛랩이 전고체 배터리 성능 테스트를 완료했습니다.</li><li>자사의 전고체 배터리를 실제 오토바이에 탑재하여 9분 만에 70% 충전이 가능함을 입증했습니다.</li><li>이는 전고체 배터리의 상용화 가능성을 보여주는 중요한 결과입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-02</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://www.mt.co.kr/future/2026/04/02/2026032308084067356" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&#x27;희토류 프리&#x27; 전고체 배터리…처음부터 &#x27;가격 중심&#x27;으로 설계했죠</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.mt.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">이테르텐</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>희토류를 사용하지 않는 전고체 배터리가 개발되어 가격 경쟁력을 확보했습니다.</li><li>이 전고체 배터리는 화재 위험이 낮고 에너지 저장 용량이 높다는 장점이 있습니다.</li><li>높은 비용과 까다로운 생산 공정이라는 상용화의 걸림돌을 극복할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-02</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://www.mt.co.kr/future/2026/04/02/2026040119525044152" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">희토류 뺀 전고체배터리, 가격경쟁력 &#x27;+&#x27;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.mt.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">이테르텐</span><span class="chip">전고체배터리</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>희토류를 사용하지 않는 전고체 배터리가 개발되어 가격 경쟁력을 갖추었습니다.</li><li>이 배터리는 화재 위험이 낮고 에너지 저장 용량이 높지만, 높은 비용과 생산 공정이 상용화의 걸림돌이었습니다.</li><li>작년에 설립된 이테르텐은 이러한 문제를 해결하며 시장에 진출할 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-02</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxNSHAwLW0zYV9vcW96SjFjM09xQjk0NGR4ODZCWkxQQk5hbXlZQ3phazhuYWxxZTVaUzhhcl9STUEyYS1VR2dQOGNObWN4aG9acjBySl9IUk5uQWZrcDZlR1paSmYzUC1IMXd5SkVtYnBjOEo4ZEFlTFRsd25MTTBObEJaMG1mVlp2d2Vvc185YUdfR1l3UGV2ZDlJVk5IQ1VxQy1MQWN6Zw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">What can be done to prevent lithium-ion battery fires on airplanes?</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CBS News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CBS</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>항공기 내 리튬이온 배터리 화재 위험에 대한 예방책 마련이 시급합니다.</li><li>리튬이온 배터리는 높은 에너지 밀도로 인해 화재 발생 시 큰 피해를 야기할 수 있습니다.</li><li>항공 안전을 위해 배터리 취급 및 보관 규정 강화가 필요합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQU3pQdEJFdjRfcVhUb2otakd6V1VpQXpZYlFCcUkwSlF1ZDBaVVhuSy1QRkc0OEtLc0NHOXlMSjdId0FtZ3N6Q1B1NVh3LW1UaG9maDd4akJNRlBmMENjRTU1Tk5xU3NwckdKakQwWWVBckJUNkVNcnJod1Y2S0t4TXl5MU5KcDFVYXFnOGg2cW41QVRrNFk1VlV0djJrMG83LUtha0NoeXhFdGFjWjlFQQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Airlines tighten rules as lithium battery fires surge on passenger flights</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CBS News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CBS</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>항공기 내 리튬이온 배터리 화재 발생이 증가함에 따라 항공사들이 규정을 강화하고 있습니다.</li><li>리튬이온 배터리는 높은 에너지 밀도로 인해 화재 발생 시 큰 위험을 초래할 수 있습니다.</li><li>승객 및 승무원의 안전을 위해 배터리 관련 규정 준수가 더욱 중요해지고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQT0IwbEpKYnQ0QU1LdWlCV21xNXdyb2xuZ1lLSFgwRjhLR3IyOHRhMExsaTV4VGFPbGY3TG1ZTjBRcTQweUNic0dnVXpEaWJkQkkyaF93Q0gweWFLWjMyWXIwZ0xjVE5iY0RHamVURmo2d3lrcnVXVktad3gtcnYtVTBmdklLRjhRT3RIbVE1MVJYZGczcVNmd05KWXFpMjVackZLN2xrV1l6NmJVcllSOEp5Q2M?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium-ion Battery Fires: Understanding Risks and Planning for Containment</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Aviation International News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>리튬이온 배터리 화재의 위험성을 이해하고 이에 대한 격납 계획을 수립하는 것이 중요합니다.</li><li>리튬이온 배터리는 높은 에너지 밀도로 인해 화재 발생 시 큰 피해를 야기할 수 있습니다.</li><li>항공 안전을 위해 배터리 관련 위험 요소를 파악하고 대비책을 마련해야 합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQMWVkQkdQM015YjZ1QkZYdmZpY1R5MHVsVUlRNEhXcHBXcGJ2OFYtVDJfMlRsY2puQW9OcXJOSG10WS1Xb2V1Nkp2UE1Bc25Qb3U1YnNtT2owN1loRjhlelJIbHJsSEJJdURTcHkzd3RmN1A4bDBOWkxTOEk0TmtGYmxOQVhrSENfRkk4OUp3cFN0UQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">China&#x27;s Lithium Battery Industry Powers A Lot More Than EVs</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">slashgear.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>중국의 리튬 배터리 산업은 전기차뿐만 아니라 다양한 분야에서 중요한 역할을 하고 있습니다.</li><li>중국은 리튬 배터리 생산 및 기술 개발에서 세계적인 경쟁력을 보유하고 있습니다.</li><li>이는 미국과의 에너지 경쟁 속에서 중국의 영향력을 더욱 강화하는 요인이 되고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxQd1VPZ3hCYjN0NGd2UlFWd2k1aUkxbmh4M3JrX3VHX3Y0RXRtUl82c2lCRHJVZDFQS2N3dnlSdE1GT2hreURtTURnUWRzZTNaWU9xaVAyZDBzUGx3Nm9yVkhJSm94WkNRVW12VzFFYllodXIyRGo2VzNoUFk0emRkWURFellwd0lUSGxmRWY2a1lDUm9KS2Z4bU9FWS14ckRSdEVqbXlEcVl5cWtxSDhYRDM2RGdzWndvSVlsQkpxeS1vb2tWQ1Z3dU5FOS1tRG9WX3p2TTJNWGNZcXRtQWxHdNIB4AFBVV95cUxOb3EzMVFVTWh5emE2b1ZmZFBubzZjb21jV0pqUU8xQ3l2VllTejFHeG5QX2JSOWNvYXIwZHFKbXloTDlsTE1IcW5TeXlRNG9NaDFXR0RjMThmX1FDYzc3a01ZNnNJR29tQkRvZnJOZDh0X2Z4dlZDRzZ2ZVR2LW8ySGVFbVR4cTVpM3BhWjNzSHVGeTZibmZPUHlJX2VDQV8xbUtJSnEyNmdfSDVVbVdGdTk3S0RnMG54R3N4NU1vZUl6cktSOTJsYXdKUzVRUG1KREoxNnhiSmMtcnBMNXVuLQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">15</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Ganfeng Lithium sees surge in battery demand amid China-US energy rivalry</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">South China Morning Post</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Ganfeng Lithium</span><span class="chip">US</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>중국과 미국 간의 에너지 경쟁 심화 속에서 Ganfeng Lithium은 배터리 수요 증가를 경험하고 있습니다.</li><li>Ganfeng Lithium은 중국의 주요 리튬 생산 업체 중 하나로, 글로벌 배터리 시장에서 중요한 위치를 차지하고 있습니다.</li><li>이는 전 세계적인 전기차 및 에너지 저장 장치 수요 증가와 맞물려 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiywFBVV95cUxQWGVBSmtrdFowRndqQzd2Vk5ZMHl4Y2xOR2E4VjJCbDVCSWw3QTZidVJaNUdpeE1xdVU2TUFXRWwtTzRoX3V0WFFQeTExRVh1VnNBRkpCczliRVdYMnM2QVhPMkJJV0pKT2dkMFUzbHJ5aWU2Ty1kZnJZbWdnMl9GcS1VaWJYb0xBeXA5dDlnVDc2VmNDOGotd09nVTJIYjJhdFdYbTZYdUE0dFpORmRPRWE0RHZZTk00XzJ2a0Q4RTJmQzhzM2lfTVI0VQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">16</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium-Ion Battery Malfunction Causes County Fire Damage</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Garrett County (.gov)</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>리튬이온 배터리 오작동으로 인해 카운티에서 화재 피해가 발생했습니다.</li><li>리튬이온 배터리는 높은 에너지 밀도로 인해 화재 발생 시 큰 위험을 초래할 수 있습니다.</li><li>안전한 배터리 사용 및 관리를 위한 대책 마련이 필요합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPd19HMTRRMmhIV3RxQVNrUGJ0ZVhKOEZjN3h3MUNsS0lhdlBqOF9mZEpQQjlobHUxWUduV3JnY1NQRlRrdU53NTg1eW9JclhpS3dyeXA0d2VTWTUwN2dYM1FzOVhmU0NCYUVGMGRIWUEzTHhySUVCME5CSHU2YjVCMzFPMlBncExSZnEwd21hY2FHQTByTUE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">17</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium-ion battery cells cause fire at Madison FedEx facility</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">WMSN</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">FedEx</span><span class="chip">WMSN</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>매디슨 지역 FedEx 시설에서 리튬이온 배터리 셀로 인해 화재가 발생했습니다.</li><li>리튬이온 배터리는 높은 에너지 밀도로 인해 화재 발생 시 큰 위험을 초래할 수 있습니다.</li><li>이 사건은 배터리 안전 관리의 중요성을 다시 한번 강조합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMihwFBVV95cUxPUFBCUGVjdlhMaWt3eDFWZGhOa2tpbXQtUmRhWDEzeDlFUjhqYUszbExUOTJRT3dlTmhoZFRNU0IwZkdmNGZJMWdjRkl2Sjd4SXdsMmo3TkI1X1JxdEJJMXVsMjY1UGlrSFFrY2l5aUtqVUFVMkhZQk5DSlNhQ1pSeWRVMlpRYkk?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">18</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium ion batteries blamed for second Madison fire in 3 days</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Wisconsin State Journal</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>매디슨 지역에서 3일 만에 두 번째로 리튬이온 배터리가 화재 원인으로 지목되었습니다.</li><li>리튬이온 배터리는 높은 에너지 밀도로 인해 화재 발생 시 큰 위험을 초래할 수 있습니다.</li><li>이러한 사건들은 배터리 안전 규정 강화의 필요성을 시사합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMi-gFBVV95cUxQcjNFRGxYMHdBMGtVWHhpSy16bTFpTXI5VHQ4c3IzdThBamdwMEl0RldEeUNack9yeG1kWmh1QXlhakNoODVwQmJnMkxfYzJLTDJUUFp1MWFDUmhaVnNCOGpXdko2MVZTLUZDcm83M0htdERRZEdCOHJrNmVPbDlXeVVTcUxaNkZYbDBfQmhNdnBOM1E5V2NZY214OHVMY0ppMDFPM1hxYXA4TWx3TW9SRnhISzVrclczRktiRk1kYUdTbWd0VWlNSWdZWmg2clE0SG92VGU0NlpWd0taQjBDWUZTNDJ5UU9HVmJBbVJYOUthZDJLWEMtb0VB?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">19</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Full Circle Lithium Announces First U.S. School Deployment of FCL-X™ to Address Rising Lithium Battery Fire Risks</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">PR Newswire</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Full Circle Lithium</span><span class="chip">FCL</span><span class="chip">PR</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Full Circle Lithium은 증가하는 리튬 배터리 화재 위험에 대응하기 위해 미국 학교에 FCL-X™ 시스템을 처음으로 배포한다고 발표했습니다.</li><li>FCL-X™는 리튬 배터리 화재를 예방하고 진압하는 데 효과적인 시스템입니다.</li><li>이 시스템의 학교 배포는 어린이와 교직원의 안전을 강화하는 데 기여할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbW5tdWRVY21TYUkyTmFYMDluWWZRMGlzaGdqQ1otdnMta3UtZWxhWXZMU3p3MjI2OGZ3S0JiMGlCNUJlM0dnZVFDLW03QWlYdVhJNENyc1JjVUVKSkhwWmNnUURRMHpJd0cyemwzTkVBazNZRnByQ3dCbGtSZk5kT1B1S2JqNjVld2xNUGJjSVJISnp0WnJuMFI1Rm9FampDb3NuYTRZS0VfM0Ixd0ZKaXJTeUstek1uU0tTYmJoSzExYnU1UUh6Rw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">20</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Full Circle Lithium Wins First U.S. School Deal for Battery Fire Safety System</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">TipRanks</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Full Circle Lithium</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Full Circle Lithium이 배터리 화재 안전 시스템에 대한 첫 미국 학교 계약을 체결했습니다.</li><li>이 계약은 학교 내 리튬 배터리 사용 증가에 따른 화재 위험을 줄이기 위한 노력의 일환입니다.</li><li>Full Circle Lithium의 시스템은 학교의 안전을 강화하는 데 중요한 역할을 할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-01</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
