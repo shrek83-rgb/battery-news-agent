@@ -1,0 +1,261 @@
+# 배터리 뉴스 데일리 브리핑 (2026-04-03 전날 기준)
+
+- 총 20건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 전고체 | 2026-04-03 | CarBuzz | The Solid-State Battery That's Revolutionizing Electric Vehicles | https://news.google.com/rss/articles/CBMiekFVX3lxTE9nWG5iNW15bEdhcE1URkRfSmUzTEFfNkVvdDg2QnNaYnZkTG13MVY1ZE5pZi1DUTlFVGgzaGZkZzBpc3ZCNm9Uc3pHVGp6REF3bUtpNlptSFFmbW1vN21WajQ4dUNPaEU1VzVzeGg5ZF9fX3FIaU5lbzJR?oc=5 | unknown |
+| 2 | 3 | 기타 | 2026-04-03 | vocal.media | Why the Lithium-Ion Battery Market Is Charging Toward a $562 Billion Future | https://news.google.com/rss/articles/CBMiowFBVV95cUxOMHlFVC1ZZjRNaVdVc0tuZ3FGY3BzUl9fbVpSYUVJUW1uWlN1cmV4ekRmUzlKaks0TFZmSTJLWEdXejJvdnFQOG1Oekk4QTBjT2YycTJRc0hxLWI3TXBjdU4wMWhzZUI1M3hvbVg4UXZXZURpb1NIQWtWZEp2RWMzV3JCVndFd1lHUGhENlQ3U0d2aFItelZEV19ZSmwzOUMyc01B?oc=5 | unknown |
+| 3 | 3 | 전고체 | 2026-04-03 | HiConsumption | Verge’s 2026 TS Pro Is Here, Becoming the First Production Vehicle Ever with a Solid-State Battery | https://news.google.com/rss/articles/CBMijwFBVV95cUxNX3plYlFyUEZwZTVxeEN3VkFkQmM0VHp1VUF2dXQzdlRWTmxXb0pSLUhkeVJscTkwejNPaHVXTHNFUVUzSEVRWk8tZ2Z4NmtrRGdBU0lfckxwb1BCS04yX0ZaUW9ZVUNUbVNrZHgtSWp3UTJMOU50YWtuSjFpZHlBOXhmVTV1bVFheC1PbnFtWQ?oc=5 | unknown |
+| 4 | 3 | separator | 2026-04-03 | vocal.media | Lithium-Ion Battery Separator Market Outlook: Rising Electric Vehicle Adoption and Growing Demand for Energy Storage Solutions Driving Market Growth | https://news.google.com/rss/articles/CBMihwJBVV95cUxQSlhxbTRFQ0F1TWpoeGFzS0NXOVY3R1ZOUm1YYnByeEdkd2pEc2VnWGhHMFl2MHRXQ3dHdU4wMjRPT21TUEFLX290Z05YWE04MGtDN2tTMWQyS2tuYjdrOUpPZ1dibC0zeG9RemZCaWVrOUJXY0dvampsUk1vRWhCaVFGQzdRMktQX25PYWxILUhEcmpSa0hUTXR0T0NjTWRxLTgtSGduTktqeHVIOUVIclRVY1IzS2VLTEh0Q2F6UmhxeE5Oc0hSU3FqZlhqelB3cHJyUTNROENQY1hMSDBvRW5RdjhMekJ4Ym5BNnFuaUZlbldFZGM3WWZfVXoyUHI3VXlGbFhWQQ?oc=5 | unknown |
+| 5 | 3 | 기타 | 2026-04-03 | www.businesspost.co.kr | LG에너지솔루션 '2차전지 대장주' 복귀하나, 실적 기대감에 구광모 미국... | https://www.businesspost.co.kr/BP?command=article_view&num=434950 | unknown |
+| 6 | 3 | 전고체 | 2026-04-04 | www.sedaily.com | K배터리, 적자 뚫고 3조 R&D…나트륨·리튬메탈 선점 경쟁 [biz-플러스] | https://www.sedaily.com/article/20028230?ref=naver | unknown |
+| 7 | 3 | cathode | 2026-04-04 | www.newsian.co.kr | [한입 지식] 삼원계부터 LFP까지…배터리 시장 주도권 가를 '양극재의 진... | http://www.newsian.co.kr/news/articleView.html?idxno=88109 | unknown |
+| 8 | 3 | cathode | 2026-04-03 | EurekAlert! | Chinese researchers overcome high-voltage bottleneck for practical sodium-ion battery cathodes | https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VYUg4YkpVTmpYTi01dE9pck5GOTc2Z0psT2VPY3p6eFVSYXdidG9qbklzZlRnd3BRVmlIV2tlT0xOQ3lacTJVTkFkZFZ2QmNIMC11V21tVW9UZncy?oc=5 | unknown |
+| 9 | 3 | cathode | 2026-04-03 | Gasgoo | From "Passenger Vehicle" to "Commercial Vehicle", Sodium-ion Batteries Are Entering the Fast Lane | https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMXhYWVdJdGpha2tWTmRSeWNSODR0VTRteVhxMDJhdGZ3aHZsUFZXVUxmTllNS0VOVXdHOUlGNjYyZE15SUlmaHRONWgwcEltcTZUOXhiOXBiSGFoMXNCaHRSZW5xcFRWRHUwM3BaNTR4SlhfWTZJRFY5VlQyWVdKdzZodzlGbm1YRHZiWFJpdkhQQ21PYXBYdUF4ZDBHcEhaREtQVlF0Rl8tM3JXR0pWbWpwR3RxUzNId0Rvcmx4YVBWalREeWV0SDJTMVJMZHl1TGdfNzFiLTZvUmVVOEVoRk10SU1PWFE?oc=5 | unknown |
+| 10 | 3 | 나트륨 | 2026-04-03 | Shanghai Metals Market | 【SMM Analysis】March, the entire sodium-ion battery industry chain recovered, setting the tone for the peak season in Q2 | https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdnQtdmxOUkJtb3pmYW1sT0YtZk9rc21aTmd5aUtCUG1VUnpESFk4b3AzaWpkTTBwZDMwUmdCNjBXWk1lZWxwWkg1ZVdoaV9OQmc2MWozTTBLVGxMWkthSFpDUXZJWU9xNDRha29NSTA5YU9CS1F3LV9BbUY3blRsT0U0RkxQb19tYTRaV1ZNQWpuRjB2eXdIZUxieDNuYnFqY0N1MnpneVN4bXNPbG9qZTVVVWJaTmI3RHNpWmdlaEhiMlAxYVZZVUdMVXJiNUZlQTZZLTRXaVVDbWNEN2ZFeWlsd3ZSSks3UkR5Q0ZPX1lEbTY0RVE?oc=5 | unknown |
+| 11 | 3 | electrolyte | 2026-04-03 | ESS News | Conductive smart hydrogels as battery electrolytes: Promising for lithium, sodium, and zinc-ion chemistries | https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWW9maFJ3MHNtd1d5MWlQVmROaGtjMEZHNl9DNFBqazBpajhscS10dkVfNXZSM0lSZEpvNnRuNHVDYTAyNjZTYnpjNk8zZWg0U3N4MEFrZHptckZWWGhYbzZGSFdnbUZMdEtSenhQaFNueGtMU2xubUo5a0JRcGR1eHEtV081T3Y3NkxMalJ5by1wUUt2d3VOOFl5WElST2M3aDcwai1QQTNGTi05M0ZlbWgxXzNHOWtfRW9vc1VDeGxMcVBTY0JpbHc2a2lORUVKV216cHphRkk?oc=5 | unknown |
+| 12 | 3 | cathode | 2026-04-03 | Korean Car Blog | Hyundai to Introduce Mid-Tier NCM Batteries to Challenge LFP Dominance | https://news.google.com/rss/articles/CBMiogFBVV95cUxQbzhMZWpyUGNtV0NsMkpsN1hfZU16WXZXQm4wU3pnNk1ENUtfQXBkbEpBcjg2ejRsYVNZUkpyRk9ES28yWElET09LcUhmOFZFZmxfWk9Pd241Y3ZDZ3g3SmwyN0dmVUtfQUd0a0syREpGWG93WjRLSmp6Nmp6anRoMlkyVWRjWjZpWDBld1hHSktKQ3NaV1l2dnp6NkZZNWowWFE?oc=5 | unknown |
+| 13 | 3 | electrolyte | 2026-04-03 | The Korea Times | Dongwha Electrolyte secures ‘national strategic' status for battery tech | https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSFh5WElXYUJtbEdyY19OV2FSVmttUTFJOUx5TXk1eXphZGZ4eGJSamFqcmQxbXhXZm5uQTNCQkwyZlBzSmpvRW5oYWJlVHpMMXdNNDNBNE5WQWJhQzhRbC1XR1VqUkdVaG4wajdYZVNIZFFwTVo3TGVuQjIzZWI2a2xrVFFyUG9SWkJtUDc5MXVaTWdYMDdxSV92NVluek9OZ2syNVdXRlZ2Yy1QWXN6bGRzbmdIc1NQ0gG-AUFVX3lxTFBSRm4wMnROaVRHbUozcVJRU01jclNMMjZLVHgyZlJvMWYyeUU2N2RQZTJLUGlnWEdpdWM4d1pYSXJWSXhab1BnSVlGcXdaZzVQMWo3TGlPZ3J0Y0Rxck5YY3RrTU1lV1VRb01RR3l2bGYxN2hLMHBFOWN5N2Mtc2tzdDYzWmY1QXoyanVTNlVveFJNZjhHNi1kZHoyM1BYUUF2WmhuQUZmakRVUWVtdzZJcEUxM0ZqZmN0c3BfVHc?oc=5 | unknown |
+| 14 | 3 | 기타 | 2026-04-04 | news.mtn.co.kr | 에너지 리스크 속 기회...윤석천 "2차전지·ESS, 구조적 성장 지속"[경제... | https://news.mtn.co.kr/news-detail/2026040313505560736 | unknown |
+| 15 | 3 | 전고체 | 2026-04-03 | www.greened.kr | IBK투자증권, 삼성SDI 목표주가 상향… "하반기 본격적 실적 턴어라운드... | https://www.greened.kr/news/articleView.html?idxno=338799 | unknown |
+| 16 | 3 | 전고체 | 2026-04-03 | www.opinionnews.co.kr | 삼성SDI, 외인·기관 순매수 집중...ESS·전기차 업황개선에 '4분기 흑자... | http://www.opinionnews.co.kr/news/articleView.html?idxno=136214 | unknown |
+| 17 | 3 | 기타 | 2026-04-03 | www.dailypop.kr | [피벗 인사이트] 구광모의 ESS 행보, LG의 미래전략이 바뀌고 있다 | http://www.dailypop.kr/news/articleView.html?idxno=97764 | unknown |
+| 18 | 3 | 정책 | 2026-04-04 | www.news2day.co.kr | [N2 포커스] SK온·포드 결별 수순…IRA 속 배터리 동맹 '흔들' | https://www.news2day.co.kr/article/20260401500242 | unknown |
+| 19 | 3 | cathode | 2026-04-04 | www.ddaily.co.kr | 씨앤피신소재 착공 임박…韓 LFP 양극재 찾아나선 LG엔솔 [위클리배터리... | https://www.ddaily.co.kr/page/view/2026040321482851196 | unknown |
+| 20 | 3 | 기타 | 2026-04-04 | www.newsis.com | 구미에 국내 최대 배터리 시험인증기관 들어선다 | https://www.newsis.com/view/NISX20260404_0003577775 | unknown |
+
+## 상세 요약
+
+### 1. The Solid-State Battery That's Revolutionizing Electric Vehicles
+- 발행일: 2026-04-03
+- 매체: CarBuzz (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMiekFVX3lxTE9nWG5iNW15bEdhcE1URkRfSmUzTEFfNkVvdDg2QnNaYnZkTG13MVY1ZE5pZi1DUTlFVGgzaGZkZzBpc3ZCNm9Uc3pHVGp6REF3bUtpNlptSFFmbW1vN21WajQ4dUNPaEU1VzVzeGg5ZF9fX3FIaU5lbzJR?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리가 전기차 산업에 혁신을 가져오고 있습니다.
+  - 이 배터리는 기존 리튬이온 배터리보다 안전하고 에너지 밀도가 높다는 장점을 가지고 있습니다.
+  - 전고체 배터리의 상용화는 전기차의 성능과 사용 편의성을 크게 향상시킬 것으로 기대됩니다.
+
+### 2. Why the Lithium-Ion Battery Market Is Charging Toward a $562 Billion Future
+- 발행일: 2026-04-03
+- 매체: vocal.media (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiowFBVV95cUxOMHlFVC1ZZjRNaVdVc0tuZ3FGY3BzUl9fbVpSYUVJUW1uWlN1cmV4ekRmUzlKaks0TFZmSTJLWEdXejJvdnFQOG1Oekk4QTBjT2YycTJRc0hxLWI3TXBjdU4wMWhzZUI1M3hvbVg4UXZXZURpb1NIQWtWZEp2RWMzV3JCVndFd1lHUGhENlQ3U0d2aFItelZEV19ZSmwzOUMyc01B?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 리튬이온 배터리 시장은 5,620억 달러 규모의 미래를 향해 나아가고 있습니다.
+  - 전기차 및 에너지 저장 장치에 대한 수요 증가가 시장 성장을 견인하고 있습니다.
+  - 이러한 추세는 관련 기술 개발 및 투자를 더욱 촉진할 것으로 예상됩니다.
+
+### 3. Verge’s 2026 TS Pro Is Here, Becoming the First Production Vehicle Ever with a Solid-State Battery
+- 발행일: 2026-04-03
+- 매체: HiConsumption (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMijwFBVV95cUxNX3plYlFyUEZwZTVxeEN3VkFkQmM0VHp1VUF2dXQzdlRWTmxXb0pSLUhkeVJscTkwejNPaHVXTHNFUVUzSEVRWk8tZ2Z4NmtrRGdBU0lfckxwb1BCS04yX0ZaUW9ZVUNUbVNrZHgtSWp3UTJMOU50YWtuSjFpZHlBOXhmVTV1bVFheC1PbnFtWQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Verge의 2026 TS Pro 모델이 출시되었으며, 이는 전고체 배터리를 탑재한 최초의 양산 차량입니다.
+  - 이 차량은 전고체 배터리 기술의 상용화 가능성을 보여주는 중요한 사례입니다.
+  - 이는 전기차 시장에서 새로운 기술 표준을 제시할 수 있습니다.
+- 관련 기업: Verge, TS
+
+### 4. Lithium-Ion Battery Separator Market Outlook: Rising Electric Vehicle Adoption and Growing Demand for Energy Storage Solutions Driving Market Growth
+- 발행일: 2026-04-03
+- 매체: vocal.media (출처등급 3)
+- 분야: separator
+- 링크: https://news.google.com/rss/articles/CBMihwJBVV95cUxQSlhxbTRFQ0F1TWpoeGFzS0NXOVY3R1ZOUm1YYnByeEdkd2pEc2VnWGhHMFl2MHRXQ3dHdU4wMjRPT21TUEFLX290Z05YWE04MGtDN2tTMWQyS2tuYjdrOUpPZ1dibC0zeG9RemZCaWVrOUJXY0dvampsUk1vRWhCaVFGQzdRMktQX25PYWxILUhEcmpSa0hUTXR0T0NjTWRxLTgtSGduTktqeHVIOUVIclRVY1IzS2VLTEh0Q2F6UmhxeE5Oc0hSU3FqZlhqelB3cHJyUTNROENQY1hMSDBvRW5RdjhMekJ4Ym5BNnFuaUZlbldFZGM3WWZfVXoyUHI3VXlGbFhWQQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 리튬이온 배터리 분리막 시장은 전기차 채택 증가와 에너지 저장 솔루션 수요 증대에 힘입어 성장하고 있습니다.
+  - 이러한 시장 성장은 배터리 기술 혁신과 생산 능력 확대를 촉진할 것입니다.
+  - 분리막 기술의 발전은 배터리 성능과 안전성 향상에 기여할 것으로 보입니다.
+
+### 5. LG에너지솔루션 '2차전지 대장주' 복귀하나, 실적 기대감에 구광모 미국...
+- 발행일: 2026-04-03
+- 매체: www.businesspost.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.businesspost.co.kr/BP?command=article_view&num=434950
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 외국인 투자자들의 관심 회복과 구광모 LG그룹 회장의 미국 방문을 통해 2차전지 대장주로서의 입지 강화에 나섰습니다.
+  - 최근 2차전지 업종의 주가 반등 조짐과 함께 LG에너지솔루션에 대한 기대감이 높아지고 있습니다.
+  - 이는 회사의 실적 개선 및 성장 전망에 대한 긍정적인 신호로 해석됩니다.
+- 관련 기업: LG에너지솔루션, LG그룹, 2차전지
+
+### 6. K배터리, 적자 뚫고 3조 R&D…나트륨·리튬메탈 선점 경쟁 [biz-플러스]
+- 발행일: 2026-04-04
+- 매체: www.sedaily.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.sedaily.com/article/20028230?ref=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - K배터리 업계는 중국의 물량 공세 속에서도 3조 원 규모의 R&D 투자를 통해 기술 경쟁력 확보에 나서고 있습니다.
+  - 특히 전고체 배터리, 나트륨 배터리, 리튬메탈 배터리 등 차세대 기술 선점에 총력을 기울이고 있습니다.
+  - 이는 미래 배터리 시장에서의 주도권 확보를 위한 전략적 움직임으로 분석됩니다.
+
+### 7. [한입 지식] 삼원계부터 LFP까지…배터리 시장 주도권 가를 '양극재의 진...
+- 발행일: 2026-04-04
+- 매체: www.newsian.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: http://www.newsian.co.kr/news/articleView.html?idxno=88109
+- 인기신호: unknown
+- 3문장 요약:
+  - 전기차 및 에너지저장장치(ESS) 시장의 급팽창으로 배터리의 핵심 소재인 양극재 기술 경쟁이 가속화되고 있습니다.
+  - 삼성SDI는 ESS용 LFP 배터리를 선보이며 시장 변화에 대응하고 있습니다.
+  - 리튬이온 배터리의 중요성이 커짐에 따라 양극재 기술 발전이 더욱 중요해지고 있습니다.
+- 관련 기업: 삼성SDI, 리튬이온, LFP
+
+### 8. Chinese researchers overcome high-voltage bottleneck for practical sodium-ion battery cathodes
+- 발행일: 2026-04-03
+- 매체: EurekAlert! (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VYUg4YkpVTmpYTi01dE9pck5GOTc2Z0psT2VPY3p6eFVSYXdidG9qbklzZlRnd3BRVmlIV2tlT0xOQ3lacTJVTkFkZFZ2QmNIMC11V21tVW9UZncy?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국 연구진이 실용적인 나트륨이온 배터리 양극재를 위한 고전압 병목 현상을 극복했습니다.
+  - 이번 연구는 나트륨이온 배터리의 성능 향상과 상용화 가능성을 높이는 데 기여할 것입니다.
+  - 이는 차세대 배터리 기술 개발 경쟁에서 중요한 진전입니다.
+
+### 9. From "Passenger Vehicle" to "Commercial Vehicle", Sodium-ion Batteries Are Entering the Fast Lane
+- 발행일: 2026-04-03
+- 매체: Gasgoo (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMXhYWVdJdGpha2tWTmRSeWNSODR0VTRteVhxMDJhdGZ3aHZsUFZXVUxmTllNS0VOVXdHOUlGNjYyZE15SUlmaHRONWgwcEltcTZUOXhiOXBiSGFoMXNCaHRSZW5xcFRWRHUwM3BaNTR4SlhfWTZJRFY5VlQyWVdKdzZodzlGbm1YRHZiWFJpdkhQQ21PYXBYdUF4ZDBHcEhaREtQVlF0Rl8tM3JXR0pWbWpwR3RxUzNId0Rvcmx4YVBWalREeWV0SDJTMVJMZHl1TGdfNzFiLTZvUmVVOEVoRk10SU1PWFE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 나트륨이온 배터리가 승용차뿐만 아니라 상용차 시장까지 진출하며 빠르게 성장하고 있습니다.
+  - 이는 나트륨이온 배터리의 적용 범위가 확대되고 있음을 시사합니다.
+  - 향후 나트륨이온 배터리는 리튬이온 배터리의 대안으로 주목받을 가능성이 있습니다.
+
+### 10. 【SMM Analysis】March, the entire sodium-ion battery industry chain recovered, setting the tone for the peak season in Q2
+- 발행일: 2026-04-03
+- 매체: Shanghai Metals Market (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdnQtdmxOUkJtb3pmYW1sT0YtZk9rc21aTmd5aUtCUG1VUnpESFk4b3AzaWpkTTBwZDMwUmdCNjBXWk1lZWxwWkg1ZVdoaV9OQmc2MWozTTBLVGxMWkthSFpDUXZJWU9xNDRha29NSTA5YU9CS1F3LV9BbUY3blRsT0U0RkxQb19tYTRaV1ZNQWpuRjB2eXdIZUxieDNuYnFqY0N1MnpneVN4bXNPbG9qZTVVVWJaTmI3RHNpWmdlaEhiMlAxYVZZVUdMVXJiNUZlQTZZLTRXaVVDbWNEN2ZFeWlsd3ZSSks3UkR5Q0ZPX1lEbTY0RVE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 3월, 나트륨이온 배터리 산업 전반의 회복세가 나타나며 2분기 성수기 전망을 밝게 하고 있습니다.
+  - 이는 나트륨이온 배터리 시장의 성장 잠재력을 보여줍니다.
+  - 관련 기업들의 생산 및 판매 활동이 활발해질 것으로 예상됩니다.
+- 관련 기업: SMM
+
+### 11. Conductive smart hydrogels as battery electrolytes: Promising for lithium, sodium, and zinc-ion chemistries
+- 발행일: 2026-04-03
+- 매체: ESS News (출처등급 3)
+- 분야: electrolyte
+- 링크: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWW9maFJ3MHNtd1d5MWlQVmROaGtjMEZHNl9DNFBqazBpajhscS10dkVfNXZSM0lSZEpvNnRuNHVDYTAyNjZTYnpjNk8zZWg0U3N4MEFrZHptckZWWGhYbzZGSFdnbUZMdEtSenhQaFNueGtMU2xubUo5a0JRcGR1eHEtV081T3Y3NkxMalJ5by1wUUt2d3VOOFl5WElST2M3aDcwai1QQTNGTi05M0ZlbWgxXzNHOWtfRW9vc1VDeGxMcVBTY0JpbHc2a2lORUVKV216cHphRkk?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 전도성 스마트 하이드로겔이 리튬, 나트륨, 아연이온 배터리 전해질로서 유망한 가능성을 보여주고 있습니다.
+  - 이러한 하이드로겔 기반 전해질은 배터리의 안전성과 성능을 향상시킬 수 있습니다.
+  - 이는 차세대 배터리 기술 개발에 새로운 방향을 제시합니다.
+
+### 12. Hyundai to Introduce Mid-Tier NCM Batteries to Challenge LFP Dominance
+- 발행일: 2026-04-03
+- 매체: Korean Car Blog (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMiogFBVV95cUxQbzhMZWpyUGNtV0NsMkpsN1hfZU16WXZXQm4wU3pnNk1ENUtfQXBkbEpBcjg2ejRsYVNZUkpyRk9ES28yWElET09LcUhmOFZFZmxfWk9Pd241Y3ZDZ3g3SmwyN0dmVUtfQUd0a0syREpGWG93WjRLSmp6Nmp6anRoMlkyVWRjWjZpWDBld1hHSktKQ3NaV1l2dnp6NkZZNWowWFE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 현대자동차가 LFP 배터리의 지배력에 도전하기 위해 중급 NCM 배터리를 도입할 예정입니다.
+  - 이는 전기차 시장에서 배터리 기술 경쟁이 더욱 치열해질 것임을 의미합니다.
+  - 현대자동차는 다양한 배터리 옵션을 통해 시장 점유율을 확대하려 하고 있습니다.
+- 관련 기업: 현대자동차, NCM, LFP
+
+### 13. Dongwha Electrolyte secures ‘national strategic' status for battery tech
+- 발행일: 2026-04-03
+- 매체: The Korea Times (출처등급 3)
+- 분야: electrolyte
+- 링크: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSFh5WElXYUJtbEdyY19OV2FSVmttUTFJOUx5TXk1eXphZGZ4eGJSamFqcmQxbXhXZm5uQTNCQkwyZlBzSmpvRW5oYWJlVHpMMXdNNDNBNE5WQWJhQzhRbC1XR1VqUkdVaG4wajdYZVNIZFFwTVo3TGVuQjIzZWI2a2xrVFFyUG9SWkJtUDc5MXVaTWdYMDdxSV92NVluek9OZ2syNVdXRlZ2Yy1QWXN6bGRzbmdIc1NQ0gG-AUFVX3lxTFBSRm4wMnROaVRHbUozcVJRU01jclNMMjZLVHgyZlJvMWYyeUU2N2RQZTJLUGlnWEdpdWM4d1pYSXJWSXhab1BnSVlGcXdaZzVQMWo3TGlPZ3J0Y0Rxck5YY3RrTU1lV1VRb01RR3l2bGYxN2hLMHBFOWN5N2Mtc2tzdDYzWmY1QXoyanVTNlVveFJNZjhHNi1kZHoyM1BYUUF2WmhuQUZmakRVUWVtdzZJcEUxM0ZqZmN0c3BfVHc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 동화일렉트로라이트가 배터리 기술 분야에서 '국가전략기술' 지위를 확보했습니다.
+  - 이는 동화일렉트로라이트의 기술력과 중요성을 인정받았음을 의미합니다.
+  - 향후 국가적 지원을 바탕으로 배터리 기술 개발에 더욱 박차를 가할 것으로 기대됩니다.
+- 관련 기업: 동화일렉트로라이트
+
+### 14. 에너지 리스크 속 기회...윤석천 "2차전지·ESS, 구조적 성장 지속"[경제...
+- 발행일: 2026-04-04
+- 매체: news.mtn.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://news.mtn.co.kr/news-detail/2026040313505560736
+- 인기신호: unknown
+- 3문장 요약:
+  - 에너지 리스크 속에서 2차전지 및 ESS 시장은 구조적인 성장세를 지속할 것으로 전망됩니다.
+  - 최근 2차전지 관련 주가 반등 조짐과 함께 시장에 대한 긍정적인 분석이 나오고 있습니다.
+  - 이는 관련 산업의 장기적인 성장 가능성을 시사합니다.
+- 관련 기업: 2차전지, K-배터리
+
+### 15. IBK투자증권, 삼성SDI 목표주가 상향… "하반기 본격적 실적 턴어라운드...
+- 발행일: 2026-04-03
+- 매체: www.greened.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.greened.kr/news/articleView.html?idxno=338799
+- 인기신호: unknown
+- 3문장 요약:
+  - IBK투자증권은 삼성SDI의 목표주가를 상향 조정하며 하반기 실적 턴어라운드를 예상했습니다.
+  - 삼성SDI는 전고체 배터리 양산 로드맵에서 앞서 있으며, 글로벌 완성차 업체들과 협력 중입니다.
+  - 이는 삼성SDI의 기술력과 미래 성장성에 대한 증권가의 긍정적인 평가를 반영합니다.
+- 관련 기업: IBK투자증권, 삼성SDI, ASB
+
+### 16. 삼성SDI, 외인·기관 순매수 집중...ESS·전기차 업황개선에 '4분기 흑자...
+- 발행일: 2026-04-03
+- 매체: www.opinionnews.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: http://www.opinionnews.co.kr/news/articleView.html?idxno=136214
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성SDI는 외국인 및 기관 투자자들의 순매수가 집중되며 ESS 및 전기차 업황 개선에 힘입어 4분기 흑자 전환이 기대됩니다.
+  - 최근 외국인 투자자들은 방위산업과 이차전지 업종에 대한 매수세를 늘리고 있습니다.
+  - 이는 삼성SDI의 주가 상승 모멘텀으로 작용할 수 있습니다.
+- 관련 기업: 삼성SDI, 방위산업, 이차전지
+
+### 17. [피벗 인사이트] 구광모의 ESS 행보, LG의 미래전략이 바뀌고 있다
+- 발행일: 2026-04-03
+- 매체: www.dailypop.kr (출처등급 3)
+- 분야: 기타
+- 링크: http://www.dailypop.kr/news/articleView.html?idxno=97764
+- 인기신호: unknown
+- 3문장 요약:
+  - 구광모 회장의 ESS 사업 행보는 LG의 미래 전략 변화를 보여줍니다.
+  - LG는 ESS 배터리 하드웨어 공급을 넘어 통합 솔루션 역량 강화로 시장을 선도하고자 합니다.
+  - 이는 미래 에너지 시장에서의 경쟁 우위를 확보하기 위한 전략입니다.
+- 관련 기업: LG
+
+### 18. [N2 포커스] SK온·포드 결별 수순…IRA 속 배터리 동맹 '흔들'
+- 발행일: 2026-04-04
+- 매체: www.news2day.co.kr (출처등급 3)
+- 분야: 정책
+- 링크: https://www.news2day.co.kr/article/20260401500242
+- 인기신호: unknown
+- 3문장 요약:
+  - SK온과 포드의 결별 수순은 IRA(미국 인플레이션 감축법) 환경 속 배터리 동맹의 불안정성을 보여줍니다.
+  - SK온은 북미 사업 구조 재정비를 통해 포드 외 다른 완성차 업체의 물량 확보를 모색할 가능성이 있습니다.
+  - 이는 IRA 규제 강화에 따른 배터리 업계의 전략 변화를 시사합니다.
+- 관련 기업: SK온, 포드, OEM
+
+### 19. 씨앤피신소재 착공 임박…韓 LFP 양극재 찾아나선 LG엔솔 [위클리배터리...
+- 발행일: 2026-04-04
+- 매체: www.ddaily.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.ddaily.co.kr/page/view/2026040321482851196
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션이 국내에서 연간 3만 톤 이상의 LFP 양극재 공급을 목표로 하고 있습니다.
+  - 이를 위해 씨앤피신소재 착공이 임박했으며, 국내 LFP 양극재 확보에 나섰습니다.
+  - 이는 LFP 배터리 시장에서의 경쟁력 강화를 위한 전략으로 풀이됩니다.
+- 관련 기업: LG에너지솔루션, 씨앤피신소재, LG엔솔
+
+### 20. 구미에 국내 최대 배터리 시험인증기관 들어선다
+- 발행일: 2026-04-04
+- 매체: www.newsis.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.newsis.com/view/NISX20260404_0003577775
+- 인기신호: unknown
+- 3문장 요약:
+  - 경북 구미에 국내 최대 규모의 2차전지 시험인증기관이 설립될 예정입니다.
+  - 한국화학융합시험연구원(KTR)과 구미시의 업무협약(MOU) 체결로 추진됩니다.
+  - 이는 국내 배터리 산업 생태계 발전에 기여할 것으로 기대됩니다.
+- 관련 기업: 한국화학융합시험연구원, KTR, 2차전지
