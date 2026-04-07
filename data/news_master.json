@@ -1,5 +1,88 @@
 [
   {
+    "title": "[토큰주식] 파워넷, LFP 폐배터리 재활용 상용화 기대에 강세",
+    "description": "파워넷이 리튬인산철(LFP) 폐배터리 재활용 기술 상용화 기대에 강세를 나타냈다. 파워넷은 전 거래일보다 0.69% 오른 583원에 거래됐다. 같은 이슈로 씨아이에스, 엘앤에프, SK이노베이션, LG에너지솔루션 등 2차전지 관련...",
+    "link": "https://www.tokenpost.kr/news/economy/346936",
+    "source": "www.tokenpost.kr",
+    "published_at": "2026-04-07",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "파워넷",
+      "씨아이에스",
+      "엘앤에프"
+    ],
+    "summary_3_sentences": [
+      "파워넷이 리튬인산철(LFP) 폐배터리 재활용 기술 상용화 기대감에 힘입어 강세를 보였다.",
+      "이러한 기대감은 파워넷의 주가 상승으로 이어졌다.",
+      "이는 LFP 폐배터리 재활용 시장의 성장 가능성을 보여준다."
+    ],
+    "uid": "b41209ab4d80b0be5333226dc17e2854630e10b9"
+  },
+  {
+    "title": "\"기술 격차가 살길\"…위기의 K-배터리, 반격 나선다",
+    "description": "삼성SDI는 전고체 배터리 등 차세대 배터리를 비롯해 전기차용 고에너지밀도 각형·원형 배터리, IT 제품용 파우치형 배터리, 에너지저장장치(ESS)용 배터리, 소재·전극 기술과 신공정·설비 등에 R&D 화력을 분산...",
+    "link": "https://www.ntoday.co.kr/news/articleView.html?idxno=126381",
+    "source": "www.ntoday.co.kr",
+    "published_at": "2026-04-07",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "K-배터리",
+      "IT"
+    ],
+    "summary_3_sentences": [
+      "K-배터리 산업은 기술 격차 확보를 통해 위기를 극복하려 하고 있다.",
+      "삼성SDI는 전고체 배터리, 전기차용 고에너지밀도 배터리, ESS용 배터리 등 차세대 기술 개발에 R&D 역량을 집중하고 있다.",
+      "이는 소재, 전극 기술, 신공정 및 설비 개발을 포함한다."
+    ],
+    "uid": "76b83d3d22a243d54acbfc1fd67fe9ff703b22a8"
+  },
+  {
+    "title": "원자력연, LFP 폐배터리 리튬 회수 기술 이전",
+    "description": "최근 전기차 및 에너지저장장치(ESS) 시장 확대와 함께 리튬인산철(LFP) 배터리 수요가 증가하면서 폐배터리 재활용 시장도 빠르게 성장하고 있다. 이에 따라 LFP 폐배터리에서 리튬 등 핵심 자원을 회수하는 기술 확보...",
+    "link": "https://www.todayenergy.kr/news/articleView.html?idxno=296185",
+    "source": "www.todayenergy.kr",
+    "published_at": "2026-04-06",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.industrynews.co.kr",
+        "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=79712"
+      },
+      {
+        "source": "www.mt.co.kr",
+        "link": "https://www.mt.co.kr/future/2026/04/06/2026040609190128203"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "한국원자력연구원",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "전기차 및 ESS 시장 확대에 따라 리튬인산철(LFP) 배터리 수요와 폐배터리 재활용 시장이 빠르게 성장하고 있다.",
+      "이에 따라 LFP 폐배터리에서 리튬 등 핵심 자원을 회수하는 기술 확보가 중요해지고 있다.",
+      "한국원자력연구원은 LFP 폐배터리 리튬 회수 기술을 개발했다."
+    ],
+    "uid": "8b1e5b5e6cf8c261ac3ab955904ece24aa25c794"
+  },
+  {
     "title": "LG화학 27% 폭등 반전… 배터리 소재 판도 흔들렸다",
     "description": "에코프로는 송호준 대표 체제 아래 2차전지 소재 기업으로 시장의 주목을 받아왔다. 반면 LG화학은 497만4969를 기록하며 27.33% 급등했다. 전기차 배터리 소재 사업 확대 기대감이 반영된 결과로 해석된다. '추격자...",
     "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=442956",
@@ -32,6 +115,319 @@
       "The market dynamics for battery materials appear to be shifting, with LG화학 showing strong performance."
     ],
     "uid": "977b6b8fa251c810f877d66d8ba5d823c8faa92b"
+  },
+  {
+    "title": "원자력연구원, \"버려지는 폐배터리에서 리튬을 캔다\"",
+    "description": "전기차·에너지저장장치(ESS) 시장의 급속한 성장과 함께 저렴하면서 안전한 리튬인산철(LFP) 배터리 수요가 급증하고 있다. 또한 LFP 폐배터리에서 리튬 등의 자원을 회수해 재활용하는 시장도 국내 기준 2024년 약 1,000억...",
+    "link": "http://www.knpnews.com/news/articleView.html?idxno=33584",
+    "source": "www.knpnews.com",
+    "published_at": "2026-04-06",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "한국원자력연구원",
+      "전기차·에너지",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "전기차 및 ESS 시장 성장으로 저렴하고 안전한 리튬인산철(LFP) 배터리 수요가 급증하고 있다.",
+      "LFP 폐배터리에서 리튬 등 자원을 회수해 재활용하는 시장은 2024년 약 1,000억 원 규모로 예상된다.",
+      "한국원자력연구원은 폐배터리에서 리튬을 회수하는 기술을 개발했다."
+    ],
+    "uid": "7a970fb8fb8a628e25660f347299447b3c239571"
+  },
+  {
+    "title": "폐배터리서 리튬 재활용 기술 상용화",
+    "description": "한국원자력연구원 제공 전기차·에너지저장장차(ESS) 시장의 급속한 성장과 함께 국내 연구진이 개발한 LFP 폐배터리 재활용 기술이 사업화 단계에 접어들었다. 6일 한국원자력연구원에 따르면 원자력시설청정기술개발부...",
+    "link": "https://www.ggilbo.com/news/articleView.html?idxno=1151181",
+    "source": "www.ggilbo.com",
+    "published_at": "2026-04-06",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "한국원자력연구원",
+      "전기차·에너지",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "국내 연구진이 개발한 LFP 폐배터리 재활용 기술이 사업화 단계에 접어들었다.",
+      "이는 전기차 및 ESS 시장의 급속한 성장과 함께 폐배터리 재활용 시장의 중요성을 부각시킨다.",
+      "한국원자력연구원 원자력시설청정기술개발부에서 해당 기술을 개발했다."
+    ],
+    "uid": "6955e57656da8859b134c321d1f3268672b99f80"
+  },
+  {
+    "title": "경상국립대, 피지컬 AI 전고체 전지 ‘고성능 실리콘 음극재’ 합성 기...",
+    "description": "이러한 배경 속에서 경상국립대학교 공과대학 나노·신소재공학부 성재경 교수 연구팀이 전고체 배터리의 성능 한계를 극복할 수 있는 실리콘 기반 음극 소재를 개발해 주목받고 있다. 실리콘 음극재는 기존 상용화...",
+    "link": "https://www.cnbnews.com/news/article.html?no=787800",
+    "source": "www.cnbnews.com",
+    "published_at": "2026-04-06",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.metroseoul.co.kr",
+        "link": "http://www.metroseoul.co.kr/article/20260406500554"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "경상국립대학교",
+      "나노·신소재",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "경상국립대학교 연구팀이 전고체 배터리의 성능 한계를 극복할 수 있는 실리콘 기반 음극 소재를 개발했다.",
+      "이 실리콘 음극재는 기존 상용화된 소재보다 높은 성능을 제공할 것으로 기대된다.",
+      "이는 차세대 배터리 기술 발전에 기여할 것으로 보인다."
+    ],
+    "uid": "5cadcbe0e82eae1405d9614f02b5e3354661b29a"
+  },
+  {
+    "title": "Polestar 2, 3 Batteries Now Contain at Least 50% Recycled Cobalt",
+    "published_at": "2026-04-06",
+    "source": "thebuzzevnews.com",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxcmhLSlY3V3liRENDa256cFhHdndvYVJkRG9iSmJMdUlfMzlmWFBjN2poR3U0Ny1wWjhObHpOTnlHaGpHZkNhOVF6THRydDQzbmV2TVoyX0NWeGlHX2xqY1RGSF9nQ2Y0NlRzSHNweFRCUmlfbW9J?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBxcmhLSlY3V3liRENDa256cFhHdndvYVJkRG9iSmJMdUlfMzlmWFBjN2poR3U0Ny1wWjhObHpOTnlHaGpHZkNhOVF6THRydDQzbmV2TVoyX0NWeGlHX2xqY1RGSF9nQ2Y0NlRzSHNweFRCUmlfbW9J?oc=5\" target=\"_blank\">Polestar 2, 3 Batteries Now Contain at Least 50% Recycled Cobalt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thebuzzevnews.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 70,
+    "monitor_score": 80,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "Polestar"
+    ],
+    "summary_3_sentences": [
+      "폴스타 2 및 3의 배터리에 재활용 코발트가 최소 50% 함유되었다.",
+      "이는 지속 가능한 배터리 생산을 위한 중요한 진전이다.",
+      "재활용 소재 사용 증가는 배터리 산업의 친환경성을 높이는 데 기여한다."
+    ],
+    "uid": "019ebd4ce4c87867ceac8e4830b85b5e58414da2"
+  },
+  {
+    "title": "Lithium Mining Market Expands in EV Batteries, Consumer",
+    "published_at": "2026-04-06",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa0UyblR4Xzgzdl9jTnlmWEpWTEE2dWdKXzRhVFByMm0xeW9vam1xWl9qUWhwQk5HYmNJNWswQ1k1Zm84RlE5dVREeUZkRFNxeFUtMkhyOTJaa2U5djlkVjd5V1I1VjNjZFM5aTU5Szc2TmpYSF9TYW1DbUZUamxWaVFST08tRkVoSlplM19KZ2p1X1Ey?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQa0UyblR4Xzgzdl9jTnlmWEpWTEE2dWdKXzRhVFByMm0xeW9vam1xWl9qUWhwQk5HYmNJNWswQ1k1Zm84RlE5dVREeUZkRFNxeFUtMkhyOTJaa2U5djlkVjd5V1I1VjNjZFM5aTU5Szc2TmpYSF9TYW1DbUZUamxWaVFST08tRkVoSlplM19KZ2p1X1Ey?oc=5\" target=\"_blank\">Lithium Mining Market Expands in EV Batteries, Consumer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 75,
+    "monitor_score": 86,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "리튬 채굴 시장이 전기차 배터리 및 소비자 시장의 수요 증가에 따라 확장되고 있다.",
+      "이는 리튬 공급망의 중요성을 부각시킨다.",
+      "전기차 시장 성장이 리튬 수요를 견인하고 있음을 보여준다."
+    ],
+    "uid": "9a12e68c64c590a8af1de6ff66913040c7632894"
+  },
+  {
+    "title": "Lithium Iron Phosphate (LFP) Battery Cathode Materials Market",
+    "published_at": "2026-04-06",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSmFiYlNCWUlCaE4xczhON2s0OGdMS1BoUWZhU2VIM0doTDVIMGRCcFZ2N0tiellMX1k2bm1aWHZfU1NYbXJGRTNRZy00NjdfOU11RlFkak9iWi01OHl5Y0hQU0pPQl9veG9uZkxmZWFtRnp0bnVfZUVvR2hpQmhKcEVqRjF5RFAtNldraXZYUUF2aVQyNS1McU1iTQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPSmFiYlNCWUlCaE4xczhON2s0OGdMS1BoUWZhU2VIM0doTDVIMGRCcFZ2N0tiellMX1k2bm1aWHZfU1NYbXJGRTNRZy00NjdfOU11RlFkak9iWi01OHl5Y0hQU0pPQl9veG9uZkxmZWFtRnp0bnVfZUVvR2hpQmhKcEVqRjF5RFAtNldraXZYUUF2aVQyNS1McU1iTQ?oc=5\" target=\"_blank\">Lithium Iron Phosphate (LFP) Battery Cathode Materials Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "리튬인산철(LFP) 배터리 양극재 시장에 대한 분석이 제공되었다.",
+      "이 시장은 전기차 및 ESS 시장의 성장에 따라 확대될 것으로 예상된다.",
+      "이는 LFP 배터리 기술의 중요성을 강조한다."
+    ],
+    "uid": "415c7e18e0bea285c1a4f7e8579077c2c2b28387"
+  },
+  {
+    "title": "This New Way To Produce Battery-Grade Lithium Kills Two Birds With One Stone",
+    "published_at": "2026-04-06",
+    "source": "bgr.com",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVmgwUE5kLTljUGhwRE9Xa19wLUUtVTRFNWdxRVg0bDNxQW9Jb3JiQXRoT0hyRWxaOXo4MWpSVzB5Y2ZtLTctQm92VXpMZVRHWEFnZ2thR2hlQ19jeWRjWVp6TTRrOXZBM2duLUVJSjBhZTBadHhsaGVJNjJfa2RtaXBPQnNxUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPVmgwUE5kLTljUGhwRE9Xa19wLUUtVTRFNWdxRVg0bDNxQW9Jb3JiQXRoT0hyRWxaOXo4MWpSVzB5Y2ZtLTctQm92VXpMZVRHWEFnZ2thR2hlQ19jeWRjWVp6TTRrOXZBM2duLUVJSjBhZTBadHhsaGVJNjJfa2RtaXBPQnNxUQ?oc=5\" target=\"_blank\">This New Way To Produce Battery-Grade Lithium Kills Two Birds With One Stone</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bgr.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "배터리 등급의 리튬을 생산하는 새로운 방식이 개발되었다.",
+      "이 방식은 두 가지 이점을 동시에 제공하는 것으로 알려졌다.",
+      "이는 배터리 생산 효율성을 높이는 데 기여할 수 있다."
+    ],
+    "uid": "c10255653f40cd991979e38f9f459e504a141625"
+  },
+  {
+    "title": "Chinese scientists develop EV battery that could double range",
+    "published_at": "2026-04-06",
+    "source": "Yahoo Autos",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRPakJvTWgyOGRFejJsNUN2ckE4VG94TzhrWkZKOEY4ZEJ5LXh4OW9ENE5fNTR6anJmN0R5ZV9uVUlUMjFQcWhRQUlwM1Y1VnVKSjhKbTVrWlhPVVlMYWNMRjRTYmd2VXZmRldvdVhYQUxhVDktcUhYeVZzbW5tZUVhampKRFhscWl2dlRzdTVmMXA4UUtwb0NRQmJULUZwTzhYMlRpNA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRPakJvTWgyOGRFejJsNUN2ckE4VG94TzhrWkZKOEY4ZEJ5LXh4OW9ENE5fNTR6anJmN0R5ZV9uVUlUMjFQcWhRQUlwM1Y1VnVKSjhKbTVrWlhPVVlMYWNMRjRTYmd2VXZmRldvdVhYQUxhVDktcUhYeVZzbW5tZUVhampKRFhscWl2dlRzdTVmMXA4UUtwb0NRQmJULUZwTzhYMlRpNA?oc=5\" target=\"_blank\">Chinese scientists develop EV battery that could double range</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Autos</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "중국 과학자들이 전기차 주행 거리를 두 배로 늘릴 수 있는 배터리를 개발했다.",
+      "이 기술은 전기차의 성능을 크게 향상시킬 잠재력을 가지고 있다.",
+      "이는 향후 전기차 시장에 큰 영향을 미칠 것으로 예상된다."
+    ],
+    "uid": "2ada37a21fbbfadf02e467630ef4915890648a27"
+  },
+  {
+    "title": "China Requires Electric Vehicle Batteries to Be Traceable from Made to Recycled",
+    "published_at": "2026-04-06",
+    "source": "VOI.id",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA1WmFOM0hsSlNSY3A4VkhCNjZzVnNPMFhob2duYW5CNllBc0lLMTJ6VXpYOGZpUkVqZDc2dU1ROWFTTktfVHNB0gFCQVVfeXFMTWVtZTNRUjM5Wl9Xd3MzSS1vbDA0em9WVlRQcFFaMkh2OUwzN3hlWHF6TldSU2plSXhNYlVWRUlfSzlR?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiR0FVX3lxTFA1WmFOM0hsSlNSY3A4VkhCNjZzVnNPMFhob2duYW5CNllBc0lLMTJ6VXpYOGZpUkVqZDc2dU1ROWFTTktfVHNB0gFCQVVfeXFMTWVtZTNRUjM5Wl9Xd3MzSS1vbDA0em9WVlRQcFFaMkh2OUwzN3hlWHF6TldSU2plSXhNYlVWRUlfSzlR?oc=5\" target=\"_blank\">China Requires Electric Vehicle Batteries to Be Traceable from Made to Recycled</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VOI.id</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "VOI"
+    ],
+    "summary_3_sentences": [
+      "중국은 전기차 배터리의 생산부터 재활용까지 전 과정을 추적할 수 있도록 요구하고 있다.",
+      "이는 배터리 재활용 시스템의 투명성과 효율성을 높이기 위한 조치이다.",
+      "이러한 규제는 중국 내 전기차 배터리 산업에 영향을 미칠 것으로 예상된다."
+    ],
+    "uid": "4884587a228ab94353c363e8f694ca1e69d2d690"
+  },
+  {
+    "title": "Lithium battery fire inside Bay Area home kills one",
+    "published_at": "2026-04-06",
+    "source": "SFGATE",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVRkYkUzeTJKU1JnNFJPRkhCN3BOVUZXWU5BdUtyVzRBdmxJcWR6Y3N4ZUpFeGhTWmdwc25OX3FPUm50NjA2cVZUOXZiRzlfYURqRVR0T3E5NmtCWHh5X1FzQVhUMEE0aDVGSl9NSDI2SWwwMGRiQk01bHRPaml2VmNuTkE2dVc4?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVRkYkUzeTJKU1JnNFJPRkhCN3BOVUZXWU5BdUtyVzRBdmxJcWR6Y3N4ZUpFeGhTWmdwc25OX3FPUm50NjA2cVZUOXZiRzlfYURqRVR0T3E5NmtCWHh5X1FzQVhUMEE0aDVGSl9NSDI2SWwwMGRiQk01bHRPaml2VmNuTkE2dVc4?oc=5\" target=\"_blank\">Lithium battery fire inside Bay Area home kills one</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SFGATE</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "WHh5X1FzQVhUMEE0aDVGSl9NSDI",
+      "SFGATE"
+    ],
+    "summary_3_sentences": [
+      "미국 베이 에어리어의 한 주택에서 발생한 리튬 배터리 화재로 사망자가 발생했다.",
+      "이는 리튬 배터리의 안전성에 대한 우려를 제기한다.",
+      "배터리 안전 관리의 중요성을 다시 한번 강조하는 사건이다."
+    ],
+    "uid": "39c0be5445a07bddea1b147a1d0c6bdf62cdeb92"
+  },
+  {
+    "title": "TSLA Stock Today: April 6 – China Tightens EV Battery Recycling",
+    "published_at": "2026-04-06",
+    "source": "Meyka",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPT2Q3dk85RFVCSjJPVl9FVW9TeEpWTERJUUtra0x6YWo4X3FiQW4wREM1cmdXYVhGV2JOUW9zb2hjM1Z2aXdkMy1fR3ZCcHVvS1lYOGlBS3A0TFBsd3NrQzltdG1hLVBid3ZNdTRua2ZUS3ZjVGtrTmlRNzRKTjYyRnhTYkdjN0ZPVTdremh4ZVFlc1k?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPT2Q3dk85RFVCSjJPVl9FVW9TeEpWTERJUUtra0x6YWo4X3FiQW4wREM1cmdXYVhGV2JOUW9zb2hjM1Z2aXdkMy1fR3ZCcHVvS1lYOGlBS3A0TFBsd3NrQzltdG1hLVBid3ZNdTRua2ZUS3ZjVGtrTmlRNzRKTjYyRnhTYkdjN0ZPVTdremh4ZVFlc1k?oc=5\" target=\"_blank\">TSLA Stock Today: April 6 – China Tightens EV Battery Recycling</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Meyka</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "TSLA"
+    ],
+    "summary_3_sentences": [
+      "중국이 전기차 배터리 재활용 규제를 강화하고 있다.",
+      "이는 배터리 재활용 산업의 투명성과 효율성을 높이는 데 기여할 것으로 보인다.",
+      "이러한 규제 변화는 관련 기업들에게 영향을 미칠 수 있다."
+    ],
+    "uid": "4a7ffcfbaa51401bd754a0d7771bf335d7f0f596"
+  },
+  {
+    "title": "China advances EV battery recycling and ultra-long-range tech",
+    "published_at": "2026-04-06",
+    "source": "MSN",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPUW9ad3NKQlE5akFVTldMYXlGeDRpblhRbks2R3hDTERJNmV0SHJURDl3NUYwSjF0Ml9wQ2F4S3lSU09IalI3Vy1yMVo2Ql9EanN6aXEtS0R0OTJiUC10Vmh0dXJTNG9JRXd0ZFBfTDRhQTNPamVlSXJsd2pjWkhLU3FUX3NaZTd3M296d0dmRVpEa2Zqc24yb1NvUkZJdHNldHpjb1dxYUdNZUlYczdEakZRZ3FtM2lIUXl1TXZtclFRRGpPaDZkUUJxMTBSaWI0RnlaV0YzaVRsbENtTkhDR1RWSEFpQm4zMmNxRTdfejhzdXdUZVE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxPUW9ad3NKQlE5akFVTldMYXlGeDRpblhRbks2R3hDTERJNmV0SHJURDl3NUYwSjF0Ml9wQ2F4S3lSU09IalI3Vy1yMVo2Ql9EanN6aXEtS0R0OTJiUC10Vmh0dXJTNG9JRXd0ZFBfTDRhQTNPamVlSXJsd2pjWkhLU3FUX3NaZTd3M296d0dmRVpEa2Zqc24yb1NvUkZJdHNldHpjb1dxYUdNZUlYczdEakZRZ3FtM2lIUXl1TXZtclFRRGpPaDZkUUJxMTBSaWI0RnlaV0YzaVRsbENtTkhDR1RWSEFpQm4zMmNxRTdfejhzdXdUZVE?oc=5\" target=\"_blank\">China advances EV battery recycling and ultra-long-range tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "MSN"
+    ],
+    "summary_3_sentences": [
+      "중국이 전기차 배터리 재활용 기술과 초장거리 주행 기술을 발전시키고 있다.",
+      "이는 전기차 산업의 지속 가능성과 성능 향상에 기여할 것으로 보인다.",
+      "중국의 이러한 기술 발전은 글로벌 전기차 시장에 영향을 미칠 수 있다."
+    ],
+    "uid": "82e4190a788bbc86b32f3dc695c467bfaced392c"
+  },
+  {
+    "title": "Safe High-Capacity Na-Ion Battery with Nonflammable Electrolyte",
+    "published_at": "2026-04-06",
+    "source": "Bioengineer.org",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV3UxUWpNZi1mTlRycFN6dTUxLTEwVUdSMjJSTm10MkxIM3RGak5LbEczMFZGUEZXQUthWW1wRmNQNUpDTkVneFdfMXctemc4d3c3OURYVUdWZXQ3YXlvWGxnaWhmdUlLUUpUS3p6Q2tPaTh0Q1B0SkdEelU0eklvYU10czA5MDE1dTJxRTZNRW9RZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPV3UxUWpNZi1mTlRycFN6dTUxLTEwVUdSMjJSTm10MkxIM3RGak5LbEczMFZGUEZXQUthWW1wRmNQNUpDTkVneFdfMXctemc4d3c3OURYVUdWZXQ3YXlvWGxnaWhmdUlLUUpUS3p6Q2tPaTh0Q1B0SkdEelU0eklvYU10czA5MDE1dTJxRTZNRW9RZw?oc=5\" target=\"_blank\">Safe High-Capacity Na-Ion Battery with Nonflammable Electrolyte</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bioengineer.org</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 70,
+    "monitor_score": 80,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [],
+    "summary_3_sentences": [
+      "비가연성 전해질을 사용한 안전하고 용량이 큰 나트륨 이온 배터리가 개발되었다.",
+      "이 배터리는 기존 리튬 이온 배터리의 대안이 될 수 있다.",
+      "이는 차세대 배터리 기술 개발의 가능성을 보여준다."
+    ],
+    "uid": "b26509efc67d96a7ef90f04b19f16b2c8a6bcb8b"
   },
   {
     "title": "LG엔솔, 볼보코리아 상대로 특허 소송…\"中 배터리업체 겨냥 압박\"",
