@@ -1,0 +1,167 @@
+# 배터리 뉴스 데일리 브리핑 (2026-04-08 전날 기준)
+
+- 총 12건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | cathode | 2026-04-08 | www.sentv.co.kr | [이슈플러스] K-배터리, ‘동반 적자’ 현실화…“하반기 반등 가능성” | https://www.sentv.co.kr/article/view/sentv202604080084 | unknown |
+| 2 | 3 | 전고체 | 2026-04-08 | South China Morning Post | Chinese carmakers bet on solid-state batteries to drive next EV phase | https://news.google.com/rss/articles/CBMizAFBVV95cUxQdmR5VHk1TDh3MkRKd2dvbzBQRUEtczJwQjhQV2RVbjN3cFVyQkZOR1ZybjM0cW1EdXh5SFpxNWZZVVpOd09WNnJvS2s2a05uR3hEMS1jLXBCQnJjWlVEazExTUhjdUxaOFB3SFlkb0t1SVBKMl96Q2x5VU5lY1FUdmFLN1NfaXRoenQ2ZGo4S3g5cldBV095UncwZF92NlUyTmNrcVpadmtnSXQtbm5qTlpTOTFnRWtqRVpXRGxrOTdlbnoxVi1OMEVVODbSAcwBQVVfeXFMTUFJQnl6VDAta0c4UXRPRTlNSVJGZlZVSTdDTFNjRllxSWNDUnlNS1RVaXBhbDJwLTJxcWc5cWFPdTROc09qMTRqMmM2aGFRNmVPOFdNTEEtdkNsSmRQODRlaGhWWFgtSlY2TEViWTBmY01WSVdTbWlsVjNJVFBhellYajlFdjVVekpDa3BuNGI4OG95WjA0aWFZeGcxYjZlbnY4VVB6ei1zVDk1YUxEZ2ljNDBuMlZqNHIyZHlNc2dCYWhvRGlmV2lRRWc3?oc=5 | unknown |
+| 3 | 3 | cathode | 2026-04-08 | Battery Technology | EU Policies That Will Transform Battery Recycling Industry | https://news.google.com/rss/articles/CBMirwFBVV95cUxOU1VyOHMtbVlUR0ZnU1NJNk81T1hVVzRJUFVnRTRGSl9RcnpLc2NmVjBUdmNBOGVOTEtiWXc0QjNfb0p6b0hSV2tJNG9OX3NyZVlLZV9kR1RZZ1RLR2J4djlnaktsYi1EbjY2LVZuTDk2YUJVajRhMmh2TEJuc2pzNkVtVXNORWtWbUlXX3lkeW41M3U2dG5wcFBLeV9PMlR5Y3hKUjdncm5lR2MwR1pF?oc=5 | unknown |
+| 4 | 3 | 나트륨 | 2026-04-08 | China Academy | China Built World’s First Sodium-ion Battery With a Built-in ‘Firefighter’ | https://news.google.com/rss/articles/CBMiogFBVV95cUxNR1NvdHVHNThmTjZqV25WczlDSmh6dEN2QVE5OGtyaDZMQXVUWFEwNlEtTk00SWFmeEQ1UlFBVHBfNG9hVDE4M1daZTVaWmpBQk1ndlFrcjVaTmI3ZXJvdlpia0tTbjM5X3hOcU1ZZmJuemJtaWw5M0J5UUVqUmVGMmFqLTBHMzV4ZmlmUm1zdU43Qlh5cmItempSSUNWOHI3WVE?oc=5 | unknown |
+| 5 | 3 | 전고체 | 2026-04-09 | www.edaily.co.kr | 엠플러스 "전고체 배터리 양산 핵심 기술 개발…파일럿 장비 수주" | http://www.edaily.co.kr/news/newspath.asp?newsid=03368566645414480 | unknown |
+| 6 | 3 | 기타 | 2026-04-08 | www.smartbizn.com | 전기차는 아직인데 배터리가 움직인다···반등의 무게중심 ESS·데이터... | https://www.smartbizn.com/news/articleView.html?idxno=141459 | unknown |
+| 7 | 3 | 나트륨 | 2026-04-08 | Balkan Green Energy News | Slovenian TAB plans to develop its own sodium-ion batteries | https://news.google.com/rss/articles/CBMimgFBVV95cUxNYzl6ZWs5d1ZNWjdnRTVGRHJmcF9Lcmpkb1pSNWxTMVktSEdRY1Q4SWZ1RENQcVdwVmhGNWdib0piVWt6MVJFenNlZE5ldGI0RkFFMjZ4cmZjWXVxS3h2djFQTkc5TFRISjdoSUVlS25tdHEwb0poRUNwVDRXRnJoaWZBVjdlSXFwaVBRRWIyV0tNMkJvZWsxSkln?oc=5 | unknown |
+| 8 | 3 | electrolyte | 2026-04-08 | New Atlas | New cold-hardy electrolyte could potentially double battery range of EVs | https://news.google.com/rss/articles/CBMibEFVX3lxTFB1SU5aYlBIUkd5S01KcUZaeXUzVWloR196aDF1aHZNQ3BDeTVBbnMtejJXRXFRNnlTeE41Yjl6U0hIREw2eEhWcm0tVnJLTkp4SWtaZmpDeWNyNWJrc19LdFhxcHEyVjF1dldTbg?oc=5 | unknown |
+| 9 | 3 | 나트륨 | 2026-04-08 | ESS News | Utility-scale sodium-ion arrives in Romania: Renalfa plans 3.6 GWh dual-chemistry BESS | https://news.google.com/rss/articles/CBMivwFBVV95cUxQaVZyREVpcVdjRTNkRkFKOFJ4T296T3dwdzJMRUZ1dWVXRUVBR3Y0MmtTMngzQXU5TGlldUF5NE5IUVBxV3ZxVnJRSWlURV9VN2xmRV8zTmJKdmdSd2VtNUFtbzhjVEJCSExtTTZWYng5R19aRE5uSjhoUU81STQzVDE4TkNYOEx1WTJRNVJoUVVVOHRmVFJkZFdVelphdlg2YlVWQVcxeWI3OWFkbmNfVnhuNEJrQ3lCZGlaZTMwZw?oc=5 | unknown |
+| 10 | 3 | 전고체 | 2026-04-08 | openPR.com | Future of Solid-State Battery Market 2026-2033 \| US$ 15.4 | https://news.google.com/rss/articles/CBMilAFBVV95cUxPMTF2YUVYbzJrRnZaTXNyaEszT21SbjI1Mmk5X0R0SjVUellveXpnVmNKTUdNYm1QT1VUWlRvX1hKbW83SFdtR1ptY0NybEhOdFBnZFh4dWo0d0pQb25SUU03bFJNM2JTTldVRFR2TnBXV2t2cXVuclZweFQ5cnFEamdhODZBMDNVN0dxb3g1cWNXMzN3?oc=5 | unknown |
+| 11 | 3 | cathode | 2026-04-08 | National Today | Global Lithium-Ion Battery Cathode Market Surges with EV Adoption | https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNmNGLXlfcHplbUpaYUpWQnJ1UXAyMXNBUlkxX3o4U2VpbURoZmNtenY5aFhZYXBQODNDb2lGQ0gwVFJ6YWdfWHUtbGQtWlc2SEh1VUdaQWtGTUZqc1dxWjBEbHQ0SWpUME8zZTFHNno5Y2dxMEJ5X2FEZ2JKbVRFT3I0a3FRV3Z0REs5bUtWQmM0OGw2aFpTNUktalFFWTQtRnIyMTVkbVNyV210N2VUZXZxMWgydzE1ZktDd3RzcGJ5dw?oc=5 | unknown |
+| 12 | 3 | 기타 | 2026-04-08 | www.huffingtonpost.kr | 최주선 삼성SDI '하반기 흑자전환'의 키 유럽 공략, 6개 분기 연속 적자... | https://www.huffingtonpost.kr/article/256476 | unknown |
+
+## 상세 요약
+
+### 1. [이슈플러스] K-배터리, ‘동반 적자’ 현실화…“하반기 반등 가능성”
+- 발행일: 2026-04-08
+- 매체: www.sentv.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.sentv.co.kr/article/view/sentv202604080084
+- 참고 링크: https://www.ajunews.com/view/20260408145908888, https://www.asiatoday.co.kr/view.php?key=20260409010002630
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 2차전지 소재 기업들이 미국 ESS 시장 공략을 위해 LFP 배터리 포트폴리오 확장을 추진하고 있습니다.
+  - 이는 소재 조달 안정성을 확보하고 미국 ESS 시장의 수요에 대응하기 위한 전략으로 분석됩니다.
+  - 이러한 움직임은 최근 피노의 지분 확보 시도에서도 나타나고 있습니다.
+- 관련 기업: 피노, K-배터리, 2차전지
+
+### 2. Chinese carmakers bet on solid-state batteries to drive next EV phase
+- 발행일: 2026-04-08
+- 매체: South China Morning Post (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMizAFBVV95cUxQdmR5VHk1TDh3MkRKd2dvbzBQRUEtczJwQjhQV2RVbjN3cFVyQkZOR1ZybjM0cW1EdXh5SFpxNWZZVVpOd09WNnJvS2s2a05uR3hEMS1jLXBCQnJjWlVEazExTUhjdUxaOFB3SFlkb0t1SVBKMl96Q2x5VU5lY1FUdmFLN1NfaXRoenQ2ZGo4S3g5cldBV095UncwZF92NlUyTmNrcVpadmtnSXQtbm5qTlpTOTFnRWtqRVpXRGxrOTdlbnoxVi1OMEVVODbSAcwBQVVfeXFMTUFJQnl6VDAta0c4UXRPRTlNSVJGZlZVSTdDTFNjRllxSWNDUnlNS1RVaXBhbDJwLTJxcWc5cWFPdTROc09qMTRqMmM2aGFRNmVPOFdNTEEtdkNsSmRQODRlaGhWWFgtSlY2TEViWTBmY01WSVdTbWlsVjNJVFBhellYajlFdjVVekpDa3BuNGI4OG95WjA0aWFZeGcxYjZlbnY4VVB6ei1zVDk1YUxEZ2ljNDBuMlZqNHIyZHlNc2dCYWhvRGlmV2lRRWc3?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국 자동차 제조사들이 차세대 전기차 시장을 주도하기 위해 전고체 배터리에 주목하고 있습니다.
+  - 전고체 배터리는 기존 리튬이온 배터리의 한계를 극복하고 더 높은 에너지 밀도와 안전성을 제공할 것으로 기대됩니다.
+  - 이는 전기차 기술의 새로운 시대를 열 것으로 전망됩니다.
+
+### 3. EU Policies That Will Transform Battery Recycling Industry
+- 발행일: 2026-04-08
+- 매체: Battery Technology (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMirwFBVV95cUxOU1VyOHMtbVlUR0ZnU1NJNk81T1hVVzRJUFVnRTRGSl9RcnpLc2NmVjBUdmNBOGVOTEtiWXc0QjNfb0p6b0hSV2tJNG9OX3NyZVlLZV9kR1RZZ1RLR2J4djlnaktsYi1EbjY2LVZuTDk2YUJVajRhMmh2TEJuc2pzNkVtVXNORWtWbUlXX3lkeW41M3U2dG5wcFBLeV9PMlR5Y3hKUjdncm5lR2MwR1pF?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 유럽 연합(EU)의 새로운 정책이 배터리 재활용 산업에 큰 변화를 가져올 것으로 예상됩니다.
+  - 이러한 정책은 지속 가능한 배터리 생산 및 폐기물 관리를 강화하는 데 초점을 맞출 것입니다.
+  - 이는 배터리 재활용 시장의 성장을 촉진하고 친환경적인 산업 생태계를 구축하는 데 기여할 것입니다.
+- 관련 기업: EU
+
+### 4. China Built World’s First Sodium-ion Battery With a Built-in ‘Firefighter’
+- 발행일: 2026-04-08
+- 매체: China Academy (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMiogFBVV95cUxNR1NvdHVHNThmTjZqV25WczlDSmh6dEN2QVE5OGtyaDZMQXVUWFEwNlEtTk00SWFmeEQ1UlFBVHBfNG9hVDE4M1daZTVaWmpBQk1ndlFrcjVaTmI3ZXJvdlpia0tTbjM5X3hOcU1ZZmJuemJtaWw5M0J5UUVqUmVGMmFqLTBHMzV4ZmlmUm1zdU43Qlh5cmItempSSUNWOHI3WVE?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMifEFVX3lxTFAxQkhaZWRGb2o0Wml5RDNnNjlTdWprRWR6aWlVcVgxYWFLU1ZObkZZVk96Ql92MjhuaVJHcHZMekxla0VLZEpQVERuV0ZoM2tfUVppcXNzMDdhYTdmQ1dDbDJPSWd2U3I1NjlhNk9WQ3llWTlfYUFqZGRNMUI?oc=5, https://news.google.com/rss/articles/CBMitAFBVV95cUxQNWQxdnFtNXFkcnp4Q2owc1hBN0lHMzFyWkY3SEJBTUlZWlRWRXMwaWxYeVJYbmZNdU5rWVRuQTlMaDdPVmxzaFBmSFBsUnYzMDR6LURRbkJ5ZEZ5TjIxbklEM2JkNnY5dHRwTG9OYzhISmlBN3hnelNXR284LUpWb19HdS1HYXg0YUoxS3FfRW9hQUhnbGFHNjBiWW9abm91dVlpZ2twR0VmNVYwZFQtM1JTTDI?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국에서 '소방수' 기능이 내장된 세계 최초의 나트륨 이온 배터리가 개발되었습니다.
+  - 이 배터리는 안전성을 강화하여 잠재적인 화재 위험을 줄이는 혁신적인 기술을 적용했습니다.
+  - 이는 차세대 배터리 기술의 안전성 향상에 중요한 진전을 의미합니다.
+- 관련 기업: China Academy
+
+### 5. 엠플러스 "전고체 배터리 양산 핵심 기술 개발…파일럿 장비 수주"
+- 발행일: 2026-04-09
+- 매체: www.edaily.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: http://www.edaily.co.kr/news/newspath.asp?newsid=03368566645414480
+- 참고 링크: https://www.mt.co.kr/stock/2026/04/09/2026040909441572642
+- 인기신호: unknown
+- 3문장 요약:
+  - 이차전지 장비 전문 기업 엠플러스가 전고체 배터리 양산의 핵심 병목 현상을 해결하는 장비 기술 개발을 완료했습니다.
+  - 엠플러스는 조립 공정 관련 기술 개발을 통해 파일럿 장비 수주에 성공했다고 밝혔습니다.
+  - 이는 전고체 배터리 상용화를 위한 중요한 기술적 진보를 나타냅니다.
+- 관련 기업: 엠플러스, 이차전지
+
+### 6. 전기차는 아직인데 배터리가 움직인다···반등의 무게중심 ESS·데이터...
+- 발행일: 2026-04-08
+- 매체: www.smartbizn.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.smartbizn.com/news/articleView.html?idxno=141459
+- 참고 링크: https://www.etoday.co.kr/news/view/2573961, https://theviewers.co.kr/View.aspx?No=4035473
+- 인기신호: unknown
+- 3문장 요약:
+  - 전기차 판매 회복 신호는 아직 뚜렷하지 않지만, 2차전지 업종은 에너지 저장 시스템(ESS)과 데이터 센터 등에서 반등의 기회를 찾고 있습니다.
+  - 지난해 배터리 업황은 전반적으로 부진했으며, 특히 미국 연방 전기차 세액공제 조건이 2025년 9월 30일 이전 취득 차량에 적용되는 등 변수가 존재합니다.
+  - 이러한 상황 속에서 ESS 및 데이터 센터와 같은 새로운 수요처 발굴이 2차전지 업계의 중요한 과제로 떠오르고 있습니다.
+- 관련 기업: 2차전지
+
+### 7. Slovenian TAB plans to develop its own sodium-ion batteries
+- 발행일: 2026-04-08
+- 매체: Balkan Green Energy News (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMimgFBVV95cUxNYzl6ZWs5d1ZNWjdnRTVGRHJmcF9Lcmpkb1pSNWxTMVktSEdRY1Q4SWZ1RENQcVdwVmhGNWdib0piVWt6MVJFenNlZE5ldGI0RkFFMjZ4cmZjWXVxS3h2djFQTkc5TFRISjdoSUVlS25tdHEwb0poRUNwVDRXRnJoaWZBVjdlSXFwaVBRRWIyV0tNMkJvZWsxSkln?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 슬로베니아의 TAB사가 자체적인 나트륨 이온 배터리 개발 계획을 발표했습니다.
+  - 이는 기존 리튬 이온 배터리를 대체할 수 있는 새로운 배터리 기술 개발 경쟁에 참여하겠다는 의지를 보여줍니다.
+  - 나트륨 이온 배터리는 잠재적으로 더 저렴하고 풍부한 원료를 사용할 수 있다는 장점이 있습니다.
+- 관련 기업: TAB
+
+### 8. New cold-hardy electrolyte could potentially double battery range of EVs
+- 발행일: 2026-04-08
+- 매체: New Atlas (출처등급 3)
+- 분야: electrolyte
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFB1SU5aYlBIUkd5S01KcUZaeXUzVWloR196aDF1aHZNQ3BDeTVBbnMtejJXRXFRNnlTeE41Yjl6U0hIREw2eEhWcm0tVnJLTkp4SWtaZmpDeWNyNWJrc19LdFhxcHEyVjF1dldTbg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 새로운 저온 내성 전해질 개발로 전기차 배터리 주행 거리가 두 배로 늘어날 가능성이 있습니다.
+  - 이 전해질은 극한의 추운 날씨에서도 배터리 성능을 유지하여 전기차의 실용성을 크게 향상시킬 수 있습니다.
+  - 이는 전기차의 겨울철 성능 저하 문제를 해결하는 데 기여할 것으로 기대됩니다.
+- 관련 기업: New Atlas
+
+### 9. Utility-scale sodium-ion arrives in Romania: Renalfa plans 3.6 GWh dual-chemistry BESS
+- 발행일: 2026-04-08
+- 매체: ESS News (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMivwFBVV95cUxQaVZyREVpcVdjRTNkRkFKOFJ4T296T3dwdzJMRUZ1dWVXRUVBR3Y0MmtTMngzQXU5TGlldUF5NE5IUVBxV3ZxVnJRSWlURV9VN2xmRV8zTmJKdmdSd2VtNUFtbzhjVEJCSExtTTZWYng5R19aRE5uSjhoUU81STQzVDE4TkNYOEx1WTJRNVJoUVVVOHRmVFJkZFdVelphdlg2YlVWQVcxeWI3OWFkbmNfVnhuNEJrQ3lCZGlaZTMwZw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 루마니아에서 유틸리티 규모의 나트륨 이온 배터리 에너지 저장 시스템(BESS)이 도입될 예정입니다.
+  - Renalfa사는 3.6GWh 용량의 이중 화학 배터리 BESS를 계획하고 있으며, 이는 대규모 에너지 저장 솔루션 시장의 성장을 보여줍니다.
+  - 이는 나트륨 이온 배터리가 대규모 에너지 저장 분야에서 실용화될 가능성을 시사합니다.
+- 관련 기업: Renalfa, BESS
+
+### 10. Future of Solid-State Battery Market 2026-2033 | US$ 15.4
+- 발행일: 2026-04-08
+- 매체: openPR.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMilAFBVV95cUxPMTF2YUVYbzJrRnZaTXNyaEszT21SbjI1Mmk5X0R0SjVUellveXpnVmNKTUdNYm1QT1VUWlRvX1hKbW83SFdtR1ptY0NybEhOdFBnZFh4dWo0d0pQb25SUU03bFJNM2JTTldVRFR2TnBXV2t2cXVuclZweFQ5cnFEamdhODZBMDNVN0dxb3g1cWNXMzN3?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리 시장은 2026년부터 2033년까지 154억 달러 규모로 성장할 것으로 전망됩니다.
+  - 전고체 배터리는 높은 에너지 밀도와 안전성으로 인해 차세대 전기차 배터리로 주목받고 있습니다.
+  - 이러한 성장 전망은 관련 기술 개발 및 투자를 가속화할 것으로 예상됩니다.
+- 관련 기업: US
+
+### 11. Global Lithium-Ion Battery Cathode Market Surges with EV Adoption
+- 발행일: 2026-04-08
+- 매체: National Today (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNmNGLXlfcHplbUpaYUpWQnJ1UXAyMXNBUlkxX3o4U2VpbURoZmNtenY5aFhZYXBQODNDb2lGQ0gwVFJ6YWdfWHUtbGQtWlc2SEh1VUdaQWtGTUZqc1dxWjBEbHQ0SWpUME8zZTFHNno5Y2dxMEJ5X2FEZ2JKbVRFT3I0a3FRV3Z0REs5bUtWQmM0OGw2aFpTNUktalFFWTQtRnIyMTVkbVNyV210N2VUZXZxMWgydzE1ZktDd3RzcGJ5dw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 전기차 채택 증가에 따라 글로벌 리튬 이온 배터리 양극재 시장이 급증하고 있습니다.
+  - 양극재는 배터리 성능과 비용에 큰 영향을 미치는 핵심 소재로, 수요 증가는 시장 성장을 견인하고 있습니다.
+  - 이는 전기차 시장의 확대가 배터리 소재 시장 전반에 미치는 긍정적인 영향을 보여줍니다.
+- 관련 기업: National Today
+
+### 12. 최주선 삼성SDI '하반기 흑자전환'의 키 유럽 공략, 6개 분기 연속 적자...
+- 발행일: 2026-04-08
+- 매체: www.huffingtonpost.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.huffingtonpost.kr/article/256476
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성SDI의 최주선 대표는 하반기 흑자 전환을 위해 유럽 시장 공략에 집중하고 있으며, 회사는 6개 분기 연속 적자를 기록 중입니다.
+  - 최근 전기차 배터리 출하량은 유럽에서 14% 증가했지만, 미국은 30%, 중국은 17% 감소하며 지역별 수요 성장세가 차별화되는 양상을 보이고 있습니다.
+  - 나이스신용평가는 이러한 지역별 수요 차별화가 2차전지 산업의 수익성에 영향을 미칠 것으로 분석했습니다.
+- 관련 기업: 삼성SDI, 2차전지
