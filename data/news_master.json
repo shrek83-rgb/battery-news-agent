@@ -1,5 +1,227 @@
 [
   {
+    "title": "[Biz & Now] 포스코홀딩스, 아르헨 리튬 염호 광권 인수",
+    "description": "기존 보유 광권을 포함하면 1500만t 수준의 염수리튬(소금물에서 추출해 생산하는 리튬)확보한 것으로, 전기차 7000만대에 들어가는 배터리를 생산할 수 있는 규모다. 이주태 포스코홀딩스 사장은 “2차전지소재...",
+    "link": "https://www.joongang.co.kr/article/25419006",
+    "source": "www.joongang.co.kr",
+    "published_at": "2026-04-10",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "포스코홀딩스",
+      "2차전지소재"
+    ],
+    "summary_3_sentences": [
+      "포스코홀딩스가 아르헨티나의 염호 리튬 광권을 인수했습니다.",
+      "이번 인수를 통해 포스코홀딩스는 총 1500만 톤 규모의 염수 리튬을 확보하게 되었으며, 이는 전기차 약 7000만 대에 사용될 배터리를 생산할 수 있는 양입니다.",
+      "이는 포스코홀딩스의 2차전지 소재 사업 경쟁력 강화에 크게 기여할 것으로 보입니다."
+    ],
+    "uid": "60c2f25f66b550a312f82e60e3ab27df41a47fab"
+  },
+  {
+    "title": "포스텍, 유기 용매·저압 구동 버티는 고체전해질 표면 설계",
+    "description": "이를 고체로 바꾼 전고체전지는 화재 위험을 근본적으로 줄일 수 있어 차세대 배터리로 주목받고 있다. 특히 황화물계 고체전해질은 리튬이온 이동이 빠르고 전극과 잘 밀착돼 가장 유력한 후보로 꼽혀왔다. 문제는...",
+    "link": "https://www.etnews.com/20260410000019",
+    "source": "www.etnews.com",
+    "published_at": "2026-04-10",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "포스텍",
+      "전고체전지",
+      "리튬이온"
+    ],
+    "summary_3_sentences": [
+      "포스텍 연구진은 유기 용매와 저압에서도 안정적인 고체 전해질 표면 설계에 성공했습니다.",
+      "이는 화재 위험을 줄일 수 있는 전고체 전지의 상용화 가능성을 높이는 중요한 성과입니다.",
+      "특히 황화물계 고체 전해질의 안정성 향상에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "0d538700feb70424204d8c0e60544a0359584449"
+  },
+  {
+    "title": "1나노미터 보호막 하나로 전고체전지 난제 풀었다",
+    "description": "전고체전지는 불이 붙을 수 있는 액체 전해질을 고체로 바꿔 화재 위험을 줄인 배터리다. 전고체전지에 쓰이는 고체 전해질 가운데 황화물 계열은 리튬 이온이 빠르게 이동하고 전극과 잘 밀착돼 상용화에 가장 가까운...",
+    "link": "https://www.dongascience.com/news/view/77315",
+    "source": "www.dongascience.com",
+    "published_at": "2026-04-10",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "zdnet.co.kr",
+        "link": "https://zdnet.co.kr/view/?no=20260410084315"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 98,
+    "monitoring_importance": 98,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "전고체전지"
+    ],
+    "summary_3_sentences": [
+      "전고체전지는 액체 전해질을 고체로 대체하여 화재 위험을 줄인 배터리입니다.",
+      "황화물 계열 고체 전해질은 리튬 이온 이동이 빠르고 전극과의 밀착성이 좋아 상용화에 가장 근접한 기술로 평가받습니다.",
+      "이러한 특성으로 전고체전지는 차세대 배터리로 주목받고 있습니다."
+    ],
+    "uid": "412acf887df5ba1fc1597cd9032c16d6b0084489"
+  },
+  {
+    "title": "가천대 허지윤 교수, 차세대 배터리 소재 연구 성과 세계적 권위지 'Nat...",
+    "description": "연결된 2차 용매화 구조까지 확장하는 새로운 접근을 구현했다. 또한 음이온에 불소 원소를 도입하여... 사례\"라며 \"저비용·고안전 배터리에 대한 수요가 빠르게 증가하는 가운데 수계 아연 전지가 미래...",
+    "link": "http://www.beyondpost.co.kr/view.php?ud=20260410112254717292e75d13a3_30",
+    "source": "www.beyondpost.co.kr",
+    "published_at": "2026-04-10",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 90,
+    "monitoring_importance": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "음이온"
+    ],
+    "summary_3_sentences": [
+      "가천대학교 허지윤 교수 연구팀이 차세대 배터리 소재 연구에서 세계적 권위지 'Nature'에 성과를 게재했습니다.",
+      "연구팀은 수계 아연 전지의 성능을 향상시키는 새로운 접근 방식을 개발했으며, 이는 저비용 고안전 배터리 수요 증가에 부응할 수 있을 것으로 기대됩니다.",
+      "이번 연구는 미래 배터리 기술 발전에 중요한 기여를 할 것으로 평가받고 있습니다."
+    ],
+    "uid": "46d08c17bb2a0e1c5cdbf83f1f135626f2c9f74b"
+  },
+  {
+    "title": "\"전고체 배터리, 아직 해결해야 할 문제 있다\" BYD, 상용화는 2030년 이후...",
+    "description": "BYD가 전고체 배터리 개발이 '중대한 돌파 단계'에 진입했다고 밝히면서도, 상용화까지는 여전히 기술적·산업적 장벽이 남아 있음을 강조했다. 중국 매체의 보도에 따르면, BYD의 최고 과학자 리안 위보(Lian Yubo)는 \"중국...",
+    "link": "https://www.autodaily.co.kr/news/articleView.html?idxno=543140",
+    "source": "www.autodaily.co.kr",
+    "published_at": "2026-04-10",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 91,
+    "monitoring_importance": 91,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "BYD",
+      "기술적·산업"
+    ],
+    "summary_3_sentences": [
+      "BYD의 최고 과학자는 전고체 배터리 개발이 중대한 돌파 단계에 진입했다고 밝혔으나, 상용화까지는 기술적, 산업적 장벽이 남아있다고 강조했습니다.",
+      "BYD는 전고체 배터리 상용화 시점을 2030년 이후로 예상하고 있습니다.",
+      "이는 전고체 배터리 기술의 발전 가능성과 함께 현실적인 상용화 과제를 동시에 보여줍니다."
+    ],
+    "uid": "1060596a76165934d816ad5f98674a9c3ce3cafb"
+  },
+  {
+    "title": "포스코퓨처엠 \"실리콘 음극재 개발완료…대량양산 체계 구축\"",
+    "description": "국내 배터리 3사(LG에너지솔루션·삼성SDI·SK온)는 물론 글로벌 배터리 기업들 대부분이 앞다퉈 개발 중인 전고체 배터리에도 실리콘 음극재가 적극 활용될 것으로 관측된다. 이와 함께 포스코퓨처엠은 비코팅 저온소성...",
+    "link": "https://www.mt.co.kr/industry/2026/04/09/2026040714160335248",
+    "source": "www.mt.co.kr",
+    "published_at": "2026-04-09",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "포스코퓨처엠",
+      "LG에너지솔루션",
+      "삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "포스코퓨처엠이 실리콘 음극재 개발을 완료하고 대량 양산 체계 구축에 나섰습니다.",
+      "실리콘 음극재는 전고체 배터리에도 적극 활용될 것으로 예상되어 향후 배터리 성능 향상에 기여할 전망입니다.",
+      "이는 국내외 배터리 기업들의 차세대 배터리 기술 개발 경쟁에 힘을 실어줄 것으로 보입니다."
+    ],
+    "uid": "ba7adc46cd94a0f484cd5fac3a35508f66b54814"
+  },
+  {
+    "title": "더 빨리, 더 멀리, 더 안전하게…'배터리의 미래' 전고체와 실리콘",
+    "description": "배터리업계는 이 가격을 15~20배 수준까지 낮춰야 전고체 배터리의 경제성이 확보될 것으로 판단하고 있다. 전고체 시장의 확장은 소재사들에게도 기회다. 에코프로는 2023년부터 국내 배터리 기업들을 대상으로 전고체...",
+    "link": "https://www.mt.co.kr/industry/2026/04/10/2026040714154253545",
+    "source": "www.mt.co.kr",
+    "published_at": "2026-04-09",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "에코프로"
+    ],
+    "summary_3_sentences": [
+      "배터리 업계는 전고체 배터리의 경제성 확보를 위해 현재 가격을 15~20배 수준까지 낮춰야 한다고 판단하고 있습니다.",
+      "전고체 시장의 확장은 에코프로와 같은 소재 기업들에게 새로운 기회를 제공하고 있습니다.",
+      "에코프로는 2023년부터 국내 배터리 기업들을 대상으로 전고체 관련 사업을 진행하고 있습니다."
+    ],
+    "uid": "5a3149771dd6f7f9bd581653cfb2e4fdad4d0f45"
+  },
+  {
+    "title": "中 전기차 업계, 전고체 배터리 상용화 가속…'안전성·주행거리' 개선",
+    "description": "높은 비용·기술적 과제는 여전, “미래 모빌리티의 해답” 중국의 상하이자동차(SAIC Motor)와 체리자동차(Chery Automobile) 등 전기차(EV) 제조업체들이 전고체 배터리 기술의 상용화 로드맵을 발표하며 더 안전하고...",
+    "link": "https://www.hellot.net/news/article.html?no=111978",
+    "source": "www.hellot.net",
+    "published_at": "2026-04-09",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 91,
+    "monitoring_importance": 91,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "상하이자동차",
+      "체리자동차",
+      "SAIC"
+    ],
+    "summary_3_sentences": [
+      "중국의 상하이자동차와 체리자동차 등 전기차 제조업체들이 전고체 배터리 상용화 로드맵을 발표하며 안전성과 주행거리 개선을 목표로 하고 있습니다.",
+      "이는 전고체 배터리 기술의 상용화가 가속화되고 있음을 보여줍니다.",
+      "미래 모빌리티 시장에서 전고체 배터리의 중요성이 더욱 커질 것으로 예상됩니다."
+    ],
+    "uid": "9b6349bf3870e42bffa6c2e708e4e4ec20646d20"
+  },
+  {
+    "title": "엔플로우, '전고체·전해질 공장' 착공...양산 체제 진입 시동",
+    "description": "전고체 배터리 핵심 소재 개발사 엔플로우는 충청남도 천안시 서북구 성환읍 천안북부BIT일반산업단지 내... 주요 생산 품목은 황화물계 전고체전해질로 생산 비중을 해당 소재에 집중해 차세대 2차전지 소재 시장...",
+    "link": "http://www.fnnews.com/news/202604091539466523",
+    "source": "www.fnnews.com",
+    "published_at": "2026-04-09",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "엔플로우",
+      "천안북부BIT일반산업",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "전고체 배터리 핵심 소재 개발사인 엔플로우가 충청남도 천안에 전고체 및 전해질 공장 착공에 들어갔습니다.",
+      "이는 엔플로우가 양산 체제 구축을 통해 차세대 2차전지 소재 시장 공략에 본격적으로 나설 것임을 의미합니다.",
+      "주요 생산 품목은 황화물계 전고체전해질에 집중될 예정입니다."
+    ],
+    "uid": "df673f92d0aa258373777525d6c52dc48e086999"
+  },
+  {
     "title": "엠플러스 \"전고체 배터리 양산 핵심 기술 개발…파일럿 장비 수주\"",
     "description": "이차전지 장비 전문기업 엠플러스(259630)는 전고체 배터리 양산의 핵심 ‘보틀넥(Bottleneck·병목)’ 해결을 위한 장비 기술 개발을 완료하고 파일럿 장비 수주에 성공했다고 9일 밝혔다. 이번 성과는 엠플러스가 조립공정...",
     "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=03368566645414480",
@@ -27,6 +249,218 @@
       "이는 전고체 배터리 상용화를 위한 중요한 기술적 진보를 나타냅니다."
     ],
     "uid": "8c2db4e9bea41d5ccdfdecbf97dff650a9be2efa"
+  },
+  {
+    "title": "Solid-State Battery Market: From Lab Breakthroughs to Pre-Committed Demand in Next-Gen Energy Systems",
+    "published_at": "2026-04-09",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMDlhSVNyQ29OOTdfRnFRdF84VXkyaFdWVjE4S0kzdFRINFRteHdjanRUeFlVUmx2aGd0d3FySi1ROG9UbzEzVk5qaVpyUXgyVGRWUTgxQWJfQkkwenFwazEtTEkwN1RVUGFLX1ExZ3JIbHBfMzhCSkxINzdDaXFwbjlYamxoY2hJNTJ5dnBB?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOMDlhSVNyQ29OOTdfRnFRdF84VXkyaFdWVjE4S0kzdFRINFRteHdjanRUeFlVUmx2aGd0d3FySi1ROG9UbzEzVk5qaVpyUXgyVGRWUTgxQWJfQkkwenFwazEtTEkwN1RVUGFLX1ExZ3JIbHBfMzhCSkxINzdDaXFwbjlYamxoY2hJNTJ5dnBB?oc=5\" target=\"_blank\">Solid-State Battery Market: From Lab Breakthroughs to Pre-Committed Demand in Next-Gen Energy Systems</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "전고체 배터리 시장은 실험실 수준의 혁신을 넘어 차세대 에너지 시스템에서 이미 확정된 수요를 확보하고 있습니다.",
+      "이는 전고체 배터리 기술의 상용화가 임박했음을 시사합니다.",
+      "미래 에너지 시장에서의 중요성이 더욱 커질 것으로 전망됩니다."
+    ],
+    "uid": "c2d369dbf9465ad42fbe2bd5039e36347b85e614"
+  },
+  {
+    "title": "San Francisco proposes stricter rules that would ban non-certified lithium batteries in wake of recent fires",
+    "published_at": "2026-04-09",
+    "source": "dailydispatch.com",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNX1RBRDB3cW9wWjBJaXpXVW1QakJPOVJScnFXM2doR1BrelBBOXVacHpabXJURDZpVDN4YlBfcjJmM0hCSld6em50SWU5bERXcXREbXRZUEFocUNHN19Bb2JrLWdfX2hhcEUyYjFsdkxEdDI0OUFkbENzcnNxaXZYdS00Y3hjb2F0cUhZdU0zOVoyM1JkSElpbUNaQTlxZEI5bzE1Q3AxSmV2N1ozQzJNaEl6MHV4dFV1QjZqMDhmd25KWVFteWpyTE9jZXU0SWFzZ0N4aUQ3RWkzRXJkLW5ZT24zcTVENzRjUFo5MA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxNX1RBRDB3cW9wWjBJaXpXVW1QakJPOVJScnFXM2doR1BrelBBOXVacHpabXJURDZpVDN4YlBfcjJmM0hCSld6em50SWU5bERXcXREbXRZUEFocUNHN19Bb2JrLWdfX2hhcEUyYjFsdkxEdDI0OUFkbENzcnNxaXZYdS00Y3hjb2F0cUhZdU0zOVoyM1JkSElpbUNaQTlxZEI5bzE1Q3AxSmV2N1ozQzJNaEl6MHV4dFV1QjZqMDhmd25KWVFteWpyTE9jZXU0SWFzZ0N4aUQ3RWkzRXJkLW5ZT24zcTVENzRjUFo5MA?oc=5\" target=\"_blank\">San Francisco proposes stricter rules that would ban non-certified lithium batteries in wake of recent fires</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">dailydispatch.com</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "SFist",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYmRJRjQ5VUFwYW1kdk9ZUmpYanhsS2dMNHN1ancwTTZLakpqWmN4bVZqT214UXN5aWY0SDJnckowV20wYW9mQnZkM253RmdDWXVIR3pybm93R3pGQUpXX3pzeWtlWVRRX1lIbmFOVzFDdGpya0hxUHUzNm9leFZkLWJ0V2xTeDZsUHotZWJBaXNERWgweFJuczU5WVd0Q2QtVFZEZkF2VWZlVmd2R3NzM0RsWmVmVXdOR0d3?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 95,
+    "monitor_score": 95,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "샌프란시스코는 최근 발생한 화재 사건 이후 인증되지 않은 리튬 배터리 판매를 금지하는 더 엄격한 규제를 제안했습니다.",
+      "이는 배터리 안전성에 대한 우려가 높아지고 있음을 보여줍니다.",
+      "향후 배터리 유통 및 사용에 대한 규제가 강화될 가능성을 시사합니다."
+    ],
+    "uid": "191190b6b9c54e7d167fdf364cd3ed828da969a2"
+  },
+  {
+    "title": "China's Battery Breakthrough Packs More Energy Into The Same Size",
+    "published_at": "2026-04-09",
+    "source": "bgr.com",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9sWnVkbHZ3d3dmRFJhNFBaQkhKWjgxYUw2Rk1hcXNqa1NTbUNqemdNZ18zVGxEMm9tMHN4dkF4V3VFbTdRejlKeXAzNWNwMVF2US16RndZMkZKSjhqZXhGQUo3Qm9BWVJrekZXdkM0Y2cxRmwzZ3l4WnpOYw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9sWnVkbHZ3d3dmRFJhNFBaQkhKWjgxYUw2Rk1hcXNqa1NTbUNqemdNZ18zVGxEMm9tMHN4dkF4V3VFbTdRejlKeXAzNWNwMVF2US16RndZMkZKSjhqZXhGQUo3Qm9BWVJrekZXdkM0Y2cxRmwzZ3l4WnpOYw?oc=5\" target=\"_blank\">China's Battery Breakthrough Packs More Energy Into The Same Size</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bgr.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "중국의 배터리 기술 혁신으로 동일한 크기에서 더 많은 에너지를 저장할 수 있게 되었습니다.",
+      "이는 전기차의 주행 거리 증가와 성능 향상에 기여할 것으로 기대됩니다.",
+      "중국 배터리 산업의 기술적 발전을 보여주는 사례입니다."
+    ],
+    "uid": "7a44868f8444ec8a433bd92ca663c1ecddb06e5c"
+  },
+  {
+    "title": "Solid-State Battery Demonstrations",
+    "published_at": "2026-04-09",
+    "source": "Trend Hunter",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IS0E3VlQxRUsxdjJfaHlaQkg3Q1F3NXppQy1kV1lIcktKUEJsLTZiLU1Za1pKOVJFWGhDb1FPQ1VzMEtWSWx2dVdDNmlFX194UUJaWWdIQUFCS3RrbDlUeUpPdHbSAWpBVV95cUxQcUh1T0RiQmN1OGV2VzZVWHBEamd4NjlNcjRTb25aM1l6R1pWS0JvMXQtZThGN1hIMVpzN0EzWm94WWI4NGhXSVRQR19XX0txSWZTOWs4SUxRZ0ltNUNlS19xNDdrbmVYR253?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IS0E3VlQxRUsxdjJfaHlaQkg3Q1F3NXppQy1kV1lIcktKUEJsLTZiLU1Za1pKOVJFWGhDb1FPQ1VzMEtWSWx2dVdDNmlFX194UUJaWWdIQUFCS3RrbDlUeUpPdHbSAWpBVV95cUxQcUh1T0RiQmN1OGV2VzZVWHBEamd4NjlNcjRTb25aM1l6R1pWS0JvMXQtZThGN1hIMVpzN0EzWm94WWI4NGhXSVRQR19XX0txSWZTOWs4SUxRZ0ltNUNlS19xNDdrbmVYR253?oc=5\" target=\"_blank\">Solid-State Battery Demonstrations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trend Hunter</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "전고체 배터리 기술 시연이 이루어졌습니다.",
+      "이는 전고체 배터리의 성능과 가능성을 보여주는 중요한 행사입니다.",
+      "향후 전고체 배터리 시장의 발전에 기여할 것으로 예상됩니다."
+    ],
+    "uid": "3ac9e0b5969d5f600794032721140f0498f6ae7b"
+  },
+  {
+    "title": "Qingtao Energy Files for HKEX Listing, Aiming to Be \"First Solid-State Battery Stock in Hong Kong\"",
+    "published_at": "2026-04-09",
+    "source": "Gasgoo",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOd2ROUDVGbVlZMHg3ZzFrUjM3Sm5RRGg4cVhmZWsySmJGM2ZBZndfTVZHWHU2VEpFTU5QcXRCTmM4Q0JNcVI3QWJsVjF0Q0R0QWZoNkwzOG1CRVdaNWxXWmYzR1RVVEtneWhucTZNR3Rna1lJclF2RWd4V2VrQUNKMTBtQjZlbFd4ZW5UakpoWWVHWm44THZwRHZuUVNXOERONG9QeUs2YTVXc1RCUHhQYVlqTHA3S0dIdlJMZUtQZ1pkRnJvVC05X193N3pkbm9PaVlzakVpeGc3SjdHWXFSc1VZUGJpdVpmTVE0?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxOd2ROUDVGbVlZMHg3ZzFrUjM3Sm5RRGg4cVhmZWsySmJGM2ZBZndfTVZHWHU2VEpFTU5QcXRCTmM4Q0JNcVI3QWJsVjF0Q0R0QWZoNkwzOG1CRVdaNWxXWmYzR1RVVEtneWhucTZNR3Rna1lJclF2RWd4V2VrQUNKMTBtQjZlbFd4ZW5UakpoWWVHWm44THZwRHZuUVNXOERONG9QeUs2YTVXc1RCUHhQYVlqTHA3S0dIdlJMZUtQZ1pkRnJvVC05X193N3pkbm9PaVlzakVpeGc3SjdHWXFSc1VZUGJpdVpmTVE0?oc=5\" target=\"_blank\">Qingtao Energy Files for HKEX Listing, Aiming to Be \"First Solid-State Battery Stock in Hong Kong\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gasgoo</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Qingtao Energy",
+      "HKEX"
+    ],
+    "summary_3_sentences": [
+      "Qingtao Energy는 홍콩 증권거래소 상장을 추진하며 홍콩 최초의 전고체 배터리 상장 기업이 되는 것을 목표로 하고 있습니다.",
+      "이번 상장을 통해 Qingtao Energy는 전고체 배터리 시장에서의 입지를 강화하고 성장을 가속화할 것으로 기대됩니다.",
+      "이는 전고체 배터리 기술의 상용화와 투자 유치에 긍정적인 영향을 미칠 것으로 보입니다."
+    ],
+    "uid": "a57f8b09715f12c19e559c3135eb0e8639b4fba6"
+  },
+  {
+    "title": "Group14 Q&A: The Role of Silicon Batteries in the Transition",
+    "published_at": "2026-04-09",
+    "source": "Energy Digital Magazine",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPblllaW45czZQTWxFWGNhSEl1N3JMN3ljdUdyNXBQbHVNdjg5aEpFVGcwRzYtU3VFVkpiSDRjaXJnSnVTODZNREhUejN2X0VCV19wZXRXc0hLajhSVEFrNXZjOEdnUURCQ2VLaDZ2Nl9MRUtQWkZfZktUTUxQQnpXdXNZejNTbUxpZnBkMlJR?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPblllaW45czZQTWxFWGNhSEl1N3JMN3ljdUdyNXBQbHVNdjg5aEpFVGcwRzYtU3VFVkpiSDRjaXJnSnVTODZNREhUejN2X0VCV19wZXRXc0hLajhSVEFrNXZjOEdnUURCQ2VLaDZ2Nl9MRUtQWkZfZktUTUxQQnpXdXNZejNTbUxpZnBkMlJR?oc=5\" target=\"_blank\">Group14 Q&amp;A: The Role of Silicon Batteries in the Transition</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Energy Digital Magazine</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "Group14"
+    ],
+    "summary_3_sentences": [
+      "Group14와의 질의응답을 통해 실리콘 배터리가 에너지 전환에서 어떤 역할을 하는지 논의했습니다.",
+      "실리콘 배터리는 기존 리튬이온 배터리의 성능을 향상시키는 데 중요한 역할을 할 것으로 기대됩니다.",
+      "이는 차세대 배터리 기술 개발의 중요한 방향성을 제시합니다."
+    ],
+    "uid": "cd9492374537e16fd930a20e39e77ceaea44fa8c"
+  },
+  {
+    "title": "BYD’s chief scientist says solid-state EV batteries hit a ‘critical stage,’ but there’s more to it",
+    "published_at": "2026-04-09",
+    "source": "Electrek",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeUNHcXIwcS1NZDUtaF9kUFFianBreWt1UGpFTzBYbE84Q1YwVUNQb3h1cjFkclo4YXowZ0JITGpFM0FfSDRzeWNNSUZhaHM4TFVvTG9CXzBPUkNwaVZrc0lTR09qcm1aOWpZQVdGaTRheWhkMU96Wk9YRjV1YXVFbU1YWEltS1lLemo3X3Q4OUdGc2NJbDRz?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQeUNHcXIwcS1NZDUtaF9kUFFianBreWt1UGpFTzBYbE84Q1YwVUNQb3h1cjFkclo4YXowZ0JITGpFM0FfSDRzeWNNSUZhaHM4TFVvTG9CXzBPUkNwaVZrc0lTR09qcm1aOWpZQVdGaTRheWhkMU96Wk9YRjV1YXVFbU1YWEltS1lLemo3X3Q4OUdGc2NJbDRz?oc=5\" target=\"_blank\">BYD’s chief scientist says solid-state EV batteries hit a ‘critical stage,’ but there’s more to it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electrek</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "BYD"
+    ],
+    "summary_3_sentences": [
+      "BYD의 최고 과학자는 전고체 EV 배터리가 중요한 단계에 도달했다고 밝혔습니다.",
+      "이는 전고체 배터리 기술의 발전과 상용화 가능성을 시사합니다.",
+      "하지만 아직 해결해야 할 과제가 남아있음을 시사합니다."
+    ],
+    "uid": "39c8547e7144c755078c46d4f3e024b179b1dd25"
+  },
+  {
+    "title": "Strategic partnership advances lithium processing in Canada that will support EV battery materials supply chains",
+    "published_at": "2026-04-09",
+    "source": "Automotive Powertrain Technology International",
+    "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQTjZNSjMtZGNJRnBnZEdiUzlDR0ZOM1BEdmk1VG0xdU5ZX2xucy1Fa180Z1lIZzdESmpkNU5NMzNRMS1jVTRfeGtFcUlwT3MtSzJaWXRGMjhkT0hudFNwNWJ1NlQyR2lKaVVSRG1UZU1DcHZtZGxtd0kwTkdtSTYxR3Bma3pJV1I0WEh4TTBWSkNmWC1fN1M1UTJUQUtpcWN0WWZZSVI5VmtPS0o2YVU5djY4OWo1Mm5pOS1KaUdwWW9oVGNUa2c1UTJhRFZhTzAxcFpNdVBWT2plb045WnpkUFNYNWJ6S2hZWjVNTTNwS3MzaXNsT1VkdDdfRG1JbE9zUXd5LU5QZ1VZa1Y4RHRPd2Z4SXFYVGNuek9GSXNEWGxCMC14NlQ4?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipwJBVV95cUxQTjZNSjMtZGNJRnBnZEdiUzlDR0ZOM1BEdmk1VG0xdU5ZX2xucy1Fa180Z1lIZzdESmpkNU5NMzNRMS1jVTRfeGtFcUlwT3MtSzJaWXRGMjhkT0hudFNwNWJ1NlQyR2lKaVVSRG1UZU1DcHZtZGxtd0kwTkdtSTYxR3Bma3pJV1I0WEh4TTBWSkNmWC1fN1M1UTJUQUtpcWN0WWZZSVI5VmtPS0o2YVU5djY4OWo1Mm5pOS1KaUdwWW9oVGNUa2c1UTJhRFZhTzAxcFpNdVBWT2plb045WnpkUFNYNWJ6S2hZWjVNTTNwS3MzaXNsT1VkdDdfRG1JbE9zUXd5LU5QZ1VZa1Y4RHRPd2Z4SXFYVGNuek9GSXNEWGxCMC14NlQ4?oc=5\" target=\"_blank\">Strategic partnership advances lithium processing in Canada that will support EV battery materials supply chains</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Automotive Powertrain Technology International</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "캐나다에서 리튬 가공을 발전시키는 전략적 파트너십이 체결되어 EV 배터리 소재 공급망을 지원합니다.",
+      "이는 전기차 배터리 생산에 필수적인 리튬 확보 및 가공 능력을 강화하는 중요한 조치입니다.",
+      "북미 지역의 전기차 배터리 공급망 안정화에 기여할 것으로 예상됩니다."
+    ],
+    "uid": "a070eb4bf60d6e29904746c5b56484f068cb0e8e"
+  },
+  {
+    "title": "BYD scientist says solid-state batteries are almost here - ArenaEV",
+    "published_at": "2026-04-09",
+    "source": "ArenaEV",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSkcxUW1mcU9meGxXendjR09rNXBHenN1eTdkcU5uUUJ3WW1jS2wxZHFjeU02TU9DSVBiX1hYdnZZckNUWTU2Zmk3djdDVXJUTDc3QU1zOERMTHJDeXZpYTBKSzMxNjhMdVB2MlZ6Y3B0eHRHQW81SVdnT0hWVTdaUjBJNG9SRGxJc0VTLWtMcjEwVEJkMHBwS9IBlAFBVV95cUxQdTFKX2Q1UEtERTlnM29HV1BEVThkREdGTFgzS0dtZzAtVzAySUk0UGxVMldIZmlWRDQ3TmN4eFhBWkJuM0pqV0djeDRQM3dTZ0JpYlpNci0zclZiRHJiXzkyMWNqTVBQb1hlY0V1LU8xSGxtbWJMQXQwa2Y2SHFWTnhNemRqeEp0dl9RMHJVSS1jX2dn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPSkcxUW1mcU9meGxXendjR09rNXBHenN1eTdkcU5uUUJ3WW1jS2wxZHFjeU02TU9DSVBiX1hYdnZZckNUWTU2Zmk3djdDVXJUTDc3QU1zOERMTHJDeXZpYTBKSzMxNjhMdVB2MlZ6Y3B0eHRHQW81SVdnT0hWVTdaUjBJNG9SRGxJc0VTLWtMcjEwVEJkMHBwS9IBlAFBVV95cUxQdTFKX2Q1UEtERTlnM29HV1BEVThkREdGTFgzS0dtZzAtVzAySUk0UGxVMldIZmlWRDQ3TmN4eFhBWkJuM0pqV0djeDRQM3dTZ0JpYlpNci0zclZiRHJiXzkyMWNqTVBQb1hlY0V1LU8xSGxtbWJMQXQwa2Y2SHFWTnhNemRqeEp0dl9RMHJVSS1jX2dn?oc=5\" target=\"_blank\">BYD scientist says solid-state batteries are almost here - ArenaEV</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ArenaEV</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "BYD"
+    ],
+    "summary_3_sentences": [
+      "BYD의 과학자는 전고체 배터리가 곧 상용화될 것이라고 언급했습니다.",
+      "이는 전고체 배터리 기술의 빠른 발전을 보여줍니다.",
+      "상용화 시점에 대한 기대감을 높이고 있습니다."
+    ],
+    "uid": "56a907ec5d90da44f32ad3450645a9c1463fa214"
   },
   {
     "title": "[특징주] LG에너지솔루션, 1분기 적자 전환에 약세… 장중 40만원선 밀려",
