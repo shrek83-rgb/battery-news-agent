@@ -1,0 +1,226 @@
+# 배터리 뉴스 데일리 브리핑 (2026-04-13 전날 기준)
+
+- 총 17건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | anode | 2026-04-13 | sports.donga.com | 에코프로, 캐나다서 ‘전고체 승부수’…리튬 메탈 게임체인저 노린다 | https://sports.donga.com/region/article/all/20260413/133728135/1 | unknown |
+| 2 | 3 | 재활용 | 2026-04-13 | Resource Recycling | Battery recycler Ascend Elements files for bankruptcy | https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2xyVUMzV3dsX2hEX1hIWWlZVU1Wa0RMaVVrUjhmX3pjcnNUclZlX0pCR1hWdjFrS2JGcXp6SXBBdkNLYnVDTHJCNG5BeHBHRnB2SFhvX21CZHlzRlBRVE1RLXhoQnpnYkFJSFUyRUtjVm9mOEtLWEtzOGFUMW1wZC1CSktvWF9NWDNtWU15UU5nU0pPMEdERUQ0MWlBYmRRSTh5QTNURQ?oc=5 | unknown |
+| 3 | 3 | 기타 | 2026-04-13 | openPR.com | Lithium-Ion Battery Market to Hit US$ 124.4 Billion by 2031 \| Top | https://news.google.com/rss/articles/CBMinwFBVV95cUxPSDhWcTk3TFc3UjlVQUFjNzZoMzM3cWxUZDdvX3FSZDlLT0k4MWlTeWZ0LTUyaVdlclEyMlFKSm0wUzNULU9iV0drc2hQYjV1aG5pR084Y3hXTXlYNkZxUGhNRjBBdHRVdjV6MWN3bTQ4R1dwd1ZxbFdlLXN6RjhKejZZMkRkeVU3WC1WUTJZczFWMjR1WHJkNzctYWFWUkU?oc=5 | unknown |
+| 4 | 3 | 나트륨 | 2026-04-13 | EV Infrastructure News | Could sodium-ion batteries ease the EV industry’s battery supply challenge? | https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN2lpellzcHR0X0VwQnFBOE9uSlFWQ0hONVE3LU82UXJIV1dvdUZEX2pIOTFQMW1MbzQ3YTdWaloxMS1DYy1aTlBCY1pUeGVGUENXOFNjX0ZnenR4WTV4aGg5ZDMtOVhqa2FYcDRUVWhnelJHNVRDMjJFUjVMUWMwaGdfei13WndWdWVwa2l0UmViMjhSSVNHVHhHZ1Q2ZjRjVm00QUVidTdXUzZWLUx1Q0EydFdQSjZ6QVFTakhiY2o?oc=5 | unknown |
+| 5 | 3 | cathode | 2026-04-14 | www.inthenews.co.kr | 국립부경대, 전고체전지 양극 수명·출력 동시 확보 | https://www.inthenews.co.kr/news/article.html?no=85561 | unknown |
+| 6 | 3 | 기타 | 2026-04-13 | www.econovill.com | "중국보다 최대 90% 비싸다"…K배터리 원가 경쟁력 시험대 | https://www.econovill.com/news/articleView.html?idxno=737035 | unknown |
+| 7 | 3 | 기타 | 2026-04-13 | www.biztribune.co.kr | 삼성SDI, EV 전환·ESS 수요에 '쌍끌이'…목표가 60만원 제시 | http://www.biztribune.co.kr/news/articleView.html?idxno=352260 | unknown |
+| 8 | 3 | anode | 2026-04-13 | www.bigtanews.co.kr | &lt;이원호의 경제톡&gt; K-배터리 산업의 기회와 위기 | https://www.bigtanews.co.kr/article/view/big202604130015 | unknown |
+| 9 | 3 | cathode | 2026-04-13 | zdnet.co.kr | 中 배터리=가성비? 유럽에선 K배터리와 동일 선상에서 경쟁 | https://zdnet.co.kr/view/?no=20260413143150 | unknown |
+| 10 | 3 | 기타 | 2026-04-13 | Yahoo Tech | Scientists recover 90% of lithium from old batteries — here's why it matters | https://news.google.com/rss/articles/CBMikgFBVV95cUxPYkw0djMtZUZjWFdpVm9ZUkxMbEkyak1BNWdydDRFckM1MU5TX3VndHV6VHlObVI2TkJmUzhoellid3FCME40c1kwTDMxaUk2TnRFVXEtbUotMnZ6VFZhUTI3dmxlbzhlejVHRXBMVm9BM1g0Tkk1QU13TmpZdm1KMy1KWl9BZkxvVHZobXpucERIUQ?oc=5 | unknown |
+| 11 | 3 | anode | 2026-04-14 | www.pinpointnews.co.kr | 세종대 연구팀, 고속충전·장수명 배터리 음극 개발… 전기차 적용 기대 | https://www.pinpointnews.co.kr/news/articleView.html?idxno=445357 | unknown |
+| 12 | 3 | 기타 | 2026-04-14 | www.kukinews.com | 전기차도 ESS도 쉽지 않다…中 저가에 밀린 K-배터리, 돌파구는 | https://www.kukinews.com/article/view/kuk202604130156 | unknown |
+| 13 | 3 | 재활용 | 2026-04-13 | Resource Recycling | Leading the Charge in Safe Battery Recycling | https://news.google.com/rss/articles/CBMingFBVV95cUxPU3Zyak40c3Q2cEszODIyZXVrWEZrM1h4cnZNakdEOEJ2LW9DVkZWc0xOcjF4TnVxanpMNXJBcllBbC1oNTR2U2ZFdnVvTG5rU1VBSUVSNURzR0E1NXBickRKUzF4STFPU0lJQXVBd1I4UHk2enNoMERfVGpuaTFVWnRxVUx2RElyN0V3WWVMY3E2TURXcEtGbUc5YnVZdw?oc=5 | unknown |
+| 14 | 3 | 재활용 | 2026-04-13 | UKTN | Altilium secures £18.5m to scale EV battery recycling | https://news.google.com/rss/articles/CBMimAFBVV95cUxNOUloV2lWdGRseGRlQWxoaDJWZ1REM3psMmktb3hrSHVPQzVheU92ZFlmbDA1bllRZHpkM0JHcTlCa3B5bkNUeW1EaW9OWVA2MktNOEtLM2ZfRkY2RnBjTkNQQjhqTVQ2UXJ4cWJsWXNsRkpkem5rZ0Q1YndOdGhSRlFQYy1ZN1JXel9EUHEwQ1EyTDlVVXVGRQ?oc=5 | unknown |
+| 15 | 3 | 재활용 | 2026-04-13 | Circular Online | Altilium awarded £18.5m to build electric vehicle battery recycling facility | https://news.google.com/rss/articles/CBMitAFBVV95cUxNN0dFeWhXbHJYSTdaMDQ2anp4V05vWTBVQ24tdHMtXy1CaFRReldoX0FpRC1VOWZzTlQ2NTlvN3lYR1hJT3BxM3hrS0NOOERNdmtvNVBBdnI0Mlk1MEZNdmZkNWZQS3NYenRxVGtPNFlCVGNBQmFPeVctdVM1WnZFck5mWkEtdXdjVHJVdUEtNkw4MmxWS3k1ajJGNWQydC1wOS1TSENfRHBtOC1ocllTaEd2Qmw?oc=5 | unknown |
+| 16 | 3 | 재활용 | 2026-04-13 | Auto Recycling World | Suomen Autokierrätys Links Digital Intake With Physical EV Battery Recycling | https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ3ZGTmlHb2VkVGdLLUk4Q3I0MzIwYmw5SVRCdzRDbnhWWWRKVEVIVi11NDNqMWdDRE40ZVZIRHFhR0tMbWoyX3lrWFZFczYzV3pTWFlpVWV1OHo2RUFUbDBIRkk0dWJNZEtMQ2ttNFliS2ZYalJQRUNyMmRRWXNJaENnbHhsNW1tQW56d1ZMNVp3WjdtX05acW9ieS1kVU1ZMUFHUmtrdTJNOW9a?oc=5 | unknown |
+| 17 | 3 | 전고체 | 2026-04-13 | Newswise | A Two-Dimensional Polymer Layer Tames Lithium Metal for Long-Life Batteries \| Newswise | https://news.google.com/rss/articles/CBMirgFBVV95cUxQaDNiMnRTdnROR2lPcldfZ2JCa001UU8ydjY0SlZwbUVwYXQxUmQzaFVUNE1uZVhmNjgzc3dHcE9TQzlhQWRCdmZ1aHllaHFBMWxBam5PdUVIYzU4WFhsVzdKZGVTSjRBZ19OMXB2cjBfMmozUGV0OElZZDJLTXVscDBRYTBHVnpueG5PbTNGcXlPaEplNEtOdkJiWEthM0FkMS02cVJLRzNGeWJlN3fSAa4BQVVfeXFMUGgzYjJ0U3Z0TkdpT3JXX2diQmtNNVFPMnY2NEpWcG1FcGF0MVJkM2hVVDRNbmVYZjY4M3N3R3BPU0M5YUFkQnZmdWh5ZWhxQTFsQWpuT3VFSGM1OFhYbFc3SmRlU0o0QWdfTjFwdnIwXzJqM1BldDhJWWQyS011bHAwUWEwR1Z6bnhuT20zRnF5T2hKZTRLTnZCYlhLYTNBZDEtNnFSS0czRnliZTd3?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. 에코프로, 캐나다서 ‘전고체 승부수’…리튬 메탈 게임체인저 노린다
+- 발행일: 2026-04-13
+- 매체: sports.donga.com (출처등급 3)
+- 분야: anode
+- 링크: https://sports.donga.com/region/article/all/20260413/133728135/1
+- 참고 링크: https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065591043966210, http://www.e2news.com/news/articleView.html?idxno=329481
+- 인기신호: unknown
+- 3문장 요약:
+  - 에코프로가 캐나다에서 전고체 배터리 시장 선점을 위한 행보에 속도를 내고 있습니다.
+  - 특히 전기차 성능을 획기적으로 끌어올릴 수 있는 리튬 메탈 음극재 기술 개발에 본격적으로 나섭니다.
+  - 이는 전고체 배터리 시장의 게임체인저가 될 가능성이 있어 업계의 관심이 집중되고 있습니다.
+- 관련 기업: 에코프로
+
+### 2. Battery recycler Ascend Elements files for bankruptcy
+- 발행일: 2026-04-13
+- 매체: Resource Recycling (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2xyVUMzV3dsX2hEX1hIWWlZVU1Wa0RMaVVrUjhmX3pjcnNUclZlX0pCR1hWdjFrS2JGcXp6SXBBdkNLYnVDTHJCNG5BeHBHRnB2SFhvX21CZHlzRlBRVE1RLXhoQnpnYkFJSFUyRUtjVm9mOEtLWEtzOGFUMW1wZC1CSktvWF9NWDNtWU15UU5nU0pPMEdERUQ0MWlBYmRRSTh5QTNURQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 배터리 재활용 업체인 Ascend Elements가 파산 신청을 했습니다.
+  - 이 회사는 리튬이온 배터리 재활용 기술을 보유하고 있습니다.
+  - 이번 파산 신청은 배터리 재활용 산업에 영향을 미칠 것으로 보입니다.
+- 관련 기업: Ascend Elements
+
+### 3. Lithium-Ion Battery Market to Hit US$ 124.4 Billion by 2031 | Top
+- 발행일: 2026-04-13
+- 매체: openPR.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMinwFBVV95cUxPSDhWcTk3TFc3UjlVQUFjNzZoMzM3cWxUZDdvX3FSZDlLT0k4MWlTeWZ0LTUyaVdlclEyMlFKSm0wUzNULU9iV0drc2hQYjV1aG5pR084Y3hXTXlYNkZxUGhNRjBBdHRVdjV6MWN3bTQ4R1dwd1ZxbFdlLXN6RjhKejZZMkRkeVU3WC1WUTJZczFWMjR1WHJkNzctYWFWUkU?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 리튬이온 배터리 시장 규모가 2031년까지 1244억 달러에 이를 것으로 전망됩니다.
+  - 이는 전기차 및 에너지 저장 장치(ESS) 수요 증가에 따른 것입니다.
+  - 시장 성장은 관련 기술 개발 및 투자를 촉진할 것으로 예상됩니다.
+- 관련 기업: US
+
+### 4. Could sodium-ion batteries ease the EV industry’s battery supply challenge?
+- 발행일: 2026-04-13
+- 매체: EV Infrastructure News (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN2lpellzcHR0X0VwQnFBOE9uSlFWQ0hONVE3LU82UXJIV1dvdUZEX2pIOTFQMW1MbzQ3YTdWaloxMS1DYy1aTlBCY1pUeGVGUENXOFNjX0ZnenR4WTV4aGg5ZDMtOVhqa2FYcDRUVWhnelJHNVRDMjJFUjVMUWMwaGdfei13WndWdWVwa2l0UmViMjhSSVNHVHhHZ1Q2ZjRjVm00QUVidTdXUzZWLUx1Q0EydFdQSjZ6QVFTakhiY2o?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 나트륨 이온 배터리가 전기차 산업의 배터리 공급 문제를 완화할 수 있을지 주목받고 있습니다.
+  - 나트륨 이온 배터리는 리튬 이온 배터리의 대안으로 떠오르고 있습니다.
+  - 이는 원자재 수급의 안정성과 비용 절감 측면에서 이점을 가질 수 있습니다.
+
+### 5. 국립부경대, 전고체전지 양극 수명·출력 동시 확보
+- 발행일: 2026-04-14
+- 매체: www.inthenews.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.inthenews.co.kr/news/article.html?no=85561
+- 인기신호: unknown
+- 3문장 요약:
+  - 국립부경대학교 연구팀이 전고체전지의 양극 수명과 출력을 동시에 확보하는 기술을 개발했습니다.
+  - 이 기술은 양극 입자 내부에 쌍정 결함을 도입하여 리튬 이온 이동 경로를 확보하는 방식입니다.
+  - 이는 전기차 및 대용량 에너지 저장장치에 사용되는 고에너지 밀도 배터리 수요 증가에 대응할 수 있을 것으로 기대됩니다.
+- 관련 기업: 국립부경대, 전고체전지
+
+### 6. "중국보다 최대 90% 비싸다"…K배터리 원가 경쟁력 시험대
+- 발행일: 2026-04-13
+- 매체: www.econovill.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.econovill.com/news/articleView.html?idxno=737035
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 배터리 업계가 전기차 시장 성장 둔화와 가격 경쟁 심화 속에서 '원가 경쟁력'이라는 구조적 과제에 직면했습니다.
+  - 2025년 기준 중국 배터리 셀 원가는 국내 배터리 셀 원가보다 최대 90% 저렴할 것으로 분석되었습니다.
+  - 이는 K-배터리의 가격 경쟁력 확보가 시급함을 시사합니다.
+- 관련 기업: SNE리서치, 리튬이온, 2차전지
+
+### 7. 삼성SDI, EV 전환·ESS 수요에 '쌍끌이'…목표가 60만원 제시
+- 발행일: 2026-04-13
+- 매체: www.biztribune.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: http://www.biztribune.co.kr/news/articleView.html?idxno=352260
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성SDI는 전기차 전환 및 ESS 수요 증가에 힘입어 실적 개선이 예상됩니다.
+  - 2027년 기준 약 3조 8,920억원의 영업이익(EBITDA)을 기록할 것으로 전망됩니다.
+  - 이를 바탕으로 약 47조원 수준의 기업 가치가 산정되었습니다.
+- 관련 기업: 삼성SDI, 2차전지, EBITDA
+
+### 8. &lt;이원호의 경제톡&gt; K-배터리 산업의 기회와 위기
+- 발행일: 2026-04-13
+- 매체: www.bigtanews.co.kr (출처등급 3)
+- 분야: anode
+- 링크: https://www.bigtanews.co.kr/article/view/big202604130015
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리, 실리콘 음극, 리튬메탈 등 차세대 배터리 기술은 성능 개선을 넘어 안전성과 에너지 밀도의 한계를 극복할 가능성을 제시합니다.
+  - 일부 기업들은 파일럿 생산에 진입하거나 상용화 시점을 구체화하고 있습니다.
+  - 이는 K-배터리 산업의 기술 전환과 성장을 위한 중요한 기회가 될 수 있습니다.
+- 관련 기업: K-배터리
+
+### 9. 中 배터리=가성비? 유럽에선 K배터리와 동일 선상에서 경쟁
+- 발행일: 2026-04-13
+- 매체: zdnet.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://zdnet.co.kr/view/?no=20260413143150
+- 인기신호: unknown
+- 3문장 요약:
+  - 유럽 시장에서 중국 배터리는 K-배터리와 동일 선상에서 경쟁하고 있습니다.
+  - 중국 업체의 유럽 생산 총 원가는 중국 생산 대비 10~20% 증가하는 것으로 나타났습니다.
+  - 이는 비용 격차에도 불구하고 유럽 내 경쟁이 치열함을 보여줍니다.
+- 관련 기업: SG
+
+### 10. Scientists recover 90% of lithium from old batteries — here's why it matters
+- 발행일: 2026-04-13
+- 매체: Yahoo Tech (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMikgFBVV95cUxPYkw0djMtZUZjWFdpVm9ZUkxMbEkyak1BNWdydDRFckM1MU5TX3VndHV6VHlObVI2TkJmUzhoellid3FCME40c1kwTDMxaUk2TnRFVXEtbUotMnZ6VFZhUTI3dmxlbzhlejVHRXBMVm9BM1g0Tkk1QU13TmpZdm1KMy1KWl9BZkxvVHZobXpucERIUQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 과학자들이 폐배터리에서 리튬의 90%를 회수하는 기술을 개발했습니다.
+  - 이 기술은 배터리 재활용 효율을 크게 높여줍니다.
+  - 이는 리튬 공급망 안정화와 지속 가능한 배터리 산업 구축에 중요한 의미를 가집니다.
+
+### 11. 세종대 연구팀, 고속충전·장수명 배터리 음극 개발… 전기차 적용 기대
+- 발행일: 2026-04-14
+- 매체: www.pinpointnews.co.kr (출처등급 3)
+- 분야: anode
+- 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=445357
+- 인기신호: unknown
+- 3문장 요약:
+  - 세종대학교 연구팀이 고속 충전 및 장수명 배터리 구현을 위한 음극재 기술을 개발했습니다.
+  - 이 기술은 셀룰로오스 나노섬유(CNF)를 활용하여 전극 구조를 개선하는 방식입니다.
+  - 개발된 음극재는 전기차 및 에너지 저장 장치(ESS) 등 고성능 배터리가 필요한 분야에 적용될 것으로 기대됩니다.
+- 관련 기업: 세종대
+
+### 12. 전기차도 ESS도 쉽지 않다…中 저가에 밀린 K-배터리, 돌파구는
+- 발행일: 2026-04-14
+- 매체: www.kukinews.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.kukinews.com/article/view/kuk202604130156
+- 인기신호: unknown
+- 3문장 요약:
+  - K-배터리 산업은 전기차 시장 성장 둔화와 중국의 저가 공세에 직면하여 돌파구를 모색하고 있습니다.
+  - 글로벌 ESS 배터리 시장은 2035년까지 약 2.5배 성장할 것으로 예상됩니다.
+  - LG에너지솔루션 등 배터리 3사는 ESS 시장 확대에 속도를 내고 있습니다.
+- 관련 기업: LG에너지솔루션, K-배터리
+
+### 13. Leading the Charge in Safe Battery Recycling
+- 발행일: 2026-04-13
+- 매체: Resource Recycling (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMingFBVV95cUxPU3Zyak40c3Q2cEszODIyZXVrWEZrM1h4cnZNakdEOEJ2LW9DVkZWc0xOcjF4TnVxanpMNXJBcllBbC1oNTR2U2ZFdnVvTG5rU1VBSUVSNURzR0E1NXBickRKUzF4STFPU0lJQXVBd1I4UHk2enNoMERfVGpuaTFVWnRxVUx2RElyN0V3WWVMY3E2TURXcEtGbUc5YnVZdw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 이 기사는 안전한 배터리 재활용의 중요성을 강조합니다.
+  - 효율적인 배터리 재활용은 환경 보호와 자원 순환에 기여합니다.
+  - 이는 지속 가능한 배터리 산업 생태계 구축의 핵심 요소입니다.
+
+### 14. Altilium secures £18.5m to scale EV battery recycling
+- 발행일: 2026-04-13
+- 매체: UKTN (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxNOUloV2lWdGRseGRlQWxoaDJWZ1REM3psMmktb3hrSHVPQzVheU92ZFlmbDA1bllRZHpkM0JHcTlCa3B5bkNUeW1EaW9OWVA2MktNOEtLM2ZfRkY2RnBjTkNQQjhqTVQ2UXJ4cWJsWXNsRkpkem5rZ0Q1YndOdGhSRlFQYy1ZN1JXel9EUHEwQ1EyTDlVVXVGRQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 영국의 전기차 배터리 재활용 업체인 Altilium이 1,850만 파운드의 투자를 유치했습니다.
+  - 이번 투자는 전기차 배터리 재활용 시설 확대를 위해 사용될 예정입니다.
+  - 이는 유럽 내 배터리 재활용 역량 강화에 기여할 것으로 보입니다.
+- 관련 기업: Altilium, UKTN
+
+### 15. Altilium awarded £18.5m to build electric vehicle battery recycling facility
+- 발행일: 2026-04-13
+- 매체: Circular Online (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMitAFBVV95cUxNN0dFeWhXbHJYSTdaMDQ2anp4V05vWTBVQ24tdHMtXy1CaFRReldoX0FpRC1VOWZzTlQ2NTlvN3lYR1hJT3BxM3hrS0NOOERNdmtvNVBBdnI0Mlk1MEZNdmZkNWZQS3NYenRxVGtPNFlCVGNBQmFPeVctdVM1WnZFck5mWkEtdXdjVHJVdUEtNkw4MmxWS3k1ajJGNWQydC1wOS1TSENfRHBtOC1ocllTaEd2Qmw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 영국의 Altilium이 전기차 배터리 재활용 시설 구축을 위해 1,850만 파운드의 자금을 확보했습니다.
+  - 이 시설은 배터리 재활용 기술을 활용하여 지속 가능한 자원 순환을 목표로 합니다.
+  - 이는 영국 및 유럽의 전기차 배터리 재활용 산업 발전에 기여할 것으로 기대됩니다.
+- 관련 기업: Altilium
+
+### 16. Suomen Autokierrätys Links Digital Intake With Physical EV Battery Recycling
+- 발행일: 2026-04-13
+- 매체: Auto Recycling World (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ3ZGTmlHb2VkVGdLLUk4Q3I0MzIwYmw5SVRCdzRDbnhWWWRKVEVIVi11NDNqMWdDRE40ZVZIRHFhR0tMbWoyX3lrWFZFczYzV3pTWFlpVWV1OHo2RUFUbDBIRkk0dWJNZEtMQ2ttNFliS2ZYalJQRUNyMmRRWXNJaENnbHhsNW1tQW56d1ZMNVp3WjdtX05acW9ieS1kVU1ZMUFHUmtrdTJNOW9a?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 핀란드의 Suomen Autokierrätys는 디지털 인수를 물리적인 전기차 배터리 재활용과 연계하는 시스템을 구축했습니다.
+  - 이 시스템은 배터리 재활용 프로세스의 효율성을 높이는 것을 목표로 합니다.
+  - 이는 전기차 배터리 재활용 산업의 디지털 전환을 보여주는 사례입니다.
+- 관련 기업: Suomen Autokierrätys
+
+### 17. A Two-Dimensional Polymer Layer Tames Lithium Metal for Long-Life Batteries | Newswise
+- 발행일: 2026-04-13
+- 매체: Newswise (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMirgFBVV95cUxQaDNiMnRTdnROR2lPcldfZ2JCa001UU8ydjY0SlZwbUVwYXQxUmQzaFVUNE1uZVhmNjgzc3dHcE9TQzlhQWRCdmZ1aHllaHFBMWxBam5PdUVIYzU4WFhsVzdKZGVTSjRBZ19OMXB2cjBfMmozUGV0OElZZDJLTXVscDBRYTBHVnpueG5PbTNGcXlPaEplNEtOdkJiWEthM0FkMS02cVJLRzNGeWJlN3fSAa4BQVVfeXFMUGgzYjJ0U3Z0TkdpT3JXX2diQmtNNVFPMnY2NEpWcG1FcGF0MVJkM2hVVDRNbmVYZjY4M3N3R3BPU0M5YUFkQnZmdWh5ZWhxQTFsQWpuT3VFSGM1OFhYbFc3SmRlU0o0QWdfTjFwdnIwXzJqM1BldDhJWWQyS011bHAwUWEwR1Z6bnhuT20zRnF5T2hKZTRLTnZCYlhLYTNBZDEtNnFSS0czRnliZTd3?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 과학자들이 2차원 고분자 층을 사용하여 리튬 금속의 안정성을 높여 장수명 배터리를 개발했습니다.
+  - 이 기술은 리튬 금속의 덴드라이트 형성을 억제하여 배터리 수명을 연장합니다.
+  - 이는 차세대 고성능 배터리 개발에 중요한 진전을 의미합니다.
