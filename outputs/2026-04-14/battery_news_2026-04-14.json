@@ -1,0 +1,363 @@
+{
+  "date_range": "2026-04-14",
+  "items": [
+    {
+      "title": "전기차의 '게임체인저' 될까… 전고체 전지, 배터리 혁명의 문턱에 서다",
+      "description": "| 이코노미사이언스 정상훈 기자 | 액체 대신 고체로 전기를 옮기는 전고체 전지가 차세대 배터리의 핵심 후보로 떠오르고 있다. 지금의 리튬이온전지가 스마트폰과 전기차 시대를 열었다면, 전고체 전지는 그 다음 세대의...",
+      "link": "https://www.e-science.co.kr/news/articleView.html?idxno=128997",
+      "source": "www.e-science.co.kr",
+      "published_at": "2026-04-15",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 97,
+      "monitoring_importance": 97,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "리튬이온전지"
+      ],
+      "summary_3_sentences": [
+        "액체 전해질 대신 고체 전해질을 사용하는 전고체 전지가 차세대 배터리로 주목받고 있습니다.",
+        "이는 현재의 리튬이온전지가 열었던 스마트폰과 전기차 시대를 넘어설 다음 세대의 기술이 될 잠재력을 가지고 있습니다.",
+        "전고체 전지는 높은 에너지 밀도와 안전성을 바탕으로 배터리 기술의 혁신을 이끌 것으로 기대됩니다."
+      ]
+    },
+    {
+      "title": "국립부경대 연구팀, 전고체전지용 고니켈 양극 성능 개선",
+      "description": "전고체전지는 전기차와 에너지저장장치 등에 활용되는 차세대 배터리로 주목받고 있지만, 기존에는 성능... 또 마이크로 구조에서 다수의 1차 입자가 뭉쳐 있는 기존 2차 입자 구조 대신 입자 전체가 하나의 결정으로...",
+      "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2418669",
+      "source": "www.enewstoday.co.kr",
+      "published_at": "2026-04-14",
+      "provider": "naver",
+      "related_links": [
+        {
+          "source": "www.cnbnews.com",
+          "link": "https://www.cnbnews.com/news/article.html?no=789079"
+        },
+        {
+          "source": "www.viva100.com",
+          "link": "https://www.viva100.com/article/20260415500619"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "국립부경대",
+        "전고체전지"
+      ],
+      "summary_3_sentences": [
+        "국립부경대학교 연구팀이 전고체전지용 고니켈 양극의 성능을 개선하는 연구를 발표했습니다.",
+        "기존의 2차 입자 구조 대신 입자 전체가 하나의 결정으로 이루어진 마이크로 구조를 활용하여 성능 향상을 도모했습니다.",
+        "이 연구는 전고체전지의 상용화를 앞당기는 데 기여할 것으로 보입니다."
+      ]
+    },
+    {
+      "title": "China leads solid-state battery patent surge in Q1 2026",
+      "published_at": "2026-04-14",
+      "source": "Automotive World",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVmFiNVVwblFaQkRFWDhmX2tGd29jMDBmV3VPUDJ6cjJobDRhY0Y1RmdLMmpRWUxZQzlVSU5mMHVRb1d3eXd2cXlzRUhVVUYzRkhZeW54dkhUMFg0c2d0N0YwemxJNzdlRjhqT2l4U3lmLS1LUENDV002YllTRnJKTDR1UWxCaUxNbHlvR1ZMcV91TTZBRlgzNw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNVmFiNVVwblFaQkRFWDhmX2tGd29jMDBmV3VPUDJ6cjJobDRhY0Y1RmdLMmpRWUxZQzlVSU5mMHVRb1d3eXd2cXlzRUhVVUYzRkhZeW54dkhUMFg0c2d0N0YwemxJNzdlRjhqT2l4U3lmLS1LUENDV002YllTRnJKTDR1UWxCaUxNbHlvR1ZMcV91TTZBRlgzNw?oc=5\" target=\"_blank\">China leads solid-state battery patent surge in Q1 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Automotive World</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [],
+      "summary_3_sentences": [
+        "2026년 1분기 중국이 전고체 배터리 분야에서 특허 출원 건수에서 선두를 차지했습니다.",
+        "이는 중국이 전고체 배터리 기술 개발에 적극적으로 투자하고 있음을 시사합니다.",
+        "향후 전고체 배터리 시장에서의 중국의 영향력이 더욱 커질 것으로 예상됩니다."
+      ]
+    },
+    {
+      "title": "GAC-backed company targets world's first mass-producible solid-state battery in 2026, report says",
+      "published_at": "2026-04-14",
+      "source": "CarNewsChina.com",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVlVQM3Z6SkpfWXlIVndvdzZNTzE3RS1IV1VGSXh3Vi0zYW82bkRERzZLdC1CVWVDVGRuOW1ucGdTZzBIREw4V09WZG9WQ0JzV2F1ZE5TTWFpZ1ppeVRDTGY1aENtRU5LSHI1anQ1RWxLSHRfbHRiekZFREh2dXhwYV9pWkpPNENkd1pld2NUT0JtazFGRlRqdzBUVnI2YXB6MVRtdkljdElMODZmTlRNdzgybkk1SXlnbU1zZ0FhenJmZTAwTUN5Z3l3N3A?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQVlVQM3Z6SkpfWXlIVndvdzZNTzE3RS1IV1VGSXh3Vi0zYW82bkRERzZLdC1CVWVDVGRuOW1ucGdTZzBIREw4V09WZG9WQ0JzV2F1ZE5TTWFpZ1ppeVRDTGY1aENtRU5LSHI1anQ1RWxLSHRfbHRiekZFREh2dXhwYV9pWkpPNENkd1pld2NUT0JtazFGRlRqdzBUVnI2YXB6MVRtdkljdElMODZmTlRNdzgybkk1SXlnbU1zZ0FhenJmZTAwTUN5Z3l3N3A?oc=5\" target=\"_blank\">GAC-backed company targets world's first mass-producible solid-state battery in 2026, report says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CarNewsChina.com</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "GAC"
+      ],
+      "summary_3_sentences": [
+        "GAC의 지원을 받는 한 회사가 2026년 세계 최초로 양산 가능한 전고체 배터리를 목표로 하고 있다고 보도되었습니다.",
+        "이 회사는 새로운 프로토타입을 공개하며 기술적 진전을 알렸습니다.",
+        "이는 전고체 배터리 상용화 경쟁이 심화되고 있음을 보여줍니다."
+      ]
+    },
+    {
+      "title": "생기원, 성능·안전 '두 마리 토끼' 잡은 전고체 배터리 핵심 소재 개발",
+      "description": "전고체 배터리에 쓰이는 황화물계 고체전해질 성능과 안정성을 높인 소재가 국내에서 개발했다. 한국생산기술연구원(원장 이상목)은 김태효 저탄소에너지그룹 수석연구원팀이 황화물계 고체전해질 소재에 세 가지...",
+      "link": "https://www.etnews.com/20260415000202",
+      "source": "www.etnews.com",
+      "published_at": "2026-04-15",
+      "provider": "naver",
+      "related_links": [
+        {
+          "source": "www.newsis.com",
+          "link": "https://www.newsis.com/view/NISX20260415_0003591801"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "electrolyte",
+      "companies": [
+        "한국생산기술연구원",
+        "저탄소에너지그룹"
+      ],
+      "summary_3_sentences": [
+        "한국생산기술연구원 연구팀이 전고체 배터리의 성능과 안전성을 동시에 향상시키는 핵심 소재를 개발했습니다.",
+        "개발된 소재는 황화물계 고체전해질의 성능과 안정성을 높인 것이 특징입니다.",
+        "이 성과는 전고체 배터리 상용화에 중요한 발판이 될 것으로 기대됩니다."
+      ]
+    },
+    {
+      "title": "전고체 배터리 성능·안전성 동시 개선…황화물 전해질 한계 극복",
+      "description": "이온전도도 77배 향상…유독가스 발생 40% 감소 리튬 안정성 개선…상용화 앞당길 소재 기술 확보 개발된 전해질을 적용한 전고체 가압셀 전고체 배터리의 핵심 소재인 황화물계 고체전해질의 성능과 안정성을 동시에...",
+      "link": "http://www.tjb.co.kr/sub0301/bodo/view/id/97151",
+      "source": "www.tjb.co.kr",
+      "published_at": "2026-04-15",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "electrolyte",
+      "companies": [],
+      "summary_3_sentences": [
+        "전고체 배터리의 핵심 소재인 황화물계 고체전해질의 성능과 안정성을 동시에 개선하는 기술이 확보되었습니다.",
+        "이 기술은 이온 전도도를 77배 향상시키고 유독가스 발생을 40% 감소시키는 효과를 보였습니다.",
+        "이는 전고체 배터리의 상용화를 앞당길 수 있는 중요한 진전입니다."
+      ]
+    },
+    {
+      "title": "화재 위험 없는 전고체전지 상용화에 '한걸음'…이온 이동 속도 77배 '업...",
+      "description": "국내 연구팀이 전고체 배터리의 핵심 소재인 고체전해질에 원소 세 가지를 조합해 리튬이온 이동 속도를 기존보다 77배 높이고 습기에 노출될 때 나오는 유독가스도 40% 줄이는 데 성공했다. 소재 개발부터 실험실...",
+      "link": "https://www.dongascience.com/news/view/77393",
+      "source": "www.dongascience.com",
+      "published_at": "2026-04-15",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "electrolyte",
+      "companies": [
+        "전고체전지",
+        "리튬이온"
+      ],
+      "summary_3_sentences": [
+        "국내 연구팀이 화재 위험이 없는 전고체전지 상용화를 위한 중요한 진전을 이루었습니다.",
+        "연구팀은 고체전해질에 세 가지 원소를 조합하여 리튬이온 이동 속도를 77배 높이고 습기 노출 시 유독가스 발생을 40% 줄였습니다.",
+        "이러한 성과는 전고체 배터리의 안전성과 성능을 크게 향상시켜 상용화 가능성을 높입니다."
+      ]
+    },
+    {
+      "title": "성능·안전 동시에 잡은 전고체 배터리 핵심 소재 개발",
+      "description": "한국생산기술연구원이 전고체 배터리용 황화물계 고체전해질의 성능과 안정성을 높인 소재를 개발했다고 15일 밝혔다. 생기원 저탄소에너지그룹 김태효 수석연구원 연구팀은 황화물계 고체전해질 소재에 세 가지...",
+      "link": "http://www.fnnews.com/news/202604151045225120",
+      "source": "www.fnnews.com",
+      "published_at": "2026-04-15",
+      "provider": "naver",
+      "related_links": [
+        {
+          "source": "view.asiae.co.kr",
+          "link": "https://view.asiae.co.kr/article/2026041509511217868"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "electrolyte",
+      "companies": [
+        "한국생산기술연구원",
+        "저탄소에너지그룹"
+      ],
+      "summary_3_sentences": [
+        "한국생산기술연구원이 전고체 배터리용 황화물계 고체전해질의 성능과 안정성을 높인 신소재 개발에 성공했습니다.",
+        "김태효 수석연구원 연구팀은 황화물계 고체전해질 소재에 세 가지 원소를 첨가하는 방식을 사용했습니다.",
+        "이번 개발은 전고체 배터리의 상용화를 위한 핵심 기술 확보에 기여할 것으로 보입니다."
+      ]
+    },
+    {
+      "title": "The Electric: In the U.S. and China, Exaggerated Claims of Solid State Batteries",
+      "published_at": "2026-04-14",
+      "source": "The Information",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbjVSZGlqRHd3NTExcTNmTmN2ZEhpREFyVnhhWTFCUi1PT0pjQTdjM1g1VWo3alB6cTN1Wlo5WEdaRFFRUFBmak05TGRvVzI4TFMtU3REZC1mT0dqNGQ0bDRvaG5ONEJhQVh0UjBwMjVodEdBbHNTV1ZyTGJ3ODF4blhpOEx6cXJpdTlySG1xU2xDcFZVcEFUaHlBWnQ0MDhWZTZBZFIxTDhER1Ywa3Z2Yk9HMTNjQQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNbjVSZGlqRHd3NTExcTNmTmN2ZEhpREFyVnhhWTFCUi1PT0pjQTdjM1g1VWo3alB6cTN1Wlo5WEdaRFFRUFBmak05TGRvVzI4TFMtU3REZC1mT0dqNGQ0bDRvaG5ONEJhQVh0UjBwMjVodEdBbHNTV1ZyTGJ3ODF4blhpOEx6cXJpdTlySG1xU2xDcFZVcEFUaHlBWnQ0MDhWZTZBZFIxTDhER1Ywa3Z2Yk9HMTNjQQ?oc=5\" target=\"_blank\">The Electric: In the U.S. and China, Exaggerated Claims of Solid State Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Information</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "장비",
+      "companies": [],
+      "summary_3_sentences": [
+        "미국과 중국에서 전고체 배터리에 대한 과장된 주장들이 제기되고 있습니다.",
+        "일부 보도에서는 전고체 배터리의 실제 기술 수준과 상용화 전망에 대한 의문을 제기하고 있습니다.",
+        "이는 전고체 배터리 기술의 현황과 미래에 대한 신중한 접근이 필요함을 시사합니다."
+      ]
+    },
+    {
+      "title": "GAC-backed Greater Bay claims breakthrough in solid-state batteries with new prototype roll-out",
+      "published_at": "2026-04-14",
+      "source": "CnEVPost",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR0diNWpzUTQ2ejR4czByX0c3eVF4WDk4Q3hFZFQ1bFB5b0xRVXkxaGJuY0VkeDlNQUpmYlNMTlR4ZElaUjBvcUp6Q2dGZ3ZmdFpmeHlvMmZwMVBGOW42ajdMVGFOODVMR1ZnTHZoamhpZlJsMGJxSngtenhETUtWUFhhNHZXQQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOR0diNWpzUTQ2ejR4czByX0c3eVF4WDk4Q3hFZFQ1bFB5b0xRVXkxaGJuY0VkeDlNQUpmYlNMTlR4ZElaUjBvcUp6Q2dGZ3ZmdFpmeHlvMmZwMVBGOW42ajdMVGFOODVMR1ZnTHZoamhpZlJsMGJxSngtenhETUtWUFhhNHZXQQ?oc=5\" target=\"_blank\">GAC-backed Greater Bay claims breakthrough in solid-state batteries with new prototype roll-out</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CnEVPost</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "GAC",
+        "Greater Bay"
+      ],
+      "summary_3_sentences": [
+        "GAC의 지원을 받는 Greater Bay 회사가 새로운 프로토타입을 공개하며 전고체 배터리 분야에서 획기적인 발전을 이루었다고 주장했습니다.",
+        "이 회사는 2026년까지 세계 최초로 양산 가능한 전고체 배터리를 출시하는 것을 목표로 하고 있습니다.",
+        "이번 발표는 전고체 배터리 기술 경쟁이 가속화되고 있음을 보여줍니다."
+      ]
+    },
+    {
+      "title": "QuantumScape Stock (QS): Solid-State Battery Pioneer at a Crossroads",
+      "published_at": "2026-04-14",
+      "source": "techi.com",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14dmxXU1I1aGNSa3VIdDBST3ppWnlXRURnYVBpRnd1ckRibEVvbjlwd2V6TFRYMFl4V2JFaUFOOW5rc0dFU0E1cXNKemNKRktxVTBJ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE14dmxXU1I1aGNSa3VIdDBST3ppWnlXRURnYVBpRnd1ckRibEVvbjlwd2V6TFRYMFl4V2JFaUFOOW5rc0dFU0E1cXNKemNKRktxVTBJ?oc=5\" target=\"_blank\">QuantumScape Stock (QS): Solid-State Battery Pioneer at a Crossroads</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">techi.com</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "QuantumScape",
+        "QS"
+      ],
+      "summary_3_sentences": [
+        "전고체 배터리 선도 기업인 QuantumScape의 주가가 중요한 기로에 서 있습니다.",
+        "회사는 기술 개발과 상용화 과정에서 여러 도전에 직면하고 있는 것으로 보입니다.",
+        "QuantumScape의 향후 행보가 전고체 배터리 시장에 미칠 영향이 주목됩니다."
+      ]
+    },
+    {
+      "title": "Solid-State Batteries in 2026: Promise vs. Reality",
+      "published_at": "2026-04-14",
+      "source": "Battery Technology",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOV1p0MWNtTHgyMDUyVUp5SERkcmJlT2QzNHV3dERqWW5EMUpHb0xaaTI5RkE4UFlQSlFNWHBxcmhKSnFrSlpQQnFRdUV4TDU1U3RsSzBGUFJlZzRScl90bFcwc1N2eThjTzdCeXE1eFpmUFZXdHdCak5BTzlJQkNVTkFKZHBpQ2JCTFo5Z3FBSm04WnBtcm91ZDAwamtwNjdHMEhmZjE1cXhSbFFpcXhNVndaOXNjNWhzRk5qb3F3U0NDblZJRzVjRUxlNWZEU1AyUmdFSE5n?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOV1p0MWNtTHgyMDUyVUp5SERkcmJlT2QzNHV3dERqWW5EMUpHb0xaaTI5RkE4UFlQSlFNWHBxcmhKSnFrSlpQQnFRdUV4TDU1U3RsSzBGUFJlZzRScl90bFcwc1N2eThjTzdCeXE1eFpmUFZXdHdCak5BTzlJQkNVTkFKZHBpQ2JCTFo5Z3FBSm04WnBtcm91ZDAwamtwNjdHMEhmZjE1cXhSbFFpcXhNVndaOXNjNWhzRk5qb3F3U0NDblZJRzVjRUxlNWZEU1AyUmdFSE5n?oc=5\" target=\"_blank\">Solid-State Batteries in 2026: Promise vs. Reality</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Battery Technology</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 80,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [],
+      "summary_3_sentences": [
+        "2026년 전고체 배터리의 실제 상용화 가능성과 현재의 기술적 약속 사이에는 상당한 격차가 존재합니다.",
+        "전고체 배터리는 높은 잠재력을 가지고 있지만, 아직 해결해야 할 기술적 과제들이 남아 있습니다.",
+        "이러한 현실적인 제약들은 전고체 배터리 상용화 시기를 예측하는 데 중요한 요소입니다."
+      ]
+    },
+    {
+      "title": "Zwitterions Are The Key To New Solid-State Batteries",
+      "published_at": "2026-04-14",
+      "source": "CleanTechnica",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTlBUQVFaeU1DNFAtcThnbGQ1VGtWZTlnejdIa1pPWnZld0JMZUplUDdmd00zV3FqYWJlc1NtbXFVamRyUjlmdGpZSUZOZmdXSV92TUFmNlJiRkpUaUt1R1VkWVFkay12NU1lUXZLam5PYWJTTzRSYzJlZUVneFJCZTFuSDlqRTYybjZYN1FzTjNLSmo10gGcAUFVX3lxTFBvWFBTNk5oVHA3MklmRzJIcVdtTkludHd1Y3hJcW9XSTV1Mmc2bzlOQjFJU0FGaEQ1TWF3dzkwVXowVldTN1JPcW1jbUVSY01LaVdVYURjMGhKSlUySEZSbUNIYnZ4NEVTYVctbUY1SW1BVWpKSGJtcDhEODRHNC1UcnRfbXVpUnRmX3k0c1JuSUVrVTJ3aWxYSDNjTQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNTlBUQVFaeU1DNFAtcThnbGQ1VGtWZTlnejdIa1pPWnZld0JMZUplUDdmd00zV3FqYWJlc1NtbXFVamRyUjlmdGpZSUZOZmdXSV92TUFmNlJiRkpUaUt1R1VkWVFkay12NU1lUXZLam5PYWJTTzRSYzJlZUVneFJCZTFuSDlqRTYybjZYN1FzTjNLSmo10gGcAUFVX3lxTFBvWFBTNk5oVHA3MklmRzJIcVdtTkludHd1Y3hJcW9XSTV1Mmc2bzlOQjFJU0FGaEQ1TWF3dzkwVXowVldTN1JPcW1jbUVSY01LaVdVYURjMGhKSlUySEZSbUNIYnZ4NEVTYVctbUY1SW1BVWpKSGJtcDhEODRHNC1UcnRfbXVpUnRmX3k0c1JuSUVrVTJ3aWxYSDNjTQ?oc=5\" target=\"_blank\">Zwitterions Are The Key To New Solid-State Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CleanTechnica</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 80,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [],
+      "summary_3_sentences": [
+        "쯔비터 이온(Zwitterions)이 새로운 전고체 배터리의 핵심 기술로 부상하고 있습니다.",
+        "이 물질은 전고체 배터리의 성능과 안정성을 향상시키는 데 중요한 역할을 할 것으로 기대됩니다.",
+        "쯔비터 이온을 활용한 전고체 배터리 기술 개발이 주목받고 있습니다."
+      ]
+    },
+    {
+      "title": "Lithium-ion battery fire at Rahway warehouse under investigation",
+      "published_at": "2026-04-14",
+      "source": "Central New Jersey News",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbkpERlpmS2NGVFNESmN6UVM3YzJMLWJUUE1FZTZsRDNfc2R1U1picGlGakU0YTVZMm82UzdwTlVKZmk1Ym85TjJzbmVESVBsRGhnY0pBOHhhSUxPVFFWaXhncXo3eDFxM1J1SUxvTGN4bkQxTV9UajdkYlRNY3VHV2ZmdnlwRlNqWDlsNUhqV0ZjMEVlWVNud205c3oySmZpU05obE94TFB2Um83MGdDNjlTMWpHTWpZcFc5eG52QkdlbDRra3c?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPbkpERlpmS2NGVFNESmN6UVM3YzJMLWJUUE1FZTZsRDNfc2R1U1picGlGakU0YTVZMm82UzdwTlVKZmk1Ym85TjJzbmVESVBsRGhnY0pBOHhhSUxPVFFWaXhncXo3eDFxM1J1SUxvTGN4bkQxTV9UajdkYlRNY3VHV2ZmdnlwRlNqWDlsNUhqV0ZjMEVlWVNud205c3oySmZpU05obE94TFB2Um83MGdDNjlTMWpHTWpZcFc5eG52QkdlbDRra3c?oc=5\" target=\"_blank\">Lithium-ion battery fire at Rahway warehouse under investigation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Central New Jersey News</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 90,
+      "monitoring_importance": 80,
+      "monitor_score": 87,
+      "tier": 3,
+      "category": "기타",
+      "companies": [],
+      "summary_3_sentences": [
+        "뉴저지주 라웨이의 한 창고에서 발생한 리튬이온 배터리 화재 사건에 대한 조사가 진행 중입니다.",
+        "이번 화재는 리튬이온 배터리의 안전성 문제에 대한 우려를 다시 한번 제기하고 있습니다.",
+        "사고 원인 규명과 재발 방지 대책 마련이 시급합니다."
+      ]
+    },
+    {
+      "title": "Full Circle Lithium Stages Live FCL-X Battery Fire Demo for Airlines and Logistics Giants",
+      "published_at": "2026-04-14",
+      "source": "TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcjhTTW16aElIdDFMeGdacXVrMkRRaUxUMWNCZ3FLZXZsVWVJVjhrV25kN1djdV9LclBQTXg4b2hOLW5CczNORk1Jb2tIcTl5Q2M4RExaT2pPSTV1WnVOdEhWNUl5R0xNbzdPTWV5b3lRVjhSMzZHeVdJY2M2cFR6dV9lNVhPTVNxb19PRlFLX1VRbGVYWXM0bmZjUjRHa3JpV1dVc3Vsb2xiaWRYaWoxd3hrQzNxU3kzY3J0YlhXX0JWdUpQSFdvcmVSNkRXYkcxU0ZCeWFHQl8?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcjhTTW16aElIdDFMeGdacXVrMkRRaUxUMWNCZ3FLZXZsVWVJVjhrV25kN1djdV9LclBQTXg4b2hOLW5CczNORk1Jb2tIcTl5Q2M4RExaT2pPSTV1WnVOdEhWNUl5R0xNbzdPTWV5b3lRVjhSMzZHeVdJY2M2cFR6dV9lNVhPTVNxb19PRlFLX1VRbGVYWXM0bmZjUjRHa3JpV1dVc3Vsb2xiaWRYaWoxd3hrQzNxU3kzY3J0YlhXX0JWdUpQSFdvcmVSNkRXYkcxU0ZCeWFHQl8?oc=5\" target=\"_blank\">Full Circle Lithium Stages Live FCL-X Battery Fire Demo for Airlines and Logistics Giants</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TipRanks</font>",
+      "provider": "google",
+      "related_links": [
+        {
+          "source": "Newswire Canada",
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQRjUzUWFtVXpQYVQzMkhvLVBqS3lzNE45VWpMTi1WNlFKRkpXUnBGSGtGQWs2bDNodUVMNGZLc00xbUYyRXgzeXlzVVd0RTdMdjd5TDAySV9rN0NIbkJOTHV1UnhrS3RFMzJvYzQzZzJHZVN3bWpCWnVFWFlEWVVNTHVfaC1Tc1d1c2txRTVrTXJDbzNnUnVYdmpSRWpBSEVyTXltNnI1WnFZQzFFcjFScXdMRGdQRFFqZkhoYm12Mm5pU2l1M0Nwd0dqZ3c1TDB1X0VtVE1lZ1FORnFyNEhBbjVubVlXcUNIR3JGb3FYTnp4QUhtWXp4RnZJRzUyZmdaaGFMd3ZmSXRNcGh2WFE?oc=5"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "battery_relevance": 90,
+      "monitoring_importance": 80,
+      "monitor_score": 87,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "Full Circle Lithium",
+        "FCL"
+      ],
+      "summary_3_sentences": [
+        "Full Circle Lithium이 항공사 및 물류 대기업을 대상으로 FCL-X 배터리 화재 시연을 진행했습니다.",
+        "이번 시연은 배터리 안전성에 대한 중요성을 강조하고 잠재 고객들에게 기술력을 선보이기 위한 목적입니다.",
+        "이는 배터리 안전 솔루션 시장에서의 경쟁력을 강화하려는 움직임으로 해석됩니다."
+      ]
+    }
+  ]
+}
