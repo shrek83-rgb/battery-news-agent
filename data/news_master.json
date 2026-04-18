@@ -1,5 +1,199 @@
 [
   {
+    "title": "\"공기를 지배한 혁신\" 카이스트 서동화 교수팀, 고속 충전과 초안정성을...",
+    "description": "전기차와 로봇, 그리고 도심항공교통(UAM)에 이르기까지 차세대 산업의 심장으로 불리는 전고체 배터리. 그 미래를 가로막던 취약성을 과감히 돌파한 연구 성과가 등장했다. KAIST 연구진이 공기 중에서도 흔들림 없는...",
+    "link": "https://www.lecturernews.com/news/articleView.html?idxno=200689",
+    "source": "www.lecturernews.com",
+    "published_at": "2026-04-18",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "KAIST",
+      "UAM"
+    ],
+    "summary_3_sentences": [
+      "KAIST 서동화 교수팀이 공기 중에서도 안정적인 고속 충전 전고체 배터리 기술을 개발했습니다.",
+      "이 연구는 차세대 산업의 핵심인 전고체 배터리의 취약성을 극복하는 성과를 거두었습니다.",
+      "개발된 기술은 전기차, 로봇, UAM 등 다양한 분야에 적용될 잠재력을 가지고 있습니다."
+    ],
+    "uid": "77432ed458574af34ef63fb74df714dffaed7c82"
+  },
+  {
+    "title": "배터리 3사, 美 PFE 규제에 \"공급망·비용 기준 완화해달라\"",
+    "description": "또 \"현행 세이프하버 기준은 ESS 중심으로 설계돼 있고 전기차(EV) 배터리에 대한 별도 기준이 없다\"며 EV 배터리 전용 기준 신설 필요성을 제기했다. SK온은 화학계별로 다른 기준을 적용해야 한다는 의견을 냈다....",
+    "link": "http://www.inews24.com/view/1961338",
+    "source": "www.inews24.com",
+    "published_at": "2026-04-18",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "정책",
+    "companies": [
+      "SK온",
+      "PFE"
+    ],
+    "summary_3_sentences": [
+      "한국 배터리 3사는 미국의 PFE 규제에 대해 공급망 및 비용 기준 완화를 요청했습니다.",
+      "현행 세이프하버 기준이 ESS 중심으로 설계되어 전기차 배터리에 대한 별도 기준이 필요하다고 주장했습니다.",
+      "SK온은 화학 물질별로 다른 기준을 적용해야 한다는 의견을 제시했습니다."
+    ],
+    "uid": "7d87b4cc0629013159c78f69fda35e5bbb71469a"
+  },
+  {
+    "title": "전고체 배터리 상용화 레이스, 중국이 세계 최초 선언",
+    "description": "전기차 화재 공포를 끝낼 '꿈의 배터리'로 10년 넘게 불려온 전고체 배터리 상용화 레이스에서 예상 밖의 신흥 주자가 세계 최초를 선점하겠다고 나섰다. 삼성SDI, 토요타 같은 업계 강자들이 2027년을 목표로 내실을...",
+    "link": "https://www.g-enews.com/view.php?ud=202604172303406502bd56fbc3c_1",
+    "source": "www.g-enews.com",
+    "published_at": "2026-04-18",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 97,
+    "monitoring_importance": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "토요타",
+      "불려온"
+    ],
+    "summary_3_sentences": [
+      "중국이 전고체 배터리 상용화 경쟁에서 세계 최초를 선언했습니다.",
+      "이는 삼성SDI, 토요타 등 기존 강자들이 2027년을 목표로 개발 중인 상황에서 나온 예상 밖의 움직임입니다.",
+      "전고체 배터리는 전기차 화재 위험을 없앨 수 있는 차세대 배터리로 주목받고 있습니다."
+    ],
+    "uid": "ca9de28daf9b648ca1ca76697c37889b0327fd12"
+  },
+  {
+    "title": "트럼프發 규제리스크에 K배터리 '긴장'…원가·ESS '이중 압박'",
+    "description": "ESS 사업은 전기차용 배터리보다 가격 경쟁력이 더욱 중요한 분야다. 전력망·재생에너지 프로젝트에서 비용 효율성이 핵심이기 때문이다. 이런 상황에서 핵심광물 가격이 정책적으로 하방이 제한되면, ESS 사업의 수익성...",
+    "link": "https://it.chosun.com/news/articleView.html?idxno=2023092160546",
+    "source": "it.chosun.com",
+    "published_at": "2026-04-18",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "정책",
+    "companies": [
+      "전력망·재생에너지"
+    ],
+    "summary_3_sentences": [
+      "트럼프발 규제 리스크와 원자재 가격 상승으로 K-배터리가 이중 압박을 받고 있습니다.",
+      "특히 ESS 사업은 가격 경쟁력이 중요하며, 핵심 광물 가격이 상승하면 수익성에 부정적인 영향을 미칩니다.",
+      "이는 K-배터리 산업이 직면한 공급망 및 비용 관련 불확실성을 보여줍니다."
+    ],
+    "uid": "95c13e25c25bb6f3182adfd37692fcb118cd6579"
+  },
+  {
+    "title": "[특징주] 삼성SDI, 정책 수혜·AWS 협력 기대에 장중 52주 신고가",
+    "description": "현대차증권은 ESS와 배터리백업유닛(BBU) 수요 강세, 유럽의 전기차 전환 가속 가능성 등을 반영해 삼성SDI 실적 전망을 높여 잡았다. 앞서 시장에서는 1분기 영업적자 축소, 북미 ESS 수주 기대, 재무구조 개선 가능성...",
+    "link": "https://www.tokenpost.kr/news/economy/350518",
+    "source": "www.tokenpost.kr",
+    "published_at": "2026-04-17",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.ajunews.com",
+        "link": "https://www.ajunews.com/view/20260417150439065"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "삼성SDI",
+      "AWS",
+      "BBU"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 정책 수혜와 AWS와의 협력 기대감으로 장중 52주 신고가를 기록했습니다.",
+      "현대차증권은 ESS와 BBU 수요 강세, 유럽 전기차 전환 가속 등을 반영하여 삼성SDI의 실적 전망을 상향했습니다.",
+      "시장에서는 1분기 영업적자 축소, 북미 ESS 수주 기대, 재무구조 개선 가능성 등이 주가 상승 요인으로 분석하고 있습니다."
+    ],
+    "uid": "36ffdc9dd7731b54206094eb277473f6853f94d3"
+  },
+  {
+    "title": "케이엔에스, 내년 46파이·액침냉각 ESS 사업화",
+    "description": "케이엔에스 관계자는 “그동안 축적한 배터리 모듈 자동화 조립 설비 기술과 레이저 웰딩 설비 기술, 검사 설비 기술 등을 바탕으로 액침냉각 기반 배터리 ESS 제품을 개발할 것”이라며 “이를 통해 글로벌 ESS...",
+    "link": "https://www.sentv.co.kr/article/view/sentv202604170148",
+    "source": "www.sentv.co.kr",
+    "published_at": "2026-04-17",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "장비",
+    "companies": [
+      "케이엔에스"
+    ],
+    "summary_3_sentences": [
+      "케이엔에스는 내년에 46파이 배터리와 액침냉각 ESS 사업화를 추진할 계획입니다.",
+      "축적된 배터리 모듈 자동화 조립, 레이저 웰딩, 검사 설비 기술을 바탕으로 액침냉각 기반 ESS 제품을 개발할 예정입니다.",
+      "이를 통해 글로벌 ESS 시장에서의 경쟁력을 강화하고자 합니다."
+    ],
+    "uid": "7496ba14ffdf1a704d8437928e9d7e3956384420"
+  },
+  {
+    "title": "ESS 수요 확대에 실적개선 훈풍…연초 이후 수익률 32% ‘고공행진’ [E...",
+    "description": "삼성SDI는 최근 미국 에너지 기업과 약 1조 5000억 원 규모의 ESS용 각형 배터리 공급 계약을 체결하며 투자 기대감을 높였다. 시장에서는 2차전지 산업의 성장 축이 전기차에서 ESS로 확장되고 있다는 점에 주목하고...",
+    "link": "https://www.sedaily.com/article/20033925?ref=naver",
+    "source": "www.sedaily.com",
+    "published_at": "2026-04-17",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "삼성SDI",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 미국 에너지 기업과 약 1조 5000억 원 규모의 ESS용 각형 배터리 공급 계약을 체결했습니다.",
+      "이는 최근 ESS 수요 확대에 따른 실적 개선 기대감을 높이는 요인으로 작용하고 있습니다.",
+      "시장에서는 2차전지 산업의 성장 축이 전기차에서 ESS로 확장되는 추세에 주목하고 있습니다."
+    ],
+    "uid": "47e058958904a71330a6a438a4a1f6c60302f905"
+  },
+  {
+    "title": "\"원자 단위의 정밀함으로 빚어낸 혁신\" 연세대학교 김대우 교수팀, 초정...",
+    "description": "이들이 개발한 나노다공성 그래핀 분리막은 기존 기술의 한계를 뛰어넘어, 높은 투과도와 탁월한 분리... 그래핀 분리막은 비선택적 결함과 층간 팽윤이라는 난제를 피해 가지 못했다. 이로 인해 분리 정밀도가 저하되는...",
+    "link": "https://www.lecturernews.com/news/articleView.html?idxno=200646",
+    "source": "www.lecturernews.com",
+    "published_at": "2026-04-17",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "separator",
+    "companies": [],
+    "summary_3_sentences": [
+      "연세대학교 김대우 교수팀이 원자 단위 정밀함으로 나노다공성 그래핀 분리막을 개발했습니다.",
+      "이 분리막은 기존 기술의 한계를 뛰어넘어 높은 투과도와 탁월한 분리 성능을 제공합니다.",
+      "이는 그래핀 분리막의 비선택적 결함과 층간 팽윤 문제를 해결하여 분리 정밀도를 높인 혁신적인 성과입니다."
+    ],
+    "uid": "25952ea05c54eda374b57b9ca4033abb57817112"
+  },
+  {
     "title": "전고체 배터리 상용화 앞당겨지나…中 업체 “내년 양산 목표”",
     "description": "중국 배터리 업체가 전고체 배터리 상용화를 앞당길 수 있는 기술적 진전을 발표했다. 16일(현지시각) 일렉트렉에 따르면 중국 광저우자동차그룹(GAC그룹) 계열의 배터리 기업 그레이터베이테크놀로지(GBT)는 전고체...",
     "link": "https://www.g-enews.com/view.php?ud=2026041623000537559a1f309431_1",
@@ -23,6 +217,256 @@
       "중국의 전고체 배터리 기술 발전은 글로벌 배터리 산업 경쟁 구도에 변화를 가져올 수 있습니다."
     ],
     "uid": "cc625bf53a2727122a02534c106a357d1a699487"
+  },
+  {
+    "title": "[산업 콕!] 역전 노리는 K-배터리, 열쇠는 '초격차 기술·신시장'",
+    "description": "LG에너지솔루션의 전력망용 ESS 배터리 컨테이너 제품. &lt;사진제공=LG에너지솔루션&gt; ◆아시아 ESS 시장 공략으로 지역별 성장 축 다변화 시장 규모와 매출 측면에서는 에너지저장장치(ESS)의 성장이 미치는 영향이 매우...",
+    "link": "http://www.00news.co.kr/news/articleView.html?idxno=103301",
+    "source": "www.00news.co.kr",
+    "published_at": "2026-04-17",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "K-배터리"
+    ],
+    "summary_3_sentences": [
+      "K-배터리 산업은 '초격차 기술'과 '신시장 개척'을 통해 역전을 노리고 있습니다.",
+      "특히 LG에너지솔루션의 전력망용 ESS 배터리 컨테이너 제품은 아시아 ESS 시장 공략의 핵심입니다.",
+      "이는 지역별 성장 축을 다변화하고 ESS 시장 성장을 통해 매출 증대를 꾀하는 전략입니다."
+    ],
+    "uid": "88387b7ca7793e1d29372729dba67645e1d10d81"
+  },
+  {
+    "title": "Government of Canada supports Mangrove Lithium’s next step in building a made-in-Canada battery supply chain",
+    "published_at": "2026-04-17",
+    "source": "canada.ca",
+    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxORXFLUjl5LTJzZWVOWjVjQW5uNndCLWtNOEVwT0xCRG1QeC1RUy1STjJ0QUVjUlAtallYUWpGbDEySExaSmFGTDhORE83TUxzUjlqM1lIcnRqT3ZQM3ZyeGJqTEVBMkNYUGNUSnI0SXhMQVZHNExaLU5fc3ZNMkdqU2p1eGZ1QzNHQW4wbWp1NXlSbkw2cnRnNTRtWW9kR0I5Y1BNY3F4N21xbEpUR1VRdjB6ZTR3MWk0clRZUGF4MC1ReTlmc2E1d0VsbVhQd1RxU1ozc1U2QVc3R3NRcHNvcnhPdjZheTZKdDl5bGpwYUgyYVNzMjhWREtMVW85c2N6RmNpZnZB?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihgJBVV95cUxORXFLUjl5LTJzZWVOWjVjQW5uNndCLWtNOEVwT0xCRG1QeC1RUy1STjJ0QUVjUlAtallYUWpGbDEySExaSmFGTDhORE83TUxzUjlqM1lIcnRqT3ZQM3ZyeGJqTEVBMkNYUGNUSnI0SXhMQVZHNExaLU5fc3ZNMkdqU2p1eGZ1QzNHQW4wbWp1NXlSbkw2cnRnNTRtWW9kR0I5Y1BNY3F4N21xbEpUR1VRdjB6ZTR3MWk0clRZUGF4MC1ReTlmc2E1d0VsbVhQd1RxU1ozc1U2QVc3R3NRcHNvcnhPdjZheTZKdDl5bGpwYUgyYVNzMjhWREtMVW85c2N6RmNpZnZB?oc=5\" target=\"_blank\">Government of Canada supports Mangrove Lithium’s next step in building a made-in-Canada battery supply chain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">canada.ca</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Mangrove Lithium"
+    ],
+    "summary_3_sentences": [
+      "캐나다 정부는 Mangrove Lithium의 캐나다산 배터리 공급망 구축을 지원합니다.",
+      "이는 북미 지역의 배터리 생산 능력 강화 및 공급망 자립을 위한 노력의 일환입니다.",
+      "Mangrove Lithium의 전기화학 리튬 정제 시설은 이러한 목표 달성에 기여할 것입니다."
+    ],
+    "uid": "b64dd20900bf075af43b39459cf9fe7ed2b794bd"
+  },
+  {
+    "title": "The Solid-State Reality Check and Why the Holy Grail of EV Tech Is Further Away Than You Think and Who Wins the Scarcity War",
+    "published_at": "2026-04-17",
+    "source": "Torque News",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQX0l1UkFTQWRyeDA1eWJLOWVSWXdlTTk3UkJJQ0JOb1R2eWluZEZPcTB5Si02OWxMUy1tWEhSSlQtZlMzQzcwX054dEppaFNuTWwwWE42TTE4aVByZWJkdW9MVjl0TXpLRGZkbEZhLUdURXRTNlFYNDBzVlVpbFlnTkxBdTY4OXB6d2R6amUxazl1eFVDbmxnLWtRaFp6eFROOTN3NEx5Zks3NFpxVnZaeWFzRWNMMFpaQXBGWENB?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQX0l1UkFTQWRyeDA1eWJLOWVSWXdlTTk3UkJJQ0JOb1R2eWluZEZPcTB5Si02OWxMUy1tWEhSSlQtZlMzQzcwX054dEppaFNuTWwwWE42TTE4aVByZWJkdW9MVjl0TXpLRGZkbEZhLUdURXRTNlFYNDBzVlVpbFlnTkxBdTY4OXB6d2R6amUxazl1eFVDbmxnLWtRaFp6eFROOTN3NEx5Zks3NFpxVnZaeWFzRWNMMFpaQXBGWENB?oc=5\" target=\"_blank\">The Solid-State Reality Check and Why the Holy Grail of EV Tech Is Further Away Than You Think and Who Wins the Scarcity War</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Torque News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 95,
+    "monitor_score": 95,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "전고체 배터리 기술의 현실적인 문제점과 상용화까지 남은 거리를 분석합니다.",
+      "이 기술이 전기차 시장의 성배로 여겨지는 이유와 희소성 경쟁에서 누가 이길지에 대한 전망을 제시합니다.",
+      "기술적 난제와 시장 상황을 고려할 때, 전고체 배터리 상용화는 예상보다 더딜 수 있음을 시사합니다."
+    ],
+    "uid": "a8aa999c87c1975c468b4e19c23f4f0633a51c4e"
+  },
+  {
+    "title": "Single-crystalline electrolyte unlocks safer lithium metal batteries",
+    "published_at": "2026-04-17",
+    "source": "Tech Xplore",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdHY4dXdxUzJrYkFXdjhZYnpldlRTVUJ3YlRhcGtiUjFKdzlZcHZkeDJ1akM2elZRaXMtS1ZwbW9RY0VkbEw1X08taWdmdnpDYnZEdTBJYlVVbEpDc2EzQXVEQmJRZzFnM2F0SW9xLTFrQlB4NGhUMHZWNVV6UWRCUGMtYzVuT1dqNHhwSg?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPdHY4dXdxUzJrYkFXdjhZYnpldlRTVUJ3YlRhcGtiUjFKdzlZcHZkeDJ1akM2elZRaXMtS1ZwbW9RY0VkbEw1X08taWdmdnpDYnZEdTBJYlVVbEpDc2EzQXVEQmJRZzFnM2F0SW9xLTFrQlB4NGhUMHZWNVV6UWRCUGMtYzVuT1dqNHhwSg?oc=5\" target=\"_blank\">Single-crystalline electrolyte unlocks safer lithium metal batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Xplore</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [],
+    "summary_3_sentences": [
+      "단결정 전해질 개발을 통해 리튬 금속 배터리의 안전성을 획기적으로 향상시켰습니다.",
+      "이는 기존 리튬 금속 배터리의 주요 문제점이었던 덴드라이트 형성을 억제하여 안전성을 높이는 기술입니다.",
+      "이러한 기술 발전은 더 안전하고 효율적인 차세대 배터리 상용화에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "408fa41ff6e69818c6569a9162c29c2a7b9af91e"
+  },
+  {
+    "title": "Oxygen anchoring unlocks air-stable solid-state batteries with faster charging",
+    "published_at": "2026-04-17",
+    "source": "Tech Xplore",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXSTdlVGRuVGJzT1RxMEdVRGtkM05zUVpDN01UQUhzU2xwM2RRemh4RHh3ZXNSajBrbzdTTjJNWWRnQW8xUF9BaTBGVkVWbF81Z2VWYkNlNkpPZmxyNWpnZ2ZNeUk1bXktaG1HVWNsUF9HbGdSTkpFQkhucTdob1E?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBXSTdlVGRuVGJzT1RxMEdVRGtkM05zUVpDN01UQUhzU2xwM2RRemh4RHh3ZXNSajBrbzdTTjJNWWRnQW8xUF9BaTBGVkVWbF81Z2VWYkNlNkpPZmxyNWpnZ2ZNeUk1bXktaG1HVWNsUF9HbGdSTkpFQkhucTdob1E?oc=5\" target=\"_blank\">Oxygen anchoring unlocks air-stable solid-state batteries with faster charging</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Xplore</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "산소 고정 기술을 적용하여 공기 중에서도 안정적인 고체 전해질 배터리 개발에 성공했습니다.",
+      "이 기술은 배터리의 충전 속도를 높이면서도 안정성을 유지하는 데 기여합니다.",
+      "이는 차세대 배터리 기술의 중요한 진전으로, 전기차 및 에너지 저장 장치 분야에 혁신을 가져올 수 있습니다."
+    ],
+    "uid": "22c83a7a7398a64ff18890a7f568728b9d318632"
+  },
+  {
+    "title": "An ultrathin solid electrolyte keeps lithium metal batteries from catching fire",
+    "published_at": "2026-04-17",
+    "source": "Nanowerk",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MRmNSMHFWcFhkT1VFLTBkZ3pYdFYwMlRKSWduZWxyUFpTN2tvRjF6YTlrc1lDd2NtcWhXNEdRZmRDc0F6bnRFc3o3MWVkLXMydjFqT2FYelV1MkNEX19Pcw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MRmNSMHFWcFhkT1VFLTBkZ3pYdFYwMlRKSWduZWxyUFpTN2tvRjF6YTlrc1lDd2NtcWhXNEdRZmRDc0F6bnRFc3o3MWVkLXMydjFqT2FYelV1MkNEX19Pcw?oc=5\" target=\"_blank\">An ultrathin solid electrolyte keeps lithium metal batteries from catching fire</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nanowerk</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [],
+    "summary_3_sentences": [
+      "초박형 고체 전해질 개발로 리튬 금속 배터리의 화재 위험을 해결했습니다.",
+      "이 전해질은 덴드라이트 형성을 효과적으로 억제하여 배터리 안전성을 크게 향상시킵니다.",
+      "이는 리튬 금속 배터리의 상용화를 앞당기고 전기차의 안전성을 높이는 데 중요한 역할을 할 것입니다."
+    ],
+    "uid": "a55782512ee66bb9bdef6291b508a7b395fcb5dd"
+  },
+  {
+    "title": "Scientists develop air-stable, high-performance solid-state battery",
+    "published_at": "2026-04-17",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PTVdIQjVzZ0hsY3ZuOFA2VTBWNFZqUGFZa29iMnF0dlE3TnFDS0F5ZWUxOVdSc1AzczNvLTh3YW9DTXNHQzc5VWpvOTAzNzZ1UEZJVTlWRW1lSTJFbndOMjdoSG4wbDVESGxnN2VnY1hIenhZOEZES3pISnc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1PTVdIQjVzZ0hsY3ZuOFA2VTBWNFZqUGFZa29iMnF0dlE3TnFDS0F5ZWUxOVdSc1AzczNvLTh3YW9DTXNHQzc5VWpvOTAzNzZ1UEZJVTlWRW1lSTJFbndOMjdoSG4wbDVESGxnN2VnY1hIenhZOEZES3pISnc?oc=5\" target=\"_blank\">Scientists develop air-stable, high-performance solid-state battery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "과학자들이 공기 중에서 안정적으로 작동하는 고성능 전고체 배터리를 개발했습니다.",
+      "이 배터리는 향상된 안정성과 빠른 충전 속도를 특징으로 합니다.",
+      "이는 차세대 배터리 기술의 중요한 발전으로, 전기차 및 휴대용 전자기기 분야에 큰 영향을 미칠 것으로 예상됩니다."
+    ],
+    "uid": "7da9e45bcdc8286e07f1a35d460d181f6eb57704"
+  },
+  {
+    "title": "Battery hits 99.98% efficiency, 2,000-hour dendrite-free run",
+    "published_at": "2026-04-17",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUUYzYlBYbVVlLVhhQ2ZMQ2tvdU9qVnFYaDBfZVBxdmZQZVlVa3BvbXc2M1NrTExMdzhIN2xFQXMwU3J3dnNYWmdJem0zUElGNXFFdDd1TTdOcGtobkQwak5DTnJaYXNhdUJBVmIzdHV5czNGTHFFV1dfX2RCTjJWOUV5eVdyMEhmc2hVb2c2QWt1QTlJUHdXU3VLLU9UUU5ocHNnSEplSlM?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUUYzYlBYbVVlLVhhQ2ZMQ2tvdU9qVnFYaDBfZVBxdmZQZVlVa3BvbXc2M1NrTExMdzhIN2xFQXMwU3J3dnNYWmdJem0zUElGNXFFdDd1TTdOcGtobkQwak5DTnJaYXNhdUJBVmIzdHV5czNGTHFFV1dfX2RCTjJWOUV5eVdyMEhmc2hVb2c2QWt1QTlJUHdXU3VLLU9UUU5ocHNnSEplSlM?oc=5\" target=\"_blank\">Battery hits 99.98% efficiency, 2,000-hour dendrite-free run</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "개발된 배터리는 99.98%의 효율성을 달성했으며, 2,000시간 동안 덴드라이트 없이 안정적으로 작동했습니다.",
+      "이는 기존 리튬 금속 배터리의 주요 문제점인 덴드라이트 형성을 효과적으로 억제했음을 의미합니다.",
+      "이러한 성능 향상은 더 안전하고 오래가는 배터리 개발의 가능성을 보여줍니다."
+    ],
+    "uid": "c5d3d908d98e8cec605102e8a6916c8d95e59ec2"
+  },
+  {
+    "title": "Mangrove Lithium Opens North America’s First Commercial Electrochemical Lithium Refining Facility",
+    "published_at": "2026-04-17",
+    "source": "Business Wire",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNzhlTUZwOW1XLVJMUGZIVXhiMHp4Zm44YjFnX05WdDZFcDFVek1YUjYwU25WOVo5SC16Zl9zeUtvX2JNUU43X2xDM2VqNTVPcWF1SDM4aldVTEYxN1JGNjhhMmRnczdWU3dlbVBXdFVEVzZwMmFHS01IQ2x6Rk1EWTRBNlkzUDAtZ1FzRXhrNGppQzVGUHN4NGRYUHJyZ2g3S25XZWRkcVQ3SmY3Wk9EWGNzc1JOZFJhSGFXcHJCOGVCa09NdTNndjBORzc3clZhSzM5M3Q3TWx4N0h5WnNPUFVrMUhpOXR0?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNzhlTUZwOW1XLVJMUGZIVXhiMHp4Zm44YjFnX05WdDZFcDFVek1YUjYwU25WOVo5SC16Zl9zeUtvX2JNUU43X2xDM2VqNTVPcWF1SDM4aldVTEYxN1JGNjhhMmRnczdWU3dlbVBXdFVEVzZwMmFHS01IQ2x6Rk1EWTRBNlkzUDAtZ1FzRXhrNGppQzVGUHN4NGRYUHJyZ2g3S25XZWRkcVQ3SmY3Wk9EWGNzc1JOZFJhSGFXcHJCOGVCa09NdTNndjBORzc3clZhSzM5M3Q3TWx4N0h5WnNPUFVrMUhpOXR0?oc=5\" target=\"_blank\">Mangrove Lithium Opens North America’s First Commercial Electrochemical Lithium Refining Facility</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Wire</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Mangrove Lithium"
+    ],
+    "summary_3_sentences": [
+      "Mangrove Lithium은 북미 최초의 상업용 전기화학 리튬 정제 시설을 개소했습니다.",
+      "이 시설은 캐나다산 배터리 공급망 구축의 중요한 단계입니다.",
+      "이는 북미 지역의 배터리 생산 능력 강화에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "2120cf859078a0e4a46ea347508f0c1648beff52"
+  },
+  {
+    "title": "Albemarle Stock Is Surging. Demand for EVs, Specialty Chemicals Fuels Lithium Gains.",
+    "published_at": "2026-04-17",
+    "source": "Barron's",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB0WnRyRzNaVVNscEN6X2wwbGY4Xy1uLWgxaVZ1LUZOeEhvOGF3RVNpN0wyYThEWGJBcGhmNS1EVFMwMlhGOHJLY0xOcUotNnk0Vy1Ba0N2R185WG0yR2ZnWHBEdDdvVmtoWjBkMzk2V2xMcXppb041cUVsYU0?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFB0WnRyRzNaVVNscEN6X2wwbGY4Xy1uLWgxaVZ1LUZOeEhvOGF3RVNpN0wyYThEWGJBcGhmNS1EVFMwMlhGOHJLY0xOcUotNnk0Vy1Ba0N2R185WG0yR2ZnWHBEdDdvVmtoWjBkMzk2V2xMcXppb041cUVsYU0?oc=5\" target=\"_blank\">Albemarle Stock Is Surging. Demand for EVs, Specialty Chemicals Fuels Lithium Gains.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Albemarle"
+    ],
+    "summary_3_sentences": [
+      "Albemarle 주가가 급등하고 있으며, 이는 전기차 및 특수 화학제품에 대한 수요 증가에 따른 리튬 가격 상승에 기인합니다.",
+      "전기차 시장의 성장과 배터리 수요 증가는 리튬 생산업체인 Albemarle의 실적에 긍정적인 영향을 미치고 있습니다.",
+      "이는 배터리 원자재 시장의 중요성과 관련 기업들의 성장 잠재력을 보여줍니다."
+    ],
+    "uid": "daa307ba27ae62a32ee6505e5199e920d6338d9b"
+  },
+  {
+    "title": "Addressing Supply Challenges in Battery Metals Production for a Growing Market",
+    "published_at": "2026-04-17",
+    "source": "AZoMining",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jMElBeTl2Ul9RYjhKUVpwM2lXTW5weTRqNDM3bU14Wk9JRWtRbUdJeTZkcFF1Ymo1T3ZaR19uVlpYVFlNZU9GUTZHazVNTDIwMThzaHIwSzFpeGdITHJLRVZINA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jMElBeTl2Ul9RYjhKUVpwM2lXTW5weTRqNDM3bU14Wk9JRWtRbUdJeTZkcFF1Ymo1T3ZaR19uVlpYVFlNZU9GUTZHazVNTDIwMThzaHIwSzFpeGdITHJLRVZINA?oc=5\" target=\"_blank\">Addressing Supply Challenges in Battery Metals Production for a Growing Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AZoMining</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "배터리 산업 성장에 따라 배터리 핵심 광물 생산의 공급망 문제가 대두되고 있습니다.",
+      "이 기사는 증가하는 시장 수요를 충족시키기 위한 공급망 과제 해결의 중요성을 강조합니다.",
+      "안정적인 광물 공급 확보는 배터리 산업의 지속 가능한 성장을 위한 필수 과제임을 시사합니다."
+    ],
+    "uid": "26706a8460031eeac9ee1a30cbf91f3bdc3ac704"
   },
   {
     "title": "\"공기에 강하고 고속 충전 가능\"…KAIST, 전고체 배터리 한계 넘어",
