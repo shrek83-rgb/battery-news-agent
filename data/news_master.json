@@ -1,5 +1,35 @@
 [
   {
+    "title": "삼성SDI, 전기차 넘어 ESS 시장 점령…에너지 솔루션 비중 93% 압도적",
+    "description": "삼성SDI의 사업 구조는 배터리 중심의 에너지 솔루션 부문이 확고한 기둥을 이루고 있다. 전체 매출의 93%가 이 부문에서 발생한다. 리튬이온 2차전지 생산과 판매를 주력으로 하며, 전기차 시장은 물론 에너지저장장치...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=447220",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-04-21",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.smedaily.co.kr",
+        "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=355967"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "삼성SDI",
+      "리튬이온",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI의 매출 대부분이 배터리 중심의 에너지 솔루션 부문에서 발생하고 있습니다.",
+      "전체 매출의 93%를 차지하는 이 부문은 리튬이온 2차전지 생산 및 판매를 주력으로 합니다.",
+      "삼성SDI는 전기차 시장뿐만 아니라 에너지 저장 장치(ESS) 시장에서도 강력한 입지를 구축하고 있습니다."
+    ],
+    "uid": "8b3adff6bb7aace22d6a68b504edaa67bc6ffbae"
+  },
+  {
     "title": "삼성SDI 주가 6%대 상승, 북미 ESS시장 성장 기대감에 증권가 목표주가 ...",
     "description": "삼성SDI가 헝가리 괴드에 운영하는 전기차용 배터리 공장. &lt; 삼성SDI &gt; 2차전지 전방산업 가운데 에너지저장장치(ESS) 성장 기대감에 투자심리가 개선된 것으로 풀이된다. 이진명 신한투자증권 연구원은 이날...",
     "link": "https://www.businesspost.co.kr/BP?command=article_view&num=436043",
@@ -32,6 +62,235 @@
       "이는 2차전지 산업, 특히 ESS 분야의 긍정적인 전망을 반영하는 것으로 해석됩니다."
     ],
     "uid": "faa6cccb114a1bc6c63c9379d22ae7026cc7cba1"
+  },
+  {
+    "title": "Solid-State Batteries: BYD Reveals Timelines and Limitations for Europe",
+    "published_at": "2026-04-20",
+    "source": "russpain.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR3VPTXR2bF9kb0tTOEJkM1FmTXR4bEJOdGFHQXpfOXR4X0tsM3dxakg0YXRhSGdKN0Eyd3Z0bjlTRXlfVjJQN0VsbkFNeUNsODFiMUcwVHo5cjY3WS0yaHFmWmhFa0g1R1JCLW4zY2dJc0MtbmNndC1Cd3lfUDVwNUFuSHlsbTFROWhWQmtrTXYxQmEweTlZOVhmQk9QdFRwZjBFV1ZqV21HbFpyaFpNakJ3SXFKcFRhSWpV?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR3VPTXR2bF9kb0tTOEJkM1FmTXR4bEJOdGFHQXpfOXR4X0tsM3dxakg0YXRhSGdKN0Eyd3Z0bjlTRXlfVjJQN0VsbkFNeUNsODFiMUcwVHo5cjY3WS0yaHFmWmhFa0g1R1JCLW4zY2dJc0MtbmNndC1Cd3lfUDVwNUFuSHlsbTFROWhWQmtrTXYxQmEweTlZOVhmQk9QdFRwZjBFV1ZqV21HbFpyaFpNakJ3SXFKcFRhSWpV?oc=5\" target=\"_blank\">Solid-State Batteries: BYD Reveals Timelines and Limitations for Europe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">russpain.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "BYD"
+    ],
+    "summary_3_sentences": [
+      "BYD가 유럽 시장을 위한 전고체 배터리의 출시 시기와 제약을 공개했습니다.",
+      "BYD는 전고체 배터리 기술 개발에 박차를 가하고 있으며, 유럽 시장 진출을 위한 구체적인 계획을 발표했습니다.",
+      "이번 발표는 BYD의 전고체 배터리 기술력과 유럽 시장 공략 의지를 보여줍니다."
+    ],
+    "uid": "40b41b3484375942b89d097313a1c41b2f275b64"
+  },
+  {
+    "title": "Solid State Battery Market Set to Boom Rapidly, Witnessing",
+    "published_at": "2026-04-20",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN3Y0Z2E0TWJ5U0xsSkNFamZpQmpjTHNwNUM3X1NEQTFMTHQ2TndfQk1aYUVzQTQtZUpyenNVdmNCd213WmtmdVNfWmFQZTFTbTROOU4tcklKTDlUV0ZOV0tvQXZDNGRXUnRpUllMb0xoelZ0VzhqcUFSYS0wMVVVa0dQQ1dHVUUtZVowZTBMOFJNRzNpN0l3Rg?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPN3Y0Z2E0TWJ5U0xsSkNFamZpQmpjTHNwNUM3X1NEQTFMTHQ2TndfQk1aYUVzQTQtZUpyenNVdmNCd213WmtmdVNfWmFQZTFTbTROOU4tcklKTDlUV0ZOV0tvQXZDNGRXUnRpUllMb0xoelZ0VzhqcUFSYS0wMVVVa0dQQ1dHVUUtZVowZTBMOFJNRzNpN0l3Rg?oc=5\" target=\"_blank\">Solid State Battery Market Set to Boom Rapidly, Witnessing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "전고체 배터리 시장이 급격한 성장을 앞두고 있습니다.",
+      "안전성과 성능이 향상된 전고체 배터리는 차세대 배터리로 각광받고 있으며, 전기차 시장의 성장을 견인할 것으로 예상됩니다.",
+      "관련 기술 개발 및 투자가 활발히 이루어지고 있어 시장 전망이 매우 긍정적입니다."
+    ],
+    "uid": "543af3b0bab5c0a8e8d3b361ae9fca963488db6f"
+  },
+  {
+    "title": "Sunwoda develops extremely fast-charging LFP batteries",
+    "published_at": "2026-04-20",
+    "source": "electrive.com",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZlFvZEUtNHZlNmlQa05Lc3M0bHJVMkRKanU3b0tUakRRLUVqNENqQ3E4M3VKZWItMzh1eTRaOGtUdWRPQ2xtMlprdG1mTnFvSnpDNm9FY282V21wREo2ZFFmcFlpT0FDcUgxQnhMOFRjbERBUkVWU3lMei1EVDNMN3I5NzFRZEZGMFowM3dVVWQ5Qkp0UXJn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPZlFvZEUtNHZlNmlQa05Lc3M0bHJVMkRKanU3b0tUakRRLUVqNENqQ3E4M3VKZWItMzh1eTRaOGtUdWRPQ2xtMlprdG1mTnFvSnpDNm9FY282V21wREo2ZFFmcFlpT0FDcUgxQnhMOFRjbERBUkVWU3lMei1EVDNMN3I5NzFRZEZGMFowM3dVVWQ5Qkp0UXJn?oc=5\" target=\"_blank\">Sunwoda develops extremely fast-charging LFP batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrive.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "Sunwoda",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "Sunwoda가 초고속 충전이 가능한 LFP 배터리를 개발했습니다.",
+      "이 배터리는 기존 LFP 배터리의 충전 속도 문제를 해결하여 전기차 사용자 편의성을 크게 향상시킬 것으로 기대됩니다.",
+      "Sunwoda는 이번 기술 개발을 통해 전기차 배터리 시장에서의 경쟁력을 강화할 것입니다."
+    ],
+    "uid": "008b78c9558740ed07a50f4af8ff7b454389d06c"
+  },
+  {
+    "title": "Mangrove Lithium opens lithium refinery in Canada",
+    "published_at": "2026-04-20",
+    "source": "electrive.com",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ3A4TXk5MUFZUFRGQkVQbG5WdFVkbFJHLTJDSVRMODNidUotYmpGVnFGSWFLNFJEQVJKZGFvSlU1Ymd6Qm9UaVdzVjhwYUZkRlZrTEN6eU0taHpEdU9XUEpNN0xZMTRLYTJ3cW1qRk42RnRYM1dQbml2eHJ5dTVXSWxRQlc5SU5oSU9SN0NoR1I?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ3A4TXk5MUFZUFRGQkVQbG5WdFVkbFJHLTJDSVRMODNidUotYmpGVnFGSWFLNFJEQVJKZGFvSlU1Ymd6Qm9UaVdzVjhwYUZkRlZrTEN6eU0taHpEdU9XUEpNN0xZMTRLYTJ3cW1qRk42RnRYM1dQbml2eHJ5dTVXSWxRQlc5SU5oSU9SN0NoR1I?oc=5\" target=\"_blank\">Mangrove Lithium opens lithium refinery in Canada</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrive.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Mangrove Lithium"
+    ],
+    "summary_3_sentences": [
+      "Mangrove Lithium이 캐나다에 리튬 정제 공장을 개설했습니다.",
+      "이 공장은 고순도 배터리 등급 리튬을 생산하여 북미 지역의 배터리 공급망 강화에 기여할 것입니다.",
+      "Mangrove Lithium은 이번 공장 가동을 통해 리튬 생산 능력을 확대하고 시장 경쟁력을 높일 계획입니다."
+    ],
+    "uid": "9f581d264670a203a2361a9bf05f0c27633e7271"
+  },
+  {
+    "title": "KAIST Unveils Air-Stable Solid-State Battery Electrolyte for EVs",
+    "published_at": "2026-04-20",
+    "source": "SpeedMe.ru",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSDBtd1FYQkpXZ3VEYVNnRnE5SHVwaG9UbU1RMk1KN29oX2pPbkVkREttRWdlT3psSlBmMndLSXhfdVFlenA3dHpwWGVQa09MdHJUbGprZ0FqbFRFS0lVR2hCTDU3ZkVOWVBNamNZZ3NzaG15YlctYmV2M3dBNGpuY01nZHVEMjZhNEwwOFRuNmx2N3AyMEZFSmFlYzB2YXp1dWfSAaYBQVVfeXFMUDl0YXFkT3JmVVRZbXB3VzdzMlNLUlhhSXAtRXpRemJPODRHZWdVdHVTbFFNbmZ4VkxDd0JKNWxudk1wWGt3Z01IYXRXeXZ1WmtqdUxlSTB4dERQSTRwTUQwRWJldXNQVTJvendCWlE1eGM5UmdaRzR0Z19MOWJDWG9iUks1eU9JeG9KYnVtSmFlQVpNbzBvWkJvNmNUaE9hc1hzd09GUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNSDBtd1FYQkpXZ3VEYVNnRnE5SHVwaG9UbU1RMk1KN29oX2pPbkVkREttRWdlT3psSlBmMndLSXhfdVFlenA3dHpwWGVQa09MdHJUbGprZ0FqbFRFS0lVR2hCTDU3ZkVOWVBNamNZZ3NzaG15YlctYmV2M3dBNGpuY01nZHVEMjZhNEwwOFRuNmx2N3AyMEZFSmFlYzB2YXp1dWfSAaYBQVVfeXFMUDl0YXFkT3JmVVRZbXB3VzdzMlNLUlhhSXAtRXpRemJPODRHZWdVdHVTbFFNbmZ4VkxDd0JKNWxudk1wWGt3Z01IYXRXeXZ1WmtqdUxlSTB4dERQSTRwTUQwRWJldXNQVTJvendCWlE1eGM5UmdaRzR0Z19MOWJDWG9iUks1eU9JeG9KYnVtSmFlQVpNbzBvWkJvNmNUaE9hc1hzd09GUQ?oc=5\" target=\"_blank\">KAIST Unveils Air-Stable Solid-State Battery Electrolyte for EVs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SpeedMe.ru</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "KAIST"
+    ],
+    "summary_3_sentences": [
+      "KAIST 연구진이 전기차용 공기 안정성 고체 전해질을 개발했습니다.",
+      "이 전해질은 기존의 액체 전해질이 가진 단점을 보완하여 배터리의 안전성과 수명을 크게 향상시킬 수 있습니다.",
+      "이번 개발은 차세대 배터리 기술 발전에 중요한 기여를 할 것으로 기대됩니다."
+    ],
+    "uid": "fc23e5459712210f98ca9a10d16f354df541ba92"
+  },
+  {
+    "title": "E3 Lithium awaits licence to start Phase 2 of battery-grade lithium pilot plant",
+    "published_at": "2026-04-20",
+    "source": "Mining Weekly",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUTluSlNjWXJPZldIaERBcTNQMzFhZ1ltMnd4dFZ0a2kwcjBLeTBPem1sWklfVTgyd0x4bUZZUTQzSGtnOWFQSkNNRURhZWhsNW5fXzFuVUZaTU11aDFxV1B6TlN6cXZnd1JjdHVKbllTRUtrb2VyQ0w0TjlBNWdYNEZxeG9ScEZ1LU8yX1EwNGNuTmlBeXhhZkNBYXpVSGZNMWVzU3ZEbWJlZFdOMGw4azVPZ05Zekc0eHRad21UUjROem9ZR0E?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOUTluSlNjWXJPZldIaERBcTNQMzFhZ1ltMnd4dFZ0a2kwcjBLeTBPem1sWklfVTgyd0x4bUZZUTQzSGtnOWFQSkNNRURhZWhsNW5fXzFuVUZaTU11aDFxV1B6TlN6cXZnd1JjdHVKbllTRUtrb2VyQ0w0TjlBNWdYNEZxeG9ScEZ1LU8yX1EwNGNuTmlBeXhhZkNBYXpVSGZNMWVzU3ZEbWJlZFdOMGw4azVPZ05Zekc0eHRad21UUjROem9ZR0E?oc=5\" target=\"_blank\">E3 Lithium awaits licence to start Phase 2 of battery-grade lithium pilot plant</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mining Weekly</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "E3 Lithium"
+    ],
+    "summary_3_sentences": [
+      "E3 Lithium이 배터리 등급 리튬 파일럿 플랜트 2단계 가동을 위한 허가를 기다리고 있습니다.",
+      "이 파일럿 플랜트는 캐나다 앨버타주에서 건설 중이며, 상업 생산을 위한 중요한 단계입니다.",
+      "E3 Lithium은 이 프로젝트를 통해 북미 지역의 리튬 공급망 안정화에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "def6852df8b7742625c2382ed073fcac6cc37b72"
+  },
+  {
+    "title": "A closer look at CATL’s new sodium-ion battery",
+    "published_at": "2026-04-20",
+    "source": "ESS News",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaTBXQW9hbjhBWnMyTEhnU0RscVpIaWdSOWxIWktjN1UwbUEzZVAyaVpWb20tNXZwMTl6NzE0dkswNzdnN3dKXzZNcWctMGVvcDgxSzhobTFGdkdHYVQ0N2g3amRKbGprV2VSTE1vZThwYU12azJ6bW5iWUMxWk9tcnlwOWVhT1hpSEE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNaTBXQW9hbjhBWnMyTEhnU0RscVpIaWdSOWxIWktjN1UwbUEzZVAyaVpWb20tNXZwMTl6NzE0dkswNzdnN3dKXzZNcWctMGVvcDgxSzhobTFGdkdHYVQ0N2g3amRKbGprV2VSTE1vZThwYU12azJ6bW5iWUMxWk9tcnlwOWVhT1hpSEE?oc=5\" target=\"_blank\">A closer look at CATL’s new sodium-ion battery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESS News</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "CnEVPost",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbmlsdDF1N2lhNWpDbng0VjdyOWJEZGZ1Zm9FQ3k5YU5sdFh1a0dIaWYzUFdhOTl5Q1Zjbm1jS3VUd0VoS0NLV3VKY0ltN3FSd0NGUFY2b0JNQjhfcmFzYk5Sb1ZmdlExUUhNdmpmVWlCbXZKMDVoaFJjdGhEZmRIanY2TnFLWi1VTWdXcGg5U3gtOXphamp4NWFjRUJJUQ?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL이 새로운 나트륨 이온 배터리를 공개했습니다.",
+      "이 배터리는 기존 리튬 이온 배터리의 대안으로 주목받고 있으며, 특히 저렴한 가격과 풍부한 원료 수급이 장점입니다.",
+      "CATL은 나트륨 이온 배터리 기술을 통해 전기차 시장에서의 입지를 더욱 공고히 할 것으로 보입니다."
+    ],
+    "uid": "af4a8058714a1896f2b0904a203b43edbde40479"
+  },
+  {
+    "title": "Samsung SDI inks multi-year EV battery supply deal with Mercedes-Benz",
+    "published_at": "2026-04-20",
+    "source": "CBT News",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9RbXgzZTZSeHdIWVZBQ01ob2NleVlqNXZ1ZWg3WFdabjRPOHZHOVVUcFNVczVma2pMdFBxNXV3RWM2RWxJNkxMS0R4TXBOV19CSkJCcGtFb2NUdjRodUZjZzZwT2g1RkR2eFBOLWd0WnhFMmhhTnZn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9RbXgzZTZSeHdIWVZBQ01ob2NleVlqNXZ1ZWg3WFdabjRPOHZHOVVUcFNVczVma2pMdFBxNXV3RWM2RWxJNkxMS0R4TXBOV19CSkJCcGtFb2NUdjRodUZjZzZwT2g1RkR2eFBOLWd0WnhFMmhhTnZn?oc=5\" target=\"_blank\">Samsung SDI inks multi-year EV battery supply deal with Mercedes-Benz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBT News</font>",
+    "provider": "google",
+    "related_links": [
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaVNtS3haOUFtOW1ZekNNNTV2ZW90dVNzdDZTNlA5OGdkWkotR3lZQk54Z0RnWnhoNWFMSWY3SHVSRTJXWFRsZnRRM0s4ZlRSNEFDVUZpTkNUMkVwLXJQTTZnTXpLQU1USU40eW9mb2c0cElZRl9nZXNpaVVuMmoxQmRQZ1o0NkFCb0d5UmxCMGdqZkQ5ajd3U0xDMjNyZDVmUDVxVUdTdDNaUVlqUGFORnljZ0cxdi11aDk1Xw?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRkVTd3pqQ1A1X05QWjZtWWVUV3RTMVZJUFFneFNHOGQzOHQ5YUtPUnVVamxWVjdzcHFlb2s3ekg0SktzZkc0WHJZSnZyUDJJUU5udzFWVmJBVTQwNERJaXd6YmwtMjVscTBidXMyZHM0RzRlOVBvajN3MnkyQmJVUjQ5aXoxTW4zdFBYUl82Q2w4ZngyVFpvdmdJbzBxcVU?oc=5",
+      {
+        "source": "www.ebn.co.kr",
+        "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1706051"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 95,
+    "monitor_score": 98,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "삼성SDI",
+      "메르세데스-벤츠",
+      "SDI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI가 메르세데스-벤츠와 다년간의 전기차 배터리 공급 계약을 체결했습니다.",
+      "이번 계약은 삼성SDI의 전기차 배터리 사업 경쟁력을 강화하는 중요한 계기가 될 것입니다.",
+      "메르세데스-벤츠는 삼성SDI의 고품질 배터리를 통해 전기차 라인업을 확대할 것으로 예상됩니다."
+    ],
+    "uid": "8feadf50d763fd70976e40caef8feb21bc29a626"
+  },
+  {
+    "title": "New Chinese NEV battery recycling rules enter force",
+    "published_at": "2026-04-20",
+    "source": "Benchmark Mineral Intelligence",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2RMUC1RelV2ZUtsbEl3ZDlRYVJLR041SkViSC1BczMzUjIwM0J5eFdWZlN6Y0xTT0lKLXlEaFNxODRsXzRWZldwX09uRTl2aDE4TUQtTVZKTFVZVzRlN3kxY2xnWmVvZkhVYmVpZFdNVjNDaE9MTFpLMy0yenFFajdPMzBGQXZNTjV6UUdtYjk5clVvdkxFN0wtWHFKQ3BGdE1Ed1JTMkhBSWlTMlpEWENfZ2k3TUI1UmNnWFZ2SHpCak0?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2RMUC1RelV2ZUtsbEl3ZDlRYVJLR041SkViSC1BczMzUjIwM0J5eFdWZlN6Y0xTT0lKLXlEaFNxODRsXzRWZldwX09uRTl2aDE4TUQtTVZKTFVZVzRlN3kxY2xnWmVvZkhVYmVpZFdNVjNDaE9MTFpLMy0yenFFajdPMzBGQXZNTjV6UUdtYjk5clVvdkxFN0wtWHFKQ3BGdE1Ed1JTMkhBSWlTMlpEWENfZ2k3TUI1UmNnWFZ2SHpCak0?oc=5\" target=\"_blank\">New Chinese NEV battery recycling rules enter force</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benchmark Mineral Intelligence</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "NEV"
+    ],
+    "summary_3_sentences": [
+      "중국의 신에너지차 배터리 재활용 규정이 발효되었습니다.",
+      "이번 규제는 전기차 배터리 재활용 산업의 투명성과 효율성을 높이는 것을 목표로 합니다.",
+      "이는 지속 가능한 배터리 생태계 구축에 중요한 역할을 할 것으로 기대됩니다."
+    ],
+    "uid": "3aaa1d3061e14114432fc2a3d82f9fcfb7eb3b52"
   },
   {
     "title": "포스코퓨처엠, 베트남·새만금 '투트랙' 가동… 음극재로 캐즘 정면돌파",
