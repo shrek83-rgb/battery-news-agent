@@ -1,5 +1,228 @@
 [
   {
+    "title": "LG엔솔, 폴란드 공장서 ESS 배터리 출하 개시",
+    "description": "LG에너지솔루션은 폴란드 공장에서 생산한 리튬인산철(LFP) ESS 배터리 솔루션 ‘DC 링크’를 납품한다. 지난해 3월 LG에너지솔루션은 해당 계약을 수주했다. 당시 수주 규모는 약 수천억원 수준으로 추정됐다. 해당...",
+    "link": "https://zdnet.co.kr/view/?no=20260424103028",
+    "source": "zdnet.co.kr",
+    "published_at": "2026-04-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG에너지솔루션",
+      "LG엔솔",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션이 폴란드 공장에서 생산한 리튬인산철(LFP) ESS 배터리 솔루션 ‘DC 링크’를 납품하기 시작했습니다.",
+      "이 계약은 지난해 3월 수주했으며, 당시 수주 규모는 약 수천억원 수준으로 추정되었습니다.",
+      "이번 납품은 LG에너지솔루션의 유럽 ESS 시장 공략에 중요한 역할을 할 것으로 보입니다."
+    ],
+    "uid": "9e426a1e5f9fd9fd33da30c4a2695322762fdf8a"
+  },
+  {
+    "title": "'유럽 최대급'...LG엔솔, ESS 배터리 첫 출하",
+    "description": "|스마트투데이=박재형 기자| LG에너지솔루션이 지난 23일(현지시간) 폴란드 국영 전력공사(PGE)와 공동으로 추진 중인 자르노비에츠 에너지저장장치(ESS) 프로젝트 배터리 첫 물량을 출하했다고 24일 밝혔다....",
+    "link": "https://www.smarttoday.co.kr/ko-kr/articles/106899",
+    "source": "www.smarttoday.co.kr",
+    "published_at": "2026-04-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "PGE",
+      "...LG엔솔"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션은 지난 23일(현지시간) 폴란드 국영 전력공사(PGE)와 공동 추진 중인 자르노비에츠 ESS 프로젝트의 배터리 첫 물량을 출하했습니다.",
+      "이번 프로젝트는 유럽 최대급 ESS 설비 구축을 목표로 하고 있습니다.",
+      "LG에너지솔루션은 이번 출하를 통해 유럽 에너지 시장에서의 입지를 더욱 강화할 것으로 예상됩니다."
+    ],
+    "uid": "2bce59ad8aee5198705b9f2568196fbb15525f97"
+  },
+  {
+    "title": "LG에너지솔루션, 폴란드 ESS 첫 출하...본격 가동",
+    "description": "24일 LG에너지솔루션에 따르면 폴란드 자르노비에츠에서 추진 중인 ESS 구축 사업에 DC-링크(배터리와 전력망을 연결하는 직류 기반 전력 변환·연계 장치) 시스템을 공급하고 있다. 최근 첫 장비가 현장에 도착해...",
+    "link": "https://www.newspim.com/news/view/20260424000654",
+    "source": "www.newspim.com",
+    "published_at": "2026-04-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "장비",
+    "companies": [
+      "LG에너지솔루션",
+      "DC"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션이 폴란드 자르노비에츠에서 진행 중인 ESS 구축 사업에 DC-링크 시스템 공급을 시작했습니다.",
+      "최근 첫 장비가 현장에 도착했으며, 이는 LG에너지솔루션의 폴란드 ESS 프로젝트가 본격 가동됨을 의미합니다.",
+      "이 사업은 폴란드 현지 생산 체계 구축을 통해 유럽 시장에서의 입지를 강화하는 데 기여할 것으로 보입니다."
+    ],
+    "uid": "7499f51cadbb2ccf863528313734a78ac42df279"
+  },
+  {
+    "title": "LG엔솔, 폴란드 공장서 '유럽 최대' ESS 프로젝트 배터리 첫 출하",
+    "description": "LG에너지솔루션(373220)이 폴란드 국영 전력공사인 PGE와 공동 추진 중인 에너지저장장치(ESS) 프로젝트 관련 배터리를 처음으로 출하했다. 유럽 최대 규모의 ESS 설비를 구축하는 양사는 이번 배터리 출하를 계기로...",
+    "link": "https://www.news1.kr/industry/general-industry/6147836",
+    "source": "www.news1.kr",
+    "published_at": "2026-04-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "PGE",
+      "LG엔솔"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션이 폴란드 국영 전력공사인 PGE와 공동 추진 중인 유럽 최대 규모의 ESS 프로젝트 관련 배터리를 처음으로 출하했습니다.",
+      "이번 배터리 출하를 계기로 양사는 유럽 최대 규모의 ESS 설비 구축에 박차를 가할 예정입니다.",
+      "이는 LG에너지솔루션의 유럽 에너지 저장 시장에서의 영향력 확대에 중요한 발판이 될 것으로 기대됩니다."
+    ],
+    "uid": "82bb60aaacde43ba4b792b09908170b7d34d11b4"
+  },
+  {
+    "title": "LG엔솔, 폴란드서 유럽 최대 ESS 프로젝트 출하...\"유럽 에너지 전환 사...",
+    "description": "LG에너지솔루션이 폴란드에서 유럽 최대 규모의 에너지저장장치(ESS) 배터리 출하를 시작하고 현지 시장 공략에 본격 나섰다. 24일 LG에너지솔루션은 지난 23일(현지시간) 폴란드 국영 전력공사 PGE와 공동 추진하는...",
+    "link": "https://www.livebiz.today/news/articleView.html?idxno=201769",
+    "source": "www.livebiz.today",
+    "published_at": "2026-04-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "PGE",
+      "LG엔솔"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션이 폴란드에서 유럽 최대 규모의 에너지저장장치(ESS) 배터리 출하를 시작하며 현지 시장 공략에 본격 나섰습니다.",
+      "이번 출하는 폴란드 국영 전력공사 PGE와 공동 추진하는 자르노비에츠 ESS 프로젝트의 일환입니다.",
+      "이는 유럽 에너지 전환 시장에서 LG에너지솔루션의 입지를 더욱 강화하는 계기가 될 것입니다."
+    ],
+    "uid": "72700a276061a0f352d146d5dbac6cdd92e2fa96"
+  },
+  {
+    "title": "LG엔솔, 폴란드서 ESS 배터리 출하 개시…유럽 공략 가속",
+    "description": "민주신문=변현경 기자｜LG에너지솔루션이 폴란드에서 에너지저장장치(ESS)용 배터리 출하를 시작하며 유럽 시장 공략을 본격화한다. LG에너지솔루션은 폴란드 국영 전력공사 PGE와 함께 추진 중인 자르노비에츠 ESS...",
+    "link": "http://www.iminju.net/news/articleView.html?idxno=163034",
+    "source": "www.iminju.net",
+    "published_at": "2026-04-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "PGE",
+      "LG엔솔"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션이 폴란드에서 에너지저장장치(ESS)용 배터리 출하를 시작하며 유럽 시장 공략을 본격화합니다.",
+      "이번 출하는 폴란드 국영 전력공사 PGE와 함께 추진 중인 자르노비에츠 ESS 프로젝트의 일부입니다.",
+      "LG에너지솔루션은 이를 통해 유럽 ESS 시장에서의 경쟁력을 높일 것으로 기대됩니다."
+    ],
+    "uid": "74cd54db0780088358ab15508809f1bc28d08b50"
+  },
+  {
+    "title": "\"981Mwh 유럽 최대급 ESS 뚫었다\"…LG엔솔, 폴란드서 첫 출하 가동",
+    "description": "LG에너지솔루션은 지난 23일(현지시간) 폴란드 국영 전력공사 PGE와 공동 추진하는 자르노비에츠 에너지저장장치(ESS) 프로젝트 배터리 물량의 첫 출하를 진행했다고 24일 밝혔다. 이번 프로젝트는 총 262㎿ 출력, 981Mwh...",
+    "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=256675",
+    "source": "www.financialpost.co.kr",
+    "published_at": "2026-04-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "PGE",
+      "LG엔솔"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션은 폴란드 국영 전력공사 PGE와 공동으로 추진하는 자르노비에츠 ESS 프로젝트의 배터리 물량 첫 출하를 23일(현지시간) 진행했습니다.",
+      "이번 프로젝트는 총 262㎿ 출력, 981Mwh 규모로 유럽 최대급 ESS 설비 구축을 목표로 합니다.",
+      "LG에너지솔루션은 이번 출하를 통해 유럽 에너지 저장 시장에서의 입지를 더욱 공고히 할 것으로 전망됩니다."
+    ],
+    "uid": "a37801e87a335b01a797e004c2a4d9b57bc7c279"
+  },
+  {
+    "title": "LG에너지솔루션, 폴란드서 ESS 배터리 첫 출하 \"현지 밸류체인 구축\"",
+    "description": "이투데이=김민서 기자 | LFP 기반 컨테이너형 ESS 공급…유럽 시장 공략 가속 LG에너지솔루션이 폴란드 에너지저장장치(ESS) 프로젝트 배터리 첫 출하를 시작했다. LG에너지솔루션은 23일(현지시간) 폴란드 국영...",
+    "link": "https://www.etoday.co.kr/news/view/2578847",
+    "source": "www.etoday.co.kr",
+    "published_at": "2026-04-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG에너지솔루션",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션이 폴란드 에너지저장장치(ESS) 프로젝트 배터리 첫 출하를 시작하며 유럽 시장 공략에 속도를 내고 있습니다.",
+      "이번에 공급되는 제품은 LFP 기반 컨테이너형 ESS이며, 폴란드 국영 전력공사와 함께 진행하는 사업입니다.",
+      "LG에너지솔루션은 이를 통해 유럽 시장에서의 경쟁력을 강화할 것으로 기대됩니다."
+    ],
+    "uid": "2160ec2cc5089528b433fa721b1cd5119353cc49"
+  },
+  {
+    "title": "LG엔솔, 폴란드 PGE ESS 프로젝트 첫 출하…981Mwh 규모",
+    "description": "6월 말~7월 내 전체 공급 완료 예정 폴란드 현지 생산 체계 구축 LG에너지솔루션 전력망용 ESS 배터리 컨테이너 제품 [LG에너지솔루션 제공] [헤럴드경제=서재근 기자] LG에너지솔루션은 지난 23일(현지시간) 폴란드 국영...",
+    "link": "https://biz.heraldcorp.com/article/10724951?ref=naver",
+    "source": "biz.heraldcorp.com",
+    "published_at": "2026-04-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "PGE",
+      "LG엔솔"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션은 폴란드 국영 전력공사 PGE와 함께 추진 중인 에너지저장장치(ESS) 프로젝트에 사용될 배터리 첫 출하를 완료했습니다.",
+      "이번 프로젝트는 총 981MWh 규모로, 6월 말부터 7월 내 전체 공급이 완료될 예정입니다.",
+      "LG에너지솔루션은 폴란드 현지에 생산 체계를 구축하며 유럽 시장 공략을 강화하고 있습니다."
+    ],
+    "uid": "dc95c0a739478ede2267de1a1d6ecdc8d0832383"
+  },
+  {
     "title": "한양대 ERICA·공주대, 리튬 금속 배터리 '단일 전해질 딜레마' 풀었다",
     "description": "최근 전기차와 대용량 에너지 저장 장치(ESS) 시장이 급성장함에 따라, 기존 리튬 이온 배터리보다 에너지 밀도가 높은 리튬 금속 배터리가 차세대 전지로 손꼽히고 있다. 다만 리튬 금속 음극은 에테르계 전해질에서...",
     "link": "https://www.newsis.com/view/NISX20260423_0003603244",
@@ -23,6 +246,31 @@
       "이번 연구는 전기차 및 대용량 에너지 저장 장치(ESS) 시장의 기술 발전에 기여할 것으로 기대됩니다."
     ],
     "uid": "00f8f85aabd3d115674dd1f2695030359c79c1ce"
+  },
+  {
+    "title": "글로벌 배터리 업계, 차세대 전환 가속…기술 완성도·가격 격차 핵심 ...",
+    "description": "삼성SDI, 전고체 양산 준비 구체화 CATL, 초급속 충전·응고형 기술 공개 닛산, 2028년 전고체 상용화 목표 인터배터리 2026에서 선보인 삼성SDI 전고체 배터리 샘플. /삼성SDI 삼성SDI가 전고체 배터리를 차세대 핵심 기술로...",
+    "link": "http://www.metroseoul.co.kr/article/20260423500472",
+    "source": "www.metroseoul.co.kr",
+    "published_at": "2026-04-23",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "CATL",
+      "닛산"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 전고체 배터리를 차세대 핵심 기술로 삼고 양산 준비를 구체화하고 있습니다.",
+      "CATL은 초급속 충전 및 응고형 기술을 공개했으며, 닛산은 2028년 전고체 배터리 상용화를 목표로 하고 있습니다.",
+      "글로벌 배터리 업계는 기술 완성도와 가격 경쟁력을 바탕으로 차세대 배터리 전환을 가속화하고 있습니다."
+    ],
+    "uid": "53b47f3036bf1d8016ac648601ad79410b76f613"
   },
   {
     "title": "6분만에 완충·1500㎞ 주행… 무섭게 굴기하는 中 배터리",
@@ -71,6 +319,251 @@
       "CATL의 나트륨 이온 배터리 상용화는 전기차의 성능과 실용성을 한 단계 끌어올릴 것으로 기대됩니다."
     ],
     "uid": "cb2f6b4439ce574ff7fcd06f3551117dc2f9a32a"
+  },
+  {
+    "title": "Solid State Battery Market Size to Reach USD 17.78 billion",
+    "published_at": "2026-04-23",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOHRpQUtqU2o2V2F5aFczdXlscm1IQ1Q3SUVPdV91MlZOYjFHM0RUaXBhLW5UckpxSTZTUHdhNHJlekstZXh6QlU4cDlIb3NzWEpJZDQxcG5sNTI2cU5UMG1fRU0yVnBhdGI0U1l3YTJ6YWRUTGM2eWl1TG93V1g4QmRzeUFHT3EzUHhINW80aTlXWm1ETnd5U2J3?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOOHRpQUtqU2o2V2F5aFczdXlscm1IQ1Q3SUVPdV91MlZOYjFHM0RUaXBhLW5UckpxSTZTUHdhNHJlekstZXh6QlU4cDlIb3NzWEpJZDQxcG5sNTI2cU5UMG1fRU0yVnBhdGI0U1l3YTJ6YWRUTGM2eWl1TG93V1g4QmRzeUFHT3EzUHhINW80aTlXWm1ETnd5U2J3?oc=5\" target=\"_blank\">Solid State Battery Market Size to Reach USD 17.78 billion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "openPR.com",
+      "USD"
+    ],
+    "summary_3_sentences": [
+      "고체 배터리 시장 규모가 2026년까지 177억 8천만 달러에 이를 것으로 전망됩니다.",
+      "이는 차세대 배터리 기술로 주목받는 고체 배터리의 성장 잠재력을 보여줍니다.",
+      "다양한 산업 분야에서 고체 배터리 채택이 증가할 것으로 예상됩니다."
+    ],
+    "uid": "6f88791d3beea89f5504238efc01f51d6a5dad98"
+  },
+  {
+    "title": "Sodium Ion Battery Market Set to Boom Rapidly, Witnessing Strong Growth Through 2033 |",
+    "published_at": "2026-04-23",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUjJwWVBpZThfVEdPX2IwVTdIbFkxa0tNYUJ3dXNiemt3RnJ2TnlTSWpMWkYtVkxDdXJkbmdOT1BZZTZkWmRzVi1uN1RFVEdZMUlNb0JjU2R3R19raURGV1lWWFcyenFlNGMtTGE2eU5NMEZzTUloVzdmTUFsZnFjUUVOSnFyQU1OUGlzdm5ic1MwWS1WTWRHeXNwT2laTDM3?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPUjJwWVBpZThfVEdPX2IwVTdIbFkxa0tNYUJ3dXNiemt3RnJ2TnlTSWpMWkYtVkxDdXJkbmdOT1BZZTZkWmRzVi1uN1RFVEdZMUlNb0JjU2R3R19raURGV1lWWFcyenFlNGMtTGE2eU5NMEZzTUloVzdmTUFsZnFjUUVOSnFyQU1OUGlzdm5ic1MwWS1WTWRHeXNwT2laTDM3?oc=5\" target=\"_blank\">Sodium Ion Battery Market Set to Boom Rapidly, Witnessing Strong Growth Through 2033 |</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "openPR.com"
+    ],
+    "summary_3_sentences": [
+      "나트륨 이온 배터리 시장은 2033년까지 급격한 성장세를 보이며 호황을 누릴 것으로 예상됩니다.",
+      "이는 저렴한 가격과 풍부한 원료를 가진 나트륨 이온 배터리의 잠재력을 보여줍니다.",
+      "에너지 저장 시스템 및 전기차 분야에서 나트륨 이온 배터리의 활용이 확대될 것으로 전망됩니다."
+    ],
+    "uid": "66d4560200588b99346b6c500d3d34785b28487a"
+  },
+  {
+    "title": "Silicon Anode Battery Market to Reach USD 15.8 Billion by 2035,",
+    "published_at": "2026-04-23",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSDBjX0F3YVU0QS1halVYRmRITVhWQnNRRTFvdW1fcUt0MkhDMjRQbGV0UDJmTlRVMW8ycDN0RktZRXhyVFdsWndmcHZrWEpvRjctTXAtSDBfeU4zRktUN2FiSnF4YUtYcU1BUjcyUTdWN0trT0xNQUprV2FQQ2dCYlFHM0RzTnEwci1QenJHM0NYakZZb3RZUDk2cXFKcEU?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPSDBjX0F3YVU0QS1halVYRmRITVhWQnNRRTFvdW1fcUt0MkhDMjRQbGV0UDJmTlRVMW8ycDN0RktZRXhyVFdsWndmcHZrWEpvRjctTXAtSDBfeU4zRktUN2FiSnF4YUtYcU1BUjcyUTdWN0trT0xNQUprV2FQQ2dCYlFHM0RzTnEwci1QenJHM0NYakZZb3RZUDk2cXFKcEU?oc=5\" target=\"_blank\">Silicon Anode Battery Market to Reach USD 15.8 Billion by 2035,</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "openPR.com",
+      "USD"
+    ],
+    "summary_3_sentences": [
+      "실리콘 음극재 배터리 시장은 2035년까지 158억 달러 규모로 성장할 것으로 예측됩니다.",
+      "이는 배터리 에너지 밀도 향상에 기여하는 실리콘 음극재의 중요성이 커지고 있음을 시사합니다.",
+      "향후 전기차 및 휴대용 전자기기 시장에서 실리콘 음극재 배터리의 채택이 확대될 것으로 보입니다."
+    ],
+    "uid": "0a3a7234a700f469e3ff600ba7db76d79f7f5cdf"
+  },
+  {
+    "title": "Mechanically driven Li dendrite penetration in garnet solid electrolyte",
+    "published_at": "2026-04-23",
+    "source": "Nature",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ic0pnM2tNNDJIZS1Cc3VNRWtBcTdKMzNlQndjd2hlSmJ4UTdEWWxWQ3YwSWlLbmIxVnZqeTBVYko4Qk1xNnlsa3FaQmZrdTBxVE1HVHRuN1MyVlN5cE8w?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ic0pnM2tNNDJIZS1Cc3VNRWtBcTdKMzNlQndjd2hlSmJ4UTdEWWxWQ3YwSWlLbmIxVnZqeTBVYko4Qk1xNnlsa3FaQmZrdTBxVE1HVHRuN1MyVlN5cE8w?oc=5\" target=\"_blank\">Mechanically driven Li dendrite penetration in garnet solid electrolyte</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "Nature"
+    ],
+    "summary_3_sentences": [
+      "가넷 고체 전해질에서 기계적 힘에 의한 리튬 덴드라이트 침투 현상에 대한 연구 결과가 발표되었습니다.",
+      "이 연구는 고체 전해 배터리의 안정성과 성능 향상을 위한 중요한 기초 자료를 제공합니다.",
+      "리튬 금속 배터리의 덴드라이트 형성 메커니즘 이해에 기여할 것으로 보입니다."
+    ],
+    "uid": "8bfe3d6d95fb648f2abb2b40703b71c66384bbd9"
+  },
+  {
+    "title": "Interfacial polarity modulation of positive electrode active materials for high-potential lithium metal batteries",
+    "published_at": "2026-04-23",
+    "source": "Nature",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wYnhmUzgyemxkTnB3OFFjTms0Mm5YelA0aTQza1NOazE1VUV4cU8tTzl6dXR5U3RGSnpTdE5JcktwU3hGYUtNZllGLXdOam80amU4QUliclVQZTFjQUNF?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wYnhmUzgyemxkTnB3OFFjTms0Mm5YelA0aTQza1NOazE1VUV4cU8tTzl6dXR5U3RGSnpTdE5JcktwU3hGYUtNZllGLXdOam80amU4QUliclVQZTFjQUNF?oc=5\" target=\"_blank\">Interfacial polarity modulation of positive electrode active materials for high-potential lithium metal batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Nature"
+    ],
+    "summary_3_sentences": [
+      "고전위 리튬 금속 배터리의 양극 활물질에 대한 계면 극성 조절 연구 결과가 발표되었습니다.",
+      "이 연구는 리튬 금속 배터리의 성능과 안정성을 향상시키는 새로운 방법을 제시합니다.",
+      "차세대 고에너지 밀도 배터리 개발에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "d273710011813e38896cca7b37032a03a659d2c4"
+  },
+  {
+    "title": "Flow Batteries vs Lithium-Ion for Long-Duration Energy Storage (LDES) in 2026 - News and Statistics",
+    "published_at": "2026-04-23",
+    "source": "IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUXBZQjRibkFHU0gxZW9LNldfSFlCV3RBMVNiU1RzVVNlX2lYLU5EaFp6d2g5NkstbXNRdER0d1NaMFh0VlhIc3U1YTdqQUQzc3hLdGNqVUwwYmlmUDJqOUdEVWN4cUZJNG9SSk12ZlVrZFpreXJrbUNYWUNtODZTR2ZSb1E0M3AxcWcycXI1T0RWTENiMXVScWlSYXp1ZHE4c3NxQU84cw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQUXBZQjRibkFHU0gxZW9LNldfSFlCV3RBMVNiU1RzVVNlX2lYLU5EaFp6d2g5NkstbXNRdER0d1NaMFh0VlhIc3U1YTdqQUQzc3hLdGNqVUwwYmlmUDJqOUdEVWN4cUZJNG9SSk12ZlVrZFpreXJrbUNYWUNtODZTR2ZSb1E0M3AxcWcycXI1T0RWTENiMXVScWlSYXp1ZHE4c3NxQU84cw?oc=5\" target=\"_blank\">Flow Batteries vs Lithium-Ion for Long-Duration Energy Storage (LDES) in 2026 - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LDES"
+    ],
+    "summary_3_sentences": [
+      "2026년 기준으로 장주기 에너지 저장(LDES) 분야에서 플로우 배터리와 리튬이온 배터리의 경쟁에 대한 뉴스 및 통계가 제공됩니다.",
+      "이 기사는 두 기술의 장단점을 비교하고 시장 동향을 분석할 것으로 예상됩니다.",
+      "플로우 배터리와 리튬이온 배터리의 기술 발전 및 시장 적용에 대한 정보를 얻을 수 있습니다."
+    ],
+    "uid": "fdbb6b86067f2bb8cd04e05da652010cb4e3cdd1"
+  },
+  {
+    "title": "CATL is launching sodium-ion batteries in EVs in 2026, aiming for 370+ miles range",
+    "published_at": "2026-04-23",
+    "source": "Electrek",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQkN0aS1HcmQxVWtqQXJ2eUdFZURDbzltY0JweXdXMFJlcEhWTzU2VDhjQ1BGOG1GWEdtVHBtUEE1cmtxMG0wTUUxY0UwemR3RzEyYzgtMEt2VE1pNTdhY1l4ZDBmSjJBcUFmdDVGUEtIMHNLczY2TzNac1FHdG9KTUFR?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQQkN0aS1HcmQxVWtqQXJ2eUdFZURDbzltY0JweXdXMFJlcEhWTzU2VDhjQ1BGOG1GWEdtVHBtUEE1cmtxMG0wTUUxY0UwemR3RzEyYzgtMEt2VE1pNTdhY1l4ZDBmSjJBcUFmdDVGUEtIMHNLczY2TzNac1FHdG9KTUFR?oc=5\" target=\"_blank\">CATL is launching sodium-ion batteries in EVs in 2026, aiming for 370+ miles range</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electrek</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL은 2026년에 전기차에 나트륨 이온 배터리를 출시할 예정이며, 370마일 이상의 주행 거리를 목표로 하고 있습니다.",
+      "이는 기존 리튬 이온 배터리를 대체할 수 있는 새로운 배터리 기술의 등장을 예고합니다.",
+      "CATL의 나트륨 이온 배터리는 전기차 시장의 경쟁 구도를 바꿀 수 있을 것으로 기대됩니다."
+    ],
+    "uid": "f559911a325e236a821f0a208567ea7bcb85b2ec"
+  },
+  {
+    "title": "CATL advances dual battery tech",
+    "published_at": "2026-04-23",
+    "source": "China Daily",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZMFZKZElvUUVtS0ZSUXlLRm5DMWlWbEdqdlNpNkRUeDlsVmd0enRybmNYdEQtQWNpcURLZ3dHLU04ZDBOWF9BMS1nRVR2dVNUZmFtQ0lmYTM5YS15Y0NLNDJEaUhfWkxzTmN3SWxyRjNNMGNwNUdYMk9sNHFIZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZMFZKZElvUUVtS0ZSUXlLRm5DMWlWbEdqdlNpNkRUeDlsVmd0enRybmNYdEQtQWNpcURLZ3dHLU04ZDBOWF9BMS1nRVR2dVNUZmFtQ0lmYTM5YS15Y0NLNDJEaUhfWkxzTmN3SWxyRjNNMGNwNUdYMk9sNHFIZw?oc=5\" target=\"_blank\">CATL advances dual battery tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">China Daily</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "CATL",
+      "China Daily"
+    ],
+    "summary_3_sentences": [
+      "CATL이 듀얼 배터리 기술을 발전시키고 있습니다.",
+      "이 기술은 배터리 성능 향상 및 새로운 응용 분야 개척에 기여할 것으로 보입니다.",
+      "CATL의 기술 혁신은 배터리 산업의 발전을 이끌 것으로 기대됩니다."
+    ],
+    "uid": "1ae4bfdfba406706231e2e525f7475328999ae64"
+  },
+  {
+    "title": "Samsung SDI Signs $6.8 Billion Multi-Year EV Battery Supply Deal with Mercedes-Benz",
+    "published_at": "2026-04-23",
+    "source": "CarbonCredits.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbmE1MWIxSWRjemsxSzZoM3FQR3p2MVFGVUVWZXpGN08tUVkyRkNpQ1Z5ZDVxczI4RVNGRklXcktRd1dRX05wZ3p6c0ptMHkxNm00UlJ3WkV1WGhweWVZeWNQMzdVN3RjOFJCM21UaXU5UWNMSHNDRlNQUFp4RnptSUpXenkxMkx0VVBBT0JVcGZUb0E5Y2RQMUlOY2NxZWYxSkFLc0lzaUVRZXhFTHc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPbmE1MWIxSWRjemsxSzZoM3FQR3p2MVFGVUVWZXpGN08tUVkyRkNpQ1Z5ZDVxczI4RVNGRklXcktRd1dRX05wZ3p6c0ptMHkxNm00UlJ3WkV1WGhweWVZeWNQMzdVN3RjOFJCM21UaXU5UWNMSHNDRlNQUFp4RnptSUpXenkxMkx0VVBBT0JVcGZUb0E5Y2RQMUlOY2NxZWYxSkFLc0lzaUVRZXhFTHc?oc=5\" target=\"_blank\">Samsung SDI Signs $6.8 Billion Multi-Year EV Battery Supply Deal with Mercedes-Benz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CarbonCredits.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "삼성SDI",
+      "메르세데스-벤츠",
+      "CarbonCredits.com"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 메르세데스-벤츠와 다년간 68억 달러 규모의 전기차 배터리 공급 계약을 체결했습니다.",
+      "이 계약은 삼성SDI의 전기차 배터리 시장에서의 입지를 강화하는 중요한 성과입니다.",
+      "양사는 이번 계약을 통해 차세대 전기차 배터리 기술 개발 및 공급망 안정화에 협력할 것으로 보입니다."
+    ],
+    "uid": "16b5dda59a37cdb02aa1b2fffbabbffe4fff4eaa"
+  },
+  {
+    "title": "Solid-State Batteries Powering Next-Generation EV Supercars",
+    "published_at": "2026-04-23",
+    "source": "Battery Technology",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSEJWM2d5c1pHa2VGTlNyVklhYnFVQUFwZGRxTjZmaExuSjgtcktFUi1YLUg1QlB6MnI3QzhHOTlKaFhJajhIRWxBZW5YSmFVbGNkR0JPUFhjb2puYy15bU1NcEtSQi1RTmJtYzZuOGFWQWRXRWJCdmlsZG5MTm41QmE1eUpOTFByTUpaSDhUQlJ0MHJsVEt4WUkwUndVNHVNLWc5N3k2RTZYdw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSEJWM2d5c1pHa2VGTlNyVklhYnFVQUFwZGRxTjZmaExuSjgtcktFUi1YLUg1QlB6MnI3QzhHOTlKaFhJajhIRWxBZW5YSmFVbGNkR0JPUFhjb2puYy15bU1NcEtSQi1RTmJtYzZuOGFWQWRXRWJCdmlsZG5MTm41QmE1eUpOTFByTUpaSDhUQlJ0MHJsVEt4WUkwUndVNHVNLWc5N3k2RTZYdw?oc=5\" target=\"_blank\">Solid-State Batteries Powering Next-Generation EV Supercars</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Battery Technology</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Battery Technology"
+    ],
+    "summary_3_sentences": [
+      "전고체 배터리가 차세대 전기차 슈퍼카에 동력을 공급하고 있습니다.",
+      "이는 전고체 배터리의 높은 에너지 밀도와 안전성이 고성능 차량에 적합함을 보여줍니다.",
+      "전고체 배터리 기술의 발전은 전기차 산업의 혁신을 가속화할 것으로 예상됩니다."
+    ],
+    "uid": "0b96910a4c173f6ca811a9402ef70edf583078b8"
   },
   {
     "title": "주유하듯 6분 완충…CATL 배터리 공습",
