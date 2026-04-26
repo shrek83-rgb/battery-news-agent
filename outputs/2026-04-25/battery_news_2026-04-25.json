@@ -1,0 +1,388 @@
+{
+  "date_range": "2026-04-25",
+  "items": [
+    {
+      "title": "다시 뛰는 리튬값, 2년 5개월 만에 최고…배터리소재 회복 기대감",
+      "description": "에너지저장장치(ESS) 수요 확대와 공급 제약이 맞물리며 가격 상승 흐름이 이어지는 가운데 국내 배터리소재 업계의 실적 개선 기대감이 커지고 있다. 26일 한국광해광업공단 한국자원정보서비스에 따르면 20일 기준...",
+      "link": "https://www.etoday.co.kr/news/view/2578976",
+      "source": "www.etoday.co.kr",
+      "published_at": "2026-04-26",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "한국광해광업공단",
+        "배터리소재"
+      ],
+      "summary_3_sentences": [
+        "에너지저장장치(ESS) 수요 확대와 공급 제약으로 리튬 가격이 2년 5개월 만에 최고치를 기록했습니다.",
+        "이는 국내 배터리 소재 업계의 실적 개선 기대감을 높이고 있습니다.",
+        "한국광해광업공단 한국자원정보서비스에 따르면 20일 기준 리튬 가격은 상승세를 이어가고 있습니다."
+      ]
+    },
+    {
+      "title": "Understanding the short circuit in solid-state batteries",
+      "published_at": "2026-04-25",
+      "source": "EurekAlert!",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GcGR3b1NpbnVCbW5DU2RHSGZCQjc1dHQxaEpkU2NjUEhHZUJ0TVlwbXdMd0JRS2NVbHZvOE02ZUFzWFk3R2k2OXh6R2Fya2xNbnlqQXRiVUVHOWlR?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GcGR3b1NpbnVCbW5DU2RHSGZCQjc1dHQxaEpkU2NjUEhHZUJ0TVlwbXdMd0JRS2NVbHZvOE02ZUFzWFk3R2k2OXh6R2Fya2xNbnlqQXRiVUVHOWlR?oc=5\" target=\"_blank\">Understanding the short circuit in solid-state batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [],
+      "summary_3_sentences": [
+        "고체 배터리의 단락 현상에 대한 이해를 다루는 기사입니다.",
+        "단락 현상은 고체 배터리의 성능과 안전성에 영향을 미칠 수 있는 중요한 문제입니다.",
+        "이 기사는 해당 현상에 대한 심층적인 분석을 제공할 것으로 예상됩니다."
+      ]
+    },
+    {
+      "title": "Battery X Metals Files International PCT Patent Application for Lithium-Ion Battery Rebalancing Technology",
+      "published_at": "2026-04-25",
+      "source": "Batteries News",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWVBVN1VGdE9mM1llN3VDbWRVdS10OHZOOG5Wc3pTQ1c5TGZuQTh4Z3VsNkRtODlBbnhDdG02TkR5cjlFRW9XeU0zaURibTM4cjM5SE8wNENydERZYW5MU19HdmU2a01NS0pwUmJrcFh1c3paSTN6TE9zOHFaeWI0S19HdlVwNnVlbERBc3gyY2xJZmt2VW53YTVqT3hZdG9XNGZwaHFPTDBCQVQzSVN0NGlKWl9iaGMxaVZfZl9qdi0tMjhzRXRySy1XYzFSdw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQWVBVN1VGdE9mM1llN3VDbWRVdS10OHZOOG5Wc3pTQ1c5TGZuQTh4Z3VsNkRtODlBbnhDdG02TkR5cjlFRW9XeU0zaURibTM4cjM5SE8wNENydERZYW5MU19HdmU2a01NS0pwUmJrcFh1c3paSTN6TE9zOHFaeWI0S19HdlVwNnVlbERBc3gyY2xJZmt2VW53YTVqT3hZdG9XNGZwaHFPTDBCQVQzSVN0NGlKWl9iaGMxaVZfZl9qdi0tMjhzRXRySy1XYzFSdw?oc=5\" target=\"_blank\">Battery X Metals Files International PCT Patent Application for Lithium-Ion Battery Rebalancing Technology</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Batteries News</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "Battery X Metals",
+        "PCT"
+      ],
+      "summary_3_sentences": [
+        "Battery X Metals가 리튬이온 배터리 재균형 기술에 대한 PCT 국제 특허 출원을 완료했습니다.",
+        "이 기술은 배터리 수명 연장 및 성능 향상에 기여할 것으로 기대됩니다.",
+        "이번 특허 출원은 Battery X Metals의 기술 혁신 노력을 보여줍니다."
+      ]
+    },
+    {
+      "title": "Solidion Awarded Key Patents on Drop-In Solid-State Conversion Technology",
+      "published_at": "2026-04-25",
+      "source": "Batteries News",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbGZ0ZEFyemhDcjhiOGt4UmNPWmpISi05SjFoSDhEdjBwNWtwRURNSkVnckR6VUYwMmk3cFRBQVk2eUh6cjliYno5eDZKRE94Y3ZualpoZkc2c3B3cWhSdWtGbERFWEx4bG5UUUwyY2M3R0pNTmN5Q3ZRVnVUVG1jRnJTRjRNOFViYk03dkdFeWNkemhPc1c4c05CbWMyWXZmdFE?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNbGZ0ZEFyemhDcjhiOGt4UmNPWmpISi05SjFoSDhEdjBwNWtwRURNSkVnckR6VUYwMmk3cFRBQVk2eUh6cjliYno5eDZKRE94Y3ZualpoZkc2c3B3cWhSdWtGbERFWEx4bG5UUUwyY2M3R0pNTmN5Q3ZRVnVUVG1jRnJTRjRNOFViYk03dkdFeWNkemhPc1c4c05CbWMyWXZmdFE?oc=5\" target=\"_blank\">Solidion Awarded Key Patents on Drop-In Solid-State Conversion Technology</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Batteries News</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "Solidion"
+      ],
+      "summary_3_sentences": [
+        "Solidion이 '드롭인(Drop-In)' 고체 배터리 변환 기술에 대한 핵심 특허를 획득했습니다.",
+        "이 기술은 기존 배터리 제조 공정에 쉽게 통합될 수 있는 고체 배터리 솔루션을 제공합니다.",
+        "Solidion은 이번 특허 확보를 통해 고체 배터리 시장에서의 입지를 강화할 것으로 보입니다."
+      ]
+    },
+    {
+      "title": "Samsung SDI to Provide High-Nickel Batteries for Next-Gen Mercedes EVs",
+      "published_at": "2026-04-25",
+      "source": "Thomasnet",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObVh4MkxNVHR2MVNlcWJTMjJraHpCYTluYVpFMmNEMFJPdDc1blA5Z0hCa1RFd2x0bExLX3dtYnFTZ2VFZkFFajJaWU9aOHEyZ1hkRWVYaWs5Q0EyZXlGaFdtNUhvclpDTUowOXc4bWk3T0otdE8yckVtbDlNdDFWRkdMQk0zMXFL?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxObVh4MkxNVHR2MVNlcWJTMjJraHpCYTluYVpFMmNEMFJPdDc1blA5Z0hCa1RFd2x0bExLX3dtYnFTZ2VFZkFFajJaWU9aOHEyZ1hkRWVYaWs5Q0EyZXlGaFdtNUhvclpDTUowOXc4bWk3T0otdE8yckVtbDlNdDFWRkdMQk0zMXFL?oc=5\" target=\"_blank\">Samsung SDI to Provide High-Nickel Batteries for Next-Gen Mercedes EVs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Thomasnet</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "삼성SDI",
+        "메르세데스-벤츠",
+        "SDI"
+      ],
+      "summary_3_sentences": [
+        "삼성SDI가 차세대 메르세데스-벤츠 전기차에 고니켈 배터리를 공급할 예정입니다.",
+        "이는 삼성SDI의 고성능 배터리 기술력을 인정받은 결과입니다.",
+        "이번 공급 계약은 전기차 배터리 시장에서의 삼성SDI의 경쟁력을 더욱 강화할 것입니다."
+      ]
+    },
+    {
+      "title": "전고체 배터리 관련주, 소재·장비 동반 상승 흐름…이수스페셜티케미...",
+      "description": "전고체 배터리 관련주가 다시 한 번 시장의 중심 테마로 부상하고 있다. 기존 리튬이온 배터리 대비 안정성과 에너지 밀도를 크게 끌어올릴 수 있는 차세대 기술로 평가되면서, 관련 종목 전반에 매수세가 유입되는...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=570272",
+      "source": "www.cbci.co.kr",
+      "published_at": "2026-04-26",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 92,
+      "monitoring_importance": 92,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "리튬이온"
+      ],
+      "summary_3_sentences": [
+        "전고체 배터리 관련주들이 소재 및 장비 분야에서 동반 상승세를 보이고 있습니다.",
+        "전고체 배터리는 기존 리튬이온 배터리 대비 향상된 안정성과 에너지 밀도를 제공하는 차세대 기술로 평가받습니다.",
+        "이러한 기술적 우위는 관련 종목 전반에 매수세를 유입시키는 요인으로 작용하고 있습니다."
+      ]
+    },
+    {
+      "title": "Fastmarkets Global Lithium, Battery & Critical Materials returns to Las Vegas as the key meeting point for deals, capital and supply chain strategy",
+      "published_at": "2026-04-25",
+      "source": "Investing News Network",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMGNURnpHWjhTY1hKYWZPR204dW1BNWtPNkV3NjI4MjRIbGpmaXVUcXRJejlUN1R0dWNmTTZkSWF1NGJxNzR3bjMzV21nTUVUM1J2TnhwSkVrem1RdlhiNmh3ZzZhRk9kOE52LU53R1Fzekp3MnBHMVpKeDd1cXlUMUxtUm5VWE5oUWxqS2tvSGI1Um80WXM0X3prY09zek5JT3YzcXB2SUcxaDJfQnZYaFpNQXNrVkg1UFJZbDNBcUNoYk9nWHlGRHNkLVNkbi05Q3NsSVFqcXBHUW5LcC1nUURIWGNOdThBc0I1Uk4ybTVDTlEzSkc2T2RaazVSdmc?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMGNURnpHWjhTY1hKYWZPR204dW1BNWtPNkV3NjI4MjRIbGpmaXVUcXRJejlUN1R0dWNmTTZkSWF1NGJxNzR3bjMzV21nTUVUM1J2TnhwSkVrem1RdlhiNmh3ZzZhRk9kOE52LU53R1Fzekp3MnBHMVpKeDd1cXlUMUxtUm5VWE5oUWxqS2tvSGI1Um80WXM0X3prY09zek5JT3YzcXB2SUcxaDJfQnZYaFpNQXNrVkg1UFJZbDNBcUNoYk9nWHlGRHNkLVNkbi05Q3NsSVFqcXBHUW5LcC1nUURIWGNOdThBc0I1Uk4ybTVDTlEzSkc2T2RaazVSdmc?oc=5\" target=\"_blank\">Fastmarkets Global Lithium, Battery & Critical Materials returns to Las Vegas as the key meeting point for deals, capital and supply chain strategy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing News Network</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 80,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "기타",
+      "companies": [],
+      "summary_3_sentences": [
+        "Fastmarkets Global Lithium, Battery & Critical Materials 행사가 라스베이거스에서 개최됩니다.",
+        "이 행사는 거래, 자본 투자, 공급망 전략을 위한 핵심적인 만남의 장이 될 것입니다.",
+        "업계 관계자들은 최신 동향을 파악하고 비즈니스 기회를 모색할 수 있습니다."
+      ]
+    },
+    {
+      "title": "포스코퓨처엠, 음극재 승부수…공급망 재편 가속",
+      "description": "최근에는 글로벌 완성차 업체와 약 1조원 규모의 인조흑연 음극재 공급 계약을 체결하며 수주 기반도 확대하고 있다. 또 미국 실리콘 음극재 기업 실라와 협력을 추진하며 기술 경쟁력 확보에도 나섰다. 기존 흑연 대비...",
+      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1361334",
+      "source": "daily.hankooki.com",
+      "published_at": "2026-04-25",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 87,
+      "monitoring_importance": 87,
+      "tier": 3,
+      "category": "anode",
+      "companies": [
+        "포스코퓨처엠",
+        "실라"
+      ],
+      "summary_3_sentences": [
+        "포스코퓨처엠이 인조흑연 음극재 공급 계약을 확대하며 공급망 재편에 속도를 내고 있습니다.",
+        "최근 약 1조 원 규모의 글로벌 완성차 업체와의 계약은 포스코퓨처엠의 수주 기반을 넓혔습니다.",
+        "또한, 미국 실리콘 음극재 기업 실라와의 협력을 통해 기술 경쟁력 확보에도 힘쓰고 있습니다."
+      ]
+    },
+    {
+      "title": "[한입 지식] 리튬이온의 '징검다리' 전해질, 안전성 확보가 핵심 과제",
+      "description": "음극용 첨가제는 튼튼한 막을 형성해 수명을 늘린다. 한편, 유기용매의 가연성으로 인한 발화 위험을 해결하고자, 최근에는 액체 대신 고체 전해질을 사용하는 전고체 배터리 기술이 미래의 해결책으로 주목받고 있다.",
+      "link": "http://www.newsian.co.kr/news/articleView.html?idxno=88937",
+      "source": "www.newsian.co.kr",
+      "published_at": "2026-04-26",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 87,
+      "monitoring_importance": 87,
+      "tier": 3,
+      "category": "anode",
+      "companies": [
+        "리튬이온"
+      ],
+      "summary_3_sentences": [
+        "리튬이온 배터리의 전해질은 안전성 확보가 핵심 과제입니다.",
+        "음극용 첨가제는 배터리 수명 연장에 기여합니다.",
+        "액체 전해질의 가연성 위험을 해결하기 위해 고체 전해질을 사용하는 전고체 배터리가 미래 기술로 주목받고 있습니다."
+      ]
+    },
+    {
+      "title": "How to Think About the Extractive Problem of Lithium Mining",
+      "published_at": "2026-04-25",
+      "source": "Inside Climate News",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84Rmt3YXNGby1Wejk4Y21VZC1ZNlNfLUVYV1p1eDBkUWFSQ0NPZzl1VzhNSWtNNWp1Q0hfdWs0VGlONDN5clNJbE1rWXZMUk5WeDBqVkhOcmJmQk1sRG9FUjRBUGZoSTQxMzFablJYbVc4NFRYak9nREZiOA?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE84Rmt3YXNGby1Wejk4Y21VZC1ZNlNfLUVYV1p1eDBkUWFSQ0NPZzl1VzhNSWtNNWp1Q0hfdWs0VGlONDN5clNJbE1rWXZMUk5WeDBqVkhOcmJmQk1sRG9FUjRBUGZoSTQxMzFablJYbVc4NFRYak9nREZiOA?oc=5\" target=\"_blank\">How to Think About the Extractive Problem of Lithium Mining</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inside Climate News</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 90,
+      "monitoring_importance": 70,
+      "monitor_score": 84,
+      "tier": 3,
+      "category": "기타",
+      "companies": [],
+      "summary_3_sentences": [
+        "이 기사는 리튬 채굴의 추출 과정에 대한 문제점을 다룹니다.",
+        "리튬 채굴은 환경에 미치는 영향과 지속 가능성에 대한 논의를 필요로 합니다.",
+        "기사는 이러한 추출 과정의 복잡성과 해결 방안을 탐구합니다."
+      ]
+    },
+    {
+      "title": "New review maps the most promising routes for recycling spent LiFePO4 batteries",
+      "published_at": "2026-04-25",
+      "source": "EurekAlert!",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xbnQ4UFVkYmpfWjdHaXJxYmtfb0RTMXlzWDE5Sk5iTXNBTjRDY0pFR0hhUHVFb1Nwbjh5U1dmV3lLdFBneFNKbkl3Y2dudENyZFh4bUwtOVVaUjlJ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xbnQ4UFVkYmpfWjdHaXJxYmtfb0RTMXlzWDE5Sk5iTXNBTjRDY0pFR0hhUHVFb1Nwbjh5U1dmV3lLdFBneFNKbkl3Y2dudENyZFh4bUwtOVVaUjlJ?oc=5\" target=\"_blank\">New review maps the most promising routes for recycling spent LiFePO4 batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 90,
+      "monitoring_importance": 70,
+      "monitor_score": 84,
+      "tier": 3,
+      "category": "재활용",
+      "companies": [],
+      "summary_3_sentences": [
+        "폐 리튬인산철(LiFePO4) 배터리 재활용에 대한 유망한 경로를 검토하는 새로운 리뷰가 발표되었습니다.",
+        "이 리뷰는 효율적이고 경제적인 재활용 방법 개발에 기여할 것으로 기대됩니다.",
+        "이는 배터리 재활용 산업의 발전에 중요한 정보를 제공할 것입니다."
+      ]
+    },
+    {
+      "title": "Canada Just Cracked Cleaner Lithium—Can the U.S. Keep Up?",
+      "published_at": "2026-04-25",
+      "source": "MotorTrend",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT2pfVHRsMzdDbjdTN3M4VjRiOE5ZUVNwZTNTYS1rM1EtTVhqOG9kX0lsaXQ0cUFSRWN5T0hNUHljVGhuYk5Kby1MbndWejlIUDZvb29nTHlJWlFvMmlmWjhNd3JIYVNYTzVQRWo5dDN4SkJkbHBBSnY2bXFhZXU5MWVuUDl3WjV1cklOczUyTWota3l4Unc?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOT2pfVHRsMzdDbjdTN3M4VjRiOE5ZUVNwZTNTYS1rM1EtTVhqOG9kX0lsaXQ0cUFSRWN5T0hNUHljVGhuYk5Kby1MbndWejlIUDZvb29nTHlJWlFvMmlmWjhNd3JIYVNYTzVQRWo5dDN4SkJkbHBBSnY2bXFhZXU5MWVuUDl3WjV1cklOczUyTWota3l4Unc?oc=5\" target=\"_blank\">Canada Just Cracked Cleaner Lithium—Can the U.S. Keep Up?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MotorTrend</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 90,
+      "monitoring_importance": 70,
+      "monitor_score": 84,
+      "tier": 3,
+      "category": "기타",
+      "companies": [],
+      "summary_3_sentences": [
+        "캐나다가 더 깨끗한 리튬 추출 기술을 개발했으며, 미국이 이를 따라갈 수 있을지가 관건입니다.",
+        "이는 친환경적인 배터리 원료 확보 경쟁이 심화되고 있음을 보여줍니다.",
+        "캐나다의 기술 발전은 리튬 공급망에 새로운 가능성을 제시합니다."
+      ]
+    },
+    {
+      "title": "Primary Lithium Battery Market Analysis By Application, Type,",
+      "published_at": "2026-04-25",
+      "source": "openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeHFKdGIybW5BNzdZc0Y1dDM0bkpyakNmdEVRNkhEWUg0Z05jblRwYUJmR2VBeGpCMm9oTDBBU21IWGtqdnZtcEdZQ3Q1QlQtQWJIajdzb2otd1hjVm9La2dHOUxRbE03dU1wVU5GUmNoaC1XLWpTSlpZZWNRUEpVMzFFT01YaHlkUURIdW5nQ3hpeGFhWUtDa3otbw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPeHFKdGIybW5BNzdZc0Y1dDM0bkpyakNmdEVRNkhEWUg0Z05jblRwYUJmR2VBeGpCMm9oTDBBU21IWGtqdnZtcEdZQ3Q1QlQtQWJIajdzb2otd1hjVm9La2dHOUxRbE03dU1wVU5GUmNoaC1XLWpTSlpZZWNRUEpVMzFFT01YaHlkUURIdW5nQ3hpeGFhWUtDa3otbw?oc=5\" target=\"_blank\">Primary Lithium Battery Market Analysis By Application, Type,</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 90,
+      "monitoring_importance": 70,
+      "monitor_score": 84,
+      "tier": 3,
+      "category": "기타",
+      "companies": [],
+      "summary_3_sentences": [
+        "이 기사는 1차 리튬 배터리 시장에 대한 분석을 제공합니다.",
+        "분석은 애플리케이션 유형별 시장 동향을 다룹니다.",
+        "1차 리튬 배터리 시장의 현황과 전망을 이해하는 데 도움이 될 것입니다."
+      ]
+    },
+    {
+      "title": "Altilium Launches Strategic Investment Round on Republic Europe to Scale UK’s EV Battery Circular Economy",
+      "published_at": "2026-04-25",
+      "source": "Batteries News",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPM0JwcHhsaTg3VE9VNVlaV0JTVXNkU3FIdm5UQUNNZUEtUnlwOTAtNmtTSUtDakZWZFZHVVJxYnZFOFJGdDI1TUdlazZuQ2F4ekw2YkdEWG9OVFJBRGZCaDdOQUFjWVhCaml2dzk4ZkUtTU5kMVlxZDVEcFpiUXBXWm5zR0dURi15VEVHdW5TRkxReEpKbWo4QzBmakt3NV90TTZPN05OOWpTM19mdjA3V2txTTlqcTBUdk1keXZKem9PTVZDQ3VkUWhRSQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPM0JwcHhsaTg3VE9VNVlaV0JTVXNkU3FIdm5UQUNNZUEtUnlwOTAtNmtTSUtDakZWZFZHVVJxYnZFOFJGdDI1TUdlazZuQ2F4ekw2YkdEWG9OVFJBRGZCaDdOQUFjWVhCaml2dzk4ZkUtTU5kMVlxZDVEcFpiUXBXWm5zR0dURi15VEVHdW5TRkxReEpKbWo4QzBmakt3NV90TTZPN05OOWpTM19mdjA3V2txTTlqcTBUdk1keXZKem9PTVZDQ3VkUWhRSQ?oc=5\" target=\"_blank\">Altilium Launches Strategic Investment Round on Republic Europe to Scale UK’s EV Battery Circular Economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Batteries News</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 90,
+      "monitoring_importance": 70,
+      "monitor_score": 84,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "Altilium",
+        "UK"
+      ],
+      "summary_3_sentences": [
+        "Altilium이 영국 EV 배터리 순환 경제 확대를 위해 유럽에서 전략적 투자 라운드를 시작했습니다.",
+        "이번 투자는 폐배터리 재활용 및 재료 회수 기술 개발에 집중될 것입니다.",
+        "Altilium은 이를 통해 지속 가능한 배터리 생태계 구축에 기여하고자 합니다."
+      ]
+    },
+    {
+      "title": "적자 줄고 성장 열린다…롯데에너지머티리얼즈 대반전 시작",
+      "description": "롯데에너지머티리얼즈가 데이터센터 수요 확대와 전고체 배터리 사업 진출 기대를 바탕으로 실적 반등의 신호를 보이고 있다. 유진투자증권은 최근 보고서를 통해 동사가 회로박과 전지박 양 축에서 동시에 성장...",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=448549",
+      "source": "www.pinpointnews.co.kr",
+      "published_at": "2026-04-25",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 82,
+      "monitoring_importance": 82,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "롯데에너지머티리얼즈",
+        "유진투자증권"
+      ],
+      "summary_3_sentences": [
+        "롯데에너지머티리얼즈가 데이터센터 수요 확대와 전고체 배터리 사업 진출 기대를 바탕으로 실적 반등의 신호를 보이고 있습니다.",
+        "유진투자증권은 동사가 회로박과 전지박 양 축에서 동시에 성장할 것으로 전망했습니다.",
+        "이는 롯데에너지머티리얼즈의 사업 다각화 및 성장 잠재력을 보여줍니다."
+      ]
+    },
+    {
+      "title": "“AI·배터리 양손에 쥐고 달린다”…솔루스첨단소재, 한주새 40%대 급등...",
+      "description": "한병화 유진투자증권 이사는 “2분기에도 신규 수요처와 BESS 배터리향 공급이 시작되면서 전지박 공급 물량이 큰 폭으로 증가할 것으로 예상된다”며 “올해부터 고객 다변화에 성공해글로벌 로봇, 자율주행차, ESS...",
+      "link": "https://www.mk.co.kr/article/12027401",
+      "source": "www.mk.co.kr",
+      "published_at": "2026-04-26",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 77,
+      "monitoring_importance": 77,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "솔루스첨단소재",
+        "유진투자증권",
+        "AI·배터리"
+      ],
+      "summary_3_sentences": [
+        "솔루스첨단소재의 주가가 AI 및 배터리 사업 기대감으로 한 주간 40% 이상 급등했습니다.",
+        "유진투자증권은 2분기 전지박 공급 물량이 큰 폭으로 증가할 것으로 예상했습니다.",
+        "이는 고객 다변화 성공과 로봇, 자율주행차, ESS 등 신규 수요처 확보에 따른 결과입니다."
+      ]
+    },
+    {
+      "title": "테슬라, ESS 사업 주춤 왜?…중국산 배터리가 발목 잡아",
+      "description": "휴스턴 소재 신규 메가팩토리에서 차세대 ESS 제품 ‘메가팩3’ 생산을 시작할 예정이다. 메가팩3에는 LG에너지솔루션 미시간주 랜싱 공장에서 생산된 각형 리튬인산철(LFP) ESS 배터리가 채택될 것으로 알려졌다.",
+      "link": "https://zdnet.co.kr/view/?no=20260425232728",
+      "source": "zdnet.co.kr",
+      "published_at": "2026-04-26",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 74,
+      "monitoring_importance": 74,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "테슬라",
+        "LG에너지솔루션",
+        "LFP"
+      ],
+      "summary_3_sentences": [
+        "테슬라의 ESS 사업이 중국산 배터리 문제로 주춤하고 있습니다.",
+        "휴스턴 신규 메가팩토리에서 차세대 ESS 제품인 메가팩3 생산을 시작할 예정입니다.",
+        "메가팩3에는 LG에너지솔루션의 각형 리튬인산철(LFP) ESS 배터리가 탑재될 것으로 알려졌습니다."
+      ]
+    }
+  ]
+}
