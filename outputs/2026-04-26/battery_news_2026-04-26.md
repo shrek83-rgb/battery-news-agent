@@ -1,0 +1,203 @@
+# 배터리 뉴스 데일리 브리핑 (2026-04-26 전날 기준)
+
+- 총 15건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | anode | 2026-04-27 | www.hellot.net | 전기연구원, 전고체 배터리 '계면 불안정' 해결...국제 학술지 게재 | https://www.hellot.net/news/article.html?no=112305 | unknown |
+| 2 | 3 | 나트륨 | 2026-04-27 | www.livesnews.com | ‘나트륨 배터리’ 판 커진다… K-배터리, ESS·UPS 차세대 승부수 | https://www.livesnews.com/news/article.html?no=61085 | unknown |
+| 3 | 3 | 기타 | 2026-04-26 | Shanghai Metals Market | [SMM Analysis] Lithium Carbonate Q1 "N-Shaped" Oscillation: Tight Balance Pattern Amid Tug-of-War Between Upstream and Downstream | https://news.google.com/rss/articles/CBMihgJBVV95cUxQT0Vfck1ZZm9FeVhVYUpOdGlBWlc1QmotNjVtWTR6WEpUc2l0Sy1ST2tfeTU5SnJDVm9ZTG5HR3ZXOWE4MUR1dFpVbUJWVU9kcjRHaFdNQTk5NlhkXzZQdGVSaFlFREdnbE1maHRCX2JpSW1iUzFIRUNlYWw0UF9iWTFwakZseWYtSzFLaGJaU1dkLVdKRjFMNTVCcVZUbzZLSVpkOE9fTndiVTBVVUQ3dHNvR29qYzBlY1FwTzFMck5CVVhSTWJiMXBnMDQwaXZPYWxYQzRnc1FUTG1faC03NnplNUFvZ2pwaUpiU3NwMmdZZVpfS2Q4eTZwS1pVX0xMNkY1Y3hn?oc=5 | unknown |
+| 4 | 3 | 기타 | 2026-04-26 | Tech Xplore | Water-based zinc batteries tackle a barrier that has long blocked cheap, stable renewable energy storage | https://news.google.com/rss/articles/CBMiggFBVV95cUxPZDNUZkczcGlnOHd1WXpueVNvSThKMG1CR2t2UFEwOUhYejJfSl9JZk15UFZrMmMxalJHa19VMjFMQU5NODBUVUs5aGo5M1Zxc0tHdDlzZlh0Mm56ZkFtQzQ5SFA1eVlKa2M1UEQ2S3VxZm04QUlyLXg0NzdqUlJBSXhR?oc=5 | unknown |
+| 5 | 3 | 기타 | 2026-04-26 | digitimes | Commentary: Sodium batteries reset EV cost structure and supply chain balance | https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmpOMHRaUHQ4NWxsZVBQMDU2bW1tRUFQaWJFSzVkVHJRM3FwSkhIS1h0ZF8wZXQ1Q1RIZTgtUWZmbVpBU2FHSHdxRmdpOUwydW5BY3F6ZGZHQzZFdS16OWFGRUJ2SW9jRzEtek1NNFg2UG9TUnd5RVlFQzFvMEZzZlRvbUxMYnVOWXZ1YW9acFFSVlNkM0hzbFdDbm5vbnhYd2c?oc=5 | unknown |
+| 6 | 3 | 전고체 | 2026-04-27 | www.segye.com | 화재 걱정 없는 ‘꿈의 배터리’…‘판박이 스티커’ 기술로 앞당긴다 | https://www.segye.com/newsView/20260427504388?OutUrl=naver | unknown |
+| 7 | 3 | electrolyte | 2026-04-26 | South China Morning Post | Tianqi Lithium favours China’s salt lakes over Africa amid resource nationalism | https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRVd5UnFtUGhHZmpKa3pPTllidmVHemJYSWE2T3FmM2k2dmR2MmxncVZOaGgxRXRPSHZ4MUpUbjhaaGJlTzlQRmNxUEg2RVlYT3JERTF6OHF5eXI1QWtzclFZaWhtdWR2UWEtanlqa1U0S25aRnQ4WG1xNEc1dlZDSTZjQkVkS01DSnNwMU5GX3J4MHVuVWUzaVZlZG5tZUozMGhmbXR4NU05c0hsT2Z0cm5JdDdleVd0OHFrcm56MXV4ZUZJd0J6UklVdVQxNFNQT2JSMUROSG8zU0xl0gHcAUFVX3lxTE91bnNzNmtOQUFpTW5LVmlLcXE1ZWdDLTgxWnVyVzd5NlFLc1Z5NnpDZDhjdGhqMlZCRGw4dThZNWFiZGgxWEFmOFRselJFMVRMMkxwakhha1o2VnREa2lNeFF5S21vNURwMFFYc29vUnF0bU5taTk5WVVFNWxZSFlYRXZlN29wa1pqcS1Yd3dNUVNDWlRSRnhUdnpDZ09zZEItWnZ3b0NPTm5sRFhmSFpHNkt5UE1MM1BLMW9CU0RvQ3o1b1hxcGxFYnV3a1NuLW93eE1jeGZyY08xeVc?oc=5 | unknown |
+| 8 | 3 | 전고체 | 2026-04-27 | www.fntimes.com | 삼성SDI 수익률, LG엔솔의 6배…도대체 왜? [정답은 TSR] | http://www.fntimes.com/html/view.php?ud=202604260009433529dd55077bc2_18 | unknown |
+| 9 | 3 | 나트륨 | 2026-04-27 | www.theguru.co.kr | 日 JX금속, 배터리 무한 순환? 폐배터리 리튬 회수율 90% 달성 | https://www.theguru.co.kr/news/article.html?no=101018 | unknown |
+| 10 | 3 | 기타 | 2026-04-27 | www.thefairnews.co.kr | 테슬라 '깜짝 실적'의 역설…국내 배터리 3사, 캐즘 넘고 46파이로 승부... | https://www.thefairnews.co.kr/news/articleView.html?idxno=75405 | unknown |
+| 11 | 3 | 전고체 | 2026-04-27 | www.cbci.co.kr | 대주전자재료 레몬 한농화성 이브이첨단소재…전고체 배터리주 혼조, 2... | https://www.cbci.co.kr/news/articleView.html?idxno=570417 | unknown |
+| 12 | 3 | 기타 | 2026-04-26 | WMUR | Officials: Lithium-ion battery caused fire in Littleton mobile home park | https://news.google.com/rss/articles/CBMiowFBVV95cUxOSUZMMFFmVE1vdHBPUFpXQ0tqYXN1ZWU3Z0dUT285SmswM3dmQ05IZjczMHY3aTlUZkdfOXdjZkFoTzJwQWwwdHdmdTZqNjFEckF6c2R3ajRpVDVzME4wQVpKRjNHVVJsd1k3ckxWaThTT1p1YlkzODVIQXpfSXBQWm5RRThzSlFSVW5NUEF3MzJFUnJQbTVXWXJqdVhWdGpnc3Vn?oc=5 | unknown |
+| 13 | 3 | 재활용 | 2026-04-26 | Pulse 2.0 | Ace Green Recycling: $32 Million PIPE Financing Secured To Support SPAC Merger And Battery Recycling Expansion | https://news.google.com/rss/articles/CBMixwFBVV95cUxQQkRiTC0zRXRKQ1R3MVdHMTh6RjE5Z3pGUDlrTDNTb3I5dk9VV1NWYXJNY1BQREMxeHZLcGpna2FLZFFtS3JvbVhsVkpEZjZQdTZFQ3REZ0hKMXhUVnNON3YyZEM5cjRFRFFYN3NIcnBSMlpQNFFJdHc5VDlOb1dTemFRQlNWckhFVVFjYWw2cHpiSmdrd3JWSllIazVmNHJ2LXpfUm9LOVpHUnkyZUZPTGxCc0p1V0hJTV9hVWl4Vm5oZ3pIQkFj0gHMAUFVX3lxTE1pdG5yVzVkTzEzTDlYWURLbDF2cTl4amtRNF9wV2lEeHJXVkU3T0RDcXBZejN5bms3eUFMOFMzNlBzSzFzUTMtZkpkalo3RGIybTBnd0JaVnltZy1XRGg4LUtoc2l2b2gxMmZtV1ZGRDZJVldhLXVlMGRFTExhUXBsOTVTbm5PNFhkOWpOSVRwOEpGUGJFZzRqQ196ZG1feVlLajQ0aEk3aXc3bFZqRUhuTldrOFF5OGJhWE5OTXpnYW5fUk5CYnViOV81dg?oc=5 | unknown |
+| 14 | 3 | 기타 | 2026-04-26 | The Invading Sea | FAMU-FSU researchers develop battery that could reshape how energy systems are made | https://news.google.com/rss/articles/CBMiywFBVV95cUxORVFheE9qUVBYWFBzMHE5am1DWG0zWkwzaXlqWUJVVHgyREl3Z1h3VzV5Q0xhNHpGYzRnOW9INW1rckdESWgwZ3gzeVFyeExwNEJIaE1fdUVNZnpFN19nSDVBa0RJMElCYlctUGhyZlhxbHJ6QnlJa0Jrb092UlhzZkZnM0huSGc4dTNWblJWMmdDZ19HaUZiS0Q5dXFMLWFVOEdIM3k5Y3oyemJYNElnOWRBSG55aVlzM0N3THY2aW1TSjlYbDBjZzh2WQ?oc=5 | unknown |
+| 15 | 3 | 재활용 | 2026-04-26 | FOX5 Vegas | AAA Nevada held battery recycling event in Las Vegas | https://news.google.com/rss/articles/CBMikAFBVV95cUxORDVmRkRLeEhBQml0Ml9FdGdNdk9hN1diSUJyOXVRWFRObnJLS3RTSFZpWGtaRHFpQVJRNS1fbFBhMTFvLUpyN3ViemVvS2Izc09SWWk4X0cyR1d5TTZrcDd3SmlieW9iRFFUVTdfN1VlN1U4azM1bXNoNVlqckdlUDNuelhBckRMLTVmZHFGRkw?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. 전기연구원, 전고체 배터리 '계면 불안정' 해결...국제 학술지 게재
+- 발행일: 2026-04-27
+- 매체: www.hellot.net (출처등급 3)
+- 분야: anode
+- 링크: https://www.hellot.net/news/article.html?no=112305
+- 참고 링크: https://www.newsworks.co.kr/news/articleView.html?idxno=838872, https://view.asiae.co.kr/article/2026042415012592690
+- 인기신호: unknown
+- 3문장 요약:
+  - 한국전기연구원(KERI) 남기훈 박사팀이 전고체 배터리의 계면 불안정 문제를 해결하는 기술을 개발했습니다.
+  - 이 기술은 나노 주석 중간층을 제어하여 리튬 금속 음극과 고체 전해질 간의 안정성을 높이는 것을 목표로 합니다.
+  - 이번 연구 결과는 전고체 배터리 상용화를 앞당길 수 있는 중요한 진전으로 평가받고 있습니다.
+- 관련 기업: 한국전기연구원, 전지소재, KERI
+
+### 2. ‘나트륨 배터리’ 판 커진다… K-배터리, ESS·UPS 차세대 승부수
+- 발행일: 2026-04-27
+- 매체: www.livesnews.com (출처등급 3)
+- 분야: 나트륨
+- 링크: https://www.livesnews.com/news/article.html?no=61085
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션과 삼성SDI가 차세대 저가형 배터리로 주목받는 나트륨이온 배터리(SIB) 상용화에 속도를 내고 있습니다.
+  - 이들은 특히 데이터센터의 핵심 설비인 UPS(무정전 전원 장치) 시장을 1차 공략 대상으로 삼고 있습니다.
+  - 나트륨이온 배터리는 ESS 및 UPS 시장에서 K-배터리의 새로운 성장 동력이 될 것으로 기대됩니다.
+- 관련 기업: LG에너지솔루션, 삼성SDI, K-배터리
+
+### 3. [SMM Analysis] Lithium Carbonate Q1 "N-Shaped" Oscillation: Tight Balance Pattern Amid Tug-of-War Between Upstream and Downstream
+- 발행일: 2026-04-26
+- 매체: Shanghai Metals Market (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMihgJBVV95cUxQT0Vfck1ZZm9FeVhVYUpOdGlBWlc1QmotNjVtWTR6WEpUc2l0Sy1ST2tfeTU5SnJDVm9ZTG5HR3ZXOWE4MUR1dFpVbUJWVU9kcjRHaFdNQTk5NlhkXzZQdGVSaFlFREdnbE1maHRCX2JpSW1iUzFIRUNlYWw0UF9iWTFwakZseWYtSzFLaGJaU1dkLVdKRjFMNTVCcVZUbzZLSVpkOE9fTndiVTBVVUQ3dHNvR29qYzBlY1FwTzFMck5CVVhSTWJiMXBnMDQwaXZPYWxYQzRnc1FUTG1faC03NnplNUFvZ2pwaUpiU3NwMmdZZVpfS2Q4eTZwS1pVX0xMNkY1Y3hn?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 1분기 리튬탄산염 가격은 상류와 하류 간의 힘겨루기로 인해 'N자형' 변동성을 보이며 타이트한 수급 균형 패턴을 나타냈습니다.
+  - 이는 리튬 공급과 수요 측면에서 불안정한 시장 상황이 지속되고 있음을 시사합니다.
+  - 향후 리튬탄산염 시장의 움직임은 이러한 수급 불균형 추이에 따라 결정될 것으로 보입니다.
+- 관련 기업: SMM
+
+### 4. Water-based zinc batteries tackle a barrier that has long blocked cheap, stable renewable energy storage
+- 발행일: 2026-04-26
+- 매체: Tech Xplore (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiggFBVV95cUxPZDNUZkczcGlnOHd1WXpueVNvSThKMG1CR2t2UFEwOUhYejJfSl9JZk15UFZrMmMxalJHa19VMjFMQU5NODBUVUs5aGo5M1Zxc0tHdDlzZlh0Mm56ZkFtQzQ5SFA1eVlKa2M1UEQ2S3VxZm04QUlyLXg0NzdqUlJBSXhR?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 수계 아연 배터리 기술이 저렴하고 안정적인 재생 에너지 저장 시스템 구축의 오랜 난제를 해결할 가능성을 제시했습니다.
+  - 이 배터리는 기존 기술의 한계를 극복하여 에너지 저장 비용을 절감하고 안정성을 높이는 데 기여할 수 있습니다.
+  - 이는 재생 에너지 보급 확대에 중요한 역할을 할 것으로 기대됩니다.
+
+### 5. Commentary: Sodium batteries reset EV cost structure and supply chain balance
+- 발행일: 2026-04-26
+- 매체: digitimes (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmpOMHRaUHQ4NWxsZVBQMDU2bW1tRUFQaWJFSzVkVHJRM3FwSkhIS1h0ZF8wZXQ1Q1RIZTgtUWZmbVpBU2FHSHdxRmdpOUwydW5BY3F6ZGZHQzZFdS16OWFGRUJ2SW9jRzEtek1NNFg2UG9TUnd5RVlFQzFvMEZzZlRvbUxMYnVOWXZ1YW9acFFSVlNkM0hzbFdDbm5vbnhYd2c?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 나트륨 배터리는 전기차의 비용 구조와 공급망 균형을 재편할 잠재력을 가지고 있습니다.
+  - 이는 기존 리튬이온 배터리를 대체하거나 보완하며 전기차 시장의 경쟁 구도를 바꿀 수 있습니다.
+  - 나트륨 배터리의 발전은 전기차의 대중화를 가속화하는 데 기여할 것입니다.
+
+### 6. 화재 걱정 없는 ‘꿈의 배터리’…‘판박이 스티커’ 기술로 앞당긴다
+- 발행일: 2026-04-27
+- 매체: www.segye.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.segye.com/newsView/20260427504388?OutUrl=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - 화재 위험이 없고 에너지 밀도가 높은 '꿈의 배터리'로 불리는 전고체 전지가 개발되고 있습니다.
+  - 이러한 전고체 전지는 '판박이 스티커'와 같은 혁신적인 기술을 통해 상용화 시기가 앞당겨질 수 있습니다.
+  - 전고체 전지는 차세대 배터리 기술로서 안전성과 성능 면에서 큰 기대를 모으고 있습니다.
+- 관련 기업: 전고체전지
+
+### 7. Tianqi Lithium favours China’s salt lakes over Africa amid resource nationalism
+- 발행일: 2026-04-26
+- 매체: South China Morning Post (출처등급 3)
+- 분야: electrolyte
+- 링크: https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRVd5UnFtUGhHZmpKa3pPTllidmVHemJYSWE2T3FmM2k2dmR2MmxncVZOaGgxRXRPSHZ4MUpUbjhaaGJlTzlQRmNxUEg2RVlYT3JERTF6OHF5eXI1QWtzclFZaWhtdWR2UWEtanlqa1U0S25aRnQ4WG1xNEc1dlZDSTZjQkVkS01DSnNwMU5GX3J4MHVuVWUzaVZlZG5tZUozMGhmbXR4NU05c0hsT2Z0cm5JdDdleVd0OHFrcm56MXV4ZUZJd0J6UklVdVQxNFNQT2JSMUROSG8zU0xl0gHcAUFVX3lxTE91bnNzNmtOQUFpTW5LVmlLcXE1ZWdDLTgxWnVyVzd5NlFLc1Z5NnpDZDhjdGhqMlZCRGw4dThZNWFiZGgxWEFmOFRselJFMVRMMkxwakhha1o2VnREa2lNeFF5S21vNURwMFFYc29vUnF0bU5taTk5WVVFNWxZSFlYRXZlN29wa1pqcS1Yd3dNUVNDWlRSRnhUdnpDZ09zZEItWnZ3b0NPTm5sRFhmSFpHNkt5UE1MM1BLMW9CU0RvQ3o1b1hxcGxFYnV3a1NuLW93eE1jeGZyY08xeVc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 톈치 리튬은 자원 민족주의 심화 속에서 아프리카 대신 중국의 염호에 대한 투자를 선호하고 있습니다.
+  - 이는 지정학적 리스크를 회피하고 안정적인 리튬 공급망을 확보하기 위한 전략으로 풀이됩니다.
+  - 이러한 결정은 글로벌 리튬 시장의 공급망 재편에 영향을 미칠 수 있습니다.
+- 관련 기업: Tianqi Lithium
+
+### 8. 삼성SDI 수익률, LG엔솔의 6배…도대체 왜? [정답은 TSR]
+- 발행일: 2026-04-27
+- 매체: www.fntimes.com (출처등급 3)
+- 분야: 전고체
+- 링크: http://www.fntimes.com/html/view.php?ud=202604260009433529dd55077bc2_18
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성SDI의 수익률이 LG에너지솔루션의 6배에 달하는 배경에는 ESS 및 전고체 배터리 상용화에 대한 기대감 차이가 있습니다.
+  - 시장은 두 회사의 기술 개발 및 상용화 전략에 대해 다른 시각을 가지고 있으며, 이는 수익률 격차로 나타나고 있습니다.
+  - 이러한 시장의 평가는 향후 배터리 산업의 경쟁 구도에 중요한 영향을 미칠 것으로 보입니다.
+- 관련 기업: 삼성SDI, LG에너지솔루션, LG엔솔
+
+### 9. 日 JX금속, 배터리 무한 순환? 폐배터리 리튬 회수율 90% 달성
+- 발행일: 2026-04-27
+- 매체: www.theguru.co.kr (출처등급 3)
+- 분야: 나트륨
+- 링크: https://www.theguru.co.kr/news/article.html?no=101018
+- 인기신호: unknown
+- 3문장 요약:
+  - 일본 JX금속이 폐배터리에서 리튬 회수율을 90% 이상 달성하는 세계 최고 수준의 기술을 개발했습니다.
+  - 이 기술은 기존 재활용 공정의 한계를 극복하고 리튬이온배터리 내 리튬을 효율적으로 회수할 수 있게 합니다.
+  - 이는 배터리 재활용 산업의 효율성을 높이고 지속 가능한 자원 순환에 기여할 것으로 기대됩니다.
+- 관련 기업: JX금속, 리튬이온배터리
+
+### 10. 테슬라 '깜짝 실적'의 역설…국내 배터리 3사, 캐즘 넘고 46파이로 승부...
+- 발행일: 2026-04-27
+- 매체: www.thefairnews.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.thefairnews.co.kr/news/articleView.html?idxno=75405
+- 인기신호: unknown
+- 3문장 요약:
+  - 테슬라의 깜짝 실적 개선은 전기차 시장의 생존력을 증명하는 신호로 해석됩니다.
+  - 하지만 국내 배터리 3사는 완성차 업체의 전략 변화에 민감하게 반응하며, 캐즘을 극복하고 4680 배터리 등으로 경쟁력을 강화해야 하는 과제를 안고 있습니다.
+  - 특히 리튬인산철(LFP) 배터리 기반의 ESS 제품군 다양화 및 북미 시장 수주 집중이 중요한 전략으로 부각되고 있습니다.
+- 관련 기업: 테슬라
+
+### 11. 대주전자재료 레몬 한농화성 이브이첨단소재…전고체 배터리주 혼조, 2...
+- 발행일: 2026-04-27
+- 매체: www.cbci.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.cbci.co.kr/news/articleView.html?idxno=570417
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 증시에서 전고체 배터리 관련 종목들이 혼조세를 보이며 방향성 탐색 국면에 진입했습니다.
+  - 대주전자재료, 레몬, 한농화성, 이브이첨단소재 등 주요 관련주들은 개별 종목별로 다른 흐름을 나타내고 있습니다.
+  - 이는 전고체 배터리 기술 개발 및 상용화에 대한 시장의 기대와 우려가 교차하고 있음을 보여줍니다.
+- 관련 기업: 대주전자재료, 레몬, 한농화성
+
+### 12. Officials: Lithium-ion battery caused fire in Littleton mobile home park
+- 발행일: 2026-04-26
+- 매체: WMUR (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiowFBVV95cUxOSUZMMFFmVE1vdHBPUFpXQ0tqYXN1ZWU3Z0dUT285SmswM3dmQ05IZjczMHY3aTlUZkdfOXdjZkFoTzJwQWwwdHdmdTZqNjFEckF6c2R3ajRpVDVzME4wQVpKRjNHVVJsd1k3ckxWaThTT1p1YlkzODVIQXpfSXBQWm5RRThzSlFSVW5NUEF3MzJFUnJQbTVXWXJqdVhWdGpnc3Vn?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국 리틀턴의 한 모바일 홈 파크에서 발생한 화재의 원인이 리튬이온 배터리로 밝혀졌습니다.
+  - 이번 사건은 리튬이온 배터리의 잠재적 위험성에 대한 경각심을 일깨우고 있습니다.
+  - 배터리 안전 관리 및 사용에 대한 주의가 요구됩니다.
+- 관련 기업: WMUR
+
+### 13. Ace Green Recycling: $32 Million PIPE Financing Secured To Support SPAC Merger And Battery Recycling Expansion
+- 발행일: 2026-04-26
+- 매체: Pulse 2.0 (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMixwFBVV95cUxQQkRiTC0zRXRKQ1R3MVdHMTh6RjE5Z3pGUDlrTDNTb3I5dk9VV1NWYXJNY1BQREMxeHZLcGpna2FLZFFtS3JvbVhsVkpEZjZQdTZFQ3REZ0hKMXhUVnNON3YyZEM5cjRFRFFYN3NIcnBSMlpQNFFJdHc5VDlOb1dTemFRQlNWckhFVVFjYWw2cHpiSmdrd3JWSllIazVmNHJ2LXpfUm9LOVpHUnkyZUZPTGxCc0p1V0hJTV9hVWl4Vm5oZ3pIQkFj0gHMAUFVX3lxTE1pdG5yVzVkTzEzTDlYWURLbDF2cTl4amtRNF9wV2lEeHJXVkU3T0RDcXBZejN5bms3eUFMOFMzNlBzSzFzUTMtZkpkalo3RGIybTBnd0JaVnltZy1XRGg4LUtoc2l2b2gxMmZtV1ZGRDZJVldhLXVlMGRFTExhUXBsOTVTbm5PNFhkOWpOSVRwOEpGUGJFZzRqQ196ZG1feVlLajQ0aEk3aXc3bFZqRUhuTldrOFF5OGJhWE5OTXpnYW5fUk5CYnViOV81dg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Ace Green Recycling은 SPAC 합병 및 배터리 재활용 사업 확장을 지원하기 위해 3,200만 달러의 PIPE 투자를 유치했습니다.
+  - 이번 투자는 회사의 성장 전략을 가속화하고 배터리 재활용 분야에서의 입지를 강화하는 데 기여할 것입니다.
+  - 이는 지속 가능한 배터리 생태계 구축에 긍정적인 영향을 미칠 것으로 예상됩니다.
+- 관련 기업: Ace Green Recycling, PIPE, SPAC
+
+### 14. FAMU-FSU researchers develop battery that could reshape how energy systems are made
+- 발행일: 2026-04-26
+- 매체: The Invading Sea (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiywFBVV95cUxORVFheE9qUVBYWFBzMHE5am1DWG0zWkwzaXlqWUJVVHgyREl3Z1h3VzV5Q0xhNHpGYzRnOW9INW1rckdESWgwZ3gzeVFyeExwNEJIaE1fdUVNZnpFN19nSDVBa0RJMElCYlctUGhyZlhxbHJ6QnlJa0Jrb092UlhzZkZnM0huSGc4dTNWblJWMmdDZ19HaUZiS0Q5dXFMLWFVOEdIM3k5Y3oyemJYNElnOWRBSG55aVlzM0N3THY2aW1TSjlYbDBjZzh2WQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - FAMU-FSU 연구진이 에너지 시스템 구축 방식을 변화시킬 수 있는 새로운 배터리를 개발했습니다.
+  - 이 배터리 기술은 기존의 에너지 저장 시스템의 한계를 극복하고 효율성을 높일 수 있는 잠재력을 가지고 있습니다.
+  - 이는 차세대 에너지 저장 기술 발전에 중요한 기여를 할 것으로 기대됩니다.
+- 관련 기업: FAMU-FSU, FAMU, FSU
+
+### 15. AAA Nevada held battery recycling event in Las Vegas
+- 발행일: 2026-04-26
+- 매체: FOX5 Vegas (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMikAFBVV95cUxORDVmRkRLeEhBQml0Ml9FdGdNdk9hN1diSUJyOXVRWFRObnJLS3RTSFZpWGtaRHFpQVJRNS1fbFBhMTFvLUpyN3ViemVvS2Izc09SWWk4X0cyR1d5TTZrcDd3SmlieW9iRFFUVTdfN1VlN1U4azM1bXNoNVlqckdlUDNuelhBckRMLTVmZHFGRkw?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcG5YWmRSR1AtNXh2Qndhd3lLZHVudVdrZlRZb1BLa0dUSWo4dy1ia0hmV0RnRDV1dHhwZTlPcHVsNXFhUzAwTFpLLXV2bjZyR2lqWmt0UGNVZWtVNGhHaXE5bDd4TlVWa2M1eG5JWHFoRDFmVTRsT3VYcmt3Q1k3QUUzOGtWV3hOZWVud0dPd01UTGpvcFc2cER2eGFNd3RaM2IzbFVpMVA3aDhtNVlWVklHa2ZXZFc4ZWpDdmRjRVlETFdxNWRsdUozYjN0Vjk4anc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - AAA 네바다는 라스베이거스에서 배터리 재활용 이벤트를 개최했습니다.
+  - 이번 행사는 지역 사회의 배터리 재활용 참여를 독려하고 환경 보호에 대한 인식을 높이는 데 기여했습니다.
+  - 이는 폐배터리 관리 및 자원 순환의 중요성을 강조하는 계기가 되었습니다.
+- 관련 기업: AAA Nevada, AAA
