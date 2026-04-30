@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-04-29</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-04-29 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVZHhFQ01XRDFaTHgyWnoyNUduTnFXU2Z5UzZRWjU5cHFFbW9kWTNSSGYyYW9XV1NYM3VCbk90S3pGZGZWQmJMVWNkTGh2cFhVcl9EZ3VMR1YtZk0wa0NGcjVtNlNDUVk1?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">USGS Says Appalachian Lithium Could Support EV Battery Demand</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Transport Topics</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">USGS</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국 지질조사국(USGS)은 애팔래치아 지역의 리튬이 전기차 배터리 수요를 충족시킬 수 있다고 발표했습니다.</li><li>이 지역의 리튬 매장량은 미국 배터리 수요의 328년 치를 충당할 수 있는 규모로 추정됩니다.</li><li>이는 미국 내 전기차 공급망 강화에 중요한 기회가 될 수 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-29</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMimwFBVV95cUxQa3hxa2t4dHFHOHY5NTVmbE1ud3pYX2swbXJUZDVWTUkyd0hxdHdRTFBsV19rTFdYdzNkVlZZUG5qSFhTS2RFOG9EXzFEUkxPV3lmXzNBR3oyTkE2M0thd0x6alg2bThhSklPemJrLXFGem5VcWFOSWdKUmpvV0lPWVhhbGVWUHVJTnQzSzduVVZVcDVvZGljenJhdw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium-ion Battery Market Size to Reach USD 206.76 Billion</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">openPR.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">USD</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>리튬이온 배터리 시장 규모가 2067억 6천만 달러에 달할 것으로 예상됩니다.</li><li>이는 전기차 및 에너지 저장 시스템(ESS) 수요 증가에 따른 것입니다.</li><li>시장 성장은 관련 소재 및 기술 개발을 촉진할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-29</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="http://www.ttlnews.com/news/articleView.html?idxno=3104172" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG에너지솔루션, &#x27;전기차 한파&#x27;에 2000억 적자… 46시리즈 100GWh 수주로 ...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.ttlnews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG에너지솔루션은 전기차 시장 둔화로 인해 2000억 원의 영업 적자를 기록했습니다.</li><li>회사는 급속 충전 성능을 강화한 신규 원통형 배터리를 연내 출시하고 차세대 기술 개발에 속도를 낼 계획입니다.</li><li>이는 변화하는 시장 환경에 대응하고 미래 경쟁력을 확보하기 위한 전략입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-30</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxQam5yNmdJejlTU2xETWpqb3l4X01wVHA1NDRWUDRRX0pYd3dfTHl2N2RPU1ZGTDhpWDJ3MFBhbVg4NEVNWWFrcWdrVmpqUHJPTUVVRVV2bmRVbXpIdjlFVlNnYXNyaFJYYkVndTBMYlVnOUM0bXlkMTRVU1FWeVRVOHB5bGozZzFrN1hsTUhGTWtXVWlvN240Yi13YTI2QTM5YVFaUXRORFFmcC1VeEthbldSX19CZEJXd0NJdC1qY3ViRVFRS3RmYmZYTl9YRnF2Um9ZR2dOOV8ta1RiUk1V?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">A threshold crossed, but &#x27;not a silver bullet&#x27;: Industry reaction and analysis of CATL-HyperStrong sodium-ion deal</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Energy-Storage.News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CATL</span><span class="chip">HyperStrong</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>CATL과 HyperStrong의 나트륨 이온 배터리 계약은 중요한 전환점으로 평가됩니다.</li><li>이 계약은 나트륨 이온 배터리가 상업적으로 실현 가능한 기술임을 보여줍니다.</li><li>하지만 이것이 에너지 저장 시장의 모든 문제를 해결하는 만능 열쇠는 아니라는 분석도 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-29</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hcFdWbWpZbzEyMy1qamNZRTdUdTFySkdPRGtUWFI4VEZJaVJCbDRyQnQyRnphdWZ3OVNKUzRlVGRadkQ2TGxWdEV1bk04VERwQ2xHamQtQndER1k?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Appalachia Is Sitting on Enough Lithium for 328 Years of America’s Battery Needs</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">thedeepdive.ca</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국 애팔래치아 지역에 328년 치 미국 배터리 수요를 충족할 수 있는 리튬이 매장되어 있습니다.</li><li>이 발견은 미국 내 전기차 공급망에 중요한 기회를 제공할 수 있습니다.</li><li>이는 미국 에너지 안보 및 산업 경쟁력 강화에 기여할 잠재력을 가지고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-29</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQOUVLV3J0MFZNTUVabVRCX2hkUE8wRVdMa0VYSGo1RUVjVVlUeWJPa0g5akJ1TjhQZW9zZEU2WGMxLWduY2I3SFVoN09nbnZXWDVLSzVxUU5XckhTQ2JrV1V1cENuSnh6MVhrYzZYbmtiTXV2V0l5anAwM0t4dFoxZGZBMDM0Ukgtb3ZFbkJiZ1FVOWRIRldxeENR?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">In Finland, Europe&#x27;s first complete lithium mine begins operation</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Euractiv</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>핀란드에서 유럽 최초의 완전한 리튬 광산 운영이 시작되었습니다.</li><li>이 광산은 유럽의 배터리 원자재 공급망 강화에 기여할 것으로 기대됩니다.</li><li>이는 유럽의 전기차 및 에너지 저장 시스템 산업 발전에 중요한 역할을 할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-29</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiigFBVV95cUxOdlRIQVVBX2JuTWQ4ZHdCZmwwY1ZVU0RaT2FyZG5qNlBnYUpOdEhBdUN6STRBWWxNcERJMWVxRHJPbGl0T2VMWkhRUUxxS0haTTRTR0NQanBaV005UEZKQWdGZi1Xa29Rdlh1c2hMdHJNV2pnLXdrOGxVbFJqel9leTJ6Vi04Wm81emc?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Domestic Lithium Discovery Points to Bigger Opportunity for EV Supply Chains</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">act-news.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국 내 리튬 발견은 전기차 공급망에 더 큰 기회를 제공할 수 있음을 시사합니다.</li><li>이는 미국 내 배터리 생산 능력 강화 및 공급망 안정화에 기여할 수 있습니다.</li><li>국내 리튬 자원 확보는 전기차 산업의 성장을 가속화할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-29</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQcmpmbGJETFlqb3RWOFVtUEJkZmVNV2dQUkZoRnh4RFR3aFlVOGQ4cUQxOEYxTGFRX2FtM1B5VXJHQkhkYXZ2Y0E0dmdHQlN2VTZpZEd4V0pabmhnWGRVanE2NXRlU1lRc1ZZX0hyUGpVX3BsWVBkcGVxTEFwcjEzVFR5dXZYeFhxZWc?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Rice grain-sized solid-state battery could power next-gen smart lenses, wearables</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Interesting Engineering</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>쌀알 크기의 전고체 배터리가 차세대 스마트 렌즈와 웨어러블 기기에 전력을 공급할 수 있습니다.</li><li>이 배터리는 높은 에너지 밀도와 안전성을 특징으로 합니다.</li><li>이는 소형 전자기기 및 웨어러블 기술 발전에 새로운 가능성을 열어줄 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-29</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XQXVnSjhDSFk4eUJVUWgxeS1SeFM4bEdwaE5sRTdaeXN2TkdHRy01SkVsX3lQVUtDczQxem82eEVXaC1FczZTNWV1ek1RUEZpUzZzNVdKQ2RKZmMwOVU4?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Mechanism and mitigation of stainless steel dissolution in LiFSI-based lithium-ion battery electrolytes</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Nature</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LiFSI 기반 리튬 이온 배터리 전해질에서 스테인리스강 용해 메커니즘과 완화 방법이 연구되었습니다.</li><li>스테인리스강의 용해는 배터리 성능과 수명에 영향을 미칠 수 있습니다.</li><li>이 연구는 배터리 안정성 향상을 위한 중요한 정보를 제공합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-29</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNOVJmcUVXMkN6QUdTZmZzdTVtOFhHMUMtOGhIcWhEOXpwMFJhUXZGRmxmVVpLM29DR1VMVUMybzVsS1NTVThGVGVlSV9SYloya3lGdW0tdjB6Zm5FdGFFLUd3d0ozRW5aeXlucTFJUHJmTU0yTWxhU0ZfdWRQeG5YM1pfRnpJZ1ZWamoyaDNTd0hlQlhxaHhFNFEwd3BJV1E?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">New partnership advances sodium-ion manufacturing in Spain</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">pv magazine International</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>새로운 파트너십을 통해 스페인에서 나트륨 이온 배터리 제조가 발전하고 있습니다.</li><li>이 협력은 나트륨 이온 배터리 기술의 상업화를 가속화할 것입니다.</li><li>이는 유럽의 에너지 저장 솔루션 공급망 다변화에 기여할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-29</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxPX0RjcXh6cXVyVXlqS280OWE2M3lTTjl3S3RtaGxiUGJMZGM1Y1o2OGw2dHNZczFNNFZPTHROcVJuZmdjcXFiUzBIQjNnR0JBanVjWjNrc3BEVEhiVUw5a09aeEZlOGg5WTY0WUFDRThoTy1MMjFmZE8xdDRJQjhBb3lGOTZ2NmZXVDhYOHBBWkRiblJNVE5OWWJDUEpFOUp5aDVSckdtXzkycWpGejYwTkUxSUwwdmFjdmdaV3c0RDEzUQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Nippon Shokubai Expands LiFSI Capacity at China JV for Growing EV and ESS Demand</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">ChemAnalyst</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Nippon Shokubai</span><span class="chip">JV</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>일본 쇼쿠바이(Nippon Shokubai)는 중국 합작 투자를 통해 LiFSI 생산 능력을 확장합니다.</li><li>이는 증가하는 전기차 및 에너지 저장 시스템(ESS) 수요에 대응하기 위한 조치입니다.</li><li>생산 능력 확장은 관련 시장 성장에 기여할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-04-29</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
