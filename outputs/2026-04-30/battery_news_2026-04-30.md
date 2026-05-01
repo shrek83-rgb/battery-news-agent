@@ -1,0 +1,149 @@
+# 배터리 뉴스 데일리 브리핑 (2026-04-30 전날 기준)
+
+- 총 11건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 기타 | 2026-04-30 | www.khan.co.kr | LG엔솔, BMW와 ‘10조원’ 배터리 계약 | https://www.khan.co.kr/article/202604302221005 | unknown |
+| 2 | 3 | 기타 | 2026-04-30 | Yahoo Finance Singapore | Fast-Charging Lithium-ion Battery Market worth $132.67 billion by 2032 - Exclusive Report by MarketsandMarkets™ | https://news.google.com/rss/articles/CBMiigFBVV95cUxPRWpURXZnY3BqbmRkUmhLM1I1dm51RVBLbHR1YnFPVjFLUnRxTUlLQ2Rxa2JzdVRkSUp0VGVkVHZBcUY3aVFfVTNtaWNaZkNNc3dpS2pYU1Q5X2JXR2xqdk5KbVVucEFnQlU0ek9qa1NMa3d0VUhlNHZkeTBXR2h1WE8za3hXckI5Tnc?oc=5 | unknown |
+| 3 | 3 | 기타 | 2026-04-30 | openPR.com | Solid State Battery Market to Explode at 33.1% CAGR, Reaching | https://news.google.com/rss/articles/CBMimwFBVV95cUxNUl9rZHdwd0ZDQ1l2cGlxSm9kTWpRUnI0ajN5X3ZrcWNBU2NvQVFiUmV2VWdkcS1YOWJBbm03R1VVaVpkOHAxZW8zdnlwRXR1bGtCUG9WY19xY0xmdFZuTXdsdjYwMVdHX2xGbjZHNUZHaGMxemZkUWN5Zk1LMEdKTVJXcWNRYjNiSU5wR3l6NmpDZkN2c0pFeHllRQ?oc=5 | unknown |
+| 4 | 3 | cathode | 2026-04-30 | Battery Technology | Smart Contact Lens Power Race Heats Up with Solid-State Battery | https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaUJUMlZCa0d1LUUwVW1PbTNlTXV4R0k1M0EtTlFPQzdqWXRTSlZRSU5iU0xIVjV4N29ZZ1RIdWNvU1lHWDlZa2ZIYjBiSV9Da2xsT2tYNW1GOG9oSUpvVFRPSmI1dkM4dGFHNEFEOFUxa2NCY2xIUlVxLWZzNkEtVkNkaWt2S2VrVVhCaGs2cEtQNHhZcXM2SWdGYkpwdDg3S0FTVnp2Z2lnT2hRaHFKc2UyRHFxM1lRRTdn?oc=5 | unknown |
+| 5 | 3 | 기타 | 2026-04-30 | PR Newswire | Full Circle Lithium Advances Next-Generation Fire Safety with FCL-X™GEL for Global Battery Energy Storage Systems | https://news.google.com/rss/articles/CBMi_AFBVV95cUxNQTk0TnRna1hXbl84VHZhVlJ3bmZCUktnangzUW9UcHowSmJvd0NzaGtPd3JJUDZzOFJhZXpmOFF4WUg1blVNQ1JrMkxkakNzRkR6NmwxSk1QRjdCTVZ0X2t3YXJuVVRrNnNqWGZJSTF2WUZ3TEdEUy00Q1BXdXREUEZIeXpIUlQ3OHExel9XRTB6Z3l0cjhmZk5IMk5ZekVQZmJ1cUxiU3daWkFqYVhoVWY2OUJ0bmpYdGs1SkRxNnIxVWJITUZ4NUhKdUpnV3RZLURMRzZYSG5YTjhJdDhza1dUX20tTG9wUnZRelpMTFZzWGZMU3FFNGdVdUQ?oc=5 | unknown |
+| 6 | 3 | separator | 2026-04-30 | openPR.com | Battery Separator Market Nears USD 17.15 Billion \| Thinner Designs Drive the Next Phase \| Arizton | https://news.google.com/rss/articles/CBMilwFBVV95cUxONndsUHhYT2JwWFdIbUNueVFJYXZkeERzUzNfMzM1TzNiTFJMd21qdnhwbUM5MXQ5eTY5TjF2eGpJWmdQRjJsUmozMUJ3b3hRSXlqVDd1MVoyQTVwd1I1b0JfbnN2SFZlbWo3cDRtemRERnJKa2JOeEJtYkluTlVzX1FvZnVFaTcwdFNkdHd4WFpaMFphMFY4?oc=5 | unknown |
+| 7 | 3 | 전고체 | 2026-04-30 | Tech Xplore | Nano-tin interlayer steadies solid-state batteries, holding 81% capacity after 500 cycles | https://news.google.com/rss/articles/CBMigAFBVV95cUxPVV9JdnNlXzQwWldTLWJQSTVma1BDbFRCLVBTQ1dtUjJ3NG9JaWV4TnlXdmJZNDd5RDBGM0l2N2tiUXZVYm5kZmUxNFZKQ1U1QXlYakpuc0RCTXJkMURncnN3VnJCUTh3WF9BdGp1VnRrZ1AwdHJTci1SOUNWWTZjdQ?oc=5 | unknown |
+| 8 | 3 | 나트륨 | 2026-04-30 | Notebookcheck | Sodium-ion batteries enter mainstream as CATL cracks manufacturing for record large order | https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2kwby1RT1JSVWZTSUlhcHBsVnhmcE5JMFlMcWM1WkUwTkJrZTRVdGo2M1RIQW5qQktqeWREWkxNelRHUHFpSV9LRlNPZ2Z0Ui1ncHVxUFdycEh3dGE3eGpEOUJvRzI5VGZMSl9aZ1VjenZaVHo1Unk5SHd5X01VZlBZSTRYbVBfVE4wT0dHSVYtYnAtTnFXRFlSREdEbjNWd3N3SnQtWGNjeUxNZktsb29CWVpfdlJZdEUyX3RHTTU5QmNMNnRGOXFfWjhERU0?oc=5 | unknown |
+| 9 | 3 | 기타 | 2026-04-30 | Interesting Engineering | New catalyst helps Li-S battery keep 93% capacity after 600 cycles in tests | https://news.google.com/rss/articles/CBMiiAFBVV95cUxONDZuLWJaM1I4X25qZjdkY09RVUczYVdtbV9ZR3hmeHdJNEZkdHY2dF94aHQ1d25iaHZ1Z1BtaHJvT1FIWEVUcFpGLTV2dXh4Nl90WXAwTmNNWk4yTzdWNVlqakQwWllJbF9ybUU0Rkp3LTAzYjFPSDQtV3VkOF82anVjeWVSRmJS?oc=5 | unknown |
+| 10 | 3 | 기타 | 2026-04-30 | KED Global | LG Energy in the red for 2 straight quarters as US subsidies shrink, set to clinch $6.8 bn BMW deal | https://news.google.com/rss/articles/CBMia0FVX3lxTE03NWptU1A5QlhWLWZwejdYMWc3OEM3LVNNeWhrS0l1VmJUaFljTUdBQ1hqLVFPREk3QlJSbVh0MjZDTThhZDJpX1ZYWUR4Q0s2Z2xZMXFLbExjVUdWbmh3cEt0NGpMb3VLX1hN?oc=5 | unknown |
+| 11 | 3 | 기타 | 2026-04-30 | E&E News by POLITICO | Untapped lithium on East Coast could replace US imports, USGS finds | https://news.google.com/rss/articles/CBMioAFBVV95cUxQeV81Zl9lalozZklyeTJUUFdnWHVQR3paclJNdjlNeU1zZ0U5d0czY1dJN0tteEtaRFA0aElleEdTZ2FZUGFnVEFiUTNXcFQ5MUVZU1o2Yko3UU5jcGhUcl90RURnWXFqaTlqOFV0OXZSYkJ3NkZnM0xkTGZlSTVLWTZkZndTbENuNndEVFRKN0EzU3BhQWpNUlBFckFUQXpq?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. LG엔솔, BMW와 ‘10조원’ 배터리 계약
+- 발행일: 2026-04-30
+- 매체: www.khan.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.khan.co.kr/article/202604302221005
+- 참고 링크: https://www.mk.co.kr/article/12033036, https://www.segye.com/newsView/20260430520266?OutUrl=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션이 BMW와 약 10조원 규모의 배터리 공급 계약을 체결했습니다.
+  - 이는 전기차 시장의 수요 둔화(캐즘) 속에서 한국 배터리 업계의 반등 가능성을 보여주는 신호입니다.
+  - 이 계약은 LG에너지솔루션의 1분기 실적 발표와 맞물려 주목받고 있습니다.
+- 관련 기업: LG에너지솔루션, BMW, 삼성SDI
+
+### 2. Fast-Charging Lithium-ion Battery Market worth $132.67 billion by 2032 - Exclusive Report by MarketsandMarkets™
+- 발행일: 2026-04-30
+- 매체: Yahoo Finance Singapore (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiigFBVV95cUxPRWpURXZnY3BqbmRkUmhLM1I1dm51RVBLbHR1YnFPVjFLUnRxTUlLQ2Rxa2JzdVRkSUp0VGVkVHZBcUY3aVFfVTNtaWNaZkNNc3dpS2pYU1Q5X2JXR2xqdk5KbVVucEFnQlU0ek9qa1NMa3d0VUhlNHZkeTBXR2h1WE8za3hXckI5Tnc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 고속 충전 리튬이온 배터리 시장은 2032년까지 1326억 7천만 달러 규모로 성장할 것으로 예상됩니다.
+  - 이는 배터리 기술의 발전과 전기차 수요 증가에 따른 것입니다.
+  - MarketsandMarkets™는 이 시장에 대한 독점 보고서를 발표했습니다.
+- 관련 기업: MarketsandMarkets™
+
+### 3. Solid State Battery Market to Explode at 33.1% CAGR, Reaching
+- 발행일: 2026-04-30
+- 매체: openPR.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMimwFBVV95cUxNUl9rZHdwd0ZDQ1l2cGlxSm9kTWpRUnI0ajN5X3ZrcWNBU2NvQVFiUmV2VWdkcS1YOWJBbm03R1VVaVpkOHAxZW8zdnlwRXR1bGtCUG9WY19xY0xmdFZuTXdsdjYwMVdHX2xGbjZHNUZHaGMxemZkUWN5Zk1LMEdKTVJXcWNRYjNiSU5wR3l6NmpDZkN2c0pFeHllRQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리 시장은 연평균 33.1%의 성장률을 기록하며 폭발적인 성장이 예상됩니다.
+  - 이는 차세대 배터리 기술에 대한 높은 관심과 투자를 반영합니다.
+  - openPR.com은 이 시장의 성장 전망에 대한 보고서를 발표했습니다.
+- 관련 기업: CAGR
+
+### 4. Smart Contact Lens Power Race Heats Up with Solid-State Battery
+- 발행일: 2026-04-30
+- 매체: Battery Technology (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaUJUMlZCa0d1LUUwVW1PbTNlTXV4R0k1M0EtTlFPQzdqWXRTSlZRSU5iU0xIVjV4N29ZZ1RIdWNvU1lHWDlZa2ZIYjBiSV9Da2xsT2tYNW1GOG9oSUpvVFRPSmI1dkM4dGFHNEFEOFUxa2NCY2xIUlVxLWZzNkEtVkNkaWt2S2VrVVhCaGs2cEtQNHhZcXM2SWdGYkpwdDg3S0FTVnp2Z2lnT2hRaHFKc2UyRHFxM1lRRTdn?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 스마트 콘택트렌즈의 전력 공급 경쟁이 고체 전해질 배터리 기술로 인해 치열해지고 있습니다.
+  - 이는 웨어러블 기기의 소형화 및 고성능화 추세와 관련이 있습니다.
+  - Battery Technology는 이 분야의 기술 발전에 대해 보도했습니다.
+
+### 5. Full Circle Lithium Advances Next-Generation Fire Safety with FCL-X™GEL for Global Battery Energy Storage Systems
+- 발행일: 2026-04-30
+- 매체: PR Newswire (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi_AFBVV95cUxNQTk0TnRna1hXbl84VHZhVlJ3bmZCUktnangzUW9UcHowSmJvd0NzaGtPd3JJUDZzOFJhZXpmOFF4WUg1blVNQ1JrMkxkakNzRkR6NmwxSk1QRjdCTVZ0X2t3YXJuVVRrNnNqWGZJSTF2WUZ3TEdEUy00Q1BXdXREUEZIeXpIUlQ3OHExel9XRTB6Z3l0cjhmZk5IMk5ZekVQZmJ1cUxiU3daWkFqYVhoVWY2OUJ0bmpYdGs1SkRxNnIxVWJITUZ4NUhKdUpnV3RZLURMRzZYSG5YTjhJdDhza1dUX20tTG9wUnZRelpMTFZzWGZMU3FFNGdVdUQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Full Circle Lithium은 FCL-X™GEL을 통해 전 세계 배터리 에너지 저장 시스템의 차세대 화재 안전성을 향상시키고 있습니다.
+  - 이는 배터리 시스템의 안전 기준을 높이는 데 기여할 것입니다.
+  - 이 기술은 배터리 에너지 저장 시스템의 신뢰성을 높이는 데 중요한 역할을 할 것으로 기대됩니다.
+- 관련 기업: Full Circle Lithium, FCL, GEL
+
+### 6. Battery Separator Market Nears USD 17.15 Billion | Thinner Designs Drive the Next Phase | Arizton
+- 발행일: 2026-04-30
+- 매체: openPR.com (출처등급 3)
+- 분야: separator
+- 링크: https://news.google.com/rss/articles/CBMilwFBVV95cUxONndsUHhYT2JwWFdIbUNueVFJYXZkeERzUzNfMzM1TzNiTFJMd21qdnhwbUM5MXQ5eTY5TjF2eGpJWmdQRjJsUmozMUJ3b3hRSXlqVDd1MVoyQTVwd1I1b0JfbnN2SFZlbWo3cDRtemRERnJKa2JOeEJtYkluTlVzX1FvZnVFaTcwdFNkdHd4WFpaMFphMFY4?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 배터리 분리막 시장 규모는 약 171억 5천만 달러에 이를 것으로 예상됩니다.
+  - 더 얇은 디자인의 분리막 개발이 시장 성장을 견인할 것입니다.
+  - Arizton은 배터리 분리막 시장의 최신 동향에 대한 보고서를 발표했습니다.
+- 관련 기업: Arizton, USD
+
+### 7. Nano-tin interlayer steadies solid-state batteries, holding 81% capacity after 500 cycles
+- 발행일: 2026-04-30
+- 매체: Tech Xplore (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxPVV9JdnNlXzQwWldTLWJQSTVma1BDbFRCLVBTQ1dtUjJ3NG9JaWV4TnlXdmJZNDd5RDBGM0l2N2tiUXZVYm5kZmUxNFZKQ1U1QXlYakpuc0RCTXJkMURncnN3VnJCUTh3WF9BdGp1VnRrZ1AwdHJTci1SOUNWWTZjdQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 나노 주석 계면층을 활용한 전고체 배터리는 500회의 충방전 주기 후에도 81%의 용량을 유지하며 안정성을 입증했습니다.
+  - 이는 전고체 배터리의 수명과 성능을 크게 향상시킬 수 있는 기술입니다.
+  - Tech Xplore는 이 연구 결과를 보도하며 차세대 배터리 기술의 가능성을 조명했습니다.
+
+### 8. Sodium-ion batteries enter mainstream as CATL cracks manufacturing for record large order
+- 발행일: 2026-04-30
+- 매체: Notebookcheck (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2kwby1RT1JSVWZTSUlhcHBsVnhmcE5JMFlMcWM1WkUwTkJrZTRVdGo2M1RIQW5qQktqeWREWkxNelRHUHFpSV9LRlNPZ2Z0Ui1ncHVxUFdycEh3dGE3eGpEOUJvRzI5VGZMSl9aZ1VjenZaVHo1Unk5SHd5X01VZlBZSTRYbVBfVE4wT0dHSVYtYnAtTnFXRFlSREdEbjNWd3N3SnQtWGNjeUxNZktsb29CWVpfdlJZdEUyX3RHTTU5QmNMNnRGOXFfWjhERU0?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - CATL이 대규모 주문을 위한 나트륨 이온 배터리 생산 기술을 확보하면서 해당 배터리가 주류 시장에 진입하고 있습니다.
+  - 이는 기존 리튬 이온 배터리를 대체할 수 있는 새로운 에너지 저장 솔루션의 등장을 의미합니다.
+  - Notebookcheck는 CATL의 나트륨 이온 배터리 생산 능력 확대 소식을 전했습니다.
+- 관련 기업: CATL
+
+### 9. New catalyst helps Li-S battery keep 93% capacity after 600 cycles in tests
+- 발행일: 2026-04-30
+- 매체: Interesting Engineering (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiiAFBVV95cUxONDZuLWJaM1I4X25qZjdkY09RVUczYVdtbV9ZR3hmeHdJNEZkdHY2dF94aHQ1d25iaHZ1Z1BtaHJvT1FIWEVUcFpGLTV2dXh4Nl90WXAwTmNNWk4yTzdWNVlqakQwWllJbF9ybUU0Rkp3LTAzYjFPSDQtV3VkOF82anVjeWVSRmJS?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 새로운 촉매 기술을 적용한 리튬-황 배터리는 600회의 충방전 주기 후에도 93%의 용량을 유지하는 성능을 보였습니다.
+  - 이는 리튬-황 배터리의 에너지 밀도와 수명을 크게 개선할 수 있는 잠재력을 시사합니다.
+  - Interesting Engineering은 이 배터리 기술의 혁신적인 성과를 보도했습니다.
+
+### 10. LG Energy in the red for 2 straight quarters as US subsidies shrink, set to clinch $6.8 bn BMW deal
+- 발행일: 2026-04-30
+- 매체: KED Global (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE03NWptU1A5QlhWLWZwejdYMWc3OEM3LVNNeWhrS0l1VmJUaFljTUdBQ1hqLVFPREk3QlJSbVh0MjZDTThhZDJpX1ZYWUR4Q0s2Z2xZMXFLbExjVUdWbmh3cEt0NGpMb3VLX1hN?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 미국 보조금 축소 등의 영향으로 2분기 연속 적자를 기록했으나, BMW와의 약 68억 달러 규모의 계약을 앞두고 있습니다.
+  - 이는 회사의 재정적 어려움 속에서도 주요 고객과의 관계를 강화하려는 노력을 보여줍니다.
+  - KED Global은 LG에너지솔루션의 재무 상황과 BMW와의 계약 진행 상황을 보도했습니다.
+- 관련 기업: LG에너지솔루션, BMW, LG
+
+### 11. Untapped lithium on East Coast could replace US imports, USGS finds
+- 발행일: 2026-04-30
+- 매체: E&E News by POLITICO (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMioAFBVV95cUxQeV81Zl9lalozZklyeTJUUFdnWHVQR3paclJNdjlNeU1zZ0U5d0czY1dJN0tteEtaRFA0aElleEdTZ2FZUGFnVEFiUTNXcFQ5MUVZU1o2Yko3UU5jcGhUcl90RURnWXFqaTlqOFV0OXZSYkJ3NkZnM0xkTGZlSTVLWTZkZndTbENuNndEVFRKN0EzU3BhQWpNUlBFckFUQXpq?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국 지질조사국(USGS)은 미국 동부 해안에 아직 개발되지 않은 리튬 매장량이 미국 내 수입량을 대체할 수 있을 만큼 충분하다고 밝혔습니다.
+  - 이는 미국의 리튬 자급자족 능력 강화와 공급망 안정화에 기여할 수 있는 중요한 발견입니다.
+  - E&E News by POLITICO는 USGS의 발표 내용을 상세히 보도했습니다.
+- 관련 기업: USGS, US
