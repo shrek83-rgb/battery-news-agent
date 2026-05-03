@@ -1,5 +1,163 @@
 [
   {
+    "title": "美 앨심에너지, 물리학 기반 AI 플랫폼 활용 'NA-시리즈' 배터리 개발 성...",
+    "description": "'물리 기반 AI(Physics-informed AI)' 플랫폼 적용 개발 기간 약 1년으로 단축…안전성 확보 미국 앨심에너지(Alsym Energy, 이하 앨심)가 화재 위험을 최소화한 나트륨이온 배터리 개발에 성공했다. 인공지능(AI) 플랫폼을...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=101326",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-05-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "앨심에너지",
+      "나트륨이온",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "미국 앨심에너지가 물리 기반 AI 플랫폼을 활용하여 'NA-시리즈' 나트륨 이온 배터리 개발에 성공했습니다.",
+      "이 AI 플랫폼은 개발 기간을 약 1년으로 단축시켰으며, 화재 위험을 최소화하는 데 중점을 두었습니다.",
+      "앨심에너지는 안전성이 강화된 차세대 배터리 기술을 선보였습니다."
+    ],
+    "uid": "067d340802490b9aef807fc1efb158f353fced93"
+  },
+  {
+    "title": "엘앤에프·에코프로·포스코퓨처엠, 나란히 흑자 흐름…“소재사, 실적...",
+    "description": "국내 배터리 소재 업체들이 4월 말 잇따라 1분기 실적을 발표하며 일제히 반등 흐름을 보였다. 하이니켈 양극재 출하 확대와 금속 가격 상승, 에너지저장장치(ESS) 수요 증가가 맞물리며 수익성이 개선된 모습이다....",
+    "link": "https://www.sentv.co.kr/article/view/sentv202604300177",
+    "source": "www.sentv.co.kr",
+    "published_at": "2026-05-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "엘앤에프",
+      "에코프로",
+      "포스코퓨처엠"
+    ],
+    "summary_3_sentences": [
+      "국내 배터리 소재 업체인 엘앤에프, 에코프로, 포스코퓨처엠이 1분기에 모두 흑자 전환에 성공했습니다.",
+      "이는 하이니켈 양극재 출하 확대, 금속 가격 상승, ESS 수요 증가 등 복합적인 요인이 작용한 결과입니다.",
+      "배터리 소재 업계의 수익성 개선 추세를 보여줍니다."
+    ],
+    "uid": "0f4f9f58938bb175dd333d07ee2ad057a33f333f"
+  },
+  {
+    "title": "삼성SDI, 1분기 어닝쇼크 비켜갔다…예상 뛰어넘는 실적 선방",
+    "description": "원형 배터리 수요가 강세를 보이며 전년 동기 대비 매출이 증가했다. 특히 탭리스(Tabless) 공법 적용 비중이 상승하면서 소형전지 사업부의 적자 폭이 예상보다 훨씬 빠르게 축소되었다. 둘째, ESS(에너지저장장치)...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=450173",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-05-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "삼성SDI",
+      "소형전지"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 1분기 예상치를 뛰어넘는 실적을 기록하며 어닝 쇼크를 피했습니다.",
+      "이는 원형 배터리 수요 강세와 탭리스 공법 적용 확대에 따른 소형전지 사업부의 적자 폭 축소 덕분입니다.",
+      "또한 ESS 사업의 성장도 실적 개선에 기여했습니다."
+    ],
+    "uid": "55b986a6fc2a65ee80386d53866601c0a9b02df2"
+  },
+  {
+    "title": "LG엔솔·삼성SDI, 1분기 나란히 적자…SK온은?",
+    "description": "국내 배터리 양대산맥 LG에너지솔루션과 삼성SDI가 올해 1분기 나란히 대규모 적자를 기록했다. 다만 하반기부터는 인공지능(AI) 데이터센터 확산에 따른 에너지저장장치(ESS) 수요 급증에 힘입어 반등에 성공할...",
+    "link": "https://www.newsway.co.kr/news/view?ud=2026042915352236406",
+    "source": "www.newsway.co.kr",
+    "published_at": "2026-05-03",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.mt.co.kr",
+        "link": "https://www.mt.co.kr/industry/2026/05/03/2026043015433918858"
+      },
+      {
+        "source": "www.ddaily.co.kr",
+        "link": "https://www.ddaily.co.kr/page/view/2026050201103952294"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "삼성SDI",
+      "SK온"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션과 삼성SDI가 올해 1분기에 대규모 적자를 기록했습니다.",
+      "하지만 하반기부터는 AI 데이터센터 확산에 따른 에너지저장장치(ESS) 수요 증가로 반등할 것으로 예상됩니다.",
+      "이는 국내 배터리 업계의 실적 변동성을 보여줍니다."
+    ],
+    "uid": "28e4c237be6f845d3aa93feea2a827da52e14a4d"
+  },
+  {
+    "title": "[배터리 인사이드] 포스코퓨처엠, 양보다 질로 완성한 실적 턴어라운드",
+    "description": "미국 팩토리얼(전고체 배터리), 실라(첨단 배터리 소재), 금호석유화학(리튬메탈 배터리) 등과 연이어 협력 관계를 맺으며 사업다변화에 속도를 내고 있다. 포스코퓨처엠 관계자는 \"시장 수요에 적기 대응함과 동시에...",
+    "link": "https://www.bloter.net/news/articleView.html?idxno=661066",
+    "source": "www.bloter.net",
+    "published_at": "2026-05-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "포스코퓨처엠",
+      "팩토리얼",
+      "실라"
+    ],
+    "summary_3_sentences": [
+      "포스코퓨처엠은 팩토리얼, 실라, 금호석유화학 등과 협력하며 사업 다변화에 속도를 내고 있습니다.",
+      "이는 시장 수요에 적기 대응하고 경쟁력을 강화하기 위한 전략입니다.",
+      "포스코퓨처엠은 첨단 배터리 소재 분야에서 입지를 넓혀가고 있습니다."
+    ],
+    "uid": "88c1a2301823df752c7422a3494d4b16e6aaaea1"
+  },
+  {
+    "title": "LG엔솔·삼성SDI, ESS 승부수…\"EV 둔화, AI 전력 수요로 돌파\"",
+    "description": "배터리 부문은 ESS, UPS, BBU 등 전방 수요 회복으로 매출이 늘고 적자 폭이 축소됐다. 특히 미국 ESS 생산 확대에 따른 AMPC(첨단제조생산세액공제) 효과와 원통형 배터리 판매 증가가 수익성 개선을 이끌었다. 삼성SDI는...",
+    "link": "https://daily.hankooki.com/news/articleView.html?idxno=1363316",
+    "source": "daily.hankooki.com",
+    "published_at": "2026-05-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 90,
+    "monitoring_importance": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "삼성SDI",
+      "LG엔솔·삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션과 삼성SDI는 ESS 사업 강화와 전기차 시장 둔화에 따른 수요를 AI 전력 수요로 전환하여 돌파구를 찾고 있습니다.",
+      "ESS, UPS, BBU 등 전방 수요 회복과 미국 ESS 생산 확대에 따른 AMPC 효과, 원통형 배터리 판매 증가가 수익성 개선을 이끌었습니다.",
+      "두 회사는 배터리 사업 포트폴리오를 조정하며 실적 개선을 꾀하고 있습니다."
+    ],
+    "uid": "7671d82a42f64d999ddc4ba52dbe1ad9806f08f8"
+  },
+  {
     "title": "K-배터리, 1Q 실적 부진…ESS·고출력 원통형 제품 등 대응 범위 확대",
     "description": "ESS용 배터리 부문은 미국 내 AI 데이터센터 확대에 따른 수요 증가에 대응해 현지 양산 및 판매를 늘리고, 국내 ESS 중앙계약시장 및 차세대 전력망 연계 ESS 프로젝트에도 적극 참여해 관련 비즈니스를 지속적으로...",
     "link": "http://www.sisafocus.co.kr/news/articleView.html?idxno=359504",
@@ -123,6 +281,31 @@
     "uid": "5f05afc3aa8c0d83e34593be0ff36af60b16e39e"
   },
   {
+    "title": "윗단부터 풀리는 배터리 실적…소재사 '반등'에 셀 업체 '저점 통과' 기...",
+    "description": "삼성SDI 측은 미국 현지 ESS 판매 증가에 따른 AMPC 수취 확대와 고부가 원통형 배터리 판매 확대가 적자 폭 축소에 기여했다고 설명했다. 소재사들은 흑자 기조를 유지하며 수익성을 개선했다. 에코프로비엠의 1분기...",
+    "link": "https://www.electimes.com/news/articleView.html?idxno=367600",
+    "source": "www.electimes.com",
+    "published_at": "2026-05-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 90,
+    "monitoring_importance": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "에코프로비엠",
+      "삼성SDI",
+      "AMPC"
+    ],
+    "summary_3_sentences": [
+      "배터리 업계 실적이 개선되면서 소재 업체들은 흑자 전환에 성공했고, 셀 업체들은 저점을 통과하고 있습니다.",
+      "이는 미국 현지 ESS 판매 증가와 고부가 원통형 배터리 판매 확대에 따른 결과입니다.",
+      "배터리 산업 전반의 회복세를 보여주는 긍정적인 신호입니다."
+    ],
+    "uid": "3b91f0727627e9c52abf6db3f9e312178b74f9a2"
+  },
+  {
     "title": "LG화학, 1분기 영업손실 497억… 적자 전환에도 손실 축소",
     "description": "ESS(에너지저장장치) 출하 증가와 원통형 전기차 배터리 공급 확대로 매출은 늘었지만, 초기 가동비용과 제품 믹스 영향으로 적자를 냈다. 2분기에는 북미 ESS 수요 확대와 생산능력 증가로 출하량과 매출 성장이...",
     "link": "https://www.cnbizm.com/news/articleView.html?idxno=301931",
@@ -146,6 +329,54 @@
     "uid": "f732b5d00d2991803da4fe2c08153da6deec1bd1"
   },
   {
+    "title": "[정성춘 칼럼] 전고체 배터리 경쟁, 일본은 무엇을 준비하고 있나",
+    "description": "아주경제=정성춘 대외경제정책연구원 선임연구위원 닛케이 신문(2026.4.20.)에 따르면 닛산은 자사가 개발 중인 전고체 배터리를 실제 차량에 탑재할 수 있는 크기의 기간 부품으로 시험 제작하고 필요한 충전 및 방전...",
+    "link": "https://www.ajunews.com/view/20260420153448880",
+    "source": "www.ajunews.com",
+    "published_at": "2026-05-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "닛산"
+    ],
+    "summary_3_sentences": [
+      "닛산은 시험 제작 중인 전고체 배터리를 실제 차량에 탑재 가능한 기간 부품으로 만들고 있습니다.",
+      "이는 닛산이 전고체 배터리 기술 개발에 적극적으로 투자하고 있음을 보여줍니다.",
+      "일본의 전고체 배터리 경쟁 현황을 파악하는 데 중요한 정보입니다."
+    ],
+    "uid": "576f8697877586b8c5492ccfe2d4adc2cecc4f56"
+  },
+  {
+    "title": "German DeepTech CMBlu Becomes a Unicorn – With a Lithium-Free Battery for AI Data Centers",
+    "published_at": "2026-05-02",
+    "source": "trendingtopics.eu",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeE1hVzVyaG5kMEt5RzlhVkU4YUx5bmI2OVJxNEdlWmZ3cmVzUUlzVWFZX0V1enRRNVRtcTB1U3pZeWxfMUt2RVNTZWZmbVVPMkk3VWdKaFZvLU8zVFVRdVFNbWltbGxOMjIyTFg0bkRCNVVpYWlsVXJ3ckdnOThYckNScVhYZkd3QV9YZXRRSXlmM2x5bGJwWnVwc2NDSjl4TERuOE1IaF9UUjA3YnExbkpmLWgzT0JlWHc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQeE1hVzVyaG5kMEt5RzlhVkU4YUx5bmI2OVJxNEdlWmZ3cmVzUUlzVWFZX0V1enRRNVRtcTB1U3pZeWxfMUt2RVNTZWZmbVVPMkk3VWdKaFZvLU8zVFVRdVFNbWltbGxOMjIyTFg0bkRCNVVpYWlsVXJ3ckdnOThYckNScVhYZkd3QV9YZXRRSXlmM2x5bGJwWnVwc2NDSjl4TERuOE1IaF9UUjA3YnExbkpmLWgzT0JlWHc?oc=5\" target=\"_blank\">German DeepTech CMBlu Becomes a Unicorn – With a Lithium-Free Battery for AI Data Centers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">trendingtopics.eu</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "trending",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "CMBlu",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "독일의 딥테크 기업 CMBlu가 리튬 없는 배터리로 유니콘 기업이 되었습니다.",
+      "이 배터리는 AI 데이터 센터에 사용될 예정입니다.",
+      "이는 기존 리튬 배터리의 대안을 제시하며 주목받고 있습니다."
+    ],
+    "uid": "8edb2b90cd4de7aa434da0b4bb53809d2244a6a9"
+  },
+  {
     "title": "이권희 대표 \"소캠2, 제2의 HBM으로 부상…2차전지는 숨 고르기 구간\" [...",
     "description": "한편 2차전지 업종에 대해서는 단기적으로 '숨 고르기' 국면에 들어섰다고 봤다. 이 대표는 \"주가가 이미... 배터리 소모를 줄이면서 데이터를 빠르게 처리하기 위한 목적이죠. 그래서 소캠을 제2의 HBM이라고 부르는...",
     "link": "https://news.mtn.co.kr/news-detail/2026043010313454649",
@@ -167,6 +398,216 @@
       "이는 반도체 산업의 새로운 성장 동력과 배터리 산업의 현황을 보여줍니다."
     ],
     "uid": "9ad9a0988768ed62e3c7e067488b6d8f7c7eb33b"
+  },
+  {
+    "title": "Lithium batteries have their days numbered: SiC technology is coming",
+    "published_at": "2026-05-02",
+    "source": "modernetdigital.cat",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkpJUDF5LVIwV2FpRWFXWUduQXE5YjYyVG9sbXdDRDhtRlBYM2tIcEZ4UExUb1JvOTFQUk1lZzMycTBkVmx2ZXd5MGNaUXhLLV9uMFIzNkVKMzVDVXZuX3lydHNzNXp6Mm5xbG9zWU9NTm1nNFpoSTJLNGJQUjg4b2kyV2ZLQkk0Y3NJTE9KVHdocF9jWTMxS1g2cXFobFppYVFKa05XcXNWZFlpaE8zcWZ3aVN1SkN0M0pkVzZRR1dOSFVWUjhlenBfYVY?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkpJUDF5LVIwV2FpRWFXWUduQXE5YjYyVG9sbXdDRDhtRlBYM2tIcEZ4UExUb1JvOTFQUk1lZzMycTBkVmx2ZXd5MGNaUXhLLV9uMFIzNkVKMzVDVXZuX3lydHNzNXp6Mm5xbG9zWU9NTm1nNFpoSTJLNGJQUjg4b2kyV2ZLQkk0Y3NJTE9KVHdocF9jWTMxS1g2cXFobFppYVFKa05XcXNWZFlpaE8zcWZ3aVN1SkN0M0pkVzZRR1dOSFVWUjhlenBfYVY?oc=5\" target=\"_blank\">Lithium batteries have their days numbered: SiC technology is coming</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">modernetdigital.cat</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "리튬 배터리의 시대가 저물고 실리콘 카바이드(SiC) 기술이 부상하고 있습니다.",
+      "SiC 기술은 기존 리튬 배터리의 한계를 극복할 잠재력을 가지고 있습니다.",
+      "이는 차세대 배터리 기술의 발전을 예고합니다."
+    ],
+    "uid": "3d763dadbae1863f99fb2d57e55405a0a253b284"
+  },
+  {
+    "title": "CATL Unveils Six Major Innovations: Multi-Chemistry Systems to Redefine New Energy Mobility Experience",
+    "published_at": "2026-05-02",
+    "source": "markets.businessinsider.com",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYlFCLW5oTmhfMFFQVlhBVWpzbWU0ckNLd1A4MVpjMmFrYnRnRnB3M0dKQUs5LWZkb0dBQlJldTJDZjVpcDRscHFWYjF4aTZlYnRKbW90SEVUT2REekdVa3J2NTFJTWhRQkxRVFVpaHIwUXRKUDd5MEhWWU5uV3ZWa2hRdEg2MThzZmI4SENSNE9Eb2JhS1YxZzAwTHlMYlY0SnBXRWdYUndIb1BkYTVudkIxM0x5bjMyQ3Z2Q01qOHN0cVdjMVlYcldCdGRCZXl5TGVVdlRZRDBlaEFUb3V1ak5HeHZ2ZURTSlNoYjVJcko4UQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYlFCLW5oTmhfMFFQVlhBVWpzbWU0ckNLd1A4MVpjMmFrYnRnRnB3M0dKQUs5LWZkb0dBQlJldTJDZjVpcDRscHFWYjF4aTZlYnRKbW90SEVUT2REekdVa3J2NTFJTWhRQkxRVFVpaHIwUXRKUDd5MEhWWU5uV3ZWa2hRdEg2MThzZmI4SENSNE9Eb2JhS1YxZzAwTHlMYlY0SnBXRWdYUndIb1BkYTVudkIxM0x5bjMyQ3Z2Q01qOHN0cVdjMVlYcldCdGRCZXl5TGVVdlRZRDBlaEFUb3V1ak5HeHZ2ZURTSlNoYjVJcko4UQ?oc=5\" target=\"_blank\">CATL Unveils Six Major Innovations: Multi-Chemistry Systems to Redefine New Energy Mobility Experience</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">markets.businessinsider.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL이 6가지 주요 혁신 기술을 공개했습니다.",
+      "이 혁신은 멀티 화학 시스템을 포함하며 새로운 에너지 모빌리티 경험을 재정의할 것입니다.",
+      "CATL의 기술 발전은 전기차 배터리 시장에 큰 영향을 미칠 것으로 보입니다."
+    ],
+    "uid": "06e867b17e760f9d1a0774d4f9b6135f4d2327f6"
+  },
+  {
+    "title": "New fireproof battery can build its own firewall the moment overheating starts",
+    "published_at": "2026-05-02",
+    "source": "The Cool Down",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVFBibFZtQ2JobjRmTVpLSDJJSlYyWmE4TkJkQnh0V0haYVktdEFaaG11dGFDbFBUeXluNXVCdF9rMnk1b0ZHMHFKY0tFbVRSdEFQVjdhWW1KTHhSUVFfRVZ0djJpUG5BT21KUzZQbGU3UEFwQmhlVW1WclVQMG5QZkZMVlZzb0U?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQVFBibFZtQ2JobjRmTVpLSDJJSlYyWmE4TkJkQnh0V0haYVktdEFaaG11dGFDbFBUeXluNXVCdF9rMnk1b0ZHMHFKY0tFbVRSdEFQVjdhWW1KTHhSUVFfRVZ0djJpUG5BT21KUzZQbGU3UEFwQmhlVW1WclVQMG5QZkZMVlZzb0U?oc=5\" target=\"_blank\">New fireproof battery can build its own firewall the moment overheating starts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Cool Down</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "과열 시 스스로 방화벽을 구축하는 새로운 내화성 배터리가 개발되었습니다.",
+      "이 기술은 배터리 안전성을 크게 향상시킬 것으로 기대됩니다.",
+      "이는 배터리 화재 위험을 줄이는 데 기여할 수 있습니다."
+    ],
+    "uid": "0d813cbae61128b525d5df200f16dd9b4633b281"
+  },
+  {
+    "title": "Solvent-free battery electrodes reach high density, opening path to cheaper manufacturing",
+    "published_at": "2026-05-02",
+    "source": "Tech Xplore",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLUd6ZzFzTzVoMnBhTjE4YUNBNjRDdEtITk1NNVEzMHhnbmFZWi1RNTFpcnZDWE1rM2t0SW1EQ1FDcjZQZWYxU0ttbWtmdEMwRGlrQzA2eHI0ZFl4QWt3NU53bTNJazc1UjJsUEVaNFVhVFN5TzlTT25SLUVuX21oN2ZMWQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxOLUd6ZzFzTzVoMnBhTjE4YUNBNjRDdEtITk1NNVEzMHhnbmFZWi1RNTFpcnZDWE1rM2t0SW1EQ1FDcjZQZWYxU0ttbWtmdEMwRGlrQzA2eHI0ZFl4QWt3NU53bTNJazc1UjJsUEVaNFVhVFN5TzlTT25SLUVuX21oN2ZMWQ?oc=5\" target=\"_blank\">Solvent-free battery electrodes reach high density, opening path to cheaper manufacturing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Xplore</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "용매를 사용하지 않는 배터리 전극이 높은 밀도에 도달하여 더 저렴한 제조 경로를 열었습니다.",
+      "이 기술은 배터리 생산 비용을 절감하고 효율성을 높일 수 있습니다.",
+      "이는 배터리 제조 공정의 혁신을 가져올 잠재력을 가지고 있습니다."
+    ],
+    "uid": "d5449e8292e3501d59fb9279c25d4c2ace493cd4"
+  },
+  {
+    "title": "‘Effective as three fire extinguishers’: Victor FD preps for lithium-ion battery fires with FCL-X",
+    "published_at": "2026-05-02",
+    "source": "RochesterFirst",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOVJTa3RQOFdoUlJCcTJpN3hBU2hCMW5hWTFwcmtKekJPdnZTcVp3MFJHRHJfUlZXVE5pUV9HeUVaSTlIcDc0RjN0c3otcDdrOEpwZnRERllLekFzLWlIcDhnVkhEZmZBMkhEZ1VuejZHMGJQUldWVFUyMGE4dWlCM2ZOaWUzaTNjcGtyM1UzWTlMZUFoOTIyVlZLU1RveTZLNXNBbDdIdVd3ZGpHWWstTkRvVTZZVHB6U1NxLWhpVGlsY3lnNUFfZ0hmNUFwQk02UHFta1BZTTY0Z9IB3wFBVV95cUxNQ016eW5aZDB3by1YcklJNkhHRHhRRHFsaUZiazlrajlTN3NLTEdFTWpZazlDQ01jRmxxNTZ4algwUnZTeWN6TXltakdTQy1IWnlmaHVlbVVoeFNqLUZsZGdsTWE2ZjhQTEFiemFtbkhsYWJnekR2RHlfX0N2QmNlXzF3NVE1Xzl5V05qZERlS05HV0hlbGU1ZnAwcWVMR3ZiS2NrOWx2RmtidWRSeThqSkRhSDFYODRoX19SLU53a1Q1RHI1RC1OZTVSc2gtM0hMNWVCeHlsYm1SVXM5LUFZ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOVJTa3RQOFdoUlJCcTJpN3hBU2hCMW5hWTFwcmtKekJPdnZTcVp3MFJHRHJfUlZXVE5pUV9HeUVaSTlIcDc0RjN0c3otcDdrOEpwZnRERllLekFzLWlIcDhnVkhEZmZBMkhEZ1VuejZHMGJQUldWVFUyMGE4dWlCM2ZOaWUzaTNjcGtyM1UzWTlMZUFoOTIyVlZLU1RveTZLNXNBbDdIdVd3ZGpHWWstTkRvVTZZVHB6U1NxLWhpVGlsY3lnNUFfZ0hmNUFwQk02UHFta1BZTTY0Z9IB3wFBVV95cUxNQ016eW5aZDB3by1YcklJNkhHRHhRRHFsaUZiazlrajlTN3NLTEdFTWpZazlDQ01jRmxxNTZ4algwUnZTeWN6TXltakdTQy1IWnlmaHVlbVVoeFNqLUZsZGdsTWE2ZjhQTEFiemFtbkhsYWJnekR2RHlfX0N2QmNlXzF3NVE1Xzl5V05qZERlS05HV0hlbGU1ZnAwcWVMR3ZiS2NrOWx2RmtidWRSeThqSkRhSDFYODRoX19SLU53a1Q1RHI1RC1OZTVSc2gtM0hMNWVCeHlsYm1SVXM5LUFZ?oc=5\" target=\"_blank\">‘Effective as three fire extinguishers’: Victor FD preps for lithium-ion battery fires with FCL-X</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RochesterFirst</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 95,
+    "monitor_score": 95,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Victor FD",
+      "FD",
+      "FCL"
+    ],
+    "summary_3_sentences": [
+      "빅터 소방서(Victor FD)가 리튬 이온 배터리 화재에 대응하기 위해 FCL-X를 준비하고 있습니다.",
+      "FCL-X는 세 개의 소화기만큼 효과적이라고 합니다.",
+      "이는 리튬 이온 배터리 화재의 위험성을 보여줍니다."
+    ],
+    "uid": "df30a2506a5e823afc2f3b808b5f1e5b2a59c04b"
+  },
+  {
+    "title": "Other Barks & Bites for Friday, May 1: EU Lands on USTR’s Special 301 Watch List; Battery Recycling Patent Families Increase Seven-Fold in Past Decade; and Google Cert Petition Challenges Settled Expectations Doctrine",
+    "published_at": "2026-05-02",
+    "source": "IPWatchdog.com",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZGtrN1VoNVBVM0IxZDE0c1dBcEt2NHdIT08zZjc1TzVNQkRleXkydHY5X1loVjB6UTJKaVJ6WGk0VWJzQnoxM01udFRxSzkwOGJpZnFvS0RkQVZYbHhVR1dSXzZzNjdNQ3hWWTVXY2ROR0JVSG84alRLa09DajFCRkJLWWpfU21VMk9VWkh6Wk9TdTlzS3Fldk93b2xhMUc5b1dPLS0zY2dOZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZGtrN1VoNVBVM0IxZDE0c1dBcEt2NHdIT08zZjc1TzVNQkRleXkydHY5X1loVjB6UTJKaVJ6WGk0VWJzQnoxM01udFRxSzkwOGJpZnFvS0RkQVZYbHhVR1dSXzZzNjdNQ3hWWTVXY2ROR0JVSG84alRLa09DajFCRkJLWWpfU21VMk9VWkh6Wk9TdTlzS3Fldk93b2xhMUc5b1dPLS0zY2dOZw?oc=5\" target=\"_blank\">Other Barks & Bites for Friday, May 1: EU Lands on USTR’s Special 301 Watch List; Battery Recycling Patent Families Increase Seven-Fold in Past Decade; and Google Cert Petition Challenges Settled Expectations Doctrine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IPWatchdog.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "EU",
+      "USTR"
+    ],
+    "summary_3_sentences": [
+      "EU가 USTR의 특별 301조 감시 목록에 올랐으며, 지난 10년간 배터리 재활용 특허군이 7배 증가했습니다.",
+      "이는 국제 무역 및 지적 재산권 분야의 변화와 배터리 재활용 기술의 중요성 증가를 보여줍니다.",
+      "배터리 산업과 관련된 다양한 이슈들을 다루고 있습니다."
+    ],
+    "uid": "3db06feccc2a58d075c7f5a7cc8b9df63256a4f0"
+  },
+  {
+    "title": "EV Battery Regulation: 2025 Overview",
+    "published_at": "2026-05-02",
+    "source": "EVTech.News",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05YUdnNllKakZVZ3QzR1ZtN3RiM1llMjE2eUNQd0laU05ycDJZX18zSXNUWG9OTUZ3MXY0TFlOakZJZThDaDdVMy1LY1E1MHVibTdQNDgxbkhkdkFsYkVlWTJMMDBoc2liLWRPUHZIVGRob1FwQlhLUg?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE05YUdnNllKakZVZ3QzR1ZtN3RiM1llMjE2eUNQd0laU05ycDJZX18zSXNUWG9OTUZ3MXY0TFlOakZJZThDaDdVMy1LY1E1MHVibTdQNDgxbkhkdkFsYkVlWTJMMDBoc2liLWRPUHZIVGRob1FwQlhLUg?oc=5\" target=\"_blank\">EV Battery Regulation: 2025 Overview</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EVTech.News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 95,
+    "monitor_score": 95,
+    "tier": 3,
+    "category": "정책",
+    "companies": [],
+    "summary_3_sentences": [
+      "2025년 전기차 배터리 규제에 대한 개요를 제공합니다.",
+      "새로운 규제는 배터리 산업에 중요한 영향을 미칠 것으로 예상됩니다.",
+      "이는 향후 전기차 배터리 기술 개발 방향에 영향을 줄 수 있습니다."
+    ],
+    "uid": "2390ca9d65090f60418639f2cb27c014ec1a523a"
+  },
+  {
+    "title": "Semi-Solid-State & Sodium Ion: Top EV News This Week",
+    "published_at": "2026-05-02",
+    "source": "EV Magazine",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVFQtMTQwa2lzNkFCWWlONHEtN3pNWENZYmU2MEpZVVB6N24wQTBfSGptb1dvRGhiM0tKN1FtRzlFWVRRdXZVMVFCN2xhYjRWSWF6a25idG4wNkZhMWpOZTBZZmJZZ2xFUkZoVURjckttYm84aXJuMmU1NURQZ0xlSmQwMA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPVFQtMTQwa2lzNkFCWWlONHEtN3pNWENZYmU2MEpZVVB6N24wQTBfSGptb1dvRGhiM0tKN1FtRzlFWVRRdXZVMVFCN2xhYjRWSWF6a25idG4wNkZhMWpOZTBZZmJZZ2xFUkZoVURjckttYm84aXJuMmU1NURQZ0xlSmQwMA?oc=5\" target=\"_blank\">Semi-Solid-State & Sodium Ion: Top EV News This Week</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EV Magazine</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "이번 주 주요 전기차 뉴스에는 반고체 배터리와 나트륨 이온 배터리 기술이 포함됩니다.",
+      "이러한 기술 발전은 전기차 배터리 시장의 다양성을 보여줍니다.",
+      "이는 미래 전기차 기술의 발전 방향을 제시합니다."
+    ],
+    "uid": "feaa7f96a8d9d6a8fa7378f88b81a5da8d388d26"
+  },
+  {
+    "title": "Marwynn Holdings Announces Strategic Expansion into Battery Recycling Infrastructure with Plans for EcoLoopX Black Mass Production Facility",
+    "published_at": "2026-05-02",
+    "source": "Black Hills Pioneer",
+    "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQTHVrc1pOUXpsTUN1VHNFZHFvU21CWVpPRTQ1Rk96eDhFSGg4d3JXby04SUhwZkY2WFNRejRsNHRZVDdVSkdxcVVjQzZNQmRwZ090ZmprODdZemZvY05QNzZHQmFiaHdpTE0wMzI0U0ZoT0gwanI1SmlrUlRFbzNIcFpBUkxHOGdwdk5rNXBmb2N2TmJGaUN5Wk91Y0JaMDdMMXBoSGpDWlNpN0IwdEdNbjl0YUtBX3hfQ0lIWnBlRXBIeXhYbFRWWXg2c24xYloyMjFYajRwNk4xWHQ5VHd2VHREUUdJSjNzSzJIbHpXa3Jscl91bmRGcXdKR3RHUDJBc05FbUVOWUFpMjZTYnBSWDU3bk4ySlpjZHFpaFNOYjI0Y2F0aTFKRWppNEE5OUk0c3lj?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiswJBVV95cUxQTHVrc1pOUXpsTUN1VHNFZHFvU21CWVpPRTQ1Rk96eDhFSGg4d3JXby04SUhwZkY2WFNRejRsNHRZVDdVSkdxcVVjQzZNQmRwZ090ZmprODdZemZvY05QNzZHQmFiaHdpTE0wMzI0U0ZoT0gwanI1SmlrUlRFbzNIcFpBUkxHOGdwdk5rNXBmb2N2TmJGaUN5Wk91Y0JaMDdMMXBoSGpDWlNpN0IwdEdNbjl0YUtBX3hfQ0lIWnBlRXBIeXhYbFRWWXg2c24xYloyMjFYajRwNk4xWHQ5VHd2VHREUUdJSjNzSzJIbHpXa3Jscl91bmRGcXdKR3RHUDJBc05FbUVOWUFpMjZTYnBSWDU3bk4ySlpjZHFpaFNOYjI0Y2F0aTFKRWppNEE5OUk0c3lj?oc=5\" target=\"_blank\">Marwynn Holdings Announces Strategic Expansion into Battery Recycling Infrastructure with Plans for EcoLoopX Black Mass Production Facility</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Black Hills Pioneer</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "Marwynn Holdings",
+      "EcoLoopX"
+    ],
+    "summary_3_sentences": [
+      "Marwynn Holdings는 EcoLoopX 블랙 매스 생산 시설 계획과 함께 배터리 재활용 인프라에 대한 전략적 확장을 발표했습니다.",
+      "이는 배터리 재활용 산업의 성장을 보여주는 중요한 움직임입니다.",
+      "Marwynn Holdings는 배터리 재활용 분야에서 입지를 강화할 것으로 예상됩니다."
+    ],
+    "uid": "f06986c5d43c6f1bef1eb5bcc5ec67956f47c074"
   },
   {
     "title": "\"年 1조원 美방산 열린다\"… K배터리에 기회",
