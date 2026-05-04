@@ -1,0 +1,236 @@
+# 배터리 뉴스 데일리 브리핑 (2026-05-03 전날 기준)
+
+- 총 18건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 전고체 | 2026-05-03 | enter.etoday.co.kr | '이슈픽 쌤과 함께' 김진수 교수 "탠덤전지와 차세대 전고체 배터리, 핵... | https://enter.etoday.co.kr/news/view/296900 | unknown |
+| 2 | 3 | 기타 | 2026-05-03 | The Business Standard | 'Nearly 80 times cheaper than lithium': China unveils low-cost 'all-iron flow battery' for renewable energy storage | https://news.google.com/rss/articles/CBMitgFBVV95cUxQUmJ0NVJFYTcySFhQN3ZHcGFGNWhVNF82dEpNR1Z2LV9LRzZ6Z2Q3M1VKTlBXODdERTREX1BJaVJ2RUxZazAyYndDMlNXWG4yNFVHa19ac3hIVjN3RUl6UlFIVjAyTFhpSzh5b2ZTX0hwbXIwRkV1dFhyMHJ6a05ZdmNVOWVCZFZhZi1CeXpsWHM3Z2kzbVhQRmlvWGxOeTZhRldSWUM4aDB1R2V3dEpUS09td3Vad9IBuwFBVV95cUxNTEZIMElBRHI4aml1X1A3d25Cd3l6U0dVb204V1hqWTk5b0I2TzJxNkJYZmgyV1ZCaGRRZXpoa0l1b0NIZjQycDVpcWtzbkM1RjlaX2NIVktnRHlrSHFVeVNoejVheURJTTA0azhobEExVUJlNUFtbHRGd09iUFdjb0lfN1piREtjVGZXelJyOVRIUVFWZGUyT3RWY21MR0ZDYkU1YXBDNG1GbjZ6NWJTbHh6UmdFN0VmS1N3?oc=5 | unknown |
+| 3 | 3 | 기타 | 2026-05-03 | www.munhwa.com | 포스코홀딩스, 호주 리튬 광산 지분 확보…1.1조원 투자 | https://www.munhwa.com/article/11586558?ref=naver | unknown |
+| 4 | 3 | 기타 | 2026-05-03 | Nikkei Asia | SoftBank aims to make data center batteries without lithium, cobalt | https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ0xCLUFDbEpfYlFJeGd5TG45Mm1tenJPbXRLZ0I0LTVWN3BDR2Y3RndGS202MWhWWUlkZUZ3d1l1aFJYLVNSQ1k4WmJRd01kendjcERKdlpFTXBrS1NScTY5QzFmNThxY3Nyd2lRb1B2dC1JbndFY1M2NGZ5Wk9xSGo4WFNPWFNXalYxOXRCYWdYZ3lyQUQ4MVVaaW0xZG5xTlJwUkFkUGY5UQ?oc=5 | unknown |
+| 5 | 3 | 전고체 | 2026-05-04 | www.cbci.co.kr | 레몬·한농화성·삼성SDI·나인테크·삼성전기, 전고체 2차전지주 강세... | https://www.cbci.co.kr/news/articleView.html?idxno=572039 | unknown |
+| 6 | 3 | 기타 | 2026-05-03 | thelec.net | POSCO Future M Narrows Battery Materials Loss to 1.1 Billion Won in First Quarter | https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wcDRVd01sYmFMb09LZlNlYWI1T1c4U2R4THZ5eG9lUEZoQVNrb3FHUHV1RUV1WFF3LTlycVdGWFJNY0dtRERvcWJHRXBsR1VnbkFZdkk3MWRfeGwxcjhGRUVxZnBNNUE?oc=5 | unknown |
+| 7 | 3 | 전고체 | 2026-05-04 | weekly.donga.com | AI발 ESS 수요 확대… 다시 뛰는 K-배터리 | https://weekly.donga.com/3/all/11/6208735/1 | unknown |
+| 8 | 3 | 기타 | 2026-05-04 | www.ftoday.co.kr | LG에너지솔루션, 실적 바닥 통과…ESS가 이끄는 반등 시나리오 | http://www.ftoday.co.kr/news/articleView.html?idxno=358431 | unknown |
+| 9 | 3 | 기타 | 2026-05-03 | www.imaeil.com | "원자재 값 뛸수록 이득"…배터리 소재사는 '반전 수혜' | https://www.imaeil.com/page/view/2026050303290525761 | unknown |
+| 10 | 3 | 전고체 | 2026-05-03 | www.bloter.net | [배터리 인사이드] 포스코퓨처엠, 양보다 질로 완성한 실적 턴어라운드 | https://www.bloter.net/news/articleView.html?idxno=661066 | unknown |
+| 11 | 3 | 기타 | 2026-05-04 | www.pinpointnews.co.kr | 리튬 반등 신호탄…POSCO·LG화학 주가 파죽지세 | https://www.pinpointnews.co.kr/news/articleView.html?idxno=450333 | unknown |
+| 12 | 3 | cathode | 2026-05-04 | www.newspim.com | [모닝 리포트] "포스코퓨처엠, 양극재 출하 회복 본격화" | https://www.newspim.com/news/view/20260504000048 | unknown |
+| 13 | 3 | 기타 | 2026-05-03 | Channel 3000 | Lithium-ion batteries cause fire in Madison home | https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ1VucXFOaVdxaVVRc244bUlPdUtyN2lFWlpGSjBVSy03d2VkZkdmazliV1ZDQ1hwSGQ1STVxaXBRSG1IclJRZHNQbXp1cmZvc2VYd0VyVy0wT1ZaaXRlQWF4d00xZHlpTjl2VGxBYXFJbzhSTVdvVDRRV2RodVc2dUhfcUY3SFBfRUd2Nl9iR2xZNEFqYl82U3JGejVadG1tNFBGTzVRTmlSMm45S1VGU2pqTkFzV194cWczVHlpU1NGOVdVdzN1NDdMVQ?oc=5 | unknown |
+| 14 | 3 | 기타 | 2026-05-03 | Los Angeles Daily News | Lithium-ion battery explodes in Van Nuys apartment, shattering windows | https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeVVrazdvTU5vVFV3UU40WU1QQVlxRU1VM00yMUhNd0tXZXhpTW1jWjRSV1pKdElZVTR3NDlub2xLVG9TVlFfeXJnU3ZrSDloSGk3bE1xTXVFek9FZ3dFdWtrazRKWS1vNjhMVlYydThfU093V0tDUmd4Z21OTXZ0enJwVVJOZGQwcmQ4XzdEbUR5RC14TnhjNTA0dnFQM0l1ZFdfN0EwWEFjVnc?oc=5 | unknown |
+| 15 | 3 | cathode | 2026-05-03 | IndexBox | Nickel Acetate Market Growth to Accelerate by 2035, Driven by Battery Materials Demand and Electroplating Expansion | https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTWpScVJHNHlVLTYxdE9FbXFfVEpyb0ItaXdrSXd4MVQ3Y2pTdG5pVUZhTjJmc0xGVzMwYnZkNk9UU3hRVEdneDF1MklkZlVRYkNIMXFpZ044d21WalhGVGM0bVhsbkE0T2JEc0dObWQtbTI3WjliSzlFZVRreWhoVVlCTDd3ZWc0Y3lIZDI2Q0tlMlpvdTR3a1o4aTN2VmhCTGRXWWNFNjJIeXJFTm9RdFRFazExQzBVd2p0aTFIVFBRa2RGOF95dktmU0FlNVJESTVvVEhHUDRzNDJj?oc=5 | unknown |
+| 16 | 3 | 기타 | 2026-05-03 | New York Daily News | Battery storage is safe in New York | https://news.google.com/rss/articles/CBMigAFBVV95cUxNQW14SDdCM3VVaG9lQmdXcVBhNmlxd2xZVVZtR0xadU1Od0xIMnVhcVEzam8zSTBpRklvZUZJQnJLTmNGcFZZQWRpdG15LU82S2lscXFlN1Z4bWYzcVBGb0hGSTJUYWZmTXM5bGZDSlItR1hyQVI5dDd4eHM4YnF1Wg?oc=5 | unknown |
+| 17 | 3 | 재활용 | 2026-05-03 | Business Standard | New recycling mandates put dry cell battery makers under pressure | https://news.google.com/rss/articles/CBMizgFBVV95cUxPalZ0eUdGaHc1WjJWN0VmbFZ3VHRnbXdMdHhad056ZWtHZ3FYcGFQSFU5Yl9NY0VocDFnN21ocTFEclZXanBVbFZnUm5wWmNsWEJHRHNhcm5LV3dhOTFKaDRYakE2ekJubllNYTRQV3U3Z05jZFBIdDdRc0lZUkE1bkJHZFd6c24yZEZ2SVJRRnJXR3pnaHFlYVFNUjJKTlVkMzZiZjAxVTNsUEM0WmFjVzlRemR2Vnp2RjhCNndvY0Jjdm9MSGlTRFdoYWp1d9IB0wFBVV95cUxNZEFiN2R3VEh2TFFuVGF5X3Bad25lMzAwZFBXbnNKYjRCaUtCcTZ1TzFUNnU1VzBTZ0FudWRXUTV4UmRMODM3TVdOaTJ1UF9VRVFneHhTWFhUR21ZVVVvX1VMV1JsdXdFejZjZWZqMm5kRE5zc1IzamlmcEozTmJwM1Q3aTk3S2I1NDBJVjJqaE9UVkY5M2RSdWwzY1RnWkV4bHZXc1VCTHY0SVRuSzFXUXBFcWRYTG1PWGRjMkpaYWRCS3JJdGZPaUIzVUczNUEzcGQ4?oc=5 | unknown |
+| 18 | 3 | 재활용 | 2026-05-03 | VailDaily.com | Curious Nature: Batteries and hard-to-recycle events in the Eagle Valley | https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSVRTN3VZZ0pTNnpULXE1UFNsakRGOXROb2V2clp0YS1DdEI1a3VCRnVrdEhsYU9MVV9VQW5CUUxtRFI4MWdjM0dweFhSWjRvTUlxYmJ6UFZ4dVhuNlB5ZGpoSjN3a1hPeVRrNXRscUZBS29HRXZmbFJHbTFSMU1hREZnWU9yYklUQUJSU3Q3b1dYMUlnOExRYS0tbGIxLTdLdC1zMnR1NGE?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. '이슈픽 쌤과 함께' 김진수 교수 "탠덤전지와 차세대 전고체 배터리, 핵...
+- 발행일: 2026-05-03
+- 매체: enter.etoday.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://enter.etoday.co.kr/news/view/296900
+- 인기신호: unknown
+- 3문장 요약:
+  - 김진수 교수는 좁은 국토의 효율을 극대화할 수 있는 탠덤전지와 차세대 전고체 배터리를 한국의 핵심 전략 기술로 제시했습니다.
+  - 이는 에너지 기술과 제조 역량을 결합한 국가 차원의 대응이 필요함을 시사합니다.
+  - 탠덤전지와 전고체 배터리는 미래 에너지 시장에서 중요한 역할을 할 것으로 기대됩니다.
+- 관련 기업: 탠덤전지
+
+### 2. 'Nearly 80 times cheaper than lithium': China unveils low-cost 'all-iron flow battery' for renewable energy storage
+- 발행일: 2026-05-03
+- 매체: The Business Standard (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMitgFBVV95cUxQUmJ0NVJFYTcySFhQN3ZHcGFGNWhVNF82dEpNR1Z2LV9LRzZ6Z2Q3M1VKTlBXODdERTREX1BJaVJ2RUxZazAyYndDMlNXWG4yNFVHa19ac3hIVjN3RUl6UlFIVjAyTFhpSzh5b2ZTX0hwbXIwRkV1dFhyMHJ6a05ZdmNVOWVCZFZhZi1CeXpsWHM3Z2kzbVhQRmlvWGxOeTZhRldSWUM4aDB1R2V3dEpUS09td3Vad9IBuwFBVV95cUxNTEZIMElBRHI4aml1X1A3d25Cd3l6U0dVb204V1hqWTk5b0I2TzJxNkJYZmgyV1ZCaGRRZXpoa0l1b0NIZjQycDVpcWtzbkM1RjlaX2NIVktnRHlrSHFVeVNoejVheURJTTA0azhobEExVUJlNUFtbHRGd09iUFdjb0lfN1piREtjVGZXelJyOVRIUVFWZGUyT3RWY21MR0ZDYkU1YXBDNG1GbjZ6NWJTbHh6UmdFN0VmS1N3?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국이 리튬보다 80배 저렴한 '전철 흐름 전지'를 개발했습니다.
+  - 이 배터리는 신재생 에너지 저장 장치로 활용될 예정입니다.
+  - 이는 에너지 저장 비용을 크게 절감할 수 있는 잠재력을 가지고 있습니다.
+
+### 3. 포스코홀딩스, 호주 리튬 광산 지분 확보…1.1조원 투자
+- 발행일: 2026-05-03
+- 매체: www.munhwa.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.munhwa.com/article/11586558?ref=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코홀딩스가 호주 리튬 광산 지분 투자를 통해 1.1조원을 투자했습니다.
+  - 이번 투자는 2차전지 소재 원료 공급망을 강화하고 글로벌 배터리 소재 공급망 안정화에 기여할 것입니다.
+  - 이는 포스코홀딩스의 경쟁력 강화와 안정적인 원료 확보에 중요한 발판이 될 것입니다.
+- 관련 기업: 포스코홀딩스, 2차전지소재
+
+### 4. SoftBank aims to make data center batteries without lithium, cobalt
+- 발행일: 2026-05-03
+- 매체: Nikkei Asia (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ0xCLUFDbEpfYlFJeGd5TG45Mm1tenJPbXRLZ0I0LTVWN3BDR2Y3RndGS202MWhWWUlkZUZ3d1l1aFJYLVNSQ1k4WmJRd01kendjcERKdlpFTXBrS1NScTY5QzFmNThxY3Nyd2lRb1B2dC1JbndFY1M2NGZ5Wk9xSGo4WFNPWFNXalYxOXRCYWdYZ3lyQUQ4MVVaaW0xZG5xTlJwUkFkUGY5UQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 소프트뱅크는 리튬과 코발트를 사용하지 않는 데이터센터용 배터리 생산을 목표로 하고 있습니다.
+  - 이는 기존 배터리 소재에 대한 의존도를 줄이고 새로운 배터리 기술 개발을 촉진할 것입니다.
+  - 데이터센터의 에너지 효율성과 지속가능성을 높이는 데 기여할 것으로 예상됩니다.
+- 관련 기업: SoftBank
+
+### 5. 레몬·한농화성·삼성SDI·나인테크·삼성전기, 전고체 2차전지주 강세...
+- 발행일: 2026-05-04
+- 매체: www.cbci.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.cbci.co.kr/news/articleView.html?idxno=572039
+- 참고 링크: http://www.seoulwire.com/news/articleView.html?idxno=719854
+- 인기신호: unknown
+- 3문장 요약:
+  - 4일 오전, 국내 전고체 배터리 및 2차전지 관련 종목들이 강세를 보였습니다.
+  - 차세대 배터리 기술에 대한 기대감이 지속되면서 개별 종목으로 수급이 집중되는 양상입니다.
+  - 이는 전고체 배터리 기술의 상용화 가능성에 대한 시장의 높은 관심을 반영합니다.
+- 관련 기업: 삼성SDI, 나인테크, 삼성전기
+
+### 6. POSCO Future M Narrows Battery Materials Loss to 1.1 Billion Won in First Quarter
+- 발행일: 2026-05-03
+- 매체: thelec.net (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wcDRVd01sYmFMb09LZlNlYWI1T1c4U2R4THZ5eG9lUEZoQVNrb3FHUHV1RUV1WFF3LTlycVdGWFJNY0dtRERvcWJHRXBsR1VnbkFZdkk3MWRfeGwxcjhGRUVxZnBNNUE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - POSCO Future M은 1분기 배터리 소재 부문 손실을 11억 원으로 줄였습니다.
+  - 이는 전 분기 대비 손실 폭을 크게 개선한 수치입니다.
+  - 회사는 향후 실적 개선을 통해 턴어라운드를 이룰 것으로 기대됩니다.
+- 관련 기업: POSCO Future M, POSCO
+
+### 7. AI발 ESS 수요 확대… 다시 뛰는 K-배터리
+- 발행일: 2026-05-04
+- 매체: weekly.donga.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://weekly.donga.com/3/all/11/6208735/1
+- 인기신호: unknown
+- 3문장 요약:
+  - AI 및 로봇 수요 확대에 따라 에너지 저장 장치(ESS) 시장이 성장하고 있습니다.
+  - 최근 삼성SDI의 주가는 165% 상승했으며, 로봇용 전고체 배터리 상용화가 주요 과제로 남아있습니다.
+  - 이는 배터리 산업의 새로운 성장 동력으로 AI와 로봇 기술의 중요성이 부각되고 있음을 보여줍니다.
+- 관련 기업: 삼성SDI, K-배터리, 올라온
+
+### 8. LG에너지솔루션, 실적 바닥 통과…ESS가 이끄는 반등 시나리오
+- 발행일: 2026-05-04
+- 매체: www.ftoday.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: http://www.ftoday.co.kr/news/articleView.html?idxno=358431
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 1분기 영업손실 2078억 원을 기록하며 컨센서스를 하회했습니다.
+  - ESS 사업 확대와 소형 배터리 출하 성장이 실적 반등의 핵심 동력으로 꼽힙니다.
+  - 이는 회사가 어려운 시장 상황 속에서도 성장 동력을 확보하려는 노력을 보여줍니다.
+- 관련 기업: LG에너지솔루션
+
+### 9. "원자재 값 뛸수록 이득"…배터리 소재사는 '반전 수혜'
+- 발행일: 2026-05-03
+- 매체: www.imaeil.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.imaeil.com/page/view/2026050303290525761
+- 인기신호: unknown
+- 3문장 요약:
+  - 2차전지 소재 업계는 광물 가격 상승으로 인해 수혜를 보고 있습니다.
+  - 전기차 시장 위축으로 줄었던 배터리 소재 수요가 회복되는 국면에서 원재료 가격 상승과 출하량 증가가 동시에 나타나고 있습니다.
+  - 이는 원자재 가격 변동성이 소재 기업의 수익성에 긍정적인 영향을 미칠 수 있음을 시사합니다.
+- 관련 기업: 2차전지
+
+### 10. [배터리 인사이드] 포스코퓨처엠, 양보다 질로 완성한 실적 턴어라운드
+- 발행일: 2026-05-03
+- 매체: www.bloter.net (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.bloter.net/news/articleView.html?idxno=661066
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코퓨처엠은 미국 팩토리얼, 실라, 금호석유화학 등과 협력하며 사업 다변화에 속도를 내고 있습니다.
+  - 이는 전고체 배터리, 첨단 배터리 소재, 리튬메탈 배터리 등 차세대 배터리 기술 개발에 적극적으로 참여하고 있음을 보여줍니다.
+  - 시장 수요에 적기 대응하고 경쟁력을 강화하기 위한 전략으로 풀이됩니다.
+- 관련 기업: 포스코퓨처엠, 팩토리얼, 실라
+
+### 11. 리튬 반등 신호탄…POSCO·LG화학 주가 파죽지세
+- 발행일: 2026-05-04
+- 매체: www.pinpointnews.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=450333
+- 인기신호: unknown
+- 3문장 요약:
+  - 리튬 가격 반등 기대감과 함께 2차전지 밸류체인 전반으로 매수세가 유입되고 있습니다.
+  - 전기차 수요 회복 기대와 글로벌 배터리 업체들의 투자 재개 움직임이 맞물리며 관련 테마가 상승세를 보이고 있습니다.
+  - 이는 배터리 산업의 회복 가능성을 시사하며 관련 기업들의 주가 상승으로 이어지고 있습니다.
+- 관련 기업: POSCO, LG화학, POSCO·LG화학
+
+### 12. [모닝 리포트] "포스코퓨처엠, 양극재 출하 회복 본격화"
+- 발행일: 2026-05-04
+- 매체: www.newspim.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.newspim.com/news/view/20260504000048
+- 인기신호: unknown
+- 3문장 요약:
+  - 하나증권은 포스코퓨처엠이 양극재 출하 회복과 음극재 성장 잠재력을 바탕으로 실적 턴어라운드를 이룰 것으로 전망했습니다.
+  - 보조배터리용 소재 등 타 지역 스팟 출하 증가로 손익분기점(BEP) 수준 방어가 가능할 것으로 분석됩니다.
+  - 이는 포스코퓨처엠의 안정적인 실적 개선과 성장 가능성을 보여줍니다.
+- 관련 기업: 포스코퓨처엠, 2차전지, 보조배터리
+
+### 13. Lithium-ion batteries cause fire in Madison home
+- 발행일: 2026-05-03
+- 매체: Channel 3000 (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ1VucXFOaVdxaVVRc244bUlPdUtyN2lFWlpGSjBVSy03d2VkZkdmazliV1ZDQ1hwSGQ1STVxaXBRSG1IclJRZHNQbXp1cmZvc2VYd0VyVy0wT1ZaaXRlQWF4d00xZHlpTjl2VGxBYXFJbzhSTVdvVDRRV2RodVc2dUhfcUY3SFBfRUd2Nl9iR2xZNEFqYl82U3JGejVadG1tNFBGTzVRTmlSMm45S1VGU2pqTkFzV194cWczVHlpU1NGOVdVdzN1NDdMVQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 매디슨 지역의 한 주택에서 리튬이온 배터리로 인한 화재가 발생했습니다.
+  - 이는 리튬이온 배터리의 안전성에 대한 우려를 다시 한번 제기합니다.
+  - 배터리 사용 및 보관 시 안전 수칙 준수의 중요성을 강조합니다.
+
+### 14. Lithium-ion battery explodes in Van Nuys apartment, shattering windows
+- 발행일: 2026-05-03
+- 매체: Los Angeles Daily News (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeVVrazdvTU5vVFV3UU40WU1QQVlxRU1VM00yMUhNd0tXZXhpTW1jWjRSV1pKdElZVTR3NDlub2xLVG9TVlFfeXJnU3ZrSDloSGk3bE1xTXVFek9FZ3dFdWtrazRKWS1vNjhMVlYydThfU093V0tDUmd4Z21OTXZ0enJwVVJOZGQwcmQ4XzdEbUR5RC14TnhjNTA0dnFQM0l1ZFdfN0EwWEFjVnc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 밴나이스의 한 아파트에서 리튬이온 배터리가 폭발하여 창문이 산산조각 나는 사고가 발생했습니다.
+  - 이 사고는 리튬이온 배터리의 잠재적 위험성을 보여주는 사례입니다.
+  - 배터리 안전 관리 및 규제 강화의 필요성을 시사합니다.
+
+### 15. Nickel Acetate Market Growth to Accelerate by 2035, Driven by Battery Materials Demand and Electroplating Expansion
+- 발행일: 2026-05-03
+- 매체: IndexBox (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTWpScVJHNHlVLTYxdE9FbXFfVEpyb0ItaXdrSXd4MVQ3Y2pTdG5pVUZhTjJmc0xGVzMwYnZkNk9UU3hRVEdneDF1MklkZlVRYkNIMXFpZ044d21WalhGVGM0bVhsbkE0T2JEc0dObWQtbTI3WjliSzlFZVRreWhoVVlCTDd3ZWc0Y3lIZDI2Q0tlMlpvdTR3a1o4aTN2VmhCTGRXWWNFNjJIeXJFTm9RdFRFazExQzBVd2p0aTFIVFBRa2RGOF95dktmU0FlNVJESTVvVEhHUDRzNDJj?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 배터리 소재 수요 증가와 전기도금 확장으로 인해 니켈 아세테이트 시장이 2035년까지 성장할 것으로 예상됩니다.
+  - 니켈 아세테이트는 배터리 제조 및 전기도금 산업에서 중요한 소재로 사용됩니다.
+  - 이는 관련 산업의 성장과 함께 니켈 아세테이트 수요도 꾸준히 증가할 것임을 나타냅니다.
+
+### 16. Battery storage is safe in New York
+- 발행일: 2026-05-03
+- 매체: New York Daily News (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxNQW14SDdCM3VVaG9lQmdXcVBhNmlxd2xZVVZtR0xadU1Od0xIMnVhcVEzam8zSTBpRklvZUZJQnJLTmNGcFZZQWRpdG15LU82S2lscXFlN1Z4bWYzcVBGb0hGSTJUYWZmTXM5bGZDSlItR1hyQVI5dDd4eHM4YnF1Wg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 뉴욕에서는 배터리 저장 장치가 안전하게 운영되고 있습니다.
+  - 이는 배터리 저장 장치의 안전성에 대한 긍정적인 평가를 보여줍니다.
+  - 안전한 배터리 시스템 구축의 중요성을 강조합니다.
+
+### 17. New recycling mandates put dry cell battery makers under pressure
+- 발행일: 2026-05-03
+- 매체: Business Standard (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMizgFBVV95cUxPalZ0eUdGaHc1WjJWN0VmbFZ3VHRnbXdMdHhad056ZWtHZ3FYcGFQSFU5Yl9NY0VocDFnN21ocTFEclZXanBVbFZnUm5wWmNsWEJHRHNhcm5LV3dhOTFKaDRYakE2ekJubllNYTRQV3U3Z05jZFBIdDdRc0lZUkE1bkJHZFd6c24yZEZ2SVJRRnJXR3pnaHFlYVFNUjJKTlVkMzZiZjAxVTNsUEM0WmFjVzlRemR2Vnp2RjhCNndvY0Jjdm9MSGlTRFdoYWp1d9IB0wFBVV95cUxNZEFiN2R3VEh2TFFuVGF5X3Bad25lMzAwZFBXbnNKYjRCaUtCcTZ1TzFUNnU1VzBTZ0FudWRXUTV4UmRMODM3TVdOaTJ1UF9VRVFneHhTWFhUR21ZVVVvX1VMV1JsdXdFejZjZWZqMm5kRE5zc1IzamlmcEozTmJwM1Q3aTk3S2I1NDBJVjJqaE9UVkY5M2RSdWwzY1RnWkV4bHZXc1VCTHY0SVRuSzFXUXBFcWRYTG1PWGRjMkpaYWRCS3JJdGZPaUIzVUczNUEzcGQ4?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 새로운 재활용 의무 규정으로 인해 건전지 제조업체들이 압박을 받고 있습니다.
+  - 이는 환경 규제 강화가 배터리 산업에 미치는 영향을 보여줍니다.
+  - 지속 가능한 배터리 생산 및 재활용 시스템 구축의 필요성을 시사합니다.
+
+### 18. Curious Nature: Batteries and hard-to-recycle events in the Eagle Valley
+- 발행일: 2026-05-03
+- 매체: VailDaily.com (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSVRTN3VZZ0pTNnpULXE1UFNsakRGOXROb2V2clp0YS1DdEI1a3VCRnVrdEhsYU9MVV9VQW5CUUxtRFI4MWdjM0dweFhSWjRvTUlxYmJ6UFZ4dVhuNlB5ZGpoSjN3a1hPeVRrNXRscUZBS29HRXZmbFJHbTFSMU1hREZnWU9yYklUQUJSU3Q3b1dYMUlnOExRYS0tbGIxLTdLdC1zMnR1NGE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 이글 밸리 지역에서는 배터리 및 재활용이 어려운 품목에 대한 이벤트가 열렸습니다.
+  - 이는 지역 사회의 환경 문제에 대한 관심을 보여줍니다.
+  - 배터리 재활용 및 폐기물 관리에 대한 중요성을 강조합니다.
