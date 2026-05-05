@@ -1,5 +1,121 @@
 [
   {
+    "title": "이엠티, 고용량·고출력 양극재 대응 전구체 제조 기술력 확보 주목을",
+    "description": "전문가들은 \"전기제품 업종은 2차전지 중심으로 중장기 성장 스토리가 확실하지만 단기적으로는 밸류에이션 부담과 수급 변동성에 영향을 받을 수 있다\"며 \"대형 배터리 소재주와 핵심 장비주를 중심으로 분할 접근하는...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=450500",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-05-05",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 90,
+    "monitoring_importance": 90,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "이엠티",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "이엠티가 고용량·고출력 양극재에 대응하는 전구체 제조 기술력을 확보했습니다.",
+      "이는 전기차 배터리 핵심 소재 경쟁력 강화에 기여할 것으로 보입니다.",
+      "이러한 기술력 확보는 2차전지 소재 시장에서의 이엠티의 입지를 강화할 것입니다."
+    ],
+    "uid": "c32b2dfe9b11c7e2d9be36557eeb81c7079d62f9"
+  },
+  {
+    "title": "배터리 패권, 이제는 '속도와 범위' 싸움",
+    "description": "삼성SDI의 전고체 배터리 '솔리드스택'. 사진=김채은 기자 매일일보 = 김채은 기자 | 배터리 시장의 경쟁 구도가 빠르게 재편되고 있다. 기존에는 에너지 밀도와 가격 경쟁력이 핵심 기준이었다면, 최근에는 수요에...",
+    "link": "https://www.m-i.kr/news/articleView.html?idxno=1369870",
+    "source": "www.m-i.kr",
+    "published_at": "2026-05-05",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.ngetnews.com",
+        "link": "https://www.ngetnews.com/news/articleView.html?idxno=550144"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 98,
+    "monitoring_importance": 98,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "배터리 시장 경쟁 구도가 에너지 밀도와 가격에서 속도와 범위로 빠르게 재편되고 있습니다.",
+      "삼성SDI는 전고체 배터리 '솔리드스택'을 통해 이러한 변화에 대응하고 있습니다.",
+      "이는 배터리 기술 혁신과 시장 선점을 위한 기업들의 노력이 치열해지고 있음을 보여줍니다."
+    ],
+    "uid": "a935d0c1a05a6aad36fd8e6499b99a30847d9da1"
+  },
+  {
+    "title": "엠젠솔루션, '불 안 나는 배터리' LIC 양산 시동…2차전지 시장 게임체인...",
+    "description": "엠젠솔루션이 화재 안전성을 극대화한 차세대 에너지 저장 장치 양산에 돌입하며 2차전지 시장의... 양사가 선보이는 LIC 배터리는 겔(Gel) 타입 전해질을 적용해 기존 리튬이온 배터리의 최대 취약점인 폭발 및 화재...",
+    "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=76079",
+    "source": "www.thefairnews.co.kr",
+    "published_at": "2026-05-04",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "view.asiae.co.kr",
+        "link": "https://view.asiae.co.kr/article/2026050414340392018"
+      },
+      {
+        "source": "www.edaily.co.kr",
+        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=02463286645445640"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "엠젠솔루션",
+      "2차전지",
+      "리튬이온"
+    ],
+    "summary_3_sentences": [
+      "엠젠솔루션이 화재 안전성을 높인 LIC 배터리 양산을 시작합니다.",
+      "LIC 배터리는 겔 타입 전해질을 사용하여 기존 리튬이온 배터리의 폭발 및 화재 위험을 줄였습니다.",
+      "이는 2차전지 시장에서 안전성을 강화한 새로운 기술의 등장을 알립니다."
+    ],
+    "uid": "5d7e5973103634d277aa5dda8d8ae7b6f8b7b00a"
+  },
+  {
+    "title": "프리미엄부터 보급형까지... 엘앤에프, NCM·LFP 투트랙 전략으로 시장 ...",
+    "description": "리튬인산철(LFP) 기반 2차전지 테마가 4일 상승 흐름을 이어가고 있다. 전기차 시장에서 가격 경쟁력이 부각되면서 LFP 배터리 채택이 확대되고 있다는 점이 투자심리를 자극하는 모습이다. 글로벌 완성차 업체들이...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=450408",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-05-04",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "news.mtn.co.kr",
+        "link": "https://news.mtn.co.kr/news-detail/2026050415493324526"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "엘앤에프",
+      "2차전지",
+      "NCM"
+    ],
+    "summary_3_sentences": [
+      "리튬인산철(LFP) 기반 2차전지 테마가 상승세를 보이고 있습니다.",
+      "전기차 시장에서 LFP 배터리의 가격 경쟁력이 부각되며 채택이 확대되고 있기 때문입니다.",
+      "엘앤에프는 NCM과 LFP를 병행하는 투트랙 전략으로 시장 변화에 대응하고 있습니다."
+    ],
+    "uid": "4ebe940a535b6869f97e08bbec60ee9962532f61"
+  },
+  {
     "title": "리튬 반등 신호탄…POSCO·LG화학 주가 파죽지세",
     "description": "리튬 가격 반등 기대와 함께 2차전지 밸류체인 전반으로 매수세가 유입되며 4일 관련 테마가 상승 흐름을 보이고 있다. 전기차 수요 회복 기대와 글로벌 배터리 업체들의 투자 재개 움직임이 맞물리면서, 원재료부터...",
     "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=450333",
@@ -50,6 +166,27 @@
     "uid": "5d6bef2728c0ab9659b2393f525b383bbbd02844"
   },
   {
+    "title": "'셀 Vs 소재' K배터리, 1Q 실적 온도차…2Q 웃을 수 있을까",
+    "description": "셀 업체들은 이를 보완하기 위해 전기차용 배터리 중심의 생산 구조를 ESS로 일부 전환하고 있다. 다만 기존 라인을 ESS용으로 바꾸는 과정에서 설비 개조와 제품 인증, 양산 안정화 비용이 발생하는 만큼 단기 실적에는...",
+    "link": "https://www.joongangenews.com/news/articleView.html?idxno=516705",
+    "source": "www.joongangenews.com",
+    "published_at": "2026-05-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "국내 배터리 셀 업체들이 1분기 실적에서 온도차를 보이고 있습니다.",
+      "전기차용 배터리 중심 생산 구조를 에너지 저장 장치(ESS)로 일부 전환하며 실적 개선을 모색하고 있습니다.",
+      "다만, 라인 전환 과정에서의 비용 발생은 단기 실적에 부담으로 작용할 수 있습니다."
+    ],
+    "uid": "b72225e61caf10c28df7e3d6aca3db95c4894410"
+  },
+  {
     "title": "LG에너지솔루션, 실적 바닥 통과…ESS가 이끄는 반등 시나리오",
     "description": "ESS 사업 확대와 소형 배터리 출하 성장이 실적 반등의 핵심 동력으로 꼽힌다. ◆1분기 영업손실 2078억…일회성 요인 겹쳐 컨센서스 하회 LG에너지솔루션의 1분기 매출액은 6조5550억원으로 전 분기 대비 1.2...",
     "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=358431",
@@ -71,6 +208,29 @@
       "이는 회사가 어려운 시장 상황 속에서도 성장 동력을 확보하려는 노력을 보여줍니다."
     ],
     "uid": "1c0f1fbb95eb303e61fc406f51a5306c9bb5d18d"
+  },
+  {
+    "title": "팩토리얼에너지, 전고체 배터리 상용화 박차…나스닥 직행에 투자 몰려",
+    "description": "팩토리얼에너지가 상장 추진, 투자 확대, 생산 협력을 기반으로 전고체 배터리 상용화에 속도를 내고 있다. [사진: 팩토리얼에너지] 팩토리얼에너지(Factorial Energy)가 나스닥 상장 추진과 추가 투자, 생산 협력을...",
+    "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=662489",
+    "source": "www.digitaltoday.co.kr",
+    "published_at": "2026-05-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "팩토리얼에너지"
+    ],
+    "summary_3_sentences": [
+      "팩토리얼에너지가 전고체 배터리 상용화를 가속화하고 있습니다.",
+      "나스닥 상장 추진, 투자 확대, 생산 협력을 통해 기술 개발 및 양산 준비에 박차를 가하고 있습니다.",
+      "이는 차세대 배터리 기술의 상용화 가능성을 높이고 관련 시장의 기대를 모으고 있습니다."
+    ],
+    "uid": "0452ddbcfdb4176681c4cafd0504ba9e2cb47b26"
   },
   {
     "title": "레몬·한농화성·삼성SDI·나인테크·삼성전기, 전고체 2차전지주 강세...",
@@ -126,6 +286,242 @@
       "이는 배터리 산업의 새로운 성장 동력으로 AI와 로봇 기술의 중요성이 부각되고 있음을 보여줍니다."
     ],
     "uid": "ce19ade71e8907db53b294b73cbde8eca2744ce8"
+  },
+  {
+    "title": "Lithium-Ion Battery Market Set for Powerful Expansion as EVs, Clean Energy, and Electronics Fuel Global Demand",
+    "published_at": "2026-05-04",
+    "source": "vocal.media",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbHUxM0tiaWM5YVlWc3pvbzhTSHk4cXV2MkMzaFRNVnl0QnFVdE5xT1F5M2w2SHFjb09kZlpwcjlOZ1g4Q3VRMzZKdUlYcUpraWNyYkZGbFg0MFJJMzV0RXpvSFdRTVNqTU04T0NjamtTLWUzZTNfR0IxVEpKNm9UcmlnbjNHX1dsY2ZBMWFUNTFoWmpubDUtVU1WTXFnWmViSjdjTTNQODFfa2YtSHJBdzZBX1dQOVZOYW9JLUljOEd3TGM5bENjQzVOR1A?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPbHUxM0tiaWM5YVlWc3pvbzhTSHk4cXV2MkMzaFRNVnl0QnFVdE5xT1F5M2w2SHFjb09kZlpwcjlOZ1g4Q3VRMzZKdUlYcUpraWNyYkZGbFg0MFJJMzV0RXpvSFdRTVNqTU04T0NjamtTLWUzZTNfR0IxVEpKNm9UcmlnbjNHX1dsY2ZBMWFUNTFoWmpubDUtVU1WTXFnWmViSjdjTTNQODFfa2YtSHJBdzZBX1dQOVZOYW9JLUljOEd3TGM5bENjQzVOR1A?oc=5\" target=\"_blank\">Lithium-Ion Battery Market Set for Powerful Expansion as EVs, Clean Energy, and Electronics Fuel Global Demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">vocal.media</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 95,
+    "monitor_score": 98,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "전기차, 청정 에너지, 전자기기 수요 증가로 리튬이온 배터리 시장이 크게 성장할 전망입니다.",
+      "이러한 수요 증가는 배터리 생산량 확대와 기술 혁신을 촉진할 것입니다.",
+      "리튬이온 배터리 시장의 확장은 관련 산업 전반에 걸쳐 긍정적인 영향을 미칠 것으로 보입니다."
+    ],
+    "uid": "ddd3327cb983ca9229fd88bef3f227f7d429cfeb"
+  },
+  {
+    "title": "United States Secondary Battery Market to hit US$ 79.90 Billion",
+    "published_at": "2026-05-04",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSndTcjhZRmhaMW1lUGRTX001bjhvRF8yUnkwRy1uVG51MDFWVnNPdjZHZmFha21RclNBVWplTWtpWnhMck52UjFnUWVPdXR1OWU5UUZoMWYySFZyalE4NURQNHFuaE9vN3N2dm1VVnJ6T1F3amNBOTZJa0FubWRJclIxUUJaR1BBTVdRb2RTelpMWEZWNFRaMXAweF9NbWs?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOSndTcjhZRmhaMW1lUGRTX001bjhvRF8yUnkwRy1uVG51MDFWVnNPdjZHZmFha21RclNBVWplTWtpWnhMck52UjFnUWVPdXR1OWU5UUZoMWYySFZyalE4NURQNHFuaE9vN3N2dm1VVnJ6T1F3amNBOTZJa0FubWRJclIxUUJaR1BBTVdRb2RTelpMWEZWNFRaMXAweF9NbWs?oc=5\" target=\"_blank\">United States Secondary Battery Market to hit US$ 79.90 Billion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "US"
+    ],
+    "summary_3_sentences": [
+      "미국 이차전지 시장 규모가 2030년까지 799억 달러에 이를 것으로 예상됩니다.",
+      "이는 전기차 및 에너지 저장 시스템 수요 증가에 따른 것입니다.",
+      "미국 이차전지 시장의 성장은 관련 기술 개발 및 투자를 촉진할 것입니다."
+    ],
+    "uid": "b189f06f3116d3d2bbbf856fd9d5a42d6d2d6894"
+  },
+  {
+    "title": "Europe's LFP Battery Recycling Market Accelerates Toward USD",
+    "published_at": "2026-05-04",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbm1yS2lKZ0tReVJkYXRhcTVNX0xsQ1FkS2VMMGJ4VE9WYTBrdmpEdmFvMlVaWlF5c0pZWGZwZHdIOXFJSkIzRjEwNzgyZnBCQlpidVl1WGxEOGFyNmhidU9tSll0WUtRUkw2c2stWFllRjZGUzhoZjExckZkVzFuSWZwREZ0YVNCcmZnakxDT0tpaERmVTU0Zk1ENTY?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQbm1yS2lKZ0tReVJkYXRhcTVNX0xsQ1FkS2VMMGJ4VE9WYTBrdmpEdmFvMlVaWlF5c0pZWGZwZHdIOXFJSkIzRjEwNzgyZnBCQlpidVl1WGxEOGFyNmhidU9tSll0WUtRUkw2c2stWFllRjZGUzhoZjExckZkVzFuSWZwREZ0YVNCcmZnakxDT0tpaERmVTU0Zk1ENTY?oc=5\" target=\"_blank\">Europe's LFP Battery Recycling Market Accelerates Toward USD</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LFP",
+      "USD"
+    ],
+    "summary_3_sentences": [
+      "유럽의 LFP 배터리 재활용 시장이 빠르게 성장하고 있습니다.",
+      "전기차 보급 확대에 따라 폐배터리 재활용의 중요성이 커지고 있습니다.",
+      "이는 유럽 내 배터리 순환 경제 구축을 위한 노력이 강화되고 있음을 시사합니다."
+    ],
+    "uid": "98871aefb2b5bcd6a11b284e92ee262d2ecadca5"
+  },
+  {
+    "title": "14 million used batteries from electric vehicles by 2040: Who will master the circular economy?",
+    "published_at": "2026-05-04",
+    "source": "chemeurope.com",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcS04NzdJbmJrN25WaDEyY0VocDhJYXF6TDNZUFBxaUJQMXN0bElzQzFFNmhSdDBidlJkckE4eHdpYWU2ZWl3NGhtS1hZU2tobXR4Z0lfRTlPRjN3MnRzcEhFOWRQdEktb3RVVXVKSVROejdpR1RFanNSODByd251T1RjbW00X0RSVXpaMTZqWjhTbW84WEpSYUNxNzNlQ2xjY1ZFOENsTnF5NkZQR25xT3BtUHFhOHdKQUxUbl92NXNleFQ1UkRmaE9qYURrOEFqQmNFRDROUHM?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcS04NzdJbmJrN25WaDEyY0VocDhJYXF6TDNZUFBxaUJQMXN0bElzQzFFNmhSdDBidlJkckE4eHdpYWU2ZWl3NGhtS1hZU2tobXR4Z0lfRTlPRjN3MnRzcEhFOWRQdEktb3RVVXVKSVROejdpR1RFanNSODByd251T1RjbW00X0RSVXpaMTZqWjhTbW84WEpSYUNxNzNlQ2xjY1ZFOENsTnF5NkZQR25xT3BtUHFhOHdKQUxUbl92NXNleFQ1UkRmaE9qYURrOEFqQmNFRDROUHM?oc=5\" target=\"_blank\">14 million used batteries from electric vehicles by 2040: Who will master the circular economy?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">chemeurope.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "2040년까지 전기차에서 1,400만 개의 중고 배터리가 발생할 것으로 예상됩니다.",
+      "이는 배터리 재활용 및 순환 경제 구축의 중요성을 부각시킵니다.",
+      "효율적인 배터리 재활용 기술 확보는 지속 가능한 미래를 위한 핵심 과제가 될 것입니다."
+    ],
+    "uid": "97337c3bb71daac73c8870224c6797ac230097c5"
+  },
+  {
+    "title": "Lithium-ion innovation shifts to longer-duration systems, boosting large-format cell adoption",
+    "published_at": "2026-05-04",
+    "source": "Proactive financial news",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQaVlPQ2FZUkNibHlpamV0OVQ0SFpNT1dwdUZrMVFMVmJOWHhvNFNPTllEa1RNS2dobnRVcVVZdDhXQk85MDRYS3puZFhmd0xzcnQycFcwVWJGcktDZl9HSnZTSmFlU2k3bXBpU2dXNWc4QTJUZDQ2Znc0VlBER3YtQ3BvQjduSktIUVF5Z2UzZkw3cU5lRXpyRmg3eDc0T1NuVlQ0ZFVPRGlnaTdTRHhMUkk5UTRDQ2N2SXE3U0hWT3Via3RiZDg2RlFhSnNNbFA2ZjFsV0VobGZaaG5JODg5bzMxZnVDNTFBaFNRWXFISVVtUXQzRlE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxQaVlPQ2FZUkNibHlpamV0OVQ0SFpNT1dwdUZrMVFMVmJOWHhvNFNPTllEa1RNS2dobnRVcVVZdDhXQk85MDRYS3puZFhmd0xzcnQycFcwVWJGcktDZl9HSnZTSmFlU2k3bXBpU2dXNWc4QTJUZDQ2Znc0VlBER3YtQ3BvQjduSktIUVF5Z2UzZkw3cU5lRXpyRmg3eDc0T1NuVlQ0ZFVPRGlnaTdTRHhMUkk5UTRDQ2N2SXE3U0hWT3Via3RiZDg2RlFhSnNNbFA2ZjFsV0VobGZaaG5JODg5bzMxZnVDNTFBaFNRWXFISVVtUXQzRlE?oc=5\" target=\"_blank\">Lithium-ion innovation shifts to longer-duration systems, boosting large-format cell adoption</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Proactive financial news</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "리튬이온 배터리 기술 혁신이 더 긴 작동 시간을 제공하는 시스템으로 이동하고 있습니다.",
+      "이는 대형 폼팩터 셀 채택을 증가시키며 배터리 성능 향상에 기여할 것입니다.",
+      "이러한 혁신은 전기차 및 에너지 저장 시스템 분야에서 배터리 활용도를 높일 것으로 기대됩니다."
+    ],
+    "uid": "9327db426c2a58d3f7616445a4420097dc2437b7"
+  },
+  {
+    "title": "Domestic US Solid-State Batteries Coming in 2026? Inside Greater Bay's A-Sample Manufacturing Milestone",
+    "published_at": "2026-05-04",
+    "source": "Intelligent Living",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYUtWTmFsMXlVVmxrOUR1ZU9hRmw4cTdRMW9qVE85N3NWaXdRbFM0WWlycFU4d0JFTzk4ZXM0b2hRaF9MdkNzWmcxRU50SjQ4Mzk2Q0pLWklONUtpQW9VYktXOUc1NWptR0k5M0FyYkRUaWVrdlR6ZHJwazZMdG9wMw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOYUtWTmFsMXlVVmxrOUR1ZU9hRmw4cTdRMW9qVE85N3NWaXdRbFM0WWlycFU4d0JFTzk4ZXM0b2hRaF9MdkNzWmcxRU50SjQ4Mzk2Q0pLWklONUtpQW9VYktXOUc1NWptR0k5M0FyYkRUaWVrdlR6ZHJwazZMdG9wMw?oc=5\" target=\"_blank\">Domestic US Solid-State Batteries Coming in 2026? Inside Greater Bay's A-Sample Manufacturing Milestone</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Intelligent Living</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Greater Bay",
+      "US"
+    ],
+    "summary_3_sentences": [
+      "미국 내 전고체 배터리 생산이 2026년 가능할지 주목받고 있습니다.",
+      "Greater Bay는 A-샘플 제조 마일스톤을 달성하며 전고체 배터리 상용화에 다가가고 있습니다.",
+      "이는 미국 배터리 산업의 기술 발전과 공급망 강화에 기여할 수 있습니다."
+    ],
+    "uid": "6ebdd8807b0b3502ab154d0961bc36a33838c54f"
+  },
+  {
+    "title": "Lithium Metal Market, Global Market Analysis Report - 2036",
+    "published_at": "2026-05-04",
+    "source": "Fact.MR",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hanR2X3Axb0FGeXVsczVaTnVFZFNLUlZWWTFRMGJPMzhkT3VURnE4UFdWQkdlU3BEbjY1enE4YnVpalFUZWlsV0lRS3EzLVJWc3Q2dFJtRTdRTjZaRjNn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hanR2X3Axb0FGeXVsczVaTnVFZFNLUlZWWTFRMGJPMzhkT3VURnE4UFdWQkdlU3BEbjY1enE4YnVpalFUZWlsV0lRS3EzLVJWc3Q2dFJtRTdRTjZaRjNn?oc=5\" target=\"_blank\">Lithium Metal Market, Global Market Analysis Report - 2036</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fact.MR</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "MR"
+    ],
+    "summary_3_sentences": [
+      "리튬 금속 시장에 대한 글로벌 시장 분석 보고서가 발표되었습니다.",
+      "이 보고서는 2036년까지의 시장 전망을 다루고 있습니다.",
+      "리튬 금속은 배터리 산업에서 중요한 소재로, 시장 동향 분석은 관련 산업의 미래를 예측하는 데 도움을 줄 것입니다."
+    ],
+    "uid": "631e0af95811705d4c973f4d9bd80084da9d3591"
+  },
+  {
+    "title": "M2i, Volato and Regenerate advance battery recycling tech",
+    "published_at": "2026-05-04",
+    "source": "Evertiq",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWkZFXzRaR2ZabFRjUG1rWHJtZm9KOERUUEZKVlctcVM0dl9CME92by1iclFOWVhDYUwwYkhxUWFPNjVyOEFlWE9xdW1VRmhMUk1kUzhLUm5UVjZhNldtclhzV05ocWEtNjRmRVVSYTFneFZ1TDMwSTlYaXY1UFpORWdHQXFzckVxdmtMa3E0YnhkcGlwdzhtR1hn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNWkZFXzRaR2ZabFRjUG1rWHJtZm9KOERUUEZKVlctcVM0dl9CME92by1iclFOWVhDYUwwYkhxUWFPNjVyOEFlWE9xdW1VRmhMUk1kUzhLUm5UVjZhNldtclhzV05ocWEtNjRmRVVSYTFneFZ1TDMwSTlYaXY1UFpORWdHQXFzckVxdmtMa3E0YnhkcGlwdzhtR1hn?oc=5\" target=\"_blank\">M2i, Volato and Regenerate advance battery recycling tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Evertiq</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "M2i",
+      "Volato",
+      "Regenerate"
+    ],
+    "summary_3_sentences": [
+      "M2i, Volato, Regenerate가 배터리 재활용 기술 개발에 협력하고 있습니다.",
+      "이들 기업은 배터리 재활용 기술 혁신을 통해 지속 가능한 배터리 생태계 구축에 기여하고자 합니다.",
+      "이는 폐배터리 처리 및 재활용 문제 해결에 대한 업계의 노력을 보여줍니다."
+    ],
+    "uid": "ddb12f23baf57dd4b9c8102e58baefccfa25d229"
+  },
+  {
+    "title": "Solid-State EV Batteries Will Crush The Fossil Fuel Fantasy",
+    "published_at": "2026-05-04",
+    "source": "CleanTechnica",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNnlwR2kzS2R3clhNNkdwU3ItbDFxLVhPYldoYW41d09iNm53NWRQTmFKcXNMeEw0cjNMaGh1bnhFTVdOMUNENl81czNMQVU2TWZGNTBMMWpkcFFFMjExT0w1Q1dxNTZNTVpuZ216WF9MUG9RbHZyVlRKSDZjQ3JsSG92dHRqOGZaeUxTY09CejNTaGVVRGhOSWxleWtnd9IBpgFBVV95cUxNU0ZwMUVSS0xVaDE2THhXeUVhU3Q1dFlja3VaQzl1RFp2N2FGbkEydzFWM0xRTS1xOU1CdlRmRUYzaUhBODhwVGZGQkhwT3Jyb1V4VTVMWHJHQktVUnVlcUdrUXFJRG0tM0JzRmg4bnBkUG92Q0dGSDlmQjR4Zk1reldPdE1YZGNzMDRuZDhMUXNVVEc1MVFRLTRJYTAyYTFmMUZvLVZn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQNnlwR2kzS2R3clhNNkdwU3ItbDFxLVhPYldoYW41d09iNm53NWRQTmFKcXNMeEw0cjNMaGh1bnhFTVdOMUNENl81czNMQVU2TWZGNTBMMWpkcFFFMjExT0w1Q1dxNTZNTVpuZ216WF9MUG9RbHZyVlRKSDZjQ3JsSG92dHRqOGZaeUxTY09CejNTaGVVRGhOSWxleWtnd9IBpgFBVV95cUxNU0ZwMUVSS0xVaDE2THhXeUVhU3Q1dFlja3VaQzl1RFp2N2FGbkEydzFWM0xRTS1xOU1CdlRmRUYzaUhBODhwVGZGQkhwT3Jyb1V4VTVMWHJHQktVUnVlcUdrUXFJRG0tM0JzRmg4bnBkUG92Q0dGSDlmQjR4Zk1reldPdE1YZGNzMDRuZDhMUXNVVEc1MVFRLTRJYTAyYTFmMUZvLVZn?oc=5\" target=\"_blank\">Solid-State EV Batteries Will Crush The Fossil Fuel Fantasy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CleanTechnica</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 95,
+    "monitor_score": 98,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "전고체 배터리는 기존 리튬이온 배터리의 한계를 극복할 잠재력을 가지고 있습니다.",
+      "이는 전기차 산업의 성장을 가속화하고 화석 연료 의존도를 낮추는 데 기여할 것입니다.",
+      "전고체 배터리 기술의 발전은 미래 모빌리티의 패러다임을 바꿀 것으로 예상됩니다."
+    ],
+    "uid": "15ff71ac1a4a386063b1f56668fdd9838d88145a"
+  },
+  {
+    "title": "Syensqo earns top sustainability honour for battery recovery innovation",
+    "published_at": "2026-05-04",
+    "source": "Canadian Mining Journal",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeEREOWwwQ0J0T1Jab2U4VEpyZ3VaWUNiWWJaQXFYWWhIV1lfV3pGUEl3M1g0Sk5yRlMzZ3hIRC1YMG01Tk5XTm4xSVlDbXdTNWNLVmhHRnZzYWZhMXdQalFNQzlsTG85SklhWGhHYjl3Mm5HcWUxM2tMTUtCT1lPaG5ueFI1ajlsaFhrdTZ0M0pSZHl1WUp1SjBtMVBiRERUbVo2N2lsSzgyUWIxY2J1WTdSVGVKQQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQeEREOWwwQ0J0T1Jab2U4VEpyZ3VaWUNiWWJaQXFYWWhIV1lfV3pGUEl3M1g0Sk5yRlMzZ3hIRC1YMG01Tk5XTm4xSVlDbXdTNWNLVmhHRnZzYWZhMXdQalFNQzlsTG85SklhWGhHYjl3Mm5HcWUxM2tMTUtCT1lPaG5ueFI1ajlsaFhrdTZ0M0pSZHl1WUp1SjBtMVBiRERUbVo2N2lsSzgyUWIxY2J1WTdSVGVKQQ?oc=5\" target=\"_blank\">Syensqo earns top sustainability honour for battery recovery innovation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Canadian Mining Journal</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Syensqo"
+    ],
+    "summary_3_sentences": [
+      "Syensqo가 배터리 회수 혁신 기술로 최고 지속가능성 상을 수상했습니다.",
+      "이 상은 Syensqo의 배터리 재활용 기술 개발 노력을 인정하는 것입니다.",
+      "이는 배터리 산업의 지속 가능성 확보를 위한 기술 혁신의 중요성을 강조합니다."
+    ],
+    "uid": "02d6d7802f61661794b466925d668fb4ccadd782"
   },
   {
     "title": "美 앨심에너지, 물리학 기반 AI 플랫폼 활용 'NA-시리즈' 배터리 개발 성...",
