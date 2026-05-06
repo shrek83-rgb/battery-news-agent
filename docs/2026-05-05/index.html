@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-05-05</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-05-05 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-cathode" href="https://www.hankyung.com/article/2026050568461" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[단독] 포스코퓨처엠, 日 완성차 업체와 전고체 양극재 개발</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.hankyung.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">포스코퓨처엠</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>포스코퓨처엠이 일본 완성차 업체와 전고체 배터리용 양극재를 단독 개발합니다.</li><li>이는 일본 완성차 기업이 전고체용 양극재 공급사를 단독 지정한 첫 사례입니다.</li><li>이번 협력은 상용화를 앞둔 전고체 배터리 시장에서의 경쟁력을 강화할 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-05</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQUWNyaDV4REw0eEI0WkRnQUl2MVBWcWFXbC1DQU5iSk9FZ0Frc1ItRHBBWl9qdHdJMldYcGZxRUM3NkxVUDN1Ml9LNTlFRUtOd1hnOHZkNFh0S2hpZXpOVEdhbWJ2VlBzekNTYWYxSW4xWDZpLU43SGs1NlhZbDdsYjlmZWZRSHMyUU5tV0FLT3o0QWRSX3J6bTJXRkQzM3FNSVE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Sodium batteries may be ready for prime time—CATL signs 60 GWh deal</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Charged EVs</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CATL</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>CATL이 60GWh 규모의 나트륨 이온 배터리 계약을 체결했습니다.</li><li>이는 나트륨 이온 배터리가 상용화 단계에 가까워지고 있음을 시사합니다.</li><li>이번 계약은 배터리 시장의 판도를 바꿀 수 있는 중요한 움직임입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-05</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMitgFBVV95cUxOUGFpR21uUEI5Q2owZ250X19uZlU1OUNuS0N2QzQ1UDZzdHFkLV96akNqckVqWEU2My1oVXFwSEZvcHdKbUhQbDJqMTlqcUlZWDZuUE40X3lvdXhaTWxMaEVlenI3Zk1iZkJpR29sQ0ZfMFozMHM0U3dPWXI1XzhoTUhPUUc0ckdubGNJVmhBajllXzRTc0xVeEhzNWRvbkptb0pUZWdsNTVkWHRKQTN3NzJhSkdEQQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium Deficit Is Back: How China and Zimbabwe Supply Cuts Are Reshaping the Market</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CarbonCredits.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">짐바브웨</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>중국과 짐바브웨의 리튬 공급 차질로 리튬 부족 현상이 다시 심화되고 있습니다.</li><li>이는 리튬 가격 상승과 배터리 시장의 불안정성을 야기할 수 있습니다.</li><li>이러한 상황은 리튬 공급망 다변화의 필요성을 강조합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-05</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNU1pleTZfcUdCMTlzSWN6SUFBcDZKSGx3OXdKQ1ZyQjZPdG9rR3d1WjFKa3phcTNNaHlWSTVlODE5b2FvOUVzdS1JQWNETlBpS1hia2V4QlZZc1JZMmF3bnlrQlFFcjNCdmVValpBeHdaLXdNZWs1aU5hUExPOElQeklucUpCbGlqSmZXVjVreEdjM2tGUW5WWnZuWQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Energy Storage Sodium Ion Battery Market Crosses Commercial</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">openPR.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>에너지 저장 장치용 나트륨 이온 배터리 시장이 상업화 단계에 진입했습니다.</li><li>이는 기존 리튬 이온 배터리의 대안으로 나트륨 이온 배터리의 가능성을 보여줍니다.</li><li>나트륨 이온 배터리는 비용 효율성과 공급망 안정성 측면에서 이점을 가질 수 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-05</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQNE1NSWFybUtueFlaSGRMRjZDY3BGQTBHMTB6UjFhWTdrR2pHOXl4NVJZN0JwU2JxTVNTLWJoYXhpX0U0cnA1b0VGaEFrdG1ZYmc2YjRSSDBzLUx2ZlJnV1Ntd1FKQkZIdm5CaGRHTm5Ea2J1YzRPaDNXVnJrb2Zlb1NXYWpIODhEdUQ1bENGcGVSaGtodi1XZWFUMzlPQjNnRWxKcVpLRVE0OG1IVjVfSHMycm5ZaXFyUmFmRTd2R0RqUzRX?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">CAT, sourceL and HyperStrong Sign the World&#x27;s Largest Sodium-Ion Energy Storage Cooperation Agreement</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Batteries News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CAT</span><span class="chip">S.L.C</span><span class="chip">HyperStrong</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>CAT, sourceL, HyperStrong은 세계 최대 규모의 나트륨 이온 에너지 저장 협력 계약을 체결했습니다.</li><li>이 계약은 나트륨 이온 배터리 기술의 상업적 중요성이 커지고 있음을 나타냅니다.</li><li>이는 에너지 저장 시장에서 나트륨 이온 배터리의 채택이 확대될 것임을 시사합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-05</div>
+          </div>
+        </a>
+        
+        <a class="card cat-policy" href="https://news.google.com/rss/articles/CBMirAFBVV95cUxOYVJWS0Y2V1VwdG5GZlc3ajAxVlVTLVc2cFVZTkowVHl6YndkMXBEZmNjSjJOUlJkR3Y5MTFFNkxyQkZoOVFXTmJZTjdWSWpYR2t4ZDJtaUdabWJ1UFBaT1BGMVlzcXJHaTJPMVJrLUxlQTJ1ZnpFY01hd3V6MDlpLU04WXJpN19JT1VmZHZfUVJ5RGVmYWdjTXJ5aFhJNFhKUV9aV3dQa1ktbXEy?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">정책</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">China’s iron grip on batteries fuels desperate hunt for Lithium rivals</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Business News Nigeria</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>중국의 강력한 배터리 시장 지배력으로 인해 리튬 대체재에 대한 탐색이 시급해지고 있습니다.</li><li>이는 리튬 공급망의 취약성과 특정 국가에 대한 의존도를 보여줍니다.</li><li>배터리 산업은 공급망 다변화를 통해 안정성을 확보하려 노력하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-05</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IWUpQcmhwbnFtTEdvZ0prY1FhWmE2c3lUYUM1WXpBTnpienRoQklYTWxfbVh0WXYyS2hFWDdQZmFEbVV6LXlzTFNWNG9DQU13U2ZB?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">K-Battery Accelerates Development of Cost-Effective Sodium-Ion Batteries</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">매일경제</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>K-배터리가 비용 효율적인 나트륨 이온 배터리 개발에 박차를 가하고 있습니다.</li><li>이는 기존 리튬 이온 배터리의 대안으로서 나트륨 이온 배터리의 중요성이 부각되고 있음을 의미합니다.</li><li>나트륨 이온 배터리는 가격 경쟁력과 공급망 안정성 측면에서 이점을 제공할 수 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-05</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPeWlhelR2Z0xPOG5ndVc1aTdPMXY2ZXNnejhteF9RU0pJeXdFeHJ4Y2tPLXR4LWF5SUVfRENvTzUzSjBLSXJuWVNieE5CaVA5Qy11TElTMXNZdThsVS1VZFYyREdpdE55b1VfNmRmM24wdkEzenpLd1l3YVkwSTZPTzhRTkV6ZXFEWnludERtMWsybnI4eXVESGJKMnlnOUZfNmFsb0h3Y0R1N3lGWHVicEhrV3pSbVU?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Large-Scale Sodium-Ion Deal Signals Shift in Battery Market Dynamics</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">TipRanks</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>대규모 나트륨 이온 배터리 계약 체결은 배터리 시장의 역학 관계 변화를 예고합니다.</li><li>이는 나트륨 이온 배터리가 에너지 저장 시장에서 중요한 역할을 할 가능성을 보여줍니다.</li><li>이번 계약은 배터리 기술의 다양화와 경쟁 심화를 촉진할 것으로 예상됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-05</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPRjNBS2dNMklxLXZnOFhONEpFTXBWZkFINnFicjNFSXRrcjhSaWQwUVBucVhBUF9IM2loclBZaTRSZDQzVG11WDNWRVI4MXJuSHFzLXFCOEY0TEJ2NktOOVBxM1BBek5CRlhmRE1BNVZZUUNyNGhSOGM5LTNHTXRfV0t1clRDdExwTkFjZnc1ZUg3WTV1dHdoZS1GcURKNzJQOUs3bEFrVnlxVjVpY3Z4UEwzM0puOGxQZDBvQw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Sodium-Ion, Solid-State &amp; 1MW Charging Breakthroughs 2026: The Next EV Revolution Already Here</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">EVTech.News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>2026년 나트륨 이온, 전고체 배터리 및 1MW 충전 기술의 혁신이 예상됩니다.</li><li>이는 전기차 배터리 기술이 차세대 혁명을 준비하고 있음을 시사합니다.</li><li>이러한 기술 발전은 전기차의 성능과 충전 경험을 크게 향상시킬 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-05</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="http://www.newsfc.co.kr/news/articleView.html?idxno=78465" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&#x27;4년만 흑자 전환&#x27; 엘앤에프, &#x27;LFP 양극재&#x27; 국내 최초 상업화 준비</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.newsfc.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">엘앤에프</span><span class="chip">2차전지</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>엘앤에프가 4년 만에 흑자 전환에 성공하며 LFP 양극재의 국내 최초 상업화를 준비하고 있습니다.</li><li>이는 엘앤에프의 실적 개선과 새로운 시장 개척 노력을 보여줍니다.</li><li>LFP 양극재 상업화는 회사의 성장 동력 확보에 기여할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-06</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.etoday.co.kr/news/view/2581710" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">대신증권 &quot;엘앤에프, 숏티지 수혜 예상…업종 내 투자 매력 지속될 것&quot;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.etoday.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">엘앤에프</span><span class="chip">국내 셀3사</span><span class="chip">FEOC</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>대신증권은 엘앤에프가 숏티지(shortage) 수혜를 입을 것으로 예상하며 업종 내 투자 매력이 지속될 것이라고 분석했습니다.</li><li>이는 엘앤에프의 경쟁력과 향후 성장 가능성에 대한 긍정적인 전망을 제시합니다.</li><li>특히 2026년 국내 셀 3사의 북미 ESS 캐파 확장과 맞물려 엘앤에프의 FEOC-Free 양극재 수주가 늘어날 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-06</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=450551" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">에코프로비엠, 하이니켈 삼원계 배터리로 유럽 및 글로벌 시장 공략 본...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.pinpointnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">에코프로비엠</span><span class="chip">나트륨이온</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>에코프로비엠이 하이니켈 삼원계 배터리로 유럽 및 글로벌 시장 공략에 나섰습니다.</li><li>이는 에코프로비엠의 기술력과 글로벌 시장 확장 의지를 보여줍니다.</li><li>나트륨 이온 배터리 테마가 상승 흐름을 보이는 가운데, 에코프로비엠은 기존 리튬 이온 배터리 시장에서의 경쟁력을 강화하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-05</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNbmtFNVBoN3FvMGQxUlM4eTdVY0FuSlJhZndmMFBHdVhtaDltY0dmTU1XREJaWkFhLWZkZXg2M2hRUW44Ni1HcU41YTA3YmFia2M3Y1RGN2hxUkJ6ZU80d0FuU1RHeGRKbHF3Uk5jQ3Q2dWFwM2pxVTVoazZPc2JTcEZsVFc1MDdqXzVRbHFR?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Bill to Promote EV Battery Recycling Clears Senate</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Colorado Senate Democrats</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">미국 상원</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국 상원에서 전기차 배터리 재활용 촉진 법안이 통과되었습니다.</li><li>이는 지속 가능한 배터리 산업 생태계 구축을 위한 중요한 진전입니다.</li><li>이 법안은 배터리 재활용률을 높여 환경 보호와 자원 순환에 기여할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-05</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNzB4a2VFRTR2RlNCbGZWZDI4eWs0ZjFGTFltSnk0UmN1Q25OOG5LMXVBcURkRVZxNVZDNzlsT2YwNTVMWFpnRC1rem9BWThZd3Y0WnRjcmJMNHhrNjBiRi0xbjBOSDVYYm1iQ1B0TUtyRHJoM2thZDUwcDhuVFJ2X2V0SC0tYnRqQVk2WnRIYlloU1NOeV81Q2lLdDg5Y0NvTVdZMTVtTExkUQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">ESS Inc partners with Alsym Energy for 8.5GWh of US sodium-ion BESS cells</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Energy-Storage.News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">ESS Inc</span><span class="chip">Alsym Energy</span><span class="chip">US</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>ESS Inc.가 Alsym Energy와 협력하여 8.5GWh 규모의 미국 내 나트륨 이온 BESS 셀 공급 계약을 체결했습니다.</li><li>이는 미국 에너지 저장 시장에서 나트륨 이온 배터리의 채택이 확대되고 있음을 보여줍니다.</li><li>이번 파트너십은 나트륨 이온 배터리 기술의 상업적 확산에 기여할 것으로 예상됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-05</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.etoday.co.kr/news/view/2581712" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">15</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">대신證 “삼성SDI, 북미 ESS가 성장판 연다…목표주가 92만원”</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.etoday.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">대신증권</span><span class="chip">삼성SDI</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>대신증권은 삼성SDI가 북미 ESS 시장 확대를 통해 성장할 것이라며 목표주가를 92만원으로 제시했습니다.</li><li>이는 삼성SDI의 북미 ESS 사업 전망에 대한 긍정적인 평가를 반영합니다.</li><li>2026년 북미 ESS 생산능력 확대, 비중국 LFP 양극재 확보, 2027년 전고체 배터리 양산 계획이 핵심 투자 포인트로 꼽혔습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-06</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

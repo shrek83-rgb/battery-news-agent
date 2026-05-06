@@ -1,0 +1,370 @@
+{
+  "date_range": "2026-05-05",
+  "items": [
+    {
+      "title": "[단독] 포스코퓨처엠, 日 완성차 업체와 전고체 양극재 개발",
+      "description": "포스코퓨처엠이 일본 완성차 업체와 손잡고 전고체 배터리용 양극재를 단독 개발한다. 일본 완성차 기업이 전고체용 양극재 공급사를 단독 지정한 것은 국내 소재사 중 처음이다. 상용화를 앞둔 전고체 배터리 시장에서...",
+      "link": "https://www.hankyung.com/article/2026050568461",
+      "source": "www.hankyung.com",
+      "published_at": "2026-05-05",
+      "provider": "naver",
+      "related_links": [
+        {
+          "source": "www.g-enews.com",
+          "link": "https://www.g-enews.com/view.php?ud=20260506095608391744093b5d4e_1"
+        },
+        {
+          "source": "www.edaily.co.kr",
+          "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=04175446645446296"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "monitor_score": 97,
+      "monitoring_importance": 97,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "포스코퓨처엠"
+      ],
+      "summary_3_sentences": [
+        "포스코퓨처엠이 일본 완성차 업체와 전고체 배터리용 양극재를 단독 개발합니다.",
+        "이는 일본 완성차 기업이 전고체용 양극재 공급사를 단독 지정한 첫 사례입니다.",
+        "이번 협력은 상용화를 앞둔 전고체 배터리 시장에서의 경쟁력을 강화할 것으로 보입니다."
+      ]
+    },
+    {
+      "title": "Sodium batteries may be ready for prime time—CATL signs 60 GWh deal",
+      "published_at": "2026-05-05",
+      "source": "Charged EVs",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUWNyaDV4REw0eEI0WkRnQUl2MVBWcWFXbC1DQU5iSk9FZ0Frc1ItRHBBWl9qdHdJMldYcGZxRUM3NkxVUDN1Ml9LNTlFRUtOd1hnOHZkNFh0S2hpZXpOVEdhbWJ2VlBzekNTYWYxSW4xWDZpLU43SGs1NlhZbDdsYjlmZWZRSHMyUU5tV0FLT3o0QWRSX3J6bTJXRkQzM3FNSVE?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQUWNyaDV4REw0eEI0WkRnQUl2MVBWcWFXbC1DQU5iSk9FZ0Frc1ItRHBBWl9qdHdJMldYcGZxRUM3NkxVUDN1Ml9LNTlFRUtOd1hnOHZkNFh0S2hpZXpOVEdhbWJ2VlBzekNTYWYxSW4xWDZpLU43SGs1NlhZbDdsYjlmZWZRSHMyUU5tV0FLT3o0QWRSX3J6bTJXRkQzM3FNSVE?oc=5\" target=\"_blank\">Sodium batteries may be ready for prime time—CATL signs 60 GWh deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Charged EVs</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "CATL"
+      ],
+      "summary_3_sentences": [
+        "CATL이 60GWh 규모의 나트륨 이온 배터리 계약을 체결했습니다.",
+        "이는 나트륨 이온 배터리가 상용화 단계에 가까워지고 있음을 시사합니다.",
+        "이번 계약은 배터리 시장의 판도를 바꿀 수 있는 중요한 움직임입니다."
+      ]
+    },
+    {
+      "title": "Lithium Deficit Is Back: How China and Zimbabwe Supply Cuts Are Reshaping the Market",
+      "published_at": "2026-05-05",
+      "source": "CarbonCredits.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUGFpR21uUEI5Q2owZ250X19uZlU1OUNuS0N2QzQ1UDZzdHFkLV96akNqckVqWEU2My1oVXFwSEZvcHdKbUhQbDJqMTlqcUlZWDZuUE40X3lvdXhaTWxMaEVlenI3Zk1iZkJpR29sQ0ZfMFozMHM0U3dPWXI1XzhoTUhPUUc0ckdubGNJVmhBajllXzRTc0xVeEhzNWRvbkptb0pUZWdsNTVkWHRKQTN3NzJhSkdEQQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOUGFpR21uUEI5Q2owZ250X19uZlU1OUNuS0N2QzQ1UDZzdHFkLV96akNqckVqWEU2My1oVXFwSEZvcHdKbUhQbDJqMTlqcUlZWDZuUE40X3lvdXhaTWxMaEVlenI3Zk1iZkJpR29sQ0ZfMFozMHM0U3dPWXI1XzhoTUhPUUc0ckdubGNJVmhBajllXzRTc0xVeEhzNWRvbkptb0pUZWdsNTVkWHRKQTN3NzJhSkdEQQ?oc=5\" target=\"_blank\">Lithium Deficit Is Back: How China and Zimbabwe Supply Cuts Are Reshaping the Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CarbonCredits.com</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "짐바브웨"
+      ],
+      "summary_3_sentences": [
+        "중국과 짐바브웨의 리튬 공급 차질로 리튬 부족 현상이 다시 심화되고 있습니다.",
+        "이는 리튬 가격 상승과 배터리 시장의 불안정성을 야기할 수 있습니다.",
+        "이러한 상황은 리튬 공급망 다변화의 필요성을 강조합니다."
+      ]
+    },
+    {
+      "title": "Energy Storage Sodium Ion Battery Market Crosses Commercial",
+      "published_at": "2026-05-05",
+      "source": "openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNU1pleTZfcUdCMTlzSWN6SUFBcDZKSGx3OXdKQ1ZyQjZPdG9rR3d1WjFKa3phcTNNaHlWSTVlODE5b2FvOUVzdS1JQWNETlBpS1hia2V4QlZZc1JZMmF3bnlrQlFFcjNCdmVValpBeHdaLXdNZWs1aU5hUExPOElQeklucUpCbGlqSmZXVjVreEdjM2tGUW5WWnZuWQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNU1pleTZfcUdCMTlzSWN6SUFBcDZKSGx3OXdKQ1ZyQjZPdG9rR3d1WjFKa3phcTNNaHlWSTVlODE5b2FvOUVzdS1JQWNETlBpS1hia2V4QlZZc1JZMmF3bnlrQlFFcjNCdmVValpBeHdaLXdNZWs1aU5hUExPOElQeklucUpCbGlqSmZXVjVreEdjM2tGUW5WWnZuWQ?oc=5\" target=\"_blank\">Energy Storage Sodium Ion Battery Market Crosses Commercial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "기타",
+      "companies": [],
+      "summary_3_sentences": [
+        "에너지 저장 장치용 나트륨 이온 배터리 시장이 상업화 단계에 진입했습니다.",
+        "이는 기존 리튬 이온 배터리의 대안으로 나트륨 이온 배터리의 가능성을 보여줍니다.",
+        "나트륨 이온 배터리는 비용 효율성과 공급망 안정성 측면에서 이점을 가질 수 있습니다."
+      ]
+    },
+    {
+      "title": "CAT, sourceL and HyperStrong Sign the World's Largest Sodium-Ion Energy Storage Cooperation Agreement",
+      "published_at": "2026-05-05",
+      "source": "Batteries News",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNE1NSWFybUtueFlaSGRMRjZDY3BGQTBHMTB6UjFhWTdrR2pHOXl4NVJZN0JwU2JxTVNTLWJoYXhpX0U0cnA1b0VGaEFrdG1ZYmc2YjRSSDBzLUx2ZlJnV1Ntd1FKQkZIdm5CaGRHTm5Ea2J1YzRPaDNXVnJrb2Zlb1NXYWpIODhEdUQ1bENGcGVSaGtodi1XZWFUMzlPQjNnRWxKcVpLRVE0OG1IVjVfSHMycm5ZaXFyUmFmRTd2R0RqUzRX?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQNE1NSWFybUtueFlaSGRMRjZDY3BGQTBHMTB6UjFhWTdrR2pHOXl4NVJZN0JwU2JxTVNTLWJoYXhpX0U0cnA1b0VGaEFrdG1ZYmc2YjRSSDBzLUx2ZlJnV1Ntd1FKQkZIdm5CaGRHTm5Ea2J1YzRPaDNXVnJrb2Zlb1NXYWpIODhEdUQ1bENGcGVSaGtodi1XZWFUMzlPQjNnRWxKcVpLRVE0OG1IVjVfSHMycm5ZaXFyUmFmRTd2R0RqUzRX?oc=5\" target=\"_blank\">CAT, sourceL and HyperStrong Sign the World's Largest Sodium-Ion Energy Storage Cooperation Agreement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Batteries News</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [
+        "CAT",
+        "S.L.C",
+        "HyperStrong"
+      ],
+      "summary_3_sentences": [
+        "CAT, sourceL, HyperStrong은 세계 최대 규모의 나트륨 이온 에너지 저장 협력 계약을 체결했습니다.",
+        "이 계약은 나트륨 이온 배터리 기술의 상업적 중요성이 커지고 있음을 나타냅니다.",
+        "이는 에너지 저장 시장에서 나트륨 이온 배터리의 채택이 확대될 것임을 시사합니다."
+      ]
+    },
+    {
+      "title": "China’s iron grip on batteries fuels desperate hunt for Lithium rivals",
+      "published_at": "2026-05-05",
+      "source": "Business News Nigeria",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYVJWS0Y2V1VwdG5GZlc3ajAxVlVTLVc2cFVZTkowVHl6YndkMXBEZmNjSjJOUlJkR3Y5MTFFNkxyQkZoOVFXTmJZTjdWSWpYR2t4ZDJtaUdabWJ1UFBaT1BGMVlzcXJHaTJPMVJrLUxlQTJ1ZnpFY01hd3V6MDlpLU04WXJpN19JT1VmZHZfUVJ5RGVmYWdjTXJ5aFhJNFhKUV9aV3dQa1ktbXEy?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOYVJWS0Y2V1VwdG5GZlc3ajAxVlVTLVc2cFVZTkowVHl6YndkMXBEZmNjSjJOUlJkR3Y5MTFFNkxyQkZoOVFXTmJZTjdWSWpYR2t4ZDJtaUdabWJ1UFBaT1BGMVlzcXJHaTJPMVJrLUxlQTJ1ZnpFY01hd3V6MDlpLU04WXJpN19JT1VmZHZfUVJ5RGVmYWdjTXJ5aFhJNFhKUV9aV3dQa1ktbXEy?oc=5\" target=\"_blank\">China’s iron grip on batteries fuels desperate hunt for Lithium rivals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business News Nigeria</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "정책",
+      "companies": [],
+      "summary_3_sentences": [
+        "중국의 강력한 배터리 시장 지배력으로 인해 리튬 대체재에 대한 탐색이 시급해지고 있습니다.",
+        "이는 리튬 공급망의 취약성과 특정 국가에 대한 의존도를 보여줍니다.",
+        "배터리 산업은 공급망 다변화를 통해 안정성을 확보하려 노력하고 있습니다."
+      ]
+    },
+    {
+      "title": "K-Battery Accelerates Development of Cost-Effective Sodium-Ion Batteries",
+      "published_at": "2026-05-05",
+      "source": "매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IWUpQcmhwbnFtTEdvZ0prY1FhWmE2c3lUYUM1WXpBTnpienRoQklYTWxfbVh0WXYyS2hFWDdQZmFEbVV6LXlzTFNWNG9DQU13U2ZB?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IWUpQcmhwbnFtTEdvZ0prY1FhWmE2c3lUYUM1WXpBTnpienRoQklYTWxfbVh0WXYyS2hFWDdQZmFEbVV6LXlzTFNWNG9DQU13U2ZB?oc=5\" target=\"_blank\">K-Battery Accelerates Development of Cost-Effective Sodium-Ion Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">매일경제</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [],
+      "summary_3_sentences": [
+        "K-배터리가 비용 효율적인 나트륨 이온 배터리 개발에 박차를 가하고 있습니다.",
+        "이는 기존 리튬 이온 배터리의 대안으로서 나트륨 이온 배터리의 중요성이 부각되고 있음을 의미합니다.",
+        "나트륨 이온 배터리는 가격 경쟁력과 공급망 안정성 측면에서 이점을 제공할 수 있습니다."
+      ]
+    },
+    {
+      "title": "Large-Scale Sodium-Ion Deal Signals Shift in Battery Market Dynamics",
+      "published_at": "2026-05-05",
+      "source": "TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeWlhelR2Z0xPOG5ndVc1aTdPMXY2ZXNnejhteF9RU0pJeXdFeHJ4Y2tPLXR4LWF5SUVfRENvTzUzSjBLSXJuWVNieE5CaVA5Qy11TElTMXNZdThsVS1VZFYyREdpdE55b1VfNmRmM24wdkEzenpLd1l3YVkwSTZPTzhRTkV6ZXFEWnludERtMWsybnI4eXVESGJKMnlnOUZfNmFsb0h3Y0R1N3lGWHVicEhrV3pSbVU?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPeWlhelR2Z0xPOG5ndVc1aTdPMXY2ZXNnejhteF9RU0pJeXdFeHJ4Y2tPLXR4LWF5SUVfRENvTzUzSjBLSXJuWVNieE5CaVA5Qy11TElTMXNZdThsVS1VZFYyREdpdE55b1VfNmRmM24wdkEzenpLd1l3YVkwSTZPTzhRTkV6ZXFEWnludERtMWsybnI4eXVESGJKMnlnOUZfNmFsb0h3Y0R1N3lGWHVicEhrV3pSbVU?oc=5\" target=\"_blank\">Large-Scale Sodium-Ion Deal Signals Shift in Battery Market Dynamics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TipRanks</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [],
+      "summary_3_sentences": [
+        "대규모 나트륨 이온 배터리 계약 체결은 배터리 시장의 역학 관계 변화를 예고합니다.",
+        "이는 나트륨 이온 배터리가 에너지 저장 시장에서 중요한 역할을 할 가능성을 보여줍니다.",
+        "이번 계약은 배터리 기술의 다양화와 경쟁 심화를 촉진할 것으로 예상됩니다."
+      ]
+    },
+    {
+      "title": "Sodium-Ion, Solid-State & 1MW Charging Breakthroughs 2026: The Next EV Revolution Already Here",
+      "published_at": "2026-05-05",
+      "source": "EVTech.News",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRjNBS2dNMklxLXZnOFhONEpFTXBWZkFINnFicjNFSXRrcjhSaWQwUVBucVhBUF9IM2loclBZaTRSZDQzVG11WDNWRVI4MXJuSHFzLXFCOEY0TEJ2NktOOVBxM1BBek5CRlhmRE1BNVZZUUNyNGhSOGM5LTNHTXRfV0t1clRDdExwTkFjZnc1ZUg3WTV1dHdoZS1GcURKNzJQOUs3bEFrVnlxVjVpY3Z4UEwzM0puOGxQZDBvQw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPRjNBS2dNMklxLXZnOFhONEpFTXBWZkFINnFicjNFSXRrcjhSaWQwUVBucVhBUF9IM2loclBZaTRSZDQzVG11WDNWRVI4MXJuSHFzLXFCOEY0TEJ2NktOOVBxM1BBek5CRlhmRE1BNVZZUUNyNGhSOGM5LTNHTXRfV0t1clRDdExwTkFjZnc1ZUg3WTV1dHdoZS1GcURKNzJQOUs3bEFrVnlxVjVpY3Z4UEwzM0puOGxQZDBvQw?oc=5\" target=\"_blank\">Sodium-Ion, Solid-State & 1MW Charging Breakthroughs 2026: The Next EV Revolution Already Here</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EVTech.News</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [],
+      "summary_3_sentences": [
+        "2026년 나트륨 이온, 전고체 배터리 및 1MW 충전 기술의 혁신이 예상됩니다.",
+        "이는 전기차 배터리 기술이 차세대 혁명을 준비하고 있음을 시사합니다.",
+        "이러한 기술 발전은 전기차의 성능과 충전 경험을 크게 향상시킬 것입니다."
+      ]
+    },
+    {
+      "title": "'4년만 흑자 전환' 엘앤에프, 'LFP 양극재' 국내 최초 상업화 준비",
+      "description": "2차전지 양극활물질 제조기업 엘앤에프가 중동 전쟁 이후 고객사인 배터리 셀 업체의 원통형 전지 판매 성장세가 상향, 올해 1분기 매출액은 전분기대비 20% 증가한 7,396억원, 영업이익은 42% 증가한 1,173억원(OPM 15.9...",
+      "link": "http://www.newsfc.co.kr/news/articleView.html?idxno=78465",
+      "source": "www.newsfc.co.kr",
+      "published_at": "2026-05-06",
+      "provider": "naver",
+      "related_links": [
+        {
+          "source": "www.newspim.com",
+          "link": "https://www.newspim.com/news/view/20260506000114"
+        },
+        {
+          "source": "biz.chosun.com",
+          "link": "https://biz.chosun.com/stock/stock_general/2026/05/06/KJE2OEDCJ5FSRHFNANMHNO53FE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "엘앤에프",
+        "2차전지",
+        "LFP"
+      ],
+      "summary_3_sentences": [
+        "엘앤에프가 4년 만에 흑자 전환에 성공하며 LFP 양극재의 국내 최초 상업화를 준비하고 있습니다.",
+        "이는 엘앤에프의 실적 개선과 새로운 시장 개척 노력을 보여줍니다.",
+        "LFP 양극재 상업화는 회사의 성장 동력 확보에 기여할 것으로 기대됩니다."
+      ]
+    },
+    {
+      "title": "대신증권 \"엘앤에프, 숏티지 수혜 예상…업종 내 투자 매력 지속될 것\"",
+      "description": "고객사로 하여금 매력도 높을 수밖에 없기 때문이다. 2026년 국내 셀3사의 북미 ESS 배터리셀 캐파 확장 및 생산 본격화됨에 따라 동사의 FEOC-Free 양극재에 대한 추가 수주가 지속될 것으로 예상한다\"고 분석했다.",
+      "link": "https://www.etoday.co.kr/news/view/2581710",
+      "source": "www.etoday.co.kr",
+      "published_at": "2026-05-06",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "엘앤에프",
+        "국내 셀3사",
+        "FEOC"
+      ],
+      "summary_3_sentences": [
+        "대신증권은 엘앤에프가 숏티지(shortage) 수혜를 입을 것으로 예상하며 업종 내 투자 매력이 지속될 것이라고 분석했습니다.",
+        "이는 엘앤에프의 경쟁력과 향후 성장 가능성에 대한 긍정적인 전망을 제시합니다.",
+        "특히 2026년 국내 셀 3사의 북미 ESS 캐파 확장과 맞물려 엘앤에프의 FEOC-Free 양극재 수주가 늘어날 것으로 기대됩니다."
+      ]
+    },
+    {
+      "title": "에코프로비엠, 하이니켈 삼원계 배터리로 유럽 및 글로벌 시장 공략 본...",
+      "description": "나트륨이온 배터리를 중심으로 한 2차전지 테마가 4일 완만한 상승 흐름을 보이며 장을 마감했다. 기존 리튬이온 중심의 밸류체인에 대한 부담이 이어지는 가운데, 원가 경쟁력과 공급망 안정성을 동시에 확보할 수 있는...",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=450551",
+      "source": "www.pinpointnews.co.kr",
+      "published_at": "2026-05-05",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 92,
+      "monitoring_importance": 92,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [
+        "에코프로비엠",
+        "나트륨이온",
+        "2차전지"
+      ],
+      "summary_3_sentences": [
+        "에코프로비엠이 하이니켈 삼원계 배터리로 유럽 및 글로벌 시장 공략에 나섰습니다.",
+        "이는 에코프로비엠의 기술력과 글로벌 시장 확장 의지를 보여줍니다.",
+        "나트륨 이온 배터리 테마가 상승 흐름을 보이는 가운데, 에코프로비엠은 기존 리튬 이온 배터리 시장에서의 경쟁력을 강화하고 있습니다."
+      ]
+    },
+    {
+      "title": "Bill to Promote EV Battery Recycling Clears Senate",
+      "published_at": "2026-05-05",
+      "source": "Colorado Senate Democrats",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbmtFNVBoN3FvMGQxUlM4eTdVY0FuSlJhZndmMFBHdVhtaDltY0dmTU1XREJaWkFhLWZkZXg2M2hRUW44Ni1HcU41YTA3YmFia2M3Y1RGN2hxUkJ6ZU80d0FuU1RHeGRKbHF3Uk5jQ3Q2dWFwM2pxVTVoazZPc2JTcEZsVFc1MDdqXzVRbHFR?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNbmtFNVBoN3FvMGQxUlM4eTdVY0FuSlJhZndmMFBHdVhtaDltY0dmTU1XREJaWkFhLWZkZXg2M2hRUW44Ni1HcU41YTA3YmFia2M3Y1RGN2hxUkJ6ZU80d0FuU1RHeGRKbHF3Uk5jQ3Q2dWFwM2pxVTVoazZPc2JTcEZsVFc1MDdqXzVRbHFR?oc=5\" target=\"_blank\">Bill to Promote EV Battery Recycling Clears Senate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Colorado Senate Democrats</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "재활용",
+      "companies": [
+        "미국 상원"
+      ],
+      "summary_3_sentences": [
+        "미국 상원에서 전기차 배터리 재활용 촉진 법안이 통과되었습니다.",
+        "이는 지속 가능한 배터리 산업 생태계 구축을 위한 중요한 진전입니다.",
+        "이 법안은 배터리 재활용률을 높여 환경 보호와 자원 순환에 기여할 것으로 기대됩니다."
+      ]
+    },
+    {
+      "title": "ESS Inc partners with Alsym Energy for 8.5GWh of US sodium-ion BESS cells",
+      "published_at": "2026-05-05",
+      "source": "Energy-Storage.News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNzB4a2VFRTR2RlNCbGZWZDI4eWs0ZjFGTFltSnk0UmN1Q25OOG5LMXVBcURkRVZxNVZDNzlsT2YwNTVMWFpnRC1rem9BWThZd3Y0WnRjcmJMNHhrNjBiRi0xbjBOSDVYYm1iQ1B0TUtyRHJoM2thZDUwcDhuVFJ2X2V0SC0tYnRqQVk2WnRIYlloU1NOeV81Q2lLdDg5Y0NvTVdZMTVtTExkUQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNzB4a2VFRTR2RlNCbGZWZDI4eWs0ZjFGTFltSnk0UmN1Q25OOG5LMXVBcURkRVZxNVZDNzlsT2YwNTVMWFpnRC1rem9BWThZd3Y0WnRjcmJMNHhrNjBiRi0xbjBOSDVYYm1iQ1B0TUtyRHJoM2thZDUwcDhuVFJ2X2V0SC0tYnRqQVk2WnRIYlloU1NOeV81Q2lLdDg5Y0NvTVdZMTVtTExkUQ?oc=5\" target=\"_blank\">ESS Inc partners with Alsym Energy for 8.5GWh of US sodium-ion BESS cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Energy-Storage.News</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [
+        "ESS Inc",
+        "Alsym Energy",
+        "US"
+      ],
+      "summary_3_sentences": [
+        "ESS Inc.가 Alsym Energy와 협력하여 8.5GWh 규모의 미국 내 나트륨 이온 BESS 셀 공급 계약을 체결했습니다.",
+        "이는 미국 에너지 저장 시장에서 나트륨 이온 배터리의 채택이 확대되고 있음을 보여줍니다.",
+        "이번 파트너십은 나트륨 이온 배터리 기술의 상업적 확산에 기여할 것으로 예상됩니다."
+      ]
+    },
+    {
+      "title": "대신證 “삼성SDI, 북미 ESS가 성장판 연다…목표주가 92만원”",
+      "description": "2026년 북미 ESS 생산능력(Capa) 확대와 비중국 LFP 양극재 선제 확보, 2027년 전고체 배터리 양산 목표가 핵심 투자 포인트라고 짚었다. 대신증권은 국내 2차전지 업종의 12개월 선행 EV/EBITDA 평균에 북미 ESS 캐파...",
+      "link": "https://www.etoday.co.kr/news/view/2581712",
+      "source": "www.etoday.co.kr",
+      "published_at": "2026-05-06",
+      "provider": "naver",
+      "related_links": [
+        {
+          "source": "www.financialpost.co.kr",
+          "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=257848"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "monitor_score": 88,
+      "monitoring_importance": 88,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "대신증권",
+        "삼성SDI",
+        "2차전지"
+      ],
+      "summary_3_sentences": [
+        "대신증권은 삼성SDI가 북미 ESS 시장 확대를 통해 성장할 것이라며 목표주가를 92만원으로 제시했습니다.",
+        "이는 삼성SDI의 북미 ESS 사업 전망에 대한 긍정적인 평가를 반영합니다.",
+        "2026년 북미 ESS 생산능력 확대, 비중국 LFP 양극재 확보, 2027년 전고체 배터리 양산 계획이 핵심 투자 포인트로 꼽혔습니다."
+      ]
+    }
+  ]
+}
