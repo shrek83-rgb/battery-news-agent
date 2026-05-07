@@ -1,5 +1,138 @@
 [
   {
+    "title": "영하 20℃도 끄덕없다...화재위험 낮춘 고체 전해질 개발",
+    "description": "이에 연구팀은 긴 사슬 형태의 유기 고분자(폴리에틸렌글리콜 디메틸에터) 기반 네트워크에 불소계 에터(FE)를 결합한 새로운 고체 전해질을 개발했다. 이 과정에서 고분자와 첨가제 사이에 상호작용을 일으켜 구조를...",
+    "link": "https://www.newstree.kr/newsView/ntr202605070009",
+    "source": "www.newstree.kr",
+    "published_at": "2026-05-07",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.dongascience.com",
+        "link": "https://www.dongascience.com/news/view/77771"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "FE"
+    ],
+    "summary_3_sentences": [
+      "연구팀은 긴 사슬 형태의 유기 고분자 기반 네트워크에 불소계 에터를 결합한 새로운 고체 전해질을 개발했습니다.",
+      "이 과정에서 고분자와 첨가제 사이에 상호작용을 일으켜 구조를 안정화했습니다.",
+      "개발된 전해질은 영하 20도 이하에서도 동결 없이 높은 이온 전도도를 유지합니다."
+    ],
+    "uid": "a6ff2b39827f60272b16205412b6c9428530839b"
+  },
+  {
+    "title": "DGIST, 화재 위험 낮춘 리튬 금속 전지용 고체 전해질 개발",
+    "description": "연구팀은 이 문제를 해결하기 위해 PEGDME 기반 고분자 네트워크에 불소계 에터(Fluorinated Ether, FE)를 결합한 새 고체 전해질을 개발했다. 이 과정에서 고분자와 첨가제 간의 분자 상호작용을 통해 구조를 안정화하고...",
+    "link": "https://www.newsis.com/view/NISX20260507_0003619438",
+    "source": "www.newsis.com",
+    "published_at": "2026-05-07",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "DGIST",
+      "PEGDME",
+      "FE"
+    ],
+    "summary_3_sentences": [
+      "DGIST 연구팀은 PEGDME 기반 고분자 네트워크에 불소계 에터(FE)를 결합한 새로운 고체 전해질을 개발했습니다.",
+      "이 전해질은 고분자와 첨가제 간의 분자 상호작용을 통해 구조를 안정화하는 데 성공했습니다.",
+      "이는 리튬 금속 전지의 화재 위험을 낮추는 데 기여할 것으로 예상됩니다."
+    ],
+    "uid": "330885d465b74199203f21d0370c5ac4ae766c08"
+  },
+  {
+    "title": "\"피지컬 AI의 심장\"…전고체 배터리, '꿈의 기술'에서 현실로 성큼",
+    "description": "전기차를 넘어 로봇·항공우주·방산 산업까지 확장되는 차세대 산업 패권 경쟁의 핵심 축으로 '전고체 배터리(All-Solid-State Battery·ASSB)'가 급부상하고 있다. [사진=삼일PwC경영연구원] ［뉴시안= 이태영 기자］...",
+    "link": "http://www.newsian.co.kr/news/articleView.html?idxno=89331",
+    "source": "www.newsian.co.kr",
+    "published_at": "2026-05-07",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼일PwC경영연구원",
+      "ASSB"
+    ],
+    "summary_3_sentences": [
+      "전고체 배터리(ASSB)가 전기차를 넘어 로봇, 항공우주, 방산 산업까지 확장되는 차세대 산업 패권 경쟁의 핵심으로 부상하고 있습니다.",
+      "전고체 배터리는 '꿈의 기술'에서 현실로 나아가고 있습니다.",
+      "이는 차세대 산업 경쟁의 중요한 축이 될 것으로 전망됩니다."
+    ],
+    "uid": "f9947370f2530c24149e063660fb7ca8047afcbf"
+  },
+  {
+    "title": "배터리 화재 위험 잡았다…디지스트 연구진 기술 개발",
+    "description": "고체 전해질을 개발했다. 이 과정에서 고분자와 첨가제 간의 분자 상호작용을 통해 구조를 안정화하고 기존 대비 성능을 크게 개선했다. 그 결과 개발된 전해질은 영하 20도 이하에서도 동결 없이 높은 이온 전도도를...",
+    "link": "https://www.kmib.co.kr/article/view.asp?arcid=0029785381&code=61121111&cp=nv",
+    "source": "www.kmib.co.kr",
+    "published_at": "2026-05-07",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "DGIST"
+    ],
+    "summary_3_sentences": [
+      "DGIST 연구진이 배터리 화재 위험을 낮추는 고체 전해질 기술을 개발했습니다.",
+      "개발된 전해질은 고분자와 첨가제 간의 분자 상호작용을 통해 구조를 안정화하고 성능을 크게 개선했습니다.",
+      "이 전해질은 영하 20도 이하에서도 동결 없이 높은 이온 전도도를 보여줍니다."
+    ],
+    "uid": "0c59161ebcbb95caf6b4847bc24f5eb9d19dfaae"
+  },
+  {
+    "title": "‘불나고 터지는 배터리 끝?’···DGIST, 배터리 저온·화재 위험 낮췄...",
+    "description": "연구팀은 이러한 문제를 해결하기 위해 고분자 네트워크에 불소계 에터(FE)를 결합한 새로운 고체 전해질을 개발했다. 이 과정에서 고분자와 첨가제 간의 분자 상호작용을 통해 구조를 안정화하고 성능을 크게 개선했다....",
+    "link": "https://www.khan.co.kr/article/202605071214001",
+    "source": "www.khan.co.kr",
+    "published_at": "2026-05-07",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.kbmaeil.com",
+        "link": "https://www.kbmaeil.com/article/20260507500272"
+      },
+      {
+        "source": "www.enewstoday.co.kr",
+        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2426811"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "DGIST",
+      "FE"
+    ],
+    "summary_3_sentences": [
+      "DGIST 연구팀이 고분자 네트워크에 불소계 에터를 결합한 새로운 고체 전해질을 개발했습니다.",
+      "이 전해질은 고분자와 첨가제 간의 분자 상호작용을 통해 구조를 안정화하고 성능을 크게 개선했습니다.",
+      "이는 배터리의 저온 성능 및 화재 위험성을 낮추는 데 기여할 것으로 기대됩니다."
+    ],
+    "uid": "44cac0f6e31d72519ba228933e1606b9e98ce847"
+  },
+  {
     "title": "'4년만 흑자 전환' 엘앤에프, 'LFP 양극재' 국내 최초 상업화 준비",
     "description": "2차전지 양극활물질 제조기업 엘앤에프가 중동 전쟁 이후 고객사인 배터리 셀 업체의 원통형 전지 판매 성장세가 상향, 올해 1분기 매출액은 전분기대비 20% 증가한 7,396억원, 영업이익은 42% 증가한 1,173억원(OPM 15.9...",
     "link": "http://www.newsfc.co.kr/news/articleView.html?idxno=78465",
@@ -87,6 +220,242 @@
       "2026년 북미 ESS 생산능력 확대, 비중국 LFP 양극재 확보, 2027년 전고체 배터리 양산 계획이 핵심 투자 포인트로 꼽혔습니다."
     ],
     "uid": "054cadce5d3725a882770e5358cb957f7dc58623"
+  },
+  {
+    "title": "Solid-State Battery Precursor-Free Cathodes Market Size Worth",
+    "published_at": "2026-05-06",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY19NUFVGZm45U0NIUXVvNlB5RGRyUFVxOWk5S20xTEt2QU1JNjdqelFqdGYzeDBadDZHam5ZbnRWcnFFMkVOazBfdDBWQktFUjNJVGNVTnhQX3BwLTBjS0JZemZHeWhIUnNZU18zWG0yeHI0Nzg4UXlZdDEtek5OWGY3bVVnbV9uSXNHN2E0VEd3V1BBRVZCSlNuWmN4Zw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNY19NUFVGZm45U0NIUXVvNlB5RGRyUFVxOWk5S20xTEt2QU1JNjdqelFqdGYzeDBadDZHam5ZbnRWcnFFMkVOazBfdDBWQktFUjNJVGNVTnhQX3BwLTBjS0JZemZHeWhIUnNZU18zWG0yeHI0Nzg4UXlZdDEtek5OWGY3bVVnbV9uSXNHN2E0VEd3V1BBRVZCSlNuWmN4Zw?oc=5\" target=\"_blank\">Solid-State Battery Precursor-Free Cathodes Market Size Worth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [],
+    "summary_3_sentences": [
+      "전고체 배터리 전구체 미사용 양극재 시장의 규모에 대한 분석이 이루어졌습니다.",
+      "이 시장은 전고체 배터리 기술 발전과 함께 성장할 잠재력을 가지고 있습니다.",
+      "향후 전고체 배터리 상용화에 중요한 역할을 할 것으로 예상됩니다."
+    ],
+    "uid": "530e8f4af09f533f30f2bb65b046cf7495ea99d7"
+  },
+  {
+    "title": "Solid State Battery Market Growth Accelerates at 39.2% CAGR, Reaching $27,778.0 Million by 2033 - SRI",
+    "published_at": "2026-05-06",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMkpCMVlndWxVMENVLWVqc2hIUDZ1czZKNTU4c0g2SmNKN1ZFTlNDUjdUNF9wNUZ1Z3h1bTBmdTliSDJWaElCOS1XeWs5MnAwR3duWHBKNzhZUWdxNVFZQnZaaTZaeENPd211NVpVS3JFb3ZjczRPdEJuV0tKLTdTOGVsMnRRbEFza2QwY2VBekQxRDRZbU9XWHJn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPMkpCMVlndWxVMENVLWVqc2hIUDZ1czZKNTU4c0g2SmNKN1ZFTlNDUjdUNF9wNUZ1Z3h1bTBmdTliSDJWaElCOS1XeWs5MnAwR3duWHBKNzhZUWdxNVFZQnZaaTZaeENPd211NVpVS3JFb3ZjczRPdEJuV0tKLTdTOGVsMnRRbEFza2QwY2VBekQxRDRZbU9XWHJn?oc=5\" target=\"_blank\">Solid State Battery Market Growth Accelerates at 39.2% CAGR, Reaching $27,778.0 Million by 2033 - SRI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "SRI",
+      "CAGR"
+    ],
+    "summary_3_sentences": [
+      "SRI의 보고서에 따르면 고체 전지 시장은 연평균 39.2%의 성장률을 기록하며 2033년까지 277억 7,800만 달러에 이를 것으로 예상됩니다.",
+      "이는 고체 전지 시장의 가파른 성장세를 보여줍니다.",
+      "이러한 성장세는 향후 고체 전지 기술의 발전과 상용화를 가속화할 것으로 전망됩니다."
+    ],
+    "uid": "2d0653a126860cdc5fcf38c8cbee4cda3395c187"
+  },
+  {
+    "title": "Lithium-Ion Battery Materials Market to Reach $228.04 Billion by 2032, Growing at 23.3% CAGR",
+    "published_at": "2026-05-06",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMnR2RGNUdGFwemJtcTdlV1J0WGxfQjByVWQzMmRTazRTX0lldUNkc29lV3BaTmJxdnVwRWlVY3RYcDRCYS02M2lBanRXZ053QXloX2IyZjdaOTNuMWxJV3FsTlQtOEpfUUxSWEpCcUtPWHRTZkY3RF91T3hSOVFRQ0pJMy1RWHdBNHRJTXRFNnhESGpLQS16S3BhMWU?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPMnR2RGNUdGFwemJtcTdlV1J0WGxfQjByVWQzMmRTazRTX0lldUNkc29lV3BaTmJxdnVwRWlVY3RYcDRCYS02M2lBanRXZ053QXloX2IyZjdaOTNuMWxJV3FsTlQtOEpfUUxSWEpCcUtPWHRTZkY3RF91T3hSOVFRQ0pJMy1RWHdBNHRJTXRFNnhESGpLQS16S3BhMWU?oc=5\" target=\"_blank\">Lithium-Ion Battery Materials Market to Reach $228.04 Billion by 2032, Growing at 23.3% CAGR</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "CAGR"
+    ],
+    "summary_3_sentences": [
+      "리튬 이온 배터리 소재 시장은 연평균 23.3%의 성장률을 기록하며 2032년까지 2,280억 4,000만 달러에 달할 것으로 예상됩니다.",
+      "이는 리튬 이온 배터리 소재 시장의 지속적인 성장을 나타냅니다.",
+      "이러한 성장은 전기차 및 에너지 저장 장치 시장의 확대와 밀접한 관련이 있습니다."
+    ],
+    "uid": "1543864584d35d606913d49465e338cab71c10ce"
+  },
+  {
+    "title": "CATL announces breakthrough in rollout of sodium-ion technology for energy storage",
+    "published_at": "2026-05-06",
+    "source": "Sustainability Online",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3JOd2daNjU3cnZrUWtadmRMWWxUTnJsb3I3VlRPQUtOU3ZZeFVPZ0s0VUo0ZTVJeXA4QnB4QjFRVUZBb1FEc2JaM2dxSEFSMFpPLVl0VEdlUVpqU3BNV1IybWFEaUxRdDZzMzZCV2RqaFhzcURWTWpFanhyU283RU1WYWE4bnE0SFYxbFJ1bUFyU2pSUDZfUTFyNzJ2S1hxMlM0a1pOUnNpS3BTZlpmVFBfOG1GenlSZ0dKU1ZR?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3JOd2daNjU3cnZrUWtadmRMWWxUTnJsb3I3VlRPQUtOU3ZZeFVPZ0s0VUo0ZTVJeXA4QnB4QjFRVUZBb1FEc2JaM2dxSEFSMFpPLVl0VEdlUVpqU3BNV1IybWFEaUxRdDZzMzZCV2RqaFhzcURWTWpFanhyU283RU1WYWE4bnE0SFYxbFJ1bUFyU2pSUDZfUTFyNzJ2S1hxMlM0a1pOUnNpS3BTZlpmVFBfOG1GenlSZ0dKU1ZR?oc=5\" target=\"_blank\">CATL announces breakthrough in rollout of sodium-ion technology for energy storage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sustainability Online</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL은 에너지 저장 장치를 위한 나트륨 이온 기술의 출시에서 획기적인 발전을 발표했습니다.",
+      "이는 나트륨 이온 기술의 상용화 가능성을 높이는 중요한 성과입니다.",
+      "CATL의 이러한 발표는 에너지 저장 시장에 큰 영향을 미칠 것으로 예상됩니다."
+    ],
+    "uid": "5c6e098825c9c6a6ba32bdd8a89526f0b626f66a"
+  },
+  {
+    "title": "The US Just Found Enough Lithium To Rival China - Now Comes The Hard Part",
+    "published_at": "2026-05-06",
+    "source": "SlashGear",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0ttSENUSk04SWFMdnRfMGFxM21DbzB2eVdzX09DSThJRWU5UnZxcnEyR3JaYk5HUnFOWGRkMzI5c3Z2a19HNXk0TXN0Zk10YmZ2Y2lEMmVCT01tZndScE5sbS1BODBxVmUtRWZ2LXlXb2dtV0pTVHlhR0s2R3l0QnBobHU?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0ttSENUSk04SWFMdnRfMGFxM21DbzB2eVdzX09DSThJRWU5UnZxcnEyR3JaYk5HUnFOWGRkMzI5c3Z2a19HNXk0TXN0Zk10YmZ2Y2lEMmVCT01tZndScE5sbS1BODBxVmUtRWZ2LXlXb2dtV0pTVHlhR0s2R3l0QnBobHU?oc=5\" target=\"_blank\">The US Just Found Enough Lithium To Rival China - Now Comes The Hard Part</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SlashGear</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "US"
+    ],
+    "summary_3_sentences": [
+      "미국에서 중국과 경쟁할 만한 충분한 양의 리튬이 발견되었지만, 실제 채굴 및 활용에는 어려움이 따를 것입니다.",
+      "리튬 확보는 전기차 배터리 산업의 핵심이지만, 채굴 과정에서의 환경 문제와 기술적 난제가 존재합니다.",
+      "미국의 리튬 자원 확보는 향후 배터리 공급망 재편에 중요한 변수가 될 수 있습니다."
+    ],
+    "uid": "c700b81d995639cf8dbcd4f3ecb584be2141486d"
+  },
+  {
+    "title": "Sodium-Ion Battery Market Size and Forecast Research Report 2026 to 2035",
+    "published_at": "2026-05-06",
+    "source": "Insightace Analytic",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1NMVd0UUpkWGViVl9RS1pkMWwwVDNfYzNZMTd3a2xCaVVlY3hhZjdDSFlXWTNYQV9ySms0cEJiOHRJYXBlaUVPdGFKWVN4MmkwRXlKZkgzazZLeTF1VVNkRGd1ZmFBRUhUSWdFdkpXYi1nRUppVWc0QWF4VF8?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1NMVd0UUpkWGViVl9RS1pkMWwwVDNfYzNZMTd3a2xCaVVlY3hhZjdDSFlXWTNYQV9ySms0cEJiOHRJYXBlaUVPdGFKWVN4MmkwRXlKZkgzazZLeTF1VVNkRGd1ZmFBRUhUSWdFdkpXYi1nRUppVWc0QWF4VF8?oc=5\" target=\"_blank\">Sodium-Ion Battery Market Size and Forecast Research Report 2026 to 2035</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Insightace Analytic</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "Insightace Analytic"
+    ],
+    "summary_3_sentences": [
+      "Insightace Analytic은 2026년부터 2035년까지의 나트륨 이온 배터리 시장 규모 및 예측에 대한 연구 보고서를 발표했습니다.",
+      "이 보고서는 나트륨 이온 배터리 시장의 성장 전망을 다루고 있습니다.",
+      "향후 나트륨 이온 배터리 시장의 동향을 파악하는 데 유용한 정보를 제공할 것으로 보입니다."
+    ],
+    "uid": "d8dfa6b075ff235874546c0092b9c5ee015adb9e"
+  },
+  {
+    "title": "ESS Tech and Alsym Energy Strategic Partnership: 8.5 GWh Sodium-Ion Storage Addition - News and Statistics",
+    "published_at": "2026-05-06",
+    "source": "IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPem1ja0hVYnhFRzZ3bm9HYlNKaUwxU1FqaXZvREZPR29lYWd0ZHV1SkhRSDF5S1JlWTdHWnJMbWVLcjRoTktYQWIxd1luaTVFNjRPNlU2ZEZLX1djN19GZy1XdW15UUhrLWFITVh2aWFYSDZwX0wzWURvZkVSRlhxU3Q3N0tQNE9MZ3pLZ2VGZnF2ZmlZT2VlOEw0bnhUa3R2bVE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPem1ja0hVYnhFRzZ3bm9HYlNKaUwxU1FqaXZvREZPR29lYWd0ZHV1SkhRSDF5S1JlWTdHWnJMbWVLcjRoTktYQWIxd1luaTVFNjRPNlU2ZEZLX1djN19GZy1XdW15UUhrLWFITVh2aWFYSDZwX0wzWURvZkVSRlhxU3Q3N0tQNE9MZ3pLZ2VGZnF2ZmlZT2VlOEw0bnhUa3R2bVE?oc=5\" target=\"_blank\">ESS Tech and Alsym Energy Strategic Partnership: 8.5 GWh Sodium-Ion Storage Addition - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "ESS Tech",
+      "Alsym Energy"
+    ],
+    "summary_3_sentences": [
+      "ESS Tech와 Alsym Energy는 8.5GWh 규모의 나트륨 이온 저장 장치 추가를 위한 전략적 파트너십을 체결했습니다.",
+      "이번 파트너십은 나트륨 이온 배터리 기술의 확산에 기여할 것입니다.",
+      "이는 에너지 저장 시장에서 나트륨 이온 배터리의 경쟁력을 강화할 것으로 보입니다."
+    ],
+    "uid": "41e5f6016757e47439cda032f42b3f1fd38c79fe"
+  },
+  {
+    "title": "CATL shares hit record high on strong May battery production outlook",
+    "published_at": "2026-05-06",
+    "source": "CnEVPost",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUXRnZWlEbDNtVEJmeFktZDI1TmswdFI5eTQ3d1YxS0UtVE5YY094cF9YQmRZMXBqWi1yWXFMRVdvQ1BEYjVUVGs1eFBWTG5ENkpnMU9LdGJXVGdTUTdKTHk1U0RLQ01yeG1ZS0o1SVJyczR0TG9OcDZhTThnNnBqQ2RyNUQtazUtMThrYjMtT014c2o1eEZvTEZB?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQUXRnZWlEbDNtVEJmeFktZDI1TmswdFI5eTQ3d1YxS0UtVE5YY094cF9YQmRZMXBqWi1yWXFMRVdvQ1BEYjVUVGs1eFBWTG5ENkpnMU9LdGJXVGdTUTdKTHk1U0RLQ01yeG1ZS0o1SVJyczR0TG9OcDZhTThnNnBqQ2RyNUQtazUtMThrYjMtT014c2o1eEZvTEZB?oc=5\" target=\"_blank\">CATL shares hit record high on strong May battery production outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CnEVPost</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL의 5월 배터리 생산 전망이 강세를 보이면서 주가가 사상 최고치를 기록했습니다.",
+      "이는 CATL의 생산 능력과 시장 수요에 대한 긍정적인 신호입니다.",
+      "CATL의 실적 개선 기대감이 투자 심리를 자극했습니다."
+    ],
+    "uid": "caef265fa2e11c4dae25adc28b1229d5ab163b16"
+  },
+  {
+    "title": "Lithium-Ion Battery Circularity: Challenges and Opportunities",
+    "published_at": "2026-05-06",
+    "source": "Battery Technology",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRjNiTmQtUGpLeUhXbTJnanFSQmpxekNlMlFENm5EU2RSRldPMTZBbmZTblIyaHVvbzB3S0dkRlBqZDBFcExwWDkwRUxpN3NXcXRvNWlrVmljYUFBNEdIQTNUNk1CZkczMkJ3TU1mMW54Qmw4NEFjLWx6aHZjdVJ5dUdpV1ZucnNQVmJmTGpyb01tLXo2RU15WnFDWVg2TndiY203U1lSWS1lbzZtN0g0TC1B?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPRjNiTmQtUGpLeUhXbTJnanFSQmpxekNlMlFENm5EU2RSRldPMTZBbmZTblIyaHVvbzB3S0dkRlBqZDBFcExwWDkwRUxpN3NXcXRvNWlrVmljYUFBNEdIQTNUNk1CZkczMkJ3TU1mMW54Qmw4NEFjLWx6aHZjdVJ5dUdpV1ZucnNQVmJmTGpyb01tLXo2RU15WnFDWVg2TndiY203U1lSWS1lbzZtN0g0TC1B?oc=5\" target=\"_blank\">Lithium-Ion Battery Circularity: Challenges and Opportunities</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Battery Technology</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "이 기사는 리튬 이온 배터리의 순환성에 대한 도전 과제와 기회를 심층적으로 분석합니다.",
+      "배터리 재활용 및 재사용의 중요성이 강조되고 있습니다.",
+      "지속 가능한 배터리 생태계 구축을 위한 방안을 모색합니다."
+    ],
+    "uid": "218e4b736902da1a53235fffd16a073e065f822b"
+  },
+  {
+    "title": "Two Insurmountable Hurdles: A Deep Dive into the Distance of Solid-State Batteries from Large-Scale Mass Production",
+    "published_at": "2026-05-06",
+    "source": "36氪",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUUEs0eDFHNGVWYWlnYVU2elA5Z3JaMXk4SW5vUHVla2htY2U1U1Q4RlVfcHljWGNEeVBQb2FxX21OMW04dGFRNmJZaF9TS1lRRnhr?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUUEs0eDFHNGVWYWlnYVU2elA5Z3JaMXk4SW5vUHVla2htY2U1U1Q4RlVfcHljWGNEeVBQb2FxX21OMW04dGFRNmJZaF9TS1lRRnhr?oc=5\" target=\"_blank\">Two Insurmountable Hurdles: A Deep Dive into the Distance of Solid-State Batteries from Large-Scale Mass Production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">36氪</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "이 기사는 전고체 배터리의 대규모 양산까지 남은 두 가지 극복하기 어려운 과제에 대해 심층적으로 다룹니다.",
+      "전고체 배터리의 상용화를 위해서는 기술적, 경제적 장벽을 넘어야 합니다.",
+      "대규모 양산까지는 아직 상당한 시간이 소요될 수 있음을 시사합니다."
+    ],
+    "uid": "2fdcf5a41bc5bdff6d1a409f25a42be52f9eb242"
   },
   {
     "title": "K-Battery Accelerates Development of Cost-Effective Sodium-Ion Batteries",
