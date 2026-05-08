@@ -1,0 +1,153 @@
+# 배터리 뉴스 데일리 브리핑 (2026-05-07 전날 기준)
+
+- 총 11건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | cathode | 2026-05-07 | www.huffingtonpost.kr | 포스코그룹 회장 장인화 '리튬 승부수' 빛 발하기 시작 : 무너졌던 '2차... | https://www.huffingtonpost.kr/article/257053 | unknown |
+| 2 | 3 | 전고체 | 2026-05-07 | www.etnews.com | '꿈의배터리' 전고체 개발 앞당긴다...전고체 소재 전문기업 나온다 | https://www.etnews.com/20260507000265 | unknown |
+| 3 | 3 | electrolyte | 2026-05-07 | www.hellodd.com | '영하 20도 작동' 리튬금속전지용 고체전해질 개발 | http://www.hellodd.com/news/articleView.html?idxno=111690 | unknown |
+| 4 | 3 | cathode | 2026-05-07 | www.newsway.co.kr | 북미 EV '캐즘'에 갇힌 K-배터리, 15%대 점유율 사수 비상 | https://www.newsway.co.kr/news/view?ud=2026050714192580830 | unknown |
+| 5 | 3 | 기타 | 2026-05-08 | www.businesspost.co.kr | K배터리 3사 1~3월 중국 제외 세계 점유율 29.6%, 전년보다 8.3%p 감소 | https://www.businesspost.co.kr/BP?command=article_view&num=437343 | unknown |
+| 6 | 3 | 기타 | 2026-05-07 | ABC27 | 300,000 lithium battery packs recalled | https://news.google.com/rss/articles/CBMic0FVX3lxTE5BX29nQ1V2U1N1TjRQVzlrRjlhUHVfSjNkRlhzYzlDZmpMcVFfNkNkQW9ZTkl3ZnFyQXNWa3N6cGh4X01fd1UxZXNXV01lT3RaNHV1UnRCZHFJRXRGZHRLNmhscGdvVHVGRWZJUVZEcHdMamvSAXhBVV95cUxNdkxwSHNMeTdvb2I5elhYUHFmNF90VkZYOG9rRFNmOGdaT2lFT0JsT0dBeUg0WjNtOWQtWFBSc2RqalE1MGU4SXdKWVBQaG9UbFFUNnI2OFh2cDliT19RSlM2TXlvU19hWHU5dVVGTjJwUzZ1RURTcWQ?oc=5 | unknown |
+| 7 | 3 | 기타 | 2026-05-07 | Proactive financial news | Chinese battery giant to acquire Atlantic Lithium in $210m deal | https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ1g4eEp4RXl1ZWRtcWNLOElfZGZrcGpqdE9USGlXZG84ZjdBeFNmVEVrZ1REbEpVOUdQcF9sNnBrZzR4OHBpQ0xaektnS2tFb2w1S2JNbHg1NHVwSlRYVjFwZWJISTZLX29WTWZaOFFGYWhsOTNSSjllcENua1laVXdxVGVKNXpOUEI5ZXhHYWJZTVlOZzFRRzRRTEZ4dE4ycGR5bE1xNS1CTXlucDdpRjVIdG9WQUVFeEszMFZEZm9nUzl1Y0hpZ2tfdDJ1QQ?oc=5 | unknown |
+| 8 | 3 | 기타 | 2026-05-07 | CPSC.gov | EEMB USA Recalls Battery Pouches Due to Risk of Serious Injury or Death from Battery Ingestion; Violate Federal Statute for Child-Resistant Packaging of Coin Batteries | https://news.google.com/rss/articles/CBMipwJBVV95cUxPRkh3Y3BucWtiN3NXVm5SRWxaSE5fazJURUJ1ZVVwcXhTaTlzN0hEcjZiMWVUYmdpNW95U0pIRERvR0hzRldTOHAtNVltWTk1bXRfT3FjbzV4QkI3SFlUbFdZbXNTVmo3MEJsbmFmamhkWS1Hbk5UNFVWYVl4c0lwN3RjSVdVWkhsSTJ4RFVZaWx6QXZMNllQcmFqWU1NYk5YYlpncE83MHZpNnFSR3BIa1BBbEIxbWhYaHgtWXhLM1IwVEJ6Y2pmQ3puN0FWejBsVzFsV0FTWXdGOVl5QjVZOEdyR3NxU1FUOUlVRy1jNm53QVktSllDdEJJZ3JmUm41NVRTWGMyanlET29mSS1nQTREOEZLSEhNWW54VFk1NnF5Ul96bk1r?oc=5 | unknown |
+| 9 | 3 | cathode | 2026-05-07 | IndexBox | Battery Degradation in BESS: LFP Cell Aging, SoC Errors, and Warranty Impacts - News and Statistics | https://news.google.com/rss/articles/CBMirwFBVV95cUxOcmNYYTNXSHVuTDRzOXlXZ3o1SGhHLU11NmI5THhKNFpNbk1MdUN3X0lSZ3FZZjFERm5aemZ6VkQwM21SZFJob2RSbmpwSzVJSTUzdXJnNFE2ZEd1TEdfckhzZFQwcVlla25nd0YzNUUxbkduUzF2TENRSWNxcVBnQ0tvenVLNDl6WkREZW1ORGRVbnh1U20ydzRrQWdmYXQwTGlEZHdqb2RJMktKUzBF?oc=5 | unknown |
+| 10 | 3 | 기타 | 2026-05-07 | Battery Technology | Morrow Batteries Bankruptcy & Why Battery Startups Are Failing | https://news.google.com/rss/articles/CBMivwFBVV95cUxQemw5VkxpRXBNU01qRGx4dlVlb0JsQ3ozSnc5dlRGVFMwLXQxaFJRcHRneXZUWG1DY3NXYTdsUV9PQkFRdGQ4dkRwMjRYSllkdFMtY1ZJVjZoMFVrdjg3eDA4MmJDdDNmODVFR0NESHByMVJUekFmM0ItbzNaelloMUxOTkNPa1JFV2ZrY2VVbzhFSzJtMU1od1gyS3BwZ3pqeVJkcm5HY25GVHVZV091cW5iend2cDl5VkdDT1AtSQ?oc=5 | unknown |
+| 11 | 3 | 기타 | 2026-05-07 | Cowboy State Daily | "It Just Blew Up": Wyoming Couple Jolted Awake When Lithium-Ion Battery Catches Fire | https://news.google.com/rss/articles/CBMivwFBVV95cUxPMk5oT3pVVkhfd3dZWE42RFg1YUNvTUZlVUw5X3p0QWU4MUdBTGE2T1J1SG5vcktoMkhtZC10SEphaUtoZkdXT2tEWVY5Q3ZLUTNRdVYwa2YtWmVvdEd3bzBiaW5UNks3NE9LNkxabWdDTW5UUlRWOXA2dUVPUEswenlhaGZ4SjF3UzNEU0Z3ZFJYQnpMRlZMbWczajRyQmdLSE56Qll2ek9yM3BkU2RLRGpmZlJBUmZuaG9zMHJ2dw?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. 포스코그룹 회장 장인화 '리튬 승부수' 빛 발하기 시작 : 무너졌던 '2차...
+- 발행일: 2026-05-07
+- 매체: www.huffingtonpost.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.huffingtonpost.kr/article/257053
+- 참고 링크: http://www.hansbiz.co.kr/news/articleView.html?idxno=837328, https://www.etoday.co.kr/news/view/2582626
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코그룹이 2차전지 소재 부문에서 반등을 준비하고 있습니다.
+  - 이는 포스코퓨처엠 양극재 사업의 주요 고객사인 LG에너지솔루션-GM 합작법인(얼티엄셀즈)의 배터리 생산량 증가에 따른 것으로 보입니다.
+  - 포스코그룹은 투자 확대를 통해 성장을 도모하고 있습니다.
+- 관련 기업: 포스코그룹, 포스코퓨처엠, LG에너지솔루션
+
+### 2. '꿈의배터리' 전고체 개발 앞당긴다...전고체 소재 전문기업 나온다
+- 발행일: 2026-05-07
+- 매체: www.etnews.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.etnews.com/20260507000265
+- 인기신호: unknown
+- 3문장 요약:
+  - 배터리 검사·진단 전문 기업 민테크가 전고체 배터리 소재 사업에 본격 진출합니다.
+  - 이는 전고체 배터리 양산의 핵심 병목 현상이 소재·공정 문제에 있다는 판단에 따른 것입니다.
+  - 민테크는 검사 장비 사업에서 확보한 기술을 바탕으로 전고체 배터리 개발을 앞당길 것으로 기대됩니다.
+- 관련 기업: 민테크, 꿈의배터리
+
+### 3. '영하 20도 작동' 리튬금속전지용 고체전해질 개발
+- 발행일: 2026-05-07
+- 매체: www.hellodd.com (출처등급 3)
+- 분야: electrolyte
+- 링크: http://www.hellodd.com/news/articleView.html?idxno=111690
+- 참고 링크: http://www.breaknews.com/1205576, https://news.bbsi.co.kr/news/articleView.html?idxno=4082349
+- 인기신호: unknown
+- 3문장 요약:
+  - 연구팀이 영하 20도에서도 작동하는 리튬금속전지용 고체전해질을 개발했습니다.
+  - 개발된 고체전해질은 PEGDME 기반 고분자 네트워크에 불소계 에터를 결합한 형태입니다.
+  - 이는 고분자와 첨가제 간의 분자 상호작용을 통해 구조를 안정화시킨 결과입니다.
+- 관련 기업: 리튬금속전지, PEGDME, FE
+
+### 4. 북미 EV '캐즘'에 갇힌 K-배터리, 15%대 점유율 사수 비상
+- 발행일: 2026-05-07
+- 매체: www.newsway.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.newsway.co.kr/news/view?ud=2026050714192580830
+- 인기신호: unknown
+- 3문장 요약:
+  - 북미 전기차 시장의 수요 둔화(캐즘)로 K-배터리의 15%대 점유율 사수에 비상이 걸렸습니다.
+  - SK온은 ESS용 LFP 배터리 핵심 소재 국산화를 통해 국내 LFP 배터리 공급망 생태계 구축에 나설 계획입니다.
+  - 삼성SDI 역시 북미를 중심으로 ESS 사업을 강화하고 있습니다.
+- 관련 기업: SK온, 삼성SDI, K-배터리
+
+### 5. K배터리 3사 1~3월 중국 제외 세계 점유율 29.6%, 전년보다 8.3%p 감소
+- 발행일: 2026-05-08
+- 매체: www.businesspost.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.businesspost.co.kr/BP?command=article_view&num=437343
+- 인기신호: unknown
+- 3문장 요약:
+  - 올해 1~3월 K배터리 3사의 중국 제외 글로벌 점유율은 29.6%로 전년 대비 8.3%p 감소했습니다.
+  - SNE리서치는 국내 배터리 3사가 전기차 배터리 수요 변동성 완화를 위해 ESS 및 전력 인프라 등 신규 수요처 확보에 나서고 있다고 분석했습니다.
+  - 전기차 배터리 사업은 기존 북미 및 유럽 시장 중심에서 벗어나 다변화를 모색하고 있습니다.
+- 관련 기업: SNE리서치
+
+### 6. 300,000 lithium battery packs recalled
+- 발행일: 2026-05-07
+- 매체: ABC27 (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTE5BX29nQ1V2U1N1TjRQVzlrRjlhUHVfSjNkRlhzYzlDZmpMcVFfNkNkQW9ZTkl3ZnFyQXNWa3N6cGh4X01fd1UxZXNXV01lT3RaNHV1UnRCZHFJRXRGZHRLNmhscGdvVHVGRWZJUVZEcHdMamvSAXhBVV95cUxNdkxwSHNMeTdvb2I5elhYUHFmNF90VkZYOG9rRFNmOGdaT2lFT0JsT0dBeUg0WjNtOWQtWFBSc2RqalE1MGU4SXdKWVBQaG9UbFFUNnI2OFh2cDliT19RSlM2TXlvU19hWHU5dVVGTjJwUzZ1RURTcWQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - ABC27 보도에 따르면, 30만 개의 리튬 배터리 팩이 리콜되었습니다.
+  - 리콜 사유는 배터리 삼킴으로 인한 심각한 부상 또는 사망 위험 때문입니다.
+  - 또한, 해당 배터리는 어린이 보호 포장 관련 연방법을 위반했습니다.
+
+### 7. Chinese battery giant to acquire Atlantic Lithium in $210m deal
+- 발행일: 2026-05-07
+- 매체: Proactive financial news (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ1g4eEp4RXl1ZWRtcWNLOElfZGZrcGpqdE9USGlXZG84ZjdBeFNmVEVrZ1REbEpVOUdQcF9sNnBrZzR4OHBpQ0xaektnS2tFb2w1S2JNbHg1NHVwSlRYVjFwZWJISTZLX29WTWZaOFFGYWhsOTNSSjllcENua1laVXdxVGVKNXpOUEI5ZXhHYWJZTVlOZzFRRzRRTEZ4dE4ycGR5bE1xNS1CTXlucDdpRjVIdG9WQUVFeEszMFZEZm9nUzl1Y0hpZ2tfdDJ1QQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국의 한 배터리 기업이 애틀랜틱 리튬을 2억 1,000만 달러에 인수할 예정입니다.
+  - 이번 인수는 중국 배터리 기업의 해외 자원 확보 전략의 일환으로 해석됩니다.
+  - 애틀랜틱 리튬은 리튬 광산 개발 및 생산에 주력하는 기업입니다.
+- 관련 기업: 애틀랜틱 리튬
+
+### 8. EEMB USA Recalls Battery Pouches Due to Risk of Serious Injury or Death from Battery Ingestion; Violate Federal Statute for Child-Resistant Packaging of Coin Batteries
+- 발행일: 2026-05-07
+- 매체: CPSC.gov (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMipwJBVV95cUxPRkh3Y3BucWtiN3NXVm5SRWxaSE5fazJURUJ1ZVVwcXhTaTlzN0hEcjZiMWVUYmdpNW95U0pIRERvR0hzRldTOHAtNVltWTk1bXRfT3FjbzV4QkI3SFlUbFdZbXNTVmo3MEJsbmFmamhkWS1Hbk5UNFVWYVl4c0lwN3RjSVdVWkhsSTJ4RFVZaWx6QXZMNllQcmFqWU1NYk5YYlpncE83MHZpNnFSR3BIa1BBbEIxbWhYaHgtWXhLM1IwVEJ6Y2pmQ3puN0FWejBsVzFsV0FTWXdGOVl5QjVZOEdyR3NxU1FUOUlVRy1jNm53QVktSllDdEJJZ3JmUm41NVRTWGMyanlET29mSS1nQTREOEZLSEhNWW54VFk1NnF5Ul96bk1r?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - EEMB USA는 배터리 파우치 리콜을 발표했습니다.
+  - 리콜 대상은 배터리 삼킴 시 심각한 부상이나 사망을 초래할 위험이 있는 제품입니다.
+  - 또한, 해당 제품은 코인 배터리의 어린이 보호 포장 관련 연방법을 위반한 것으로 나타났습니다.
+- 관련 기업: EEMB USA, EEMB, USA
+
+### 9. Battery Degradation in BESS: LFP Cell Aging, SoC Errors, and Warranty Impacts - News and Statistics
+- 발행일: 2026-05-07
+- 매체: IndexBox (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMirwFBVV95cUxOcmNYYTNXSHVuTDRzOXlXZ3o1SGhHLU11NmI5THhKNFpNbk1MdUN3X0lSZ3FZZjFERm5aemZ6VkQwM21SZFJob2RSbmpwSzVJSTUzdXJnNFE2ZEd1TEdfckhzZFQwcVlla25nd0YzNUUxbkduUzF2TENRSWNxcVBnQ0tvenVLNDl6WkREZW1ORGRVbnh1U20ydzRrQWdmYXQwTGlEZHdqb2RJMktKUzBF?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - BESS(에너지 저장 시스템)에서 LFP 셀 노화, SoC(충전 상태) 오류 등으로 인한 배터리 성능 저하 문제가 발생하고 있습니다.
+  - 이러한 성능 저하는 배터리 보증에 영향을 미칠 수 있습니다.
+  - IndexBox는 관련 뉴스 및 통계를 제공하고 있습니다.
+- 관련 기업: IndexBox, BESS, LFP
+
+### 10. Morrow Batteries Bankruptcy & Why Battery Startups Are Failing
+- 발행일: 2026-05-07
+- 매체: Battery Technology (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMivwFBVV95cUxQemw5VkxpRXBNU01qRGx4dlVlb0JsQ3ozSnc5dlRGVFMwLXQxaFJRcHRneXZUWG1DY3NXYTdsUV9PQkFRdGQ4dkRwMjRYSllkdFMtY1ZJVjZoMFVrdjg3eDA4MmJDdDNmODVFR0NESHByMVJUekFmM0ItbzNaelloMUxOTkNPa1JFV2ZrY2VVbzhFSzJtMU1od1gyS3BwZ3pqeVJkcm5HY25GVHVZV091cW5iend2cDl5VkdDT1AtSQ?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTFB3dW4zb3gxYWdRS1FfMExLSkk5eEMwSWlWM2N0MUFDV3lZSV9FWk5pYWcwZHN2SkpFb04wbngtQ241RkhkekxNczZGc1NOckIzMVU5dkRKbVVndzdycHo3dE80RzVkbE9rUmdrVzc4MDQ1LWc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Morrow Batteries가 파산했으며, 이는 배터리 스타트업의 실패 원인 중 하나로 지목됩니다.
+  - 배터리 기술 전문 매체는 이러한 스타트업 실패의 배경을 분석하고 있습니다.
+  - 자금 조달의 어려움과 기술 개발의 한계 등이 실패 요인으로 작용하는 것으로 보입니다.
+- 관련 기업: Morrow Batteries
+
+### 11. "It Just Blew Up": Wyoming Couple Jolted Awake When Lithium-Ion Battery Catches Fire
+- 발행일: 2026-05-07
+- 매체: Cowboy State Daily (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMivwFBVV95cUxPMk5oT3pVVkhfd3dZWE42RFg1YUNvTUZlVUw5X3p0QWU4MUdBTGE2T1J1SG5vcktoMkhtZC10SEphaUtoZkdXT2tEWVY5Q3ZLUTNRdVYwa2YtWmVvdEd3bzBiaW5UNks3NE9LNkxabWdDTW5UUlRWOXA2dUVPUEswenlhaGZ4SjF3UzNEU0Z3ZFJYQnpMRlZMbWczajRyQmdLSE56Qll2ek9yM3BkU2RLRGpmZlJBUmZuaG9zMHJ2dw?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMixgFBVV95cUxQbEJUM1FvSFRmamZqeEVtOUUtRGJvQ2pObFdWakUzR3hScWVHSlF6a3VGSjN6UnlVZFdSVUw5UWtFMF9QZ0tuT0loZkktSzZzb3RNN0VtMjNCaFBNNlI3VWdiZ1BhdzdyOWRacFBRR0lYaUlVV1RaVWZITjFVUk9KYUJZLThJWjNwZDVVV0lBOWZ0MERMdlhLLTgzSmZxcmtfenpESHlLakoxaUctTXR2UFQ0c0V6RVJZOGxmQ3ZNQzg2Z2JEb3fSAdoBQVVfeXFMUDdmVGk4YmVkUzJHUmxERVlsU01QNjRVMlNvWXc4clR4bk1wZ3JYTEpFWVNPTHNWWkRwemxkREFkZjEwU1dUOEFSdWNjQzlLUDdadjliVVVDUnNKT2VPOWRPV3NFM2tBUlBWcTJ1QXp2ZHltMFlaTG1xNW4tNXlXNHg0bjF3aC1TOGNzRi0zZXVHdlF2bmphaXFfS1ZDMnN1R1BEUG1GSTl0SmY5OEprQ18xWGpIWVJnTC1Zb1YxSi1WN1YzQnJlREVmejdIWExOc2VtLUtiekw1R3c?oc=5, https://news.google.com/rss/articles/CBMitAFBVV95cUxORklPYm5BbmhDbkE4ZEEwTUg2RkpyTUZad3doSi1rakxjd01GRTd0Q1lFZGNKRm5iUzkzWXByT2l6MDlGUnJXby1aY09zYW1uNFlvWkxxMDMxVzI1RkNXZ0JFSHNPVXJHZklLODg5bE5ubzNDXzdiSUxqOUw4VndEajk2TE1uazUzbjZ2SFlKbmROQ1c3empCbDdnakl5REFpb0tRbjFtcGxLaDhBOUNaU2N1NzY?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국 와이오밍주에서 리튬이온 배터리 화재 사건이 발생했습니다.
+  - 이 화재로 인해 부부가 잠에서 깨어나는 등 위험한 상황이 발생했습니다.
+  - 리튬이온 배터리의 안전성 문제가 다시 한번 부각되었습니다.

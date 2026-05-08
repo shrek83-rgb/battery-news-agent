@@ -1,5 +1,53 @@
 [
   {
+    "title": "K배터리 3사 1~3월 중국 제외 세계 점유율 29.6%, 전년보다 8.3%p 감소",
+    "description": "SNE리서치 측은 \"국내 배터리 3사는 전기차 배터리의 수요 변동성을 낮추기 위해 에너지저장장치(ESS)와 전력 인프라 등 신규 수요처 확보에 나서고 있다\"며 \"전기차 배터리는 기존 북미·유럽 중심의...",
+    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=437343",
+    "source": "www.businesspost.co.kr",
+    "published_at": "2026-05-08",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "SNE리서치"
+    ],
+    "summary_3_sentences": [
+      "올해 1~3월 K배터리 3사의 중국 제외 글로벌 점유율은 29.6%로 전년 대비 8.3%p 감소했습니다.",
+      "SNE리서치는 국내 배터리 3사가 전기차 배터리 수요 변동성 완화를 위해 ESS 및 전력 인프라 등 신규 수요처 확보에 나서고 있다고 분석했습니다.",
+      "전기차 배터리 사업은 기존 북미 및 유럽 시장 중심에서 벗어나 다변화를 모색하고 있습니다."
+    ],
+    "uid": "c191b2dd76e522448631b92107c48bddf4192ff8"
+  },
+  {
+    "title": "북미 EV '캐즘'에 갇힌 K-배터리, 15%대 점유율 사수 비상",
+    "description": "SK온 관계자는 \"ESS용 LFP(리튬인산철) 배터리에 들어가는 양극재, 분리막, 전해액 등 핵심 소재를 국산화해 국내 LFP 배터리 공급망 생태계 구축에 앞장설 것\"이라고 말했다. 삼성SDI도 북미를 중심으로 ESS 사업을...",
+    "link": "https://www.newsway.co.kr/news/view?ud=2026050714192580830",
+    "source": "www.newsway.co.kr",
+    "published_at": "2026-05-07",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "SK온",
+      "삼성SDI",
+      "K-배터리"
+    ],
+    "summary_3_sentences": [
+      "북미 전기차 시장의 수요 둔화(캐즘)로 K-배터리의 15%대 점유율 사수에 비상이 걸렸습니다.",
+      "SK온은 ESS용 LFP 배터리 핵심 소재 국산화를 통해 국내 LFP 배터리 공급망 생태계 구축에 나설 계획입니다.",
+      "삼성SDI 역시 북미를 중심으로 ESS 사업을 강화하고 있습니다."
+    ],
+    "uid": "c8d677746ab6e41ce863c197f6f9c9fe6a43064b"
+  },
+  {
     "title": "영하 20℃도 끄덕없다...화재위험 낮춘 고체 전해질 개발",
     "description": "이에 연구팀은 긴 사슬 형태의 유기 고분자(폴리에틸렌글리콜 디메틸에터) 기반 네트워크에 불소계 에터(FE)를 결합한 새로운 고체 전해질을 개발했다. 이 과정에서 고분자와 첨가제 사이에 상호작용을 일으켜 구조를...",
     "link": "https://www.newstree.kr/newsView/ntr202605070009",
@@ -131,6 +179,256 @@
       "이는 배터리의 저온 성능 및 화재 위험성을 낮추는 데 기여할 것으로 기대됩니다."
     ],
     "uid": "44cac0f6e31d72519ba228933e1606b9e98ce847"
+  },
+  {
+    "title": "포스코그룹 회장 장인화 '리튬 승부수' 빛 발하기 시작 : 무너졌던 '2차...",
+    "description": "통해 2차전지 소재 부문에서 반등을 준비하고 있다. 포스코그룹이 성장을 위해 투자 확장기조를 보이면서... 포스코퓨처엠 양극재 사업의 주요 고객사인 LG에너지솔루션-GM 합작법인(얼티엄셀즈)이 올해 상반기 배터리...",
+    "link": "https://www.huffingtonpost.kr/article/257053",
+    "source": "www.huffingtonpost.kr",
+    "published_at": "2026-05-07",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.hansbiz.co.kr",
+        "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=837328"
+      },
+      {
+        "source": "www.etoday.co.kr",
+        "link": "https://www.etoday.co.kr/news/view/2582626"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "포스코그룹",
+      "포스코퓨처엠",
+      "LG에너지솔루션"
+    ],
+    "summary_3_sentences": [
+      "포스코그룹이 2차전지 소재 부문에서 반등을 준비하고 있습니다.",
+      "이는 포스코퓨처엠 양극재 사업의 주요 고객사인 LG에너지솔루션-GM 합작법인(얼티엄셀즈)의 배터리 생산량 증가에 따른 것으로 보입니다.",
+      "포스코그룹은 투자 확대를 통해 성장을 도모하고 있습니다."
+    ],
+    "uid": "bf58442944377a326c659d426129334a457df74e"
+  },
+  {
+    "title": "'영하 20도 작동' 리튬금속전지용 고체전해질 개발",
+    "description": "연구팀은 이러한 문제를 해결하기 위해 PEGDME 기반 고분자 네트워크에 불소계 에터(Fluorinated Ether, FE)를 결합한 새로운 고체 전해질을 개발했다. 이 과정에서 고분자와 첨가제 간의 분자 상호작용을 통해 구조를...",
+    "link": "http://www.hellodd.com/news/articleView.html?idxno=111690",
+    "source": "www.hellodd.com",
+    "published_at": "2026-05-07",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.breaknews.com",
+        "link": "http://www.breaknews.com/1205576"
+      },
+      {
+        "source": "news.bbsi.co.kr",
+        "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4082349"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "리튬금속전지",
+      "PEGDME",
+      "FE"
+    ],
+    "summary_3_sentences": [
+      "연구팀이 영하 20도에서도 작동하는 리튬금속전지용 고체전해질을 개발했습니다.",
+      "개발된 고체전해질은 PEGDME 기반 고분자 네트워크에 불소계 에터를 결합한 형태입니다.",
+      "이는 고분자와 첨가제 간의 분자 상호작용을 통해 구조를 안정화시킨 결과입니다."
+    ],
+    "uid": "acd7792a7d7917130c71dc7008dd780377ca943a"
+  },
+  {
+    "title": "'꿈의배터리' 전고체 개발 앞당긴다...전고체 소재 전문기업 나온다",
+    "description": "배터리 검사·진단 전문 기업 민테크가 '꿈의 배터리'로 불리는 전고체 배터리 소재 사업에 본격 진출한다. 전고체 배터리 양산의 핵심 병목이 소재·공정 문제에 있다는 판단 아래, 검사 장비 사업에서 확보한 기술과...",
+    "link": "https://www.etnews.com/20260507000265",
+    "source": "www.etnews.com",
+    "published_at": "2026-05-07",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "민테크",
+      "꿈의배터리"
+    ],
+    "summary_3_sentences": [
+      "배터리 검사·진단 전문 기업 민테크가 전고체 배터리 소재 사업에 본격 진출합니다.",
+      "이는 전고체 배터리 양산의 핵심 병목 현상이 소재·공정 문제에 있다는 판단에 따른 것입니다.",
+      "민테크는 검사 장비 사업에서 확보한 기술을 바탕으로 전고체 배터리 개발을 앞당길 것으로 기대됩니다."
+    ],
+    "uid": "9f2814b9ef86eb97993dd86515b39dad6251554b"
+  },
+  {
+    "title": "Chinese battery giant to acquire Atlantic Lithium in $210m deal",
+    "published_at": "2026-05-07",
+    "source": "Proactive financial news",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ1g4eEp4RXl1ZWRtcWNLOElfZGZrcGpqdE9USGlXZG84ZjdBeFNmVEVrZ1REbEpVOUdQcF9sNnBrZzR4OHBpQ0xaektnS2tFb2w1S2JNbHg1NHVwSlRYVjFwZWJISTZLX29WTWZaOFFGYWhsOTNSSjllcENua1laVXdxVGVKNXpOUEI5ZXhHYWJZTVlOZzFRRzRRTEZ4dE4ycGR5bE1xNS1CTXlucDdpRjVIdG9WQUVFeEszMFZEZm9nUzl1Y0hpZ2tfdDJ1QQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ1g4eEp4RXl1ZWRtcWNLOElfZGZrcGpqdE9USGlXZG84ZjdBeFNmVEVrZ1REbEpVOUdQcF9sNnBrZzR4OHBpQ0xaektnS2tFb2w1S2JNbHg1NHVwSlRYVjFwZWJISTZLX29WTWZaOFFGYWhsOTNSSjllcENua1laVXdxVGVKNXpOUEI5ZXhHYWJZTVlOZzFRRzRRTEZ4dE4ycGR5bE1xNS1CTXlucDdpRjVIdG9WQUVFeEszMFZEZm9nUzl1Y0hpZ2tfdDJ1QQ?oc=5\" target=\"_blank\">Chinese battery giant to acquire Atlantic Lithium in $210m deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Proactive financial news</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "애틀랜틱 리튬"
+    ],
+    "summary_3_sentences": [
+      "중국의 한 배터리 기업이 애틀랜틱 리튬을 2억 1,000만 달러에 인수할 예정입니다.",
+      "이번 인수는 중국 배터리 기업의 해외 자원 확보 전략의 일환으로 해석됩니다.",
+      "애틀랜틱 리튬은 리튬 광산 개발 및 생산에 주력하는 기업입니다."
+    ],
+    "uid": "874c12d7d88bec3c7b1b698c1c8ce85b6a022726"
+  },
+  {
+    "title": "Battery Degradation in BESS: LFP Cell Aging, SoC Errors, and Warranty Impacts - News and Statistics",
+    "published_at": "2026-05-07",
+    "source": "IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcmNYYTNXSHVuTDRzOXlXZ3o1SGhHLU11NmI5THhKNFpNbk1MdUN3X0lSZ3FZZjFERm5aemZ6VkQwM21SZFJob2RSbmpwSzVJSTUzdXJnNFE2ZEd1TEdfckhzZFQwcVlla25nd0YzNUUxbkduUzF2TENRSWNxcVBnQ0tvenVLNDl6WkREZW1ORGRVbnh1U20ydzRrQWdmYXQwTGlEZHdqb2RJMktKUzBF?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOcmNYYTNXSHVuTDRzOXlXZ3o1SGhHLU11NmI5THhKNFpNbk1MdUN3X0lSZ3FZZjFERm5aemZ6VkQwM21SZFJob2RSbmpwSzVJSTUzdXJnNFE2ZEd1TEdfckhzZFQwcVlla25nd0YzNUUxbkduUzF2TENRSWNxcVBnQ0tvenVLNDl6WkREZW1ORGRVbnh1U20ydzRrQWdmYXQwTGlEZHdqb2RJMktKUzBF?oc=5\" target=\"_blank\">Battery Degradation in BESS: LFP Cell Aging, SoC Errors, and Warranty Impacts - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "IndexBox",
+      "BESS",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "BESS(에너지 저장 시스템)에서 LFP 셀 노화, SoC(충전 상태) 오류 등으로 인한 배터리 성능 저하 문제가 발생하고 있습니다.",
+      "이러한 성능 저하는 배터리 보증에 영향을 미칠 수 있습니다.",
+      "IndexBox는 관련 뉴스 및 통계를 제공하고 있습니다."
+    ],
+    "uid": "df1d8099af64a548d0b6f28162a8625ce36d4d09"
+  },
+  {
+    "title": "\"It Just Blew Up\": Wyoming Couple Jolted Awake When Lithium-Ion Battery Catches Fire",
+    "published_at": "2026-05-07",
+    "source": "Cowboy State Daily",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMk5oT3pVVkhfd3dZWE42RFg1YUNvTUZlVUw5X3p0QWU4MUdBTGE2T1J1SG5vcktoMkhtZC10SEphaUtoZkdXT2tEWVY5Q3ZLUTNRdVYwa2YtWmVvdEd3bzBiaW5UNks3NE9LNkxabWdDTW5UUlRWOXA2dUVPUEswenlhaGZ4SjF3UzNEU0Z3ZFJYQnpMRlZMbWczajRyQmdLSE56Qll2ek9yM3BkU2RLRGpmZlJBUmZuaG9zMHJ2dw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPMk5oT3pVVkhfd3dZWE42RFg1YUNvTUZlVUw5X3p0QWU4MUdBTGE2T1J1SG5vcktoMkhtZC10SEphaUtoZkdXT2tEWVY5Q3ZLUTNRdVYwa2YtWmVvdEd3bzBiaW5UNks3NE9LNkxabWdDTW5UUlRWOXA2dUVPUEswenlhaGZ4SjF3UzNEU0Z3ZFJYQnpMRlZMbWczajRyQmdLSE56Qll2ek9yM3BkU2RLRGpmZlJBUmZuaG9zMHJ2dw?oc=5\" target=\"_blank\">\"It Just Blew Up\": Wyoming Couple Jolted Awake When Lithium-Ion Battery Catches Fire</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cowboy State Daily</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "wbbjtv.com",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbEJUM1FvSFRmamZqeEVtOUUtRGJvQ2pObFdWakUzR3hScWVHSlF6a3VGSjN6UnlVZFdSVUw5UWtFMF9QZ0tuT0loZkktSzZzb3RNN0VtMjNCaFBNNlI3VWdiZ1BhdzdyOWRacFBRR0lYaUlVV1RaVWZITjFVUk9KYUJZLThJWjNwZDVVV0lBOWZ0MERMdlhLLTgzSmZxcmtfenpESHlLakoxaUctTXR2UFQ0c0V6RVJZOGxmQ3ZNQzg2Z2JEb3fSAdoBQVVfeXFMUDdmVGk4YmVkUzJHUmxERVlsU01QNjRVMlNvWXc4clR4bk1wZ3JYTEpFWVNPTHNWWkRwemxkREFkZjEwU1dUOEFSdWNjQzlLUDdadjliVVVDUnNKT2VPOWRPV3NFM2tBUlBWcTJ1QXp2ZHltMFlaTG1xNW4tNXlXNHg0bjF3aC1TOGNzRi0zZXVHdlF2bmphaXFfS1ZDMnN1R1BEUG1GSTl0SmY5OEprQ18xWGpIWVJnTC1Zb1YxSi1WN1YzQnJlREVmejdIWExOc2VtLUtiekw1R3c?oc=5"
+      },
+      {
+        "source": "dailydispatch.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORklPYm5BbmhDbkE4ZEEwTUg2RkpyTUZad3doSi1rakxjd01GRTd0Q1lFZGNKRm5iUzkzWXByT2l6MDlGUnJXby1aY09zYW1uNFlvWkxxMDMxVzI1RkNXZ0JFSHNPVXJHZklLODg5bE5ubzNDXzdiSUxqOUw4VndEajk2TE1uazUzbjZ2SFlKbmROQ1c3empCbDdnakl5REFpb0tRbjFtcGxLaDhBOUNaU2N1NzY?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "미국 와이오밍주에서 리튬이온 배터리 화재 사건이 발생했습니다.",
+      "이 화재로 인해 부부가 잠에서 깨어나는 등 위험한 상황이 발생했습니다.",
+      "리튬이온 배터리의 안전성 문제가 다시 한번 부각되었습니다."
+    ],
+    "uid": "9a3fdcfa23536130470207037bbea0ea29ce805f"
+  },
+  {
+    "title": "EEMB USA Recalls Battery Pouches Due to Risk of Serious Injury or Death from Battery Ingestion; Violate Federal Statute for Child-Resistant Packaging of Coin Batteries",
+    "published_at": "2026-05-07",
+    "source": "CPSC.gov",
+    "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPRkh3Y3BucWtiN3NXVm5SRWxaSE5fazJURUJ1ZVVwcXhTaTlzN0hEcjZiMWVUYmdpNW95U0pIRERvR0hzRldTOHAtNVltWTk1bXRfT3FjbzV4QkI3SFlUbFdZbXNTVmo3MEJsbmFmamhkWS1Hbk5UNFVWYVl4c0lwN3RjSVdVWkhsSTJ4RFVZaWx6QXZMNllQcmFqWU1NYk5YYlpncE83MHZpNnFSR3BIa1BBbEIxbWhYaHgtWXhLM1IwVEJ6Y2pmQ3puN0FWejBsVzFsV0FTWXdGOVl5QjVZOEdyR3NxU1FUOUlVRy1jNm53QVktSllDdEJJZ3JmUm41NVRTWGMyanlET29mSS1nQTREOEZLSEhNWW54VFk1NnF5Ul96bk1r?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipwJBVV95cUxPRkh3Y3BucWtiN3NXVm5SRWxaSE5fazJURUJ1ZVVwcXhTaTlzN0hEcjZiMWVUYmdpNW95U0pIRERvR0hzRldTOHAtNVltWTk1bXRfT3FjbzV4QkI3SFlUbFdZbXNTVmo3MEJsbmFmamhkWS1Hbk5UNFVWYVl4c0lwN3RjSVdVWkhsSTJ4RFVZaWx6QXZMNllQcmFqWU1NYk5YYlpncE83MHZpNnFSR3BIa1BBbEIxbWhYaHgtWXhLM1IwVEJ6Y2pmQ3puN0FWejBsVzFsV0FTWXdGOVl5QjVZOEdyR3NxU1FUOUlVRy1jNm53QVktSllDdEJJZ3JmUm41NVRTWGMyanlET29mSS1nQTREOEZLSEhNWW54VFk1NnF5Ul96bk1r?oc=5\" target=\"_blank\">EEMB USA Recalls Battery Pouches Due to Risk of Serious Injury or Death from Battery Ingestion; Violate Federal Statute for Child-Resistant Packaging of Coin Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CPSC.gov</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "EEMB USA",
+      "EEMB",
+      "USA"
+    ],
+    "summary_3_sentences": [
+      "EEMB USA는 배터리 파우치 리콜을 발표했습니다.",
+      "리콜 대상은 배터리 삼킴 시 심각한 부상이나 사망을 초래할 위험이 있는 제품입니다.",
+      "또한, 해당 제품은 코인 배터리의 어린이 보호 포장 관련 연방법을 위반한 것으로 나타났습니다."
+    ],
+    "uid": "292d01196bb54e10d92d5e12489889102cd6cce5"
+  },
+  {
+    "title": "Morrow Batteries Bankruptcy & Why Battery Startups Are Failing",
+    "published_at": "2026-05-07",
+    "source": "Battery Technology",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQemw5VkxpRXBNU01qRGx4dlVlb0JsQ3ozSnc5dlRGVFMwLXQxaFJRcHRneXZUWG1DY3NXYTdsUV9PQkFRdGQ4dkRwMjRYSllkdFMtY1ZJVjZoMFVrdjg3eDA4MmJDdDNmODVFR0NESHByMVJUekFmM0ItbzNaelloMUxOTkNPa1JFV2ZrY2VVbzhFSzJtMU1od1gyS3BwZ3pqeVJkcm5HY25GVHVZV091cW5iend2cDl5VkdDT1AtSQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQemw5VkxpRXBNU01qRGx4dlVlb0JsQ3ozSnc5dlRGVFMwLXQxaFJRcHRneXZUWG1DY3NXYTdsUV9PQkFRdGQ4dkRwMjRYSllkdFMtY1ZJVjZoMFVrdjg3eDA4MmJDdDNmODVFR0NESHByMVJUekFmM0ItbzNaelloMUxOTkNPa1JFV2ZrY2VVbzhFSzJtMU1od1gyS3BwZ3pqeVJkcm5HY25GVHVZV091cW5iend2cDl5VkdDT1AtSQ?oc=5\" target=\"_blank\">Morrow Batteries Bankruptcy & Why Battery Startups Are Failing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Battery Technology</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "EnergyWatch",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB3dW4zb3gxYWdRS1FfMExLSkk5eEMwSWlWM2N0MUFDV3lZSV9FWk5pYWcwZHN2SkpFb04wbngtQ241RkhkekxNczZGc1NOckIzMVU5dkRKbVVndzdycHo3dE80RzVkbE9rUmdrVzc4MDQ1LWc?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Morrow Batteries"
+    ],
+    "summary_3_sentences": [
+      "Morrow Batteries가 파산했으며, 이는 배터리 스타트업의 실패 원인 중 하나로 지목됩니다.",
+      "배터리 기술 전문 매체는 이러한 스타트업 실패의 배경을 분석하고 있습니다.",
+      "자금 조달의 어려움과 기술 개발의 한계 등이 실패 요인으로 작용하는 것으로 보입니다."
+    ],
+    "uid": "9de29578f19d290e2a1973cb0518b2f2be4f026e"
+  },
+  {
+    "title": "300,000 lithium battery packs recalled",
+    "published_at": "2026-05-07",
+    "source": "ABC27",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BX29nQ1V2U1N1TjRQVzlrRjlhUHVfSjNkRlhzYzlDZmpMcVFfNkNkQW9ZTkl3ZnFyQXNWa3N6cGh4X01fd1UxZXNXV01lT3RaNHV1UnRCZHFJRXRGZHRLNmhscGdvVHVGRWZJUVZEcHdMamvSAXhBVV95cUxNdkxwSHNMeTdvb2I5elhYUHFmNF90VkZYOG9rRFNmOGdaT2lFT0JsT0dBeUg0WjNtOWQtWFBSc2RqalE1MGU4SXdKWVBQaG9UbFFUNnI2OFh2cDliT19RSlM2TXlvU19hWHU5dVVGTjJwUzZ1RURTcWQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5BX29nQ1V2U1N1TjRQVzlrRjlhUHVfSjNkRlhzYzlDZmpMcVFfNkNkQW9ZTkl3ZnFyQXNWa3N6cGh4X01fd1UxZXNXV01lT3RaNHV1UnRCZHFJRXRGZHRLNmhscGdvVHVGRWZJUVZEcHdMamvSAXhBVV95cUxNdkxwSHNMeTdvb2I5elhYUHFmNF90VkZYOG9rRFNmOGdaT2lFT0JsT0dBeUg0WjNtOWQtWFBSc2RqalE1MGU4SXdKWVBQaG9UbFFUNnI2OFh2cDliT19RSlM2TXlvU19hWHU5dVVGTjJwUzZ1RURTcWQ?oc=5\" target=\"_blank\">300,000 lithium battery packs recalled</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC27</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "ABC27 보도에 따르면, 30만 개의 리튬 배터리 팩이 리콜되었습니다.",
+      "리콜 사유는 배터리 삼킴으로 인한 심각한 부상 또는 사망 위험 때문입니다.",
+      "또한, 해당 배터리는 어린이 보호 포장 관련 연방법을 위반했습니다."
+    ],
+    "uid": "b36a549ee747236ad6c18093d5af6776f437e228"
   },
   {
     "title": "'4년만 흑자 전환' 엘앤에프, 'LFP 양극재' 국내 최초 상업화 준비",
