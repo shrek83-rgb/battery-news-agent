@@ -1,0 +1,242 @@
+# 배터리 뉴스 데일리 브리핑 (2026-05-09 전날 기준)
+
+- 총 18건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 기타 | 2026-05-09 | Mysteel | FLASH: China daily lithium-ion batt... | https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ1ZVOVRqb296XzY2R2NRRHlFTVhiVFJSejB6RkQ5c08wRi1KeUt5NkJCS0ZMUjFlM0Z5Tm12SXpQbmtRVGdLNDE5aHlNTTBNaWFmOEx4ZHZyMHRBMFJtRmN5ek8wa3MxLXRkTWVNaG8tNEx1ZUR0VnBUWkw4dk9icElXdHlPLUxQbGlQYTRfMnpHaHh3dHpwUUNTYWEydlhOR0E?oc=5 | unknown |
+| 2 | 3 | 기타 | 2026-05-09 | CnEVPost | CATL plans 40 GWh sodium battery capacity expansion after securing world's largest order | https://news.google.com/rss/articles/CBMijAFBVV95cUxNUVBBeDg4SnhEcEgzVVk0LWFXY21BZkZTSXVMVW5nTXI2dDdLb2NFVWRVN29Ya1ZjQU9ncWdhaW13SGR5NWtIaWJlTUVZb2FIeHd0U1p0WG1FZFdhYjVDd0tBQUdBUmVmeXd6QURiU1lRRC1jeVFXeU5yY3hROHJIVzZiVEk0c191TzJQQw?oc=5 | unknown |
+| 3 | 3 | 나트륨 | 2026-05-09 | warpnews.org | 🔋 Sodium-ion batteries ready for mass market - cheaper and more durable than lithium-ion batteries | https://news.google.com/rss/articles/CBMixgFBVV95cUxPN3J6SVFsLXpsb0F3aWcwNFJMMVZ2RURISVFNZ2F3OFlmdFNLSW9VR3h0LXg2c1p6Qnh4N2dLZUk4MUM5RUxLRldvWGdKT1I2QUpaVFF3M0JnbVZHVjQxalJlaWVjQ0Fzdl9nVWltelA4bU1WQnVQcDJUbkZFRGppOFFFYVMzQ2RFdUx4REt3NlJRUXZHdkhTb213WEhWaFIwV0RxdHRvcFdXMkF3ZXVLQUNhMk1IRlRPMUpDZnBXdWtJbEJjdXc?oc=5 | unknown |
+| 4 | 3 | 전고체 | 2026-05-09 | Yahoo Finance | QuantumScape (QS) Advances Solid-State Battery Commercialization with Eagle Line Milestone | https://news.google.com/rss/articles/CBMiowFBVV95cUxQLS1FTkhTbWNkSFdvV19FV2M5ZklaX2VlYTFBWlBwdW5VNmhiZFA2NElaVFRkZk15TUY5Y3kxc3hrdGFsZlpfajBoV0VVMXl4Ty02YVlSV3h0OS1wQ2lJbXJQWVV6OEZHY3RrV3NxQ2tqSl9HSnppNlNLYjc5a3dwMG1NUUZsWkZ0Yk1MMEFJdlRGalhYUm5ldzdQdDE3X0hkWUtF?oc=5 | unknown |
+| 5 | 3 | 기타 | 2026-05-09 | Interesting Engineering | US lab doubles high-voltage sodium battery lifespans, cell prototype hits 500 cycles | https://news.google.com/rss/articles/CBMijgFBVV95cUxOZTY0ZDJkSUt4dS1wWmo2ZjZjWWo0eUhSdU1oV2pvY3BCemZKbkFpTTEyUkZrdzZPTURwTk9nbWg0WjF4UlBKX3puNmkwY29QWW5aOWRkM3plSmFWZUhuaTBIYk45Qk1EVVBhQUhIRE5BcGV5RVFaeEZWTWlqQzd4Qm9FZXFMVV84XzRudzF3?oc=5 | unknown |
+| 6 | 3 | 전고체 | 2026-05-10 | www.cbci.co.kr | 이수스페셜티케미컬, 전고체 핵심 플레이어 주목...기술 선점 촉각 | https://www.cbci.co.kr/news/articleView.html?idxno=573434 | unknown |
+| 7 | 3 | cathode | 2026-05-10 | www.mt.co.kr | LG화학, 청주공장서 LMR 양극재 양산 돌입…상용화 속도 | https://www.mt.co.kr/industry/2026/05/10/2026050715453870010 | unknown |
+| 8 | 3 | cathode | 2026-05-09 | ACKO Drive | India-EU Council Calls for Proposals for New EV Battery Recycling Technology, Development of "Virtual Mine" | https://news.google.com/rss/articles/CBMizAFBVV95cUxPcHhIQlF1QWd0S2k5c0FSZjZXajlUbGVqM2w4bUJGSXg4QUMyVzQ2UElzNTMybGoxTkdLaEtIUk9jNUtydGx5cldmUnJIYUR5a1dZYVpCX3VRd2dJTzluQlAwUFYtTXRRQnFtNDFLbzRHWDVTMFFDaDBFRTFhalhWbEpNeVNCajI2X05CYWg0Tk5JRUd3YXk2VVNiSm03Q2xqLXFKWkZUdVpUZ1dGbmY4YlBFM0RSYVJmV3VvakZoZGstRGVGMERmUllzNWg?oc=5 | unknown |
+| 9 | 3 | 기타 | 2026-05-09 | Shanghai Metals Market | Chile's Lithium Carbonate Exports Totaled 29,500 mt in April 2026, Wh | https://news.google.com/rss/articles/CBMi5AFBVV95cUxNS2hkZWtnNUtkdWtMX2JBVFpjRnUydDFNRXVwd0VIbjJDY3o4RDh3TFFLaG9jQUFJSkljUGMzZHdWQndiOVpwUTVXUlNRVHR5aUFzcFlGaS05bDZwRzRQMkI5aVdQOUpBYWlfdV81MnBPTzlNa1NrLUthLW1sU09HOEpEdVhCSW9ZRU9BUEdydkJ1aWk1QWFxMVZ6azBnd3pmYWt5RGNhUlBSTFJ6WDh5X1h2YlhuTFZsbXhCVjNDRDFBck9kVFp1cnJLSURuQ0FzWVpsNkp3ek04bFozZ2N3YlJfaFc?oc=5 | unknown |
+| 10 | 3 | 기타 | 2026-05-09 | MassLive.com | Check your drawers ASAP: 312K Amazon batteries recalled over deadly risk to kids | https://news.google.com/rss/articles/CBMixAFBVV95cUxPaEJ1ZzFFaUR6d0VieEZHQlZuX1NkRFkxTWNPVUI5NlpoYUNkZTFQbWJmVlBfVjFoLXVkemx6c0lBa1VpQ2VzRWZqMmhQQ3kwczNSMFZveW9LMnQycm0tV0RaemxTR2VNU1FmYXM4Zm9LUEc0d2t5cHpPN2dWdDctd0MtUVlzZVNma0FLTzFrb1VLSkZCWVp4THIxb0luNFZkZW1WMV9VWkc2c1dIZEhaTUgwZDRuRzJEQUdfWVhqakhId2Vj?oc=5 | unknown |
+| 11 | 3 | cathode | 2026-05-09 | www.topstarnews.net | 에코프로비엠, 유럽 배터리 공급망에 실적 회복 시험대 | https://www.topstarnews.net/news/articleView.html?idxno=16056225 | unknown |
+| 12 | 3 | cathode | 2026-05-09 | www.topstarnews.net | 에코프로, 니켈·양극재 수직계열화 부각…유럽 공급망이 실적 살렸다 | https://www.topstarnews.net/news/articleView.html?idxno=16056221 | unknown |
+| 13 | 3 | cathode | 2026-05-10 | zdnet.co.kr | 성일하이텍, LFP 재활용 사업 본격화…연말 파일럿 라인 구축 | https://zdnet.co.kr/view/?no=20260510121546 | unknown |
+| 14 | 3 | cathode | 2026-05-09 | www.g-enews.com | LFP 폐배터리 재활용, 왜 아직도 ‘돈이 안 되나’… UNIST, 전주기 플랫... | https://www.g-enews.com/view.php?ud=202605091038375987f7ba87f45b_1 | unknown |
+| 15 | 3 | cathode | 2026-05-10 | www.etnews.com | 코트라, K-이차전지 中 시장 진출 지원…전고체·ESS 수요 공략 | https://www.etnews.com/20260510000045 | unknown |
+| 16 | 3 | cathode | 2026-05-10 | zdnet.co.kr | LFP 폐배터리 직접재생 사업화 가능성 타진에 4년간 60억원 | https://zdnet.co.kr/view/?no=20260510111830 | unknown |
+| 17 | 3 | cathode | 2026-05-10 | www.pinpointnews.co.kr | EV와 ESS 동시에 잡았다... 엘앤에프 구조적 성장 신호 | https://www.pinpointnews.co.kr/news/articleView.html?idxno=451560 | unknown |
+| 18 | 3 | 기타 | 2026-05-10 | www.idaegu.com | 구미, '수요확대형 배터리' 테스트베드 선정…국·도비 202억 확보로 산... | https://www.idaegu.com/news/articleView.html?idxno=661866 | unknown |
+
+## 상세 요약
+
+### 1. FLASH: China daily lithium-ion batt...
+- 발행일: 2026-05-09
+- 매체: Mysteel (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ1ZVOVRqb296XzY2R2NRRHlFTVhiVFJSejB6RkQ5c08wRi1KeUt5NkJCS0ZMUjFlM0Z5Tm12SXpQbmtRVGdLNDE5aHlNTTBNaWFmOEx4ZHZyMHRBMFJtRmN5ek8wa3MxLXRkTWVNaG8tNEx1ZUR0VnBUWkw4dk9icElXdHlPLUxQbGlQYTRfMnpHaHh3dHpwUUNTYWEydlhOR0E?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국은 리튬 이온 배터리 생산에서 중요한 역할을 하고 있습니다.
+  - 이는 글로벌 배터리 시장에 상당한 영향을 미칩니다.
+  - Mysteel은 이 분야의 최신 동향을 보도했습니다.
+- 관련 기업: Mysteel, FLASH
+
+### 2. CATL plans 40 GWh sodium battery capacity expansion after securing world's largest order
+- 발행일: 2026-05-09
+- 매체: CnEVPost (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMijAFBVV95cUxNUVBBeDg4SnhEcEgzVVk0LWFXY21BZkZTSXVMVW5nTXI2dDdLb2NFVWRVN29Ya1ZjQU9ncWdhaW13SGR5NWtIaWJlTUVZb2FIeHd0U1p0WG1FZFdhYjVDd0tBQUdBUmVmeXd6QURiU1lRRC1jeVFXeU5yY3hROHJIVzZiVEk0c191TzJQQw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - CATL은 세계 최대 규모의 주문을 확보한 후 40GWh의 나트륨 배터리 생산 능력 확장을 계획하고 있습니다.
+  - 이는 나트륨 배터리 기술의 상업적 중요성이 커지고 있음을 시사합니다.
+  - CATL은 이 분야에서 선도적인 위치를 차지하고 있습니다.
+- 관련 기업: CATL
+
+### 3. 🔋 Sodium-ion batteries ready for mass market - cheaper and more durable than lithium-ion batteries
+- 발행일: 2026-05-09
+- 매체: warpnews.org (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMixgFBVV95cUxPN3J6SVFsLXpsb0F3aWcwNFJMMVZ2RURISVFNZ2F3OFlmdFNLSW9VR3h0LXg2c1p6Qnh4N2dLZUk4MUM5RUxLRldvWGdKT1I2QUpaVFF3M0JnbVZHVjQxalJlaWVjQ0Fzdl9nVWltelA4bU1WQnVQcDJUbkZFRGppOFFFYVMzQ2RFdUx4REt3NlJRUXZHdkhTb213WEhWaFIwV0RxdHRvcFdXMkF3ZXVLQUNhMk1IRlRPMUpDZnBXdWtJbEJjdXc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 나트륨 이온 배터리가 리튬 이온 배터리보다 저렴하고 내구성이 뛰어나 대량 시장에 출시될 준비가 되었습니다.
+  - 이는 전기차 및 에너지 저장 장치 분야에서 비용 효율적인 대안을 제공할 수 있습니다.
+  - warpnews.org는 이 기술의 잠재력에 대해 보도했습니다.
+
+### 4. QuantumScape (QS) Advances Solid-State Battery Commercialization with Eagle Line Milestone
+- 발행일: 2026-05-09
+- 매체: Yahoo Finance (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMiowFBVV95cUxQLS1FTkhTbWNkSFdvV19FV2M5ZklaX2VlYTFBWlBwdW5VNmhiZFA2NElaVFRkZk15TUY5Y3kxc3hrdGFsZlpfajBoV0VVMXl4Ty02YVlSV3h0OS1wQ2lJbXJQWVV6OEZHY3RrV3NxQ2tqSl9HSnppNlNLYjc5a3dwMG1NUUZsWkZ0Yk1MMEFJdlRGalhYUm5ldzdQdDE3X0hkWUtF?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - QuantumScape는 Eagle Line의 중요한 이정표를 달성하며 전고체 배터리 상용화를 진전시키고 있습니다.
+  - 이는 차세대 배터리 기술 개발에 있어 중요한 진전입니다.
+  - QuantumScape는 이 분야의 선두 주자 중 하나입니다.
+- 관련 기업: QuantumScape, QS
+
+### 5. US lab doubles high-voltage sodium battery lifespans, cell prototype hits 500 cycles
+- 발행일: 2026-05-09
+- 매체: Interesting Engineering (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMijgFBVV95cUxOZTY0ZDJkSUt4dS1wWmo2ZjZjWWo0eUhSdU1oV2pvY3BCemZKbkFpTTEyUkZrdzZPTURwTk9nbWg0WjF4UlBKX3puNmkwY29QWW5aOWRkM3plSmFWZUhuaTBIYk45Qk1EVVBhQUhIRE5BcGV5RVFaeEZWTWlqQzd4Qm9FZXFMVV84XzRudzF3?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국 연구소에서 고전압 나트륨 배터리의 수명을 두 배로 늘렸으며, 셀 프로토타입은 500회의 사이클을 달성했습니다.
+  - 이는 나트륨 배터리의 성능과 내구성이 크게 향상되었음을 나타냅니다.
+  - Interesting Engineering은 이 연구 결과를 보도했습니다.
+- 관련 기업: US
+
+### 6. 이수스페셜티케미컬, 전고체 핵심 플레이어 주목...기술 선점 촉각
+- 발행일: 2026-05-10
+- 매체: www.cbci.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.cbci.co.kr/news/articleView.html?idxno=573434
+- 인기신호: unknown
+- 3문장 요약:
+  - 이수스페셜티케미컬은 전고체 배터리의 핵심 플레이어로 주목받고 있으며, 기술 선점에 대한 기대감이 높습니다.
+  - 최근 전고체 배터리 관련주의 변동성 확대는 단기 수급 요인에 따른 차익 실현 움직임으로 분석됩니다.
+  - 국내 투자자들 사이에서도 관련 종목에 대한 관심이 이어지고 있습니다.
+- 관련 기업: 이수스페셜티케미컬
+
+### 7. LG화학, 청주공장서 LMR 양극재 양산 돌입…상용화 속도
+- 발행일: 2026-05-10
+- 매체: www.mt.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.mt.co.kr/industry/2026/05/10/2026050715453870010
+- 인기신호: unknown
+- 3문장 요약:
+  - LG화학은 청주 공장에서 LMR 양극재 양산을 시작하며 상용화에 속도를 내고 있습니다.
+  - 이는 차세대 배터리 소재 개발 및 생산 능력을 강화하려는 LG화학의 노력을 보여줍니다.
+  - LG화학은 2028년 LMR 양극재 상용화를 목표로 하고 있습니다.
+- 관련 기업: LG화학, LG에너지솔루션, 음이온
+
+### 8. India-EU Council Calls for Proposals for New EV Battery Recycling Technology, Development of "Virtual Mine"
+- 발행일: 2026-05-09
+- 매체: ACKO Drive (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMizAFBVV95cUxPcHhIQlF1QWd0S2k5c0FSZjZXajlUbGVqM2w4bUJGSXg4QUMyVzQ2UElzNTMybGoxTkdLaEtIUk9jNUtydGx5cldmUnJIYUR5a1dZYVpCX3VRd2dJTzluQlAwUFYtTXRRQnFtNDFLbzRHWDVTMFFDaDBFRTFhalhWbEpNeVNCajI2X05CYWg0Tk5JRUd3YXk2VVNiSm03Q2xqLXFKWkZUdVpUZ1dGbmY4YlBFM0RSYVJmV3VvakZoZGstRGVGMERmUllzNWg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 인도-EU 위원회는 새로운 EV 배터리 재활용 기술 및 '가상 광산' 개발을 위한 제안을 요청했습니다.
+  - 이는 지속 가능한 배터리 공급망 구축과 자원 효율성 증대에 대한 국제적인 노력을 보여줍니다.
+  - ACKO Drive는 이 소식을 보도했습니다.
+- 관련 기업: EU, ACKO
+
+### 9. Chile's Lithium Carbonate Exports Totaled 29,500 mt in April 2026, Wh
+- 발행일: 2026-05-09
+- 매체: Shanghai Metals Market (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi5AFBVV95cUxNS2hkZWtnNUtkdWtMX2JBVFpjRnUydDFNRXVwd0VIbjJDY3o4RDh3TFFLaG9jQUFJSkljUGMzZHdWQndiOVpwUTVXUlNRVHR5aUFzcFlGaS05bDZwRzRQMkI5aVdQOUpBYWlfdV81MnBPTzlNa1NrLUthLW1sU09HOEpEdVhCSW9ZRU9BUEdydkJ1aWk1QWFxMVZ6azBnd3pmYWt5RGNhUlBSTFJ6WDh5X1h2YlhuTFZsbXhCVjNDRDFBck9kVFp1cnJLSURuQ0FzWVpsNkp3ek04bFozZ2N3YlJfaFc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 칠레의 탄산리튬 수출량은 2026년 4월 29,500톤을 기록했습니다.
+  - 이는 글로벌 리튬 시장의 공급 동향을 파악하는 데 중요한 지표입니다.
+  - Shanghai Metals Market은 이 데이터를 발표했습니다.
+- 관련 기업: Shanghai Metals Market
+
+### 10. Check your drawers ASAP: 312K Amazon batteries recalled over deadly risk to kids
+- 발행일: 2026-05-09
+- 매체: MassLive.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMixAFBVV95cUxPaEJ1ZzFFaUR6d0VieEZHQlZuX1NkRFkxTWNPVUI5NlpoYUNkZTFQbWJmVlBfVjFoLXVkemx6c0lBa1VpQ2VzRWZqMmhQQ3kwczNSMFZveW9LMnQycm0tV0RaemxTR2VNU1FmYXM4Zm9LUEc0d2t5cHpPN2dWdDctd0MtUVlzZVNma0FLTzFrb1VLSkZCWVp4THIxb0luNFZkZW1WMV9VWkc2c1dIZEhaTUgwZDRuRzJEQUdfWVhqakhId2Vj?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa2lTYmNWeGFzcGdyanAxYUg1UzFZVmsxR3BTMUFmSU5nU0FWcEdMa1BOZjFIMXRzQ1pfVTdqOGR6RU03VE9ySXZaQTdQOGFSVFdWc1VPTlZHWmlMVjdfR0VIY2tCWXlGRzRHXzI5QWFrWHRFdWNGcEE3cHBESmVJeEM4amFkcGNK0gGOAUFVX3lxTE1Ca2tkenRsdWpoOHhkYkExQnNjbm5xT2ZIXzBWZlpkbXRRMGxtd3l2dW9VYmhfTENheTkxMThTbmphUjJhamxJQVBUU2FBVFY1VlZaNzlHWFczeEpuZWFoS2dGU0ZlQmJqNV9vWEF1T2ZMQkRFNFpnUGZmblN6SVpja2Q4OXRnWm55UkxSMWc?oc=5, https://news.google.com/rss/articles/CBMirwFBVV95cUxNdkJjM19QXzlaNHdMbUtpUlVJRHpqOGYxX1hOaUQzdW43VkxjMU52MzgwTl9aaFRCOGdoNnZmR05PV2lWaFc1QXhibnFBWTNsOUo5NVdFT3p5ci03NDBEYjduYXVoTmNjX25tY2Zxc3hhbkFpV2ZTaDF0OGVlQkR4cGk2LVFsajNRZEtRLXpESzZRXzhLRWtQVmNlNnVYbGJrTzJJU19lOEk0WnFBNlVN?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 어린이에게 치명적인 위험을 초래할 수 있는 312,000개의 아마존 배터리가 리콜되었습니다.
+  - 이는 소비자 안전과 제품 품질 관리에 대한 경각심을 높입니다.
+  - MassLive.com은 이 리콜 소식을 보도했습니다.
+- 관련 기업: Amazon, ASAP
+
+### 11. 에코프로비엠, 유럽 배터리 공급망에 실적 회복 시험대
+- 발행일: 2026-05-09
+- 매체: www.topstarnews.net (출처등급 3)
+- 분야: cathode
+- 링크: https://www.topstarnews.net/news/articleView.html?idxno=16056225
+- 인기신호: unknown
+- 3문장 요약:
+  - 에코프로비엠은 유럽 배터리 공급망 재편 속에서 실적 회복의 시험대에 서 있습니다.
+  - 회사는 하이니켈 양극재를 중심으로 유럽 시장에서의 경쟁력을 강화하고자 합니다.
+  - 증권업계는 유럽 물량 회복과 업황 개선 전망을 바탕으로 목표주가를 상향 조정했습니다.
+- 관련 기업: 에코프로비엠, 2차전지
+
+### 12. 에코프로, 니켈·양극재 수직계열화 부각…유럽 공급망이 실적 살렸다
+- 발행일: 2026-05-09
+- 매체: www.topstarnews.net (출처등급 3)
+- 분야: cathode
+- 링크: https://www.topstarnews.net/news/articleView.html?idxno=16056221
+- 인기신호: unknown
+- 3문장 요약:
+  - 유럽 전기차 배터리 공급망 재편이 본격화되면서 에코프로의 니켈 제련 및 양극재 수직계열화 전략이 다시 주목받고 있습니다.
+  - 증권업계는 유럽 전기차향 양극재 공급 회복과 ESS 수요 증가가 실적 반등의 요인이 될 것으로 전망합니다.
+  - 에코프로는 이러한 시장 변화에 맞춰 사업 경쟁력을 강화하고 있습니다.
+- 관련 기업: 에코프로
+
+### 13. 성일하이텍, LFP 재활용 사업 본격화…연말 파일럿 라인 구축
+- 발행일: 2026-05-10
+- 매체: zdnet.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://zdnet.co.kr/view/?no=20260510121546
+- 인기신호: unknown
+- 3문장 요약:
+  - 성일하이텍은 연말까지 파일럿 라인을 구축하며 LFP 폐배터리 재활용 사업을 본격화합니다.
+  - 이 파일럿 라인은 국내 폐배터리와 북미 ESS 배터리 공장 스크랩을 활용할 계획입니다.
+  - 성일하이텍은 2027~2028년부터 양산 규모로 사업을 확대할 것으로 예상하고 있습니다.
+- 관련 기업: 성일하이텍, LFP
+
+### 14. LFP 폐배터리 재활용, 왜 아직도 ‘돈이 안 되나’… UNIST, 전주기 플랫...
+- 발행일: 2026-05-09
+- 매체: www.g-enews.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.g-enews.com/view.php?ud=202605091038375987f7ba87f45b_1
+- 인기신호: unknown
+- 3문장 요약:
+  - 전기차 배터리와 달리 보조배터리, 전동킥보드, 소형 ESS 등에 사용되는 LFP 배터리는 여전히 관리 사각지대에 놓여 있습니다.
+  - UNIST는 전주기 플랫...을 통해 LFP 폐배터리 재활용의 사업화 가능성을 타진하고 있습니다.
+  - 시민들이 폐배터리를 올바르게 버릴 수 있는 방안 마련이 시급합니다.
+- 관련 기업: UNIST, 보조배터리, LFP
+
+### 15. 코트라, K-이차전지 中 시장 진출 지원…전고체·ESS 수요 공략
+- 발행일: 2026-05-10
+- 매체: www.etnews.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.etnews.com/20260510000045
+- 인기신호: unknown
+- 3문장 요약:
+  - 코트라는 K-이차전지 기업들의 중국 시장 진출을 지원하며 전고체 및 ESS 수요 공략에 나섭니다.
+  - 최근 CIBF 전시회에서는 전고체, 나트륨이온, 리튬메탈 배터리 등 차세대 기술이 주요 화두로 떠올랐습니다.
+  - 코트라는 한국 기업들이 전해액 첨가제, 분리막, 검사장비 등 다양한 분야에서 경쟁력을 확보하도록 도울 것입니다.
+- 관련 기업: 코트라, K-이차전지, 전고체·나트륨이온
+
+### 16. LFP 폐배터리 직접재생 사업화 가능성 타진에 4년간 60억원
+- 발행일: 2026-05-10
+- 매체: zdnet.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://zdnet.co.kr/view/?no=20260510111830
+- 인기신호: unknown
+- 3문장 요약:
+  - LFP 폐배터리 직접 재생 사업화 가능성을 타진하기 위해 4년간 60억 원이 투입될 예정입니다.
+  - 배터리 재활용 및 ESS 관련 사업군 전반이 잠재적 수요처로 고려되고 있습니다.
+  - 구체적인 실증 대상이나 협력 논의 기업은 아직 공개하기 어려운 단계입니다.
+- 관련 기업: LFP
+
+### 17. EV와 ESS 동시에 잡았다... 엘앤에프 구조적 성장 신호
+- 발행일: 2026-05-10
+- 매체: www.pinpointnews.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=451560
+- 인기신호: unknown
+- 3문장 요약:
+  - 엘앤에프는 전기차(EV)와 에너지 저장 장치(ESS) 시장을 동시에 공략하며 구조적인 성장 신호를 보이고 있습니다.
+  - LFP 배터리는 가격 경쟁력과 안정성을 바탕으로 ESS 시장에서 수요가 확대되는 추세입니다.
+  - 엘앤에프는 이러한 두 시장 모두에서 수혜를 받을 수 있는 유리한 위치에 있습니다.
+- 관련 기업: 엘앤에프, LFP
+
+### 18. 구미, '수요확대형 배터리' 테스트베드 선정…국·도비 202억 확보로 산...
+- 발행일: 2026-05-10
+- 매체: www.idaegu.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.idaegu.com/news/articleView.html?idxno=661866
+- 인기신호: unknown
+- 3문장 요약:
+  - 구미시는 '수요확대형 배터리' 테스트베드로 선정되어 국비 및 도비 202억 원을 확보했습니다.
+  - 이번 사업을 통해 구미시는 전기차 중심의 배터리 지원을 넘어 로봇, 방산, 조선, ESS 등 다양한 산업으로 활용처를 넓힐 계획입니다.
+  - 사업은 구미전자정보기술원(GERI) 주도로 진행됩니다.
+- 관련 기업: 구미전자정보기술원, 이차전지, 로봇·방산·조선·에너지
