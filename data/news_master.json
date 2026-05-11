@@ -1,5 +1,147 @@
 [
   {
+    "title": "LG에너지솔루션, AI 데이터센터 ESS 수요 확대 수혜…목표가 62만원[애널...",
+    "description": "향후 실적 비중은 EV 배터리에서 ESS 중심으로 이동할 전망이다. 중대형 EV 배터리 부문 매출은 지난해 13조9180억원에서 올해 11조9740억원으로 감소할 것으로 추정되지만 ESS 부문 성장이 이를 상쇄할 것으로...",
+    "link": "https://www.newsway.co.kr/news/view?ud=2026051108332915291",
+    "source": "www.newsway.co.kr",
+    "published_at": "2026-05-11",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션은 AI 데이터센터 ESS 수요 확대에 따른 수혜가 예상되어 목표 주가가 62만원으로 제시되었습니다.",
+      "향후 실적은 전기차 배터리보다 ESS 중심으로 이동할 전망입니다.",
+      "ESS 부문의 성장이 중대형 EV 배터리 매출 감소를 상쇄할 것으로 기대됩니다."
+    ],
+    "uid": "f49503880c397362010d6f0b61d957667048c2f0"
+  },
+  {
+    "title": "[특징주] LG에너지솔루션, 북미 ESS 시장 재편 수혜 기대감... 목표가 62...",
+    "description": "중장기적으로는 미국 내 ESS 생산능력 증설에 따라 실적 추정치가 추가로 상향될 가능성도 존재한다. 단기적으로는 전기차(EV) 배터리 수요 둔화에 따른 부담이 있으나, 북미 전력 인프라 투자 증가와 11월 미국...",
+    "link": "https://www.newstnt.com/news/articleView.html?idxno=701771",
+    "source": "www.newstnt.com",
+    "published_at": "2026-05-11",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.tokenpost.kr",
+        "link": "https://www.tokenpost.kr/news/market/358275"
+      },
+      {
+        "source": "www.financialpost.co.kr",
+        "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=258478"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션은 북미 ESS 시장 재편에 따른 수혜가 기대되어 목표 주가가 62만원으로 상향 조정되었습니다.",
+      "미국 내 ESS 생산 능력 증설은 향후 실적 추정치를 더욱 높일 가능성이 있습니다.",
+      "전기차 배터리 수요 둔화에도 불구하고 북미 전력 인프라 투자 증가는 ESS 사업 성장에 긍정적인 영향을 미칠 것입니다."
+    ],
+    "uid": "486d11d37fbbf67336eafc26e23090d3b60cf9c3"
+  },
+  {
+    "title": "\"배터리 스스로 보호막\"…화재 위험 낮춘 전고체전지 기술 개발",
+    "description": "최근 전기차 시장 확대와 함께 안전성과 에너지 밀도를 동시에 높일 수 있는 전고체전지가 차세대 배터리로 주목받고 있다. 그러나 기존 고체전해질은 충·방전 과정에서 리튬 금속과 반응하며 성능 저하와 발열...",
+    "link": "https://www.newsis.com/view/NISX20260511_0003624142",
+    "source": "www.newsis.com",
+    "published_at": "2026-05-11",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.veritas-a.com",
+        "link": "https://www.veritas-a.com/news/articleView.html?idxno=609239"
+      },
+      {
+        "source": "www.etnews.com",
+        "link": "https://www.etnews.com/20260511000017"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "전고체전지"
+    ],
+    "summary_3_sentences": [
+      "전고체전지는 안전성과 에너지 밀도를 높일 수 있어 차세대 배터리로 주목받고 있습니다.",
+      "하지만 기존 고체 전해질은 충방전 시 리튬 금속과 반응하여 성능 저하 및 발열 문제가 발생합니다.",
+      "이를 해결하기 위한 새로운 전고체전지 기술 개발이 진행 중입니다."
+    ],
+    "uid": "dbb5db77725c47ad7753e5cc7bc2f7c4e1abcbf3"
+  },
+  {
+    "title": "KAIST, 리튬금속배터리 '망가지는 순간' 포착… 전기차 주행거리 개선 단...",
+    "description": "전기차용 고용량 배터리는 물론 스마트폰·노트북 등 모바일 기기용 장수명 배터리, ESS, 드론·로봇 등 고성능 전원이 필요한 분야에도 폭넓게 적용 가능하다는 설명이다. 또한 차세대 배터리 음극 소재 개발과 전극...",
+    "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=80802",
+    "source": "www.industrynews.co.kr",
+    "published_at": "2026-05-11",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "동아사이언스",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tNWdZU3k3d1U0OUNyWWtlNEVIMUV5ZTUxdFQzc1ljblU4RW1DTElDZy1NR1BzVnVpMVZVSWxTR1ZsdlZlb01vdDVtbnp0Y0tDajhnWg?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "KAIST",
+      "리튬금속배터리"
+    ],
+    "summary_3_sentences": [
+      "KAIST 연구진이 리튬금속배터리의 성능 저하 순간을 포착하는 기술을 개발했습니다.",
+      "이 기술은 전기차, 모바일 기기, ESS, 드론 등 다양한 분야에 적용 가능한 고용량 배터리 개발에 기여할 것입니다.",
+      "또한 차세대 배터리 음극 소재 및 전극 개발에도 활용될 전망입니다."
+    ],
+    "uid": "cd1c037da17f6d0eeb7f6a48c63d5a08a2c9ef2b"
+  },
+  {
+    "title": "AI 전력망 올라탄 K배터리, ESS 왕좌 탈환전 나선다",
+    "description": "SK온은 제2차 ESS 중앙계약시장에서 전체 물량 565메가와트(MW) 중 284MW를 확보해 50.3% 점유율로 1위를... 당시 LG에너지솔루션은 LG화학 전지 사업부문이던 시기다. 그러나 K배터리의 ESS 주도권은 국내 시장 위축을...",
+    "link": "https://www.dailian.co.kr/news/view/1642060/?sc=Naver",
+    "source": "www.dailian.co.kr",
+    "published_at": "2026-05-11",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "SK온",
+      "LG에너지솔루션",
+      "LG화학"
+    ],
+    "summary_3_sentences": [
+      "SK온은 제2차 ESS 중앙계약시장에서 50.3%의 점유율로 1위를 차지하며 국내 ESS 시장에서 강세를 보였습니다.",
+      "이는 과거 LG에너지솔루션이 주도했던 시장에서 K배터리의 위상 변화를 보여줍니다.",
+      "국내 시장 위축에도 불구하고 K배터리는 ESS 분야에서 경쟁력을 강화하고 있습니다."
+    ],
+    "uid": "11603f294c2313016582268ce1c974de1a2f935b"
+  },
+  {
     "title": "성일하이텍, LFP 재활용 사업 본격화…연말 파일럿 라인 구축",
     "description": "파일럿 라인은 국내 유통되는 LFP 전기차 폐배터리와, 북미 ESS 배터리 공장에서 발생하는 스크랩을 조달해 가동한다는 계획이다. 회사 관계자는 “스크랩 물량이 확대될 것으로 예상되는 2027~2028년에는 양산 규모로...",
     "link": "https://zdnet.co.kr/view/?no=20260510121546",
@@ -167,6 +309,232 @@
       "국내 투자자들 사이에서도 관련 종목에 대한 관심이 이어지고 있습니다."
     ],
     "uid": "7f9a4e803329fe2d1ccb0006a15860558b578abd"
+  },
+  {
+    "title": "Rendering: All-New Volvo EX40 Expected in America With SPA3 and LFP Battery Pack to Succeed EX30",
+    "published_at": "2026-05-10",
+    "source": "autoevolution",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcU5zV0xHSUJ1RXV6amNSbjVQbEVGZThKRlBHS0plUjJZZGdhV3g0dUdpcjlLSGVPcjlVeTA2R0szRVFLM0wxS1BRMWJTMFBuWmV5V2l4VzFIYTdFV2c1LTczcUNaZnJYaFN1MnJyLUJZd09iczVvOWR3OWdDblpLelRMdUpZM2pBTUZiQzNzYkZoYmF3dVU3M180WC02VmpFVFFDTk9xeEZPRXRwYl90aGYwWmYyRlhtd2pqQXVxWDJ3NzJMSEtNTllZNE5BaXBtSGFGcWt3YjBPdw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcU5zV0xHSUJ1RXV6amNSbjVQbEVGZThKRlBHS0plUjJZZGdhV3g0dUdpcjlLSGVPcjlVeTA2R0szRVFLM0wxS1BRMWJTMFBuWmV5V2l4VzFIYTdFV2c1LTczcUNaZnJYaFN1MnJyLUJZd09iczVvOWR3OWdDblpLelRMdUpZM2pBTUZiQzNzYkZoYmF3dVU3M180WC02VmpFVFFDTk9xeEZPRXRwYl90aGYwWmYyRlhtd2pqQXVxWDJ3NzJMSEtNTllZNE5BaXBtSGFGcWt3YjBPdw?oc=5\" target=\"_blank\">Rendering: All-New Volvo EX40 Expected in America With SPA3 and LFP Battery Pack to Succeed EX30</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">autoevolution</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 75,
+    "monitor_score": 82,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "Volvo",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "신형 볼보 EX40은 SPA3 플랫폼과 LFP 배터리 팩을 탑재하여 미국 시장에 출시될 예정입니다.",
+      "이 모델은 EX30의 후속 모델로, 향상된 성능과 효율성을 제공할 것으로 기대됩니다.",
+      "LFP 배터리 채택은 전기차의 가격 경쟁력 확보에 기여할 수 있습니다."
+    ],
+    "uid": "9b35a290517d98c099fe53e5a1f70bd1977b1035"
+  },
+  {
+    "title": "ROKETSAN, Altınay sign AKYA battery deal at SAHA 2026",
+    "published_at": "2026-05-10",
+    "source": "TURDEF",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTnVqV3h3dmFhWjVzRmVranpQbUIybE4wX3pMOC1Cenl6eDB5LW1IZWxCM3VldVExN1QwT3AtdlVpcm9IeV9xbmtHVm5lVkdFM0hyUUsyaWx6ajlkSjhfNDVNY0ZQZTJHbkhwWnIyVEtiekpCbDhXRTJnTlBNcFZzSHRueWo3Zw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOTnVqV3h3dmFhWjVzRmVranpQbUIybE4wX3pMOC1Cenl6eDB5LW1IZWxCM3VldVExN1QwT3AtdlVpcm9IeV9xbmtHVm5lVkdFM0hyUUsyaWx6ajlkSjhfNDVNY0ZQZTJHbkhwWnIyVEtiekpCbDhXRTJnTlBNcFZzSHRueWo3Zw?oc=5\" target=\"_blank\">ROKETSAN, Altınay sign AKYA battery deal at SAHA 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TURDEF</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 75,
+    "monitor_score": 82,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "ROKETSAN",
+      "Altınay",
+      "AKYA"
+    ],
+    "summary_3_sentences": [
+      "ROKETSAN과 Altınay가 SAHA 2026 행사에서 AKYA 배터리 공급 계약을 체결했습니다.",
+      "이번 계약은 터키의 방위 산업 분야에서 배터리 기술 협력을 강화하는 계기가 될 것입니다.",
+      "AKYA 배터리는 터키의 자체적인 군수품 생산 능력을 향상시키는 데 기여할 것으로 보입니다."
+    ],
+    "uid": "5ecab9b35561914dc00362990e35e1a0a242e29f"
+  },
+  {
+    "title": "Report outlines steps to improve battery recycling system",
+    "published_at": "2026-05-10",
+    "source": "SooLeader.com",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU2p6bTRVUVFVQUpXV24xejlwUnFZZGJSbk9lRFpUb3Z2ZmwxMEpVWEFLemhDNXdQYS1IbGFrUnFwcHFxZUswVVlKajEtLUNuM2gxZm5OZWpIQ3ZETllqTEtFQXgzcmJZV3FudW1qcHNDODdydy1MTktxYS1ZTWQ1ZUNaNDFYLWpRQjFFMDdlUEFWcl84dVRWWXMzMGdGVjN0WHptOE1n?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNU2p6bTRVUVFVQUpXV24xejlwUnFZZGJSbk9lRFpUb3Z2ZmwxMEpVWEFLemhDNXdQYS1IbGFrUnFwcHFxZUswVVlKajEtLUNuM2gxZm5OZWpIQ3ZETllqTEtFQXgzcmJZV3FudW1qcHNDODdydy1MTktxYS1ZTWQ1ZUNaNDFYLWpRQjFFMDdlUEFWcl84dVRWWXMzMGdGVjN0WHptOE1n?oc=5\" target=\"_blank\">Report outlines steps to improve battery recycling system</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SooLeader.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "새로운 보고서가 배터리 재활용 시스템 개선을 위한 구체적인 방안을 제시했습니다.",
+      "이는 증가하는 전기차 배터리 폐기물 처리에 대한 중요성을 강조합니다.",
+      "보고서는 지속 가능한 배터리 생태계 구축을 위한 정책적, 기술적 노력을 촉구하고 있습니다."
+    ],
+    "uid": "3fa68732b8966fa3e2df4d6199dd8a6f6e0cf01a"
+  },
+  {
+    "title": "Rockland County Fire And Emergency Services Issues Lithium-Ion Battery Safety Warning {VIDEO}",
+    "published_at": "2026-05-10",
+    "source": "Monsey Scoop",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYVJ3c250VFNZWUt6bmRoR0VHMnlMTGw1Nk9tU1QwcW8teHFtY3g1blhaU2RWaExXNENyZElLcGdmOEVoS2dNekRiQnMzRzVWRUdheUxDNWVzNzJ1Y1VpM3NrRUZCTUlUMFVUNXFjN0NUQzlTejZkZ0VyeDY4SXYwdnR5R21ybFZ6MWpvZ2JwN0ZkY3VhZmhEbFp3TC12dUNxcW1kOW5mR19yZGxTQzBiVDdFaHhOVXc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNYVJ3c250VFNZWUt6bmRoR0VHMnlMTGw1Nk9tU1QwcW8teHFtY3g1blhaU2RWaExXNENyZElLcGdmOEVoS2dNekRiQnMzRzVWRUdheUxDNWVzNzJ1Y1VpM3NrRUZCTUlUMFVUNXFjN0NUQzlTejZkZ0VyeDY4SXYwdnR5R21ybFZ6MWpvZ2JwN0ZkY3VhZmhEbFp3TC12dUNxcW1kOW5mR19yZGxTQzBiVDdFaHhOVXc?oc=5\" target=\"_blank\">Rockland County Fire And Emergency Services Issues Lithium-Ion Battery Safety Warning {VIDEO}</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Monsey Scoop</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Rockland County Fire And Emergency Services",
+      "VIDEO"
+    ],
+    "summary_3_sentences": [
+      "록클랜드 카운티 소방 및 비상 서비스 부서가 리튬 이온 배터리 안전 경고를 발표했습니다.",
+      "이는 리튬 이온 배터리의 잠재적 위험성에 대한 인식을 높이고자 하는 조치입니다.",
+      "사용자들에게 안전한 사용 및 보관 지침 준수를 당부하고 있습니다."
+    ],
+    "uid": "e0d6e8b66b68dc8120f378cdc233f548e7a621e4"
+  },
+  {
+    "title": "J-Star signs MOU with White Group to seek $100M for Texas solid-state battery plant",
+    "published_at": "2026-05-10",
+    "source": "MSN",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRmRzZGJOZ0duQzltbEZ1RHBhZ0psd3R3by1lcHRPU0RrT2VlNjItYVFUT3Q1MUwwNER2MnFERFhhdXlyTkhoc0ZmLWJEZl9EMW14V3VXdHJkMi1LQnV2cFBnc1Ayd1FVSGw4WHUwQUx0dnYtakJuUGw2WjhlSXNnRkRYQTJ6UTZLbXczVG16aTdZMmh1cy00eThraG1kS3dXVEIyMmMtd2ZjZnVTQ0JZNWxESUtUeThvcF9HQWhIT3k4RTF3RTktclZLdUVEVkRIMGc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRmRzZGJOZ0duQzltbEZ1RHBhZ0psd3R3by1lcHRPU0RrT2VlNjItYVFUT3Q1MUwwNER2MnFERFhhdXlyTkhoc0ZmLWJEZl9EMW14V3VXdHJkMi1LQnV2cFBnc1Ayd1FVSGw4WHUwQUx0dnYtakJuUGw2WjhlSXNnRkRYQTJ6UTZLbXczVG16aTdZMmh1cy00eThraG1kS3dXVEIyMmMtd2ZjZnVTQ0JZNWxESUtUeThvcF9HQWhIT3k4RTF3RTktclZLdUVEVkRIMGc?oc=5\" target=\"_blank\">J-Star signs MOU with White Group to seek $100M for Texas solid-state battery plant</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "J-Star",
+      "White Group",
+      "MOU"
+    ],
+    "summary_3_sentences": [
+      "J-Star와 White Group이 텍사스에 건설될 전고체 배터리 공장을 위한 1억 달러 투자 유치를 위해 양해각서를 체결했습니다.",
+      "이번 협력을 통해 J-Star는 전고체 배터리 생산 능력을 확장하고, White Group은 자금 조달을 지원할 예정입니다.",
+      "이 공장은 북미 지역의 전기차 배터리 공급망 강화에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "1d496f3096c8caa25a9fb4c5625fd643344ea22c"
+  },
+  {
+    "title": "80 times cheaper than lithium: China’s iron battery breakthrough could transform energy storage",
+    "published_at": "2026-05-10",
+    "source": "MSN",
+    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOMWx0YmVPRy04YTV3NDdEbWxSRWRpTi1raG9FWnY4WEU5ZGhOOGFWZUxZQmpyOHpseHNHV2VXOGcyZEdQcm5QZGhFVVA4UzZGNlJaYmlNV1FNa1VYM0xEWFJIUkEtck1icThkcXIydFZGRzdhSW1IcVdvTUNWenVBZkxLM1RTWXJ2Y2Y5Y1lhY2UwTkRwczM1VVZtOWp3MExsTEVGM2lzZXFoZEtUSmMxZENSTHd5bWZGcy10RkRFSjJzSGVqdU1xODhsWE1QRWlqdlZINlF4YU5QNDN0MzFHNi1vSmlGdDJPS3RDZTVvNG41UnZaN2xyVWQxQldDWEd0d3VoSF9hYXhNZkVodlo2VWo5Yk5UYXFsanJyVA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMinAJBVV95cUxOMWx0YmVPRy04YTV3NDdEbWxSRWRpTi1raG9FWnY4WEU5ZGhOOGFWZUxZQmpyOHpseHNHV2VXOGcyZEdQcm5QZGhFVVA4UzZGNlJaYmlNV1FNa1VYM0xEWFJIUkEtck1icThkcXIydFZGRzdhSW1IcVdvTUNWenVBZkxLM1RTWXJ2Y2Y5Y1lhY2UwTkRwczM1VVZtOWp3MExsTEVGM2lzZXFoZEtUSmMxZENSTHd5bWZGcy10RkRFSjJzSGVqdU1xODhsWE1QRWlqdlZINlF4YU5QNDN0MzFHNi1vSmlGdDJPS3RDZTVvNG41UnZaN2xyVWQxQldDWEd0d3VoSF9hYXhNZkVodlo2VWo5Yk5UYXFsanJyVA?oc=5\" target=\"_blank\">80 times cheaper than lithium: China’s iron battery breakthrough could transform energy storage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "China",
+      "MSN"
+    ],
+    "summary_3_sentences": [
+      "중국의 한 연구진이 리튬보다 80배 저렴한 철 배터리 기술을 개발했습니다.",
+      "이 기술은 에너지 저장 시스템의 비용을 획기적으로 절감할 잠재력을 가지고 있습니다.",
+      "이는 기존 리튬 배터리 시장에 큰 변화를 가져올 것으로 예상됩니다."
+    ],
+    "uid": "a2d48d410dcde9b34741b50b7a490a178b5c81e2"
+  },
+  {
+    "title": "American Battery Technology (ABAT) Initiated Ahead of Q3",
+    "published_at": "2026-05-10",
+    "source": "Insider Monkey",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY2pydU43RG9lTXBQS1ZyMEZEMVp3SnVfR0t3QnZwRTB2Vk1EX3ZRcENyRFktcVhSMGt6N21oaGVwdkd0TjJYRHN0RGd1QjQtVjhKRm56bUxTYm52NGVtcGxRbFprcUdEcUo2akFoVEhsX3BMZ3FSTXVhYk1ROEE5SGxJT2FtMDhMelYxY3F4R1lHVFFBU2x6SURQSWNpNkXSAacBQVVfeXFMTThzYzkxRjduWEo1aXJ4UHB2Q2pqc21hXzZJMndlNjg0ck1GS1UtelR2NWxlMzZqUFp4SVE1TUlGRkdXck1VSzE2Mk5ndlVGaVVwbllUUkcyS0k2ZHl4WHY1eWpHLXVaM2JTTWpRVlpOYW0xYm45d05QOG9SaTFWa0tueUpiYWNhd0hVNzBMS0tHanJBV3Rvc0V5a2pnbWItSEdWN2k1S3M?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQY2pydU43RG9lTXBQS1ZyMEZEMVp3SnVfR0t3QnZwRTB2Vk1EX3ZRcENyRFktcVhSMGt6N21oaGVwdkd0TjJYRHN0RGd1QjQtVjhKRm56bUxTYm52NGVtcGxRbFprcUdEcUo2akFoVEhsX3BMZ3FSTXVhYk1ROEE5SGxJT2FtMDhMelYxY3F4R1lHVFFBU2x6SURQSWNpNkXSAacBQVVfeXFMTThzYzkxRjduWEo1aXJ4UHB2Q2pqc21hXzZJMndlNjg0ck1GS1UtelR2NWxlMzZqUFp4SVE1TUlGRkdXck1VSzE2Mk5ndlVGaVVwbllUUkcyS0k2ZHl4WHY1eWpHLXVaM2JTTWpRVlpOYW0xYm45d05QOG9SaTFWa0tueUpiYWNhd0hVNzBMS0tHanJBV3Rvc0V5a2pnbWItSEdWN2k1S3M?oc=5\" target=\"_blank\">American Battery Technology (ABAT) Initiated Ahead of Q3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Insider Monkey</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 70,
+    "monitor_score": 84,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "American Battery Technology",
+      "ABAT"
+    ],
+    "summary_3_sentences": [
+      "American Battery Technology (ABAT)의 3분기 실적 발표가 예정되어 있습니다.",
+      "이 회사는 배터리 기술 개발 및 생산에 주력하고 있습니다.",
+      "향후 배터리 시장에서의 성장이 기대됩니다."
+    ],
+    "uid": "20dab4f8f6a6c31fcacd6aabba5931125b61f757"
+  },
+  {
+    "title": "Li-Cycle Holdings stock (CA50202P1053): EV battery recycling focus amid sector growth",
+    "published_at": "2026-05-10",
+    "source": "AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRzZabVFvNVcxZVBPSjdvQmtiUk1DeUx4eDZQYUllc1EwQi1jZnBCeHkyQk5Hd19UbU1KbVBFNFVTUDM2WVY2NzhOWlZicElSczl1OEJ2T3UtU0lsT2ZsdTRzOUdicWNqdmJudVJPa3BpZnQ3NThkNmlFWjZIdkt1bGxocGlybW1VblZHcnBYVmhxTmpCTU1IWjBLTWx2V0NZQ293SE5TaWZaU3lwSWZ6TG9wc2I1QXlEQkVuVU1NdXZZa3F2UlE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQRzZabVFvNVcxZVBPSjdvQmtiUk1DeUx4eDZQYUllc1EwQi1jZnBCeHkyQk5Hd19UbU1KbVBFNFVTUDM2WVY2NzhOWlZicElSczl1OEJ2T3UtU0lsT2ZsdTRzOUdicWNqdmJudVJPa3BpZnQ3NThkNmlFWjZIdkt1bGxocGlybW1VblZHcnBYVmhxTmpCTU1IWjBLTWx2V0NZQ293SE5TaWZaU3lwSWZ6TG9wc2I1QXlEQkVuVU1NdXZZa3F2UlE?oc=5\" target=\"_blank\">Li-Cycle Holdings stock (CA50202P1053): EV battery recycling focus amid sector growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AD HOC NEWS</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "Li-Cycle Holdings",
+      "AD",
+      "HOC"
+    ],
+    "summary_3_sentences": [
+      "Li-Cycle Holdings의 주가가 EV 배터리 재활용 분야의 성장과 함께 주목받고 있습니다.",
+      "Li-Cycle은 전기차 배터리 재활용 기술을 통해 지속 가능한 자원 순환에 기여하고 있습니다.",
+      "이 회사는 북미 지역의 배터리 재활용 인프라 구축에 중요한 역할을 할 것으로 예상됩니다."
+    ],
+    "uid": "47939ab6390dcf986c611a7db360e7559e55eed5"
+  },
+  {
+    "title": "Frontier Lithium stock (CA35910P1099): Lithium project developer eyes North American EV supply chain",
+    "published_at": "2026-05-10",
+    "source": "AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPczFVS3dub3kzVjhkWW55dEJuTU5fM25jdktLZDJJN0Y2Q2s1Ukw3REVHaG5zVFZ3YTdEaE85TkkyNjE1eU9xQ2VkQlBrU1NpNWFkQnNRVGdfcFdhWnF2eUdlaDdMcmE5bU5sczJUUFl3Vy00TFVCT1lCRFhmTGx3RU5ZNzJ3bEdpbHltdUNxTVY0dVhua29fQ3lDQnpzbG11eFdsd2tpNDJsQlM2UklUS3BnbDM1RmZROV9VT0lOM000ejA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPczFVS3dub3kzVjhkWW55dEJuTU5fM25jdktLZDJJN0Y2Q2s1Ukw3REVHaG5zVFZ3YTdEaE85TkkyNjE1eU9xQ2VkQlBrU1NpNWFkQnNRVGdfcFdhWnF2eUdlaDdMcmE5bU5sczJUUFl3Vy00TFVCT1lCRFhmTGx3RU5ZNzJ3bEdpbHltdUNxTVY0dVhua29fQ3lDQnpzbG11eFdsd2tpNDJsQlM2UklUS3BnbDM1RmZROV9VT0lOM000ejA?oc=5\" target=\"_blank\">Frontier Lithium stock (CA35910P1099): Lithium project developer eyes North American EV supply chain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AD HOC NEWS</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Frontier Lithium",
+      "AD",
+      "HOC"
+    ],
+    "summary_3_sentences": [
+      "Frontier Lithium은 북미 전기차 공급망에 참여하기 위해 리튬 프로젝트 개발에 집중하고 있습니다.",
+      "이 회사는 북미 지역의 전기차 배터리 생산에 필요한 리튬 공급을 확보하는 것을 목표로 합니다.",
+      "이를 통해 전기차 산업의 성장에 기여하고자 합니다."
+    ],
+    "uid": "56b5e69ae98e82f89ad36b75f9c47970bd33d504"
   },
   {
     "title": "에코프로비엠, 유럽 배터리 공급망에 실적 회복 시험대",
