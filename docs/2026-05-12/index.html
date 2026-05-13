@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-05-12</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-05-12 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-cathode" href="https://www.etnews.com/20260513000188" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">엘앤에프, CIS케미칼과 LFP·NCM 리사이클링 협력 업무협약</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.etnews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">엘앤에프</span><span class="chip">CIS케미칼</span><span class="chip">JHC</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>엘앤에프는 CIS케미칼과 LFP·NCM 배터리 재활용 협력을 위한 업무협약을 체결했습니다.</li><li>이번 협력을 통해 양사는 폐배터리 재활용 원료에 대한 국내외 공급망 정보와 품질 데이터를 공유하고 공동 소싱 전략을 수립할 예정입니다.</li><li>엘앤에프 자회사인 JHC(제이에이치화학공업)도 폐배터리 재활용 사업에 참여합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-anode" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPcXloY3lGY3NPOVM1UFA2Z2czZ3B5OFpCM3lkSTBWNmY0N2FTZThaSDVtbkRSUkt1Ty1aRFRLTFcyRUhoT3pPYVUyaHQ2cUl4TVRJWDhMSkRyZWN2bW84U1JYWm5DMGRWTXU2R0JzcHNWbTFvY3JSYUJOZTRZWFRHR28tQmpXdjRnczBjMkdPeFJmRFU1YUp0UjQyamNzR3ByYmNjNWpMcnBUOTlkTUg3eksyRks?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">anode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">NextSource Materials Announces Final Investment Decision for UAE Battery Anode Facility</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Investing News Network</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">NextSource Materials</span><span class="chip">UAE</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>NextSource Materials는 UAE에 배터리 음극재 시설 투자를 최종 결정했습니다.</li><li>이 결정은 회사의 성장 전략의 중요한 부분이며, 글로벌 배터리 공급망 확장에 기여할 것으로 예상됩니다.</li><li>이번 투자는 UAE의 산업 다각화 노력과도 맞물려 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMizAFBVV95cUxOLTR2X1A0S1AwVXpITFBhNzZ1TnRtSkc0cldBZWlPNmtoUDd2YzNqbzZYUWZMNktVQ004TTB1RklmRUk4cklrTWpsdERsajZJMUYtZ3YzN3A0YzR2TldqRkFRTXNZakdfdU82bUgxOU9aMEYxOExEN1BlakFVanJuU1dDOGRQcXhNVzdmYUlqYmFDeUVjWmtjQTVTam1CSUhVR1hvZmtIQ3U4NEpQaDd5QUNJV0E5N0t4b1A4bURLaEJ1ZkhZR0RlQmQ3NHU?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">CATL to add 40 GWh of sodium-ion battery capacity in $735m Fujian expansion</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Electric &amp; Hybrid Vehicle Technology International</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CATL</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>CATL은 중국 푸젠성에 7억 3,500만 달러를 투자하여 40GWh 규모의 나트륨 이온 배터리 생산 능력을 확장할 계획입니다.</li><li>이번 확장은 CATL의 나트륨 이온 배터리 기술 상용화 노력의 일환으로, 전기차 및 에너지 저장 장치 시장에서의 경쟁력을 강화할 것으로 보입니다.</li><li>나트륨 이온 배터리는 리튬 이온 배터리의 대안으로 주목받고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQYmRCdG15SE1TdGVYakM2LWxQNXh1SlgtOXpkN0xhbG91azB5TlUtZkJ0MWV2dHdjUDFOSThBMjQ2WWxvNG0yRzBsYkpwNnJXYjVXX2NMUjZONHdRRVJsaTZTM1Bwa2p5a3ZCanotSEVBU1ozaFJGYzFvek92VW1SZnVpd1lobDVpeFFyWmttcE15enZmdHRranNkaUVxU0hFazNSZTVFbjdIRi1FNk9N?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Anthro Energy, EnPower Partner on U.S. Lithium-Ion Battery Production</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Assembly Magazine</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Anthro Energy</span><span class="chip">EnPower</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Anthro Energy와 EnPower는 미국 내 리튬 이온 배터리 생산을 위한 파트너십을 발표했습니다.</li><li>이번 협력은 미국 내 배터리 제조 역량을 강화하고 공급망 안정화에 기여할 것으로 기대됩니다.</li><li>양사는 기술 개발 및 생산 효율성 증대를 위해 협력할 예정입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQWEQxTVo1MmFzUVI0d25IbjNtY0V0VzBqNHYxSHNjR3otbjlOaDVtYmZlM1lXejdSU2drMWR3NjFGdnUxd3hOQ1FMUGdrSWVUVEl4WkJjSXR5OXlyUVlJcHQxbTFrS1ZINkd6ajVvSEE1OW9KX0Y0TUVwczBMX283SFd6dWEtWHVSQU9jeDFyQTNfeXA1Q0ZpZ09OZEtvdFhNaGphY29UQmxhcHBqU3RGSjZHalJycW1HWDF5NGExV1JwMWk1?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">How the EV battery segment is evolving with an eye on lithium supply</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Energy Connects</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전기차 배터리 산업은 리튬 공급망 확보에 중점을 두며 진화하고 있습니다.</li><li>리튬 가격 변동성과 공급 안정성은 전기차 배터리 생산 및 가격에 직접적인 영향을 미칩니다.</li><li>따라서 배터리 제조업체들은 리튬 확보를 위한 다양한 전략을 모색하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLXc3ajVYR1ZvWUg4TnRUcnJ2ZmZIcVRTMWdxNWFhbmk1bDJ4U2NjVTNQWEFmb0tqS3k4ZXgzQ1pOQXByVEZJaDN3M09ZRmw3c0VhVmRCOFhnaXU1NjF0VURTQTF1Y0dJMWktajBvNG5kZElQX2lLYm1hQ3ZrbjJDY2F0bzlxZ2U2UzBVSG9nSHhINDRIU2NlZkFvdHhIM09OZldBLXVDTmtSQ0RXTFVTeWxORlpuRS1QTzkxMjVhQ2h0V0gwUU1oVGYtM1pBVWZGZUNXYQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Ford Launches Energy Business, Unveils Tesla Megapack-Rivaling Battery Energy Storage System</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">autoevolution</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Ford</span><span class="chip">Tesla</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Ford는 에너지 사업부를 출범하고 Tesla의 Megapack과 경쟁할 수 있는 대규모 배터리 에너지 저장 시스템(BESS)을 공개했습니다.</li><li>이 시스템은 대규모 에너지 저장 및 그리드 안정화에 기여할 것으로 예상됩니다.</li><li>Ford의 에너지 사업 진출은 전동화 전환 전략의 일환입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOOWZOT2N5bDlwWTV2aWxUSWpEYkpSLWRESl9ZNTkxYUdvc0xkSXVNNWVKd3BrODU1eGVWVmlpWm9mNW4tblBCbDJldlRkeXRULWtCVXNoOHk0b0J1NmcwaG9xd1NYNkFtbmRzeHhfMnF0Z0tWdmItWWtLY1UxbHBfZ2hDQnUtTnZxckQ5OVlEVEx5ek5abVhEdS1Ec2lIUjZ0dHVYNUdKaw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">The solid-state battery industry summit is approaching, with the industrialization process continuing to advance, and these stocks frequently being surveyed by institutions.</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">富途牛牛</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전고체 배터리 산업 서밋이 다가오고 있으며, 산업화 공정이 계속 발전하고 있습니다.</li><li>이러한 추세에 따라 관련 주식들이 기관 투자자들의 주목을 받고 있습니다.</li><li>전고체 배터리는 차세대 배터리로 큰 기대를 모으고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMitgFBVV95cUxQYkFLUnlCWjBtdklDVDJvbnByWEZPcDNCODF4RFUxclpoaTVUazVnR0YtMUlLUlE3MUpDZXhORXc4ZjQ0dHlMQVhIT3hfWTRGYl8wTGM4WmVEbUJsbnZnQW02bGNQZlZJY3NZU2xRRElrY2ZCNV9nal9qdm84YXE1QlVZRVZoa2ZtWFQ1dV83dEhsOVNaZjFCd3V2MGFJMDA2OWZDTjl3b2RlX0xValR4LUV0SXJHQQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Ford Energy announces DC block utility-scale BESS based on 512 Ah LFP cells</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">pv magazine International</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Ford Energy</span><span class="chip">DC</span><span class="chip">BESS</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Ford Energy는 512Ah LFP 셀 기반의 유틸리티 규모 DC 블록 BESS를 발표했습니다.</li><li>이 시스템은 대규모 에너지 저장 솔루션으로, 재생 에너지 통합 및 그리드 안정화에 기여할 것으로 보입니다.</li><li>LFP 배터리 기술의 발전은 에너지 저장 시스템의 효율성과 경제성을 높이고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxONVhSZ0tqVFFKLThWYzJsOXVJRlpnRjRpNVg2R3F6UGU0SVJDZmpTX3Y1dTFSMDVoQUhSaFlnTmE3dUM5N1NOVEVfWVc1VkJ0TmxwN0hKSVYwbkhaRm4zb2tYSjNBcVRZX2kycDQ0Z0t3RUptVG5qbnVLaGR5bGVDemtYcXlEdkY3dGhGZVFsQ1NNelRwOXhGRmIzcHpXemViSXdGaEJfSFM0YmZ5aE50M0MwWTZkbzJfZmpFdE1KWUkyYzl4a245SmdYYTF1N1ljdzNPczZwWlpCZVhUUlNnWWhMd18tczVvLVRVS1IzYjk3VXRXRlE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[SMM Analysis] Lithium Prices Break Through 200,000 Yuan/Mt, Energy Storage Price Transmission Enters Observation Period</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Shanghai Metals Market</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SMM</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>리튬 가격이 톤당 200,000위안을 돌파하며 에너지 저장 장치 가격 전이 관찰 기간에 진입했습니다.</li><li>리튬 가격 상승은 배터리 생산 비용 증가로 이어져 에너지 저장 장치 시장에 영향을 미칠 수 있습니다.</li><li>향후 에너지 저장 장치 가격 변동 추이에 관심이 집중되고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-12</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
