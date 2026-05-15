@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-05-14</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-05-14 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5IOXNwVjZyRW0tUnFfQ1FBeWJ1OW8tT2NyUWFXLU56ZXR6Vy1jWGUwYUtCRWRkdldLMlVadFY4eU9Zc3FlUjFoZUM5SXViZVpjdDhLQkwtVTcyWlJBbDdtY2JzMmkwdmxlNWRkNFdCZ1VIemo4WlVEdVI5bnJRREnSAYQBQVVfeXFMUFVjVFhWNVllOVNjMGg2eXd4U2huZXIzT2Fzdy1rTHNpcnMzcWFWR0x5Y3psZVJrajU0LVI0b0NXWmZkZm94b3VmUFNjLWpPNXIzSnlHYUJTaTZzc0xrRjA5RVp0anVCX1NwR2V2MTNmSnBlcUxsU3ZKZ3VKUzhpT2tPV3pP?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lotus CEO warns solid-state batteries still up to a decade from mass production</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CNBC</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Lotus</span><span class="chip">CEO</span><span class="chip">CNBC</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Lotus CEO has warned that solid-state batteries are still up to a decade away from mass production.</li><li>This timeline suggests that traditional lithium-ion batteries will continue to dominate the market for the foreseeable future.</li><li>The automotive industry&#x27;s transition to electric vehicles may face delays or require continued reliance on current battery technology.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-14</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxORld3MmtkTDgtVmtBSDJ0bjU0UERHWDlvY29ZMWNId2p6YW9IRTFxNHRORnZwVklWWHRRbGVOV1BPckZMYnhhWVZDTXlXajRDVVYyQy0wWUxCLVkyUUQ3UkEyRXZLU0RJaXFvV05hRFJrSlA5RWUzMHdPSm5QZzZTYUZZZDNiZm1wYzZMWHoybnVmOVNscFU3bXotcnlZZFF3UTZiWjJBRm1DaVJUOGdaRnIzeFcwakxjUHVwVDNPajQ4dEdqUVYtMQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Pure Lithium’s solid‑state battery keeps running after cut test as the Chinese startup hits 500 MWh output</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CarNewsChina.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Pure Lithium</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Pure Lithium&#x27;s solid-state battery has demonstrated resilience by continuing to function after a cut test.</li><li>The Chinese startup has also achieved a significant output milestone, reaching 500 MWh.</li><li>These developments indicate progress in the commercialization and durability of solid-state battery technology.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-14</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.ebn.co.kr/news/articleView.html?idxno=1708786" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[K배터리 진단] 삼성SDI, 북미 변수 커졌다…ESS·전고체로 돌파구</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.ebn.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">삼성SDI</span><span class="chip">BMW</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Samsung SDI is facing increased variables in the North American market, seeking breakthroughs with energy storage systems (ESS) and solid-state batteries.</li><li>The company is developing solid-state batteries with a pilot line at its Suwon research center, aiming for mass production by 2027 and already supplying samples to key clients like BMW.</li><li>This strategic focus on solid-state batteries and ESS is crucial for Samsung SDI to navigate market challenges and secure future growth.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-14</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMigAJBVV95cUxQR2hIU0xpdWMycHV3Wks4VkxBVlBGTmxfT2c3OThZaUh1d3gxSVNya0FBRnRuRzRGYkJmN20zRUJvQ2NKR0p1dmFBUmZXczlScTR4alVVWkxrdmVWUmRkWUlzUFpoYnJET1N1bGpmbEpCSEtaNU84a1FKd2dUWFVyblh6WDhxMnhwVHc2SDRlbWh0RHBVRlBNTU80RDNseEZjTTlBT2NkVTVZSFZsdmJNZ05naDRyYUNBYzFubHRhYWNnNEF2dGo4a0lyTlJldk92X3h3QWNOMFE2VTBoNzFSbmt4NjVlZjZETTNzcU9pSFRYWS15UWxPOGFZY2ROUDRS?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Blue Solutions and AVL complete solid-state battery safety evaluation program</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Automotive Testing Technology International</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Blue Solutions</span><span class="chip">AVL</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Blue Solutions and AVL have successfully completed a safety evaluation program for solid-state batteries.</li><li>This collaboration highlights the ongoing efforts to ensure the safety and reliability of next-generation battery technologies.</li><li>The completion of this program is a step towards the broader adoption of solid-state batteries in various applications.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-14</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMifkFVX3lxTE9VaU5rc3J0c1hfcE0tSmJqXzdOekpETlNxZGtlQUt0MHpGN25qamkwazh5el9YMzBSM1lNbFJNVkxJUkQ4UlBPaWpvdTU1Z1pxa1l4eGcxakFwZ19TQkUwbVlsOEVsMHRfX3RtUWhoMWpzN0pEeFNBX0UybGlpZw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">The ionic path to all-solid-state batteries</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Tech Xplore</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The article discusses the ionic pathways crucial for the development of all-solid-state batteries.</li><li>Understanding and optimizing ion transport is key to unlocking the potential of these advanced batteries.</li><li>This research contributes to the ongoing efforts to overcome challenges in solid-state battery technology.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-14</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQVDVEdW1uTU9PenFpbF9TcDdHYkRyM2VBY1BsR21fVWQxUFB3SzM4YmJoZXhRTC1uclMtTUN6dVJQWWZyWnNfTUFld0hCLVBfWUV0NE96d3l5TEZjN1pPcGVSbFI1ZGJkeWNMRElLcUlwbFNTYzVoYlRDYktrUm44M1JWcUstRkdJcW9VUDk2ckdGZy1QTXBabW93Nlc5YjVvcDl1cFc3TmpueUJ3V09B?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Battery Storage Boom Is Accelerating Faster Than EVs, Redefining Lithium Demand</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CarbonCredits.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The boom in battery storage is accelerating faster than the electric vehicle (EV) market.</li><li>This trend is significantly redefining the demand for lithium.</li><li>The increasing need for energy storage solutions is reshaping the dynamics of the lithium market.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-14</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="http://www.finomy.com/news/articleView.html?idxno=254436" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">전기차, 에너지 나누는 &#x27;움직이는 ESS&#x27;로 진화</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.finomy.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">현대차그룹</span><span class="chip">보조배터리</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Electric vehicles (EVs) are evolving beyond mere transportation into &#x27;mobile energy storage systems&#x27; (ESS).</li><li>This transformation positions EVs as strategic assets capable of storing and distributing energy.</li><li>Hyundai Motor Group is leading this shift, as demonstrated by their initiatives in bidirectional power flow.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-15</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=452937" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">현대차그룹, 제주서 EV 전력망 연계 실증 확대…전기차 &#x27;이동형 ESS&#x27; 시대...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.pinpointnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">현대차그룹</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Hyundai Motor Group is expanding its Vehicle-to-Grid (V2G) demonstration in Jeju, enabling EVs to act as mobile ESS.</li><li>V2G technology allows for bidirectional power exchange between EV batteries and the power grid.</li><li>This initiative signifies a move towards EVs serving as active participants in the energy ecosystem, not just consumers.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-15</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.khan.co.kr/article/202605151030011" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">현대차그룹, ‘움직이는 ESS’ V2G 제주서 일반 고객 대상 시범 서비스</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.khan.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">현대차그룹</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Hyundai Motor Group is launching a Vehicle-to-Grid (V2G) pilot service for general customers in Jeju, utilizing EVs as mobile energy storage systems (ESS).</li><li>V2G technology facilitates the two-way flow of electricity between EV batteries and the power grid.</li><li>This program allows EVs to contribute to grid stability and energy management by supplying stored power.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-15</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="http://www.newsprime.co.kr/news/article.html?no=733595" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">V2G 실험장 된 제주…전기차 배터리, 전력망 자산으로</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.newsprime.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">현대차그룹</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Jeju is becoming a testbed for Vehicle-to-Grid (V2G) technology, transforming EV batteries into grid assets.</li><li>This enables EVs to function as &#x27;mobile energy storage systems&#x27; (ESS) by sending stored power back to the grid when needed.</li><li>Hyundai Motor Group is collaborating with the Jeju provincial government to advance V2G implementation.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-15</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.cnbizm.com/news/articleView.html?idxno=302998" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">현대차그룹, 제주서 V2G 실증 확대…전기차가 &#x27;움직이는 ESS&#x27; 된다</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.cnbizm.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">현대차그룹</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Hyundai Motor Group is expanding its V2G demonstration in Jeju, positioning EVs as &#x27;mobile ESS&#x27;.</li><li>The group launched a V2G pilot service for general customers, enabling bidirectional power flow between EVs and the grid.</li><li>This initiative is a key step in developing a future power ecosystem where EVs play an active role in energy management.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-15</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.inthenews.co.kr/news/article.html?no=86877" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">현대차그룹, 전기차를 ‘움직이는 ESS’로…제주 V2G 실증 확대</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.inthenews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">현대차그룹</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Hyundai Motor Group is enabling EVs to function as &#x27;mobile ESS&#x27; by allowing them to supply stored power back to the grid.</li><li>This capability transforms EVs from simple transportation into energy storage and supply devices.</li><li>The expansion of V2G demonstrations in Jeju is central to this evolution of the EV&#x27;s role.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-15</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.tf.co.kr/read/economy/2322861.htm" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">현대차그룹, 제주서 V2G 실증 확대…전기차 &#x27;움직이는 ESS&#x27; 활용</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">news.tf.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">현대차그룹</span><span class="chip">보조배터리</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Hyundai Motor Group is expanding its V2G pilot service in Jeju, treating EVs as &#x27;mobile batteries&#x27;.</li><li>This service allows general customers to participate in V2G, enabling bidirectional power flow between EV batteries and the grid.</li><li>The initiative aims to integrate EVs more deeply into the energy infrastructure.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-15</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.dailian.co.kr/news/view/1644610/?sc=Naver" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">전기차가 &#x27;움직이는 ESS&#x27;로…현대차그룹, 제주서 V2G 실험 본격화</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.dailian.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">현대차그룹</span><span class="chip">현대자동차그룹</span><span class="chip">보조배터리</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Hyundai Motor Group is launching a full-scale V2G pilot service in Jeju, utilizing customer EVs as energy storage systems (ESS).</li><li>This program allows EVs to act as &#x27;mobile batteries,&#x27; sending power back to the grid.</li><li>The initiative marks a significant step in exploring the potential of V2G technology.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-15</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="http://www.enewstoday.co.kr/news/articleView.html?idxno=2429646" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">15</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">현대차그룹, 제주서 &#x27;바퀴달린 ESS&#x27; 실증 확대</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.enewstoday.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">현대차그룹</span><span class="chip">재생에너지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Hyundai Motor Group is expanding its &#x27;mobile ESS&#x27; V2G demonstration in Jeju, aiming to enhance renewable energy utilization.</li><li>The group launched an expanded V2G pilot service involving general customers, enabling bidirectional power flow from EV batteries to the grid.</li><li>This initiative seeks to build a regional energy ecosystem by leveraging EV capabilities.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-15</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNUzc4VUVWRm0zekJMdEJmb3BpdlpQcl91MGdaVGpoblF3NElwa3lNTlJGYndfREhLNU9nbnZZZ096Wmw3LUp4bVFtTE12MnJ6NXBsVzkteHg2Z2pWVl8zWWk0R2phcFQxYml0aWNGOC1iTVhIOWJPbDZFaE1rcGlNY1Vib3JseGI4a0Z1QkpIVVpWR3ZfWVBXWDdneVo2V0I2WV9OUThqNUxZNlI1OVdSaVlIQ1JZQUdnNjQ4MHFTMlhLSFgyWlExcWdHZ1Y?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">16</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">ION Storage Systems Names Ravi Abbineni CFO as Solid-State Battery Commercialization Advances</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">citybiz</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">ION Storage Systems</span><span class="chip">ION</span><span class="chip">CFO</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>ION Storage Systems has appointed Ravi Abbineni as its new CFO to support the commercialization of its solid-state batteries.</li><li>This strategic hire indicates the company&#x27;s commitment to advancing its solid-state battery technology towards market readiness.</li><li>The appointment is a key step in ION Storage Systems&#x27; growth and commercialization efforts.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-14</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNV2ZPZEk0MGR5RnhrdGFsWlJRVHkyZEZvaEdxckxMN2FvWFVlcUFuSnBlbjkzekpHVE04SjZkUzB1dHdvb19ONllmMDQ1T3VSZ3h5R1AzUUhRTC1lZXd1aG5JaW5yMUxTUHVJQzhHMnBUNFpHVXZ3Z2l2WEx3VEdGQWlMcW1oZFl5X0MyOXEySTY1aE5qT3FSMmQ4S1g?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">17</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Why the AI boom is boosting lithium demand</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">The Washington Post</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">AI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The artificial intelligence (AI) boom is significantly increasing the demand for lithium.</li><li>This surge in demand is driven by the energy requirements of AI technologies and data centers.</li><li>The growing influence of AI is reshaping the market dynamics for essential battery materials like lithium.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-14</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPYnN5c08zaXAxaGFYd0w1WU0xemp3MTZEVWU0dFVDZG1ORjI4aHo3TXBJZ2E5ejROVjZ3Mk81OUJIcUY1dmY1MXVZM1N5Vk9nYTdiWmlnWUY2WjFwS0FRN2N5dG95LXhpOE04cDZCSWtYWW5GaEY5R1hnZld4aWowdVI3NzNpWGlMWTlkX2pUQkxNMGlsMUQwM2hPTlFHcUdG?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">18</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium-ion Battery Market to Reach US$ 206.4 Bn by 2032 at 18.2% CAGR | Persistence Market Research</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">openPR.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Persistence Market Research</span><span class="chip">US</span><span class="chip">CAGR</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The lithium-ion battery market is projected to reach US$ 206.4 billion by 2032, growing at a compound annual growth rate (CAGR) of 18.2%.</li><li>This significant market expansion is driven by the increasing adoption of electric vehicles and energy storage solutions.</li><li>The report by Persistence Market Research highlights the robust growth trajectory of the lithium-ion battery sector.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-14</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVEpXbExDV1o5bzBGbWphYnJMMVo0dUdidl9oOF9VT2tXMDlIMHMyZ3VNS3FNaXV1bldGdUtiVUN3MDhUT0NxbXBObkVvRDlnSWdmNHFVNFJKMnNxR3hNV28zbFJSNTR6Q3pNYjBycjhwSy1NbUpfbjJ0NzAyS1NWU1NUamVMWFJNQTBuQ21GWHdCRG5jdE90TG1EeHM3NmpfTENKbFZZTlk3d0ZhWjY2MVBNbG9DM1hMTDhWeFgzUlk2aEl0MmtnN0h2MzliSkRWRVNWb0JlTy1zWjBodHJ2U3ZhMktPczl5Q1gwU3U1OWxNQQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">19</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">UPDATE: 2 Amaero employees injured in Cleveland lithium battery explosion</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Local 3 News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Amaero</span><span class="chip">UPDATE</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Two employees were injured in a lithium battery explosion at the Amaero plant in Cleveland.</li><li>The incident highlights the potential safety risks associated with handling lithium batteries.</li><li>Emergency services responded to the scene following the explosion.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-14</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQQjY4Mk1fN1hONzBoNmhnMDJtUkRwbTNES3FKY3hkREV2MEoxOXRxQ25vY01XX0hJUkQyNXNHV19Wb3EzRl9EOVRRZjRsZEw3cHJkd3ZOdl90aU9FNFozMVlidFFDVDRtQ3dKcExkanl5ZUszV3lnazl0ay11V0lQUkxqR0F2THhJRUlieUdSV1RhV1MtQmNzVE9n?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">20</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Suspected lithium battery explosion at Amaero plant in Cleveland, Tennessee, injures two</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Chattanooga Times Free Press</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Amaero</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>A suspected lithium battery explosion at the Amaero plant in Cleveland, Tennessee, resulted in injuries to two individuals.</li><li>The incident underscores the critical importance of safety protocols when dealing with battery technologies.</li><li>Local authorities and emergency services were involved in responding to the event.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-05-14</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
