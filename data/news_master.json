@@ -1,5 +1,134 @@
 [
   {
+    "title": "포스코·이브이첨단소재 투자' 대만 프롤로지움, 전고체배터리 전략 공...",
+    "description": "빈센트 양 CEO, '중국 국제 배터리 박람회 2026'서 기조연설 대만 전고체 배터리 전문기업 '프롤로지움(Prologium)'이 중국 최대 배터리 전시회에 참여했다. 전고체 배터리 기술 개발 여정과 향후 로드맵을...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=101843",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-05-16",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "프롤로지움",
+      "Prologium",
+      "포스코"
+    ],
+    "summary_3_sentences": [
+      "대만 전고체 배터리 전문기업 프롤로지움(Prologium)이 중국 국제 배터리 박람회에 참가했습니다.",
+      "빈센트 양 CEO는 기조연설을 통해 전고체 배터리 기술 개발 여정과 향후 로드맵을 발표했습니다.",
+      "이는 프롤로지움의 전고체 배터리 기술력과 시장 확대 의지를 보여줍니다."
+    ],
+    "uid": "4ce3bf6719809482a2668bb1a12ca13f5c71635e"
+  },
+  {
+    "title": "전고체배터리 기업 팩토리얼, 나스닥 상장 '청신호'",
+    "description": "SEC서 증권신고서 승인 획득 합병가치 15억 달러 전망 미국 전고체 배터리 업체 팩토리얼(Factorial Inc)이 현지 규제기관으로부터 스팩(SPAC·기업인수목적회사)과의 합병 서류에 대한 승인을 획득했다. 이달 말...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=101844",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-05-16",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "팩토리얼",
+      "Factorial Inc",
+      "전고체배터리"
+    ],
+    "summary_3_sentences": [
+      "미국 전고체 배터리 업체 팩토리얼(Factorial Inc)이 스팩(SPAC)과의 합병 서류에 대한 승인을 획득했습니다.",
+      "이번 승인으로 팩토리얼은 나스닥 상장의 청신호를 켠 것으로 보입니다.",
+      "합병 가치는 15억 달러로 전망됩니다."
+    ],
+    "uid": "39aed1e66f045847988ee6607695b22f455c7fe4"
+  },
+  {
+    "title": "K배터리 3사, 1분기 '적자수렁'…하반기 구원투수는 'ESS'",
+    "description": "삼성SDI만 ESS와 원통형 배터리 판매 확대를 바탕으로 적자 폭을 줄이며 상대적으로 선방했다. 전기차 시장 회복이 더딘 가운데, 3사 모두 ESS와 원통형 배터리, AI 인프라용 배터리 등을 앞세워 하반기 실적 반등을...",
+    "link": "https://www.newsway.co.kr/news/view?ud=2026051509364527552",
+    "source": "www.newsway.co.kr",
+    "published_at": "2026-05-16",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 86,
+    "monitoring_importance": 86,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "삼성SDI",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "K배터리 3사는 1분기에 적자를 기록했으나, 하반기에는 ESS(에너지 저장 장치) 사업을 통해 실적 반등을 노리고 있습니다.",
+      "삼성SDI는 ESS와 원통형 배터리 판매 확대로 적자 폭을 줄이며 선방했습니다.",
+      "전기차 시장 회복이 더딘 가운데, ESS와 원통형 배터리, AI 인프라용 배터리 등이 하반기 실적 개선의 열쇠가 될 전망입니다."
+    ],
+    "uid": "292bece00a9e00cfc6179478d79e70c115e8e927"
+  },
+  {
+    "title": "[중화학ON]탈중국·AI 전력난 겹쳤다…ESS로 쏠리는 K배터리",
+    "description": "LG에너지솔루션은 미국 미시간 공장 등을 기반으로 북미 ESS 공급 확대에 나서고 있으며, 한화큐셀 등과 ESS 배터리 공급 협력을 확대하고 있다. 삼성SDI 역시 미국 시장 중심으로 ESS용 리튬인산철(LFP) 배터리 사업을...",
+    "link": "https://view.asiae.co.kr/article/2026051511002681113",
+    "source": "view.asiae.co.kr",
+    "published_at": "2026-05-16",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 86,
+    "monitoring_importance": 86,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG에너지솔루션",
+      "삼성SDI",
+      "한화큐셀"
+    ],
+    "summary_3_sentences": [
+      "탈중국 움직임과 AI 산업 확대로 인한 전력난이 겹치면서 ESS(에너지 저장 장치) 시장으로 K배터리 기업들의 관심이 쏠리고 있습니다.",
+      "LG에너지솔루션은 북미 ESS 공급 확대를, 삼성SDI는 미국 시장 중심의 ESS용 LFP 배터리 사업을 강화하고 있습니다.",
+      "이는 K배터리 기업들이 ESS 시장을 새로운 성장 동력으로 삼고 있음을 보여줍니다."
+    ],
+    "uid": "e4b21278abad66189d138d206afe2a40cf1215bd"
+  },
+  {
+    "title": "\"6분 충전에 1500㎞\"…중국 CATL 공세에 K배터리 3사 첨단 기술로 맞대응",
+    "description": "아울러 삼성SDI는 각형 배터리 기준 최고 수준인 리터당 700Wh(와트시) 에너지 밀도를 확보했으며, 향후 전고체 배터리를 통해 리터당 900Wh까지 끌어올려 주행거리와 성능을 동시에 개선한다는 전략이다. SK온은 EREV용...",
+    "link": "https://www.widedaily.com/news/articleView.html?idxno=294108",
+    "source": "www.widedaily.com",
+    "published_at": "2026-05-15",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.newsis.com",
+        "link": "https://www.newsis.com/view/NISX20260515_0003631156"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "CATL",
+      "삼성SDI",
+      "SK온"
+    ],
+    "summary_3_sentences": [
+      "중국 CATL의 공세에 맞서 K배터리 3사는 첨단 기술로 대응하고 있습니다.",
+      "삼성SDI는 리터당 700Wh의 에너지 밀도를 확보했으며, 전고체 배터리를 통해 900Wh까지 끌어올릴 계획입니다.",
+      "SK온은 EREV용 배터리 개발에 집중하고 있습니다."
+    ],
+    "uid": "091e864b4018eaf66d14db42816981d261906307"
+  },
+  {
     "title": "현대차그룹, 제주서 EV 전력망 연계 실증 확대…전기차 '이동형 ESS' 시대...",
     "description": "V2G는 전기차 배터리와 전력망을 연결해 전기를 양방향으로 주고받는 기술이다. 차량은 충전만 하는 소비 기기가 아니라 남는 전력을 다시 전력망에 공급할 수 있는 이동형 에너지 저장장치 역할을 수행하게 된다....",
     "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=452937",
@@ -90,6 +219,57 @@
       "The expansion of V2G demonstrations in Jeju is central to this evolution of the EV's role."
     ],
     "uid": "e52e172c0a5f21cc6076f4259d759120146ab465"
+  },
+  {
+    "title": "K-배터리 3사 3색 생존 방정식으로 '포스트 캐즘 시대' 연다",
+    "description": "화재 위험이 낮고 에너지 밀도가 압도적인 전고체 배터리가 그 핵심이다. 2027년 양산을 목표로 공들이고 있는 전고체 배터리는 차량 경량화와 장거리 주행을 동시에 잡을 수 있는 '게임 체인저'로 불린다. 최근...",
+    "link": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=306689",
+    "source": "www.greenpostkorea.co.kr",
+    "published_at": "2026-05-15",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "K-배터리"
+    ],
+    "summary_3_sentences": [
+      "K-배터리 3사는 포스트 캐즘 시대를 열기 위해 전고체 배터리에 집중하고 있습니다.",
+      "전고체 배터리는 화재 위험이 낮고 에너지 밀도가 높아 차량 경량화와 장거리 주행을 동시에 잡을 수 있는 게임 체인저로 불립니다.",
+      "2027년 양산을 목표로 기술 개발에 박차를 가하고 있습니다."
+    ],
+    "uid": "3a6e59d3f86a5b21701688311dad1a8e848c8c3b"
+  },
+  {
+    "title": "'내 차가 발전기가 된다'...제주 도민 40명 먼저 현대차 실증",
+    "description": "V2G는 전기차를 단순한 이동수단이 아닌 '움직이는 에너지저장장치(ESS)'로 활용하는 기술이다. 차량 배터리에 저장된 전력을 필요에 따라 전력망에 역공급할 수 있어, 전기차가 에너지 인프라의 일부로 기능할 수 있다....",
+    "link": "https://www.gpkorea.com/news/articleView.html?idxno=142820",
+    "source": "www.gpkorea.com",
+    "published_at": "2026-05-15",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.financialpost.co.kr",
+        "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=259237"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 86,
+    "monitoring_importance": 86,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "현대차"
+    ],
+    "summary_3_sentences": [
+      "제주도에서 40명의 도민을 대상으로 V2G(Vehicle-to-Grid) 실증 사업이 시작되었습니다.",
+      "V2G 기술은 전기차를 단순한 이동수단을 넘어 '움직이는 에너지 저장 장치(ESS)'로 활용하는 것을 목표로 합니다.",
+      "전기차의 전력을 필요에 따라 전력망에 역공급하여 에너지 인프라의 일부로 기능하게 합니다."
+    ],
+    "uid": "e23ec28160f388a2de2f1ca603fbc3c414a1d9f3"
   },
   {
     "title": "전기차, 에너지 나누는 '움직이는 ESS'로 진화",
@@ -188,6 +368,54 @@
     "uid": "649205a8f959459610ad48f3697a63aea78b3322"
   },
   {
+    "title": "\"중국 배터리 기술이 '게임체인저'\"...K-배터리 비상",
+    "description": "삼성SDI는 각형 배터리 기준 최고 수준인 리터당 700Wh(와트시) 에너지 밀도를 확보했으며, 향후 전고체 배터리를 통해 리터당 900Wh까지 끌어올려 주행거리와 성능을 동시에 개선한다는 전략이다. 삼성SDI 관계자는...",
+    "link": "https://www.abcn.kr/news/articleView.html?idxno=88089",
+    "source": "www.abcn.kr",
+    "published_at": "2026-05-15",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 86,
+    "monitoring_importance": 86,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "...K-배터리"
+    ],
+    "summary_3_sentences": [
+      "중국의 배터리 기술 발전이 '게임 체인저'로 부상하며 K-배터리에 위협이 되고 있습니다.",
+      "삼성SDI는 각형 배터리의 에너지 밀도를 높이고 전고체 배터리를 통해 성능을 더욱 개선할 계획입니다.",
+      "이는 K-배터리 기업들이 기술 경쟁력 확보에 집중해야 함을 시사합니다."
+    ],
+    "uid": "24a7ced8531c574b203bee844177921677baa961"
+  },
+  {
+    "title": "Lithium-Ion Battery Recycling Market Forecast 2035: USD 83.3",
+    "published_at": "2026-05-15",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNUl1UVgzVmZaNEJDRXBfUGVCT2QtQzR0MTVUYjQ5bld2VFM4cDlMcll2Z3VpWUktRHhuR3ljY3NZbjYzTDJwYS11eVN2MTRnUlBRV2VsTDJzYVliQ2N0dXJuOUQzdFZIUFVZcXJwTFRyLXAxSkZfTEtLOVBQMVdTcVpwdHdYOVJabHVKNzl0a1hpLWJmaHNVa1RYbw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNNUl1UVgzVmZaNEJDRXBfUGVCT2QtQzR0MTVUYjQ5bld2VFM4cDlMcll2Z3VpWUktRHhuR3ljY3NZbjYzTDJwYS11eVN2MTRnUlBRV2VsTDJzYVliQ2N0dXJuOUQzdFZIUFVZcXJwTFRyLXAxSkZfTEtLOVBQMVdTcVpwdHdYOVJabHVKNzl0a1hpLWJmaHNVa1RYbw?oc=5\" target=\"_blank\">Lithium-Ion Battery Recycling Market Forecast 2035: USD 83.3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "USD"
+    ],
+    "summary_3_sentences": [
+      "리튬이온 배터리 재활용 시장은 2035년까지 833억 달러 규모로 성장할 것으로 예측됩니다.",
+      "이는 전기차 보급 확대에 따른 폐배터리 증가와 관련이 있습니다.",
+      "재활용 기술 및 시장 성장에 대한 전망을 보여줍니다."
+    ],
+    "uid": "5faddeda1849fb34a8d991e146c208d07186cd17"
+  },
+  {
     "title": "현대차그룹, 제주서 V2G 실증 확대…전기차 '움직이는 ESS' 활용",
     "description": "현대차그룹은 15일 제주도에서 전기차를 '바퀴 달린 보조배터리'처럼 활용하는 V2G(Vehicle-to-Grid) 시범서비스를 일반 고객 대상으로 확대 시행한다고 밝혔다. V2G는 전기차 배터리와 전력망을 연결해 양방향으로 전력을...",
     "link": "https://news.tf.co.kr/read/economy/2322861.htm",
@@ -210,6 +438,215 @@
       "The initiative aims to integrate EVs more deeply into the energy infrastructure."
     ],
     "uid": "54cdf5b6e1143a95353d17cec6173e709c3be4f8"
+  },
+  {
+    "title": "Vast, Untapped Source of Lithium Found in The US Could Last 300 Years",
+    "published_at": "2026-05-15",
+    "source": "ScienceAlert",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM0ppRjVtNEhreWNfZFRYdlBnOGNsWXkyejdBYXcwak1zdUpwQVpQRGNRUkQxZVFTMnF5TjJ1TmRVeWVrZTNGQVRMM0hYVEd6Um9ROXlzUTUycGFFR0NRRzM5Ul9JQV9nbDdlVE5nbEY5THJVLVpYYVJncUVWVDc0YWZ4X0JvdW1Ud0xoUzA5b0h1V3M3ME1rOWtHUzdsUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNM0ppRjVtNEhreWNfZFRYdlBnOGNsWXkyejdBYXcwak1zdUpwQVpQRGNRUkQxZVFTMnF5TjJ1TmRVeWVrZTNGQVRMM0hYVEd6Um9ROXlzUTUycGFFR0NRRzM5Ul9JQV9nbDdlVE5nbEY5THJVLVpYYVJncUVWVDc0YWZ4X0JvdW1Ud0xoUzA5b0h1V3M3ME1rOWtHUzdsUQ?oc=5\" target=\"_blank\">Vast, Untapped Source of Lithium Found in The US Could Last 300 Years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ScienceAlert</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "US"
+    ],
+    "summary_3_sentences": [
+      "미국에서 300년 동안 사용할 수 있는 방대한 양의 리튬이 발견되었습니다.",
+      "이 발견은 미국 내 리튬 공급을 크게 늘릴 수 있는 잠재력을 가지고 있습니다.",
+      "이는 전기 자동차 배터리 생산에 중요한 영향을 미칠 수 있습니다."
+    ],
+    "uid": "1341feef65939ad7cf1ffe68b94c84abf8715ddc"
+  },
+  {
+    "title": "Mysteel China Apr lithium-ion batte...",
+    "published_at": "2026-05-15",
+    "source": "Mysteel",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYWxkbkxzR2JBcERTNnAyaFN4NE1ITTN6M3VpU1FtT1pPY2pLN1VUeXQ4OXpBSW9nbkpzdmNzNTlsVUF3eUMteDl5MWY1Ukp6Q1VwOEJzQmtqeUV4NDNYeHZ4SUhiNzlQYW13UXF3dnlXbTZGOUwyeFpzMWhTT2YycTBqdl9wT3FLeFZjRm8zLUFWMktxWldLRkpBbw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPYWxkbkxzR2JBcERTNnAyaFN4NE1ITTN6M3VpU1FtT1pPY2pLN1VUeXQ4OXpBSW9nbkpzdmNzNTlsVUF3eUMteDl5MWY1Ukp6Q1VwOEJzQmtqeUV4NDNYeHZ4SUhiNzlQYW13UXF3dnlXbTZGOUwyeFpzMWhTT2YycTBqdl9wT3FLeFZjRm8zLUFWMktxWldLRkpBbw?oc=5\" target=\"_blank\">Mysteel China Apr lithium-ion batte...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mysteel</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "Mysteel은 4월 중국의 리튬이온 배터리 시장 동향에 대한 정보를 제공합니다.",
+      "이 정보는 중국 배터리 산업의 생산 및 판매 현황을 파악하는 데 도움이 됩니다.",
+      "구체적인 수치는 제공되지 않았습니다."
+    ],
+    "uid": "6f0d6acffb7eb8d70599ab1dae13eee0c272c608"
+  },
+  {
+    "title": "FLASH: China daily lithium-ion batt...",
+    "published_at": "2026-05-15",
+    "source": "Mysteel",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdWQxdlljd0N0cEFrbXJrYkxjemZyV1A3OUpWNWRQc2pVNm1Nc0h5cXhGOHFoOHVrWWNsWGhzQkFRY2hwU2tMc0ZhbGZSMlJDaUtPX1FKNGEza0xJOGpFWDJxNDlETXNRMDRyOExPUVdTS1RSQnRkZDV3RG1iTElsN3l6UHVya2Ztc3NjbnkzVlppZGFvdHZqVmtJRWV0bGgyb3c?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOdWQxdlljd0N0cEFrbXJrYkxjemZyV1A3OUpWNWRQc2pVNm1Nc0h5cXhGOHFoOHVrWWNsWGhzQkFRY2hwU2tMc0ZhbGZSMlJDaUtPX1FKNGEza0xJOGpFWDJxNDlETXNRMDRyOExPUVdTS1RSQnRkZDV3RG1iTElsN3l6UHVya2Ztc3NjbnkzVlppZGFvdHZqVmtJRWV0bGgyb3c?oc=5\" target=\"_blank\">FLASH: China daily lithium-ion batt...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mysteel</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "FLASH"
+    ],
+    "summary_3_sentences": [
+      "중국의 일일 리튬이온 배터리 생산량에 대한 정보가 제공됩니다.",
+      "이 정보는 중국 배터리 시장의 동향을 파악하는 데 중요합니다.",
+      "구체적인 수치는 제공되지 않았습니다."
+    ],
+    "uid": "19e059567bca2badbbad1c5b64ccd6faa28618ad"
+  },
+  {
+    "title": "Daily: Prices of recycled lithium-i...",
+    "published_at": "2026-05-15",
+    "source": "Mysteel",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQS1hZVXdEbk1nblVKRzFpS1dRM253SmNOQUVaQjRXSE9zc2kzU19JX3Vpcms3c0tSZU04aUg1YjVaVUZqazc2dUU3WnBkSnU5OTRyUmhpMzJnSkZMYU5INjlhZi1Ed0c4eUduUjQxdEJLVUtwMG5wWEdGaFNZQkhDQUs2eGtsWW84V2JwQ3drbW80ZUQ4ZklESjJHMUgxVVNtQ0QxNmNULTNoaVE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQS1hZVXdEbk1nblVKRzFpS1dRM253SmNOQUVaQjRXSE9zc2kzU19JX3Vpcms3c0tSZU04aUg1YjVaVUZqazc2dUU3WnBkSnU5OTRyUmhpMzJnSkZMYU5INjlhZi1Ed0c4eUduUjQxdEJLVUtwMG5wWEdGaFNZQkhDQUs2eGtsWW84V2JwQ3drbW80ZUQ4ZklESjJHMUgxVVNtQ0QxNmNULTNoaVE?oc=5\" target=\"_blank\">Daily: Prices of recycled lithium-i...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mysteel</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "재활용 리튬이온 배터리 가격에 대한 일일 보고서가 제공됩니다.",
+      "이는 배터리 재활용 시장의 가격 변동성을 보여줍니다.",
+      "구체적인 가격 정보는 제공되지 않았습니다."
+    ],
+    "uid": "3572d7e4882e2f59f13e714d0e029e90bcb59058"
+  },
+  {
+    "title": "Chalmers AI Extends EV Battery Life 23%",
+    "published_at": "2026-05-15",
+    "source": "Let's Data Science",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQW1BY09tbTJuX2dOVmo0RzVWaUpadFRoS3N3azN5Rm1oTXVjSUlqUFlndjQ2ckY4Zzh3LUVLeFprSFhuNW5ucUVIVmR0ek9UczJjRFo1XzFfTHFJNkFGaERGTTllY1NqV2ZBNkZDRXg1VG5uOFZ0VVl5dVVoZlMySm8yNG9rQjg?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPQW1BY09tbTJuX2dOVmo0RzVWaUpadFRoS3N3azN5Rm1oTXVjSUlqUFlndjQ2ckY4Zzh3LUVLeFprSFhuNW5ucUVIVmR0ek9UczJjRFo1XzFfTHFJNkFGaERGTTllY1NqV2ZBNkZDRXg1VG5uOFZ0VVl5dVVoZlMySm8yNG9rQjg?oc=5\" target=\"_blank\">Chalmers AI Extends EV Battery Life 23%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Let's Data Science</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "Chalmers 대학의 AI 기술이 전기차 배터리 수명을 23% 연장하는 데 성공했습니다.",
+      "이는 AI를 활용한 배터리 관리 시스템의 효율성을 입증하는 결과입니다.",
+      "배터리 수명 연장을 위한 혁신적인 접근 방식을 보여줍니다."
+    ],
+    "uid": "d6fae033c91847af58c4a3df8cd5c1c5df73e65c"
+  },
+  {
+    "title": "Lithium EV batteries retain 93% capacity after 500 cycles with US heating method",
+    "published_at": "2026-05-15",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82MXpXZ2RnaWQ0ZW02eXpmR2M1OTNycE1yY1NwUFZSWFY2ZmV6UDV2c1JETlRHY0gyNXNFcEtwSEhZTjlBbUdhQk5ubUJVRGFXeHFRSWpUTWxQNzJsMGFITUxCVzlfTlM0eXhoV2FOb1FOVXlKNGc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE82MXpXZ2RnaWQ0ZW02eXpmR2M1OTNycE1yY1NwUFZSWFY2ZmV6UDV2c1JETlRHY0gyNXNFcEtwSEhZTjlBbUdhQk5ubUJVRGFXeHFRSWpUTWxQNzJsMGFITUxCVzlfTlM0eXhoV2FOb1FOVXlKNGc?oc=5\" target=\"_blank\">Lithium EV batteries retain 93% capacity after 500 cycles with US heating method</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "US"
+    ],
+    "summary_3_sentences": [
+      "미국에서 개발된 가열 방식을 적용한 리튬이온 EV 배터리는 500회의 충방전 주기 후에도 93%의 용량을 유지했습니다.",
+      "이는 배터리 수명 연장에 획기적인 기술 발전 가능성을 시사합니다.",
+      "EV 배터리 성능 개선에 대한 연구 결과를 보여줍니다."
+    ],
+    "uid": "c02264c7a37c6bc3fc19fcd98303e4af16d9e847"
+  },
+  {
+    "title": "This $10,000 EV is a hit in China, and it’s offered with a semi-solid-state battery",
+    "published_at": "2026-05-15",
+    "source": "Electrek",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSDdndGJLTmZaSDRJb2NKMU5ubnkxejdKQ2JPVjNwQzhCNmRUMTdXU2o1WVFZTHMxSFZBYllqa1BxcXN2WU16amdkR3JfN0hZd1lpcENUc2Niem85WFhhZzk2OUg3aExCRHNjZjVHQlpSdHdob25TcmpiTVZIZHpDc0tqVjctNVBPQ2hOMlpSci0tLXc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPSDdndGJLTmZaSDRJb2NKMU5ubnkxejdKQ2JPVjNwQzhCNmRUMTdXU2o1WVFZTHMxSFZBYllqa1BxcXN2WU16amdkR3JfN0hZd1lpcENUc2Niem85WFhhZzk2OUg3aExCRHNjZjVHQlpSdHdob25TcmpiTVZIZHpDc0tqVjctNVBPQ2hOMlpSci0tLXc?oc=5\" target=\"_blank\">This $10,000 EV is a hit in China, and it’s offered with a semi-solid-state battery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electrek</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "중국에서 1만 달러 가격대의 전기차가 반고체 배터리를 탑재하고 인기를 얻고 있습니다.",
+      "이 전기차는 저렴한 가격과 새로운 배터리 기술을 결합하여 시장에서 주목받고 있습니다.",
+      "중국 전기차 시장의 혁신적인 제품 출시 동향을 보여줍니다."
+    ],
+    "uid": "ee8c3fb76a5f9df880e5fc2a163bc976b0b7bbcf"
+  },
+  {
+    "title": "Trinseo's new lithium-ion anode binder reduces DCIR and surface resistivity with uniform electrode distribution",
+    "published_at": "2026-05-15",
+    "source": "Charged EVs",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZEp3blYwMFNmWTZ5TXQ0U3VfSWQ4czVUSUNxU0k1cUVyOFYyZXFnS2ZWeHVOT1JhLVAyMnJ1NGpjZHBiSmZMbVhOYUxISTJuN2pCZ3h4cHNyNFRMSFR0ek10N2x2YWlXb2IxcjBMQURyYWdDUXlTeGtkRXBmWHpQQjVWbTNTWUN4ZjBEd215UU5lcGRpbF94OHlUU2wzaWRxNjk1OEZObEpyLTZQNWVYSm9haDJzX1MzVUdOa1J4WUVBV1gtbVpxX003bmNLSU94bmNQdlQ5T2hZREU?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZEp3blYwMFNmWTZ5TXQ0U3VfSWQ4czVUSUNxU0k1cUVyOFYyZXFnS2ZWeHVOT1JhLVAyMnJ1NGpjZHBiSmZMbVhOYUxISTJuN2pCZ3h4cHNyNFRMSFR0ek10N2x2YWlXb2IxcjBMQURyYWdDUXlTeGtkRXBmWHpQQjVWbTNTWUN4ZjBEd215UU5lcGRpbF94OHlUU2wzaWRxNjk1OEZObEpyLTZQNWVYSm9haDJzX1MzVUdOa1J4WUVBV1gtbVpxX003bmNLSU94bmNQdlQ5T2hZREU?oc=5\" target=\"_blank\">Trinseo's new lithium-ion anode binder reduces DCIR and surface resistivity with uniform electrode distribution</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Charged EVs</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "Trinseo",
+      "DCIR"
+    ],
+    "summary_3_sentences": [
+      "Trinseo는 새로운 리튬이온 음극 바인더를 개발하여 DCIR과 표면 저항을 줄였습니다.",
+      "이 바인더는 균일한 전극 분포를 통해 배터리 성능을 향상시킵니다.",
+      "이는 배터리 효율성 증대에 기여할 수 있는 기술입니다."
+    ],
+    "uid": "dbbfe80b1e2dfe000a75157b9d72c2112ae0cff3"
+  },
+  {
+    "title": "China’s Legislature Aims to Tighten Up Recycling Rules Before Wave of Retired EV Batteries Hits",
+    "published_at": "2026-05-15",
+    "source": "Caixin",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPN2F1Y2xBTnhoZ2hTcnl5bU50cGVaTHJRN1BGVE9BcjlHdE11akcyQWVUclBiOHNEQWNab3RjVTJZTXRkYnZ5T0l4ZE5Fc2xPUzJVRjJnWTBwRzNsMlB5V2dkNzRTTEQzc0pYM05raU9vbUppMVhlSWJuQkdXTjctTDM0S0h1QmlEaFRzbTVPalFmYmhieDQ0OFMydmxzRzlqWVpkYzkwdUlvQVFBSjlWSXdWNDFfNHJFVXpYYW80MWlLR1lnQVNIN0YxdkFpQXZpZS1rc1FXS0ZtRE9SLWlmbDJQSQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxPN2F1Y2xBTnhoZ2hTcnl5bU50cGVaTHJRN1BGVE9BcjlHdE11akcyQWVUclBiOHNEQWNab3RjVTJZTXRkYnZ5T0l4ZE5Fc2xPUzJVRjJnWTBwRzNsMlB5V2dkNzRTTEQzc0pYM05raU9vbUppMVhlSWJuQkdXTjctTDM0S0h1QmlEaFRzbTVPalFmYmhieDQ0OFMydmxzRzlqWVpkYzkwdUlvQVFBSjlWSXdWNDFfNHJFVXpYYW80MWlLR1lnQVNIN0YxdkFpQXZpZS1rc1FXS0ZtRE9SLWlmbDJQSQ?oc=5\" target=\"_blank\">China’s Legislature Aims to Tighten Up Recycling Rules Before Wave of Retired EV Batteries Hits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Caixin</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "중국은 폐기되는 전기차 배터리 증가에 대비하여 재활용 규제를 강화할 방침입니다.",
+      "이는 환경 보호 및 자원 순환을 위한 조치로 풀이됩니다.",
+      "중국의 배터리 재활용 시장 동향에 중요한 영향을 미칠 것으로 예상됩니다."
+    ],
+    "uid": "010de5d9f6843508209e4f309e376a18858f9416"
   },
   {
     "title": "[특징주] LG에너지솔루션, AI 데이터센터發 ESS 성장 기대에 강세",
