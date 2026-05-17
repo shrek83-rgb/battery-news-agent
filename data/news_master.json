@@ -1,5 +1,80 @@
 [
   {
+    "title": "비야디, 테슬라 꺾고 에너지 저장 장치 글로벌 1위 등극… 中 '규모의 경...",
+    "description": "중국의 전기차 및 배터리 거인 비야디(BYD)가 배터리 에너지 저장 장치(BESS·ESS) 시장에서 미국의 테슬라를 제치고 글로벌 1위 왕좌를 탈환했다. 이는 배터리 분야에서 중국이 다져온 압도적인 '규모의 경제'와...",
+    "link": "https://www.g-enews.com/view.php?ud=2026051615535487470c8c1c064d_1",
+    "source": "www.g-enews.com",
+    "published_at": "2026-05-17",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "BYD",
+      "테슬라",
+      "다져온"
+    ],
+    "summary_3_sentences": [
+      "중국의 전기차 및 배터리 기업 BYD가 에너지 저장 장치(ESS) 시장에서 테슬라를 제치고 글로벌 1위 자리를 탈환했습니다.",
+      "이는 중국 기업들이 배터리 분야에서 쌓아온 압도적인 규모의 경제를 바탕으로 글로벌 시장을 주도하고 있음을 보여줍니다.",
+      "BYD의 이번 성과는 중국 배터리 산업의 경쟁력 강화와 글로벌 영향력 확대를 시사합니다."
+    ],
+    "uid": "b3df203296ab377f10ddf8d2a91557c5f6003366"
+  },
+  {
+    "title": "[위클리배터리] EU는 자립, 美는 탈중국…볕드는 K-배터리",
+    "description": "이와 함께 ESS와 배터리백업유닛(BBU) 수요에 대응하기 위해 원통형 배터리와 LFP 기반 ESS 라인 전환을 병행하고 있습니다. SK온은 조지아 독자 공장의 라인 배정으로 이미 수주한 플랫아이언에 대응하는 한편 타...",
+    "link": "https://www.ddaily.co.kr/page/view/2026051700093008717",
+    "source": "www.ddaily.co.kr",
+    "published_at": "2026-05-17",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 98,
+    "monitoring_importance": 98,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "SK온",
+      "위클리배터리",
+      "K-배터리"
+    ],
+    "summary_3_sentences": [
+      "EU는 자립, 미국은 탈중국을 목표로 배터리 산업 정책을 추진하고 있습니다.",
+      "이에 따라 K-배터리 기업들은 원통형 배터리와 LFP 기반 ESS 라인 전환을 병행하며 수요에 대응하고 있습니다.",
+      "SK온은 조지아 독자 공장에서 수주한 물량에 대응하는 한편, 추가 수주를 위한 노력을 지속하고 있습니다."
+    ],
+    "uid": "62e07dba7d20ccc82aca812f21bd97b22697c84f"
+  },
+  {
+    "title": "中 배터리 1위 CATL, 글로벌 'AI에너지 전쟁' 참전",
+    "description": "JP모건은 \"CATL이 최근 한 달여 동안 세 가지 상호보완적 전략을 완성했다\"고 평가하면서 \"중헝전기 투자로 IDC 전력 인프라 역량을 확보했고, 하이퍼스트롱(HyperStrong)과는 60GWh 규모 나트륨이온 배터리 ESS 공급...",
+    "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=165356",
+    "source": "www.choicenews.co.kr",
+    "published_at": "2026-05-17",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL",
+      "중헝전기",
+      "하이퍼스트롱"
+    ],
+    "summary_3_sentences": [
+      "중국 배터리 1위 기업 CATL이 글로벌 AI 에너지 전쟁에 참전했습니다.",
+      "CATL은 중헝전기 투자로 IDC 전력 인프라 역량을 확보하고 하이퍼스트롱과 나트륨이온 배터리 ESS 공급 계약을 체결했습니다.",
+      "이는 CATL의 상호보완적 전략 완성을 보여주는 사례입니다."
+    ],
+    "uid": "c8aeccc13d856cb5b8df7240d321def1b8fd1f63"
+  },
+  {
     "title": "포스코·이브이첨단소재 투자' 대만 프롤로지움, 전고체배터리 전략 공...",
     "description": "빈센트 양 CEO, '중국 국제 배터리 박람회 2026'서 기조연설 대만 전고체 배터리 전문기업 '프롤로지움(Prologium)'이 중국 최대 배터리 전시회에 참여했다. 전고체 배터리 기술 개발 여정과 향후 로드맵을...",
     "link": "https://www.theguru.co.kr/news/article.html?no=101843",
@@ -50,6 +125,79 @@
     "uid": "39aed1e66f045847988ee6607695b22f455c7fe4"
   },
   {
+    "title": "실적 미쳤네… 대주전자재료, 시장 예상 완전히 뒤집었다",
+    "description": "AI 서버 확대와 차세대 배터리 시장 성장 흐름이 중장기적으로 이어질 가능성이 높기 때문이다. 최근 국내 증시에서 AI와 전력 인프라, 2차전지 소재 관련 종목에 대한 자금 쏠림 현상이 이어지고 있다는 점도 긍정적...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=453136",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-05-16",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 77,
+    "monitoring_importance": 77,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "대주전자재료",
+      "대주전자",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "대주전자재료는 시장 예상치를 훨씬 뛰어넘는 실적을 기록하며 시장의 예상을 완전히 뒤집었습니다.",
+      "AI 서버 확대와 차세대 배터리 시장 성장이 중장기적으로 긍정적인 영향을 미칠 것으로 예상됩니다.",
+      "최근 2차전지 소재 관련 종목에 대한 자금 쏠림 현상도 대주전자재료의 주가에 긍정적으로 작용하고 있습니다."
+    ],
+    "uid": "62ea873638f8398b26b07731e79370f7e561aaa9"
+  },
+  {
+    "title": "배터리 쇼크에도 살아남았다… 롯데에너지머티리얼즈의 역습 시작",
+    "description": "전기차 배터리 업황 둔화와 유럽 물류 차질 등 악재가 이어졌지만 말레이시아 공장 생산성 개선과 고수익... 증시 전문가들은 최근 2차전지 업종 내에서도 단순 생산능력 확대보다 수익성 중심 기업 선별이 중요해지고...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=453135",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-05-16",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "롯데에너지머티리얼즈",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "롯데에너지머티리얼즈는 전기차 배터리 업황 둔화와 유럽 물류 차질 등 악재 속에서도 말레이시아 공장 생산성 개선과 고수익으로 실적을 방어했습니다.",
+      "이는 어려운 시장 환경 속에서도 롯데에너지머티리얼즈가 위기 극복 능력을 보여주었음을 의미합니다.",
+      "증시 전문가들은 단순 생산 능력 확대보다 수익성 중심의 기업 선별이 중요해지고 있다고 분석합니다."
+    ],
+    "uid": "15cd959d585e1dd6b3fb68bdf7ee2be09c04780f"
+  },
+  {
+    "title": "가동률 20%대 충격… SK아이이테크놀로지, 배터리 침체 직격탄 맞았다",
+    "description": "전기차 배터리 분리막 기업 SK아이이테크놀로지가 글로벌 전기차(EV) 수요 둔화와 고객사 재고 조정 여파... 유럽 전기차용 분리막 초도 양산이 예정돼 있고 북미 ESS용 분리막 소재 승인 협의도 진행 중이다. 가정용 ESS...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=453134",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-05-16",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "separator",
+    "companies": [
+      "SK아이이테크놀로지",
+      "SK아이이테크"
+    ],
+    "summary_3_sentences": [
+      "SK아이이테크놀로지는 글로벌 전기차 수요 둔화와 고객사 재고 조정으로 가동률이 20%대에 머물렀습니다.",
+      "이는 전기차 배터리 분리막 기업인 SK아이이테크놀로지가 배터리 시장 침체의 직격탄을 맞았음을 보여줍니다.",
+      "현재 유럽 전기차용 분리막 초도 양산과 북미 ESS용 분리막 소재 승인 협의를 진행 중입니다."
+    ],
+    "uid": "8d307d55e9eccafee0fab13940dd078775bc14bd"
+  },
+  {
     "title": "K배터리 3사, 1분기 '적자수렁'…하반기 구원투수는 'ESS'",
     "description": "삼성SDI만 ESS와 원통형 배터리 판매 확대를 바탕으로 적자 폭을 줄이며 상대적으로 선방했다. 전기차 시장 회복이 더딘 가운데, 3사 모두 ESS와 원통형 배터리, AI 인프라용 배터리 등을 앞세워 하반기 실적 반등을...",
     "link": "https://www.newsway.co.kr/news/view?ud=2026051509364527552",
@@ -72,6 +220,31 @@
       "전기차 시장 회복이 더딘 가운데, ESS와 원통형 배터리, AI 인프라용 배터리 등이 하반기 실적 개선의 열쇠가 될 전망입니다."
     ],
     "uid": "292bece00a9e00cfc6179478d79e70c115e8e927"
+  },
+  {
+    "title": "삼성SDI, 1분기 적자폭 64% 축소…R&D 투자 22% 확대",
+    "description": "에너지저장장치(ESS)용 대형전지 시장이 친환경 정책과 AI 산업 성장에 따른 전력 수요 확대 영향으로 중장기 성장세를 이어갈 것으로 전망했다. 특히 데이터센터용 배터리백업유닛(BBU), E-바이크·E-스쿠터...",
+    "link": "http://www.inews24.com/view/1969066",
+    "source": "www.inews24.com",
+    "published_at": "2026-05-16",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 82,
+    "monitoring_importance": 82,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "삼성SDI",
+      "대형전지",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 1분기에 적자 폭을 64% 줄이고 연구개발(R&D) 투자를 22% 확대했습니다.",
+      "에너지저장장치(ESS)용 대형전지 시장은 친환경 정책과 AI 산업 성장에 따른 전력 수요 확대로 중장기 성장세를 이어갈 전망입니다.",
+      "특히 데이터센터용 배터리백업유닛(BBU)과 E-바이크·E-스쿠터 등의 수요 확대가 예상됩니다."
+    ],
+    "uid": "a3c283d31ecee8c84798e6c6365ef5306708e6fa"
   },
   {
     "title": "[중화학ON]탈중국·AI 전력난 겹쳤다…ESS로 쏠리는 K배터리",
@@ -97,6 +270,249 @@
       "이는 K배터리 기업들이 ESS 시장을 새로운 성장 동력으로 삼고 있음을 보여줍니다."
     ],
     "uid": "e4b21278abad66189d138d206afe2a40cf1215bd"
+  },
+  {
+    "title": "CATL and HyperStrong Sign the World’s Largest Sodium-Ion Energy Storage Cooperation Agreement",
+    "published_at": "2026-05-16",
+    "source": "markets.businessinsider.com",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPME9XTklyMWYwWkJDV3ZsWjVJM0pHN3dXblM3TTQ2WVlPZW5oeFQ1WVM5YWpield6OEZNc3VqcnI4WThjY1kxbjhmemNiSDktMzRqTUNtRFE3cTlJZ0cwR0NNWmhuU1B4Q0U1Vy1YQWJjRnpucGt5YnB4V3BiR290eFh5TWtrd0h4NUhOY2NyYzJZSFZrTzd2WlB1aURUMWFBSzlBTHBRcS12WVpJdkJ5Vlp3NXMtX2tfYkM3cklVUWlXYURjam9MYWo5ZHVYbEU1bUh4UFdQT1ZDX1l2RjBCX285RG1hZG8?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxPME9XTklyMWYwWkJDV3ZsWjVJM0pHN3dXblM3TTQ2WVlPZW5oeFQ1WVM5YWpield6OEZNc3VqcnI4WThjY1kxbjhmemNiSDktMzRqTUNtRFE3cTlJZ0cwR0NNWmhuU1B4Q0U1Vy1YQWJjRnpucGt5YnB4V3BiR290eFh5TWtrd0h4NUhOY2NyYzJZSFZrTzd2WlB1aURUMWFBSzlBTHBRcS12WVpJdkJ5Vlp3NXMtX2tfYkM3cklVUWlXYURjam9MYWo5ZHVYbEU1bUh4UFdQT1ZDX1l2RjBCX285RG1hZG8?oc=5\" target=\"_blank\">CATL and HyperStrong Sign the World’s Largest Sodium-Ion Energy Storage Cooperation Agreement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">markets.businessinsider.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL",
+      "HyperStrong"
+    ],
+    "summary_3_sentences": [
+      "CATL과 HyperStrong은 세계 최대 규모의 나트륨 이온 에너지 저장 장치(ESS) 협력 계약을 체결했습니다.",
+      "이번 계약은 나트륨 이온 배터리 기술의 상용화 및 ESS 시장 확대를 가속화할 것으로 기대됩니다.",
+      "이는 CATL의 에너지 저장 솔루션 분야에서의 리더십을 강화하는 중요한 이정표입니다."
+    ],
+    "uid": "949c6033c56331fbf29d2080985ed17e6c0ef55b"
+  },
+  {
+    "title": "Renewable energy industry calls for tax cuts on lithium battery cells",
+    "published_at": "2026-05-16",
+    "source": "The News Pakistan",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0JuUUJtOE5LaWszZElYZDJxV1VhdmNkOUV2cUtDZ1ZpdmFESkdlOHktYXJCblRqa3NYbHFOLW81dmRZMlItV0ZJZlNjb3ZDQjNrbkFoWHVHSl9sYXlXQTdleHNGMnoxUzJlTV9yNGdNd3NPMDVZVHRLNDhESTBxZjhQNEoyLTNzVWNfZWZSRDdyZmx6S0JNd3ZBTElzY3h6RkJtTjFFcE1wUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0JuUUJtOE5LaWszZElYZDJxV1VhdmNkOUV2cUtDZ1ZpdmFESkdlOHktYXJCblRqa3NYbHFOLW81dmRZMlItV0ZJZlNjb3ZDQjNrbkFoWHVHSl9sYXlXQTdleHNGMnoxUzJlTV9yNGdNd3NPMDVZVHRLNDhESTBxZjhQNEoyLTNzVWNfZWZSRDdyZmx6S0JNd3ZBTElzY3h6RkJtTjFFcE1wUQ?oc=5\" target=\"_blank\">Renewable energy industry calls for tax cuts on lithium battery cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The News Pakistan</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 75,
+    "monitor_score": 82,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "재생 에너지 산업계가 리튬 배터리 셀에 대한 세금 감면을 요구하고 있습니다.",
+      "이는 재생 에너지 보급 확대를 위한 배터리 비용 절감의 필요성을 강조하는 움직임입니다.",
+      "세금 감면은 배터리 가격 경쟁력을 높여 관련 산업 성장에 긍정적인 영향을 미칠 수 있습니다."
+    ],
+    "uid": "7e1f0e90097cd36b0ae7d131310307b7b2140118"
+  },
+  {
+    "title": "Researchers establish minimum effective coating thickness for longer-lasting solid-state EV batteries",
+    "published_at": "2026-05-16",
+    "source": "Tech Xplore",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY0pYUUMyUTB5M1NFbTY4MGE1TFNJWW9FZ1FoWUtzcFM4WEFWM2NxbHJCdmZDcXVxWGpyU3hNY2J1ZExlSm95eUMxQnhSNVFpaG0zWGQxM0FiaGNqUlIxMUJQTzJSZkFlWWN5cnRiVUFwSTRzVnlDSGRJcHRLc29iTTd4T3NHU3FCLVdz?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY0pYUUMyUTB5M1NFbTY4MGE1TFNJWW9FZ1FoWUtzcFM4WEFWM2NxbHJCdmZDcXVxWGpyU3hNY2J1ZExlSm95eUMxQnhSNVFpaG0zWGQxM0FiaGNqUlIxMUJQTzJSZkFlWWN5cnRiVUFwSTRzVnlDSGRJcHRLc29iTTd4T3NHU3FCLVdz?oc=5\" target=\"_blank\">Researchers establish minimum effective coating thickness for longer-lasting solid-state EV batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Xplore</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "연구진은 더 오래 지속되는 전고체 EV 배터리를 위한 최소 유효 코팅 두께를 확립했습니다.",
+      "이는 전고체 배터리의 성능과 수명을 향상시키는 데 중요한 기초 자료가 될 것입니다.",
+      "이 연구는 차세대 배터리 기술 개발에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "d332072796ec73a90505002f14ffc606303255b3"
+  },
+  {
+    "title": "Why the biggest battery company is betting against lithium",
+    "published_at": "2026-05-16",
+    "source": "MSN",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRVRyUUN1RUY3YTBhTW5HNDRlSTBCRVY0WmNUaDBGMnRSQl85WHVtcW5KX09IQmNWVVhCcXAxOXh2MzIyOXQ1V3JKSEYwNEhteHM3V25XdkF0czVjOXkyamdwX1d5Q1FYaXFiWjA4QjFoaDFsZklGM3NyMjBIUkV4WEN2RTRjc2xlQVp4QUVNTnB2cUhBaElveXpheWNCRkF4a0xNRWxHMmxTRTdLSEZXaDNGUEVvdGx4OHI3S0NZVzRMWEhzU0NpVzNwYWt2Ulk?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxQRVRyUUN1RUY3YTBhTW5HNDRlSTBCRVY0WmNUaDBGMnRSQl85WHVtcW5KX09IQmNWVVhCcXAxOXh2MzIyOXQ1V3JKSEYwNEhteHM3V25XdkF0czVjOXkyamdwX1d5Q1FYaXFiWjA4QjFoaDFsZklGM3NyMjBIUkV4WEN2RTRjc2xlQVp4QUVNTnB2cUhBaElveXpheWNCRkF4a0xNRWxHMmxTRTdLSEZXaDNGUEVvdGx4OHI3S0NZVzRMWEhzU0NpVzNwYWt2Ulk?oc=5\" target=\"_blank\">Why the biggest battery company is betting against lithium</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "MSN"
+    ],
+    "summary_3_sentences": [
+      "가장 큰 배터리 회사 중 하나가 리튬을 대체할 기술에 주목하고 있습니다.",
+      "이는 리튬 이온 배터리의 한계를 극복하고 새로운 배터리 기술 개발을 위한 움직임으로 해석됩니다.",
+      "이러한 변화는 미래 배터리 시장의 판도를 바꿀 수 있습니다."
+    ],
+    "uid": "31303afebd179f7befbd161fc898e854872794c4"
+  },
+  {
+    "title": "Hanyang University pins minimum LNO coating at 2.5 nm for sulfide solid-state battery cathodes",
+    "published_at": "2026-05-16",
+    "source": "Charged EVs",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUWgxVzBpN0Jnakt1dm91WTZYdmVodGFrVU5DTGdJT0dEczJYQ054RFRqMUx1d1diTlRSTlpoSVQ0ZzFTLWo2ZjctNGJGNVM0UGVseEdjaXFFdWdXNjJQejlLU0hnNXhfTVQ2VDIwZ1BXQzBDdnZ4YUFJd2Q3X1ppcHVDTnNIXzhWaDNxRy1RcmdiVXpMSXVqUldtUkpqZ1c1eWZJYmh0QXFvM1lKb2RabnM3cXhWZmtjUzdQZER4UW9MTXhyV1E?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOUWgxVzBpN0Jnakt1dm91WTZYdmVodGFrVU5DTGdJT0dEczJYQ054RFRqMUx1d1diTlRSTlpoSVQ0ZzFTLWo2ZjctNGJGNVM0UGVseEdjaXFFdWdXNjJQejlLU0hnNXhfTVQ2VDIwZ1BXQzBDdnZ4YUFJd2Q3X1ppcHVDTnNIXzhWaDNxRy1RcmdiVXpMSXVqUldtUkpqZ1c1eWZJYmh0QXFvM1lKb2RabnM3cXhWZmtjUzdQZER4UW9MTXhyV1E?oc=5\" target=\"_blank\">Hanyang University pins minimum LNO coating at 2.5 nm for sulfide solid-state battery cathodes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Charged EVs</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 75,
+    "monitor_score": 86,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "한양대학교",
+      "LNO"
+    ],
+    "summary_3_sentences": [
+      "한양대학교 연구진은 황화물계 전고체 배터리 양극재에 대한 최소 LNO(LiNiO2) 코팅 두께를 2.5nm로 규명했습니다.",
+      "이는 전고체 배터리의 성능과 안정성을 높이는 데 중요한 기준을 제시합니다.",
+      "이 연구 결과는 차세대 배터리 개발에 기여할 것으로 예상됩니다."
+    ],
+    "uid": "df69693c1983a229dc255b0f1dcfa349867b03da"
+  },
+  {
+    "title": "Chroma's battery tester validated Orion's lithium-ion systems for NASA's Artemis II crewed lunar mission",
+    "published_at": "2026-05-16",
+    "source": "Charged EVs",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNXdnNmZDaVN0REx6WmR4Z3FfTldKbmRhaWJtWkplRFNhT2N5SWZRSWJWTjNkWmRmTEZ2aVhlcld1eGZiWUQteUI4YkhDZ0tGbEZqQ24xcmQxay1VT1VIMXhmeHdmSk9UT05RTGNzdUZpTjJqTFJkZGE2dkZoQjFBNFZVdWpCLVpjQlNYMEdIc283b0Ywb24wcjNqWmdNMkgxM3hTd1BnYVlZRUFZRWxpQ2FybXRzODVpdTcxN1RhakFmbmhBZHIxXzlqQUVLbUk?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPNXdnNmZDaVN0REx6WmR4Z3FfTldKbmRhaWJtWkplRFNhT2N5SWZRSWJWTjNkWmRmTEZ2aVhlcld1eGZiWUQteUI4YkhDZ0tGbEZqQ24xcmQxay1VT1VIMXhmeHdmSk9UT05RTGNzdUZpTjJqTFJkZGE2dkZoQjFBNFZVdWpCLVpjQlNYMEdIc283b0Ywb24wcjNqWmdNMkgxM3hTd1BnYVlZRUFZRWxpQ2FybXRzODVpdTcxN1RhakFmbmhBZHIxXzlqQUVLbUk?oc=5\" target=\"_blank\">Chroma's battery tester validated Orion's lithium-ion systems for NASA's Artemis II crewed lunar mission</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Charged EVs</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 70,
+    "monitor_score": 80,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Chroma",
+      "NASA",
+      "Orion"
+    ],
+    "summary_3_sentences": [
+      "Chroma의 배터리 테스터는 NASA의 아르테미스 II 유인 달 탐사 임무를 위해 Orion의 리튬 이온 시스템을 검증했습니다.",
+      "이는 우주 탐사 임무에 사용되는 배터리 시스템의 신뢰성과 안전성을 확보하는 데 중요한 역할을 합니다.",
+      "Chroma의 기술력은 극한 환경에서의 배터리 성능을 보장하는 데 기여합니다."
+    ],
+    "uid": "eb52c919ee7dbcb49699d6ccbbfbf56c9d850a3d"
+  },
+  {
+    "title": "Anthro Energy clears DOE phase approval for 12,000-ton lithium-ion battery electrolyte plant in Louisville",
+    "published_at": "2026-05-16",
+    "source": "Charged EVs",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZTktNGhJRHlPc3d2endBalZOM0tLOG93OU9IOVN3OUFpUjBpZ0pSMzJwcWVWM1k0SGl3MjdWWjh4TURfWWJsZkhDY0NYcXgwZUhGTkk5c3ZFdWlzZ1l6TmhIV3EwSFFZNXdqNFU2UFRKZnV0WDVOTDg4dUxYVVRmNDBzVHZsOWVacEN1Qlo0ZmJ5RXVlUlRhdG02ekotRUNlem5kbVVWTTItbHdRZDZ2dUU5RUZwTUFSenVNMWdGclZVQS1TV0hHSVpsdG5aUUluMWFObw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZTktNGhJRHlPc3d2endBalZOM0tLOG93OU9IOVN3OUFpUjBpZ0pSMzJwcWVWM1k0SGl3MjdWWjh4TURfWWJsZkhDY0NYcXgwZUhGTkk5c3ZFdWlzZ1l6TmhIV3EwSFFZNXdqNFU2UFRKZnV0WDVOTDg4dUxYVVRmNDBzVHZsOWVacEN1Qlo0ZmJ5RXVlUlRhdG02ekotRUNlem5kbVVWTTItbHdRZDZ2dUU5RUZwTUFSenVNMWdGclZVQS1TV0hHSVpsdG5aUUluMWFObw?oc=5\" target=\"_blank\">Anthro Energy clears DOE phase approval for 12,000-ton lithium-ion battery electrolyte plant in Louisville</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Charged EVs</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "Anthro Energy",
+      "DOE"
+    ],
+    "summary_3_sentences": [
+      "Anthro Energy는 미국 에너지부(DOE)로부터 12,000톤 규모의 리튬이온 배터리 전해질 공장 건설에 대한 단계별 승인을 받았습니다.",
+      "이 공장은 루이빌에 건설될 예정입니다.",
+      "이번 승인은 Anthro Energy의 배터리 전해질 생산 능력 확대에 중요한 발판이 될 것입니다."
+    ],
+    "uid": "109f884c468162ea2ae21e7ce8624a848603da11"
+  },
+  {
+    "title": "CATL, BYD headline China’s inaugural Golden Lithium Awards with next‑gen battery wins",
+    "published_at": "2026-05-16",
+    "source": "CarNewsChina.com",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY0h6cWtxWjJRYlpsRktldU9kMXBGQjR1VEpZblFTdUdENkdEVDNKUUh6R1lZcnkyYUJ4X1ViRU9FTG1qOHczX0pTZVFXU3BtOFJ6eFFkaHdNNG9oT2l1VDlCT1NBcG81YVpTdzgyRl9ieDVXZm5tMVNNVkUwbGlvWjJLTXh1U0pESTVOVmpMLUNteXZZN1JPM0phTXh6WWZJaTAta1kycUtRdHVJaFZYY1dXcGVILWFqZkZGNQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNY0h6cWtxWjJRYlpsRktldU9kMXBGQjR1VEpZblFTdUdENkdEVDNKUUh6R1lZcnkyYUJ4X1ViRU9FTG1qOHczX0pTZVFXU3BtOFJ6eFFkaHdNNG9oT2l1VDlCT1NBcG81YVpTdzgyRl9ieDVXZm5tMVNNVkUwbGlvWjJLTXh1U0pESTVOVmpMLUNteXZZN1JPM0phTXh6WWZJaTAta1kycUtRdHVJaFZYY1dXcGVILWFqZkZGNQ?oc=5\" target=\"_blank\">CATL, BYD headline China’s inaugural Golden Lithium Awards with next‑gen battery wins</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CarNewsChina.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "CATL",
+      "BYD"
+    ],
+    "summary_3_sentences": [
+      "CATL과 BYD가 중국 최초의 골든 리튬 어워드에서 차세대 배터리 부문 수상의 영예를 안았습니다.",
+      "이는 두 기업의 기술력과 시장 경쟁력을 다시 한번 입증하는 결과입니다.",
+      "이번 수상은 중국 배터리 산업의 성장을 보여주는 지표입니다."
+    ],
+    "uid": "19ddfbe6695f438a0a443170da91d3c0ec64b9f2"
+  },
+  {
+    "title": "$1.5B battery separator plant in Port Colborne, Ont., to proceed despite Honda Canada suspending EV plans",
+    "published_at": "2026-05-16",
+    "source": "CBC",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQlNQekxPVUpfQ3FROHR2SFNVbmltOGxUSFFXdk02UXFXM1AxUHZwRl9yZWZDdFNUbUZ6N3F6cVZxMFR5UGpKOC0tczBPTXhMOGR1d1l2Z09hcFY2WXlIbzRocUk4QmNsR0dmajVieDk5bkwyckotZFJKQmlsZUd5V2tyeHVycjQtWlo3QnJGWVhvMFEtQ1lpNWgzSXI5SFd5eGFvTmo0V2ticlpJUVpudlJiSQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPQlNQekxPVUpfQ3FROHR2SFNVbmltOGxUSFFXdk02UXFXM1AxUHZwRl9yZWZDdFNUbUZ6N3F6cVZxMFR5UGpKOC0tczBPTXhMOGR1d1l2Z09hcFY2WXlIbzRocUk4QmNsR0dmajVieDk5bkwyckotZFJKQmlsZUd5V2tyeHVycjQtWlo3QnJGWVhvMFEtQ1lpNWgzSXI5SFd5eGFvTmo0V2ticlpJUVpudlJiSQ?oc=5\" target=\"_blank\">$1.5B battery separator plant in Port Colborne, Ont., to proceed despite Honda Canada suspending EV plans</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBC</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "separator",
+    "companies": [
+      "Honda Canada",
+      "CBC"
+    ],
+    "summary_3_sentences": [
+      "캐나다 온타리오주 포트 콜본에 건설 예정이던 15억 달러 규모의 배터리 분리막 공장이 사업을 계속 진행합니다.",
+      "이는 혼다 캐나다가 전기차 생산 계획을 보류했음에도 불구하고 결정된 사항입니다.",
+      "이 공장은 북미 지역의 배터리 공급망 강화에 기여할 것으로 예상됩니다."
+    ],
+    "uid": "be82c5c9909ed2af2982b4d7990f56916412e36f"
+  },
+  {
+    "title": "Jungheinrich launches field trials with sodium-ion batteries at selected customer sites",
+    "published_at": "2026-05-16",
+    "source": "Batteries News",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2dKY1BudUhIa3dIajBSR002aGhLQ3BwdWNQckdKNjN1Si1iYldXQ3RPSkIzRzhRR2Qwa0lxYkNRekFxa05hODM2d1F1OXdzT3VoNXJYazRMTlctalEyOUQzSmh3NUFIenA0NVNQb1hxT0RzTnNXWXIwa2JyMXRhUW9FSXpQNE5yYnB1VDc1aVdrRzAzLVdHUG54MUkzR0oydHVWNjJ1TTBsXzBISUdNTHR5a1A?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2dKY1BudUhIa3dIajBSR002aGhLQ3BwdWNQckdKNjN1Si1iYldXQ3RPSkIzRzhRR2Qwa0lxYkNRekFxa05hODM2d1F1OXdzT3VoNXJYazRMTlctalEyOUQzSmh3NUFIenA0NVNQb1hxT0RzTnNXWXIwa2JyMXRhUW9FSXpQNE5yYnB1VDc1aVdrRzAzLVdHUG54MUkzR0oydHVWNjJ1TTBsXzBISUdNTHR5a1A?oc=5\" target=\"_blank\">Jungheinrich launches field trials with sodium-ion batteries at selected customer sites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Batteries News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 75,
+    "monitor_score": 82,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "Jungheinrich"
+    ],
+    "summary_3_sentences": [
+      "Jungheinrich는 선정된 고객 사이트에서 나트륨 이온 배터리를 이용한 현장 시험을 시작했습니다.",
+      "이는 나트륨 이온 배터리의 실용성과 성능을 검증하기 위한 중요한 단계입니다.",
+      "이번 시험 결과는 향후 나트륨 이온 배터리의 상용화에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "07df5ff4e3b8e8e854a2b30598309529eae99381"
   },
   {
     "title": "\"6분 충전에 1500㎞\"…중국 CATL 공세에 K배터리 3사 첨단 기술로 맞대응",
