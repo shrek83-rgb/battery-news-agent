@@ -1,5 +1,110 @@
 [
   {
+    "title": "'非중국산 수혜' K배터리 소재 실적 점프",
+    "description": "이른바 '꿈의 배터리'로 불리는 전고체배터리 소재개발이 대표적이다. 포스코퓨처엠은 미국 전고체배터리 기업 팩토리얼과 전고체배터리용 양극재 샘플 테스트를 진행 중이다. 에코프로비엠 역시 전고체배터리용...",
+    "link": "https://www.mt.co.kr/industry/2026/05/19/2026051820004215771",
+    "source": "www.mt.co.kr",
+    "published_at": "2026-05-19",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "포스코퓨처엠",
+      "팩토리얼",
+      "에코프로비엠"
+    ],
+    "summary_3_sentences": [
+      "비중국산 배터리 소재 기업들이 실적 성장을 기록하고 있다.",
+      "특히 전고체 배터리 소재 개발이 활발하며, 포스코퓨처엠은 미국 팩토리얼과, 에코프로비엠은 전고체 배터리용 양극재 샘플 테스트를 진행 중이다.",
+      "이는 차세대 배터리 시장에서의 K-배터리 소재 기업들의 경쟁력 강화 가능성을 시사한다."
+    ],
+    "uid": "8556226b3c02bf701f633a0e8dc275241271f0c2"
+  },
+  {
+    "title": "K-배터리, ‘기술 초격차’ 확보… LG엔솔·삼성SDI, R&D 투자 확대",
+    "description": "삼성SDI가 사활을 걸고 있는 분야는 ‘꿈의 배터리’로 불리는 전고체 배터리와 차세대 프리미엄 라인업인 46파이 원통형 배터리다. 불확실한 시장 상황에서 단순 외형(생산 능력) 경쟁에 내몰리기보다, 고에너지...",
+    "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202605181455139930139",
+    "source": "www.dnews.co.kr",
+    "published_at": "2026-05-19",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.ceoscoredaily.com",
+        "link": "https://www.ceoscoredaily.com/page/view/2026051911055502561"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "K-배터리",
+      "LG엔솔·삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "K-배터리 기업들이 기술 초격차 확보를 위해 R&D 투자를 확대하고 있다.",
+      "삼성SDI는 전고체 배터리와 46파이 원통형 배터리 개발에 집중하며 차세대 프리미엄 라인업을 강화하고 있다.",
+      "이는 단순 생산 능력 경쟁에서 벗어나 고부가가치 기술 경쟁력을 확보하려는 전략이다."
+    ],
+    "uid": "824e4f6679651d1da7f3e72d931eff33c0fef2f6"
+  },
+  {
+    "title": "캐즘을 건넌 배터리, 테마를 벗은 바이오 — 두 섹터가 동시에 깨어난 ...",
+    "description": "2차전지는 다른 경로로 부활을 준비하고 있다. 전기차 수요 정체, 이른바 캐즘의 터널이 길었던 만큼 반등의 에너지도 압축돼 있다. 2026년은 LG에너지솔루션의 저가형 LFP 배터리 양산 본격화와 삼성SDI의 전고체...",
+    "link": "https://www.ppss.kr/news/articleView.html?idxno=296410",
+    "source": "www.ppss.kr",
+    "published_at": "2026-05-18",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG에너지솔루션",
+      "삼성SDI",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "2차전지 산업은 전기차 수요 정체라는 캐즘을 극복하고 부활을 준비하고 있다.",
+      "2026년에는 LG에너지솔루션의 저가형 LFP 배터리 양산과 삼성SDI의 전고체 배터리 상용화가 예상된다.",
+      "이는 2차전지 시장에 새로운 활력을 불어넣을 것으로 기대된다."
+    ],
+    "uid": "0f05a0a2f917a67339f3cfd163016f8de5e18a99"
+  },
+  {
+    "title": "대주전자재료, '차세대 실리콘 음극재' 독점 체제 굳힌다",
+    "description": "2차전지 전고체 테마는 독점적 지위를 확보한 핵심 소재 및 전공정 장비군과 글로벌 원자재 시황 및 기존 액체 배터리 업황의 영향을 직접적으로 받는 범용 부품·제련군으로 나뉘어 뚜렷한 온도 차를 보였다. 차세대...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=453506",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-05-18",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "대주전자재료",
+      "대주전자",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "대주전자재료는 2차전지 전고체 테마에서 핵심 소재 및 전공정 장비군과 범용 부품·제련군으로 나뉘어 뚜렷한 온도 차를 보였다.",
+      "이 중 차세대 실리콘 음극재는 독점적 지위를 확보하며 시장에서의 입지를 강화하고 있다.",
+      "이는 향후 전기차 배터리 시장에서 대주전자재료의 경쟁력을 높일 것으로 예상된다."
+    ],
+    "uid": "815b9b5f32b11fa04f9c3037434453b8e20ddbaf"
+  },
+  {
     "title": "LG엔솔 배터리분야 ‘발명왕’ 시상",
     "description": "이 밖에도 △46시리즈 셀 적용 CAS(Cell Array Structure) 핵심 구조(은상, 정인혁 책임) △전극 공정 품질 관리를 위한 추적 기술(은상, 이재환 선임) △LMR 배터리 고온 내구성 향상 전해질용 첨가제(동상, 이정민 책임)...",
     "link": "https://www.naeil.com/news/read/588992?ref=naver",
@@ -75,6 +180,31 @@
     "uid": "425a66270e011d7de6ff6742106c723c90f45685"
   },
   {
+    "title": "엘앤에프, 대구서 LFP 양극재 양산 시동…'비중국 공급망' 선점 나선다",
+    "description": "2차전지 소재 전문기업 엘앤에프가 LFP(리튬·인산·철) 양극재 전담 자회사 '엘앤에프플러스' 공장을... 실제 SNE리서치 조사 결과를 보면 지난해 기준 글로벌 전기차 배터리 사장 양극재 적재량 가운데 LFP 배터리가...",
+    "link": "https://www.imaeil.com/page/view/2026051814513239296",
+    "source": "www.imaeil.com",
+    "published_at": "2026-05-18",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "엘앤에프",
+      "엘앤에프플러스",
+      "SNE리서치"
+    ],
+    "summary_3_sentences": [
+      "엘앤에프는 대구에서 LFP 양극재 양산에 착수하며 비중국 공급망 확보에 나섰다.",
+      "이는 지난해 글로벌 전기차 배터리 시장에서 LFP 배터리가 차지하는 비중이 증가한 추세에 따른 것이다.",
+      "엘앤에프의 LFP 양극재 생산은 향후 글로벌 배터리 소재 시장에서의 경쟁력을 강화할 것으로 보인다."
+    ],
+    "uid": "fb7d8f1010dadaf566014d62021c3f91282b2f30"
+  },
+  {
     "title": "LG엔솔, 차세대 LMR 배터리 특허 확보 임직원 격려",
     "description": "특히 LG에너지솔루션은 전고체 배터리 등 미래 기술력 확보를 위해 경쟁사들과 신경전도 불사르고 있다. 최근 자사 특허 기술을 무단으로 사용한 중국산 배터리에 대한 소송은 물론 해당 배터리를 적용한 완성차...",
     "link": "http://www.fntimes.com/html/view.php?ud=2026051811001934277492587736_18",
@@ -109,6 +239,38 @@
     "uid": "e49f888ec40fea65238aa6cb84de1a8b4b89803b"
   },
   {
+    "title": "기후부, '배터리 재생원료 생산인증제 운영방안' 설명회...폐배터리 재...",
+    "description": "특히 재활용 과정에서 추출되는 블랙매스(black mass)에 대한 제도 개선도 추진된다. 블랙매스는 폐배터리를 파쇄·분리하는 과정에서 나오는 검은색 분말 형태 물질로, 니켈·코발트·리튬·망간 등 핵심 광물이 포함돼 있다....",
+    "link": "http://www.econonews.co.kr/news/articleView.html?idxno=438521",
+    "source": "www.econonews.co.kr",
+    "published_at": "2026-05-18",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.job-post.co.kr",
+        "link": "https://www.job-post.co.kr/news/articleView.html?idxno=216279"
+      },
+      {
+        "source": "www.e-platform.net",
+        "link": "http://www.e-platform.net/news/articleView.html?idxno=102312"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "설명회...폐배터리"
+    ],
+    "summary_3_sentences": [
+      "기후산업부는 폐배터리 재활용 활성화를 위한 '배터리 재생원료 생산인증제 운영방안' 설명회를 개최했다.",
+      "이번 설명회에서는 폐배터리 재활용 과정에서 핵심 광물이 추출되는 블랙매스에 대한 제도 개선 방안이 논의되었다.",
+      "이는 폐배터리 자원 순환 경제 구축에 기여할 것으로 기대된다."
+    ],
+    "uid": "779b9c67467a37a69639f0dea840c81219462983"
+  },
+  {
     "title": "LG엔솔, LMR·46시리즈 특허 인재 키운다…‘발명왕’ 시상",
     "description": "이와 함께 ▲46시리즈 셀 적용 CAS 핵심 구조 ▲전극 공정 품질관리 추적 기술 ▲LMR 배터리 고온 내구성 향상 전해질 첨가제 ▲원통형 46시리즈 절연 구조 ▲비파괴식 셀 수명 상태 확인 기술 등도 발명왕 수상 과제로...",
     "link": "https://www.dizzotv.com/site/data/html_dir/2026/05/18/2026051880065.html",
@@ -141,6 +303,269 @@
       "이러한 노력은 미래 배터리 기술 경쟁에서 우위를 확보하기 위한 전략의 일환입니다."
     ],
     "uid": "2d085da189d207fe5d166f89e75aaff318e1231f"
+  },
+  {
+    "title": "LG엔솔·삼성SDI, 투자 ‘늘리고’ SK온 ‘줄였다’…K-배터리, 한파 극...",
+    "description": "우선, 내년 하반기 양산을 목표로 파우치형 전고체 배터리를 개발 중이다. 해당 제품은 피지컬 AI용으로 사용될 전망이다. 로봇의 경우 특성상 배터리 탑재 공간이 제한적이어서 크기가 작으면서도 에너지 밀도가...",
+    "link": "https://www.ceoscoredaily.com/page/view/2026051812435835878",
+    "source": "www.ceoscoredaily.com",
+    "published_at": "2026-05-18",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "LG에너지솔루션",
+      "삼성SDI",
+      "SK온"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션과 삼성SDI는 R&D 투자를 늘리는 반면, SK온은 투자를 줄이며 K-배터리 업계의 한파 속에서 차별화된 전략을 보이고 있다.",
+      "LG에너지솔루션은 피지컬 AI용 파우치형 전고체 배터리를 개발 중이며, 로봇 등 제한된 공간에 탑재 가능한 고에너지 밀도 배터리 개발에 집중하고 있다.",
+      "이는 미래 시장을 선점하기 위한 기업들의 기술 개발 경쟁이 심화되고 있음을 보여준다."
+    ],
+    "uid": "19b96dd0dee09cfb3566af8241c750b8c152221e"
+  },
+  {
+    "title": "Natrion Launches Advanced Battery Product Lines for Uncrewed Systems",
+    "published_at": "2026-05-18",
+    "source": "uasweekly.com",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGZEXzJjTXVzeVpjZFctV3VwdWJnNThqWDdld1pKNV9VeFY4NUczUXBseDRpZVFoUktZd2ZtcGlSd0FRSDdUa0E0VDF2NGJmYkRQSnRHNUJuWnJzbkZjVW1sUXFkNzlmbEMtdWY5elE4eHNJUEV2aFBXQlBLTGtHcW5yZWVNMklRUVRlVHJsZUtBRnlkS2lOcUt1VGFIV2lxcmFZaA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGZEXzJjTXVzeVpjZFctV3VwdWJnNThqWDdld1pKNV9VeFY4NUczUXBseDRpZVFoUktZd2ZtcGlSd0FRSDdUa0E0VDF2NGJmYkRQSnRHNUJuWnJzbkZjVW1sUXFkNzlmbEMtdWY5elE4eHNJUEV2aFBXQlBLTGtHcW5yZWVNMklRUVRlVHJsZUtBRnlkS2lOcUt1VGFIV2lxcmFZaA?oc=5\" target=\"_blank\">Natrion Launches Advanced Battery Product Lines for Uncrewed Systems</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">uasweekly.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Natrion"
+    ],
+    "summary_3_sentences": [
+      "Natrion은 무인 시스템을 위한 첨단 배터리 제품 라인을 출시했다.",
+      "이 제품들은 무인 시스템의 성능 향상에 기여할 것으로 기대된다.",
+      "이는 드론 및 로봇 등 무인 시스템 시장의 성장에 따른 배터리 수요 증가에 대응하는 움직임이다."
+    ],
+    "uid": "ec31119a9d38d5549f98713372fca0b4e77d5f0b"
+  },
+  {
+    "title": "Automotive Sodium-ion Battery Market Share Driven",
+    "published_at": "2026-05-18",
+    "source": "openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN2FqQnc0SmlLdmU0aVNXWjFELWpsYWJ5ZG1ZS1ZxTnRfLUt2QTdVcUdsWVl5UTFCQXRKMmpfaGpic21BellkLXJRY0RXM2FkMUtoZ1h4Z3JEOTkydEFFV2xydERnLTctS0RDRnVCeWtQNGxGZnNxc2w3Z1Vyb0FTLUFKWHYtVENLLUpndDZR?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQN2FqQnc0SmlLdmU0aVNXWjFELWpsYWJ5ZG1ZS1ZxTnRfLUt2QTdVcUdsWVl5UTFCQXRKMmpfaGpic21BellkLXJRY0RXM2FkMUtoZ1h4Z3JEOTkydEFFV2xydERnLTctS0RDRnVCeWtQNGxGZnNxc2w3Z1Vyb0FTLUFKWHYtVENLLUpndDZR?oc=5\" target=\"_blank\">Automotive Sodium-ion Battery Market Share Driven</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [],
+    "summary_3_sentences": [
+      "자동차용 나트륨이온 배터리 시장 점유율이 증가하고 있다.",
+      "나트륨이온 배터리는 리튬이온 배터리의 대안으로 주목받고 있으며, 특히 가격 경쟁력과 친환경성 측면에서 장점을 가진다.",
+      "이는 향후 전기차 시장에서 나트륨이온 배터리의 채택이 확대될 가능성을 시사한다."
+    ],
+    "uid": "88e487933e4c4d12686e4e5d9280d16c4b02ebc5"
+  },
+  {
+    "title": "Southwest cites lithium-ion battery risk in new robot travel restrictions",
+    "published_at": "2026-05-18",
+    "source": "newscentermaine.com",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMnJEcEotaWtMb2UwaVMyRC1vakRmRzkyN0dEanU5TFFaYlowRWp5ZjhITmhmQTl5YVVqYjlPdkJmWWRMNHY5WVI1R0ZvQ3ZGQWlTb0JZRDNlZm9BUFRmTmd5R1F0alVqODdrUHJSS1h3TGc4MldPV2loRkhmLVpIQzNfV01PbjR0QmNzZ25sMURfQ3NLa2pUb2c3OEZ5RUJVd3FIMDRtU1VBaTh0MklzeFhSa1l2dkdkNmw2aUl2eDJBMDBER1JYVnctb2lDcEJDOWUzNzB4WW4xOUtRSjdsN1p6SDZER3hGYUtfYmQ5MA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMnJEcEotaWtMb2UwaVMyRC1vakRmRzkyN0dEanU5TFFaYlowRWp5ZjhITmhmQTl5YVVqYjlPdkJmWWRMNHY5WVI1R0ZvQ3ZGQWlTb0JZRDNlZm9BUFRmTmd5R1F0alVqODdrUHJSS1h3TGc4MldPV2loRkhmLVpIQzNfV01PbjR0QmNzZ25sMURfQ3NLa2pUb2c3OEZ5RUJVd3FIMDRtU1VBaTh0MklzeFhSa1l2dkdkNmw2aUl2eDJBMDBER1JYVnctb2lDcEJDOWUzNzB4WW4xOUtRSjdsN1p6SDZER3hGYUtfYmQ5MA?oc=5\" target=\"_blank\">Southwest cites lithium-ion battery risk in new robot travel restrictions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">newscentermaine.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "사우스웨스트 항공"
+    ],
+    "summary_3_sentences": [
+      "사우스웨스트 항공은 리튬이온 배터리 위험을 이유로 로봇 이동 제한 조치를 발표했다.",
+      "이는 리튬이온 배터리의 안전성에 대한 우려가 항공 산업에서도 제기되고 있음을 보여준다.",
+      "향후 리튬이온 배터리 안전 규정 강화 및 대체 기술 개발의 필요성이 대두될 수 있다."
+    ],
+    "uid": "48c42063978f0a9611cc1fe138f2eeb872b5870a"
+  },
+  {
+    "title": "Gotion receives €92 million for two battery projects in Spain",
+    "published_at": "2026-05-18",
+    "source": "electrive.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWFhBVHQza3Q4bVJlYmRQN1pvRW5UTjMwWDdhNFlRWW5IWGZwN2p2TjVERThkaVFJbnpsLUpkSE93TmVjaDBNLW9DVmIzVUNXTDQxWHdSaHZ4S09xVlRTbS1Gak9KMzdTLVFtVWlsdi1JSDJlZExiWFMwWm9Wbm5HUWFqV2tSWDV4ZGRRdFhPNVBrTEJOQ25UenNyTlk4OVNn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQWFhBVHQza3Q4bVJlYmRQN1pvRW5UTjMwWDdhNFlRWW5IWGZwN2p2TjVERThkaVFJbnpsLUpkSE93TmVjaDBNLW9DVmIzVUNXTDQxWHdSaHZ4S09xVlRTbS1Gak9KMzdTLVFtVWlsdi1JSDJlZExiWFMwWm9Wbm5HUWFqV2tSWDV4ZGRRdFhPNVBrTEJOQ25UenNyTlk4OVNn?oc=5\" target=\"_blank\">Gotion receives €92 million for two battery projects in Spain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrive.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Gotion"
+    ],
+    "summary_3_sentences": [
+      "Gotion은 스페인 내 두 개의 배터리 프로젝트를 위해 9,200만 유로의 자금을 확보했다.",
+      "이는 Gotion의 유럽 시장 내 배터리 생산 능력 확대를 위한 중요한 발판이 될 것이다.",
+      "이번 투자는 유럽의 전기차 배터리 공급망 강화에 기여할 것으로 기대된다."
+    ],
+    "uid": "015c275b7b0c897541c8877c390d14c7d86f4bfe"
+  },
+  {
+    "title": "What Are Lithium Iron Phosphate Batteries and Why Are They Difficult to Recycle?",
+    "published_at": "2026-05-18",
+    "source": "Technology Org",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLTFaMGp4SXdWMDlTc1E0NUkxM2stLVZBb25wYkNWU1dmZ3R2U1UzMU1wUHpOUVp4bnZ1RURuSHV6bmtFWjB1YmhmTWkxTDU5OXdscEdSQUo3SzR1enRLdzJMSjRYS2RyTGFNS3lNcVR5ZnJUcllMVmk2cUJfcm96QWNXZ3RzTnkxczZjN3ZrdHc4eGRyVWxleWJpRDBqcUc2a1ZhYXhySXhKVWdrYjlTS0ZoR0Q2Z1o3dlE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNLTFaMGp4SXdWMDlTc1E0NUkxM2stLVZBb25wYkNWU1dmZ3R2U1UzMU1wUHpOUVp4bnZ1RURuSHV6bmtFWjB1YmhmTWkxTDU5OXdscEdSQUo3SzR1enRLdzJMSjRYS2RyTGFNS3lNcVR5ZnJUcllMVmk2cUJfcm96QWNXZ3RzTnkxczZjN3ZrdHc4eGRyVWxleWJpRDBqcUc2a1ZhYXhySXhKVWdrYjlTS0ZoR0Q2Z1o3dlE?oc=5\" target=\"_blank\">What Are Lithium Iron Phosphate Batteries and Why Are They Difficult to Recycle?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technology Org</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "리튬인산철(LFP) 배터리는 재활용이 어려운 특성을 가지고 있다.",
+      "이는 LFP 배터리의 친환경적인 사용 및 폐기 과정에서 해결해야 할 과제이다.",
+      "향후 LFP 배터리 재활용 기술 개발의 중요성이 더욱 커질 것으로 예상된다."
+    ],
+    "uid": "49189dbca1a395ef8503e19ec91cf0ca6f1e7eae"
+  },
+  {
+    "title": "GCL Technology Expands into Lithium-Ion Energy Storage with LFP Cathode Materials - News and Statistics",
+    "published_at": "2026-05-18",
+    "source": "IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcFZaQkdMempFdXJWMmhKZ19GajZDbFlydnladThTQkdpS0Q2aGVoR09KSHBiMEh0Y3QtSm91RFliUVJnT0l4Q1Y5dWg4eW1UYWx0RThpOG9vczFxNUdHaEg3MFBJUTZiS2lzazl5eDctNGQ4eG1qY0JDTzRzMlVhOFB6UlJ2VzREUzF5QVpXbGJVYnNWdzBCWk1uQVBWaHR3a20td2Nha2tRdw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcFZaQkdMempFdXJWMmhKZ19GajZDbFlydnladThTQkdpS0Q2aGVoR09KSHBiMEh0Y3QtSm91RFliUVJnT0l4Q1Y5dWg4eW1UYWx0RThpOG9vczFxNUdHaEg3MFBJUTZiS2lzazl5eDctNGQ4eG1qY0JDTzRzMlVhOFB6UlJ2VzREUzF5QVpXbGJVYnNWdzBCWk1uQVBWaHR3a20td2Nha2tRdw?oc=5\" target=\"_blank\">GCL Technology Expands into Lithium-Ion Energy Storage with LFP Cathode Materials - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "GCL Technology",
+      "GCL",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "GCL Technology는 리튬이온 에너지 저장 시스템 시장에 진출하며 LFP 양극재 사업을 확장하고 있다.",
+      "이는 에너지 저장 시스템 시장의 성장에 발맞춘 사업 다각화 전략이다.",
+      "GCL Technology의 LFP 양극재 사업 확장은 관련 시장 경쟁을 심화시킬 것으로 예상된다."
+    ],
+    "uid": "adc05152e2d1120ad85c5f70e47a11ba22456301"
+  },
+  {
+    "title": "Fast-Charging Lithium-ion Battery Market Report with Growth",
+    "published_at": "2026-05-18",
+    "source": "GlobeNewswire",
+    "link": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPWmNvZFNQb09WSlVrRF9CTERJSUhpVDVNeWpnTzRVTGEyYjFMaXplVGJvVnpDbFh0ZFpRclBadDVRdlAxUzREUVV4OTNvX1JyckRKTXB6MlV4Z0N3amljYmRKdEZhNHdIYms1LUtiVTRIRzltMXlSblBpYllheEtaX2U3N09fd1BVVHM5MFNRUEVXMFZqcE5UclAwa29wX3N2UFV2V21aMzNmZW53V3I5U2h2Snl3WG5hQ1M4dmd5TnE0ME80d3QtSm5HVXpySktvVVNyZ21IWlkwMVpFeHdUVXdvMUc0c21MbzR6cjViSnVDLTFhdGR2eHdCRWhaY21SRjJyckVMOHJOX0hCa1NaOUNzVnh2QndScXdjTWdwUkh6SWhIRk9BQk1hZkJsbm1IM1VZaTBsRmhDQ01xaFBZZ1lqYTZlY0hUOUxHM2hIbTJ2N1RrOXVwRVk4MDBsYkJWazBOblM2SVJNUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gJBVV95cUxPWmNvZFNQb09WSlVrRF9CTERJSUhpVDVNeWpnTzRVTGEyYjFMaXplVGJvVnpDbFh0ZFpRclBadDVRdlAxUzREUVV4OTNvX1JyckRKTXB6MlV4Z0N3amljYmRKdEZhNHdIYms1LUtiVTRIRzltMXlSblBpYllheEtaX2U3N09fd1BVVHM5MFNRUEVXMFZqcE5UclAwa29wX3N2UFV2V21aMzNmZW53V3I5U2h2Snl3WG5hQ1M4dmd5TnE0ME80d3QtSm5HVXpySktvVVNyZ21IWlkwMVpFeHdUVXdvMUc0c21MbzR6cjViSnVDLTFhdGR2eHdCRWhaY21SRjJyckVMOHJOX0hCa1NaOUNzVnh2QndScXdjTWdwUkh6SWhIRk9BQk1hZkJsbm1IM1VZaTBsRmhDQ01xaFBZZ1lqYTZlY0hUOUxHM2hIbTJ2N1RrOXVwRVk4MDBsYkJWazBOblM2SVJNUQ?oc=5\" target=\"_blank\">Fast-Charging Lithium-ion Battery Market Report with Growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GlobeNewswire</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "고속 충전 리튬이온 배터리 시장의 성장 보고서가 발표되었다.",
+      "이 보고서는 고속 충전 기술이 리튬이온 배터리 시장 성장에 중요한 역할을 할 것임을 시사한다.",
+      "이는 관련 기술 개발 및 시장 확대에 대한 기대를 높인다."
+    ],
+    "uid": "e7d4d2ddbc152981ba46ea052c7b8a40c1efda1f"
+  },
+  {
+    "title": "Non-lithium players Eos and ESS lean on future of US LDES deployment in Q1 2026 financials",
+    "published_at": "2026-05-18",
+    "source": "Energy-Storage.News",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ283MTFGZ1JIOWFxS1FhM1MwS183d3lYczJyb29QMmMtZTFKV2JYNXFFaUo5bHpFMU5kZU9mR1JHN0c2a2tveXZBeDNpUF9zYS12QVFTQWVUNDEwa1lFYjhjZFhrMjd2M0VSMHdEeENWYWRQY1dNc3NoakZuZDJJSmp6Y1VKQS1FVGFvOUJkSzNDSElOY1dvREJyUDdQcFVHbndOOFBMLTlkUXZnOElpNUh0My1HVWRGTkJFd084Wks?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ283MTFGZ1JIOWFxS1FhM1MwS183d3lYczJyb29QMmMtZTFKV2JYNXFFaUo5bHpFMU5kZU9mR1JHN0c2a2tveXZBeDNpUF9zYS12QVFTQWVUNDEwa1lFYjhjZFhrMjd2M0VSMHdEeENWYWRQY1dNc3NoakZuZDJJSmp6Y1VKQS1FVGFvOUJkSzNDSElOY1dvREJyUDdQcFVHbndOOFBMLTlkUXZnOElpNUh0My1HVWRGTkJFd084Wks?oc=5\" target=\"_blank\">Non-lithium players Eos and ESS lean on future of US LDES deployment in Q1 2026 financials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Energy-Storage.News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Eos",
+      "ESS",
+      "US"
+    ],
+    "summary_3_sentences": [
+      "리튬 기반이 아닌 Eos와 ESS는 2026년 1분기 재무 실적에서 미국 장주기 에너지 저장(LDES) 시스템 구축의 미래에 집중하고 있다.",
+      "이는 LDES 시장의 성장 가능성에 대한 두 기업의 기대를 보여준다.",
+      "향후 LDES 시장의 성장이 Eos와 ESS의 사업에 긍정적인 영향을 미칠 것으로 전망된다."
+    ],
+    "uid": "af67408a5d96b49576098de98f6b07e5ef47cc27"
+  },
+  {
+    "title": "Hanyang team pinpoints 2.5nm minimum coating for longer-lasting EV solid-state batteries",
+    "published_at": "2026-05-18",
+    "source": "Electric & Hybrid Vehicle Technology International",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZE5maU5ELV9Ea3kyaHBGNzNWa0JzdDhkV0NHM3JfaXFWX2pTOEdXOXRJR2x6dHFYREhTT1VVZ29xa1pBM3dFdktXVHZSZzRPOV9VWHpQTlFKUXctOUZqUVl6aUhrNWdVOXdQWi10c3lLSDFuWThFV2xyRGdUSGVuZS1JVVFWaGhCR281SHpWeDRMLXYxckxRa0NtUlQxWFpraWdkd0N1Q2ljWU9lY1hrTGtmZklHN05JZ3NZVmVCSml5RmZZa1NXVDVvZ25FTWMzOGtLd01WdTB0NkR4Vnh3?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZE5maU5ELV9Ea3kyaHBGNzNWa0JzdDhkV0NHM3JfaXFWX2pTOEdXOXRJR2x6dHFYREhTT1VVZ29xa1pBM3dFdktXVHZSZzRPOV9VWHpQTlFKUXctOUZqUVl6aUhrNWdVOXdQWi10c3lLSDFuWThFV2xyRGdUSGVuZS1JVVFWaGhCR281SHpWeDRMLXYxckxRa0NtUlQxWFpraWdkd0N1Q2ljWU9lY1hrTGtmZklHN05JZ3NZVmVCSml5RmZZa1NXVDVvZ25FTWMzOGtLd01WdTB0NkR4Vnh3?oc=5\" target=\"_blank\">Hanyang team pinpoints 2.5nm minimum coating for longer-lasting EV solid-state batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electric & Hybrid Vehicle Technology International</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "한양대학교"
+    ],
+    "summary_3_sentences": [
+      "한양대학교 연구팀이 더 오래 지속되는 전기차용 전고체 배터리를 위한 최소 2.5nm 코팅 두께를 규명했다.",
+      "이 연구는 전고체 배터리의 성능 향상에 기여할 수 있는 새로운 가능성을 제시한다.",
+      "이는 향후 전기차 배터리 기술 발전에 중요한 역할을 할 것으로 기대된다."
+    ],
+    "uid": "c1fa353f6ea3bde1a1b745fc5b3731557e4e95fa"
+  },
+  {
+    "title": "NFPA 800 Set to Redefine Lithium-Ion Battery Safety in Construction Industry",
+    "published_at": "2026-05-18",
+    "source": "Construction Owners Club",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSkVFZURYS083ZTU1S2hIUlktVHdBZzFJSDRpUnVoczU1QTNBTzZIUGdaRlc5WjV0RDBEQlhLNE9nV3lIcEhqanQxLVRNc2xKZlZHUGZWTmc4WE52S0lXMlBJMVRHUE95cmpLRWNLUzhiR0RuX3hzaEM0VWJrZjh2RmZlZTZrQm9ZcnluMWIxdEJtZEx0eEI3WkVweW9TZ241a3JqUGNJVEJYRWR4bHByV05aZWRHZWVBQkpXU043d2tDcW1sYjExUDh6bmJMczRjYXNZSFY3N2hjRWZEOFZmMzlR?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSkVFZURYS083ZTU1S2hIUlktVHdBZzFJSDRpUnVoczU1QTNBTzZIUGdaRlc5WjV0RDBEQlhLNE9nV3lIcEhqanQxLVRNc2xKZlZHUGZWTmc4WE52S0lXMlBJMVRHUE95cmpLRWNLUzhiR0RuX3hzaEM0VWJrZjh2RmZlZTZrQm9ZcnluMWIxdEJtZEx0eEI3WkVweW9TZ241a3JqUGNJVEJYRWR4bHByV05aZWRHZWVBQkpXU043d2tDcW1sYjExUDh6bmJMczRjYXNZSFY3N2hjRWZEOFZmMzlR?oc=5\" target=\"_blank\">NFPA 800 Set to Redefine Lithium-Ion Battery Safety in Construction Industry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Construction Owners Club</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 60,
+    "monitoring_importance": 10,
+    "monitor_score": 45,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "NFPA"
+    ],
+    "summary_3_sentences": [
+      "NFPA 800 표준이 건설 산업 내 리튬이온 배터리 안전 규정을 재정의할 예정이다.",
+      "이는 건설 현장에서 리튬이온 배터리 사용 증가에 따른 안전 문제에 대응하기 위한 조치이다.",
+      "새로운 안전 규정은 관련 산업의 안전 관리 수준을 향상시킬 것으로 기대된다."
+    ],
+    "uid": "1197ad4351e3f4ea881408d8bdd7774889998ee3"
   },
   {
     "title": "비야디, 테슬라 꺾고 에너지 저장 장치 글로벌 1위 등극… 中 '규모의 경...",
