@@ -1,0 +1,265 @@
+# 배터리 뉴스 데일리 브리핑 (2026-05-25 전날 기준)
+
+- 총 20건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 전고체 | 2026-05-26 | www.g-enews.com | 中, 세계 최초 ‘전기·수소 동시 저장’ 배터리 개발… 수소 효율 93.9%... | https://www.g-enews.com/view.php?ud=2026052608381037820c8c1c064d_1 | unknown |
+| 2 | 3 | cathode | 2026-05-25 | digitimes | Exclusive: G2 Lithium battery rivalry heats up—US taps 4th-gen LFP to crack China's patent wall | https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0pUSmsxWktGWF9hLWIxdUFHVGJYZnVIdFlNdllLUEMtUHpERXRvdjc4eUNabk55c09BMm54eEtVTnJ3RHNQTVpwVE1yYTVlZjFwQzVfZTVjODEydWFaMEFMMWFVQkF0TlFiQUVQYW9ydFZXUmVJdWE4VEtiemNqSm1lQ0lJS0tXQ19qeGZOMTRxUnhEV2xOQ1lmaWxtSTZDTUpOWFl0dTg?oc=5 | unknown |
+| 3 | 3 | 기타 | 2026-05-25 | CarNewsChina.com | Solid‑state battery race: China leads patents but warns of losing global advantage | https://news.google.com/rss/articles/CBMiugFBVV95cUxNMWJwd1QxQi0tMXV3cDhXMXFSMVJhWldtYzVYbnp3SXZCaGJSdkRLZS1OQ1BlNFV3MHJQRXZndUlycG42cE5tZi1KQ21lZmIzd0VKV0d6SXN2TENJbkt2amx2akVsbm1Fanl4SVB2bWFfRjdYYklyUHd2WUhoZGkwZlpkNFc0LTJIaHAwNGsxUnpVYWhuRVU2d3psYmR5SjNCUnNnTDFRd2IzWEthUnJKODY5amVmZmFpLWc?oc=5 | unknown |
+| 4 | 3 | 기타 | 2026-05-26 | www.edaily.co.kr | 2차전지 업황 ‘새벽녘’…“실적 바닥 찍고 회복 초입” | https://www.edaily.co.kr/news/newspath.asp?newsid=01889286645452856 | unknown |
+| 5 | 3 | 전고체 | 2026-05-26 | www.theguru.co.kr | BYD, 황화물계 전고체 배터리 특허 출원 | https://www.theguru.co.kr/news/article.html?no=102224 | unknown |
+| 6 | 3 | anode | 2026-05-26 | www.engjournal.co.kr | 차세대 배터리 판 바꿀 실리콘 음극재, 차별화 전략은 '양산성' | http://www.engjournal.co.kr/news/articleView.html?idxno=3806 | unknown |
+| 7 | 3 | 전고체 | 2026-05-25 | Latest news from Azerbaijan | China's BYD advances solid-state battery development with new patent | https://news.google.com/rss/articles/CBMikwFBVV95cUxQZHhZaTNPTUhKTFFUak53eXduUXdEUXBhaUlmVUVUU3FGdGJWUzBZb1VUQnNCVDk3WWFRMkVxck1SeEtKWHlqYUhfZllKcXByU1hTS0txdHh1VEFoYjMxS3UxUDFjUUxsS1I1WDYyWUJOWlloT3R0UERMWl9zSExpd2pyY1locjF2dTVURHFGRU45bVE?oc=5 | unknown |
+| 8 | 3 | 전고체 | 2026-05-25 | CarNewsChina.com | BYD files sulfide solid‑state battery patent as China targets 2027 pilot production | https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTVdSTkdlaFNVY29qR2JRU0NlekgxWjQ1aGRGMGhoQzBVcGtnQUtWX0Qyd0I0Mzh3cXNCZkVhVHJUOFVGVUpaRHg1SVJUNU5VcjU3azVwUm9ValVBZnMtc2xXcWhGVWw2MUVGOVphQjBNRDJ6Mkl6cVRJWV9nZWE2cS1rcHBMY3hvcDJQVzdQYWpIWm9Xa3E0ZThEZ282WjZrUnBmLVRReTdVT3BBTmZGWHJRU2gxcEVhT0gxbWxwcW9MUQ?oc=5 | unknown |
+| 9 | 3 | 전고체 | 2026-05-25 | Pandaily | Ganfeng Lithium Begins Small-Scale Production of the World's First 500Wh/kg Solid-State Battery | https://news.google.com/rss/articles/CBMifkFVX3lxTE9rc0k1U1NHYUVCZTZqckNlN1RJSDYwblM0el9CWl92a1JPZU1XcElvdjV5ZGtoQ3g2NGdNUEV5cW1jblNXNkhuc0p4TFdHNGQwODlTdmwxeVNZTy1iNjdYd3lCVzJqVXdGc2pWR0lURUk2eXVIUEQ3dUpkUFhRdw?oc=5 | unknown |
+| 10 | 3 | 기타 | 2026-05-25 | Autonocion.com | China Just Built a Working Battery That Stores Electricity and Hydrogen in the Same Device. The U.S. Government Just Cancelled $7.5 Billion in the Research That Could Compete | https://news.google.com/rss/articles/CBMickFVX3lxTE9JWmpQQmt5SWdfV1pZQUZ1QXNMZWhtSmc4b3lDdVU1YmhPTnlBWjZPWWpoOF94NnhINm51R2lwYTJFbDZTLS0tX2Q1TW5EcFFYemc1UHZQLUxCczNyUnJ2SUdKOFhVT2ozYjFtSU42R1ZyUQ?oc=5 | unknown |
+| 11 | 3 | 전고체 | 2026-05-25 | bgr.com | Solid-State Battery Power Banks Are Here – And They Could Change Everything About Safety | https://news.google.com/rss/articles/CBMihAFBVV95cUxQR2lNZWt5UmpDcmFHT1l4NmVnMnpZbGI0ZUdrXzAyR3hhQlZFN1FYQVU0Vl9pZnNQLUNISEx2QThWNTVlWXZYOWc0SmtkTHdvU3huNG9QbVZUdWxEUXVKckhuUnU5T19LYlItRVZMWkN5OVlXemlXWDMtWVV5Z2k5VHpqSEI?oc=5 | unknown |
+| 12 | 3 | 전고체 | 2026-05-25 | www.metroseoul.co.kr | 전고체 배터리 주도권 흔들리나…중국 속도전에 국내 3사 '흔들' | http://www.metroseoul.co.kr/article/20260525500139 | unknown |
+| 13 | 3 | 정책 | 2026-05-25 | MyNewsLA.com | Lithium Ion Battery Fire Spreads to DTLA Apartment | https://news.google.com/rss/articles/CBMirAFBVV95cUxOSVM3T0dBWU9yZGNiOWtCSjdXdW50UU9uMHRPMHVidWQ5RU9UZG1VVDJjSF9yWmU3cEwxTTF1ZXk4eGkxTTZJUlkyM1pwajZfM0NYTWcweG9fbTQ5TnN4RG5nNWdmOUNqaUo2RDRXaHV5dWJEMEVMcEtLd1o3b0hrY3FJYUh4dXR5WVc1bTdqYXlMNHlfc3RKRmVzQ1UwbEJEX3BSbVU3S05hRVZF?oc=5 | unknown |
+| 14 | 3 | cathode | 2026-05-26 | www.cnbizm.com | [소재기업] '흑자전환' 포스코퓨처엠, 미래 배터리 시장 선점 나서 | https://www.cnbizm.com/news/articleView.html?idxno=303825 | unknown |
+| 15 | 3 | 전고체 | 2026-05-26 | www.ekn.kr | [르포] “전고체 배터리로 비행 시간 45분 확보, 2배↑”…‘글로벌 UAM... | https://www.ekn.kr/web/view.php?key=20260526022007744 | unknown |
+| 16 | 3 | cathode | 2026-05-26 | www.ebn.co.kr | [K배터리 진단] LFP부터 ESS까지…LG화학, '양극재' 리더십 정조준 | https://www.ebn.co.kr/news/articleView.html?idxno=1709839 | unknown |
+| 17 | 3 | 기타 | 2026-05-25 | SlashGear | China Claims 'All-Iron' Battery Out Performs Lithium At A Fraction Of The Cost | https://news.google.com/rss/articles/CBMiekFVX3lxTFBqd1RNSTM4Q0FOT29WSlVRbkpJZ1NWcU41TjhmRFRveTE1N19aeTFwLW4xeUxDVi1UYlBQV2tKS3lOZkN2YkZ5R29NTzJkUnJDclVCMkhKekNRTGlkeEs3UzJaMVp2cnpRbnRPTjJIeDNKa2pLdmJhVWpR?oc=5 | unknown |
+| 18 | 3 | 전고체 | 2026-05-26 | www.cbci.co.kr | 한농화성·대주전자재료 강세…전고체 배터리 관련주 다시 꿈틀, 이수스... | https://www.cbci.co.kr/news/articleView.html?idxno=577104 | unknown |
+| 19 | 3 | cathode | 2026-05-25 | www.etoday.co.kr | EU판 IRA 논의 본격화…中 배터리 견제에 韓 기업 기회 | https://www.etoday.co.kr/news/view/2587280 | unknown |
+| 20 | 3 | anode | 2026-05-25 | ChemAnalyst | Epsilon Advanced Materials Pvt Ltd Unveils Hard Carbon Anode for Sodium-Ion Batteries | https://news.google.com/rss/articles/CBMiswFBVV95cUxQbUxmYXJtY1UyRnRjbURlc1M2R01YeHAxUVFyMHA4ODZfRkt1ZEk0eXVXeFNiY2xXNDMzcmt4bjgwWktsa0hORE1XMk0wMi1qQ2E0c3JQZmxERHJ2eTJGNWhlUnlrSWlESHhMM043X29hYWhSdUZiRG40YmF1MjFiSlpodFpHVHlWaDA2MGI4NGxpeWJmOHN0SGtHeDQyVTZhcU9hMm9RaWpKMU0tZGZwc1daSQ?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. 中, 세계 최초 ‘전기·수소 동시 저장’ 배터리 개발… 수소 효율 93.9%...
+- 발행일: 2026-05-26
+- 매체: www.g-enews.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.g-enews.com/view.php?ud=2026052608381037820c8c1c064d_1
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국이 단일 장치 내에 전기와 수소를 동시에 저장할 수 있는 전고체 수소이온 배터리 프로토타입을 세계 최초로 개발했다.
+  - 이 배터리는 수소 에너지의 고질적 난제였던 고압 압축 탱크나 극저온 저장 방식의 필요성을 없애 효율성을 높였다.
+  - 이번 개발은 수소 에너지 저장 및 운송 방식에 혁신을 가져올 것으로 기대된다.
+- 관련 기업: 수소이온, 극저온
+
+### 2. Exclusive: G2 Lithium battery rivalry heats up—US taps 4th-gen LFP to crack China's patent wall
+- 발행일: 2026-05-25
+- 매체: digitimes (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0pUSmsxWktGWF9hLWIxdUFHVGJYZnVIdFlNdllLUEMtUHpERXRvdjc4eUNabk55c09BMm54eEtVTnJ3RHNQTVpwVE1yYTVlZjFwQzVfZTVjODEydWFaMEFMMWFVQkF0TlFiQUVQYW9ydFZXUmVJdWE4VEtiemNqSm1lQ0lJS0tXQ19qeGZOMTRxUnhEV2xOQ1lmaWxtSTZDTUpOWFl0dTg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국이 중국의 특허 장벽을 극복하기 위해 4세대 LFP 배터리 기술을 활용하며 리튬 배터리 경쟁에 나섰다.
+  - 이는 중국의 특허 공세를 돌파하고 배터리 시장에서의 경쟁 우위를 확보하려는 전략으로 풀이된다.
+  - 미국과 중국 간의 배터리 기술 경쟁이 더욱 치열해질 전망이다.
+- 관련 기업: US, LFP
+
+### 3. Solid‑state battery race: China leads patents but warns of losing global advantage
+- 발행일: 2026-05-25
+- 매체: CarNewsChina.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiugFBVV95cUxNMWJwd1QxQi0tMXV3cDhXMXFSMVJhWldtYzVYbnp3SXZCaGJSdkRLZS1OQ1BlNFV3MHJQRXZndUlycG42cE5tZi1KQ21lZmIzd0VKV0d6SXN2TENJbkt2amx2akVsbm1Fanl4SVB2bWFfRjdYYklyUHd2WUhoZGkwZlpkNFc0LTJIaHAwNGsxUnpVYWhuRVU2d3psYmR5SjNCUnNnTDFRd2IzWEthUnJKODY5amVmZmFpLWc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국이 전고체 배터리 분야에서 가장 많은 특허를 보유하고 있지만, 글로벌 경쟁에서 우위를 잃을 수 있다는 경고가 나왔다.
+  - 이는 기술 개발 속도와 상용화 능력 측면에서 중국이 직면한 과제를 시사한다.
+  - 전고체 배터리 시장의 주도권 확보를 위한 국가 간 경쟁이 심화될 것으로 보인다.
+
+### 4. 2차전지 업황 ‘새벽녘’…“실적 바닥 찍고 회복 초입”
+- 발행일: 2026-05-26
+- 매체: www.edaily.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.edaily.co.kr/news/newspath.asp?newsid=01889286645452856
+- 인기신호: unknown
+- 3문장 요약:
+  - 주요 배터리 및 소재 업체들의 이익 전망 하락세가 멈추고 회복 초입에 들어섰다는 분석이 나왔다.
+  - NH투자증권 연구원은 현재 배터리 업황을 '새벽녘'에 비유하며 긍정적인 전망을 제시했다.
+  - 이는 배터리 산업이 침체기를 벗어나 점진적인 회복세를 보일 가능성을 시사한다.
+- 관련 기업: NH투자증권, 2차전지, 배터리·소재
+
+### 5. BYD, 황화물계 전고체 배터리 특허 출원
+- 발행일: 2026-05-26
+- 매체: www.theguru.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.theguru.co.kr/news/article.html?no=102224
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국 전기차 및 배터리 기업 비야디(BYD)가 황화물계 전고체 배터리 기술 특허를 출원했다.
+  - BYD는 2027년 파일럿 생산을 목표로 하고 있으며, 이는 중국 배터리 업계의 전고체 기술 확보 경쟁에 속도를 더할 것으로 보인다.
+  - CATL을 필두로 한 중국 기업들의 전고체 배터리 기술 개발 움직임이 활발하다.
+- 관련 기업: BYD, CATL, 전기차·배터리
+
+### 6. 차세대 배터리 판 바꿀 실리콘 음극재, 차별화 전략은 '양산성'
+- 발행일: 2026-05-26
+- 매체: www.engjournal.co.kr (출처등급 3)
+- 분야: anode
+- 링크: http://www.engjournal.co.kr/news/articleView.html?idxno=3806
+- 인기신호: unknown
+- 3문장 요약:
+  - 차세대 배터리 시장에서 실리콘 음극재의 중요성이 부각되고 있으며, 양산성 확보가 차별화 전략으로 떠오르고 있다.
+  - 단일벽탄소나노튜브(SWCNT)와 전고체전지 소재 개발도 본격화되고 있다.
+  - SWCNT는 배터리 전극의 전도성과 고출력 특성을 강화하는 소재로 주목받고 있다.
+- 관련 기업: 전고체전지, SWCNT
+
+### 7. China's BYD advances solid-state battery development with new patent
+- 발행일: 2026-05-25
+- 매체: Latest news from Azerbaijan (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMikwFBVV95cUxQZHhZaTNPTUhKTFFUak53eXduUXdEUXBhaUlmVUVUU3FGdGJWUzBZb1VUQnNCVDk3WWFRMkVxck1SeEtKWHlqYUhfZllKcXByU1hTS0txdHh1VEFoYjMxS3UxUDFjUUxsS1I1WDYyWUJOWlloT3R0UERMWl9zSExpd2pyY1locjF2dTVURHFGRU45bVE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국 BYD가 새로운 전고체 배터리 기술 관련 특허를 출원하며 개발에 박차를 가하고 있다.
+  - 이는 BYD가 차세대 배터리 기술 확보에 적극적으로 나서고 있음을 보여준다.
+  - 전고체 배터리 기술 경쟁에서 BYD의 행보가 주목된다.
+- 관련 기업: BYD
+
+### 8. BYD files sulfide solid‑state battery patent as China targets 2027 pilot production
+- 발행일: 2026-05-25
+- 매체: CarNewsChina.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTVdSTkdlaFNVY29qR2JRU0NlekgxWjQ1aGRGMGhoQzBVcGtnQUtWX0Qyd0I0Mzh3cXNCZkVhVHJUOFVGVUpaRHg1SVJUNU5VcjU3azVwUm9ValVBZnMtc2xXcWhGVWw2MUVGOVphQjBNRDJ6Mkl6cVRJWV9nZWE2cS1rcHBMY3hvcDJQVzdQYWpIWm9Xa3E0ZThEZ282WjZrUnBmLVRReTdVT3BBTmZGWHJRU2gxcEVhT0gxbWxwcW9MUQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국 BYD가 황화물계 전고체 배터리 특허를 출원했으며, 중국은 2027년 파일럿 생산을 목표로 하고 있다.
+  - 이는 전고체 배터리 기술 개발에서 중국의 빠른 움직임을 보여주는 사례다.
+  - BYD의 특허 출원은 향후 전고체 배터리 시장 경쟁 구도에 영향을 미칠 수 있다.
+- 관련 기업: BYD
+
+### 9. Ganfeng Lithium Begins Small-Scale Production of the World's First 500Wh/kg Solid-State Battery
+- 발행일: 2026-05-25
+- 매체: Pandaily (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMifkFVX3lxTE9rc0k1U1NHYUVCZTZqckNlN1RJSDYwblM0el9CWl92a1JPZU1XcElvdjV5ZGtoQ3g2NGdNUEV5cW1jblNXNkhuc0p4TFdHNGQwODlTdmwxeVNZTy1iNjdYd3lCVzJqVXdGc2pWR0lURUk2eXVIUEQ3dUpkUFhRdw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 간펑리튬이 세계 최초로 500Wh/kg의 에너지 밀도를 갖는 전고체 배터리 소량 생산에 돌입했다.
+  - 이는 전고체 배터리 기술 상용화를 향한 중요한 진전으로 평가된다.
+  - 간펑리튬의 이번 성과는 차세대 배터리 시장에서의 경쟁력을 강화할 것으로 예상된다.
+- 관련 기업: 간펑리튬
+
+### 10. China Just Built a Working Battery That Stores Electricity and Hydrogen in the Same Device. The U.S. Government Just Cancelled $7.5 Billion in the Research That Could Compete
+- 발행일: 2026-05-25
+- 매체: Autonocion.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTE9JWmpQQmt5SWdfV1pZQUZ1QXNMZWhtSmc4b3lDdVU1YmhPTnlBWjZPWWpoOF94NnhINm51R2lwYTJFbDZTLS0tX2Q1TW5EcFFYemc1UHZQLUxCczNyUnJ2SUdKOFhVT2ozYjFtSU42R1ZyUQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국이 전기와 수소를 동시에 저장하는 배터리를 개발한 가운데, 미국 정부는 관련 연구 지원금을 취소했다.
+  - 이는 중국의 배터리 기술 발전에 대한 미국의 견제 또는 정책 변화 가능성을 시사한다.
+  - 양국 간의 배터리 기술 개발 및 지원 정책 방향이 주목된다.
+- 관련 기업: 미국 정부
+
+### 11. Solid-State Battery Power Banks Are Here – And They Could Change Everything About Safety
+- 발행일: 2026-05-25
+- 매체: bgr.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMihAFBVV95cUxQR2lNZWt5UmpDcmFHT1l4NmVnMnpZbGI0ZUdrXzAyR3hhQlZFN1FYQVU0Vl9pZnNQLUNISEx2QThWNTVlWXZYOWc0SmtkTHdvU3huNG9QbVZUdWxEUXVKckhuUnU5T19LYlItRVZMWkN5OVlXemlXWDMtWVV5Z2k5VHpqSEI?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리 기술을 적용한 보조 배터리가 출시되어 안전성 측면에서 큰 변화를 가져올 것으로 기대된다.
+  - 이는 기존 리튬이온 배터리의 안전성 문제를 해결할 수 있는 대안으로 주목받고 있다.
+  - 전고체 배터리의 상용화는 휴대용 전자기기 시장의 안전 기준을 한 단계 높일 수 있다.
+
+### 12. 전고체 배터리 주도권 흔들리나…중국 속도전에 국내 3사 '흔들'
+- 발행일: 2026-05-25
+- 매체: www.metroseoul.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: http://www.metroseoul.co.kr/article/20260525500139
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리 주도권을 둘러싼 경쟁이 치열해지는 가운데, 중국의 빠른 기술 개발 속도에 국내 배터리 3사가 위협을 받고 있다.
+  - 간펑리튬은 500Wh/kg 전고체 배터리 소량 생산에 돌입하며 기술력을 과시하고 있다.
+  - K-배터리 업계는 중국의 속도전에 대응하며 글로벌 주도권을 방어해야 하는 과제를 안고 있다.
+- 관련 기업: 간펑리튬, K-배터리
+
+### 13. Lithium Ion Battery Fire Spreads to DTLA Apartment
+- 발행일: 2026-05-25
+- 매체: MyNewsLA.com (출처등급 3)
+- 분야: 정책
+- 링크: https://news.google.com/rss/articles/CBMirAFBVV95cUxOSVM3T0dBWU9yZGNiOWtCSjdXdW50UU9uMHRPMHVidWQ5RU9UZG1VVDJjSF9yWmU3cEwxTTF1ZXk4eGkxTTZJUlkyM1pwajZfM0NYTWcweG9fbTQ5TnN4RG5nNWdmOUNqaUo2RDRXaHV5dWJEMEVMcEtLd1o3b0hrY3FJYUh4dXR5WVc1bTdqYXlMNHlfc3RKRmVzQ1UwbEJEX3BSbVU3S05hRVZF?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 로스앤젤레스 다운타운 아파트에서 리튬 이온 배터리 화재가 발생했다.
+  - 이 화재는 리튬 이온 배터리의 잠재적 위험성을 다시 한번 보여주는 사건이다.
+  - 배터리 안전 관리에 대한 중요성이 강조되고 있다.
+- 관련 기업: DTLA
+
+### 14. [소재기업] '흑자전환' 포스코퓨처엠, 미래 배터리 시장 선점 나서
+- 발행일: 2026-05-26
+- 매체: www.cnbizm.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.cnbizm.com/news/articleView.html?idxno=303825
+- 인기신호: unknown
+- 3문장 요약:
+  - 흑자 전환에 성공한 포스코퓨처엠이 미국 전고체 배터리 전문 기업 팩토리얼과 협력하여 미래 배터리 시장 선점에 나선다.
+  - 양사는 양극재 및 실리콘 음극재 분야에서 협력을 강화하며 기술 완성도를 높여갈 계획이다.
+  - 포스코퓨처엠은 공정 기술 고도화와 생산성 향상을 통해 경쟁력을 확보하고자 한다.
+- 관련 기업: 포스코퓨처엠, 팩토리얼, 전고체배터리
+
+### 15. [르포] “전고체 배터리로 비행 시간 45분 확보, 2배↑”…‘글로벌 UAM...
+- 발행일: 2026-05-26
+- 매체: www.ekn.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.ekn.kr/web/view.php?key=20260526022007744
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리 기술을 적용한 UAM(도심 항공 모빌리티) 기종이 비행 시간을 기존 25분에서 45분 이상으로 대폭 늘리는 데 성공했다.
+  - 이 기술은 비행 거리를 2배 이상 확보할 수 있는 잠재력을 보여준다.
+  - 향후 전 기종에 확대 적용될 경우 UAM의 상용화에 크게 기여할 것으로 기대된다.
+- 관련 기업: 이항, UAM
+
+### 16. [K배터리 진단] LFP부터 ESS까지…LG화학, '양극재' 리더십 정조준
+- 발행일: 2026-05-26
+- 매체: www.ebn.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.ebn.co.kr/news/articleView.html?idxno=1709839
+- 인기신호: unknown
+- 3문장 요약:
+  - 북미 ESS 시장 확대와 전력 인프라 투자 증가로 중장기 배터리 수요가 유지될 가능성이 거론된다.
+  - LG화학은 LFP와 차세대 소재 중심으로 사업 포트폴리오를 확대하며 글로벌 배터리 소재 시장 공략에 속도를 내고 있다.
+  - 이는 LG화학이 변화하는 배터리 시장 트렌드에 맞춰 경쟁력을 강화하려는 전략을 보여준다.
+- 관련 기업: LG화학
+
+### 17. China Claims 'All-Iron' Battery Out Performs Lithium At A Fraction Of The Cost
+- 발행일: 2026-05-25
+- 매체: SlashGear (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiekFVX3lxTFBqd1RNSTM4Q0FOT29WSlVRbkpJZ1NWcU41TjhmRFRveTE1N19aeTFwLW4xeUxDVi1UYlBQV2tKS3lOZkN2YkZ5R29NTzJkUnJDclVCMkhKekNRTGlkeEs3UzJaMVp2cnpRbnRPTjJIeDNKa2pLdmJhVWpR?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국이 리튬 배터리보다 성능이 뛰어나면서 비용은 훨씬 저렴한 '전철(All-Iron)' 배터리를 개발했다고 주장했다.
+  - 이 배터리는 기존 리튬 이온 배터리의 대안이 될 가능성을 제시한다.
+  - 중국의 새로운 배터리 기술 개발 동향이 주목된다.
+
+### 18. 한농화성·대주전자재료 강세…전고체 배터리 관련주 다시 꿈틀, 이수스...
+- 발행일: 2026-05-26
+- 매체: www.cbci.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.cbci.co.kr/news/articleView.html?idxno=577104
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리 관련주인 한농화성, 대주전자재료, 이수스페셜티케미컬 등이 강세를 보이며 시장의 관심을 다시 받고 있다.
+  - 이는 전고체 배터리 기술 개발에 대한 기대감이 주가에 반영되고 있음을 보여준다.
+  - 2차전지 및 전고체 배터리 테마가 시장에서 다시 부각되는 분위기다.
+- 관련 기업: 한농화성, 대주전자재료, 이수스페셜티케미컬
+
+### 19. EU판 IRA 논의 본격화…中 배터리 견제에 韓 기업 기회
+- 발행일: 2026-05-25
+- 매체: www.etoday.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.etoday.co.kr/news/view/2587280
+- 인기신호: unknown
+- 3문장 요약:
+  - EU가 IRA와 유사한 정책 논의를 본격화하면서 중국 배터리를 견제하고 한국 기업에게 기회를 제공할 것으로 예상된다.
+  - EU IAA 초안은 전기차 및 ESS 배터리의 역내 생산 요건을 강화하여 현지화를 압박할 것으로 보인다.
+  - 이는 유럽 거점을 보유한 K배터리 및 소재 기업들에게 수주 기회를 확대할 수 있는 기회가 될 수 있다.
+- 관련 기업: EU, K배터리, K배터리·소재
+
+### 20. Epsilon Advanced Materials Pvt Ltd Unveils Hard Carbon Anode for Sodium-Ion Batteries
+- 발행일: 2026-05-25
+- 매체: ChemAnalyst (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMiswFBVV95cUxQbUxmYXJtY1UyRnRjbURlc1M2R01YeHAxUVFyMHA4ODZfRkt1ZEk0eXVXeFNiY2xXNDMzcmt4bjgwWktsa0hORE1XMk0wMi1qQ2E0c3JQZmxERHJ2eTJGNWhlUnlrSWlESHhMM043X29hYWhSdUZiRG40YmF1MjFiSlpodFpHVHlWaDA2MGI4NGxpeWJmOHN0SGtHeDQyVTZhcU9hMm9RaWpKMU0tZGZwc1daSQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Epsilon Advanced Materials가 나트륨 이온 배터리용 하드 카본 음극재를 공개했다.
+  - 이는 나트륨 이온 배터리 기술 발전에 기여할 수 있는 새로운 소재 개발 사례다.
+  - 하드 카본 음극재는 나트륨 이온 배터리의 성능 향상에 중요한 역할을 할 것으로 기대된다.
+- 관련 기업: Epsilon Advanced Materials Pvt Ltd
