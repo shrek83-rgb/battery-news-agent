@@ -1,0 +1,176 @@
+# 배터리 뉴스 데일리 브리핑 (2026-05-28 전날 기준)
+
+- 총 13건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 재활용 | 2026-05-28 | Xinhua | China seeks to step up regulation of NEV battery recycling | https://news.google.com/rss/articles/CBMifEFVX3lxTE5MRzlkcVJicXY0RWVubDNkaklFcmZaSlhRQUE2OWp4bTdmVjBEcEpVcWZSSF91TGZTSnV3T3F0ZnlZN3BSNGNRd19RVExESEJlNTVVQ05jQTNHeGlNOTVKdzZpX1owMml0anVEcUVhVG10bGQ0bWJURWZkZnY?oc=5 | unknown |
+| 2 | 3 | 기타 | 2026-05-28 | TradingView | Reliance’s battery giga-factory in advanced stage of commissioning as green energy push accelerates | https://news.google.com/rss/articles/CBMi9AFBVV95cUxNX1B0YmY1T29MMm1hdXUydlJHVXZQQ2tLeVI2eVdhTVUxVGt3MGtKMWhRWHIzbzIyRTBacGdBWVRidklveXRZcnJVbzNJa1RUOWNLcVU3S0ZyamF3aHYzYU15SWFBZjJ2Q1VXRUlHSDVfaFRjT0oxX251M2xJaW53a1NwMlZ1aFI4aEdHVlItYnRRM0FlYVgzbkxfU2tQUkpPSUh1X2d4eWhqcHJtZzJRcVk4Wk5DTEgxVDU4c2dYVUhBM3BFVTNTOVJrb0owSWpqSVVZbWdRaHNqSmJicGowdEVnYjFnRXRvRGctcENNNVpNeDFm?oc=5 | unknown |
+| 3 | 3 | cathode | 2026-05-28 | www.imaeil.com | 포스코퓨처엠, 28일 포항에 LFP 양극재 공장 착공…2027년 연산 5만t 목표 | https://www.imaeil.com/page/view/2026052811191879103 | unknown |
+| 4 | 3 | 기타 | 2026-05-28 | Investing News Network | American Resources' Electrified Materials Procures Initial Battery Shredding Line to Advance Economically Viable Circular Supply Chain for Lithium-Ion-Based Critical Minerals | https://news.google.com/rss/articles/CBMipwJBVV95cUxQV3RZY2ktR0RVU1dyazlfRTBnWG5sVjZrdmlQZ2NfbDFUamFFbFJfUlpVR1FzVlZRTGs3bmhIWnk1bHBseTVUMzhsRGZuN3J2cS0wTHl4enU2cV9MR1lvTE4tVUJfUTBTSlotMzY2NnAwbHYxUUVjTm9GbGktLTJVYkVvXzAteUJHUHc0YktWVEVyT1ZLV1ZmV1RCamY5MjNFNWJKTHYtdE5qSm1kN2Z5M3ktZndNMWVBYmh5TFFMYmFMaVRreC1xQkJrRlQxcVBQX1F0MXJkYmhOWWZOQmExbVpfd2QxUzA0dC16V3M0bnQ2ckpNZmVCZmlqNW80MmVPR2RXemJ1WTdBLWJ6cHNRNHJscW1xQUt4dDczYTl3SzNFNFd2Tl9V?oc=5 | unknown |
+| 5 | 3 | electrolyte | 2026-05-28 | Proactive financial news | Critical Resources says sulphur-free electrolyte benchmarks sulphide-class solid-state battery performance | https://news.google.com/rss/articles/CBMiiAJBVV95cUxOZ1ZNSFNkUHVZQmtjTXFiN2xUZnpuZmtpbFZtbUJOdEtzcExCYjhEQkhLb25DR0gxNGo3ZFJzM0J6MlhZZDNrX1Frc2hsdGhTUWg3VWo2dWNWWlJhbVAxM1BkVFhXb203YjVVR0JSb2d3XzVLT1VvOFZ6bkNxVng2X3FjY1VHVloxRHhTRVhsQjk3ckFKWVhOa2k3SFkzVU82OHRnSFNpMVJ1d29CX21FUUhDN1FMMDRXLXVuNjJzOHlPUkd2cVNEd0pLUEtpQ2kzQU5ZMTJFdkVQZlVlVG9PckVkQjR3TmhFUll2U0M1c1FOUGpSQkJXdFN2eHVxS3dXUW1USGRnNjg?oc=5 | unknown |
+| 6 | 3 | 전고체 | 2026-05-28 | electrive.com | Beyond Slurry-Based Coating: Why Dry Electrode is the Missing Link for Solid-State Battery Manufacturing | https://news.google.com/rss/articles/CBMi2AFBVV95cUxOelhmVUNuMWVacV9vUFpOVnZpTFJScFJZWXJpSWtQcVJaNjVDMWlRUkx3dVJ0aVlNUnJUU1dhN1BtaEdiVGc1X3VheVY4OV9qNWwyYXc4YVlGQlhJS3JjNExmQkxROV9pYVl0RzFZMGxMMXh1eGxnYzdkZG5vUmlUc0prd2JkWjZVTDdmOGRhbXVOd3N4ZjA1cnpzMi1jY1g1eXhhcFN3S0Zrbm1VSUNiZ2FwNHF1N3B5M01ZQjh1UnFmSURQVmZNZi1LeVQ4MjNycmx1MWZuRVQ?oc=5 | unknown |
+| 7 | 3 | anode | 2026-05-28 | CleanTechnica | Honda Pursues New Blended Silicon-Carbon EV Batteries | https://news.google.com/rss/articles/CBMikgFBVV95cUxNQnpnVWVIQjRodFYyRVM1eS1Ud2p4NE5sd1hRdkRlZEstN3hYaDRrT0kyd0p2YkhBRnRFcmJXRWpoMWdZU3FPTUFsNU9raURoYzNiTzFSUWZDd2JhTjRpVmtUOGI2cDZ3YlRsZkFrazFKRmY4N28tUDN1ZG9ybXZ3TkZYRnN3ODhWTHBKNElHaUdVZ9IBmgFBVV95cUxOLVNqd2Z1N0JNaVgwY3RxaEtPa1ViMFVhMDlqTUZaR3NDWHREMlcwOGZHc0p2SEt0Yk1tRVJOaFZnZ3o4SXpaS1VrbWRMVW5jVDkzamNQZ0RfTTh2eElHZFk4SkRsVUM2TURXaTRfM282TkJxTWRaY0lET1QyWFdJZnpGblNZOVhjVVBtYVphNzR2czhSQ1FVU1F3?oc=5 | unknown |
+| 8 | 3 | electrolyte | 2026-05-28 | Interesting Engineering | Low-cost additive helps sodium battery survive 2,000 hours without failure | https://news.google.com/rss/articles/CBMijgFBVV95cUxQVF85VU1zdF9XdW5DSVBuMDVlLUtNcVpDcEd3TF94cGNJTEFLN0JmU2U0TFEza3JaT3lIc0RyZnFUemVYOHNiakNNNUF2Q0pWc01TM2J6dlVFRUxFa283elI3VFBSNFBJT1ZVcU9SYzQ3SExta2hyVHNQeGtISFlJOG8wenhyNy1NcnlnR3Zn?oc=5 | unknown |
+| 9 | 3 | 기타 | 2026-05-28 | ChemAnalyst | Critical Resources Celebrates Breakthrough in Sulphur-Free Battery Technology | https://news.google.com/rss/articles/CBMiwwFBVV95cUxONmEzUExFWnBJVE1acm5fdlJRV3g2ZkcwdFVRd19KbXhzc200TlFldFp4QXdlNEFuWTJDS1Q3OWhZa0lFNVc1N0tGQ21ReTQ5ZF95WmZkcDl3dnBRaVJfeUZGTGRhR0p1a0ZvUDNnZW9nRGl3eDdqQ3hiTDJ3RW43bXFYWnZ6WlN6dkZRakhVOWJOOUpDMTVNeVM4dEpJZTFwNDhOd3BDbFdYenN6VDVNSEYwZ3dCTGUwM2tPeXl4aE5YaFE?oc=5 | unknown |
+| 10 | 3 | 전고체 | 2026-05-28 | Electric Cars Report | MG 4X Launches In China With Up To 610 KM Range And Semi-Solid-State Battery | https://news.google.com/rss/articles/CBMitwFBVV95cUxPZE5GbUJDVFdMZUdJLXBOeGtOTGNRaDBVdWRWMkpZTndxdkxnNlRxdW02UmxBb1FhNmp3SjI2RmVENVdKb3YxMGh0Z3BmZEV5eUROTTRGdll6enZXNk5HdW1uZHVxcFBSQ2dNdFZzaThOOTBUWXhTb3JKYURaUldrV0VTMWc2Z3NucDZ1VGhiUUtYbC1TaTBoMW5NZW1hTTJJM0kzU0RWWlMtanNNUmNkSUhrd01xSUk?oc=5 | unknown |
+| 11 | 3 | anode | 2026-05-28 | BriefGlance | Honda Backs Nexeon to Power Next-Gen EVs with Silicon Anode Tech | https://news.google.com/rss/articles/CBMingFBVV95cUxNNjh3RFZST3dfUGF6Uzhpcl85Yk93SWZxM2c3eXpOX1dnRXN1c1Q1cjdQaDRnTk9CSENScm95RkZmWF9qN1JRcmQ0YUszUDdaVldUN2Fiek1haS0yRHVOTW1ITUg4ajNXaXRnbEJpVHNiR0lGOHpBZlFSci1kZUpnQkk5RWhYSUpTcnhER3djRE4tcEdIU19VLU15eW5KUQ?oc=5 | unknown |
+| 12 | 3 | cathode | 2026-05-29 | www.gukjenews.com | 포스코퓨처엠, 흑연 탈중국 수혜 전망에 주가 상승 | https://www.gukjenews.com/news/articleView.html?idxno=3595276 | unknown |
+| 13 | 3 | 기타 | 2026-05-29 | www.fntimes.com | ‘북미 ESS 사활’ LG엔솔, 美 DTE에너지와 2.5조 ESS 계약 | http://www.fntimes.com/html/view.php?ud=2026052911543023067492587736_18 | unknown |
+
+## 상세 요약
+
+### 1. China seeks to step up regulation of NEV battery recycling
+- 발행일: 2026-05-28
+- 매체: Xinhua (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMifEFVX3lxTE5MRzlkcVJicXY0RWVubDNkaklFcmZaSlhRQUE2OWp4bTdmVjBEcEpVcWZSSF91TGZTSnV3T3F0ZnlZN3BSNGNRd19RVExESEJlNTVVQ05jQTNHeGlNOTVKdzZpX1owMml0anVEcUVhVG10bGQ0bWJURWZkZnY?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국이 신에너지차(NEV) 배터리 재활용에 대한 규제를 강화하려 하고 있습니다.
+  - 이는 배터리 생산 및 폐기물 관리에 대한 중국 정부의 의지를 보여줍니다.
+  - 이번 규제 강화는 배터리 재활용 산업의 성장과 기술 발전을 촉진할 것으로 예상됩니다.
+- 관련 기업: NEV
+
+### 2. Reliance’s battery giga-factory in advanced stage of commissioning as green energy push accelerates
+- 발행일: 2026-05-28
+- 매체: TradingView (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi9AFBVV95cUxNX1B0YmY1T29MMm1hdXUydlJHVXZQQ2tLeVI2eVdhTVUxVGt3MGtKMWhRWHIzbzIyRTBacGdBWVRidklveXRZcnJVbzNJa1RUOWNLcVU3S0ZyamF3aHYzYU15SWFBZjJ2Q1VXRUlHSDVfaFRjT0oxX251M2xJaW53a1NwMlZ1aFI4aEdHVlItYnRRM0FlYVgzbkxfU2tQUkpPSUh1X2d4eWhqcHJtZzJRcVk4Wk5DTEgxVDU4c2dYVUhBM3BFVTNTOVJrb0owSWpqSVVZbWdRaHNqSmJicGowdEVnYjFnRXRvRGctcENNNVpNeDFm?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 인도의 릴라이언스(Reliance)가 녹색 에너지 전환 가속화의 일환으로 배터리 기가팩토리 가동 준비에 박차를 가하고 있습니다.
+  - 이 공장은 대규모 배터리 생산 능력을 갖추고 있어 인도 내 에너지 저장 및 전기차 시장 성장에 기여할 것으로 보입니다.
+  - 기가팩토리의 성공적인 가동은 릴라이언스의 친환경 에너지 분야 리더십을 강화할 것입니다.
+- 관련 기업: Reliance
+
+### 3. 포스코퓨처엠, 28일 포항에 LFP 양극재 공장 착공…2027년 연산 5만t 목표
+- 발행일: 2026-05-28
+- 매체: www.imaeil.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.imaeil.com/page/view/2026052811191879103
+- 참고 링크: http://www.biztribune.co.kr/news/articleView.html?idxno=354233, https://www.sidae.com/article/2026052811355062700
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코퓨처엠이 에너지 저장 장치(ESS) 및 엔트리급 전기차용 LFP 양극재 사업화를 위해 포항에 전용 공장을 착공했습니다.
+  - 이 공장은 2027년까지 연간 5만 톤의 생산 능력을 목표로 하고 있습니다.
+  - 이번 투자는 포스코퓨처엠의 배터리 소재 포트폴리오를 다각화하고 시장 경쟁력을 강화하는 데 기여할 것입니다.
+- 관련 기업: 포스코퓨처엠, 피노, 배터리소재
+
+### 4. American Resources' Electrified Materials Procures Initial Battery Shredding Line to Advance Economically Viable Circular Supply Chain for Lithium-Ion-Based Critical Minerals
+- 발행일: 2026-05-28
+- 매체: Investing News Network (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMipwJBVV95cUxQV3RZY2ktR0RVU1dyazlfRTBnWG5sVjZrdmlQZ2NfbDFUamFFbFJfUlpVR1FzVlZRTGs3bmhIWnk1bHBseTVUMzhsRGZuN3J2cS0wTHl4enU2cV9MR1lvTE4tVUJfUTBTSlotMzY2NnAwbHYxUUVjTm9GbGktLTJVYkVvXzAteUJHUHc0YktWVEVyT1ZLV1ZmV1RCamY5MjNFNWJKTHYtdE5qSm1kN2Z5M3ktZndNMWVBYmh5TFFMYmFMaVRreC1xQkJrRlQxcVBQX1F0MXJkYmhOWWZOQmExbVpfd2QxUzA0dC16V3M0bnQ2ckpNZmVCZmlqNW80MmVPR2RXemJ1WTdBLWJ6cHNRNHJscW1xQUt4dDczYTl3SzNFNFd2Tl9V?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - American Resources의 Electrified Materials 사업부가 리튬이온 기반 핵심 광물의 경제적이고 지속 가능한 순환 공급망 구축을 위해 초기 배터리 분쇄 라인을 확보했습니다.
+  - 이 라인은 폐배터리에서 유가 금속을 회수하여 재활용하는 데 사용될 예정입니다.
+  - 이는 자원 순환 경제 구축과 핵심 광물 공급망 안정화에 기여할 것으로 기대됩니다.
+- 관련 기업: American Resources, Electrified Materials
+
+### 5. Critical Resources says sulphur-free electrolyte benchmarks sulphide-class solid-state battery performance
+- 발행일: 2026-05-28
+- 매체: Proactive financial news (출처등급 3)
+- 분야: electrolyte
+- 링크: https://news.google.com/rss/articles/CBMiiAJBVV95cUxOZ1ZNSFNkUHVZQmtjTXFiN2xUZnpuZmtpbFZtbUJOdEtzcExCYjhEQkhLb25DR0gxNGo3ZFJzM0J6MlhZZDNrX1Frc2hsdGhTUWg3VWo2dWNWWlJhbVAxM1BkVFhXb203YjVVR0JSb2d3XzVLT1VvOFZ6bkNxVng2X3FjY1VHVloxRHhTRVhsQjk3ckFKWVhOa2k3SFkzVU82OHRnSFNpMVJ1d29CX21FUUhDN1FMMDRXLXVuNjJzOHlPUkd2cVNEd0pLUEtpQ2kzQU5ZMTJFdkVQZlVlVG9PckVkQjR3TmhFUll2U0M1c1FOUGpSQkJXdFN2eHVxS3dXUW1USGRnNjg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Critical Resources는 황이 없는 전해질이 황화물 기반 전고체 배터리의 성능을 능가하는 벤치마크를 달성했다고 발표했습니다.
+  - 이는 차세대 배터리 기술 개발에 중요한 진전을 의미합니다.
+  - 이 기술은 전고체 배터리의 안전성과 성능을 향상시켜 상용화를 앞당길 수 있을 것으로 기대됩니다.
+- 관련 기업: Critical Resources
+
+### 6. Beyond Slurry-Based Coating: Why Dry Electrode is the Missing Link for Solid-State Battery Manufacturing
+- 발행일: 2026-05-28
+- 매체: electrive.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMi2AFBVV95cUxOelhmVUNuMWVacV9vUFpOVnZpTFJScFJZWXJpSWtQcVJaNjVDMWlRUkx3dVJ0aVlNUnJUU1dhN1BtaEdiVGc1X3VheVY4OV9qNWwyYXc4YVlGQlhJS3JjNExmQkxROV9pYVl0RzFZMGxMMXh1eGxnYzdkZG5vUmlUc0prd2JkWjZVTDdmOGRhbXVOd3N4ZjA1cnpzMi1jY1g1eXhhcFN3S0Zrbm1VSUNiZ2FwNHF1N3B5M01ZQjh1UnFmSURQVmZNZi1LeVQ4MjNycmx1MWZuRVQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 기존의 슬러리 기반 코팅 방식을 넘어, 건식 전극 공정이 전고체 배터리 제조의 핵심 요소로 부상하고 있습니다.
+  - 건식 전극 방식은 용매 사용을 줄여 환경 친화적이며 생산 효율성을 높일 수 있습니다.
+  - 이 기술은 전고체 배터리의 대량 생산과 상용화를 위한 중요한 해결책이 될 수 있습니다.
+
+### 7. Honda Pursues New Blended Silicon-Carbon EV Batteries
+- 발행일: 2026-05-28
+- 매체: CleanTechnica (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMikgFBVV95cUxNQnpnVWVIQjRodFYyRVM1eS1Ud2p4NE5sd1hRdkRlZEstN3hYaDRrT0kyd0p2YkhBRnRFcmJXRWpoMWdZU3FPTUFsNU9raURoYzNiTzFSUWZDd2JhTjRpVmtUOGI2cDZ3YlRsZkFrazFKRmY4N28tUDN1ZG9ybXZ3TkZYRnN3ODhWTHBKNElHaUdVZ9IBmgFBVV95cUxOLVNqd2Z1N0JNaVgwY3RxaEtPa1ViMFVhMDlqTUZaR3NDWHREMlcwOGZHc0p2SEt0Yk1tRVJOaFZnZ3o4SXpaS1VrbWRMVW5jVDkzamNQZ0RfTTh2eElHZFk4SkRsVUM2TURXaTRfM282TkJxTWRaY0lET1QyWFdJZnpGblNZOVhjVVBtYVphNzR2czhSQ1FVU1F3?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 혼다가 실리콘-탄소 복합 기술을 활용한 차세대 전기차 배터리를 개발 중입니다.
+  - 이 새로운 배터리 기술은 기존 배터리보다 에너지 밀도와 충전 속도를 향상시킬 것으로 기대됩니다.
+  - 혼다는 이 기술을 통해 전기차 시장에서의 경쟁력을 강화하고 지속 가능한 모빌리티 솔루션을 제공할 계획입니다.
+- 관련 기업: Honda
+
+### 8. Low-cost additive helps sodium battery survive 2,000 hours without failure
+- 발행일: 2026-05-28
+- 매체: Interesting Engineering (출처등급 3)
+- 분야: electrolyte
+- 링크: https://news.google.com/rss/articles/CBMijgFBVV95cUxQVF85VU1zdF9XdW5DSVBuMDVlLUtNcVpDcEd3TF94cGNJTEFLN0JmU2U0TFEza3JaT3lIc0RyZnFUemVYOHNiakNNNUF2Q0pWc01TM2J6dlVFRUxFa283elI3VFBSNFBJT1ZVcU9SYzQ3SExta2hyVHNQeGtISFlJOG8wenhyNy1NcnlnR3Zn?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 저비용 첨가제를 사용하여 나트륨 배터리가 2,000시간 동안 고장 없이 작동하는 데 성공했습니다.
+  - 이는 나트륨 배터리의 안정성과 수명을 크게 향상시키는 중요한 성과입니다.
+  - 이 기술은 저렴하고 풍부한 나트륨을 활용한 차세대 배터리 개발에 기여할 것으로 예상됩니다.
+
+### 9. Critical Resources Celebrates Breakthrough in Sulphur-Free Battery Technology
+- 발행일: 2026-05-28
+- 매체: ChemAnalyst (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiwwFBVV95cUxONmEzUExFWnBJVE1acm5fdlJRV3g2ZkcwdFVRd19KbXhzc200TlFldFp4QXdlNEFuWTJDS1Q3OWhZa0lFNVc1N0tGQ21ReTQ5ZF95WmZkcDl3dnBRaVJfeUZGTGRhR0p1a0ZvUDNnZW9nRGl3eDdqQ3hiTDJ3RW43bXFYWnZ6WlN6dkZRakhVOWJOOUpDMTVNeVM4dEpJZTFwNDhOd3BDbFdYenN6VDVNSEYwZ3dCTGUwM2tPeXl4aE5YaFE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Critical Resources가 황이 없는 전해질 기술 개발에서 획기적인 성과를 거두었다고 발표했습니다.
+  - 이 기술은 기존 배터리보다 안전하고 안정적인 성능을 제공할 것으로 기대됩니다.
+  - 이는 차세대 배터리 기술 상용화를 위한 중요한 발판이 될 것입니다.
+- 관련 기업: Critical Resources
+
+### 10. MG 4X Launches In China With Up To 610 KM Range And Semi-Solid-State Battery
+- 발행일: 2026-05-28
+- 매체: Electric Cars Report (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMitwFBVV95cUxPZE5GbUJDVFdMZUdJLXBOeGtOTGNRaDBVdWRWMkpZTndxdkxnNlRxdW02UmxBb1FhNmp3SjI2RmVENVdKb3YxMGh0Z3BmZEV5eUROTTRGdll6enZXNk5HdW1uZHVxcFBSQ2dNdFZzaThOOTBUWXhTb3JKYURaUldrV0VTMWc2Z3NucDZ1VGhiUUtYbC1TaTBoMW5NZW1hTTJJM0kzU0RWWlMtanNNUmNkSUhrd01xSUk?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국에서 MG 4X가 최대 610km 주행 거리와 세미 솔리드 스테이트 배터리를 탑재하고 출시되었습니다.
+  - 이 차량은 향상된 에너지 효율성과 주행 성능을 제공합니다.
+  - MG 4X의 출시는 전기차 시장의 기술 발전과 소비자 선택의 폭 확대를 보여줍니다.
+- 관련 기업: MG, KM
+
+### 11. Honda Backs Nexeon to Power Next-Gen EVs with Silicon Anode Tech
+- 발행일: 2026-05-28
+- 매체: BriefGlance (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMingFBVV95cUxNNjh3RFZST3dfUGF6Uzhpcl85Yk93SWZxM2c3eXpOX1dnRXN1c1Q1cjdQaDRnTk9CSENScm95RkZmWF9qN1JRcmQ0YUszUDdaVldUN2Fiek1haS0yRHVOTW1ITUg4ajNXaXRnbEJpVHNiR0lGOHpBZlFSci1kZUpnQkk5RWhYSUpTcnhER3djRE4tcEdIU19VLU15eW5KUQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 혼다가 차세대 전기차에 실리콘 음극재 기술을 적용하기 위해 Nexeon에 투자를 진행했습니다.
+  - Nexeon의 실리콘 음극재 기술은 배터리의 에너지 밀도를 높여 전기차의 주행 거리를 늘릴 수 있습니다.
+  - 이번 협력은 혼다의 전기차 기술 경쟁력 강화에 기여할 것으로 예상됩니다.
+- 관련 기업: Honda, Nexeon
+
+### 12. 포스코퓨처엠, 흑연 탈중국 수혜 전망에 주가 상승
+- 발행일: 2026-05-29
+- 매체: www.gukjenews.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.gukjenews.com/news/articleView.html?idxno=3595276
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코퓨처엠이 흑연 탈중국 수혜 전망에 힘입어 주가가 상승세를 보이고 있습니다.
+  - 특히 에너지 저장 장치(ESS)용 LFP 배터리 시장 확대에 따라 흑연의 중요성이 커지고 있습니다.
+  - 포스코퓨처엠은 천연흑연 생산 능력을 확대하여 이러한 시장 변화에 대응하고 있습니다.
+- 관련 기업: 포스코퓨처엠, LFP
+
+### 13. ‘북미 ESS 사활’ LG엔솔, 美 DTE에너지와 2.5조 ESS 계약
+- 발행일: 2026-05-29
+- 매체: www.fntimes.com (출처등급 3)
+- 분야: 기타
+- 링크: http://www.fntimes.com/html/view.php?ud=2026052911543023067492587736_18
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션이 미국 DTE에너지와 2.5조 원 규모의 에너지 저장 장치(ESS) 배터리 공급 계약을 체결했습니다.
+  - 이번 계약은 총 6GWh 규모로, LG에너지솔루션의 미국 ESS 시장 공략에 중요한 발판이 될 것입니다.
+  - 이는 LG에너지솔루션의 북미 ESS 시장에서의 입지를 강화하고 지속 가능한 에너지 솔루션 제공 능력을 입증하는 사례입니다.
+- 관련 기업: LG에너지솔루션, DTE에너지, LG엔솔
