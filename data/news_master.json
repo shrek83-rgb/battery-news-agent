@@ -1,5 +1,137 @@
 [
   {
+    "title": "포스코퓨처엠, LFP 양극재 공장 착공…포트폴리오 확대 등 LFP 배터리 수...",
+    "description": "이에 따라 ESS용 배터리 시장에서도 LFP 배터리 비중이 지속적으로 확대되는 추세다. 포스코퓨처엠은 이번 신규 공장 건설과 함께 기존 포항 양극재 공장의 일부 생산라인도 LFP 전용 설비로 전환하고 있다. 올해 2분기...",
+    "link": "http://www.econonews.co.kr/news/articleView.html?idxno=439065",
+    "source": "www.econonews.co.kr",
+    "published_at": "2026-05-30",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "포스코퓨처엠",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "포스코퓨처엠이 LFP 양극재 공장 착공을 통해 배터리 포트폴리오를 확대합니다.",
+      "ESS용 배터리 시장에서 LFP 배터리의 비중이 증가함에 따라 포스코퓨처엠은 생산 라인 전환 및 신규 공장 건설을 추진하고 있습니다.",
+      "이는 LFP 배터리 시장에서의 경쟁력을 강화하고 수요에 대응하기 위한 전략입니다."
+    ],
+    "uid": "5e7318fce2a6f1fdcf9349ba7ed26c1ae43f75ce"
+  },
+  {
+    "title": "RIST·POSTECH, 차세대 나트륨이온전지 성능 개선 기술 개발",
+    "description": "차세대 배터리로 주목받는 나트륨이온전지의 성능 저하 원인을 국내 연구진이 밝혀냈다. 전지 내부 가스 발생을 줄이는 공정도 함께 개발하면서 상용화 가능성을 높였다는 평가가 나온다. RIST(포항산업과학연구원)는...",
+    "link": "http://www.snmnews.com/news/articleView.html?idxno=570068",
+    "source": "www.snmnews.com",
+    "published_at": "2026-05-29",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.etnews.com",
+        "link": "https://www.etnews.com/20260529000326"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "RIST",
+      "나트륨이온전지",
+      "포항산업"
+    ],
+    "summary_3_sentences": [
+      "국내 연구진이 차세대 나트륨 이온 배터리의 성능 저하 원인을 규명하고 개선 기술을 개발했습니다.",
+      "전지 내부 가스 발생을 줄이는 공정을 개발하여 상용화 가능성을 높였습니다.",
+      "RIST(포항산업과학연구원)는 이번 기술 개발을 통해 나트륨 이온 배터리의 경쟁력을 강화할 것으로 기대됩니다."
+    ],
+    "uid": "db49b3743a4368f0f317bef1e6a28d3acaaab9ee"
+  },
+  {
+    "title": "이석희 SK온 대표, 사임 의사 이용욱 단독 체제…배터리 전략 수정 신호...",
+    "description": "29일 배터리 업계에 따르면 이석희 SK온 대표이사 사장은 이날 구성원에게 보낸 CEO 레터에서 \"5월을 끝으로 SK온 CEO로서 소임을 마무리하고자 한다\"며 \"이차전지 산업의 중심에서 SK온 구성원들과 함께할 수 있었던 것은...",
+    "link": "http://www.popcornnews.net/news/articleView.html?idxno=122665",
+    "source": "www.popcornnews.net",
+    "published_at": "2026-05-29",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.businesspost.co.kr",
+        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=438912"
+      },
+      {
+        "source": "www.insightkorea.co.kr",
+        "link": "https://www.insightkorea.co.kr/news/articleView.html?idxno=247303"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "SK온",
+      "이차전지",
+      "CEO"
+    ],
+    "summary_3_sentences": [
+      "이석희 SK온 대표가 사임 의사를 밝히고 이용욱 대표 체제로 전환될 예정입니다.",
+      "이는 SK온의 배터리 전략 수정 신호탄으로 해석될 수 있습니다.",
+      "업계에서는 이번 인사가 SK온의 향후 사업 방향에 어떤 영향을 미칠지 주목하고 있습니다."
+    ],
+    "uid": "a95bead1ba465ef143e3c7ec88ea85ee954807ff"
+  },
+  {
+    "title": "'하얀 석유' 다시 뛴다…배터리 판 뒤흔든 리튬 반등",
+    "description": "여기에 인공지능 데이터센터 확대로 에너지저장장치(ESS) 배터리 생산량이 전년 대비 117% 이상 폭증했고, 여기에 일반 승용차보다 배터리 탑재량이 월등히 큰 물류용 전기 트럭 시장까지 전동화에 속도를 내며 리튬...",
+    "link": "https://www.mhns.co.kr/news/articleView.html?idxno=748660",
+    "source": "www.mhns.co.kr",
+    "published_at": "2026-05-29",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "리튬 가격이 반등하며 배터리 시장의 판도를 흔들고 있습니다.",
+      "인공지능 데이터센터 확대로 인한 에너지 저장 장치(ESS) 배터리 수요 급증과 물류용 전기 트럭 시장의 성장이 리튬 수요를 견인하고 있습니다.",
+      "이는 '하얀 석유'로 불리는 리튬의 중요성을 다시 한번 부각시키고 있습니다."
+    ],
+    "uid": "ece5e82ffd9b78db085dacc91cc8d31f31b490ed"
+  },
+  {
+    "title": "경희대학교 유재수 교수팀, 수계 아연 배터리 수명 향상 기술 개발…차...",
+    "description": "연구팀은 이러한 문제를 해결하기 위해 전해질 내에 두 종류의 첨가제를 동시에 활용하는 이중 첨가제 전략을 제안했다. 천연 아미노산인 L-시스테인과 유기 화합물 메틸 프로피오네이트(MP)를 조합해 전해질 환경을...",
+    "link": "https://www.lecturernews.com/news/articleView.html?idxno=203297",
+    "source": "www.lecturernews.com",
+    "published_at": "2026-05-29",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "MP"
+    ],
+    "summary_3_sentences": [
+      "경희대학교 유재수 교수팀이 수계 아연 배터리의 수명을 향상시키는 기술을 개발했습니다.",
+      "연구팀은 전해질에 두 종류의 첨가제를 동시에 사용하는 이중 첨가제 전략을 제안했습니다.",
+      "천연 아미노산과 유기 화합물을 조합하여 전해질 환경을 개선함으로써 배터리 성능을 높였습니다."
+    ],
+    "uid": "0a2d3e28e9086c8adc02298c9d4515a5a4a453f8"
+  },
+  {
     "title": "포스코퓨처엠, 흑연 탈중국 수혜 전망에 주가 상승",
     "description": "있다\"며 \"특히 ESS용 LFP 배터리 시장 확대 과정에서 흑연 중요성이 커지고 있다\"고 밝혔다. 김 연구원은 \"포스코퓨처엠은 현재 연간 2만2000톤 수준인 천연흑연 생산능력을 향후 5년 내 7만톤 수준까지 확대할 수...",
     "link": "https://www.gukjenews.com/news/articleView.html?idxno=3595276",
@@ -47,6 +179,206 @@
       "이는 LG에너지솔루션의 북미 ESS 시장에서의 입지를 강화하고 지속 가능한 에너지 솔루션 제공 능력을 입증하는 사례입니다."
     ],
     "uid": "ac1f4cf5b18bf11693b02494f083012875833063"
+  },
+  {
+    "title": "혼다, 英 넥세온 투자…주행거리 10배 노리는 '실리콘 배터리' 확보 나서",
+    "description": "전고체 배터리 프로그램 실증 라인에는 430억엔(약 4060억원)을 투자하겠다는 계획도 공개한 바 있다. 넥세온의 핵심 기술은 실리콘 혼합 음극재다. 파나소닉은 실리콘 소재의 이론적 용량이 현재 널리 사용되는 흑연...",
+    "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670278",
+    "source": "www.digitaltoday.co.kr",
+    "published_at": "2026-05-29",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 90,
+    "monitoring_importance": 90,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "Honda",
+      "Nexxon",
+      "Panasonic"
+    ],
+    "summary_3_sentences": [
+      "혼다는 영국 넥세온에 투자하여 주행 거리를 10배 늘릴 수 있는 실리콘 배터리 기술 확보에 나섰습니다.",
+      "넥세온의 핵심 기술은 실리콘 혼합 음극재로, 이는 기존 흑연 음극재보다 높은 에너지 밀도를 제공합니다.",
+      "혼다는 전고체 배터리 실증 라인에도 대규모 투자를 계획하며 차세대 배터리 기술 확보에 박차를 가하고 있습니다."
+    ],
+    "uid": "2c1f90a6d2156d052f94de77200558da517d9b3f"
+  },
+  {
+    "title": "Ultra-Fast Solid-State Batteries",
+    "published_at": "2026-05-29",
+    "source": "Trend Hunter",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1HOTU2Qm1yTzNoOS12THNMdlFlWmJmekxmTU9oT0Z4LVNWcmwwVlNEYVI0R0xFcUNKblBmQTIzYlpnelJ0cjFlSUcyQW5IUDNRNlY4U0piZFhuMmZ1MjdXUW1IMTJlTGhMMnpF0gFwQVVfeXFMTmI1NUMyb0dqUUlDdUIxa0szMTBJYUloRVRXcmlqeUVWZ09lWXVNSDdZYXZFSWZGb1c1QWtiRUM0MmJpYkdsTXZhOTJ6WmRFWi1ITURyYVdIVS1BYWdzTm5LLWJ5MkF5eGdYNEZRbmZsZg?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1HOTU2Qm1yTzNoOS12THNMdlFlWmJmekxmTU9oT0Z4LVNWcmwwVlNEYVI0R0xFcUNKblBmQTIzYlpnelJ0cjFlSUcyQW5IUDNRNlY4U0piZFhuMmZ1MjdXUW1IMTJlTGhMMnpF0gFwQVVfeXFMTmI1NUMyb0dqUUlDdUIxa0szMTBJYUloRVRXcmlqeUVWZ09lWXVNSDdZYXZFSWZGb1c1QWtiRUM0MmJpYkdsTXZhOTJ6WmRFWi1ITURyYVdIVS1BYWdzTm5LLWJ5MkF5eGdYNEZRbmZsZg?oc=5\" target=\"_blank\">Ultra-Fast Solid-State Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trend Hunter</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "www.autodaily.co.kr",
+        "link": "https://www.autodaily.co.kr/news/articleView.html?idxno=544502"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 95,
+    "monitor_score": 98,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "초고속 충전이 가능한 전고체 배터리 기술이 개발되었습니다.",
+      "이 배터리는 기존 리튬 이온 배터리의 안전성 문제를 해결하고 충전 속도를 획기적으로 개선할 것으로 기대됩니다.",
+      "차량 및 휴대용 전자기기 등 다양한 분야에 적용될 가능성이 있습니다."
+    ],
+    "uid": "2272a9797178fda82fe919b7cabd0743dca78e28"
+  },
+  {
+    "title": "Sodium-ion batteries could become a low-cost rival to Tesla's batteries",
+    "published_at": "2026-05-29",
+    "source": "Tech Xplore",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xMzBIb0pXdUt3RGM5M3pPMldiNkc3RUJ1amlaeEZPa0M3UWp6Nk9NelkwOC0zTVFfazQ3RkkyS1ZhdVpydTNPbkV0YUxZMlBJTnVzeE84WHdiWnAzVlg5ZnJyNExKdHdDN0ExaFlsaXE0MWdkdUk1Z1hnOTZmZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1xMzBIb0pXdUt3RGM5M3pPMldiNkc3RUJ1amlaeEZPa0M3UWp6Nk9NelkwOC0zTVFfazQ3RkkyS1ZhdVpydTNPbkV0YUxZMlBJTnVzeE84WHdiWnAzVlg5ZnJyNExKdHdDN0ExaFlsaXE0MWdkdUk1Z1hnOTZmZw?oc=5\" target=\"_blank\">Sodium-ion batteries could become a low-cost rival to Tesla's batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Xplore</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "Digital Trends",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ3hyeFZLcHB0OWZEOUtOeVgwZGxzeVBUdWlOY3BuTFJPQ0RkdHVnNG1RZmlxOUdiMVF2alhPdnY4ODhZRE5TdG10MXJ5REpLdlFJemhDWXFOQm03VlZGS3hvTW5YbVN5Sjk4cDNnR05RVXVNQWxCRWZrMVp2c25ISmxSY29UM2RXeWdTdE1GM0ZaektDaW43WDEtS3BOaHRMOEpKVV92ZC1EenV3NTE2Q2VRZVhEWnM?oc=5"
+      },
+      {
+        "source": "Interesting Engineering",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUGJFM2ppa184VTVIRTAzSWZXUVpNNmVqVm03anRMNV80R0Vkd21yVzRHcVlzS0dPRlFhVTNLOU84eUY4M0pXa0pkSjhnbTh6VVpXUnVJVHhBMWlKVDJoa3l1Q254Sm1BRWt6MjBLOFBPZFh5a2pjdjJlM0dsWkNDQmhRMDg?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 100,
+    "monitor_score": 100,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "Tesla"
+    ],
+    "summary_3_sentences": [
+      "나트륨 이온 배터리가 테슬라 배터리의 저가형 경쟁자가 될 가능성이 있습니다.",
+      "나트륨 이온 배터리는 리튬 이온 배터리에 비해 저렴한 비용으로 생산될 수 있습니다.",
+      "이러한 특성으로 인해 전기차 및 에너지 저장 장치 시장에서 주목받고 있습니다."
+    ],
+    "uid": "623c79d9f5fb0bda6f7941da91fe0962990b73fd"
+  },
+  {
+    "title": "EV Battery Electrolyte Supply Chain: Donghwa Wins New US Customer, Tightens Tennessee Foothold",
+    "published_at": "2026-05-29",
+    "source": "Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb3IzTElaZWhvYXR1ekVpdGRycTlBVTJmSDZDaXJKdWstSjZLNEZpUW5DRWFmX3JLZS1hUUZZenVuWkFIcnZiVTZQU056bzY0bzg3ZV9JZ2plNkNaR1Q2MXMwUG4yRDF2aGU5eHpnYncwY21Kd1g3Z0ctd0RUY05KczVQLXZjWEthVk5rOUJvNWpwY1dCYXlBelQ2YzFDQlg4MFpXNXYzQzZGZmhXNDVjX0ZPRTc1RnZJVWp3MDluMUJ5U1VpR2FKS1JTTXhWUGlEQmVQd2duVUh5MFJYcU9z?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb3IzTElaZWhvYXR1ekVpdGRycTlBVTJmSDZDaXJKdWstSjZLNEZpUW5DRWFmX3JLZS1hUUZZenVuWkFIcnZiVTZQU056bzY0bzg3ZV9JZ2plNkNaR1Q2MXMwUG4yRDF2aGU5eHpnYncwY21Kd1g3Z0ctd0RUY05KczVQLXZjWEthVk5rOUJvNWpwY1dCYXlBelQ2YzFDQlg4MFpXNXYzQzZGZmhXNDVjX0ZPRTc1RnZJVWp3MDluMUJ5U1VpR2FKS1JTTXhWUGlEQmVQd2duVUh5MFJYcU9z?oc=5\" target=\"_blank\">EV Battery Electrolyte Supply Chain: Donghwa Wins New US Customer, Tightens Tennessee Foothold</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Times</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "Donghwa",
+      "US"
+    ],
+    "summary_3_sentences": [
+      "동화는 미국 신규 고객사를 확보하며 테네시주 생산 거점을 강화했습니다.",
+      "이는 전기차 배터리 전해액 공급망에서 동화의 입지를 더욱 공고히 하는 계기가 될 것입니다.",
+      "미국 내 전기차 생산 확대 추세에 따라 동화의 성장이 기대됩니다."
+    ],
+    "uid": "c490aa287ee4768bf1a0b4f1a8058f98a3589dc7"
+  },
+  {
+    "title": "Securing India’s battery supply chain is more critical than ever - IEEFA | Institute for Energy Economics and Financial Analysis",
+    "published_at": "2026-05-29",
+    "source": "IEEFA | Institute for Energy Economics and Financial Analysis",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbS1VSFBTMDRIUUVNbHg2YjlLOEpuNldwek1kN0hNZURuX0tfczhxYVgtZFlkS2FNOU5aUTJ4bGdGU0NzVXZjcUNJX3RpTmFTckh3Q2FMUFpWd2tRYll1bWpiY1BQR2s5b09EVkpPS2JNMklwNXJDcXJPc2tTMHlVRmhUc3ZVbFZmVTY0?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbS1VSFBTMDRIUUVNbHg2YjlLOEpuNldwek1kN0hNZURuX0tfczhxYVgtZFlkS2FNOU5aUTJ4bGdGU0NzVXZjcUNJX3RpTmFTckh3Q2FMUFpWd2tRYll1bWpiY1BQR2s5b09EVkpPS2JNMklwNXJDcXJPc2tTMHlVRmhUc3ZVbFZmVTY0?oc=5\" target=\"_blank\">Securing India’s battery supply chain is more critical than ever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IEEFA | Institute for Energy Economics and Financial Analysis</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "IEEFA"
+    ],
+    "summary_3_sentences": [
+      "인도의 배터리 공급망 확보가 그 어느 때보다 중요해지고 있습니다.",
+      "에너지 전환 가속화와 전기차 보급 확대에 따라 안정적인 배터리 원자재 및 생산 능력 확보가 필수적입니다.",
+      "이는 인도의 에너지 안보와 경제 성장에 중요한 영향을 미칠 것입니다."
+    ],
+    "uid": "7e113a7786901d387887a71dd9dd45992611bd92"
+  },
+  {
+    "title": "Vanadium Batteries Could Break Lithium's Grip on Energy Storage",
+    "published_at": "2026-05-29",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTzVSWDgwaFJyRE80WFJPVmFrVkxNLTlVWURLaWs1aVVZTUZ5b2h5dzVZeXBFcWZsWGpjdlhwYzdORHh5NUlqN2FjNF9BLXU5NDRvYVU3XzZOSnRaMjI4MFZPeEtqWXlVSnFiVlR5VF9iWHpIbXA5aWxqQUxEcjNTRk1nZFktVjVaZTNjc0VjN3NLVkhQU05GWENfOHpxemNXTmRTU1JFbjJzaG1XUUxr0gG0AUFVX3lxTFBPd3htdG9fUFlfX2ZNZnAzV0VaYm5SMWxWRjVYVXRLMTZSdFl3bFYwQmoxSW4yVGpRNVBLaVBHNklYUkxHQWFmSWZGSzBLZnliRWstQnE4SUQxREJwODV0Qm81R2tza1JwMldOV0FSZ0hady1vZlVBeEU1UTNGRXhwWWlxeW55MFFnbmhvdFF3N3JZYlV6WE55d0V0WUtMeXB4VmsyQW5tM1hTaUxNaXBMMm9qTA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOTzVSWDgwaFJyRE80WFJPVmFrVkxNLTlVWURLaWs1aVVZTUZ5b2h5dzVZeXBFcWZsWGpjdlhwYzdORHh5NUlqN2FjNF9BLXU5NDRvYVU3XzZOSnRaMjI4MFZPeEtqWXlVSnFiVlR5VF9iWHpIbXA5aWxqQUxEcjNTRk1nZFktVjVaZTNjc0VjN3NLVkhQU05GWENfOHpxemNXTmRTU1JFbjJzaG1XUUxr0gG0AUFVX3lxTFBPd3htdG9fUFlfX2ZNZnAzV0VaYm5SMWxWRjVYVXRLMTZSdFl3bFYwQmoxSW4yVGpRNVBLaVBHNklYUkxHQWFmSWZGSzBLZnliRWstQnE4SUQxREJwODV0Qm81R2tza1JwMldOV0FSZ0hady1vZlVBeEU1UTNGRXhwWWlxeW55MFFnbmhvdFF3N3JZYlV6WE55d0V0WUtMeXB4VmsyQW5tM1hTaUxNaXBMMm9qTA?oc=5\" target=\"_blank\">Vanadium Batteries Could Break Lithium's Grip on Energy Storage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crude Oil Prices Today | OilPrice.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "바나듐 배터리가 리튬 배터리의 에너지 저장 장치 시장 지배력을 깰 수 있습니다.",
+      "바나듐 배터리는 긴 수명과 높은 안정성을 제공하며, 대규모 에너지 저장에 적합합니다.",
+      "리튬 가격 변동성과 공급망 이슈에 대한 대안으로 주목받고 있습니다."
+    ],
+    "uid": "415b27d06a51f77ce884aead4b3fcae8a0bdde05"
+  },
+  {
+    "title": "Battery raw material prices on the rise again after overbuying wiped out 2021–23 gains",
+    "published_at": "2026-05-29",
+    "source": "Benchmark Mineral Intelligence",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUmFVZzRGM1JXeDJZMnoxZWUwM2toNlhDNDJISWVfNVQ2YmtnVFlmd21HM3p5OC1HMXJxbE5FX0JZRG5uVTNkcmNJN3JwTFRGcHRTTTRDaFBmSkx0MjhUT2JxdG53WW9fRlBYcGw4dEZMMHNmbmVxSVBKRF9lU2FtQU13YkNtQzRyT1k3a0dGOGp4Qm54T2VJRHBhNm1fMmZDemtNXzM3cTBPd0x5YlF0SGE0SDBxeVhkXzhwWUMxbExyQWRGb2xWMTZBQQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPUmFVZzRGM1JXeDJZMnoxZWUwM2toNlhDNDJISWVfNVQ2YmtnVFlmd21HM3p5OC1HMXJxbE5FX0JZRG5uVTNkcmNJN3JwTFRGcHRTTTRDaFBmSkx0MjhUT2JxdG53WW9fRlBYcGw4dEZMMHNmbmVxSVBKRF9lU2FtQU13YkNtQzRyT1k3a0dGOGp4Qm54T2VJRHBhNm1fMmZDemtNXzM3cTBPd0x5YlF0SGE0SDBxeVhkXzhwWUMxbExyQWRGb2xWMTZBQQ?oc=5\" target=\"_blank\">Battery raw material prices on the rise again after overbuying wiped out 2021–23 gains</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benchmark Mineral Intelligence</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 95,
+    "monitor_score": 95,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "배터리 원자재 가격이 2021년부터 2023년까지의 상승분을 모두 반납한 후 다시 오르고 있습니다.",
+      "과잉 구매로 인한 재고 증가가 가격 하락의 원인이었으나, 현재는 수요 증가로 가격이 반등하고 있습니다.",
+      "이는 배터리 생산 비용 증가로 이어져 전기차 및 관련 산업에 영향을 미칠 수 있습니다."
+    ],
+    "uid": "3cde1ddd0eaaa36c96bb62024512f2646b63ec5e"
+  },
+  {
+    "title": "A Chinese Lab Just Claimed a Lithium-Metal Battery With Double the Energy Density and a 3-Minute Charge. If the Numbers Hold, the Lithium-Ion Era Is Over",
+    "published_at": "2026-05-29",
+    "source": "Autonocion.com",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1EelR3ZmpaSHB1cm4zdXBBZXE0ZnN3ZTNMeWdYcmlsQ0RMU2tCazEydkNBd3RkU1BTdXBFdDlhaDlkQVZRQW5JWFdIVnNnbTIwMWNzdWZwVURrSWQ1bkhxbWhrOHVUanI4czZxNWx1b0kzSlVV?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE1EelR3ZmpaSHB1cm4zdXBBZXE0ZnN3ZTNMeWdYcmlsQ0RMU2tCazEydkNBd3RkU1BTdXBFdDlhaDlkQVZRQW5JWFdIVnNnbTIwMWNzdWZwVURrSWQ1bkhxbWhrOHVUanI4czZxNWx1b0kzSlVV?oc=5\" target=\"_blank\">A Chinese Lab Just Claimed a Lithium-Metal Battery With Double the Energy Density and a 3-Minute Charge. If the Numbers Hold, the Lithium-Ion Era Is Over</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Autonocion.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 100,
+    "monitor_score": 100,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "중국 연구진이 에너지 밀도를 두 배 높이고 3분 충전이 가능한 리튬 금속 배터리를 개발했다고 주장했습니다.",
+      "이 기술이 실현된다면 현재의 리튬 이온 배터리 시대를 끝낼 수 있을 것으로 예상됩니다.",
+      "하지만 아직 연구실 단계의 결과이며 상용화까지는 추가적인 검증이 필요합니다."
+    ],
+    "uid": "97a63001e0de66d5daec1a00d54d33679c79e89c"
   },
   {
     "title": "포스코·이브이첨단소재 투자 받은 대만 전고체 배터리 업체 '프롤로지...",
