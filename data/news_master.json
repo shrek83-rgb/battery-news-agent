@@ -1,5 +1,139 @@
 [
   {
+    "title": "CATL, 핀란드서 '3GWh 규모' BESS 공급 잭팟",
+    "description": "최근에도 중국 하이퍼스트롱으로부터 60GWh 규모의 ESS용 나트륨이온 배터리 공급을 따냈다. 행크 자오(Hank Zhao) CATL 매니징 디렉터는 \"(이번 파트너십은) 북유럽 ESS 시장에서 CATL의 장기적인 협력을 강화하는...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=102653",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-06-06",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 84,
+    "monitoring_importance": 84,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL",
+      "나트륨이온",
+      "BESS"
+    ],
+    "summary_3_sentences": [
+      "CATL이 핀란드에서 3GWh 규모의 BESS(에너지 저장 시스템) 공급 계약을 체결했습니다.",
+      "최근에는 하이퍼스트롱으로부터 60GWh 규모의 ESS용 나트륨 이온 배터리 공급 계약도 따냈습니다.",
+      "이는 북유럽 ESS 시장에서 CATL의 입지를 강화하는 중요한 성과입니다."
+    ],
+    "uid": "5ba7a08c011ca1d954362e690a14da8fe4e29920"
+  },
+  {
+    "title": "'솔리드스택' 이어 '소디움스택'···삼성SDI, AI 시대 배터리 승부수",
+    "description": "삼성SDI가 전고체 배터리에 이어 나트륨이온배터리까지 미래 성장동력으로 육성하는 모습이다. 지난 3월 열린 '인터배터리 2026'에서 전고체 배터리 브랜드 '솔리드스택(Solid Stack)'을 공개한 데 이어 나트륨이온배터리...",
+    "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=421549",
+    "source": "www.sisajournal-e.com",
+    "published_at": "2026-06-06",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "···삼성SDI",
+      "나트륨이온배터리"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI가 전고체 배터리 '솔리드스택'에 이어 나트륨 이온 배터리까지 미래 성장 동력으로 육성하고 있습니다.",
+      "이는 AI 시대에 대비한 차세대 배터리 기술 확보 경쟁에 적극적으로 나서고 있음을 보여줍니다.",
+      "삼성SDI는 다양한 배터리 기술 포트폴리오를 통해 미래 시장을 선점하려는 전략입니다."
+    ],
+    "uid": "8d9233e9702df27b0fba4040a02b0bcf9808f19d"
+  },
+  {
+    "title": "Has sodium-ion battery technology reached its 'LFP moment'?",
+    "published_at": "2026-06-05",
+    "source": "富途牛牛",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUWtGM1g2U3FLa1pPbzZkaXgzQ1QyVEpRNXdfaXhRbTd1YTZKcExxTFpYT01pa0prMXVOOU5lbk50bTBVYWxiRGdNNThrMHhESjJTQk9ERGZqLTdfNEE1ZlRmOUlXdzlQdW1fYXhVZjJVVzk4ZlpFTWVIcXdiWHNLUUtUZ2NESF9IS3NHUmFzR0IyM0ZIT2w2SmsyeFNtZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPUWtGM1g2U3FLa1pPbzZkaXgzQ1QyVEpRNXdfaXhRbTd1YTZKcExxTFpYT01pa0prMXVOOU5lbk50bTBVYWxiRGdNNThrMHhESjJTQk9ERGZqLTdfNEE1ZlRmOUlXdzlQdW1fYXhVZjJVVzk4ZlpFTWVIcXdiWHNLUUtUZ2NESF9IS3NHUmFzR0IyM0ZIT2w2SmsyeFNtZw?oc=5\" target=\"_blank\">Has sodium-ion battery technology reached its 'LFP moment'?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">富途牛牛</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "나트륨 이온 배터리 기술이 LFP 배터리와 유사한 성장 모멘텀을 맞이하고 있는지 분석하고 있습니다.",
+      "나트륨 이온 배터리는 저렴한 비용과 풍부한 자원을 바탕으로 주목받고 있습니다.",
+      "이 기술이 상용화된다면 배터리 시장의 판도를 바꿀 수 있을 것입니다."
+    ],
+    "uid": "e32573f82a10c0ddfaa8c7e1d963e7d2dc917e61"
+  },
+  {
+    "title": "LG에너지솔루션, 전기차배터리 투트랙 전략과 ESS 시장 노린 선제적 대...",
+    "description": "민관이 손잡고 고부가가치 배터리로 한편 정부는 지난 해 말부터 전고체ㆍ리튬금속ㆍ리튬황 등 차세대 배터리 기술 개발에 2029년까지 약 2800억원을 지원하고, 2030년 글로벌 이차전지 시장점유율 25% 달성을 목표로...",
+    "link": "http://www.techholic.co.kr/news/articleView.html?idxno=221547",
+    "source": "www.techholic.co.kr",
+    "published_at": "2026-06-05",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.huffingtonpost.kr",
+        "link": "https://www.huffingtonpost.kr/article/257721"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "LG에너지솔루션",
+      "전기차배터리",
+      "이차전지"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션은 전기차 배터리 투트랙 전략과 ESS 시장 공략을 위한 선제적 대응에 나서고 있습니다.",
+      "정부는 2029년까지 차세대 배터리 기술 개발에 약 2800억 원을 지원할 계획입니다.",
+      "이는 2030년까지 글로벌 이차전지 시장 점유율 25% 달성을 목표로 합니다."
+    ],
+    "uid": "199c7e886a76605c007175b7675fa206fd627fd5"
+  },
+  {
+    "title": "SK온, ESS '투트랙 전략' 속도…북미 공급망 넓히고 국내 입지 강화",
+    "description": "양극재·전해액·분리막 등 LFP 배터리 주요 소재 국산화에도 적극 나서고 있고, 임피던스분광법(EIS)을 비롯한 차별화된 화재 안전성 관련 기술 개발도 가속하고 있다. 양 시장에서의 성장세가 이어지는 만큼...",
+    "link": "https://www.sidae.com/article/2026060516082048493",
+    "source": "www.sidae.com",
+    "published_at": "2026-06-05",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.sisajournal-e.com",
+        "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=421547"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 84,
+    "monitoring_importance": 84,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "SK온",
+      "LFP",
+      "EIS"
+    ],
+    "summary_3_sentences": [
+      "SK온은 북미 공급망을 확장하고 국내 입지를 강화하는 ESS 투트랙 전략에 속도를 내고 있습니다.",
+      "LFP 배터리 주요 소재 국산화에도 적극적으로 나서고 있으며, 차별화된 화재 안전성 기술 개발도 가속화하고 있습니다.",
+      "이는 ESS 시장에서의 성장세를 이어가기 위한 노력의 일환입니다."
+    ],
+    "uid": "a4c382189c9ce959061ff3c052df7ace06a17e35"
+  },
+  {
     "title": "[특징주] 배터리·양극재·BMS 유럽산 써라…EU 탈중국 법안 가시화",
     "description": "2차전지 및 관련 자동차 부품 기업들의 주가는 전반적인 약세를 면치 못하고 있다. 오전 10시 41분 기준 코스피 지수가 전 거래일 대비 552.87포인트(-6.40%) 폭락한 8,086.54를 기록 중인 가운데, 대표적인 배터리 셀...",
     "link": "https://www.newstnt.com/news/articleView.html?idxno=705271",
@@ -73,6 +207,38 @@
       "이는 K배터리가 중국산 배터리의 빈자리를 채우며 부활의 날갯짓을 할 수 있는 기회로 작용할 것으로 보인다."
     ],
     "uid": "87ae238cbe9f2bcec3466806af3ab2a6d9dde638"
+  },
+  {
+    "title": "[메가이슈토픽] 24조 쏟아부었는데 적자 늪…삼성SDI '배터리 쇼크'",
+    "description": "전고체 배터리에 대한 기대감도 당장 실적 개선으로 이어지기는 어렵다는 분석이다. 삼성SDI는 2027년 말 황화물계 전고체 배터리 양산을 목표로 하고 있으나, 초기 적용 시장이 전기차보다 휴머노이드 로봇 등...",
+    "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065587438585709",
+    "source": "www.megaeconomy.co.kr",
+    "published_at": "2026-06-05",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.s-journal.co.kr",
+        "link": "https://www.s-journal.co.kr/news/articleView.html?idxno=41569"
+      },
+      {
+        "source": "www.newsquest.co.kr",
+        "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=267358"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 2027년 말 황화물계 전고체 배터리 양산을 목표로 하고 있습니다.",
+      "하지만 초기 적용 시장이 전기차보다 휴머노이드 로봇 등 제한적일 것으로 예상되어 당장 실적 개선으로 이어지기는 어렵다는 분석입니다.",
+      "이는 24조 원을 투자했음에도 적자를 면치 못하고 있는 삼성SDI의 배터리 사업 상황을 보여줍니다."
+    ],
+    "uid": "1b1f9d3107769235d4cddc112caf6237ac46a432"
   },
   {
     "title": "EU 산업가속화법 장벽…배터리업계, 중국 제치고 영토 탈환하나",
@@ -150,6 +316,30 @@
     "uid": "39a2387fc965b980d84da33b51eed552bda14689"
   },
   {
+    "title": "[B트렌드] 중국외 배터리 시장 재편 가속… K-배터리 전략 시험대",
+    "description": "무대로 자리 잡고 있다\"며, \"향후에는 지역별 생산 거점, 글로벌 OEM과의 장기 공급 관계, LFP 및 차세대 배터리 대응력, ESS 등 신규 수요처 확보 여부가 시장 지위를 결정하는 핵심 변수로 작용할 것\"이라고 전망했다.",
+    "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=81847",
+    "source": "www.industrynews.co.kr",
+    "published_at": "2026-06-05",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 84,
+    "monitoring_importance": 84,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "K-배터리",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "중국 외 배터리 시장 재편이 가속화되면서 K-배터리의 전략이 시험대에 오르고 있습니다.",
+      "지역별 생산 거점, 글로벌 OEM과의 장기 공급 관계, LFP 및 차세대 배터리 대응력, ESS 등 신규 수요처 확보가 시장 지위를 결정할 핵심 변수가 될 것입니다.",
+      "이는 K-배터리 기업들이 글로벌 경쟁에서 우위를 점하기 위한 전략적 움직임이 중요함을 시사합니다."
+    ],
+    "uid": "d2b3384aaa5eafafe4e9f6a63e7199208c36d3ce"
+  },
+  {
     "title": "SK온, 차세대 ESS '그리드온 Gen2' 내년 3분기 양산",
     "description": "이를 기반으로 ESS사업 확대에도 속도를 낸다는 계획이다. 기존 조지아주 단독 공장 'SK배터리아메리카 1∙2공장'과 올해 가동 예정인 'HSBMA(Hyundai SK Battery Manufacturing America) 공장', 테네시주 단독 공장 'SK온...",
     "link": "http://www.e2news.com/news/articleView.html?idxno=331057",
@@ -175,6 +365,54 @@
     "uid": "bdb7b765ca6ddea1e6ae47fdcc688169d89b1967"
   },
   {
+    "title": "Wildcat Discovery Technologies and EnergyX form JV for 15,000-ton commercial LFP cathode manufacturing facility",
+    "published_at": "2026-06-05",
+    "source": "renewableenergymagazine.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWWlwZ2g1Qm5kUTdLX2xfcUpaQzFGTGlpWGY1a2NZMnBNZ0VCcG9mWkRoaDhnUVJWUVZ2UUg1UWpDT2FIbnY0ZXpqTUhGNVJWLUU2SXRDQWh5WFRqY0lKYkRLaFNvSk9nSDR2OGVqSVN5Ukx0Uzh1bzdoQWVWU1RNT3FveFRNZGlXcDZUOTBkMUdGVlVXY0lVRzFJOWVEU0ZMZHBsQ3g5WHlYRFVEMEJ1X0lmN3g?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOWWlwZ2g1Qm5kUTdLX2xfcUpaQzFGTGlpWGY1a2NZMnBNZ0VCcG9mWkRoaDhnUVJWUVZ2UUg1UWpDT2FIbnY0ZXpqTUhGNVJWLUU2SXRDQWh5WFRqY0lKYkRLaFNvSk9nSDR2OGVqSVN5Ukx0Uzh1bzdoQWVWU1RNT3FveFRNZGlXcDZUOTBkMUdGVlVXY0lVRzFJOWVEU0ZMZHBsQ3g5WHlYRFVEMEJ1X0lmN3g?oc=5\" target=\"_blank\">Wildcat Discovery Technologies and EnergyX form JV for 15,000-ton commercial LFP cathode manufacturing facility</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">renewableenergymagazine.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "Wildcat Discovery Technologies",
+      "EnergyX",
+      "JV"
+    ],
+    "summary_3_sentences": [
+      "Wildcat Discovery Technologies와 EnergyX가 LFP 양극재 생산 시설 구축을 위한 합작 투자를 발표했습니다.",
+      "이 합작 투자는 연간 15,000톤 규모의 상업용 LFP 양극재 생산 능력을 갖출 예정입니다.",
+      "이는 전기차 배터리 핵심 소재의 공급망 안정화에 기여할 것으로 보입니다."
+    ],
+    "uid": "9229e7c12251f21174051ce44a0d87b759d5cc0e"
+  },
+  {
+    "title": "U.S. National Lab Launches Prismatic Battery Production Line To Advance Safer, Cheaper Grid Storage",
+    "published_at": "2026-06-05",
+    "source": "foreignpolicyjournal.com",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOckRGWGlZY1hWUUF5dWJoMEhhblNRTWZGbTJmZlRuQVotZktkdmhmSHRnOTJnSDgzanRRdmVwVzN4SXVJWFJsM2owbkc2WkhFYl9QZzVRek55YjBmSmRBYzFJUkVRS2RtUVA1b0dQeVh4N2RUSUUwZWdjcWVZUHZHVUg1WXVsYzU2S2JNTXA4alFLR0hsMGJ5ZVRZTGdza21BX3h2UGJrU1JQUDlMUUJ4WEVibGxLaXk4VEdxX0Jyd1pDNDd0RFBlbEVnQklSbFlNeklzV3M1cE1HdGowLWhZ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxOckRGWGlZY1hWUUF5dWJoMEhhblNRTWZGbTJmZlRuQVotZktkdmhmSHRnOTJnSDgzanRRdmVwVzN4SXVJWFJsM2owbkc2WkhFYl9QZzVRek55YjBmSmRBYzFJUkVRS2RtUVA1b0dQeVh4N2RUSUUwZWdjcWVZUHZHVUg1WXVsYzU2S2JNTXA4alFLR0hsMGJ5ZVRZTGdza21BX3h2UGJrU1JQUDlMUUJ4WEVibGxLaXk4VEdxX0Jyd1pDNDd0RFBlbEVnQklSbFlNeklzV3M1cE1HdGowLWhZ?oc=5\" target=\"_blank\">U.S. National Lab Launches Prismatic Battery Production Line To Advance Safer, Cheaper Grid Storage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">foreignpolicyjournal.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "정책",
+    "companies": [],
+    "summary_3_sentences": [
+      "미국 국립 연구소에서 프리즘형 배터리 생산 라인을 가동했습니다.",
+      "이 생산 라인은 더 안전하고 저렴한 그리드 저장 장치 개발을 목표로 합니다.",
+      "이는 에너지 저장 시스템(ESS) 분야의 기술 발전을 가속화할 것으로 기대됩니다."
+    ],
+    "uid": "fbf4e60ddb48f93c1d89c6eb57aa56d3f0e79d97"
+  },
+  {
     "title": "SK온, 차세대 ESS '그리드온 Gen2' 첫선…북미 공략",
     "description": "SK온이 미국 내 주요 고객사 150여 명을 초청해 차세대 ESS(에너지저장장치) 제품 'GRIDON 2세대(Gen2)'를 처음 공개하고 미 ESS 시장 공략에 팔을 걷고 나섰습니다. 5일 배터리업계 등에 따르면, SK온은 현지시간 1~4일 미...",
     "link": "https://biz.sbs.co.kr/article_hub/20000314604?division=NAVER",
@@ -198,6 +436,151 @@
       "SK온은 AI 데이터센터 및 전력망용 ESS 수요 증가에 대응하기 위해 이 제품을 개발했다."
     ],
     "uid": "96f138f110f6e21171bcd7d79e7a2ac2ac2b4c37"
+  },
+  {
+    "title": "CATL Eyes Lithium-Air Tech With Theoretical Energy Density 50 Times Higher Than Li-Ion Batteries",
+    "published_at": "2026-06-05",
+    "source": "autoevolution",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRDhnWWhqbW5UeWdVWmFvWEVlRl9vMmtEVVdGMjI0cU1pVEN1VzZjTmZ5TkIyRllTYUtXMXlHZHBkdUZjOGs3bzhyRVBCSlZReWtpNElmb0RLUTRyWmlVVGM2c1RYWXVVcXZZMjUzODZUY2Zud2hTNTYtWEprT0xvZ3dlTlprRjlhQTlQUEJ0NFZzT3VHakk1cHpxT3pPWXBaVGZIMHE2T0w2T0VIRGp0Nnhxd0tlbXQ1Ymo3TGFyNElFWVVuRjVHTmppcGhUMklOcXJERkxoM1BEakU?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRDhnWWhqbW5UeWdVWmFvWEVlRl9vMmtEVVdGMjI0cU1pVEN1VzZjTmZ5TkIyRllTYUtXMXlHZHBkdUZjOGs3bzhyRVBCSlZReWtpNElmb0RLUTRyWmlVVGM2c1RYWXVVcXZZMjUzODZUY2Zud2hTNTYtWEprT0xvZ3dlTlprRjlhQTlQUEJ0NFZzT3VHakk1cHpxT3pPWXBaVGZIMHE2T0w2T0VIRGp0Nnhxd0tlbXQ1Ymo3TGFyNElFWVVuRjVHTmppcGhUMklOcXJERkxoM1BEakU?oc=5\" target=\"_blank\">CATL Eyes Lithium-Air Tech With Theoretical Energy Density 50 Times Higher Than Li-Ion Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">autoevolution</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL이 리튬이온 배터리보다 이론적으로 에너지 밀도가 50배 높은 리튬-공기 배터리 기술을 검토 중입니다.",
+      "리튬-공기 배터리는 기존 배터리 기술의 한계를 뛰어넘을 잠재력을 가지고 있습니다.",
+      "이 기술이 상용화된다면 전기차의 주행 거리와 성능을 획기적으로 개선할 수 있을 것입니다."
+    ],
+    "uid": "2cb6613223f91e5cb830d7796c6ad8b9793b2630"
+  },
+  {
+    "title": "New sodium metal battery charges in minutes, runs 6,000 hours",
+    "published_at": "2026-06-05",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUHNTWmF5M2JNYXBDYTY2TTR6SGc3Ym9LQWJqd090SVRrVFhuaFBSRlJaYUwyaVpla2d2WDkxY05xSjR6Vk9ZMjF1NUJpdjlRbURTaTd5WURMamczY0kzOVk5QVpUeE5HZndYaDU5b3lrZlhRUlJzY0N0SzFZTTY5VzZBRlRLeEJVX1N1M0RMb3hETnlCQWZnbQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPUHNTWmF5M2JNYXBDYTY2TTR6SGc3Ym9LQWJqd090SVRrVFhuaFBSRlJaYUwyaVpla2d2WDkxY05xSjR6Vk9ZMjF1NUJpdjlRbURTaTd5WURMamczY0kzOVk5QVpUeE5HZndYaDU5b3lrZlhRUlJzY0N0SzFZTTY5VzZBRlRLeEJVX1N1M0RMb3hETnlCQWZnbQ?oc=5\" target=\"_blank\">New sodium metal battery charges in minutes, runs 6,000 hours</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "새로운 나트륨 금속 배터리는 몇 분 안에 충전되며 6,000시간 동안 작동합니다.",
+      "이 배터리는 빠른 충전 속도와 긴 수명을 자랑합니다.",
+      "이는 기존 리튬 이온 배터리의 대안으로 주목받고 있습니다."
+    ],
+    "uid": "632753bd317d5f4fe8b46b3f5c9a270768d875e8"
+  },
+  {
+    "title": "Nissan joins new ‘Cheaper Than China’ solid-state EV battery project",
+    "published_at": "2026-06-05",
+    "source": "Electrek",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX2NRazZmVWtibGR4X0staXhJblBLVXU2YnprY2xBVmlnX2twMXlXYlItZ1JuVDE4X01kM2l4WlhXWHlnMEtvc2NSRkhSb2dnRWtvSDF0VmJyaUFCU0xVeXAydHltX0RqMWtoZnBEN0Jyc0pJNjVhSEc4Wl8yRUpYM3lBSVFMdDhTNDQxaHBZYnJSZnljUmdDeHMxRkNTdw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPX2NRazZmVWtibGR4X0staXhJblBLVXU2YnprY2xBVmlnX2twMXlXYlItZ1JuVDE4X01kM2l4WlhXWHlnMEtvc2NSRkhSb2dnRWtvSDF0VmJyaUFCU0xVeXAydHltX0RqMWtoZnBEN0Jyc0pJNjVhSEc4Wl8yRUpYM3lBSVFMdDhTNDQxaHBZYnJSZnljUmdDeHMxRkNTdw?oc=5\" target=\"_blank\">Nissan joins new ‘Cheaper Than China’ solid-state EV battery project</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electrek</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Nissan"
+    ],
+    "summary_3_sentences": [
+      "Nissan이 '중국보다 저렴한' 전고체 EV 배터리 프로젝트에 참여합니다.",
+      "이 프로젝트는 차세대 전고체 배터리 기술 개발을 목표로 합니다.",
+      "이는 전기차 배터리 가격 경쟁력을 높이고 기술 혁신을 가속화할 것으로 기대됩니다."
+    ],
+    "uid": "71c2ed253451dc513023555cf262e3ee231cfd0e"
+  },
+  {
+    "title": "Colorado approves first-in-the-nation plan to require EV battery recycling",
+    "published_at": "2026-06-05",
+    "source": "Colorado Public Radio",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE14SmI5cElNT0MzZE92RWZDbjQzdExjNG45VWZDMFE5QXI4T3NObGw3dUdoRkdKWi1oSDlQQUM2WTlhb24yWnBYdjl6TkhLQzJHN1Mzcnl1Q2VvS3BoVkRlcWNHWUZTcmFvOTBwNEhR?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE14SmI5cElNT0MzZE92RWZDbjQzdExjNG45VWZDMFE5QXI4T3NObGw3dUdoRkdKWi1oSDlQQUM2WTlhb24yWnBYdjl6TkhLQzJHN1Mzcnl1Q2VvS3BoVkRlcWNHWUZTcmFvOTBwNEhR?oc=5\" target=\"_blank\">Colorado approves first-in-the-nation plan to require EV battery recycling</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Colorado Public Radio</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "PR Newswire",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNT1p1cGd3ejZIUUxEeFVMRlRRTm8xVlpXakkzQVhjSVhhX21YWUpDSWJuYkJGYzRoeTNoUXZNMUs3V2ZxY2owbE9OVlFJZjdGb0pmcFdvdERHNWxhVkdyQ19TQk5hMm5CWHpPSE1meGVPRGM3ZUowOTFmWXhTYkszeVFTRDhWaHVpWjRZTkRDUGp4VldXV3hsbmJ6T3Z5M1dyT1RhLWxGajV6Yk9WUlZMLVdoQTRHY09acmw1YktzNURrOVJSUWVqenVGUHBRamlXWXliMklHd19CX1M5clllQms1dW5KVVNKVEZGVS1BYTN3MUE0dk5LbA?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "콜로라도주가 전기차 배터리 재활용을 의무화하는 계획을 승인했습니다.",
+      "이는 미국 내에서 최초로 시행되는 전기차 배터리 재활용 관련 규제입니다.",
+      "이번 계획은 배터리 재활용 산업의 성장을 촉진할 것으로 기대됩니다."
+    ],
+    "uid": "175d8d8e66d269824dac55b9a310f2eeb2cc6bac"
+  },
+  {
+    "title": "What War On EVs? New $230 Million LFP Battery Materials Factory Proposed For Texas",
+    "published_at": "2026-06-05",
+    "source": "CleanTechnica",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZUVIVDV6aFRkQkFWOWhkX25mX00zdnlFdG4ydGw1WkJwc203U1lrYVQwS2VnX0Y3Qk9SQWhHZmtJR3ZBOWpQd2RzLWJpWFJybm83c0ZzdmJVY2w2aHBYSEdLLVRLTURWaldxeHFCcGxZSzROYllBZUxQOHVjbmJnUkhYTERIblN0clg2eU5rNGdvcGxYdE8xSkV1Mnl2aEE1Rkcw0gGrAUFVX3lxTE85NDFtTEhEZEdQQXkxVThWYVp4NDdtNGJwcERackFEdFRucHhKWDRLRlhiekVpZ2FPWk1EczJZYWhvVFZGbUxGNV9yeGhCVVBidnBVdm5Md092cGZSOEFvdk5zNGIzWFJiZXNZb2N0UjdBcDdSV2xwdkttcl9YbUJLQnRDZ0xpUTBoWGM1UWt5MG10bWtwbjh4TUQ1OWV5MktQcFdvOGVDd0laNA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPZUVIVDV6aFRkQkFWOWhkX25mX00zdnlFdG4ydGw1WkJwc203U1lrYVQwS2VnX0Y3Qk9SQWhHZmtJR3ZBOWpQd2RzLWJpWFJybm83c0ZzdmJVY2w2aHBYSEdLLVRLTURWaldxeHFCcGxZSzROYllBZUxQOHVjbmJnUkhYTERIblN0clg2eU5rNGdvcGxYdE8xSkV1Mnl2aEE1Rkcw0gGrAUFVX3lxTE85NDFtTEhEZEdQQXkxVThWYVp4NDdtNGJwcERackFEdFRucHhKWDRLRlhiekVpZ2FPWk1EczJZYWhvVFZGbUxGNV9yeGhCVVBidnBVdm5Md092cGZSOEFvdk5zNGIzWFJiZXNZb2N0UjdBcDdSV2xwdkttcl9YbUJLQnRDZ0xpUTBoWGM1UWt5MG10bWtwbjh4TUQ1OWV5MktQcFdvOGVDd0laNA?oc=5\" target=\"_blank\">What War On EVs? New $230 Million LFP Battery Materials Factory Proposed For Texas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CleanTechnica</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "텍사스주에 2억 3천만 달러 규모의 LFP 배터리 소재 공장 건설이 제안되었습니다.",
+      "이 공장은 전기차 배터리 생산에 필요한 핵심 소재를 공급할 예정입니다.",
+      "이는 미국 내 배터리 생산 능력 강화에 기여할 것으로 보입니다."
+    ],
+    "uid": "85c6a9f717bb93a38a2d97099248e210d0ea1274"
+  },
+  {
+    "title": "CATL to deliver first sodium-ion storage systems in September as material costs halve",
+    "published_at": "2026-06-05",
+    "source": "CarNewsChina.com",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQzc4cG5ETE0yMVYyWm9FLVR4VnpaY0lneXBhTFBWWFJVYl9NRzNzaXcyNnp2T2UwTzRfTDdDbXhQSzJXdEp2OEY4NUZFNHlIb3ZVT0wwa0JiSVBUNDZJVk04bXNpN242V3RkWkFlakNYY3dFUVhDZ0xNZlphaUpGSkJiTWVPcVdwaERCa2E4MGZHaE01V0thNDAyX3pGMWhNam5vam1BdEU3d3cySlNqY1VKMkhBdVNhampxa2kzUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPQzc4cG5ETE0yMVYyWm9FLVR4VnpaY0lneXBhTFBWWFJVYl9NRzNzaXcyNnp2T2UwTzRfTDdDbXhQSzJXdEp2OEY4NUZFNHlIb3ZVT0wwa0JiSVBUNDZJVk04bXNpN242V3RkWkFlakNYY3dFUVhDZ0xNZlphaUpGSkJiTWVPcVdwaERCa2E4MGZHaE01V0thNDAyX3pGMWhNam5vam1BdEU3d3cySlNqY1VKMkhBdVNhampxa2kzUQ?oc=5\" target=\"_blank\">CATL to deliver first sodium-ion storage systems in September as material costs halve</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CarNewsChina.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL은 9월부터 나트륨 이온 저장 시스템을 처음으로 인도할 예정입니다.",
+      "나트륨 이온 배터리는 리튬 이온 배터리에 비해 재료 비용이 절반으로 줄어들 것으로 예상됩니다.",
+      "이는 배터리 가격 경쟁력을 높여 ESS 시장 확대에 기여할 수 있습니다."
+    ],
+    "uid": "c30160068fa316a1b299f4547820caf3f3302b28"
   },
   {
     "title": "SK온, 美서 차세대 ESS ‘그리드온 Gen2’ 처음 선봬",
