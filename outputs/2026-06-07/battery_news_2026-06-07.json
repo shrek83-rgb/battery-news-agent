@@ -1,0 +1,358 @@
+{
+  "date_range": "2026-06-07",
+  "items": [
+    {
+      "title": "LFP·ESS 넘어 전고체·소듐까지…차세대 배터리 감초 된 '코팅 알루미늄...",
+      "description": "미래 배터리 시장의 게임 체인저로 꼽히는 '전고체 배터리'와 리튬의 대안으로 부상한 '소듐이온(나트륨) 배터리' 역시 차세대 전지로 갈수록 코팅 가공된 알루미늄박을 필수적으로 요구하기 때문이다. EV 수요 회복...",
+      "link": "https://www.goodkyung.com/news/articleView.html?idxno=287854",
+      "source": "www.goodkyung.com",
+      "published_at": "2026-06-08",
+      "provider": "naver",
+      "related_links": [
+        {
+          "source": "www.dynews.co.kr",
+          "link": "http://www.dynews.co.kr/news/articleView.html?idxno=853052"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "monitor_score": 96,
+      "monitoring_importance": 96,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "LFP",
+        "ESS",
+        "소듐이온"
+      ],
+      "summary_3_sentences": [
+        "미래 배터리 시장에서 전고체 배터리와 소듐이온 배터리가 주목받고 있습니다.",
+        "이러한 차세대 배터리들은 코팅 가공된 알루미늄박을 필수적으로 요구합니다.",
+        "EV 수요 회복과 함께 알루미늄박의 중요성이 더욱 커질 것으로 예상됩니다."
+      ]
+    },
+    {
+      "title": "美 관세 환급 착수한 K-배터리, 다음 과제는 '무역법 301조' 방어",
+      "description": "이번 환급 대상에는 전기차용 배터리 셀과 모듈, ESS, 배터리 소재 등이 포함됐다. 미국 CBP(관세국경보호청)의 검증 후 관세 환급 절차가 간단하고 빠르게 이뤄지고 있어 배터리 업계로서는 2~3분기 유동성 확보에 도움이...",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/06/08/2026060800089.html",
+      "source": "biz.newdaily.co.kr",
+      "published_at": "2026-06-08",
+      "provider": "naver",
+      "related_links": [
+        {
+          "source": "www.newstomato.com",
+          "link": "http://www.newstomato.com/ReadNews.aspx?no=1303244&inflow=N"
+        },
+        {
+          "source": "www.g-enews.com",
+          "link": "https://www.g-enews.com/view.php?ud=2026060808302736533084322ec9_1"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "정책",
+      "companies": [
+        "K-배터리",
+        "ESS",
+        "CBP"
+      ],
+      "summary_3_sentences": [
+        "K-배터리 기업들이 미국으로부터 관세 환급을 받기 시작했습니다.",
+        "이번 환급 대상에는 전기차용 배터리 셀, 모듈, ESS, 배터리 소재 등이 포함되었습니다.",
+        "관세 환급 절차가 신속하게 진행되어 2~3분기 유동성 확보에 도움이 될 것으로 보입니다."
+      ]
+    },
+    {
+      "title": "'움직이는 ESS' 기아 EV9, 네덜란드 V2G 공식 승인…상용화 자격 완벽 증...",
+      "description": "전기자동차 배터리를 전력망과 직접 연결하는 양방향 충전 기술 상용화의 마지막 관문을 넘었다. 전기차를 다목적 에너지저장장치(ESS)로 활용하는 신사업의 닻을 올리며 유럽 차세대 스마트 에너지 시장 선점에...",
+      "link": "https://www.theguru.co.kr/news/article.html?no=102752",
+      "source": "www.theguru.co.kr",
+      "published_at": "2026-06-08",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "기아",
+        "EV9",
+        "ESS"
+      ],
+      "summary_3_sentences": [
+        "기아 EV9이 네덜란드에서 V2G(Vehicle-to-Grid) 기술에 대한 공식 승인을 받았습니다.",
+        "이는 전기자동차 배터리를 전력망과 직접 연결하는 양방향 충전 기술 상용화의 중요한 단계입니다.",
+        "이번 승인을 통해 기아는 유럽 차세대 스마트 에너지 시장 선점에 나설 것으로 기대됩니다."
+      ]
+    },
+    {
+      "title": "구글 웨이모, EV 배터리 재사용 프로그램 발표…ESS 생태계 육성 동참",
+      "description": "B2U 스토리지 관계자는 \"전기차 폐배터리를 ESS로 확장함으로써 새로운 수익을 확보할 수 있게됐다\"며 \"에너지 수요가 급증하는 가운데 전력망에 안정성을 제공하는 역할도 수행하게 될 것\"이라고 전했다. 웨이모...",
+      "link": "https://www.theguru.co.kr/news/article.html?no=102739",
+      "source": "www.theguru.co.kr",
+      "published_at": "2026-06-08",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 93,
+      "monitoring_importance": 93,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "구글 웨이모",
+        "ESS"
+      ],
+      "summary_3_sentences": [
+        "구글 웨이모가 전기차 폐배터리를 ESS로 재사용하는 프로그램을 발표했습니다.",
+        "이를 통해 새로운 수익을 확보하고 에너지 수요 급증 시 전력망 안정성에 기여할 수 있게 되었습니다.",
+        "웨이모는 ESS 생태계 육성에 동참하며 관련 사업을 확장할 계획입니다."
+      ]
+    },
+    {
+      "title": "Recycled Cobalt Oxide Powder Market Growth Outlook to 2035: Battery Recycling and Electronics Drive Demand - News and Statistics",
+      "published_at": "2026-06-07",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNb2lzWG5hRWotdy15ekxFbnBBWVRmb3kzVUtWLXA5UVo4clNHemJHQ2VWT0Rsd1JZLVJldm5ZT09URXhPQUFhTFVHc09NeFNYWWJaNjJIRE8zdFoxTF9MRUhRWktkOWpyeV83ZHNNZ0JfQ1hGQVdNemp5X0t0bE9RT09fSGxwYlJMdmFRMGxwZG85azA0YkVqaU9XdFpEbzk0bTd3MFUzSjVMOE1YcFk4bnNwc0RycUZFRXp6OE83MmFGdVA5bmdzSVA1YkJrVEtpNXIzbjhla2ZaOHQ5S1N0UldnVk1MTUVMWERhVko5clp1dw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNb2lzWG5hRWotdy15ekxFbnBBWVRmb3kzVUtWLXA5UVo4clNHemJHQ2VWT0Rsd1JZLVJldm5ZT09URXhPQUFhTFVHc09NeFNYWWJaNjJIRE8zdFoxTF9MRUhRWktkOWpyeV83ZHNNZ0JfQ1hGQVdNemp5X0t0bE9RT09fSGxwYlJMdmFRMGxwZG85azA0YkVqaU9XdFpEbzk0bTd3MFUzSjVMOE1YcFk4bnNwc0RycUZFRXp6OE83MmFGdVA5bmdzSVA1YkJrVEtpNXIzbjhla2ZaOHQ5S1N0UldnVk1MTUVMWERhVko5clp1dw?oc=5\" target=\"_blank\">Recycled Cobalt Oxide Powder Market Growth Outlook to 2035: Battery Recycling and Electronics Drive Demand - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "IndexBox"
+      ],
+      "summary_3_sentences": [
+        "재활용 코발트 산화물 분말 시장이 2035년까지 성장할 전망입니다.",
+        "배터리 재활용 및 전자제품 수요 증가가 시장 성장을 견인할 것으로 예상됩니다.",
+        "이는 관련 산업의 지속 가능한 성장에 기여할 것으로 보입니다."
+      ]
+    },
+    {
+      "title": "CATL to start commercial sodium-ion battery deliveries in September",
+      "published_at": "2026-06-07",
+      "source": "msn.com",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUGZJNnhsbGROdUNhUjd2NXNlbmE2Zm5XS1dCQUg4RDdUdzlzem5wNlJXNWpROGpyZHdzUkoyQ0k2UHhUR3VvNXFFdEJ3UkZFSGFzYTYwYjFENGdLTF96cE9FUTRTekY5c2xRcElYSWx3NERoYm83cjB5WjFRQjE2WDdOck5lQ0NmTm5DdDM4aEdETGRqYlB2ZU9IRkJqOUxDZ0phcEx4bjF6VzlaMUJrZ3hrQ2JpQ0hsenh6MFM3YzAxWDhoUEhFVndxekp1SFFoSXc?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUGZJNnhsbGROdUNhUjd2NXNlbmE2Zm5XS1dCQUg4RDdUdzlzem5wNlJXNWpROGpyZHdzUkoyQ0k2UHhUR3VvNXFFdEJ3UkZFSGFzYTYwYjFENGdLTF96cE9FUTRTekY5c2xRcElYSWx3NERoYm83cjB5WjFRQjE2WDdOck5lQ0NmTm5DdDM4aEdETGRqYlB2ZU9IRkJqOUxDZ0phcEx4bjF6VzlaMUJrZ3hrQ2JpQ0hsenh6MFM3YzAxWDhoUEhFVndxekp1SFFoSXc?oc=5\" target=\"_blank\">CATL to start commercial sodium-ion battery deliveries in September</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">msn.com</font>",
+      "provider": "google",
+      "related_links": [
+        {
+          "source": "Interesting Engineering",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDhIU1B0TTVfUW9oemlmaXlDcnZmN2k5WUwyWXdnLVdWU2FfWFpVelRwVk4xUlhvRnpMS0ZrNjlBUGRuYkhpdmRMNkVJSVRKdmxjVmViNi00U2dCdmxjZ19LWHAwZ0E0eEd5WkxCbVd2c0NnV3JuYktPUFNPZGRkZmlXc19YZXh4VWIycQ?oc=5"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [
+        "CATL"
+      ],
+      "summary_3_sentences": [
+        "CATL이 오는 9월부터 상업용 나트륨이온 배터리 납품을 시작할 예정입니다.",
+        "이는 리튬의 대안으로 주목받는 나트륨이온 배터리 시장의 성장을 가속화할 것으로 보입니다.",
+        "CATL은 나트륨이온 배터리 분야에서 선도적인 입지를 구축할 것으로 기대됩니다."
+      ]
+    },
+    {
+      "title": "[K 배터리 진단] 헝가리 찍고 미국까지…롯데알미늄의 양극박 확장 전략",
+      "description": "롯데알미늄이 2차전지용 양극박 사업을 미래 성장동력으로 육성하며 글로벌 배터리 소재 시장 공략에 속도를 내고 있다. 오랜 기간 축적한 알루미늄박 생산 기술을 바탕으로 유럽과 북미 생산거점을 구축하며 공급망...",
+      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1711398",
+      "source": "www.ebn.co.kr",
+      "published_at": "2026-06-08",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 92,
+      "monitoring_importance": 92,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "롯데알미늄",
+        "2차전지"
+      ],
+      "summary_3_sentences": [
+        "롯데알미늄이 2차전지용 양극박 사업을 미래 성장 동력으로 육성하고 있습니다.",
+        "오랜 기간 축적된 알루미늄박 생산 기술을 바탕으로 유럽과 북미에 생산 거점을 구축하며 글로벌 시장 공략에 속도를 내고 있습니다.",
+        "이는 롯데알미늄의 글로벌 배터리 소재 시장 경쟁력 강화에 기여할 것으로 예상됩니다."
+      ]
+    },
+    {
+      "title": "CATL Developing 12,000 Wh Per Kg Lithium-Air Battery",
+      "published_at": "2026-06-07",
+      "source": "CleanTechnica",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSUJVX2hFckx4cjI5dkRwbXNGcnFZeWhld290SGVydDFMMnYyVkdLblRKazI2cHAxVVFOY1g0Y3ROTnVwMGVlUERjYVdMWElSOUswZGRuMVhCaUJoZ0xQQlMwSlRjTXdnSHVWTFlpbzBqUFVtVzd1b0Fxel80N1ZfamdNZTVTdDJVZG9KREZZQ0gtbWvSAZsBQVVfeXFMTWdSaTZ6cmpyN0FONmgzMTMxUkRBRFZYVVc4Zk5BZmdKUFRTZWZzblUtaUg4d0dQcTlMQmRTSWtkS0llT3NMdXJVMi1wYUJKNFlleFZkYlZncEg0SE5PTVktMmQ1Mmp5cjBkVjVyaGRMMTQtLWh2SVlUcWJKalN3WnVqQ19zS19QV3NXUm1BT0QzSFZzbkxWV20xVDA?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPSUJVX2hFckx4cjI5dkRwbXNGcnFZeWhld290SGVydDFMMnYyVkdLblRKazI2cHAxVVFOY1g0Y3ROTnVwMGVlUERjYVdMWElSOUswZGRuMVhCaUJoZ0xQQlMwSlRjTXdnSHVWTFlpbzBqUFVtVzd1b0Fxel80N1ZfamdNZTVTdDJVZG9KREZZQ0gtbWvSAZsBQVVfeXFMTWdSaTZ6cmpyN0FONmgzMTMxUkRBRFZYVVc4Zk5BZmdKUFRTZWZzblUtaUg4d0dQcTlMQmRTSWtkS0llT3NMdXJVMi1wYUJKNFlleFZkYlZncEg0SE5PTVktMmQ1Mmp5cjBkVjVyaGRMMTQtLWh2SVlUcWJKalN3WnVqQ19zS19QV3NXUm1BT0QzSFZzbkxWV20xVDA?oc=5\" target=\"_blank\">CATL Developing 12,000 Wh Per Kg Lithium-Air Battery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CleanTechnica</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 80,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "CATL"
+      ],
+      "summary_3_sentences": [
+        "CATL이 12,000 Wh/kg의 리튬-공기 배터리를 개발 중입니다.",
+        "이는 기존 리튬이온 배터리보다 훨씬 높은 에너지 밀도를 가지는 혁신적인 기술입니다.",
+        "이 기술은 차세대 배터리 개발에 중요한 진전으로 평가됩니다."
+      ]
+    },
+    {
+      "title": "China’s CATL Sees Energy Storage Business Reaching 50% of Global Sales by 2030",
+      "published_at": "2026-06-07",
+      "source": "Egypt Oil & Gas",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQTJDLU9pc3BnRzhuc09HNVdnVG1RQzFOVXZ2WmZGWlA0ZnFUc3dHZ01QVDBlaFVYRXNyNm1uX2Q2TDVJTlN2LUJqdnlySUttaUxsRlNzVzFhWFVhbFpMMW1ocWpwNEFUMG0xUEk2YTJHSkRRRzZWSmYxRk5NandqNGkzLU85TmNaSk5qWS14d1hYOE1fd2FYWVVrcDR3aDAzQ3VCeWdaMmxzb2c?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQTJDLU9pc3BnRzhuc09HNVdnVG1RQzFOVXZ2WmZGWlA0ZnFUc3dHZ01QVDBlaFVYRXNyNm1uX2Q2TDVJTlN2LUJqdnlySUttaUxsRlNzVzFhWFVhbFpMMW1ocWpwNEFUMG0xUEk2YTJHSkRRRzZWSmYxRk5NandqNGkzLU85TmNaSk5qWS14d1hYOE1fd2FYWVVrcDR3aDAzQ3VCeWdaMmxzb2c?oc=5\" target=\"_blank\">China’s CATL Sees Energy Storage Business Reaching 50% of Global Sales by 2030</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Egypt Oil & Gas</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 90,
+      "monitoring_importance": 90,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "CATL",
+        "ESS"
+      ],
+      "summary_3_sentences": [
+        "CATL은 2030년까지 에너지 저장 장치(ESS) 사업이 글로벌 매출의 50%에 달할 것으로 전망하고 있습니다.",
+        "이는 에너지 저장 장치 시장의 급격한 성장을 예상하는 CATL의 자신감을 보여줍니다.",
+        "CATL은 ESS 분야에서 글로벌 리더십을 강화할 계획입니다."
+      ]
+    },
+    {
+      "title": "한농화성·이수스페셜티케미컬·대주전자재료 동반 조정…전고체 배터...",
+      "description": "대주전자재료 역시 11만200원으로 9.75% 하락하며 전고체 배터리 테마주 전반에 차익실현 매물이 출회됐다. 시장에서는 미국 증시 부진과 외국인 매도세 확대, 금리 불확실성 등이 2차전지 업종 전반에 부담으로 작용한...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=580250",
+      "source": "www.cbci.co.kr",
+      "published_at": "2026-06-08",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 90,
+      "monitoring_importance": 90,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "한농화성",
+        "이수스페셜티케미컬",
+        "대주전자재료"
+      ],
+      "summary_3_sentences": [
+        "전고체 배터리 테마주인 한농화성, 이수스페셜티케미컬, 대주전자재료가 동반 조정세를 보이고 있습니다.",
+        "이는 미국 증시 부진, 외국인 매도세 확대, 금리 불확실성 등이 2차전지 업종 전반에 부담으로 작용한 결과로 분석됩니다.",
+        "시장에서는 차익 실현 매물이 출회되며 관련 종목들의 주가 하락을 이끌고 있습니다."
+      ]
+    },
+    {
+      "title": "Flying car industry turns to solid-state batteries for commercial takeoff",
+      "published_at": "2026-06-07",
+      "source": "Interesting Engineering",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUXRYWkwydVBfNDdQQ2F5SldRVXpvdFFwZlJCT3pDQWJybjItcFAtWHVleF9vVHI2NTA4SDZQTHZFTU5iXy04dFVFZEtzdnVkYWxTdk8wRmM0OGtWM25vcXBUVkZmcFVCX1RIdUtJVm9XbnctX1VGOWg0OUNwb3Y3NGxYb2d6X2ptbTB0YlJWZDZhNXNXc09FWTlUTQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPUXRYWkwydVBfNDdQQ2F5SldRVXpvdFFwZlJCT3pDQWJybjItcFAtWHVleF9vVHI2NTA4SDZQTHZFTU5iXy04dFVFZEtzdnVkYWxTdk8wRmM0OGtWM25vcXBUVkZmcFVCX1RIdUtJVm9XbnctX1VGOWg0OUNwb3Y3NGxYb2d6X2ptbTB0YlJWZDZhNXNXc09FWTlUTQ?oc=5\" target=\"_blank\">Flying car industry turns to solid-state batteries for commercial takeoff</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 90,
+      "monitoring_importance": 75,
+      "monitor_score": 86,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [],
+      "summary_3_sentences": [
+        "플라잉카 산업이 상업적 운항을 위해 전고체 배터리에 주목하고 있습니다.",
+        "전고체 배터리는 높은 에너지 밀도와 안전성을 제공하여 플라잉카의 성능 향상에 기여할 것으로 기대됩니다.",
+        "이는 미래 모빌리티 산업의 발전에 중요한 역할을 할 것으로 보입니다."
+      ]
+    },
+    {
+      "title": "ASEAN Thermally Stable Separator Film - Market Analysis, Forecast, Size, Trends and Insights",
+      "published_at": "2026-06-07",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUTZKMXNiZFgzblZsTkRtVHpjVW9kLVI0TDBTWmt4bTZsM0VBZjFULXh0WFkyQkp1WUk5a0xwMVRfTXhzdlNVR2kyNDVpVmxDd0duRWRBSHZXTENEQ0tUZC1HOEdUbWh0Z3IxSkwwY3lmSG1FdFZHRTZWaUkwb0RJTHVYYjFXOXpNc2FDWkxRV0hwdDVwdjhZcngzanZ0Ny1iYlNNWkFERnRTMmZaNVhfMm4zaEVIVEVibnc?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNUTZKMXNiZFgzblZsTkRtVHpjVW9kLVI0TDBTWmt4bTZsM0VBZjFULXh0WFkyQkp1WUk5a0xwMVRfTXhzdlNVR2kyNDVpVmxDd0duRWRBSHZXTENEQ0tUZC1HOEdUbWh0Z3IxSkwwY3lmSG1FdFZHRTZWaUkwb0RJTHVYYjFXOXpNc2FDWkxRV0hwdDVwdjhZcngzanZ0Ny1iYlNNWkFERnRTMmZaNVhfMm4zaEVIVEVibnc?oc=5\" target=\"_blank\">ASEAN Thermally Stable Separator Film - Market Analysis, Forecast, Size, Trends and Insights</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 85,
+      "monitoring_importance": 75,
+      "monitor_score": 82,
+      "tier": 3,
+      "category": "separator",
+      "companies": [
+        "IndexBox",
+        "ASEAN"
+      ],
+      "summary_3_sentences": [
+        "아세안 지역의 열 안정성 분리막 필름 시장 분석 및 전망 보고서가 발표되었습니다.",
+        "해당 보고서는 시장 규모, 동향, 성장 전망 등에 대한 심층적인 정보를 제공합니다.",
+        "이는 아세안 지역 배터리 소재 시장의 중요성을 강조합니다."
+      ]
+    },
+    {
+      "title": "GM Pitches New LMR EV Battery On Earth, New EV On The Moon",
+      "published_at": "2026-06-07",
+      "source": "CleanTechnica",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbnQxSUE4bmpCakxQU0R6VVhDMlVkdkp0NGw1TFhKVVBiUjJrdGxrWC1Za2E0YWF4OVFTSng0bTRtX3RwbHVISUVRWUk3ZFE1N3A1WmUxdjFCUWVZc2E4QVh3bGk0TUd0SlFMQnlCQ1hQVXVyNjI2cVlDNU84Q0p4dVpWNzhaVFlrVVFuVTR1enFHMHRHTkFTWHFqMllaRUVl0gGoAUFVX3lxTE5XeUt2bG93M0NDSXpqelBFWHFqNVNvNm1XYkg3cG1QT2xRQ0tOUUs3V0VPZ0xJU0VZdVdOQVVHUDlfek0wWV84TXg2ZW10My1TdTBpMzFPOGxTT1FDSHJ1UXhxdlFQM1N2cTZiMGxCMGp3M1U5SlpBVlM3T2E2WVBsZXJoUmEzWkdLLVJxdFIzN09MeVFZdXhweDlQTlFXcndfVUtfMlJoZg?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNbnQxSUE4bmpCakxQU0R6VVhDMlVkdkp0NGw1TFhKVVBiUjJrdGxrWC1Za2E0YWF4OVFTSng0bTRtX3RwbHVISUVRWUk3ZFE1N3A1WmUxdjFCUWVZc2E4QVh3bGk0TUd0SlFMQnlCQ1hQVXVyNjI2cVlDNU84Q0p4dVpWNzhaVFlrVVFuVTR1enFHMHRHTkFTWHFqMllaRUVl0gGoAUFVX3lxTE5XeUt2bG93M0NDSXpqelBFWHFqNVNvNm1XYkg3cG1QT2xRQ0tOUUs3V0VPZ0xJU0VZdVdOQVVHUDlfek0wWV84TXg2ZW10My1TdTBpMzFPOGxTT1FDSHJ1UXhxdlFQM1N2cTZiMGxCMGp3M1U5SlpBVlM3T2E2WVBsZXJoUmEzWkdLLVJxdFIzN09MeVFZdXhweDlQTlFXcndfVUtfMlJoZg?oc=5\" target=\"_blank\">GM Pitches New LMR EV Battery On Earth, New EV On The Moon</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CleanTechnica</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 85,
+      "monitoring_importance": 70,
+      "monitor_score": 80,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "GM",
+        "LMR"
+      ],
+      "summary_3_sentences": [
+        "GM이 지구와 달을 위한 새로운 LMR EV 배터리와 EV를 공개했습니다.",
+        "이는 GM의 차세대 배터리 기술 개발 및 우주 탐사 분야에서의 활용 가능성을 보여줍니다.",
+        "GM은 혁신적인 배터리 기술을 통해 미래 모빌리티 시장을 선도하고자 합니다."
+      ]
+    },
+    {
+      "title": "‘It’s just a mess’: Officials say lithium batteries could spark more fires at Spartanburg warehouse",
+      "published_at": "2026-06-07",
+      "source": "FOX Carolina News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRzdSb1lYYUhLUVoweVYxbDFNZzVJOFpuZXhGWlFWRXpaaTNOT3BCUF8yQXZoMmI1cnZGaVFJZktHc1J5bXBkNFk0RkVqNXM0Z2lQaU51Yy1icHNLMlFTWlRNQzRyRF90bWlzWTE2Vk5JamI4SUhCM2lEUnBvc0VqbEhHc3dudXNKSFNFT0dMTFhfazRGcXfSAaoBQVVfeXFMTzFCTmpIYmFmdEF3d2E5Z1RzR3JSUEZVWEJyZ3JjeDRqZXZpRFVkZWRjQnl4WW9mcnZoTjAzNkRQOGppQ0ZBX0VXdnktUHdZQVlVR0RnWlNzeDFuWFpRLWZhbFZuTXBwanFVREVaMGtUdTMza1IwMXFUaDVERUk5ZUNVWmR5Yy1WVGY1RWNyX3ZiWnRIRHVHWmEyRXcwNXhSVHRwbHM5cVFhekE?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQRzdSb1lYYUhLUVoweVYxbDFNZzVJOFpuZXhGWlFWRXpaaTNOT3BCUF8yQXZoMmI1cnZGaVFJZktHc1J5bXBkNFk0RkVqNXM0Z2lQaU51Yy1icHNLMlFTWlRNQzRyRF90bWlzWTE2Vk5JamI4SUhCM2lEUnBvc0VqbEhHc3dudXNKSFNFT0dMTFhfazRGcXfSAaoBQVVfeXFMTzFCTmpIYmFmdEF3d2E5Z1RzR3JSUEZVWEJyZ3JjeDRqZXZpRFVkZWRjQnl4WW9mcnZoTjAzNkRQOGppQ0ZBX0VXdnktUHdZQVlVR0RnWlNzeDFuWFpRLWZhbFZuTXBwanFVREVaMGtUdTMza1IwMXFUaDVERUk5ZUNVWmR5Yy1WVGY1RWNyX3ZiWnRIRHVHWmEyRXcwNXhSVHRwbHM5cVFhekE?oc=5\" target=\"_blank\">‘It’s just a mess’: Officials say lithium batteries could spark more fires at Spartanburg warehouse</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX Carolina News</font>",
+      "provider": "google",
+      "related_links": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTDhkSkFWMXQ4bDJEdVFhWjhVRnVpLUJSd3pzNW5CaU9kVnhnRmh4WThVdnNsZGdCWHY3QXpkUVcwTzN0dV9iR0xWM1BrMGExa2RibEN6UjY5SHNWT01xSklSOG93emZEdXJPSTVjX1EzOHN6YVZIOXpxYlJyNXhxOHZ6dTZxT1J2NzlLR0lmVHd0YXpvdm9PTjZFT0tsaklkVHJzMngyTmUySlplUWlzTEJuaDFEMUs1UWl2QTA1dw?oc=5",
+        {
+          "source": "WYFF News 4",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdER5dGV3bW5ISTBQcEZ0aWVsdmFoYTI3U2xLcXUzNmpvdE5URjFnQmJRejFCb1dmR0FJRnEyUkIzbGlYNnd6TkFUaFdBVGU1ZDcwS2d5WW8tUDlTY0hVbjhjUW9vVThyS2luYTVEOGYxRFhuX3gtYmNFRlBMWnpXbkphbEJzcGZKVHpaWUxQR0p5THlLQ1g0RGtyOA?oc=5"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "battery_relevance": 80,
+      "monitoring_importance": 75,
+      "monitor_score": 78,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "FOX Carolina News",
+        "FOX"
+      ],
+      "summary_3_sentences": [
+        "스파르탄버그의 한 창고에서 리튬 배터리로 인한 화재 위험이 제기되었습니다.",
+        "관계자들은 리튬 배터리가 추가적인 화재를 유발할 수 있다고 경고했습니다.",
+        "이는 리튬 배터리 보관 및 취급에 대한 안전 관리의 중요성을 강조합니다."
+      ]
+    }
+  ]
+}
