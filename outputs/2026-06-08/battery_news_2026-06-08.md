@@ -1,0 +1,262 @@
+# 배터리 뉴스 데일리 브리핑 (2026-06-08 전날 기준)
+
+- 총 20건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 기타 | 2026-06-09 | kpenews.com | “반도체 호황에 성장력 올라탄다”..한솔케미칼, AI 반도체 수혜주로 ... | https://kpenews.com/View.aspx?No=4105626 | unknown |
+| 2 | 3 | cathode | 2026-06-09 | www.g-enews.com | 코스모화학, 141억 규모 2차 전지 양극재 원료 공급 | https://www.g-enews.com/view.php?ud=20260609101919310244093b5d4e_1 | unknown |
+| 3 | 3 | 전고체 | 2026-06-09 | www.etnews.com | 씨케이솔루션, 전고체 배터리용 세계 최대 제습장비 개발 | https://www.etnews.com/20260609000152 | unknown |
+| 4 | 3 | 전고체 | 2026-06-09 | www.cbci.co.kr | 한농화성·대주전자재료·이수스페셜티케미컬, 전고체 배터리 기대감에... | https://www.cbci.co.kr/news/articleView.html?idxno=580554 | unknown |
+| 5 | 3 | 기타 | 2026-06-09 | www.etnews.com | 삼진엘앤디, 2차전지 사업 가동률 80% 돌파…ESS·데이터센터 수요 대응 | https://www.etnews.com/20260609000048 | unknown |
+| 6 | 3 | 기타 | 2026-06-09 | www.newspim.com | [ANDA 포커스] 코윈테크, 현대차에 'AMR' 납품 본격화 | https://www.newspim.com/news/view/20260608000989 | unknown |
+| 7 | 3 | 장비 | 2026-06-09 | www.thebell.co.kr | [더벨][매니저 프로파일 \| 컴퍼니케이파트너스] 채정훈 부사장, 25년 반... | https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606041542170840103660 | unknown |
+| 8 | 3 | 장비 | 2026-06-09 | www.livebiz.today | [K-자동차 밸류업 체크] 피엔티, 실적 줄어도 여유만만...비밀은 넉넉한... | https://www.livebiz.today/news/articleView.html?idxno=202499 | unknown |
+| 9 | 3 | separator | 2026-06-09 | www.consumernews.co.kr | SK텔레콤, 지배구조 핵심지표 15건 모두 준수...SK오션플랜트, SK바이오... | http://www.consumernews.co.kr/news/articleView.html?idxno=757091 | unknown |
+| 10 | 3 | 기타 | 2026-06-09 | www.thefairnews.co.kr | [더페어 돋보기] 코스피 급락장 속 '팔자'에 실린 기술주…반도체·2차전... | https://www.thefairnews.co.kr/news/articleView.html?idxno=78953 | unknown |
+| 11 | 3 | 재활용 | 2026-06-08 | Nature | Sustainable battery recycling through spatial and technological alignment | https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xS2ZpaDRPNGVOR2pjbUxYVWs4eEk4WGlNT2FUS2VwSERTV1VKSGNnQXJSa2VUcEZ6TEI2MmltOHEyNkVpNWJZeDB5aEI3aUJ0bndiMy02QmxOQms0N1Fv?oc=5 | unknown |
+| 12 | 3 | 기타 | 2026-06-08 | American Battery Technology Company | Wins Appeal and Has US Department of Energy Grant Reinstated for $115 million Project for Commercial Scale Critical Mineral Lithium Refinery – American Battery Technology Company | https://news.google.com/rss/articles/CBMizAJBVV95cUxNMlhsM2VKay1QN05TV3V1YzNudFFweVh0QUZnbkxjU29hX0I5ZXpaMWM2Mmpla2tuVVowZDE3U2FzX0JXZGFZVEd5MnlhaEcwRFlpelJmdFZpZC04N1ZpY0w2YWNDRHpfTklYdVRlbDBfLWRINlh0V3JLcm1ZUzN0N25DMXd6WVZxVmZweG5mUzQtOVI3bWJEUWZmTXBwbVllNFpTcS1UREVodHNLVEpRaHlVZmRodWlEWTRHNmFvWFk4MzUzWllrbEE1YjRQeHRtODdrYjJOOUFXSWJVU05ObnhyZHpfbzdVdl9FV1VyMGV2dVFqNDBkNEtUbmsyLWNQdE43U2tFVVVKTE1zZkV5NmFCM19XNjI3SXR3M0pqVGdxMGo5SXpYM01XMERGMk1pZGpHdEFMYm9aaHU0VEw5S3dsYkIzdTljRDlOUQ?oc=5 | unknown |
+| 13 | 3 | 기타 | 2026-06-08 | Nature | Coating technologies for battery active materials | https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxdTROVXlfYnh2R2x2UTZOUjZ4SUFnbHc2T1hQaWlqb2xGQmxYQVBKR2FXTW82eXdYeDE0X0dQTDlFSUF4czdtSzVsZExyRXdRVHUyRlQyNDREaVR4Vm1v?oc=5 | unknown |
+| 14 | 3 | 재활용 | 2026-06-08 | Oklahoma Energy Today | A first for EV battery recycling law | https://news.google.com/rss/articles/CBMie0FVX3lxTE1xVGJrTVRMNjlkX1lmdUZZV3I4NmNwVzc5bnpEZmV6ZlNRemQyd1Z1UG54azJVZ0drVC0yWEs0aV9aTHdGaG5ycVBRbE94cFo0aDBRYlYtMUVKRmlGQWwxS1JiWF9DT1NYTnZBcDl5NHRwaG5vd3hVeFUyaw?oc=5 | unknown |
+| 15 | 3 | 기타 | 2026-06-08 | dailydispatch.com | Another lithium-ion battery fire reported at Dafter Township transfer station | https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVl8yR3FobW5ySldzOVI4aEpXOXlWU0tGYTVRcFlUS2ZVUThlUlpQaWg4bFlxc2xEY2l1MktWTGJnNVRGc1dEZ19yY1Uzbl8zc3BBOVdyMmt0c3JxVmZzeDZhR0hTQnZ2anRFa00zUnZpTFdBTlQ5WVFLdUl0cEJOdXUtZjRmbDZHZmNiSy1DTkhfWmRLZEhIZDkwVV92eGsxaGI1NHZJOXY4d0dzdkZjSlR4RnJMN0pCYlNwTDBJTWc?oc=5 | unknown |
+| 16 | 3 | 재활용 | 2026-06-08 | Tech Xplore | Recycling of electric vehicle batteries needs to be improved in Europe | https://news.google.com/rss/articles/CBMijAFBVV95cUxPTWdlZnllVkpCcVpDeUlOeEZETjNkT0U3VEFhSWJoNHZqUUZQTWhXUWNHZEhyeGFnZmtxaDA3MnduVGx0d09mdDNqZmVHR2pxYlZRNERidS1TYWJ4Ykdfb1R4T0drVmhfMVhrV3MwQmVUSnRUMDFCSzFfUjVNeWNIWmtxVXA0NWJYU0VyTw?oc=5 | unknown |
+| 17 | 3 | 재활용 | 2026-06-08 | Recycling Today | ABTC wins appeal, has $115M in DOE funds reinstated | https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2VCMDZ1Y0ViNHNwMXpnaEZiNzJOdW9XY19USXpOdndVMVNlOFRIWUlwaWpmVzhtTUR0eGdabEZFTnNMU3RWZHhEN3hGdDBkNTNxS1Z2VlRCeXB4aW5UdjIyMDVOcE5NLUJ1TGhzVDYzZUtmV09TY0otWG1EcjhuNFpORTlpX2FfLU9ULWNMTjlCcmNUYWNVcjRmeUhhZWFWZzVWNVdDYmJrdnlDMXZraTkwQnNrdzVlSkQzWGJLRTlPZHVMWGQzcA?oc=5 | unknown |
+| 18 | 3 | anode | 2026-06-08 | PR Newswire | Solidion Technology Granted 7 New Patents on Composite Anode Materials For Batteries Targeting Humanoid Robots, Space-Based Artificial Intelligence Data Centers and the Lunar Economy | https://news.google.com/rss/articles/CBMi2AJBVV95cUxQRlA4N3FFbFoycFRieGtNUWVtdk16RDFBcUhuTm80d0ZKRl9IZlRSSzJJNjl6cG9SaG5VQjRlLW8wb1JyMm9qTkhqejlwR3p6LS1pVFJfa0dydW5ra2dvR1RtekJwRTRiVmhxMG9pNXRIWDZCaTdEZ3owMzh4SVg0bzZ0RkhvT0Jkc1BzeEhJNWlvdjFRT3VTaTROVTZIUzRTa0pNaDlzOG01Z1h6XzlzdmdkSDJqNHdjUEVKZlpwVW80RmFTREtpQUxIQmlCeXdQNklMR0NfcmdwYS1RQmt2Nmo5RVBuN1B1SGdENWVteHZzTDk3S3hjaWNieVEzQXhDSG5UY3NkQWFqcXVZRDRua2o1a0pDX2plZ0pwZk1QcW0yTVdoZ25PT2w2VlZ6bjdjV3g1N2xkWFk3NmJqaW5Xd2pHSUZRNmF4N2Z2cWlET29kYTRjRUlISA?oc=5 | unknown |
+| 19 | 3 | 기타 | 2026-06-08 | Colorado Public Radio | June 8, 2026: EV battery disposal challenges; underage scooter injuries; more pay for cafeteria workers | https://news.google.com/rss/articles/CBMirwFBVV95cUxQUVB6VWlWdzdGdDdxaVhlejh0aTBaQ2lGMVVmTHhuMmdQZV9KSWY2VnVzLUdxX1E5b0NsbzFNNHBQQm5xOTBSOFN5Z1hrSlRkVkNoM0d5aUszUVdxN004NmhNQVRjRmRSMjZtTUZaUEw4bG52UFBITklRYlZZRm9iUWdxRDFQYU9uOUdHWWNjTFNpaFdlajN4ZWNFYU5aRENJbzVhdTROMVFSRmkwU2lR?oc=5 | unknown |
+| 20 | 3 | 기타 | 2026-06-08 | E&E News by POLITICO | DOE restores federal funding for Nevada lithium mine | https://news.google.com/rss/articles/CBMijgFBVV95cUxNMjNYRUtSWTlhTXFIX2hvdEdfbEpFX05vamR2QTBfbkVkUXJUZEJmSi0xT3FKR1lfaWlqZ0h5Tk44bFY1R214OVdIa3lYUHA2UVZwdGRuaWtsZmpOVnNIdW8wY04wcEtlTFNldy1Oam9paG9fMXFHSVVBa19KQXVwMXRiYTVTeng1SF9JUGxR?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. “반도체 호황에 성장력 올라탄다”..한솔케미칼, AI 반도체 수혜주로 ...
+- 발행일: 2026-06-09
+- 매체: kpenews.com (출처등급 3)
+- 분야: 기타
+- 링크: https://kpenews.com/View.aspx?No=4105626
+- 인기신호: unknown
+- 3문장 요약:
+  - (사진=네이버 포스트 캡쳐) ■ 반도체 넘어 배터리·QD 소재까지..성장 포트폴리오와 공급망 다각화 한솔케미칼은 반도체 소재 외에도 미래 성장동력 확보에 속도를 내고 있다.
+  - 회사는 2차전지 소재 사업을 통해 전기차...
+  - 은 반도체 소재 외에도 미래 성장동력 확보에 속도를 내고 있다. 회사는 2차전지 소재 사업을 통해 전기차...
+- 관련 기업: 2차전지, AI, QD
+
+### 2. 코스모화학, 141억 규모 2차 전지 양극재 원료 공급
+- 발행일: 2026-06-09
+- 매체: www.g-enews.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.g-enews.com/view.php?ud=20260609101919310244093b5d4e_1
+- 인기신호: unknown
+- 3문장 요약:
+  - 코스모스화학은 국내 유일의 이산화티타늄 생산기업이자 폐배터리 리사이클링 줌심의 2차전지 소재기업이다.
+  - 1968년 설립된 전통화학 기업에서 최근 친환경 미래 소재 기업으로 완벽하게 체질을 개선했다.
+  - 9일...
+- 관련 기업: 코스모화학, 코스모스화학, 2차전지
+
+### 3. 씨케이솔루션, 전고체 배터리용 세계 최대 제습장비 개발
+- 발행일: 2026-06-09
+- 매체: www.etnews.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.etnews.com/20260609000152
+- 인기신호: unknown
+- 3문장 요약:
+  - 2차전지 드라이룸 시스템에서는 세계 1위 일본 니치아스 제습로터의 국내 단독 공급권을 확보했으며, LG에너지솔루션·삼성SDI·SK온 등 국내 주요 배터리 제조사를 고객사로 두고 있다.
+  - 2차전지 드라이룸 시스템에서는 세계 1위 일본 니치아스 제습로터의 국내 단독 공급권을 확보했.
+  - 으며, LG에너지솔루션·삼성SDI·SK온 등 국내 주요 배터리 제조사를 고객사로 두고 있다.
+- 관련 기업: LG에너지솔루션, 삼성SDI, SK온
+
+### 4. 한농화성·대주전자재료·이수스페셜티케미컬, 전고체 배터리 기대감에...
+- 발행일: 2026-06-09
+- 매체: www.cbci.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.cbci.co.kr/news/articleView.html?idxno=580554
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리는 기존 리튬이온 배터리 대비 안전성과 에너지 밀도를 높일 수 있는 차세대 배터리 기술로 평가받으며 2차전지 업종 내 핵심 성장 분야로 꼽힌다.
+  - 9일 오전 증시에서는 전고체 배터리 관련주로 분류되는...
+  - 으며 2차전지 업종 내 핵심 성장 분야로 꼽힌다. 9일 오전 증시에서는 전고체 배터리 관련주로 분류되는...
+- 관련 기업: 한농화성·대주전자, 리튬이온, 2차전지
+
+### 5. 삼진엘앤디, 2차전지 사업 가동률 80% 돌파…ESS·데이터센터 수요 대응
+- 발행일: 2026-06-09
+- 매체: www.etnews.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.etnews.com/20260609000048
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼진엘앤디는 금형·사출 기반 제조 경쟁력을 바탕으로 2차전지와 정밀 사출 부품을 생산하는 기업이다.
+  - 주요 제품군은 원통형 배터리 가스켓, ESS 버스바 모듈, UPS 관련 부품 등이다.
+  - 기존 제조 역량을 기반으로 전력...
+- 관련 기업: 2차전지, UPS
+
+### 6. [ANDA 포커스] 코윈테크, 현대차에 'AMR' 납품 본격화
+- 발행일: 2026-06-09
+- 매체: www.newspim.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.newspim.com/news/view/20260608000989
+- 인기신호: unknown
+- 3문장 요약:
+  - 여기에 에너지저장장치(ESS)와 반도체 등으로 공급 영역까지 확대되면서 기존 2차전지 자동화 기업에서...
+  - 또한 이달에는 글로벌 대형 배터리 기업과 300억원 중반대 규모의 모바일 로봇 기반 자동화 시스템 공급...
+  - 또한 이달에는 글로벌 대형 배터리 기업과 300억원 중반대 규모의 모바일 로봇 기반 자동화 시스템 공급...
+- 관련 기업: 코윈테크, 2차전지, ANDA
+
+### 7. [더벨][매니저 프로파일 | 컴퍼니케이파트너스] 채정훈 부사장, 25년 반...
+- 발행일: 2026-06-09
+- 매체: www.thebell.co.kr (출처등급 3)
+- 분야: 장비
+- 링크: https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606041542170840103660
+- 인기신호: unknown
+- 3문장 요약:
+  - ◇트랙레코드 1 : 민테크·센코, 국산화 기업과 함께 성장 채 부사장의 대표 투자 사례 중 하나는 배터리 진단 솔루션 기업 민테크다.
+  - 민테크는 2차전지 신뢰성 검사 장비를 국산화한 기업으로 채 부사장이 초기 단계부터...
+  - 솔루션 기업 민테크다. 민테크는 2차전지 신뢰성 검사 장비를 국산화한 기업으로 채 부사장이 초기 단계부터...
+- 관련 기업: 2차전지
+
+### 8. [K-자동차 밸류업 체크] 피엔티, 실적 줄어도 여유만만...비밀은 넉넉한...
+- 발행일: 2026-06-09
+- 매체: www.livebiz.today (출처등급 3)
+- 분야: 장비
+- 링크: https://www.livebiz.today/news/articleView.html?idxno=202499
+- 인기신호: unknown
+- 3문장 요약:
+  - 전기차 캐즘(Chasm·일시적 수요 정체)의 파고가 2차전지 산업 전반을 덮치고 있다.
+  - 완성차 업계 수요 둔화에 이어 배터리 제조사의 계약 취소가 잇따르면서, 소부장(소재·부품·장비) 기업들도 연쇄적으로 타격을 입는...
+  - 에 이어 배터리 제조사의 계약 취소가 잇따르면서, 소부장(소재·부품·장비) 기업들도 연쇄적으로 타격을 입는...
+- 관련 기업: 2차전지
+
+### 9. SK텔레콤, 지배구조 핵심지표 15건 모두 준수...SK오션플랜트, SK바이오...
+- 발행일: 2026-06-09
+- 매체: www.consumernews.co.kr (출처등급 3)
+- 분야: separator
+- 링크: http://www.consumernews.co.kr/news/articleView.html?idxno=757091
+- 인기신호: unknown
+- 3문장 요약:
+  - SK아이이테크놀로지는 2차전지 분리막을 주력으로 하는 배터리 소재 계열사다.
+  - 배터리 소재 업황 부진으로 실적 부담이 이어지는 가운데 배당정책과 감사조직 독립성 등 주주권익·감사기구 관련 지표 개선도...
+  - 로 실적 부담이 이어지는 가운데 배당정책과 감사조직 독립성 등 주주권익·감사기구 관련 지표 개선도...
+- 관련 기업: SK아이이테크, 2차전지
+
+### 10. [더페어 돋보기] 코스피 급락장 속 '팔자'에 실린 기술주…반도체·2차전...
+- 발행일: 2026-06-09
+- 매체: www.thefairnews.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.thefairnews.co.kr/news/articleView.html?idxno=78953
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션과 POSCO홀딩스에서 외국인의 강한 매도세가 관측됐으며 에코프로비엠, 에코프로, LG화학 등 배터리 셀 및 소재 기업들로 매도 범위가 넓어졌다.
+  - 기관 투자자들 역시 리스크 관리 차원에서 2차전지 비중을...
+  - 터리 셀 및 소재 기업들로 매도 범위가 넓어졌다. 기관 투자자들 역시 리스크 관리 차원에서 2차전지 비중을...
+- 관련 기업: 에코프로비엠, 에코프로, LG화학
+
+### 11. Sustainable battery recycling through spatial and technological alignment
+- 발행일: 2026-06-08
+- 매체: Nature (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xS2ZpaDRPNGVOR2pjbUxYVWs4eEk4WGlNT2FUS2VwSERTV1VKSGNnQXJSa2VUcEZ6TEI2MmltOHEyNkVpNWJZeDB5aEI3aUJ0bndiMy02QmxOQms0N1Fv?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xS2ZpaDRPNGVOR2pjbUxYVWs4eEk4WGlNT2FUS2VwSERTV1VKSGNnQXJSa2VUcEZ6TEI2MmltOHEyNkVpNWJZeDB5aEI3aUJ0bndiMy02QmxOQms0N1Fv?oc=5" target="_blank">Sustainable battery recycling through spatial and technological alignment</a>&nbsp;&nbsp;<font color="#6f6f6f">Nature</font>.
+  - <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xS2ZpaDRPNGVOR2pjbUxYVWs4eEk4WGlNT2FUS2VwSERTV1VKSGNnQXJSa2VUcEZ6TEI2MmltOHEyNkVpNWJZeDB5aEI3aUJ0bndi.
+  - My02QmxOQms0N1Fv?oc=5" target="_blank">Sustainable battery recycling through spatial and technological alignment</a>&nbsp;&nbsp;<font color="#6f6f6f">Nature</font>.
+
+### 12. Wins Appeal and Has US Department of Energy Grant Reinstated for $115 million Project for Commercial Scale Critical Mineral Lithium Refinery – American Battery Technology Company
+- 발행일: 2026-06-08
+- 매체: American Battery Technology Company (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMizAJBVV95cUxNMlhsM2VKay1QN05TV3V1YzNudFFweVh0QUZnbkxjU29hX0I5ZXpaMWM2Mmpla2tuVVowZDE3U2FzX0JXZGFZVEd5MnlhaEcwRFlpelJmdFZpZC04N1ZpY0w2YWNDRHpfTklYdVRlbDBfLWRINlh0V3JLcm1ZUzN0N25DMXd6WVZxVmZweG5mUzQtOVI3bWJEUWZmTXBwbVllNFpTcS1UREVodHNLVEpRaHlVZmRodWlEWTRHNmFvWFk4MzUzWllrbEE1YjRQeHRtODdrYjJOOUFXSWJVU05ObnhyZHpfbzdVdl9FV1VyMGV2dVFqNDBkNEtUbmsyLWNQdE43U2tFVVVKTE1zZkV5NmFCM19XNjI3SXR3M0pqVGdxMGo5SXpYM01XMERGMk1pZGpHdEFMYm9aaHU0VEw5S3dsYkIzdTljRDlOUQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - <a href="https://news.google.com/rss/articles/CBMizAJBVV95cUxNMlhsM2VKay1QN05TV3V1YzNudFFweVh0QUZnbkxjU29hX0I5ZXpaMWM2Mmpla2tuVVowZDE3U2FzX0JXZGFZVEd5MnlhaEcwRFlpelJmdFZpZC04N1ZpY0w2YWNDRHpfTklYdVRlbDBfLWRINlh0V3JLcm1ZUzN0N25DMXd6WVZxVmZweG5mUzQtOVI3bWJEUWZmTXBwbVllNFpTcS1UREVodHNLVEpRaHlVZmRodWlEWTRHNmFvWFk4MzUzWllrbEE1YjRQeHRtODdrYjJOOUFXSWJVU05ObnhyZHpfbzdVdl9FV1VyMGV2dVFqNDBkNEtUbmsyLWNQdE43U2tFVVVKTE1zZkV5NmFCM19XNjI3SXR3M0pqVGdxMGo5SXpYM01XMERGMk1pZGpHdEFMYm9aaHU0VEw5S3dsYkIzdTljRDlOUQ?oc=5" target="_blank">Wins Appeal and Has US Department of Energy Grant Reinstated for $115 million Project for Commercial Scale Critical Mineral Lithium Refinery – American Battery Technology Company</a>&nbsp;&nbsp;<font color="#6f6f6f">American Battery Technology Company</font>.
+  - <a href="https://news.google.com/rss/articles/CBMizAJBVV95cUxNMlhsM2VKay1QN05TV3V1YzNudFFweVh0QUZnbkxjU29hX0I5ZXpaMWM2Mmpla2tuVVowZDE3U2FzX0JXZGFZVEd5MnlhaEcwRFlpelJmdFZpZC04N1ZpY0w2YWNDRHpfTklYdVRlbDBfLWRINlh0V3JLcm1ZUzN0N25DMXd6WVZxVmZweG5mUzQtOVI3bWJEUWZmTXBwbVllNFpTcS1UREVodHNLVEpRaHlVZmRodWlEWTRHNmFvWFk4MzUzWllrbEE1YjRQeHRtODdrYjJOOUFXSWJVU05ObnhyZHpfbzdVdl9FV1VyMGV2dVFqNDBkNEtUbm.
+  - syLWNQdE43U2tFVVVKTE1zZkV5NmFCM19XNjI3SXR3M0pqVGdxMGo5SXpYM01XMERGMk1pZGpHdEFMYm9aaHU0VEw5S3dsYkIzdTljRDlOUQ?oc=5" target="_blank">Wins Appeal and Has US Department of Energy Grant Reinstated for $115 million Project for Commercial Scale Critical Mineral Lithium Refinery – American Battery Technology Company</a>&nbsp;&nbsp;<font color="#6f6f6f">American Battery Technology Company</font>.
+- 관련 기업: US
+
+### 13. Coating technologies for battery active materials
+- 발행일: 2026-06-08
+- 매체: Nature (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxdTROVXlfYnh2R2x2UTZOUjZ4SUFnbHc2T1hQaWlqb2xGQmxYQVBKR2FXTW82eXdYeDE0X0dQTDlFSUF4czdtSzVsZExyRXdRVHUyRlQyNDREaVR4Vm1v?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxdTROVXlfYnh2R2x2UTZOUjZ4SUFnbHc2T1hQaWlqb2xGQmxYQVBKR2FXTW82eXdYeDE0X0dQTDlFSUF4czdtSzVsZExyRXdRVHUyRlQyNDREaVR4Vm1v?oc=5" target="_blank">Coating technologies for battery active materials</a>&nbsp;&nbsp;<font color="#6f6f6f">Nature</font>.
+  - <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxdTROVXlfYnh2R2x2UTZOUjZ4SUFnbHc2T1hQaWlqb2xGQmxYQVBKR2FXTW82eXdYeDE0X0dQTDlFSUF4czdtSzVs.
+  - ZExyRXdRVHUyRlQyNDREaVR4Vm1v?oc=5" target="_blank">Coating technologies for battery active materials</a>&nbsp;&nbsp;<font color="#6f6f6f">Nature</font>.
+
+### 14. A first for EV battery recycling law
+- 발행일: 2026-06-08
+- 매체: Oklahoma Energy Today (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMie0FVX3lxTE1xVGJrTVRMNjlkX1lmdUZZV3I4NmNwVzc5bnpEZmV6ZlNRemQyd1Z1UG54azJVZ0drVC0yWEs0aV9aTHdGaG5ycVBRbE94cFo0aDBRYlYtMUVKRmlGQWwxS1JiWF9DT1NYTnZBcDl5NHRwaG5vd3hVeFUyaw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE1xVGJrTVRMNjlkX1lmdUZZV3I4NmNwVzc5bnpEZmV6ZlNRemQyd1Z1UG54azJVZ0drVC0yWEs0aV9aTHdGaG5ycVBRbE94cFo0aDBRYlYtMUVKRmlGQWwxS1JiWF9DT1NYTnZBcDl5NHRwaG5vd3hVeFUyaw?oc=5" target="_blank">A first for EV battery recycling law</a>&nbsp;&nbsp;<font color="#6f6f6f">Oklahoma Energy Today</font>.
+  - <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE1xVGJrTVRMNjlkX1lmdUZZV3I4NmNwVzc5bnpEZmV6ZlNRemQyd1Z1UG54azJVZ0drVC0yWEs0aV9aTHdGaG5ycVBRbE94cFo0aDBRYlYtMUVK.
+  - RmlGQWwxS1JiWF9DT1NYTnZBcDl5NHRwaG5vd3hVeFUyaw?oc=5" target="_blank">A first for EV battery recycling law</a>&nbsp;&nbsp;<font color="#6f6f6f">Oklahoma Energy Today</font>.
+
+### 15. Another lithium-ion battery fire reported at Dafter Township transfer station
+- 발행일: 2026-06-08
+- 매체: dailydispatch.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVl8yR3FobW5ySldzOVI4aEpXOXlWU0tGYTVRcFlUS2ZVUThlUlpQaWg4bFlxc2xEY2l1MktWTGJnNVRGc1dEZ19yY1Uzbl8zc3BBOVdyMmt0c3JxVmZzeDZhR0hTQnZ2anRFa00zUnZpTFdBTlQ5WVFLdUl0cEJOdXUtZjRmbDZHZmNiSy1DTkhfWmRLZEhIZDkwVV92eGsxaGI1NHZJOXY4d0dzdkZjSlR4RnJMN0pCYlNwTDBJTWc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVl8yR3FobW5ySldzOVI4aEpXOXlWU0tGYTVRcFlUS2ZVUThlUlpQaWg4bFlxc2xEY2l1MktWTGJnNVRGc1dEZ19yY1Uzbl8zc3BBOVdyMmt0c3JxVmZzeDZhR0hTQnZ2anRFa00zUnZpTFdBTlQ5WVFLdUl0cEJOdXUtZjRmbDZHZmNiSy1DTkhfWmRLZEhIZDkwVV92eGsxaGI1NHZJOXY4d0dzdkZjSlR4RnJMN0pCYlNwTDBJTWc?oc=5" target="_blank">Another lithium-ion battery fire reported at Dafter Township transfer station</a>&nbsp;&nbsp;<font color="#6f6f6f">dailydispatch.com</font>.
+  - <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVl8yR3FobW5ySldzOVI4aEpXOXlWU0tGYTVRcFlUS2ZVUThlUlpQaWg4bFlxc2xEY2l1MktWTGJnNVRGc1dEZ19yY1Uzbl8zc3BBOVdyMmt0c3JxVmZzeDZhR0hTQnZ2anRFa00zUnZpTFdBTlQ5WVFLdUl0cEJOdXUtZjRmbDZHZ.
+  - mNiSy1DTkhfWmRLZEhIZDkwVV92eGsxaGI1NHZJOXY4d0dzdkZjSlR4RnJMN0pCYlNwTDBJTWc?oc=5" target="_blank">Another lithium-ion battery fire reported at Dafter Township transfer station</a>&nbsp;&nbsp;<font color="#6f6f6f">dailydispatch.com</font>.
+
+### 16. Recycling of electric vehicle batteries needs to be improved in Europe
+- 발행일: 2026-06-08
+- 매체: Tech Xplore (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMijAFBVV95cUxPTWdlZnllVkpCcVpDeUlOeEZETjNkT0U3VEFhSWJoNHZqUUZQTWhXUWNHZEhyeGFnZmtxaDA3MnduVGx0d09mdDNqZmVHR2pxYlZRNERidS1TYWJ4Ykdfb1R4T0drVmhfMVhrV3MwQmVUSnRUMDFCSzFfUjVNeWNIWmtxVXA0NWJYU0VyTw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPTWdlZnllVkpCcVpDeUlOeEZETjNkT0U3VEFhSWJoNHZqUUZQTWhXUWNHZEhyeGFnZmtxaDA3MnduVGx0d09mdDNqZmVHR2pxYlZRNERidS1TYWJ4Ykdfb1R4T0drVmhfMVhrV3MwQmVUSnRUMDFCSzFfUjVNeWNIWmtxVXA0NWJYU0VyTw?oc=5" target="_blank">Recycling of electric vehicle batteries needs to be improved in Europe</a>&nbsp;&nbsp;<font color="#6f6f6f">Tech Xplore</font>.
+  - <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPTWdlZnllVkpCcVpDeUlOeEZETjNkT0U3VEFhSWJoNHZqUUZQTWhXUWNHZEhyeGFnZmtxaDA3MnduVGx0d09mdDNqZmVHR2pxYlZRNERidS1TYWJ4Ykdfb1R4T0drVmhfMVhr.
+  - V3MwQmVUSnRUMDFCSzFfUjVNeWNIWmtxVXA0NWJYU0VyTw?oc=5" target="_blank">Recycling of electric vehicle batteries needs to be improved in Europe</a>&nbsp;&nbsp;<font color="#6f6f6f">Tech Xplore</font>.
+
+### 17. ABTC wins appeal, has $115M in DOE funds reinstated
+- 발행일: 2026-06-08
+- 매체: Recycling Today (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2VCMDZ1Y0ViNHNwMXpnaEZiNzJOdW9XY19USXpOdndVMVNlOFRIWUlwaWpmVzhtTUR0eGdabEZFTnNMU3RWZHhEN3hGdDBkNTNxS1Z2VlRCeXB4aW5UdjIyMDVOcE5NLUJ1TGhzVDYzZUtmV09TY0otWG1EcjhuNFpORTlpX2FfLU9ULWNMTjlCcmNUYWNVcjRmeUhhZWFWZzVWNVdDYmJrdnlDMXZraTkwQnNrdzVlSkQzWGJLRTlPZHVMWGQzcA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - <a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2VCMDZ1Y0ViNHNwMXpnaEZiNzJOdW9XY19USXpOdndVMVNlOFRIWUlwaWpmVzhtTUR0eGdabEZFTnNMU3RWZHhEN3hGdDBkNTNxS1Z2VlRCeXB4aW5UdjIyMDVOcE5NLUJ1TGhzVDYzZUtmV09TY0otWG1EcjhuNFpORTlpX2FfLU9ULWNMTjlCcmNUYWNVcjRmeUhhZWFWZzVWNVdDYmJrdnlDMXZraTkwQnNrdzVlSkQzWGJLRTlPZHVMWGQzcA?oc=5" target="_blank">ABTC wins appeal, has $115M in DOE funds reinstated</a>&nbsp;&nbsp;<font color="#6f6f6f">Recycling Today</font>.
+  - <a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2VCMDZ1Y0ViNHNwMXpnaEZiNzJOdW9XY19USXpOdndVMVNlOFRIWUlwaWpmVzhtTUR0eGdabEZFTnNMU3RWZHhEN3hGdDBkNTNxS1Z2VlRCeXB4aW5UdjIyMDVOcE5NLUJ1TGhzVDYzZUtmV09TY0otWG1EcjhuNFpOR.
+  - TlpX2FfLU9ULWNMTjlCcmNUYWNVcjRmeUhhZWFWZzVWNVdDYmJrdnlDMXZraTkwQnNrdzVlSkQzWGJLRTlPZHVMWGQzcA?oc=5" target="_blank">ABTC wins appeal, has $115M in DOE funds reinstated</a>&nbsp;&nbsp;<font color="#6f6f6f">Recycling Today</font>.
+- 관련 기업: ABTC, DOE
+
+### 18. Solidion Technology Granted 7 New Patents on Composite Anode Materials For Batteries Targeting Humanoid Robots, Space-Based Artificial Intelligence Data Centers and the Lunar Economy
+- 발행일: 2026-06-08
+- 매체: PR Newswire (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMi2AJBVV95cUxQRlA4N3FFbFoycFRieGtNUWVtdk16RDFBcUhuTm80d0ZKRl9IZlRSSzJJNjl6cG9SaG5VQjRlLW8wb1JyMm9qTkhqejlwR3p6LS1pVFJfa0dydW5ra2dvR1RtekJwRTRiVmhxMG9pNXRIWDZCaTdEZ3owMzh4SVg0bzZ0RkhvT0Jkc1BzeEhJNWlvdjFRT3VTaTROVTZIUzRTa0pNaDlzOG01Z1h6XzlzdmdkSDJqNHdjUEVKZlpwVW80RmFTREtpQUxIQmlCeXdQNklMR0NfcmdwYS1RQmt2Nmo5RVBuN1B1SGdENWVteHZzTDk3S3hjaWNieVEzQXhDSG5UY3NkQWFqcXVZRDRua2o1a0pDX2plZ0pwZk1QcW0yTVdoZ25PT2w2VlZ6bjdjV3g1N2xkWFk3NmJqaW5Xd2pHSUZRNmF4N2Z2cWlET29kYTRjRUlISA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - <a href="https://news.google.com/rss/articles/CBMi2AJBVV95cUxQRlA4N3FFbFoycFRieGtNUWVtdk16RDFBcUhuTm80d0ZKRl9IZlRSSzJJNjl6cG9SaG5VQjRlLW8wb1JyMm9qTkhqejlwR3p6LS1pVFJfa0dydW5ra2dvR1RtekJwRTRiVmhxMG9pNXRIWDZCaTdEZ3owMzh4SVg0bzZ0RkhvT0Jkc1BzeEhJNWlvdjFRT3VTaTROVTZIUzRTa0pNaDlzOG01Z1h6XzlzdmdkSDJqNHdjUEVKZlpwVW80RmFTREtpQUxIQmlCeXdQNklMR0NfcmdwYS1RQmt2Nmo5RVBuN1B1SGdENWVteHZzTDk3S3hjaWNieVEzQXhDSG5UY3NkQWFqcXVZRDRua2o1a0pDX2plZ0pwZk1QcW0yTVdoZ25PT2w2VlZ6bjdjV3g1N2xkWFk3NmJqaW5Xd2pHSUZRNmF4N2Z2cWlET29kYTRjRUlISA?oc=5" target="_blank">Solidion Technology Granted 7 New Patents on Composite Anode Materials For Batteries Targeting Humanoid Robots, Space-Based Artificial Intelligence Data Centers and the Lunar Economy</a>&nbsp;&nbsp;<font color="#6f6f6f">PR Newswire</font>.
+  - <a href="https://news.google.com/rss/articles/CBMi2AJBVV95cUxQRlA4N3FFbFoycFRieGtNUWVtdk16RDFBcUhuTm80d0ZKRl9IZlRSSzJJNjl6cG9SaG5VQjRlLW8wb1JyMm9qTkhqejlwR3p6LS1pVFJfa0dydW5ra2dvR1RtekJwRTRiVmhxMG9pNXRIWDZCaTdEZ3owMzh4SVg0bzZ0RkhvT0Jkc1BzeEhJNWlvdjFRT3VTaTROVTZIUzRTa0pNaDlzOG01Z1h6XzlzdmdkSDJqNHdjUEVKZlpwVW80RmFTREtpQUxIQmlCeXdQNklMR0NfcmdwYS1RQmt2Nmo5RVBuN1B1SGdENWVteHZzTDk3S3hjaWNi.
+  - eVEzQXhDSG5UY3NkQWFqcXVZRDRua2o1a0pDX2plZ0pwZk1QcW0yTVdoZ25PT2w2VlZ6bjdjV3g1N2xkWFk3NmJqaW5Xd2pHSUZRNmF4N2Z2cWlET29kYTRjRUlISA?oc=5" target="_blank">Solidion Technology Granted 7 New Patents on Composite Anode Materials For Batteries Targeting Humanoid Robots, Space-Based Artificial Intelligence Data Centers and the Lunar Economy</a>&nbsp;&nbsp;<font color="#6f6f6f">PR Newswire</font>.
+- 관련 기업: PR
+
+### 19. June 8, 2026: EV battery disposal challenges; underage scooter injuries; more pay for cafeteria workers
+- 발행일: 2026-06-08
+- 매체: Colorado Public Radio (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMirwFBVV95cUxQUVB6VWlWdzdGdDdxaVhlejh0aTBaQ2lGMVVmTHhuMmdQZV9KSWY2VnVzLUdxX1E5b0NsbzFNNHBQQm5xOTBSOFN5Z1hrSlRkVkNoM0d5aUszUVdxN004NmhNQVRjRmRSMjZtTUZaUEw4bG52UFBITklRYlZZRm9iUWdxRDFQYU9uOUdHWWNjTFNpaFdlajN4ZWNFYU5aRENJbzVhdTROMVFSRmkwU2lR?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQUVB6VWlWdzdGdDdxaVhlejh0aTBaQ2lGMVVmTHhuMmdQZV9KSWY2VnVzLUdxX1E5b0NsbzFNNHBQQm5xOTBSOFN5Z1hrSlRkVkNoM0d5aUszUVdxN004NmhNQVRjRmRSMjZtTUZaUEw4bG52UFBITklRYlZZRm9iUWdxRDFQYU9uOUdHWWNjTFNpaFdlajN4ZWNFYU5aRENJbzVhdTROMVFSRmkwU2lR?oc=5" target="_blank">June 8, 2026: EV battery disposal challenges; underage scooter injuries; more pay for cafeteria workers</a>&nbsp;&nbsp;<font color="#6f6f6f">Colorado Public Radio</font>.
+  - <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQUVB6VWlWdzdGdDdxaVhlejh0aTBaQ2lGMVVmTHhuMmdQZV9KSWY2VnVzLUdxX1E5b0NsbzFNNHBQQm5xOTBSOFN5Z1hrSlRkVkNoM0d5aUszUVdxN004NmhNQVRjRmRSMjZtTUZaUEw4bG52UFBITklRYlZZRm9iUWdxRDFQYU9uOUdHW.
+  - WNjTFNpaFdlajN4ZWNFYU5aRENJbzVhdTROMVFSRmkwU2lR?oc=5" target="_blank">June 8, 2026: EV battery disposal challenges; underage scooter injuries; more pay for cafeteria workers</a>&nbsp;&nbsp;<font color="#6f6f6f">Colorado Public Radio</font>.
+
+### 20. DOE restores federal funding for Nevada lithium mine
+- 발행일: 2026-06-08
+- 매체: E&E News by POLITICO (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMijgFBVV95cUxNMjNYRUtSWTlhTXFIX2hvdEdfbEpFX05vamR2QTBfbkVkUXJUZEJmSi0xT3FKR1lfaWlqZ0h5Tk44bFY1R214OVdIa3lYUHA2UVZwdGRuaWtsZmpOVnNIdW8wY04wcEtlTFNldy1Oam9paG9fMXFHSVVBa19KQXVwMXRiYTVTeng1SF9JUGxR?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNMjNYRUtSWTlhTXFIX2hvdEdfbEpFX05vamR2QTBfbkVkUXJUZEJmSi0xT3FKR1lfaWlqZ0h5Tk44bFY1R214OVdIa3lYUHA2UVZwdGRuaWtsZmpOVnNIdW8wY04wcEtlTFNldy1Oam9paG9fMXFHSVVBa19KQXVwMXRiYTVTeng1SF9JUGxR?oc=5" target="_blank">DOE restores federal funding for Nevada lithium mine</a>&nbsp;&nbsp;<font color="#6f6f6f">E&amp;E News by POLITICO</font>.
+  - <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNMjNYRUtSWTlhTXFIX2hvdEdfbEpFX05vamR2QTBfbkVkUXJUZEJmSi0xT3FKR1lfaWlqZ0h5Tk44bFY1R214OVdIa3lYUHA2UVZwdGRuaWtsZmpOVnNIdW8wY04wcEtlTFN.
+  - ldy1Oam9paG9fMXFHSVVBa19KQXVwMXRiYTVTeng1SF9JUGxR?oc=5" target="_blank">DOE restores federal funding for Nevada lithium mine</a>&nbsp;&nbsp;<font color="#6f6f6f">E&amp;E News by POLITICO</font>.
+- 관련 기업: DOE

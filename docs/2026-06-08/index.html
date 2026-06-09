@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-06-08</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-06-08 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-etc" href="https://kpenews.com/View.aspx?No=4105626" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">“반도체 호황에 성장력 올라탄다”..한솔케미칼, AI 반도체 수혜주로 ...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">kpenews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">2차전지</span><span class="chip">AI</span><span class="chip">QD</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>(사진=네이버 포스트 캡쳐) ■ 반도체 넘어 배터리·QD 소재까지..성장 포트폴리오와 공급망 다각화 한솔케미칼은 반도체 소재 외에도 미래 성장동력 확보에 속도를 내고 있다.</li><li>회사는 2차전지 소재 사업을 통해 전기차...</li><li>은 반도체 소재 외에도 미래 성장동력 확보에 속도를 내고 있다. 회사는 2차전지 소재 사업을 통해 전기차...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-09</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.g-enews.com/view.php?ud=20260609101919310244093b5d4e_1" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">코스모화학, 141억 규모 2차 전지 양극재 원료 공급</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.g-enews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">코스모화학</span><span class="chip">코스모스화학</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>코스모스화학은 국내 유일의 이산화티타늄 생산기업이자 폐배터리 리사이클링 줌심의 2차전지 소재기업이다.</li><li>1968년 설립된 전통화학 기업에서 최근 친환경 미래 소재 기업으로 완벽하게 체질을 개선했다.</li><li>9일...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-09</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.etnews.com/20260609000152" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">씨케이솔루션, 전고체 배터리용 세계 최대 제습장비 개발</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.etnews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">삼성SDI</span><span class="chip">SK온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>2차전지 드라이룸 시스템에서는 세계 1위 일본 니치아스 제습로터의 국내 단독 공급권을 확보했으며, LG에너지솔루션·삼성SDI·SK온 등 국내 주요 배터리 제조사를 고객사로 두고 있다.</li><li>2차전지 드라이룸 시스템에서는 세계 1위 일본 니치아스 제습로터의 국내 단독 공급권을 확보했.</li><li>으며, LG에너지솔루션·삼성SDI·SK온 등 국내 주요 배터리 제조사를 고객사로 두고 있다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-09</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.cbci.co.kr/news/articleView.html?idxno=580554" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">한농화성·대주전자재료·이수스페셜티케미컬, 전고체 배터리 기대감에...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.cbci.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">한농화성·대주전자</span><span class="chip">리튬이온</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전고체 배터리는 기존 리튬이온 배터리 대비 안전성과 에너지 밀도를 높일 수 있는 차세대 배터리 기술로 평가받으며 2차전지 업종 내 핵심 성장 분야로 꼽힌다.</li><li>9일 오전 증시에서는 전고체 배터리 관련주로 분류되는...</li><li>으며 2차전지 업종 내 핵심 성장 분야로 꼽힌다. 9일 오전 증시에서는 전고체 배터리 관련주로 분류되는...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-09</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.etnews.com/20260609000048" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">삼진엘앤디, 2차전지 사업 가동률 80% 돌파…ESS·데이터센터 수요 대응</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.etnews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">2차전지</span><span class="chip">UPS</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>삼진엘앤디는 금형·사출 기반 제조 경쟁력을 바탕으로 2차전지와 정밀 사출 부품을 생산하는 기업이다.</li><li>주요 제품군은 원통형 배터리 가스켓, ESS 버스바 모듈, UPS 관련 부품 등이다.</li><li>기존 제조 역량을 기반으로 전력...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-09</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.newspim.com/news/view/20260608000989" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[ANDA 포커스] 코윈테크, 현대차에 &#x27;AMR&#x27; 납품 본격화</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.newspim.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">코윈테크</span><span class="chip">2차전지</span><span class="chip">ANDA</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>여기에 에너지저장장치(ESS)와 반도체 등으로 공급 영역까지 확대되면서 기존 2차전지 자동화 기업에서...</li><li>또한 이달에는 글로벌 대형 배터리 기업과 300억원 중반대 규모의 모바일 로봇 기반 자동화 시스템 공급...</li><li>또한 이달에는 글로벌 대형 배터리 기업과 300억원 중반대 규모의 모바일 로봇 기반 자동화 시스템 공급...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-09</div>
+          </div>
+        </a>
+        
+        <a class="card cat-equipment" href="https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606041542170840103660" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">장비</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[더벨][매니저 프로파일 | 컴퍼니케이파트너스] 채정훈 부사장, 25년 반...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.thebell.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>◇트랙레코드 1 : 민테크·센코, 국산화 기업과 함께 성장 채 부사장의 대표 투자 사례 중 하나는 배터리 진단 솔루션 기업 민테크다.</li><li>민테크는 2차전지 신뢰성 검사 장비를 국산화한 기업으로 채 부사장이 초기 단계부터...</li><li>솔루션 기업 민테크다. 민테크는 2차전지 신뢰성 검사 장비를 국산화한 기업으로 채 부사장이 초기 단계부터...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-09</div>
+          </div>
+        </a>
+        
+        <a class="card cat-equipment" href="https://www.livebiz.today/news/articleView.html?idxno=202499" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">장비</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[K-자동차 밸류업 체크] 피엔티, 실적 줄어도 여유만만...비밀은 넉넉한...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.livebiz.today</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전기차 캐즘(Chasm·일시적 수요 정체)의 파고가 2차전지 산업 전반을 덮치고 있다.</li><li>완성차 업계 수요 둔화에 이어 배터리 제조사의 계약 취소가 잇따르면서, 소부장(소재·부품·장비) 기업들도 연쇄적으로 타격을 입는...</li><li>에 이어 배터리 제조사의 계약 취소가 잇따르면서, 소부장(소재·부품·장비) 기업들도 연쇄적으로 타격을 입는...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-09</div>
+          </div>
+        </a>
+        
+        <a class="card cat-separator" href="http://www.consumernews.co.kr/news/articleView.html?idxno=757091" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">separator</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">SK텔레콤, 지배구조 핵심지표 15건 모두 준수...SK오션플랜트, SK바이오...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.consumernews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SK아이이테크</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>SK아이이테크놀로지는 2차전지 분리막을 주력으로 하는 배터리 소재 계열사다.</li><li>배터리 소재 업황 부진으로 실적 부담이 이어지는 가운데 배당정책과 감사조직 독립성 등 주주권익·감사기구 관련 지표 개선도...</li><li>로 실적 부담이 이어지는 가운데 배당정책과 감사조직 독립성 등 주주권익·감사기구 관련 지표 개선도...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-09</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.thefairnews.co.kr/news/articleView.html?idxno=78953" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[더페어 돋보기] 코스피 급락장 속 &#x27;팔자&#x27;에 실린 기술주…반도체·2차전...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.thefairnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">에코프로비엠</span><span class="chip">에코프로</span><span class="chip">LG화학</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG에너지솔루션과 POSCO홀딩스에서 외국인의 강한 매도세가 관측됐으며 에코프로비엠, 에코프로, LG화학 등 배터리 셀 및 소재 기업들로 매도 범위가 넓어졌다.</li><li>기관 투자자들 역시 리스크 관리 차원에서 2차전지 비중을...</li><li>터리 셀 및 소재 기업들로 매도 범위가 넓어졌다. 기관 투자자들 역시 리스크 관리 차원에서 2차전지 비중을...</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-09</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xS2ZpaDRPNGVOR2pjbUxYVWs4eEk4WGlNT2FUS2VwSERTV1VKSGNnQXJSa2VUcEZ6TEI2MmltOHEyNkVpNWJZeDB5aEI3aUJ0bndiMy02QmxOQms0N1Fv?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Sustainable battery recycling through spatial and technological alignment</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Nature</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xS2ZpaDRPNGVOR2pjbUxYVWs4eEk4WGlNT2FUS2VwSERTV1VKSGNnQXJSa2VUcEZ6TEI2MmltOHEyNkVpNWJZeDB5aEI3aUJ0bndiMy02QmxOQms0N1Fv?oc=5&quot; target=&quot;_blank&quot;&gt;Sustainable battery recycling through spatial and technological alignment&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Nature&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xS2ZpaDRPNGVOR2pjbUxYVWs4eEk4WGlNT2FUS2VwSERTV1VKSGNnQXJSa2VUcEZ6TEI2MmltOHEyNkVpNWJZeDB5aEI3aUJ0bndi.</li><li>My02QmxOQms0N1Fv?oc=5&quot; target=&quot;_blank&quot;&gt;Sustainable battery recycling through spatial and technological alignment&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Nature&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMizAJBVV95cUxNMlhsM2VKay1QN05TV3V1YzNudFFweVh0QUZnbkxjU29hX0I5ZXpaMWM2Mmpla2tuVVowZDE3U2FzX0JXZGFZVEd5MnlhaEcwRFlpelJmdFZpZC04N1ZpY0w2YWNDRHpfTklYdVRlbDBfLWRINlh0V3JLcm1ZUzN0N25DMXd6WVZxVmZweG5mUzQtOVI3bWJEUWZmTXBwbVllNFpTcS1UREVodHNLVEpRaHlVZmRodWlEWTRHNmFvWFk4MzUzWllrbEE1YjRQeHRtODdrYjJOOUFXSWJVU05ObnhyZHpfbzdVdl9FV1VyMGV2dVFqNDBkNEtUbmsyLWNQdE43U2tFVVVKTE1zZkV5NmFCM19XNjI3SXR3M0pqVGdxMGo5SXpYM01XMERGMk1pZGpHdEFMYm9aaHU0VEw5S3dsYkIzdTljRDlOUQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Wins Appeal and Has US Department of Energy Grant Reinstated for $115 million Project for Commercial Scale Critical Mineral Lithium Refinery – American Battery Technology Company</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">American Battery Technology Company</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">US</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMizAJBVV95cUxNMlhsM2VKay1QN05TV3V1YzNudFFweVh0QUZnbkxjU29hX0I5ZXpaMWM2Mmpla2tuVVowZDE3U2FzX0JXZGFZVEd5MnlhaEcwRFlpelJmdFZpZC04N1ZpY0w2YWNDRHpfTklYdVRlbDBfLWRINlh0V3JLcm1ZUzN0N25DMXd6WVZxVmZweG5mUzQtOVI3bWJEUWZmTXBwbVllNFpTcS1UREVodHNLVEpRaHlVZmRodWlEWTRHNmFvWFk4MzUzWllrbEE1YjRQeHRtODdrYjJOOUFXSWJVU05ObnhyZHpfbzdVdl9FV1VyMGV2dVFqNDBkNEtUbmsyLWNQdE43U2tFVVVKTE1zZkV5NmFCM19XNjI3SXR3M0pqVGdxMGo5SXpYM01XMERGMk1pZGpHdEFMYm9aaHU0VEw5S3dsYkIzdTljRDlOUQ?oc=5&quot; target=&quot;_blank&quot;&gt;Wins Appeal and Has US Department of Energy Grant Reinstated for $115 million Project for Commercial Scale Critical Mineral Lithium Refinery – American Battery Technology Company&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;American Battery Technology Company&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMizAJBVV95cUxNMlhsM2VKay1QN05TV3V1YzNudFFweVh0QUZnbkxjU29hX0I5ZXpaMWM2Mmpla2tuVVowZDE3U2FzX0JXZGFZVEd5MnlhaEcwRFlpelJmdFZpZC04N1ZpY0w2YWNDRHpfTklYdVRlbDBfLWRINlh0V3JLcm1ZUzN0N25DMXd6WVZxVmZweG5mUzQtOVI3bWJEUWZmTXBwbVllNFpTcS1UREVodHNLVEpRaHlVZmRodWlEWTRHNmFvWFk4MzUzWllrbEE1YjRQeHRtODdrYjJOOUFXSWJVU05ObnhyZHpfbzdVdl9FV1VyMGV2dVFqNDBkNEtUbm.</li><li>syLWNQdE43U2tFVVVKTE1zZkV5NmFCM19XNjI3SXR3M0pqVGdxMGo5SXpYM01XMERGMk1pZGpHdEFMYm9aaHU0VEw5S3dsYkIzdTljRDlOUQ?oc=5&quot; target=&quot;_blank&quot;&gt;Wins Appeal and Has US Department of Energy Grant Reinstated for $115 million Project for Commercial Scale Critical Mineral Lithium Refinery – American Battery Technology Company&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;American Battery Technology Company&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxdTROVXlfYnh2R2x2UTZOUjZ4SUFnbHc2T1hQaWlqb2xGQmxYQVBKR2FXTW82eXdYeDE0X0dQTDlFSUF4czdtSzVsZExyRXdRVHUyRlQyNDREaVR4Vm1v?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Coating technologies for battery active materials</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Nature</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxdTROVXlfYnh2R2x2UTZOUjZ4SUFnbHc2T1hQaWlqb2xGQmxYQVBKR2FXTW82eXdYeDE0X0dQTDlFSUF4czdtSzVsZExyRXdRVHUyRlQyNDREaVR4Vm1v?oc=5&quot; target=&quot;_blank&quot;&gt;Coating technologies for battery active materials&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Nature&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxdTROVXlfYnh2R2x2UTZOUjZ4SUFnbHc2T1hQaWlqb2xGQmxYQVBKR2FXTW82eXdYeDE0X0dQTDlFSUF4czdtSzVs.</li><li>ZExyRXdRVHUyRlQyNDREaVR4Vm1v?oc=5&quot; target=&quot;_blank&quot;&gt;Coating technologies for battery active materials&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Nature&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE1xVGJrTVRMNjlkX1lmdUZZV3I4NmNwVzc5bnpEZmV6ZlNRemQyd1Z1UG54azJVZ0drVC0yWEs0aV9aTHdGaG5ycVBRbE94cFo0aDBRYlYtMUVKRmlGQWwxS1JiWF9DT1NYTnZBcDl5NHRwaG5vd3hVeFUyaw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">A first for EV battery recycling law</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Oklahoma Energy Today</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMie0FVX3lxTE1xVGJrTVRMNjlkX1lmdUZZV3I4NmNwVzc5bnpEZmV6ZlNRemQyd1Z1UG54azJVZ0drVC0yWEs0aV9aTHdGaG5ycVBRbE94cFo0aDBRYlYtMUVKRmlGQWwxS1JiWF9DT1NYTnZBcDl5NHRwaG5vd3hVeFUyaw?oc=5&quot; target=&quot;_blank&quot;&gt;A first for EV battery recycling law&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Oklahoma Energy Today&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMie0FVX3lxTE1xVGJrTVRMNjlkX1lmdUZZV3I4NmNwVzc5bnpEZmV6ZlNRemQyd1Z1UG54azJVZ0drVC0yWEs0aV9aTHdGaG5ycVBRbE94cFo0aDBRYlYtMUVK.</li><li>RmlGQWwxS1JiWF9DT1NYTnZBcDl5NHRwaG5vd3hVeFUyaw?oc=5&quot; target=&quot;_blank&quot;&gt;A first for EV battery recycling law&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Oklahoma Energy Today&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVl8yR3FobW5ySldzOVI4aEpXOXlWU0tGYTVRcFlUS2ZVUThlUlpQaWg4bFlxc2xEY2l1MktWTGJnNVRGc1dEZ19yY1Uzbl8zc3BBOVdyMmt0c3JxVmZzeDZhR0hTQnZ2anRFa00zUnZpTFdBTlQ5WVFLdUl0cEJOdXUtZjRmbDZHZmNiSy1DTkhfWmRLZEhIZDkwVV92eGsxaGI1NHZJOXY4d0dzdkZjSlR4RnJMN0pCYlNwTDBJTWc?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">15</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Another lithium-ion battery fire reported at Dafter Township transfer station</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">dailydispatch.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVl8yR3FobW5ySldzOVI4aEpXOXlWU0tGYTVRcFlUS2ZVUThlUlpQaWg4bFlxc2xEY2l1MktWTGJnNVRGc1dEZ19yY1Uzbl8zc3BBOVdyMmt0c3JxVmZzeDZhR0hTQnZ2anRFa00zUnZpTFdBTlQ5WVFLdUl0cEJOdXUtZjRmbDZHZmNiSy1DTkhfWmRLZEhIZDkwVV92eGsxaGI1NHZJOXY4d0dzdkZjSlR4RnJMN0pCYlNwTDBJTWc?oc=5&quot; target=&quot;_blank&quot;&gt;Another lithium-ion battery fire reported at Dafter Township transfer station&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;dailydispatch.com&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVl8yR3FobW5ySldzOVI4aEpXOXlWU0tGYTVRcFlUS2ZVUThlUlpQaWg4bFlxc2xEY2l1MktWTGJnNVRGc1dEZ19yY1Uzbl8zc3BBOVdyMmt0c3JxVmZzeDZhR0hTQnZ2anRFa00zUnZpTFdBTlQ5WVFLdUl0cEJOdXUtZjRmbDZHZ.</li><li>mNiSy1DTkhfWmRLZEhIZDkwVV92eGsxaGI1NHZJOXY4d0dzdkZjSlR4RnJMN0pCYlNwTDBJTWc?oc=5&quot; target=&quot;_blank&quot;&gt;Another lithium-ion battery fire reported at Dafter Township transfer station&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;dailydispatch.com&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPTWdlZnllVkpCcVpDeUlOeEZETjNkT0U3VEFhSWJoNHZqUUZQTWhXUWNHZEhyeGFnZmtxaDA3MnduVGx0d09mdDNqZmVHR2pxYlZRNERidS1TYWJ4Ykdfb1R4T0drVmhfMVhrV3MwQmVUSnRUMDFCSzFfUjVNeWNIWmtxVXA0NWJYU0VyTw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">16</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Recycling of electric vehicle batteries needs to be improved in Europe</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Tech Xplore</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMijAFBVV95cUxPTWdlZnllVkpCcVpDeUlOeEZETjNkT0U3VEFhSWJoNHZqUUZQTWhXUWNHZEhyeGFnZmtxaDA3MnduVGx0d09mdDNqZmVHR2pxYlZRNERidS1TYWJ4Ykdfb1R4T0drVmhfMVhrV3MwQmVUSnRUMDFCSzFfUjVNeWNIWmtxVXA0NWJYU0VyTw?oc=5&quot; target=&quot;_blank&quot;&gt;Recycling of electric vehicle batteries needs to be improved in Europe&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Tech Xplore&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMijAFBVV95cUxPTWdlZnllVkpCcVpDeUlOeEZETjNkT0U3VEFhSWJoNHZqUUZQTWhXUWNHZEhyeGFnZmtxaDA3MnduVGx0d09mdDNqZmVHR2pxYlZRNERidS1TYWJ4Ykdfb1R4T0drVmhfMVhr.</li><li>V3MwQmVUSnRUMDFCSzFfUjVNeWNIWmtxVXA0NWJYU0VyTw?oc=5&quot; target=&quot;_blank&quot;&gt;Recycling of electric vehicle batteries needs to be improved in Europe&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Tech Xplore&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2VCMDZ1Y0ViNHNwMXpnaEZiNzJOdW9XY19USXpOdndVMVNlOFRIWUlwaWpmVzhtTUR0eGdabEZFTnNMU3RWZHhEN3hGdDBkNTNxS1Z2VlRCeXB4aW5UdjIyMDVOcE5NLUJ1TGhzVDYzZUtmV09TY0otWG1EcjhuNFpORTlpX2FfLU9ULWNMTjlCcmNUYWNVcjRmeUhhZWFWZzVWNVdDYmJrdnlDMXZraTkwQnNrdzVlSkQzWGJLRTlPZHVMWGQzcA?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">17</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">ABTC wins appeal, has $115M in DOE funds reinstated</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Recycling Today</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">ABTC</span><span class="chip">DOE</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2VCMDZ1Y0ViNHNwMXpnaEZiNzJOdW9XY19USXpOdndVMVNlOFRIWUlwaWpmVzhtTUR0eGdabEZFTnNMU3RWZHhEN3hGdDBkNTNxS1Z2VlRCeXB4aW5UdjIyMDVOcE5NLUJ1TGhzVDYzZUtmV09TY0otWG1EcjhuNFpORTlpX2FfLU9ULWNMTjlCcmNUYWNVcjRmeUhhZWFWZzVWNVdDYmJrdnlDMXZraTkwQnNrdzVlSkQzWGJLRTlPZHVMWGQzcA?oc=5&quot; target=&quot;_blank&quot;&gt;ABTC wins appeal, has $115M in DOE funds reinstated&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Recycling Today&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2VCMDZ1Y0ViNHNwMXpnaEZiNzJOdW9XY19USXpOdndVMVNlOFRIWUlwaWpmVzhtTUR0eGdabEZFTnNMU3RWZHhEN3hGdDBkNTNxS1Z2VlRCeXB4aW5UdjIyMDVOcE5NLUJ1TGhzVDYzZUtmV09TY0otWG1EcjhuNFpOR.</li><li>TlpX2FfLU9ULWNMTjlCcmNUYWNVcjRmeUhhZWFWZzVWNVdDYmJrdnlDMXZraTkwQnNrdzVlSkQzWGJLRTlPZHVMWGQzcA?oc=5&quot; target=&quot;_blank&quot;&gt;ABTC wins appeal, has $115M in DOE funds reinstated&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Recycling Today&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-anode" href="https://news.google.com/rss/articles/CBMi2AJBVV95cUxQRlA4N3FFbFoycFRieGtNUWVtdk16RDFBcUhuTm80d0ZKRl9IZlRSSzJJNjl6cG9SaG5VQjRlLW8wb1JyMm9qTkhqejlwR3p6LS1pVFJfa0dydW5ra2dvR1RtekJwRTRiVmhxMG9pNXRIWDZCaTdEZ3owMzh4SVg0bzZ0RkhvT0Jkc1BzeEhJNWlvdjFRT3VTaTROVTZIUzRTa0pNaDlzOG01Z1h6XzlzdmdkSDJqNHdjUEVKZlpwVW80RmFTREtpQUxIQmlCeXdQNklMR0NfcmdwYS1RQmt2Nmo5RVBuN1B1SGdENWVteHZzTDk3S3hjaWNieVEzQXhDSG5UY3NkQWFqcXVZRDRua2o1a0pDX2plZ0pwZk1QcW0yTVdoZ25PT2w2VlZ6bjdjV3g1N2xkWFk3NmJqaW5Xd2pHSUZRNmF4N2Z2cWlET29kYTRjRUlISA?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">18</div>
+            <div class="badgeRow">
+              <span class="badge">anode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Solidion Technology Granted 7 New Patents on Composite Anode Materials For Batteries Targeting Humanoid Robots, Space-Based Artificial Intelligence Data Centers and the Lunar Economy</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">PR Newswire</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">PR</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMi2AJBVV95cUxQRlA4N3FFbFoycFRieGtNUWVtdk16RDFBcUhuTm80d0ZKRl9IZlRSSzJJNjl6cG9SaG5VQjRlLW8wb1JyMm9qTkhqejlwR3p6LS1pVFJfa0dydW5ra2dvR1RtekJwRTRiVmhxMG9pNXRIWDZCaTdEZ3owMzh4SVg0bzZ0RkhvT0Jkc1BzeEhJNWlvdjFRT3VTaTROVTZIUzRTa0pNaDlzOG01Z1h6XzlzdmdkSDJqNHdjUEVKZlpwVW80RmFTREtpQUxIQmlCeXdQNklMR0NfcmdwYS1RQmt2Nmo5RVBuN1B1SGdENWVteHZzTDk3S3hjaWNieVEzQXhDSG5UY3NkQWFqcXVZRDRua2o1a0pDX2plZ0pwZk1QcW0yTVdoZ25PT2w2VlZ6bjdjV3g1N2xkWFk3NmJqaW5Xd2pHSUZRNmF4N2Z2cWlET29kYTRjRUlISA?oc=5&quot; target=&quot;_blank&quot;&gt;Solidion Technology Granted 7 New Patents on Composite Anode Materials For Batteries Targeting Humanoid Robots, Space-Based Artificial Intelligence Data Centers and the Lunar Economy&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;PR Newswire&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMi2AJBVV95cUxQRlA4N3FFbFoycFRieGtNUWVtdk16RDFBcUhuTm80d0ZKRl9IZlRSSzJJNjl6cG9SaG5VQjRlLW8wb1JyMm9qTkhqejlwR3p6LS1pVFJfa0dydW5ra2dvR1RtekJwRTRiVmhxMG9pNXRIWDZCaTdEZ3owMzh4SVg0bzZ0RkhvT0Jkc1BzeEhJNWlvdjFRT3VTaTROVTZIUzRTa0pNaDlzOG01Z1h6XzlzdmdkSDJqNHdjUEVKZlpwVW80RmFTREtpQUxIQmlCeXdQNklMR0NfcmdwYS1RQmt2Nmo5RVBuN1B1SGdENWVteHZzTDk3S3hjaWNi.</li><li>eVEzQXhDSG5UY3NkQWFqcXVZRDRua2o1a0pDX2plZ0pwZk1QcW0yTVdoZ25PT2w2VlZ6bjdjV3g1N2xkWFk3NmJqaW5Xd2pHSUZRNmF4N2Z2cWlET29kYTRjRUlISA?oc=5&quot; target=&quot;_blank&quot;&gt;Solidion Technology Granted 7 New Patents on Composite Anode Materials For Batteries Targeting Humanoid Robots, Space-Based Artificial Intelligence Data Centers and the Lunar Economy&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;PR Newswire&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQUVB6VWlWdzdGdDdxaVhlejh0aTBaQ2lGMVVmTHhuMmdQZV9KSWY2VnVzLUdxX1E5b0NsbzFNNHBQQm5xOTBSOFN5Z1hrSlRkVkNoM0d5aUszUVdxN004NmhNQVRjRmRSMjZtTUZaUEw4bG52UFBITklRYlZZRm9iUWdxRDFQYU9uOUdHWWNjTFNpaFdlajN4ZWNFYU5aRENJbzVhdTROMVFSRmkwU2lR?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">19</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">June 8, 2026: EV battery disposal challenges; underage scooter injuries; more pay for cafeteria workers</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Colorado Public Radio</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMirwFBVV95cUxQUVB6VWlWdzdGdDdxaVhlejh0aTBaQ2lGMVVmTHhuMmdQZV9KSWY2VnVzLUdxX1E5b0NsbzFNNHBQQm5xOTBSOFN5Z1hrSlRkVkNoM0d5aUszUVdxN004NmhNQVRjRmRSMjZtTUZaUEw4bG52UFBITklRYlZZRm9iUWdxRDFQYU9uOUdHWWNjTFNpaFdlajN4ZWNFYU5aRENJbzVhdTROMVFSRmkwU2lR?oc=5&quot; target=&quot;_blank&quot;&gt;June 8, 2026: EV battery disposal challenges; underage scooter injuries; more pay for cafeteria workers&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Colorado Public Radio&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMirwFBVV95cUxQUVB6VWlWdzdGdDdxaVhlejh0aTBaQ2lGMVVmTHhuMmdQZV9KSWY2VnVzLUdxX1E5b0NsbzFNNHBQQm5xOTBSOFN5Z1hrSlRkVkNoM0d5aUszUVdxN004NmhNQVRjRmRSMjZtTUZaUEw4bG52UFBITklRYlZZRm9iUWdxRDFQYU9uOUdHW.</li><li>WNjTFNpaFdlajN4ZWNFYU5aRENJbzVhdTROMVFSRmkwU2lR?oc=5&quot; target=&quot;_blank&quot;&gt;June 8, 2026: EV battery disposal challenges; underage scooter injuries; more pay for cafeteria workers&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;Colorado Public Radio&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNMjNYRUtSWTlhTXFIX2hvdEdfbEpFX05vamR2QTBfbkVkUXJUZEJmSi0xT3FKR1lfaWlqZ0h5Tk44bFY1R214OVdIa3lYUHA2UVZwdGRuaWtsZmpOVnNIdW8wY04wcEtlTFNldy1Oam9paG9fMXFHSVVBa19KQXVwMXRiYTVTeng1SF9JUGxR?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">20</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">DOE restores federal funding for Nevada lithium mine</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">E&amp;E News by POLITICO</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">DOE</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMijgFBVV95cUxNMjNYRUtSWTlhTXFIX2hvdEdfbEpFX05vamR2QTBfbkVkUXJUZEJmSi0xT3FKR1lfaWlqZ0h5Tk44bFY1R214OVdIa3lYUHA2UVZwdGRuaWtsZmpOVnNIdW8wY04wcEtlTFNldy1Oam9paG9fMXFHSVVBa19KQXVwMXRiYTVTeng1SF9JUGxR?oc=5&quot; target=&quot;_blank&quot;&gt;DOE restores federal funding for Nevada lithium mine&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;E&amp;amp;E News by POLITICO&lt;/font&gt;.</li><li>&lt;a href=&quot;https://news.google.com/rss/articles/CBMijgFBVV95cUxNMjNYRUtSWTlhTXFIX2hvdEdfbEpFX05vamR2QTBfbkVkUXJUZEJmSi0xT3FKR1lfaWlqZ0h5Tk44bFY1R214OVdIa3lYUHA2UVZwdGRuaWtsZmpOVnNIdW8wY04wcEtlTFN.</li><li>ldy1Oam9paG9fMXFHSVVBa19KQXVwMXRiYTVTeng1SF9JUGxR?oc=5&quot; target=&quot;_blank&quot;&gt;DOE restores federal funding for Nevada lithium mine&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#6f6f6f&quot;&gt;E&amp;amp;E News by POLITICO&lt;/font&gt;.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-08</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
