@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-06-11</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-06-11 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-solid_state" href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=459667" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">삼성SDI, 전고체 이어 &#x27;나트륨&#x27; 카드 뽑았다… AI·차세대 시장 대전환 ...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.pinpointnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">삼성SDI</span><span class="chip">나트륨이온</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>삼성SDI가 전고체 배터리에 이어 나트륨이온 배터리 기술 개발에 나섰습니다.</li><li>이는 리튬 가격 변동성과 원재료 공급망 리스크를 줄이기 위한 글로벌 배터리 업계의 움직임과 맥을 같이 합니다.</li><li>나트륨이온 배터리 관련주가 12일 강세를 보이며 시장 수익률을 크게 웃돌고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.dealsitetv.com/articles/171739" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">프롤로지움-오프모빌리티, 전고체 배터리 모듈 개발 MOU</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">news.dealsitetv.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">프롤로지움</span><span class="chip">오프모빌리티</span><span class="chip">프롤로지움-오프모빌리티</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전고체 배터리 전문 기업 프롤로지움과 오프모빌리티가 모빌리티용 차세대 전고체 배터리 모듈 및 팩 공동 개발을 위한 MOU를 체결했습니다.</li><li>이번 협력을 통해 양사는 전고체 셀-팩 시스템 통합 기술을 결합하여 유럽 완성차 시장을 공략할 계획입니다.</li><li>프롤로지움은 전고체 배터리 기술을 보유하고 있으며, 오프모빌리티는 자동차 부품 분야에서 사업을 영위하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="http://www.paxetv.com/news/articleView.html?idxno=274522" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">이브이첨단소재 투자사 프롤로지움, 오프모빌리티와 전고체 배터리 협력</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.paxetv.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">이브이첨단소재</span><span class="chip">프롤로지움</span><span class="chip">오프모빌리티</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>이브이첨단소재의 투자사인 전고체 배터리 기업 프롤로지움이 프랑스 자동차 부품업체 오프모빌리티와 차세대 전고체 배터리 모듈·팩 공동 개발을 위한 업무협약을 체결했습니다.</li><li>이번 협약은 유럽 완성차 시장을 겨냥한 것으로, 양사는 전고체 배터리 기술의 통합 및 상용화를 목표로 합니다.</li><li>프롤로지움은 전고체 배터리 기술을, 오프모빌리티는 자동차 부품 및 시스템 통합 역량을 보유하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="http://www.inews24.com/view/1975978" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">EV첨단소재 투자사, 佛 오프모빌리티와 전고체 배터리 개발 MOU</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.inews24.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">이브이첨단소재</span><span class="chip">프롤로지움</span><span class="chip">오프모빌리티</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>이브이첨단소재가 투자한 전고체 배터리 기업 프롤로지움이 프랑스 글로벌 모빌리티 부품 기업 오프모빌리티와 차세대 전고체 배터리 개발을 위한 MOU를 체결했습니다.</li><li>이번 협력을 통해 양사는 유럽 전기차 시장 공략을 목표로 하고 있습니다.</li><li>프롤로지움은 전고체 배터리 기술을, 오프모빌리티는 모빌리티 부품 분야의 전문성을 바탕으로 협력할 예정입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.widedaily.com/news/articleView.html?idxno=295605" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">프롤로지움-오프모빌리티, 차세대 전고체 배터리 모듈 개발 MOU</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.widedaily.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">프롤로지움</span><span class="chip">오프모빌리티</span><span class="chip">프롤로지움-오프모빌리티</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전고체 배터리 전문기업 프롤로지움과 프랑스의 글로벌 모빌리티 부품 거두 오프모빌리티가 모빌리티용 차세대 전고체 배터리 모듈·팩 공동 개발을 위한 양해각서(MoU)를 체결했습니다.</li><li>이번 협력을 통해 양사는 전고체 배터리 기술의 통합 및 상용화를 가속화하여 유럽 시장 공략에 나설 것으로 보입니다.</li><li>프롤로지움은 전고체 배터리 기술을, 오프모빌리티는 자동차 부품 분야의 전문성을 바탕으로 협력할 예정입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.autodaily.co.kr/news/articleView.html?idxno=544827" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">대만 프롤로지움, 프랑스 OP모빌리티와 전고체 배터리 모듈 통합 협력 ...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.autodaily.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">프롤로지움</span><span class="chip">OP모빌리티</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>대만 전고체 배터리 전문 기업 프롤로지움이 프랑스 기반 자동차 부품사 OP모빌리티와 전고체 배터리 셀을 모듈 및 배터리 팩으로 통합하는 협업을 시작했습니다.</li><li>이번 MOU는 유럽 시장을 겨냥한 것으로, 양사는 전고체 배터리 기술의 상용화를 가속화할 것으로 기대됩니다.</li><li>프롤로지움은 전고체 배터리 기술을, OP모빌리티는 자동차 부품 분야의 전문성을 바탕으로 협력할 예정입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMiigJBVV95cUxQZnU4UEhxMVhGeUFJc2Rkd1pfaDVHdGVSOXpPVl91Z3hTaWpxWW9vWk9EUXVaRktZRWZRRU5CZG45bkpSbWlGWXB3RVpRQ2xUd3VOY3JncXdTa3hnZzBzUzVKNm40TWRKYjBaNjVVRGFPT0hUZm5SVmhneE1kcGk0UWhHaUJybkJRQk5leC1CeXMwaEJ4dXBXTXdUUVRqQmozWDdzQkRqYVBwWGlLcUwtY0V2bVBrSDlaRGhob0E3ZGdJN2htSEplcDFZYkFRd1l5cUswTkgzeWJtOWZWSUxuaFU5cXNTUUdKeFBCQXB5OG14RHZwNW1XRU52cVJIQnNfWHVlUjVXWG80dw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Stellantis and Factorial Integrate Advanced Solid-State Battery into Stellantis Development Vehicle and Launch Road Testing</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Stellantis Media</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Stellantis</span><span class="chip">Factorial Energy</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Stellantis와 Factorial Energy가 개발한 첨단 전고체 배터리를 Stellantis 개발 차량에 통합하고 도로 시험을 시작했습니다.</li><li>이번 도로 시험은 전고체 배터리가 실험실 단계를 넘어 실제 차량 플랫폼에 적용되는 중요한 단계입니다.</li><li>Stellantis는 자동차 제조사이며, Factorial Energy는 전고체 배터리 개발사입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQVE1cW1oeFJ6c09TNXY3Q2c4OVBkcTVqZWJGZl9ORnpqOVVLT2ZJSm1jWFF3VGVsdldhaW9DUXkyMUV4UmpBZjdsM18yWk9PMzJhRDlHRko3Vk1wdEpvWU5sU2JpMXAxUTN2Rm5IcjVoemM0SDJEV3RnSi1MMVZabFJLdDNvelZPT0Z2QmpJWk5BR01iU1NTYnlFLXJNNy1WZnRnUG5OTThOZw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">ProLogium and OPmobility to integrate solid-state cells into modules</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">electrive.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">ProLogium</span><span class="chip">OPmobility</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전고체 배터리 전문 기업 ProLogium과 OPmobility가 전고체 배터리 셀을 모듈로 통합하기 위한 협력을 진행합니다.</li><li>이번 협력은 유럽 시장을 겨냥한 것으로, 양사는 전고체 배터리 기술의 상용화를 가속화할 것으로 기대됩니다.</li><li>ProLogium은 전고체 배터리 기술을, OPmobility는 자동차 부품 분야의 전문성을 바탕으로 협력할 예정입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTBJZ2lHbnpqSGxhY3ltX0hIUzg0dm9pSlVlbkx2MmtnUVNRZDVnS243bnJUd0RlM3lILTNRSk5adG1YdlVfY2lqMVE0NUJ4aFhyUC1meVJIVGJ5STZjQktTaEkyckJWT0hrdUhwZDBQdzZfZWVoVC01U2paUGtQaWxteTBFcG80YVdJZEtpZHcyTlRseDNraFFkclhDX3VmNlNBYV9lMWtDaG9uTWZISDIxd2lJY255aDVjSWphSQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Stellantis road-tests solid-state car battery that hit 15–90% in 18 minutes</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Stock Titan</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Stellantis</span><span class="chip">X3VmNlNBYV9lMWtDaG9uTWZISDI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Stellantis는 15%에서 90%까지 18분 만에 충전되는 전고체 배터리를 탑재한 차량의 도로 시험을 진행하고 있습니다.</li><li>이는 전고체 배터리 기술의 빠른 충전 속도와 실용성을 입증하는 중요한 단계입니다.</li><li>Stellantis는 자동차 제조사이며, 해당 기술은 미래 전기차 시장에 큰 영향을 미칠 것으로 예상됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSnlQallMWkZ3MXJxd01QNTlwSEhUSnFLeEhqOTVZVXdGdVgtVXNreTRNWlpUeC14bzNVS0Vjc0xOMTRkdHJzQWVmQ19CZThYT255RGNWNFE1TFRrZkR6UGlPUGFYRUFlN0ZqUm8zUFB6RVhwd0dZV3hXLTZ5MTVOdGRaYnFmV0FCenFxNGZqN3Jnb0ZnUWlqSU1qaVVZa2RBNGRpSTZuUmZjdw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Stellantis Advances Solid-State Battery Testing With Dodge Charger Prototype (STLA)</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Yahoo Autos</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Stellantis</span><span class="chip">STLA</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Stellantis는 Dodge Charger 프로토타입에 전고체 배터리를 통합하여 테스트를 진행하며 기술 개발을 가속화하고 있습니다.</li><li>이는 전고체 배터리 기술의 상용화를 위한 중요한 단계로, 향후 전기차 시장에 큰 변화를 가져올 것으로 예상됩니다.</li><li>Stellantis는 자동차 제조사이며, STLA는 해당 차량 플랫폼을 나타낼 수 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPWm93blhvWlFwZUlXd1hRT2hoNTFhcVI3SlZyNzJiOEwzaEJ1cm5NQzhiTjU0bmE5ZjlMbG9GZlNDT1JiSzFXZUNaMWNsU1U0TXZWM3U1SGl4UFJlZ2Y3dGdJeVlxOERzQzg1RnRQWi12TzdNVWVNOUVXcVl4ODNNdEdzdmxPaEppeVdqOWd2S2laNlFmdDdsdXRUWDZ6R25TaklkdEd0aklETktJdXZ2bm1MMlBBZw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Stellantis integrates solid-state batteries in test vehicle</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Investing.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Stellantis</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Stellantis가 테스트 차량에 전고체 배터리를 통합하여 기술 개발 및 검증을 진행하고 있습니다.</li><li>이는 전고체 배터리의 성능과 실용성을 실제 주행 환경에서 평가하기 위한 중요한 단계입니다.</li><li>Stellantis는 자동차 제조사로서 미래 전기차 기술 개발에 적극적으로 투자하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQeUF2ZzRfdzQ1elBfeGNZUHlqeE4xS2ZqeUdhTWgxTjc0UHo0NkYzQ1ZpUm41U1pnanM3LUNkWDZPTkpEb1pReXNEWlFJbTFEUHpxbjgxNTlVQjIzT0dpTmN4Z0tROGhrWXRvaDNjNXJGTFhWTmc2TWw0ZEhGN3dQTDNQd3RpeGRvc19uek16Zmt5a05NV25tbVV3LUF0eG05QmpqVGdmVQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">How Europe Can Lead the Solid-State Battery Race</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Battery Technology</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>유럽이 전고체 배터리 기술 경쟁에서 선두를 차지하기 위한 방안을 모색해야 합니다.</li><li>전고체 배터리는 기존 리튬이온 배터리의 한계를 극복하고 차세대 전기차 시장을 주도할 핵심 기술로 주목받고 있습니다.</li><li>유럽의 기술 개발 및 정책 지원이 전고체 배터리 기술 경쟁력 확보에 중요한 역할을 할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.digitaltoday.co.kr/news/articleView.html?idxno=674457" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">스텔란티스·팩토리얼, 북미 첫 전고체 배터리 도로 시험 착수</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.digitaltoday.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">스텔란티스</span><span class="chip">팩토리얼 에너지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>스텔란티스와 전고체 배터리 개발사 팩토리얼 에너지가 북미에서 전고체 배터리 실도로 시험에 착수했습니다.</li><li>이번 시험은 전고체 배터리가 실험실 단계를 넘어 실제 차량 플랫폼에 적용되는 중요한 의미를 지닙니다.</li><li>이는 전고체 배터리 기술의 상용화를 앞당기고 미래 전기차 시장에서의 경쟁력을 강화하기 위한 노력의 일환입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-12</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNOVRqQ0kyOTYta0llSXNjaTRPaVlmQ3hjYkJHdHlDTG9iY3laQXNCSjNNS3pGMWlyTWdfYnpxbDdXT1NCNGx4eWJtNlhhTTZHSDBPOFVPcG5MTXZHY3VVVFdZcHBQWFNjdnZEeldjdm9uRkU5UXRIUEdlQkJFeXdQOWY2YlBnNmZFSEZQTUpsOVZpbGZOejBWN2dxNzBqcml6a0EyY2ZR?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Exclusive: GM may ditch LFP batteries for future EVs</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Reuters</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">GM</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>GM이 향후 전기차에 리튬인산철(LFP) 배터리 대신 다른 종류의 배터리를 사용할 가능성이 제기되었습니다.</li><li>이는 배터리 기술의 발전과 공급망 다변화 전략의 일환으로 해석될 수 있습니다.</li><li>GM은 전기차 시장에서의 경쟁력 확보를 위해 다양한 배터리 기술을 검토하고 있는 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxPSm1RZEJqUU9xdkIzbTQ5amViS2l4UzZrbi1feHItcExEY2pRaHhEX0VCaHJWMU5VTVJxX1lyd2lVMVF1clRIYnZmdHdIX05nN0xtdkRGdXgzY2lnWFVXMWZRaHpFV25IMGNweGw3ZmVVSmNOQVVOQjZ3ek92V1FsclB3MkVNYVFOX2FhdUVpU25Xc0tHdTRjOUtqS04tR1hYT2pRZ0tLYw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">15</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">This Game-Changing Battery Technology Just Got One Step Closer to Reality</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Car and Driver</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>획기적인 배터리 기술이 현실화에 한 걸음 더 다가섰습니다.</li><li>이 기술은 기존 배터리의 한계를 극복하고 전기차의 성능을 크게 향상시킬 잠재력을 가지고 있습니다.</li><li>이러한 기술 발전은 미래 모빌리티 산업에 중요한 변화를 가져올 것으로 예상됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBCNDFWTUdwX2p3UkdkZzRFZkg4dVFzdWRZQndiaTF4a0Z0VnQzeU5ldl9fajN2Tmw0Y2QzMEtlQ0dvUURkVm4wWklnN2Q1WjVvQm55N25EbWVFakVVdnpGU016dTZUYVhZZlplR3RndzRPMnM?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">16</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">GM is betting on battery cells that don’t use lithium</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Electrek</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">GM</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>GM이 리튬을 사용하지 않는 배터리 셀 기술에 투자하고 있습니다.</li><li>이는 리튬 공급망의 불안정성과 가격 변동성에 대한 대안을 모색하는 움직임으로 해석됩니다.</li><li>GM은 차세대 전기차 시장을 선점하기 위해 혁신적인 배터리 기술 개발에 집중하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMibkFVX3lxTE8walRrS0x3WHhHSElCSXREcVVIODYyd1U3UDJGMFN2ZG84QktnVFRPc3diZ3hhWDRINHNRZ1JoYTdZa01tQ0gtdkFpbmtrQ0FVQXJ4VHltdVk3ZzNzUWI2RktmWTZoQkl1akhic2NB?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">17</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Dealers in limbo as Trump says U.S. won’t renew USMCA, UAW ends GM supplier strike, GM may abandon LFP battery plans</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CBT News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">GM</span><span class="chip">UAW</span><span class="chip">USMCA</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>GM이 LFP 배터리 계획을 철회할 수 있다는 소식이 전해졌습니다.</li><li>이는 최근 UAW(전미자동차노조)의 GM 공급업체 파업 종료와 맞물려 주목받고 있습니다.</li><li>GM은 전기차 배터리 전략을 재검토하며 시장 변화에 대응하고 있는 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-06-11</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
