@@ -1,0 +1,263 @@
+# 배터리 뉴스 데일리 브리핑 (2026-06-13 전날 기준)
+
+- 총 20건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 기타 | 2026-06-13 | EnergyNow.com | LG to Supply Tesla With US$4.3 Billion of Batteries - Energy News, Top Headlines, Commentaries, Features & Events | https://news.google.com/rss/articles/CBMiiAFBVV95cUxOV1BjNER0TEE5c2kzcGZHUXc5VzNYaVNMX1hmVTJScGdHWnN3Z0p5a3QxckhjVkJLQWZSXzZQc2UyYlZ2dnFLX2tsSE5jTlp0NkhuR0pzYlRjcmhVTjVKdTJvNlNjNHp0OEVheHBidUhBaDlWb2VHd0I5VmcyZmxMaFV5cFR1U0gy?oc=5 | unknown |
+| 2 | 3 | 나트륨 | 2026-06-13 | view.asiae.co.kr | 소금으로 배터리를 만든다고?…GM 상용화 결정에 혜택받는 한국 주식은... | https://view.asiae.co.kr/article/2026061209494702710 | unknown |
+| 3 | 3 | 전고체 | 2026-06-13 | New Atlas | World’s first crewed solid-state flight electrifies aviation's future | https://news.google.com/rss/articles/CBMijwFBVV95cUxQX3NiR29sY2daaFQtTWdsUVd4X3ZlczN6N3hrUlVPT0RIaUdyZ3FxTGJwelJZMmpiZ1hiZlplVlMxS2E3ejVZUUFGdjY1WWplcktrT3BBVS1wVnZUOTBWQ0VNc3VFcTdUMDh5LWlDVVQwTWpQSzBtN29TQ19hZVZGRDdHVUZ3YVdLN24wRU8xWQ?oc=5 | unknown |
+| 4 | 3 | 전고체 | 2026-06-13 | Interesting Engineering | Solid-state battery cell hits 465 Wh/kg density, targets aerospace and defense applications | https://news.google.com/rss/articles/CBMijAFBVV95cUxNdmdHTXMzdnIzWGtkbGZZMHRjQ3VVUDZlOGtxUV9EUEctb3EwZTBySjhyRjZyTWNnU0lHS3ZJVEpFNW5wUldaTVdscUQ5UnhFLVJWOGs0cVJQOXJfTjVpMnI0STZaU3d0YzlFNWNJdThYWGVUejUwbHR1RHotclZNRE9tSkV3QUh6bFhVVQ?oc=5 | unknown |
+| 5 | 3 | 기타 | 2026-06-13 | Gasgoo | China's Power Battery Rankings in May: Who Is Rising, Who Is Falling Behind? | https://news.google.com/rss/articles/CBMizAFBVV95cUxPOTc0RHF4ZHZvMkVEOVRLMERIRUpwY3FIUVJIRk5KOVZlYTJSQWJ4QnJOQ3o3aE1KZkVrRW1rM082Y3YxZGd0dXItU2E1UjlvdUVVX3E0aE5FRTNGbGtiRjJyTko3S3JrdHVpSS1rSkZnM1puQmNHWlM3dktDRXF1RW51MnRqMTZqTWFnaGludjVrLXBIRGxwX0JuaTVVNlN3QjNXM1VGYWx1eEg2WFRJazFWM3lRNXZFUHNySVhkblNPek50TTFpNW9SR2o?oc=5 | unknown |
+| 6 | 3 | 전고체 | 2026-06-13 | Gasgoo | OPmobility and ProLogium sign MoU to co-develop next-gen solid-state battery packs | https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUFVSck13NHM2YXZUQWJWN1dXVEVPNUEwUHdmUExKcmJJcXg3ZWsyVjA3VnBLM2MyUDJkWURwcHFVSUphMDU3VXNyQ3pYOVg3OFNhZG1NeDhXUmxjaElhSmZJMEt0WFJvZk90ZXVrdU1NanJKVHRXb2tjbl9lZHJUV2tiSS1hbndSbGcwX2prYmhscS05RE5GTEdyYWFsTTNfNnV1clctcnpGSVVhTGg3M2ZORTRnMkpzWDBSQUtCSDQxVG1LemNpVUpJbGRiclVvb1lhTi1Yd01ZUQ?oc=5 | unknown |
+| 7 | 3 | 기타 | 2026-06-13 | simplywall.st | QuantumScape (QS) Stock Reassessed As Solid State Deals Revive Valuation Debate | https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDBPa3FLYnZ5Q0ViNW42bi1XY0ZodkhlWnZCZlpYTkY0SHhqamwxZ3BJNG5INDRaSGtURlo0eU5MaDA4anlxSlNGSXRRQmJ3Z3p0eks5YmcxMkw2MnJxVUxuOVhSa3Z3QUZuZzB6NzRBa3RHUVBKLUlDVW8tUDV5ZjNnclFuTnhPd2VsbmFWeUNfQ0wzV2JGZ1hVcXRCaVJIVjV1c1ZlY1F6N2Q5NmdmUzhrYlFiRHlUM04zcURiMko0OXlTdTRrMTJSTks?oc=5 | unknown |
+| 8 | 3 | 기타 | 2026-06-13 | The Indian Panorama | Breakthroughs in battery technology can soon make devices and EVs much better | https://news.google.com/rss/articles/CBMiswFBVV95cUxONHdEQUZvQ3p6anlHT0s5enRhdk5wTElFRFJvdFhPZXd0dThZdFpiNUZQZGRzc0RjZFBnZmJBQTFfWjUxZk9zVmotdkJ1bEJoTzRoQ19CNi1YWHJ0QU4zVmxoZloyTGs3WWtXU29RUWdhd0laVnVQQlJCTkR2Rk93TkxaZWJITTVYVmYybml5N1JSNmJqOVhSSzB1bG90OGV2Q3FjcDZPcUJFTl9nNXlNZVBydw?oc=5 | unknown |
+| 9 | 3 | cathode | 2026-06-14 | www.g-enews.com | “중국산 LFP 안 쓴다”… GM, 단점 극복한 차세대 ‘LMR’ 배터리로 대... | https://www.g-enews.com/view.php?ud=2026061315071024360c8c1c064d_1 | unknown |
+| 10 | 3 | 기타 | 2026-06-14 | www.ddaily.co.kr | [위클리배터리] LG엔솔·삼성SDI가 美 각형 당긴 배경은?…탈중국·ESS 수... | https://www.ddaily.co.kr/page/view/2026061322111757899 | unknown |
+| 11 | 3 | 전고체 | 2026-06-13 | Electric Cars Report | Stellantis Begins Real-World Testing of Factorial Solid-State Batteries in Dodge Charger Daytona | https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZDNNU2RNaGxKTjI2alJvSkdwb2pTVUcwamRVWW1RVVZOSG5xU2dDbTQ1QW1sNnBnN3JaX1FkVnQ1MnFqelNFcUJjZDlaNGRydHFCTkZ2a0R0eERPeFFRVk0tTjdybUJubWs1Sm4tVk9EdFpmajdXeTF6ZzVzeWhqV0JDdHNTVmo5REJMY0V6QzJEOEhBQVIzc2ZJSURRbnp5NmRoTVhxTWd2SEsxbnlrM2g1cGc4cndKYnVYR2ZndWw0RUV0Y3NNSmhINHgtalExTWc?oc=5 | unknown |
+| 12 | 3 | 기타 | 2026-06-13 | InsideEVs | Sodium Batteries And EVs That Power The Grid: Inside GM's Big Energy Push | https://news.google.com/rss/articles/CBMigwFBVV95cUxOOHhNU05mUWdGRlJhMWNvWXlJaENWTHZLU0RpcktKMEY1UlpacklSSjhvemRCTnZZVXVCZHNjSkpYRWMyNV9VOUJrWk9Xa3RNRlNScF92eUY1OEpoUmlWQTdTblY0cDN3OUp1TXdwM2ZWRm8xS1piUVdFdXlVMU1WcWtkOA?oc=5 | unknown |
+| 13 | 3 | 나트륨 | 2026-06-13 | Mexico Business News | GM Targets US Energy Storage Market With Sodium-Ion Cells | https://news.google.com/rss/articles/CBMinAFBVV95cUxPVGtkOS1Rb21pU1RadXdkMDhvRlR0Q2VIUFpQdnNzSVRkbFBLaGN5UmVsVDVXaGdlQWloQndMVkJ2eWhFSkxtNWxEYk9iT2tGN3pqLWFHTUxNV2pwb2FZZ3VJaUZrbmtiZEJZUDZleGJlOTI5QzBwSHBCQW5yYkg4aExQRXVWRkRINkFhT0IxX1FPTzZKd19vdjlBUHY?oc=5 | unknown |
+| 14 | 3 | 기타 | 2026-06-14 | www.newspim.com | 배터리 3사, '연 30% 성장' 북미 ESS 시장 공략 속도 | https://www.newspim.com/news/view/20260611001100 | unknown |
+| 15 | 3 | separator | 2026-06-14 | www.autodaily.co.kr | LG엔솔, 中 선우다서 특허 로열티 받는다. 기술 라이선스 계약 체결 | https://www.autodaily.co.kr/news/articleView.html?idxno=544868 | unknown |
+| 16 | 3 | 기타 | 2026-06-14 | www.asiatoday.co.kr | 고창신활력산단에 ESS 제조공장 들어선다… 951억 투자 유치 | https://www.asiatoday.co.kr/kn/view.php?key=20260614010004563 | unknown |
+| 17 | 3 | 기타 | 2026-06-14 | www.kukinews.com | 캐즘 이후 대비해온 포스코홀딩스, 이차전지 소재 투자 성과 가시화하나 | https://www.kukinews.com/article/view/kuk202606120129 | unknown |
+| 18 | 3 | 기타 | 2026-06-14 | www.edaily.co.kr | [M&A 딜보드]소프트웨어·2차전지 설비 매물로…선박 인수 수요 | https://www.edaily.co.kr/news/newspath.asp?newsid=01315286645481720 | unknown |
+| 19 | 3 | 재활용 | 2026-06-14 | www.kgnews.co.kr | 인하대 폐스테인리스로 고성능 배터리 소재 만든다. | https://www.kgnews.co.kr/news/article.html?no=899739 | unknown |
+| 20 | 3 | 기타 | 2026-06-14 | www.incheontoday.com | 공항·항만·산단 밀집 인천, 해상풍력 시대 대비 ESS 확충 절실 | https://www.incheontoday.com/news/articleView.html?idxno=319995 | unknown |
+
+## 상세 요약
+
+### 1. LG to Supply Tesla With US$4.3 Billion of Batteries - Energy News, Top Headlines, Commentaries, Features & Events
+- 발행일: 2026-06-13
+- 매체: EnergyNow.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOV1BjNER0TEE5c2kzcGZHUXc5VzNYaVNMX1hmVTJScGdHWnN3Z0p5a3QxckhjVkJLQWZSXzZQc2UyYlZ2dnFLX2tsSE5jTlp0NkhuR0pzYlRjcmhVTjVKdTJvNlNjNHp0OEVheHBidUhBaDlWb2VHd0I5VmcyZmxMaFV5cFR1U0gy?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - LG가 테슬라에 43억 달러 규모의 배터리를 공급할 예정입니다.
+  - 이는 LG에너지솔루션의 북미 시장 입지를 강화하는 중요한 계약입니다.
+  - 이번 계약은 전기차 배터리 시장의 경쟁 심화 속에서 이루어졌습니다.
+- 관련 기업: LG, Tesla, US
+
+### 2. 소금으로 배터리를 만든다고?…GM 상용화 결정에 혜택받는 한국 주식은...
+- 발행일: 2026-06-13
+- 매체: view.asiae.co.kr (출처등급 3)
+- 분야: 나트륨
+- 링크: https://view.asiae.co.kr/article/2026061209494702710
+- 인기신호: unknown
+- 3문장 요약:
+  - GM은 나트륨 이온 배터리의 상업화 계획을 발표했습니다.
+  - GM은 미국 스타트업 피크에너지에 대한 지분 투자를 통해 배터리를 개발할 예정입니다.
+  - 이 배터리는 2029년 이후 상업화를 목표로 하고 있습니다.
+- 관련 기업: GM, PeakEnergy, 나트륨이온
+
+### 3. World’s first crewed solid-state flight electrifies aviation's future
+- 발행일: 2026-06-13
+- 매체: New Atlas (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMijwFBVV95cUxQX3NiR29sY2daaFQtTWdsUVd4X3ZlczN6N3hrUlVPT0RIaUdyZ3FxTGJwelJZMmpiZ1hiZlplVlMxS2E3ejVZUUFGdjY1WWplcktrT3BBVS1wVnZUOTBWQ0VNc3VFcTdUMDh5LWlDVVQwTWpQSzBtN29TQ19hZVZGRDdHVUZ3YVdLN24wRU8xWQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 세계 최초로 유인 고체 배터리 비행이 성공적으로 이루어졌습니다.
+  - 이는 항공 산업의 미래를 전동화하는 중요한 이정표가 될 것입니다.
+  - 이 기술은 항공기의 성능과 지속 가능성을 향상시킬 잠재력을 가지고 있습니다.
+
+### 4. Solid-state battery cell hits 465 Wh/kg density, targets aerospace and defense applications
+- 발행일: 2026-06-13
+- 매체: Interesting Engineering (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMijAFBVV95cUxNdmdHTXMzdnIzWGtkbGZZMHRjQ3VVUDZlOGtxUV9EUEctb3EwZTBySjhyRjZyTWNnU0lHS3ZJVEpFNW5wUldaTVdscUQ5UnhFLVJWOGs0cVJQOXJfTjVpMnI0STZaU3d0YzlFNWNJdThYWGVUejUwbHR1RHotclZNRE9tSkV3QUh6bFhVVQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 465 Wh/kg의 밀도를 가진 고체 배터리 셀이 개발되었습니다.
+  - 이 배터리는 항공 우주 및 방위 산업 응용 분야를 목표로 합니다.
+  - 고체 배터리 기술의 발전은 다양한 산업 분야에 혁신을 가져올 것으로 기대됩니다.
+
+### 5. China's Power Battery Rankings in May: Who Is Rising, Who Is Falling Behind?
+- 발행일: 2026-06-13
+- 매체: Gasgoo (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMizAFBVV95cUxPOTc0RHF4ZHZvMkVEOVRLMERIRUpwY3FIUVJIRk5KOVZlYTJSQWJ4QnJOQ3o3aE1KZkVrRW1rM082Y3YxZGd0dXItU2E1UjlvdUVVX3E0aE5FRTNGbGtiRjJyTko3S3JrdHVpSS1rSkZnM1puQmNHWlM3dktDRXF1RW51MnRqMTZqTWFnaGludjVrLXBIRGxwX0JuaTVVNlN3QjNXM1VGYWx1eEg2WFRJazFWM3lRNXZFUHNySVhkblNPek50TTFpNW9SR2o?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국의 5월 전력 배터리 순위가 발표되었습니다.
+  - 이번 순위는 시장 점유율 변화와 기업들의 경쟁 구도를 보여줍니다.
+  - 이는 중국 배터리 산업의 동향을 파악하는 데 중요한 자료가 될 것입니다.
+
+### 6. OPmobility and ProLogium sign MoU to co-develop next-gen solid-state battery packs
+- 발행일: 2026-06-13
+- 매체: Gasgoo (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUFVSck13NHM2YXZUQWJWN1dXVEVPNUEwUHdmUExKcmJJcXg3ZWsyVjA3VnBLM2MyUDJkWURwcHFVSUphMDU3VXNyQ3pYOVg3OFNhZG1NeDhXUmxjaElhSmZJMEt0WFJvZk90ZXVrdU1NanJKVHRXb2tjbl9lZHJUV2tiSS1hbndSbGcwX2prYmhscS05RE5GTEdyYWFsTTNfNnV1clctcnpGSVVhTGg3M2ZORTRnMkpzWDBSQUtCSDQxVG1LemNpVUpJbGRiclVvb1lhTi1Yd01ZUQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - OPmobility와 ProLogium은 차세대 고체 배터리 팩 공동 개발을 위한 양해각서를 체결했습니다.
+  - 이번 협력은 고체 배터리 기술의 상용화를 가속화할 것으로 예상됩니다.
+  - 이는 전기차 및 에너지 저장 장치 시장에 새로운 가능성을 제시합니다.
+- 관련 기업: OPmobility, ProLogium
+
+### 7. QuantumScape (QS) Stock Reassessed As Solid State Deals Revive Valuation Debate
+- 발행일: 2026-06-13
+- 매체: simplywall.st (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDBPa3FLYnZ5Q0ViNW42bi1XY0ZodkhlWnZCZlpYTkY0SHhqamwxZ3BJNG5INDRaSGtURlo0eU5MaDA4anlxSlNGSXRRQmJ3Z3p0eks5YmcxMkw2MnJxVUxuOVhSa3Z3QUZuZzB6NzRBa3RHUVBKLUlDVW8tUDV5ZjNnclFuTnhPd2VsbmFWeUNfQ0wzV2JGZ1hVcXRCaVJIVjV1c1ZlY1F6N2Q5NmdmUzhrYlFiRHlUM04zcURiMko0OXlTdTRrMTJSTks?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - QuantumScape의 주가가 고체 배터리 계약 체결로 인해 재평가되고 있습니다.
+  - 고체 배터리 기술에 대한 기대감이 높아지면서 기업 가치에 대한 논쟁이 재점화되고 있습니다.
+  - 이는 QuantumScape의 미래 성장 가능성에 대한 시장의 관심을 반영합니다.
+- 관련 기업: QuantumScape, QS
+
+### 8. Breakthroughs in battery technology can soon make devices and EVs much better
+- 발행일: 2026-06-13
+- 매체: The Indian Panorama (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiswFBVV95cUxONHdEQUZvQ3p6anlHT0s5enRhdk5wTElFRFJvdFhPZXd0dThZdFpiNUZQZGRzc0RjZFBnZmJBQTFfWjUxZk9zVmotdkJ1bEJoTzRoQ19CNi1YWHJ0QU4zVmxoZloyTGs3WWtXU29RUWdhd0laVnVQQlJCTkR2Rk93TkxaZWJITTVYVmYybml5N1JSNmJqOVhSSzB1bG90OGV2Q3FjcDZPcUJFTl9nNXlNZVBydw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 배터리 기술의 혁신은 기기와 전기차의 성능을 크게 향상시킬 것입니다.
+  - 새로운 배터리 기술은 더 높은 에너지 밀도와 빠른 충전 속도를 제공할 것으로 기대됩니다.
+  - 이는 소비자 경험을 개선하고 전기차 보급을 확대하는 데 기여할 것입니다.
+
+### 9. “중국산 LFP 안 쓴다”… GM, 단점 극복한 차세대 ‘LMR’ 배터리로 대...
+- 발행일: 2026-06-14
+- 매체: www.g-enews.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.g-enews.com/view.php?ud=2026061315071024360c8c1c064d_1
+- 인기신호: unknown
+- 3문장 요약:
+  - GM은 중국산 LFP 배터리 대신 단점을 극복한 차세대 LMR 배터리를 도입할 계획입니다.
+  - 또한, 그리드 고정형 에너지 저장 장치(ESS)에는 나트륨 이온 배터리를 도입하는 등 포트폴리오 다각화를 추진 중입니다.
+  - 이는 모든 용도에 맞는 단 하나의 배터리는 없다는 전략적 판단에 따른 것입니다.
+- 관련 기업: GM, LFP, LMR
+
+### 10. [위클리배터리] LG엔솔·삼성SDI가 美 각형 당긴 배경은?…탈중국·ESS 수...
+- 발행일: 2026-06-14
+- 매체: www.ddaily.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.ddaily.co.kr/page/view/2026061322111757899
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 현재 미시간주 랜싱 공장에서 테슬라용 ESS 배터리 생산 라인을 구축 중입니다.
+  - 원래 예상보다 생산 라인 가동 시점을 앞당겨 올해 3분기부터 설비 반입을 시작할 예정입니다.
+  - 이는 북미 ESS 시장 공략을 가속화하려는 움직임으로 해석됩니다.
+- 관련 기업: LG에너지솔루션, Tesla, 위클리배터리
+
+### 11. Stellantis Begins Real-World Testing of Factorial Solid-State Batteries in Dodge Charger Daytona
+- 발행일: 2026-06-13
+- 매체: Electric Cars Report (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZDNNU2RNaGxKTjI2alJvSkdwb2pTVUcwamRVWW1RVVZOSG5xU2dDbTQ1QW1sNnBnN3JaX1FkVnQ1MnFqelNFcUJjZDlaNGRydHFCTkZ2a0R0eERPeFFRVk0tTjdybUJubWs1Sm4tVk9EdFpmajdXeTF6ZzVzeWhqV0JDdHNTVmo5REJMY0V6QzJEOEhBQVIzc2ZJSURRbnp5NmRoTVhxTWd2SEsxbnlrM2g1cGc4cndKYnVYR2ZndWw0RUV0Y3NNSmhINHgtalExTWc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Stellantis는 Dodge Charger Daytona에서 Factorial의 고체 배터리 실증 테스트를 시작했습니다.
+  - 이번 테스트는 고체 배터리의 실제 주행 환경에서의 성능과 안정성을 검증하는 중요한 단계입니다.
+  - 이는 고체 배터리 기술의 상용화를 위한 중요한 진전입니다.
+- 관련 기업: Stellantis, Factorial
+
+### 12. Sodium Batteries And EVs That Power The Grid: Inside GM's Big Energy Push
+- 발행일: 2026-06-13
+- 매체: InsideEVs (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMigwFBVV95cUxOOHhNU05mUWdGRlJhMWNvWXlJaENWTHZLU0RpcktKMEY1UlpacklSSjhvemRCTnZZVXVCZHNjSkpYRWMyNV9VOUJrWk9Xa3RNRlNScF92eUY1OEpoUmlWQTdTblY0cDN3OUp1TXdwM2ZWRm8xS1piUVdFdXlVMU1WcWtkOA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - GM은 나트륨 이온 배터리를 활용하여 미국 에너지 저장 시장을 공략할 계획입니다.
+  - 또한, 전기차(EV)가 그리드에 전력을 공급하는 시스템 구축을 목표로 하고 있습니다.
+  - 이는 GM의 에너지 사업 확장 전략의 일환입니다.
+- 관련 기업: GM
+
+### 13. GM Targets US Energy Storage Market With Sodium-Ion Cells
+- 발행일: 2026-06-13
+- 매체: Mexico Business News (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMinAFBVV95cUxPVGtkOS1Rb21pU1RadXdkMDhvRlR0Q2VIUFpQdnNzSVRkbFBLaGN5UmVsVDVXaGdlQWloQndMVkJ2eWhFSkxtNWxEYk9iT2tGN3pqLWFHTUxNV2pwb2FZZ3VJaUZrbmtiZEJZUDZleGJlOTI5QzBwSHBCQW5yYkg4aExQRXVWRkRINkFhT0IxX1FPTzZKd19vdjlBUHY?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - GM은 나트륨 이온 배터리를 통해 미국 에너지 저장 시장을 공략하고 있습니다.
+  - 이는 에너지 저장 장치(ESS) 시장에서의 경쟁력을 강화하기 위한 전략입니다.
+  - GM은 다양한 에너지 솔루션을 통해 시장을 확대해 나갈 것으로 보입니다.
+- 관련 기업: GM, US
+
+### 14. 배터리 3사, '연 30% 성장' 북미 ESS 시장 공략 속도
+- 발행일: 2026-06-14
+- 매체: www.newspim.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.newspim.com/news/view/20260611001100
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 배터리 3사가 연 30% 성장하는 북미 ESS 시장 공략에 속도를 내고 있습니다.
+  - 삼성SDI는 AI 데이터센터 및 클라우드 서버 증가로 인한 ESS 수요 증가에 주목하고 있습니다.
+  - 전기차 배터리 생산 시설을 활용하여 ESS 생산이 가능하다는 점은 효율성을 높일 수 있습니다.
+- 관련 기업: 삼성SDI, AI
+
+### 15. LG엔솔, 中 선우다서 특허 로열티 받는다. 기술 라이선스 계약 체결
+- 발행일: 2026-06-14
+- 매체: www.autodaily.co.kr (출처등급 3)
+- 분야: separator
+- 링크: https://www.autodaily.co.kr/news/articleView.html?idxno=544868
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션이 중국 선우다와의 특허 로열티 계약을 체결했습니다.
+  - 이 계약은 LG에너지솔루션의 핵심 배터리 특허 침해 분쟁을 해결하기 위한 것입니다.
+  - LG에너지솔루션은 이번 계약을 통해 기술 보호 및 수익 확보를 기대하고 있습니다.
+- 관련 기업: LG에너지솔루션, 선우다, LG엔솔
+
+### 16. 고창신활력산단에 ESS 제조공장 들어선다… 951억 투자 유치
+- 발행일: 2026-06-14
+- 매체: www.asiatoday.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.asiatoday.co.kr/kn/view.php?key=20260614010004563
+- 인기신호: unknown
+- 3문장 요약:
+  - 고창신활력산업단지에 951억 원 규모의 투자를 유치하여 ESS 제조 공장이 들어설 예정입니다.
+  - 디에스시동탄은 자동차 부품 제조 경험을 바탕으로 ESS 분야로 사업 영역을 확장합니다.
+  - 이 공장은 올해 10월 완공을 목표로 하고 있습니다.
+- 관련 기업: 디에스시동탄
+
+### 17. 캐즘 이후 대비해온 포스코홀딩스, 이차전지 소재 투자 성과 가시화하나
+- 발행일: 2026-06-14
+- 매체: www.kukinews.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.kukinews.com/article/view/kuk202606120129
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코홀딩스는 이차전지 소재 투자 성과가 가시화될 것으로 기대하고 있습니다.
+  - 배터리 시장 성장세가 예상보다 느리지만, 보급형 EV와 ESS 수요 확대 등 구조적 변화가 감지되고 있습니다.
+  - 시장 트렌드에 민첩하게 대응할 수 있는 전략 수립이 중요합니다.
+- 관련 기업: 포스코홀딩스, 대비해온, 이차전지
+
+### 18. [M&A 딜보드]소프트웨어·2차전지 설비 매물로…선박 인수 수요
+- 발행일: 2026-06-14
+- 매체: www.edaily.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.edaily.co.kr/news/newspath.asp?newsid=01315286645481720
+- 인기신호: unknown
+- 3문장 요약:
+  - 2차전지 등 첨단 산업 공정 설비를 개발·제작해 온 제조기업 B사가 매물로 나왔습니다.
+  - 이 기업은 제조 공정 자동화 설비 분야에서 다년간의 업력을 보유하고 있습니다.
+  - 배터리 산업 관련 기업들의 인수합병(M&A) 시장에 대한 관심이 높아지고 있습니다.
+- 관련 기업: 소프트웨어·2차전지, 2차전지, 첨단산업
+
+### 19. 인하대 폐스테인리스로 고성능 배터리 소재 만든다.
+- 발행일: 2026-06-14
+- 매체: www.kgnews.co.kr (출처등급 3)
+- 분야: 재활용
+- 링크: https://www.kgnews.co.kr/news/article.html?no=899739
+- 인기신호: unknown
+- 3문장 요약:
+  - 인하대학교 연구팀이 폐 스테인리스 스틸을 활용하여 고성능 배터리 소재를 개발했습니다.
+  - 전기차 및 에너지저장장치(ESS) 시장 성장에 따라 배터리 소재의 자원 순환 및 재활용 기술의 중요성이 커지고 있습니다.
+  - 이 기술은 폐기물 재활용과 배터리 성능 향상을 동시에 달성할 수 있는 잠재력을 가지고 있습니다.
+
+### 20. 공항·항만·산단 밀집 인천, 해상풍력 시대 대비 ESS 확충 절실
+- 발행일: 2026-06-14
+- 매체: www.incheontoday.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.incheontoday.com/news/articleView.html?idxno=319995
+- 인기신호: unknown
+- 3문장 요약:
+  - 인천 지역의 해상풍력 발전 시대에 대비하여 에너지저장장치(ESS) 확충이 시급하다는 제언이 나왔습니다.
+  - 다양한 ESS 방식 중 최근에는 배터리 에너지저장장치(BESS)가 주목받고 있습니다.
+  - 인천연구원은 ESS 활용 전략을 단계적으로 수립해야 한다고 밝혔습니다.
+- 관련 기업: BESS
