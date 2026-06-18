@@ -1,0 +1,216 @@
+# 배터리 뉴스 데일리 브리핑 (2026-06-17 전날 기준)
+
+- 총 16건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 전고체 | 2026-06-17 | www.theguru.co.kr | 팩토리얼, 스텔란티스 차량에 전고체배터리 통합…주행 테스트 진행 | https://www.theguru.co.kr/news/article.html?no=103212 | unknown |
+| 2 | 3 | 전고체 | 2026-06-17 | www.m-economynews.com | [기획] 전고체 배터리, '황화물 vs 산화물'이 판도 가른다 | https://www.m-economynews.com/news/article.html?no=67953 | unknown |
+| 3 | 3 | 나트륨 | 2026-06-17 | Utility Dive | Peak Energy, GM partner to scale domestic sodium-ion battery supplies | https://news.google.com/rss/articles/CBMirgFBVV95cUxPVTNuTElQQmU0ZVdGZ2RDN1YxMUx5ZTM4S0ltSG1iLW40MjVnR0Q1anN3T2JxVW1jdmRTcWxwbmxJdnBYeUlGbjFLamJtX2R2X05nOTYzTGtDRzJlek1KNVdjX1FkSnlSRW9JOGFhUDhPZGtfeDlMdnVLMGI1TEx3N2tsWVd1MUpzM2RXT3ZTdllPME81SFFyQ0xqTEdtWmgxOEJaUGtla3BsQ2lWeHc?oc=5 | unknown |
+| 4 | 3 | 기타 | 2026-06-17 | The Detroit News | Ford Michigan battery plant ramps up hiring, cell manufacturing for EV | https://news.google.com/rss/articles/CBMi5wFBVV95cUxQcElpaTlOY0JJWHJDYkpic19oWUhhWVJJUmVWVERyVnZLbFlUZkxOZVBvZVN3TFR4QWFuVE1DamNDWE1HSFdJYVlVWHpyM1JLRFZuZVpNUEdYVzBWNF9DOFk3YmtmRG5CTG80elFyUTM4Q1JLVGRoVndpcXY1RVd0UFBYS2RFSmdzMS1rdnhfMnZ5RFY4UDdBRjFMdHpBclFoSjMwX0lsU1BYX3NuSHZ5SXVVWF9ubjFibFI0YnV0ejZvb1UwODIyZGdDM2FES2VEU0VJcFotUlNlY1pzb28zV2hLS0R3OEk?oc=5 | unknown |
+| 5 | 3 | 정책 | 2026-06-17 | Charged EVs | CATL’s next-generation EV battery research focuses on lithium-air technology | https://news.google.com/rss/articles/CBMirAFBVV95cUxPTXo2S2ZIeTh6YTFoUTJnNVg3dE5MWlVEaXNtWmlDLUZYSERQWi02N3ZYQXBQYUpWRk1NbXZpXzMweXlaSm1DZHRiUkg3Wjk4ZWpaWWVQQ0RaSEVfNWlhaXJ5amJtRlZ1Z2ZXMjIwcjVxQmlUb1U3ak5ESXJ6WWhtOE9MVGxkRHRPRDcyWUMyZE5oOG1SaVlzOXpWd3Y1a2Jzbzh0Q3RoRmtyQk15?oc=5 | unknown |
+| 6 | 3 | 나트륨 | 2026-06-17 | Battery Technology | Why GM is Betting on Sodium-Ion Batteries for BESS | https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT0piVWJMekR1ZWNkRkY3MThldHJ4Tmdybmt2WGFmbFN3Z2s4RFlkcEVmc2Jxc3Jfbk5FTWE0Tk5vbEFiOUw4RzlsRTVvU3IteDVWSTNrUngzNHlsQjhhaXNRM1FINHhRbXFFSjJpV2wwekxzMVk2bllwdnhpQWR3dWpUNnJRZ09iN3JmN3QxNm9XRWNVcDc0T1V0UTNJeGJSeE1LLUJZbk4?oc=5 | unknown |
+| 7 | 3 | electrolyte | 2026-06-18 | www.the-stock.kr | 이수스페셜티케미컬, 전고체 핵심 '황화리튬' 플랜트 조기 준공 | https://www.the-stock.kr/news/articleView.html?idxno=32760 | unknown |
+| 8 | 3 | 기타 | 2026-06-17 | www.s-journal.co.kr | [창간기획: 미래를 설계하는 기업들] AI가 부른 배터리 대전환…LG에너... | https://www.s-journal.co.kr/news/articleView.html?idxno=41792 | unknown |
+| 9 | 3 | 전고체 | 2026-06-17 | www.press9.kr | 삼성자산운용, 'KODEX 전고체배터리ESS TOP2플러스' 출시…AI 시대 배터리... | http://www.press9.kr/news/articleView.html?idxno=78046 | unknown |
+| 10 | 3 | 전고체 | 2026-06-17 | www.autodaily.co.kr | 세계 최대 배터리업체 CATL 회장 "2030년 이전 전고체 배터리 대량 생산... | https://www.autodaily.co.kr/news/articleView.html?idxno=544970 | unknown |
+| 11 | 3 | 전고체 | 2026-06-17 | EVWORLD.COM | Toyota's Solid-State Battery Roadmap: Reality vs. Rumor | https://news.google.com/rss/articles/CBMiogFBVV95cUxOWk9FUEt1c1ZRZFljMkNfN3JNMnVVMjdZVkVFTk9OT3AwVEdLR2dlZ095RHJ3VF9Gc1I1M2lGSE1pNC1XOHFINlY1YjJEV1NRcmdIbzlmSkxLck5yNTkwZU1MbkU1WnBsRko4MEVXdTJQN3luTXZsYjk5RmFQcG9pX3pRQUJOOTJCc00wVHAyaVU2eFFzYTVSME5NdzlQYXoxaWc?oc=5 | unknown |
+| 12 | 3 | 기타 | 2026-06-17 | TradingView | Endurance Technologies Commences Commercial Production Of Lithium Ion Battery Packs Effective June 17 | https://news.google.com/rss/articles/CBMigAJBVV95cUxPQmx4blBoQTJUSjgtc0dwTXdrZGE1bnprVGxycWlINlpnMS1sbUd6bEVDcTUzX3FYeVQydkZlcTdKa3Vtd1p3Q2NIX0dLS21KeFQ5NW1XNW9JSXdFMlUxM1dXV0c5aDhibGh4TVFpeW45ai16b3kwNnhid3ZBZ3FUdGpLMFR6OHpaVU1zcENrZnZnRmVnRzduWFJCc1IzTUhwdGxadnVGUldwT05sQUFmOWF2NTBpS3NaUHRMMHhjMGFZRUhDSFFFeWNKMk9wOHVsS1RpRENKU2NQbjNackRyelBIYlVVTzlRZW1MZjZuZXdKcHpZbk92bTBNaXdaNkJq?oc=5 | unknown |
+| 13 | 3 | 기타 | 2026-06-17 | Investing News Network | Surface Metals to Present at Fastmarkets Global Lithium, Battery & Critical Materials Conference in Las Vegas, Nevada | https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMXh1RTUxbWZPekxmcDlzemlicVNVVW9STWtNNFVmekVSUUtYU2YxME04VHBWUlFyY0xqVEZiWmxRVGhBT0RVVjBIVVRkR1FvTWxybDlPWllMZzlZWXJhZEdZY1VyMmY0OWdmR0REeXdzSFN2bm9xYVJBdWdCRnlRSTBkNUQwLTUzRUItb3ppeUNTRjJnT1dlclFaZFZ2clhvcUpyXzRRY182ZEhXQ1hvcmVIX1pjSXBYRWdSY0J2T1BDUjBDQllhTGZ5SEdLTGpGaFJtQ1huWQ?oc=5 | unknown |
+| 14 | 3 | cathode | 2026-06-17 | CBT News | Ford begins LFP battery production, Carvana enters new-car sales, Tacoma owners report transmission issues | https://news.google.com/rss/articles/CBMibkFVX3lxTFA2YWhJTXl1X3p0bHgxNUVGSVJhandadnM4SFpYVUpBLUhpTmFJUnNhOTdqVnpyQUhYSUtfWlEyZmdVdEpMZjF1VWpDRGlSdi1fQWJuUExRZzVsYlVwWnJVdjN6alp6MFVURUZoSEdn?oc=5 | unknown |
+| 15 | 3 | 기타 | 2026-06-17 | Charged EVs | LibertyStream delivers first lithium carbonate from Texas direct lithium extraction facility | https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQmdmM1R5MkFYblNVVlNVUDJveEl4Z3dlNDBMQ0tQVDhvUW1sOHgwZkJPdXVQaURNX19QM1FyOWRzazdCMUtkLUtxSDFzZFNwanZzZlhnaTgxNnJHZDN2V1laaGZwRGtjNTNPTjVIb0ZPWkpsMWJhcTQtM3pFY2JRQWFMa1VvbVpiSmYzWGd0c1EwX0I2UVZ3Q2p5cHM2djZqd1paUU1EN3lTZWZMUWt0Qm5XWUFVWnVYNF93NXdNdk1UNnM?oc=5 | unknown |
+| 16 | 3 | 기타 | 2026-06-17 | The World Economic Forum | How to build a circular economy for EV batteries | https://news.google.com/rss/articles/CBMiogFBVV95cUxObW5HeUlWUnlQZllOenNnVlN4ZV9vT1BXaXM1Wnk0ZWtXLTJDVUtXSjRYeWRBWVFiSlFDM1RBMi1UUVFXcUVVX2FRQWp1ZFhwZFJDcXhQMWgtRExVTUgzcWFmdGh4dkJfTTVWSlBJMWlEemNKcExJZnB3ZDBESTNyb1gyMHVaNEdnWEpXc3Q1WDNoMTNMdFVoYUpxUUpBNHVMb3c?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. 팩토리얼, 스텔란티스 차량에 전고체배터리 통합…주행 테스트 진행
+- 발행일: 2026-06-17
+- 매체: www.theguru.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.theguru.co.kr/news/article.html?no=103212
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국 배터리 스타트업 팩토리얼 에너지가 스텔란티스와 공동 개발한 전고체 배터리를 닷지 차저 데이토나에 적용했습니다.
+  - 이는 전고체 배터리의 실제 차량 적용 가능성을 보여주는 중요한 단계입니다.
+  - 향후 주행 테스트를 통해 성능과 안전성을 검증할 예정입니다.
+- 관련 기업: 팩토리얼 에너지, 스텔란티스, 전고체배터리
+
+### 2. [기획] 전고체 배터리, '황화물 vs 산화물'이 판도 가른다
+- 발행일: 2026-06-17
+- 매체: www.m-economynews.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.m-economynews.com/news/article.html?no=67953
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리가 차세대 기술로 주목받으며 관련 산업이 전환기를 맞고 있습니다.
+  - 전고체 배터리는 기존 리튬이온 배터리의 안전성, 에너지 밀도, 수명 문제를 해결할 수 있는 잠재력을 가지고 있습니다.
+  - 황화물계와 산화물계 전고체 배터리 기술 경쟁이 향후 시장 판도를 결정할 것으로 예상됩니다.
+- 관련 기업: 리튬이온, 안전성·에너지, ASSB
+
+### 3. Peak Energy, GM partner to scale domestic sodium-ion battery supplies
+- 발행일: 2026-06-17
+- 매체: Utility Dive (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMirgFBVV95cUxPVTNuTElQQmU0ZVdGZ2RDN1YxMUx5ZTM4S0ltSG1iLW40MjVnR0Q1anN3T2JxVW1jdmRTcWxwbmxJdnBYeUlGbjFLamJtX2R2X05nOTYzTGtDRzJlek1KNVdjX1FkSnlSRW9JOGFhUDhPZGtfeDlMdnVLMGI1TEx3N2tsWVd1MUpzM2RXT3ZTdllPME81SFFyQ0xqTEdtWmgxOEJaUGtla3BsQ2lWeHc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Peak Energy가 GM과 협력하여 국내 나트륨 이온 배터리 공급망 구축에 나섭니다.
+  - 이번 협력은 나트륨 이온 배터리 기술의 상용화를 가속화할 것으로 기대됩니다.
+  - 이는 에너지 저장 시스템(BESS) 분야에서 중요한 진전입니다.
+- 관련 기업: Peak Energy, GM
+
+### 4. Ford Michigan battery plant ramps up hiring, cell manufacturing for EV
+- 발행일: 2026-06-17
+- 매체: The Detroit News (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQcElpaTlOY0JJWHJDYkpic19oWUhhWVJJUmVWVERyVnZLbFlUZkxOZVBvZVN3TFR4QWFuVE1DamNDWE1HSFdJYVlVWHpyM1JLRFZuZVpNUEdYVzBWNF9DOFk3YmtmRG5CTG80elFyUTM4Q1JLVGRoVndpcXY1RVd0UFBYS2RFSmdzMS1rdnhfMnZ5RFY4UDdBRjFMdHpBclFoSjMwX0lsU1BYX3NuSHZ5SXVVWF9ubjFibFI0YnV0ejZvb1UwODIyZGdDM2FES2VEU0VJcFotUlNlY1pzb28zV2hLS0R3OEk?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 포드의 미시간 배터리 공장이 전기차용 셀 생산을 위해 채용을 확대하고 있습니다.
+  - 이는 포드의 전기차 생산 능력 강화 및 배터리 공급망 구축 노력의 일환입니다.
+  - 해당 공장은 향후 포드 전기차 모델에 탑재될 배터리를 생산할 예정입니다.
+- 관련 기업: Ford
+
+### 5. CATL’s next-generation EV battery research focuses on lithium-air technology
+- 발행일: 2026-06-17
+- 매체: Charged EVs (출처등급 3)
+- 분야: 정책
+- 링크: https://news.google.com/rss/articles/CBMirAFBVV95cUxPTXo2S2ZIeTh6YTFoUTJnNVg3dE5MWlVEaXNtWmlDLUZYSERQWi02N3ZYQXBQYUpWRk1NbXZpXzMweXlaSm1DZHRiUkg3Wjk4ZWpaWWVQQ0RaSEVfNWlhaXJ5amJtRlZ1Z2ZXMjIwcjVxQmlUb1U3ak5ESXJ6WWhtOE9MVGxkRHRPRDcyWUMyZE5oOG1SaVlzOXpWd3Y1a2Jzbzh0Q3RoRmtyQk15?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - CATL이 차세대 전기차 배터리 연구의 초점을 리튬-공기 기술에 맞추고 있습니다.
+  - 리튬-공기 배터리는 기존 리튬 이온 배터리보다 훨씬 높은 에너지 밀도를 제공할 잠재력이 있습니다.
+  - 이는 전기차의 주행 거리 향상에 크게 기여할 수 있는 기술입니다.
+- 관련 기업: CATL
+
+### 6. Why GM is Betting on Sodium-Ion Batteries for BESS
+- 발행일: 2026-06-17
+- 매체: Battery Technology (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT0piVWJMekR1ZWNkRkY3MThldHJ4Tmdybmt2WGFmbFN3Z2s4RFlkcEVmc2Jxc3Jfbk5FTWE0Tk5vbEFiOUw4RzlsRTVvU3IteDVWSTNrUngzNHlsQjhhaXNRM1FINHhRbXFFSjJpV2wwekxzMVk2bllwdnhpQWR3dWpUNnJRZ09iN3JmN3QxNm9XRWNVcDc0T1V0UTNJeGJSeE1LLUJZbk4?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - GM이 에너지 저장 시스템(BESS)을 위해 나트륨 이온 배터리에 투자하고 있습니다.
+  - 나트륨 이온 배터리는 저렴한 비용과 풍부한 원료 공급이라는 장점을 가지고 있습니다.
+  - 이는 BESS 시장의 성장에 새로운 가능성을 제시합니다.
+- 관련 기업: GM, BESS
+
+### 7. 이수스페셜티케미컬, 전고체 핵심 '황화리튬' 플랜트 조기 준공
+- 발행일: 2026-06-18
+- 매체: www.the-stock.kr (출처등급 3)
+- 분야: electrolyte
+- 링크: https://www.the-stock.kr/news/articleView.html?idxno=32760
+- 참고 링크: https://daily.hankooki.com/news/articleView.html?idxno=1377704, https://zdnet.co.kr/view/?no=20260618101008
+- 인기신호: unknown
+- 3문장 요약:
+  - 이수스페셜티케미컬이 전고체 배터리의 핵심 소재인 황화리튬 플랜트를 조기 준공했습니다.
+  - 이는 황화물계 고체 전해질의 핵심 원료인 황화리튬의 안정적인 대량 공급을 가능하게 합니다.
+  - 이번 플랜트 준공은 전고체 배터리 상용화를 앞당기는 데 기여할 것으로 보입니다.
+- 관련 기업: 이수스페셜티케미컬, 2차전지
+
+### 8. [창간기획: 미래를 설계하는 기업들] AI가 부른 배터리 대전환…LG에너...
+- 발행일: 2026-06-17
+- 매체: www.s-journal.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.s-journal.co.kr/news/articleView.html?idxno=41792
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 AI 시대 배터리 대전환에 대비하고 있습니다.
+  - LG는 과거 일본 기업 의존도가 높았던 국내 배터리 산업에서 충전 및 재사용 가능한 2차전지의 가능성에 주목했습니다.
+  - 지속적인 투자와 기술 개발을 통해 국내 배터리 산업 성장을 이끌고 있습니다.
+- 관련 기업: LG에너지솔루션, 2차전지
+
+### 9. 삼성자산운용, 'KODEX 전고체배터리ESS TOP2플러스' 출시…AI 시대 배터리...
+- 발행일: 2026-06-17
+- 매체: www.press9.kr (출처등급 3)
+- 분야: 전고체
+- 링크: http://www.press9.kr/news/articleView.html?idxno=78046
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성자산운용이 'KODEX 전고체배터리ESS TOP2플러스' ETF를 상장합니다.
+  - 이 상품은 전고체 배터리 상용화 수혜 기업과 ESS 밸류체인 핵심 기업에 집중 투자합니다.
+  - AI 시대 배터리 시장 성장에 따른 투자 기회를 제공할 것으로 기대됩니다.
+- 관련 기업: 삼성자산운용, 전고체배터리, KODEX
+
+### 10. 세계 최대 배터리업체 CATL 회장 "2030년 이전 전고체 배터리 대량 생산...
+- 발행일: 2026-06-17
+- 매체: www.autodaily.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.autodaily.co.kr/news/articleView.html?idxno=544970
+- 인기신호: unknown
+- 3문장 요약:
+  - CATL 회장이 2030년 이전 전고체 배터리 대량 생산은 어렵다고 밝혔습니다.
+  - 이는 전고체 전기차 상용화에 대한 시장의 과도한 기대를 진정시키는 발언입니다.
+  - CATL은 세계 최대 배터리 제조업체로서 시장 동향에 큰 영향을 미칩니다.
+- 관련 기업: CATL
+
+### 11. Toyota's Solid-State Battery Roadmap: Reality vs. Rumor
+- 발행일: 2026-06-17
+- 매체: EVWORLD.COM (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMiogFBVV95cUxOWk9FUEt1c1ZRZFljMkNfN3JNMnVVMjdZVkVFTk9OT3AwVEdLR2dlZ095RHJ3VF9Gc1I1M2lGSE1pNC1XOHFINlY1YjJEV1NRcmdIbzlmSkxLck5yNTkwZU1MbkU1WnBsRko4MEVXdTJQN3luTXZsYjk5RmFQcG9pX3pRQUJOOTJCc00wVHAyaVU2eFFzYTVSME5NdzlQYXoxaWc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 토요타의 전고체 배터리 로드맵에 대한 현실적인 전망과 루머를 분석합니다.
+  - 전고체 배터리 기술 개발 및 상용화 과정에서의 어려움과 가능성을 다룹니다.
+  - 토요타의 전략은 향후 전기차 시장 경쟁 구도에 영향을 미칠 수 있습니다.
+- 관련 기업: Toyota, COM
+
+### 12. Endurance Technologies Commences Commercial Production Of Lithium Ion Battery Packs Effective June 17
+- 발행일: 2026-06-17
+- 매체: TradingView (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMigAJBVV95cUxPQmx4blBoQTJUSjgtc0dwTXdrZGE1bnprVGxycWlINlpnMS1sbUd6bEVDcTUzX3FYeVQydkZlcTdKa3Vtd1p3Q2NIX0dLS21KeFQ5NW1XNW9JSXdFMlUxM1dXV0c5aDhibGh4TVFpeW45ai16b3kwNnhid3ZBZ3FUdGpLMFR6OHpaVU1zcENrZnZnRmVnRzduWFJCc1IzTUhwdGxadnVGUldwT05sQUFmOWF2NTBpS3NaUHRMMHhjMGFZRUhDSFFFeWNKMk9wOHVsS1RpRENKU2NQbjNackRyelBIYlVVTzlRZW1MZjZuZXdKcHpZbk92bTBNaXdaNkJq?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Endurance Technologies가 6월 17일부터 리튬 이온 배터리 팩 상업 생산을 시작했습니다.
+  - 이는 회사의 배터리 생산 능력 확대 및 시장 진출을 의미합니다.
+  - 향후 전기차 및 에너지 저장 장치 시장에서의 역할을 확대할 것으로 예상됩니다.
+- 관련 기업: Endurance Technologies
+
+### 13. Surface Metals to Present at Fastmarkets Global Lithium, Battery & Critical Materials Conference in Las Vegas, Nevada
+- 발행일: 2026-06-17
+- 매체: Investing News Network (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMXh1RTUxbWZPekxmcDlzemlicVNVVW9STWtNNFVmekVSUUtYU2YxME04VHBWUlFyY0xqVEZiWmxRVGhBT0RVVjBIVVRkR1FvTWxybDlPWllMZzlZWXJhZEdZY1VyMmY0OWdmR0REeXdzSFN2bm9xYVJBdWdCRnlRSTBkNUQwLTUzRUItb3ppeUNTRjJnT1dlclFaZFZ2clhvcUpyXzRRY182ZEhXQ1hvcmVIX1pjSXBYRWdSY0J2T1BDUjBDQllhTGZ5SEdLTGpGaFJtQ1huWQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Surface Metals가 네바다주 라스베이거스에서 열리는 Fastmarkets 글로벌 리튬, 배터리 및 핵심 소재 컨퍼런스에 참가합니다.
+  - 이번 컨퍼런스는 리튬 및 배터리 산업의 최신 동향과 기술 발전을 공유하는 자리입니다.
+  - Surface Metals는 이 컨퍼런스를 통해 자사의 기술력과 사업 비전을 알릴 기회를 가질 것입니다.
+- 관련 기업: Surface Metals
+
+### 14. Ford begins LFP battery production, Carvana enters new-car sales, Tacoma owners report transmission issues
+- 발행일: 2026-06-17
+- 매체: CBT News (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFA2YWhJTXl1X3p0bHgxNUVGSVJhandadnM4SFpYVUpBLUhpTmFJUnNhOTdqVnpyQUhYSUtfWlEyZmdVdEpMZjF1VWpDRGlSdi1fQWJuUExRZzVsYlVwWnJVdjN6alp6MFVURUZoSEdn?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 포드가 LFP 배터리 생산을 시작했으며, Carvana는 신차 판매에 진출했습니다.
+  - 포드의 LFP 배터리 생산은 전기차 배터리 다변화 전략의 일환입니다.
+  - 이 소식은 자동차 산업의 최신 동향을 보여줍니다.
+- 관련 기업: Ford, Carvana, LFP
+
+### 15. LibertyStream delivers first lithium carbonate from Texas direct lithium extraction facility
+- 발행일: 2026-06-17
+- 매체: Charged EVs (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQmdmM1R5MkFYblNVVlNVUDJveEl4Z3dlNDBMQ0tQVDhvUW1sOHgwZkJPdXVQaURNX19QM1FyOWRzazdCMUtkLUtxSDFzZFNwanZzZlhnaTgxNnJHZDN2V1laaGZwRGtjNTNPTjVIb0ZPWkpsMWJhcTQtM3pFY2JRQWFMa1VvbVpiSmYzWGd0c1EwX0I2UVZ3Q2p5cHM2djZqd1paUU1EN3lTZWZMUWt0Qm5XWUFVWnVYNF93NXdNdk1UNnM?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - LibertyStream이 텍사스 직접 리튬 추출 시설에서 첫 리튬 탄산염을 생산했습니다.
+  - 이는 미국 내 리튬 생산 능력 확보 및 공급망 안정화에 기여할 수 있습니다.
+  - 향후 전기차 배터리 생산에 필요한 핵심 원료 공급에 긍정적인 영향을 미칠 것으로 기대됩니다.
+- 관련 기업: LibertyStream
+
+### 16. How to build a circular economy for EV batteries
+- 발행일: 2026-06-17
+- 매체: The World Economic Forum (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiogFBVV95cUxObW5HeUlWUnlQZllOenNnVlN4ZV9vT1BXaXM1Wnk0ZWtXLTJDVUtXSjRYeWRBWVFiSlFDM1RBMi1UUVFXcUVVX2FRQWp1ZFhwZFJDcXhQMWgtRExVTUgzcWFmdGh4dkJfTTVWSlBJMWlEemNKcExJZnB3ZDBESTNyb1gyMHVaNEdnWEpXc3Q1WDNoMTNMdFVoYUpxUUpBNHVMb3c?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 전기차 배터리 순환 경제 구축 방안에 대해 논의합니다.
+  - 배터리 재활용 및 재사용을 통해 지속 가능한 생태계를 조성하는 것이 중요합니다.
+  - 이는 자원 효율성을 높이고 환경 부담을 줄이는 데 기여할 것입니다.
