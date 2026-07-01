@@ -1,0 +1,161 @@
+# 배터리 뉴스 데일리 브리핑 (2026-06-30 전날 기준)
+
+- 총 12건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 기타 | 2026-06-30 | OkDiario | China is preparing for a flood of end-of-life electric vehicle batteries that could exceed 1.1 million metric tons per year by 2030, and it wants to track each and every one of them | https://news.google.com/rss/articles/CBMivAJBVV95cUxOdlBNMDA5X3BjWk1ZNXF4ejNFUkZfSzdxTWdlckZOOVh4MnZMM3E3Mk9LSTFLQzZPZ0JFUXNLNTkzMUtaV0d6bTBqRERQVVZ2dFdEXzE3U2xJZnZaamwxVnFYcjB2RXVMblNHQ1doaVpuaHFmMDVsQ1EtOWU3VUZUSHBHX0VXWG90TTRhb1RYX203VzV3MS1qcFRmQUVIU21GVG9QOEJKdEh6MzYwdkk4YTdIc1pQR0FxVHdnaHBvU3JHcTN6cEp0dVVfYjFqM3dwcWRvbWc4MGhaNW51SjdwRXN3cDk4Yk1fZ0paZzhXN0JNV18zYWViSVE4NFFSQlUwZkhuNGFNYU5EdXdWcWkwVkl1WVhCWGpZSGlnMmZaekVBUEdpY2FTRC12aFBWREhHUnVzQ0J4cUs5WGpt?oc=5 | unknown |
+| 2 | 3 | cathode | 2026-06-30 | magazine.hankyung.com | 엘앤에프, LFP 리사이클링 주도권 확보…씨아이에스케미칼에 전략적 투... | https://magazine.hankyung.com/business/article/202606307652b | unknown |
+| 3 | 3 | 나트륨 | 2026-06-30 | www.dt.co.kr | GM·BYD·CATL, 나트륨 투자 확대… AI가 바꾸는 배터리 지도 | https://www.dt.co.kr/article/12070326?ref=naver | unknown |
+| 4 | 3 | 나트륨 | 2026-06-30 | The Cool Down | China's sodium-ion battery could upend EV prices as VW-backed company says it's matched Tesla cells | https://news.google.com/rss/articles/CBMikgFBVV95cUxNUjF0dG1tTmRWMlhMN2hEQ0xqY3lSSnJoX1ZTTnpUbk1pWkNBQ1BsQWxhTDRhNjhnYnlZa0J5V0pCNTJ1bnV2a3NlVmtKQkRrUTI3NU40ZFdFOGZROU5wYTVvT0FPZ0E2b0s4dTdnbjlOZnJucXZkdy00a2lqLWY2WHh1UEZTSW9DOHBqS0U2eWo5Zw?oc=5 | unknown |
+| 5 | 3 | 재활용 | 2026-06-30 | Yahoo | Colorado makes history as first state with sweeping law for EV battery reuse, repurposing, and recycling | https://news.google.com/rss/articles/CBMimAFBVV95cUxPeXJ4Yi1oUVhWTWlNY3ZaOVpTYVZWQWlEenExZHN5LUdPZkw1aGtKeklDZUlfZWdMdXhINjdwVkl0MTVBbXB2dU5VUVJvUVBQcHNrbXFBTkpjcDdNU1B0OEZnTC1US25pX3R2eVUyNi0zLVpFTXNxZXZmWFV6azJEUzVKQnNoZGNyVzRzVnBhTzNtX3ZNRnpuMg?oc=5 | unknown |
+| 6 | 3 | 나트륨 | 2026-06-30 | The Cool Down | China's CATL says 10,000 EVs will get sodium-ion packs in 2026, a big test for cheaper cars | https://news.google.com/rss/articles/CBMikAFBVV95cUxQeDNvaUoyc2FYS3FrclYwQUVVNzd5T1d5LW80ODlPUGl0ZkhndnMwVFgtMDhkczl4dE95NTZRdXpTOWdKTGVqWDQxZlN5c3pGRmNzWnNaYlIxSlMydFhQMnRRZ1hMYlJRcmhkeUFQLVlGbnBxWVJHbnZra3hKN29WbE42aDdPMGJNLXhMc2ZOS2o?oc=5 | unknown |
+| 7 | 3 | 전고체 | 2026-06-30 | Yahoo Finance | Stellantis (STLA), Factorial (FAC) Launch North American Road Testing for Solid-State Battery-Powered Dodge Charger Daytona | https://news.google.com/rss/articles/CBMingFBVV95cUxOUVFaT0lwTEhUUG1KYzN5cFAtU2p4RlRaa094M3pMQWhoallsVFRDTjhUb3RfSFNpUDBMcTRpOU1lYkFBUXFTYV9SdnJYWk1GczBfRTBldmNRbUR5N3FreWtCNnhmZlJCbVRvRVRZdVdNLVd0SFBBcVB5WktWRk04blM5UHJUNnM5NG1mY1RmTWk1QWh4UnJQcHR0S20wZw?oc=5 | unknown |
+| 8 | 3 | 재활용 | 2026-06-30 | Recycling Product News | VIDEO: World’s largest EV battery repurposing factory opens in Vancouver | https://news.google.com/rss/articles/CBMivgFBVV95cUxNSjV1SzBaSFJyeDNQVUpEczF0T0diWUU4ZEptdzFwTWRLUXMzaVF3NkxQNW55cHJKRDV2cGl0aC1BRklSU1NxZEtYa1ZGWV95ZDFjbUd1Q3RHZzZadUVJV19wWWlndXdFVWlTMjNMS0ZQNEVYazBGRXozR1RYYXRoYjQ3UHBmNk1VTjAxV0Q1T3lyOXY5X0J4NmNPQVhSWDViS3VadXdtTW9vdVVfNDJNMUJoV09lel9TX0JPeGd3?oc=5 | unknown |
+| 9 | 3 | 기타 | 2026-06-30 | IndexBox | Africa Lamea Solid State Battery - Market Analysis, Forecast, Size, Trends and Insights | https://news.google.com/rss/articles/CBMiswFBVV95cUxObmdYQkZrWFBBZ3NOZ3dXVndzTXhleV90bm1TX1dXVEUxdjdDRnZrSE1DVjE1N21QNW8zR08xN2k0LV93VmdpTl8xbkkzLVZseFVyUnpQbjA5QWNwYnowa3l2MzV4blB6dlFQR00tMUZ6VVRrT0xmOFRCUkl3YWNNckhHZl9MRlN2S0lnTFVqUExsQms4ZUNEc1Rnd1VtRXlheDVwbnJsQ2FrUGYxQzVGQ2pLbw?oc=5 | unknown |
+| 10 | 3 | 기타 | 2026-06-30 | CnEVPost | Ford's CATL-backed battery plant completed after repeated setbacks | https://news.google.com/rss/articles/CBMifkFVX3lxTFBERDZiWlQzc1doVGI5YnZJSG4wOEpsMzFBZ01ZT2s3TTZyYXdUY180QkhMX2JfaXRBZlk3MVUzTlRPaFhoYmJ0UzVGTjdyaFBka1NSTFduRW5jTWJLUWZBVHJld1V0OS1hUXRqU1Z5ZE9OSWU4WFUyRGVxQWEtdw?oc=5 | unknown |
+| 11 | 3 | 재활용 | 2026-06-30 | Yahoo Finance | Lithium-ion Battery Recycling Market to Reach US$ 31.8 Bn by 2033 as Electric Vehicle Adoption Accelerates Circular Economy Initiatives - Persistence Market Research | https://news.google.com/rss/articles/CBMimAFBVV95cUxPZm56NUYyS1ZTS2puTmVVRWJ4MFlYMVlXYU8tSjV6UGRqWXZPU1dGVnhlV3Jmc3ZaelIyWjdDaHB3Y3F6Sks2ZFVhZktuZS1Pcnk1TmNVbHNCYndvTjVuczc2SFNCZlZfZjFTTUV1aWtiLWVMUEcwVlRYbmtyWENJUnRaRmx3dk9aZ2tocDNzN2FqOXg3cDVGRw?oc=5 | unknown |
+| 12 | 3 | 기타 | 2026-06-30 | CnEVPost | China's toughest battery safety rules take effect in July, raising bar for makers | https://news.google.com/rss/articles/CBMijgFBVV95cUxNbGNreS1Rbm9YZ01QNmRBNFUyd1RkeFVYREZMU25VQlVMb3p6ZzNjLS1BWVhTTWhMUlRGdXB4V3pqVGRMbF9FREN1bFBXczNDTUpGOUhPZHhURzBGWlBGNEJqek5DNHNWYUJwWFZROFM1NHNvUG0wLVIwSjZFY0dlN1EwUUFDR2pBU2MxNURB?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. China is preparing for a flood of end-of-life electric vehicle batteries that could exceed 1.1 million metric tons per year by 2030, and it wants to track each and every one of them
+- 발행일: 2026-06-30
+- 매체: OkDiario (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMivAJBVV95cUxOdlBNMDA5X3BjWk1ZNXF4ejNFUkZfSzdxTWdlckZOOVh4MnZMM3E3Mk9LSTFLQzZPZ0JFUXNLNTkzMUtaV0d6bTBqRERQVVZ2dFdEXzE3U2xJZnZaamwxVnFYcjB2RXVMblNHQ1doaVpuaHFmMDVsQ1EtOWU3VUZUSHBHX0VXWG90TTRhb1RYX203VzV3MS1qcFRmQUVIU21GVG9QOEJKdEh6MzYwdkk4YTdIc1pQR0FxVHdnaHBvU3JHcTN6cEp0dVVfYjFqM3dwcWRvbWc4MGhaNW51SjdwRXN3cDk4Yk1fZ0paZzhXN0JNV18zYWViSVE4NFFSQlUwZkhuNGFNYU5EdXdWcWkwVkl1WVhCWGpZSGlnMmZaekVBUEdpY2FTRC12aFBWREhHUnVzQ0J4cUs5WGpt?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 2030년까지 연간 110만 톤을 초과할 수 있는 폐 전기차 배터리 홍수에 대비하고 있습니다.
+  - 중국은 이 모든 배터리를 추적하기를 원하며, 이를 위해 새로운 추적 시스템을 준비하고 있습니다.
+  - 이는 배터리 재활용 및 재사용을 위한 중요한 단계가 될 것입니다.
+
+### 2. 엘앤에프, LFP 리사이클링 주도권 확보…씨아이에스케미칼에 전략적 투...
+- 발행일: 2026-06-30
+- 매체: magazine.hankyung.com (출처등급 3)
+- 분야: cathode
+- 링크: https://magazine.hankyung.com/business/article/202606307652b
+- 참고 링크: https://www.sedaily.com/article/20062055?ref=naver, https://www.idaegu.co.kr/news/articleView.html?idxno=552576
+- 인기신호: unknown
+- 3문장 요약:
+  - 엘앤에프는 씨아이에스케미칼과 전략적 투자 계약을 체결했습니다.
+  - 이번 계약을 통해 엘앤에프는 LFP 배터리 리사이클링 분야에서의 주도권을 확보하고 협력을 강화할 계획입니다.
+  - 이는 엘앤에프의 배터리 순환경제 생태계 구축에 속도를 더할 것으로 기대됩니다.
+- 관련 기업: 엘앤에프, 씨아이에스케미칼, 2차전지
+
+### 3. GM·BYD·CATL, 나트륨 투자 확대… AI가 바꾸는 배터리 지도
+- 발행일: 2026-06-30
+- 매체: www.dt.co.kr (출처등급 3)
+- 분야: 나트륨
+- 링크: https://www.dt.co.kr/article/12070326?ref=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - GM, BYD, CATL 등 글로벌 완성차 업체들이 나트륨이온 배터리 투자를 확대하고 있습니다.
+  - 이는 데이터센터용 초고용량 에너지저장장치(ESS) 수요 선점을 위한 전략입니다.
+  - AI 전력 인프라의 핵심으로 부상하는 나트륨이온 배터리 시장 경쟁이 심화될 전망입니다.
+- 관련 기업: GM, BYD, CATL
+
+### 4. China's sodium-ion battery could upend EV prices as VW-backed company says it's matched Tesla cells
+- 발행일: 2026-06-30
+- 매체: The Cool Down (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMikgFBVV95cUxNUjF0dG1tTmRWMlhMN2hEQ0xqY3lSSnJoX1ZTTnpUbk1pWkNBQ1BsQWxhTDRhNjhnYnlZa0J5V0pCNTJ1bnV2a3NlVmtKQkRrUTI3NU40ZFdFOGZROU5wYTVvT0FPZ0E2b0s4dTdnbjlOZnJucXZkdy00a2lqLWY2WHh1UEZTSW9DOHBqS0U2eWo5Zw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국의 나트륨이온 배터리가 전기차 가격을 변동시킬 수 있습니다.
+  - 폭스바겐의 지원을 받는 한 회사는 테슬라 배터리와 동등한 성능을 달성했다고 밝혔습니다.
+  - 이는 더 저렴한 전기차 출시 가능성을 시사합니다.
+- 관련 기업: 폭스바겐, 테슬라, Tesla
+
+### 5. Colorado makes history as first state with sweeping law for EV battery reuse, repurposing, and recycling
+- 발행일: 2026-06-30
+- 매체: Yahoo (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxPeXJ4Yi1oUVhWTWlNY3ZaOVpTYVZWQWlEenExZHN5LUdPZkw1aGtKeklDZUlfZWdMdXhINjdwVkl0MTVBbXB2dU5VUVJvUVBQcHNrbXFBTkpjcDdNU1B0OEZnTC1US25pX3R2eVUyNi0zLVpFTXNxZXZmWFV6azJEUzVKQnNoZGNyVzRzVnBhTzNtX3ZNRnpuMg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 콜로라도주가 전기차 배터리 재사용, 재활용에 대한 포괄적인 법률을 제정하며 역사적인 첫걸음을 내디뎠습니다.
+  - 이 법은 배터리 수명 연장과 환경 보호를 목표로 합니다.
+  - 이는 미국 내 다른 주에도 영향을 미칠 수 있는 중요한 사례가 될 것입니다.
+
+### 6. China's CATL says 10,000 EVs will get sodium-ion packs in 2026, a big test for cheaper cars
+- 발행일: 2026-06-30
+- 매체: The Cool Down (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMikAFBVV95cUxQeDNvaUoyc2FYS3FrclYwQUVVNzd5T1d5LW80ODlPUGl0ZkhndnMwVFgtMDhkczl4dE95NTZRdXpTOWdKTGVqWDQxZlN5c3pGRmNzWnNaYlIxSlMydFhQMnRRZ1hMYlJRcmhkeUFQLVlGbnBxWVJHbnZra3hKN29WbE42aDdPMGJNLXhMc2ZOS2o?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국의 CATL은 2026년에 10,000대의 전기차에 나트륨이온 배터리 팩을 공급할 예정입니다.
+  - 이는 더 저렴한 전기차 출시를 위한 중요한 시험대가 될 것입니다.
+  - 나트륨이온 배터리의 상용화 확대 가능성을 보여줍니다.
+- 관련 기업: CATL
+
+### 7. Stellantis (STLA), Factorial (FAC) Launch North American Road Testing for Solid-State Battery-Powered Dodge Charger Daytona
+- 발행일: 2026-06-30
+- 매체: Yahoo Finance (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMingFBVV95cUxOUVFaT0lwTEhUUG1KYzN5cFAtU2p4RlRaa094M3pMQWhoallsVFRDTjhUb3RfSFNpUDBMcTRpOU1lYkFBUXFTYV9SdnJYWk1GczBfRTBldmNRbUR5N3FreWtCNnhmZlJCbVRvRVRZdVdNLVd0SFBBcVB5WktWRk04blM5UHJUNnM5NG1mY1RmTWk1QWh4UnJQcHR0S20wZw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 스텔란티스와 팩토리얼은 북미에서 차세대 전고체 배터리 기반의 닷지 차저 데이토나 차량 도로 테스트를 시작했습니다.
+  - 이 테스트는 전고체 배터리의 성능과 안정성을 검증하기 위해 진행됩니다.
+  - 이는 전기차 기술 발전에 중요한 이정표가 될 수 있습니다.
+- 관련 기업: Stellantis, Factorial, 닷지 차저 데이토나
+
+### 8. VIDEO: World’s largest EV battery repurposing factory opens in Vancouver
+- 발행일: 2026-06-30
+- 매체: Recycling Product News (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMivgFBVV95cUxNSjV1SzBaSFJyeDNQVUpEczF0T0diWUU4ZEptdzFwTWRLUXMzaVF3NkxQNW55cHJKRDV2cGl0aC1BRklSU1NxZEtYa1ZGWV95ZDFjbUd1Q3RHZzZadUVJV19wWWlndXdFVWlTMjNMS0ZQNEVYazBGRXozR1RYYXRoYjQ3UHBmNk1VTjAxV0Q1T3lyOXY5X0J4NmNPQVhSWDViS3VadXdtTW9vdVVfNDJNMUJoV09lel9TX0JPeGd3?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 세계 최대 규모의 전기차 배터리 재활용 공장이 캐나다 밴쿠버에 문을 열었습니다.
+  - 이 공장은 폐배터리를 재활용하여 새로운 배터리 생산에 활용하는 것을 목표로 합니다.
+  - 이는 전기차 배터리 순환 경제 구축에 기여할 것으로 기대됩니다.
+- 관련 기업: VIDEO
+
+### 9. Africa Lamea Solid State Battery - Market Analysis, Forecast, Size, Trends and Insights
+- 발행일: 2026-06-30
+- 매체: IndexBox (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiswFBVV95cUxObmdYQkZrWFBBZ3NOZ3dXVndzTXhleV90bm1TX1dXVEUxdjdDRnZrSE1DVjE1N21QNW8zR08xN2k0LV93VmdpTl8xbkkzLVZseFVyUnpQbjA5QWNwYnowa3l2MzV4blB6dlFQR00tMUZ6VVRrT0xmOFRCUkl3YWNNckhHZl9MRlN2S0lnTFVqUExsQms4ZUNEc1Rnd1VtRXlheDVwbnJsQ2FrUGYxQzVGQ2pLbw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 아프리카 지역의 전고체 배터리 시장 분석, 예측, 규모, 동향 및 인사이트에 대한 보고서가 발표되었습니다.
+  - 이 보고서는 전고체 배터리 기술의 잠재력과 시장 성장 가능성을 다룹니다.
+  - 아프리카 시장에서의 전고체 배터리 도입 확대 가능성을 조명합니다.
+
+### 10. Ford's CATL-backed battery plant completed after repeated setbacks
+- 발행일: 2026-06-30
+- 매체: CnEVPost (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMifkFVX3lxTFBERDZiWlQzc1doVGI5YnZJSG4wOEpsMzFBZ01ZT2s3TTZyYXdUY180QkhMX2JfaXRBZlk3MVUzTlRPaFhoYmJ0UzVGTjdyaFBka1NSTFduRW5jTWJLUWZBVHJld1V0OS1hUXRqU1Z5ZE9OSWU4WFUyRGVxQWEtdw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 포드의 CATL 지원 배터리 공장이 반복적인 차질 끝에 완공되었습니다.
+  - 이 공장은 포드의 전기차 생산 능력 확대에 기여할 것입니다.
+  - CATL과의 협력을 통해 배터리 공급망을 강화하는 중요한 단계입니다.
+- 관련 기업: Ford, CATL
+
+### 11. Lithium-ion Battery Recycling Market to Reach US$ 31.8 Bn by 2033 as Electric Vehicle Adoption Accelerates Circular Economy Initiatives - Persistence Market Research
+- 발행일: 2026-06-30
+- 매체: Yahoo Finance (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxPZm56NUYyS1ZTS2puTmVVRWJ4MFlYMVlXYU8tSjV6UGRqWXZPU1dGVnhlV3Jmc3ZaelIyWjdDaHB3Y3F6Sks2ZFVhZktuZS1Pcnk1TmNVbHNCYndvTjVuczc2SFNCZlZfZjFTTUV1aWtiLWVMUEcwVlRYbmtyWENJUnRaRmx3dk9aZ2tocDNzN2FqOXg3cDVGRw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 전기차 채택 가속화와 순환경제 이니셔티브 강화로 리튬이온 배터리 재활용 시장이 2033년까지 318억 달러 규모에 이를 것으로 전망됩니다.
+  - 이는 폐배터리 처리 및 재활용 기술의 중요성이 커지고 있음을 보여줍니다.
+  - 지속 가능한 배터리 생태계 구축에 대한 기대감을 높입니다.
+- 관련 기업: US
+
+### 12. China's toughest battery safety rules take effect in July, raising bar for makers
+- 발행일: 2026-06-30
+- 매체: CnEVPost (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMijgFBVV95cUxNbGNreS1Rbm9YZ01QNmRBNFUyd1RkeFVYREZMU25VQlVMb3p6ZzNjLS1BWVhTTWhMUlRGdXB4V3pqVGRMbF9FREN1bFBXczNDTUpGOUhPZHhURzBGWlBGNEJqek5DNHNWYUJwWFZROFM1NHNvUG0wLVIwSjZFY0dlN1EwUUFDR2pBU2MxNURB?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국의 가장 엄격한 배터리 안전 규정이 7월부터 시행되어 제조업체들의 기준을 높입니다.
+  - 이 규정은 배터리 안전성을 강화하고 잠재적 위험을 줄이는 것을 목표로 합니다.
+  - 이는 중국 내 배터리 산업의 기술 발전과 안전 관리 수준 향상을 촉진할 것입니다.
