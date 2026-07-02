@@ -1,5 +1,443 @@
 [
   {
+    "title": "[중국 특징주] CATL \"병목은 가공 아닌 채굴\" 원자재 확보에 사활",
+    "description": "자원인 나트륨을 활용한 배터리 기술 개발에도 속도를 내고 있으며, 이를 일종의 '리스크 관리 전략'으로 제시하고 있다. 장 부사장은 \"리튬 가격이 상승할 경우 나트륨이온 배터리 생산을 확대할 수 있다\"고 설명했다.",
+    "link": "https://www.newspim.com/news/view/20260702000642",
+    "source": "www.newspim.com",
+    "published_at": "2026-07-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL",
+      "나트륨이온"
+    ],
+    "summary_3_sentences": [
+      "CATL은 배터리 생산의 병목 현상이 가공이 아닌 채굴에 있다고 밝히며 원자재 확보에 총력을 기울이고 있습니다.",
+      "또한, 리튬 가격 상승 시 나트륨 이온 배터리 생산을 확대할 수 있는 리스크 관리 전략을 제시했습니다.",
+      "이는 원자재 확보의 중요성과 나트륨 이온 배터리의 잠재력을 보여줍니다."
+    ],
+    "uid": "ca99039c4037086bb1ed9658272991185097b0f4"
+  },
+  {
+    "title": "배터리솔루션즈, 환경부 LFP 재활용 국고지원금 확정… 국가 실증사업 ...",
+    "description": "LFP 배터리는 NCM 배터리 대비 높은 안전성과 긴 수명, 저렴한 가격을 앞세워 전기차와 에너지저장장치(ESS) 시장의 주력으로 떠오르고 있다. 업계는 2035년 LFP 폐배터리 재활용 시장 규모가 20조원에 이를 것으로 추산한다....",
+    "link": "https://www.mt.co.kr/stock/2026/07/02/2026070210475056565",
+    "source": "www.mt.co.kr",
+    "published_at": "2026-07-02",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.etoday.co.kr",
+        "link": "https://www.etoday.co.kr/news/view/2599548"
+      },
+      {
+        "source": "view.asiae.co.kr",
+        "link": "https://view.asiae.co.kr/article/2026070210283998216"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LFP",
+      "배터리솔루션",
+      "NCM"
+    ],
+    "summary_3_sentences": [
+      "배터리솔루션즈는 환경부로부터 LFP 배터리 재활용에 대한 국고지원금을 확정받아 국가 실증사업에 참여합니다.",
+      "LFP 배터리는 높은 안전성, 긴 수명, 저렴한 가격으로 전기차 및 ESS 시장의 주력으로 부상하고 있습니다.",
+      "2035년 LFP 폐배터리 재활용 시장 규모는 20조원에 이를 것으로 추산됩니다."
+    ],
+    "uid": "4ae19dbebe2d30afcb6f2e89ed01879d2726c4cb"
+  },
+  {
+    "title": "[단독] 삼성SDI 전고체 배터리, 2027년 양산 순항…휴머노이드·모바일까...",
+    "description": "삼성SDI의 전고체 배터리 샘플이 안전성과 에너지 밀도 측면에서 글로벌 고객사들로부터 긍정적인 평가를 받으며 약속했던 2027년 양산에 속도를 내고 있다. 삼성SDI는...",
+    "link": "https://www.koreajoongangdaily.com/business/dandog-samseongsdi-jeongoche-baeteoli-2027nyeon-yangsan-sunhanghyumeonoideumobailkkaji-hwagjang/12750213",
+    "source": "www.koreajoongangdaily.com",
+    "published_at": "2026-07-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 97,
+    "monitoring_importance": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI의 전고체 배터리 샘플이 안전성과 에너지 밀도 측면에서 글로벌 고객사들로부터 긍정적인 평가를 받았습니다.",
+      "이는 2027년 양산을 목표로 하는 삼성SDI의 전고체 배터리 개발에 청신호를 켜고 있습니다.",
+      "휴머노이드 및 모바일 기기 등 다양한 분야로의 적용 가능성이 기대됩니다."
+    ],
+    "uid": "9a088eab9b76eeb69a41ffc571d7436f330ad847"
+  },
+  {
+    "title": "車 대신 전력망…K배터리, 복잡해진 하반기 셈법",
+    "description": "이러한 양상은 유럽 내 생산 능력과 고객 기반을 확보한 한국·일본·유럽 배터리 업체에 기회가 될 수 있다는 평가다. 하반기 글로벌 2차전지 업황은 전기차 판매량 하나만으로 설명하기 어려워졌다. 미국에서는...",
+    "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=847498",
+    "source": "www.hansbiz.co.kr",
+    "published_at": "2026-07-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "하반기 글로벌 2차전지 업황은 전기차 판매량만으로는 설명하기 어려워졌습니다.",
+      "이는 유럽 내 생산 능력과 고객 기반을 확보한 한국, 일본, 유럽 배터리 업체들에게 기회가 될 수 있습니다.",
+      "미국 시장 상황 등 복합적인 요인이 하반기 업황에 영향을 미칠 것으로 보입니다."
+    ],
+    "uid": "f157e0a347bd3d73f82ffd6a65e5646adef10a17"
+  },
+  {
+    "title": "금오공대 연구팀, 리튬이온·전고체전지 겸용 실리콘 음극소재 개발",
+    "description": "리튬이온전지와 전고체전지에 모두 적용 가능한 차세대 실리콘 기반 음극소재를 개발했다고 2일 밝혔다. 실리콘은 기존 흑연 음극보다 약 10배 높은 이론용량을 갖춰 차세대 배터리 소재로 주목받지만, 충·방전...",
+    "link": "https://daily.hankooki.com/news/articleView.html?idxno=1382142",
+    "source": "daily.hankooki.com",
+    "published_at": "2026-07-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "리튬이온·전고체전지",
+      "음극소재",
+      "리튬이온전지"
+    ],
+    "summary_3_sentences": [
+      "금오공대 연구팀이 리튬 이온 전지와 전고체 전지에 모두 적용 가능한 차세대 실리콘 기반 음극소재를 개발했습니다.",
+      "이 소재는 기존 흑연 음극보다 약 10배 높은 이론 용량을 가져 차세대 배터리 소재로 주목받고 있습니다.",
+      "개발된 소재는 충·방전 시 발생하는 부피 팽창 문제를 해결하여 안정성을 높였습니다."
+    ],
+    "uid": "4bdd506fb599d60d04c4ac5e44dce396615ae63c"
+  },
+  {
+    "title": "SK온 '파우치형 주력' EV 시장에서 돌파구 찾기 난항, 이용욱 AI 데이터...",
+    "description": "(ESS) 배터리 사업에서 큰 ‘기회의 장’을 찾을 수 있을지 주목된다. SK온은 전기자동차(EV)배터리... 원전·발전설비, 2차전지를 동시에 보유한 드문 제조업 공급망을 보유하고 있다”며 “AI 데이터센터와 관련해...",
+    "link": "https://www.huffingtonpost.kr/article/258385",
+    "source": "www.huffingtonpost.kr",
+    "published_at": "2026-07-01",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "SK온",
+      "2차전지",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "SK온은 주력인 파우치형 배터리로 전기차 시장에서 돌파구를 찾는 데 어려움을 겪고 있습니다.",
+      "에너지 저장 장치(ESS) 배터리 사업에서 새로운 기회를 찾을 수 있을지 주목됩니다.",
+      "SK온은 원전·발전설비, 2차전지를 동시에 보유한 드문 제조업 공급망을 활용하여 AI 데이터센터 등과 관련한 사업 기회를 모색하고 있습니다."
+    ],
+    "uid": "8c4e2596d80a832527eda751365b5b92e199e952"
+  },
+  {
+    "title": "SK온 'R&D 투자' 줄이고, 적자 '심화'⋯구조적 악순환 돌파해야",
+    "description": "이 같은 연구개발비 증가 추세는 전고체 배터리 시장 선점을 위한 공격적 베팅의 일환으로 볼 수 있다. 이에 반해 SK온 연구개발비는 LG에너지솔루션의 약 19.13%, 삼성SDI의 약 14.97% 수준에 불과하다. 매출 대비...",
+    "link": "http://www.finomy.com/news/articleView.html?idxno=256650",
+    "source": "www.finomy.com",
+    "published_at": "2026-07-01",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "SK온",
+      "LG에너지솔루션",
+      "삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "SK온은 연구개발(R&D) 투자를 줄이고 적자가 심화되는 구조적 악순환에서 벗어나야 하는 과제를 안고 있습니다.",
+      "이는 전고체 배터리 시장 선점을 위한 공격적 투자와 대조되는 상황입니다.",
+      "SK온의 연구개발비는 LG에너지솔루션과 삼성SDI에 비해 현저히 낮은 수준입니다."
+    ],
+    "uid": "27bcf598df48fbee55a6d187966514afecfde936"
+  },
+  {
+    "title": "L&F Partners with CIS Chemical on Battery Recycling",
+    "published_at": "2026-07-01",
+    "source": "thelec.net",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52YWNGX2dkRl9TSEhudXhnV19tZkRxbnRBc1VsTm9aZl8xNDdmeXl4Rlo3cGtMUS02d29xaHZENE5VelJWdmdJVkxQb251dTJQNzh6LU4yS2hwYkRIaUpBU2NOMzZYLW8?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52YWNGX2dkRl9TSEhudXhnV19tZkRxbnRBc1VsTm9aZl8xNDdmeXl4Rlo3cGtMUS02d29xaHZENE5VelJWdmdJVkxQb251dTJQNzh6LU4yS2hwYkRIaUpBU2NOMzZYLW8?oc=5\" target=\"_blank\">L&amp;F Partners with CIS Chemical on Battery Recycling</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thelec.net</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "L&F",
+      "CIS Chemical",
+      "CIS"
+    ],
+    "summary_3_sentences": [
+      "L&F는 CIS Chemical과 배터리 재활용 분야에서 파트너십을 맺었습니다.",
+      "이는 배터리 재활용 기술 협력을 통한 지속 가능한 배터리 산업 생태계 구축을 목표로 합니다.",
+      "양사는 이번 협력을 통해 재활용 효율성을 높이고 친환경적인 배터리 솔루션을 제공할 것으로 기대됩니다."
+    ],
+    "uid": "e6647cddb1d742abeb3669687f8a6ae0caf09712"
+  },
+  {
+    "title": "AI가 바꾼 배터리 지형…'나트륨 배터리' 주도권 전쟁",
+    "description": "최근 ESS 배터리 개발에 뛰어든 GM 역시 \"나트륨 이온 배터리가 수년간 대규모 ESS의 핵심 소재가 될 것이라고 확신한다\"고 말한 바 있습니다. 이처럼 나트륨 배터리가 주목받는 이유는 공급망이 안정적인 데다 화재...",
+    "link": "https://news.mtn.co.kr/news-detail/2026070116375731343",
+    "source": "news.mtn.co.kr",
+    "published_at": "2026-07-01",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "GM"
+    ],
+    "summary_3_sentences": [
+      "인공지능(AI) 기술 발전이 배터리 지형을 바꾸고 있으며, 특히 나트륨 배터리 주도권 경쟁이 치열해지고 있습니다.",
+      "GM은 나트륨 이온 배터리가 향후 수년간 대규모 ESS의 핵심 소재가 될 것이라고 확신하며 개발에 뛰어들었습니다.",
+      "안정적인 공급망과 화재 위험 감소는 나트륨 배터리가 주목받는 주요 이유입니다."
+    ],
+    "uid": "5115b5e998ad110383a5b7c1a9974240e90644c0"
+  },
+  {
+    "title": "Sodium-Ion Batteries Could Spark 'New Oil Age,' Morgan Stanley Says—This US Auto Giant Has An 'Early Foothold'",
+    "published_at": "2026-07-01",
+    "source": "Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWGVQTVRMWnU5U3JNR0x3X0E1bUZJcERibDNYZ2VLek53X1Z6WmVHWmltXzBaYV9CNmhnbEJSSDlXcm5jTUpJX3N4blVCeldjMEF1bWNncWJ2UzR0Y0w5UDgzODhvdm1FXzFERURRRUZsTmdRTGhtUi02Y2ZpMVFkekxDOWxhWUJtZEEtRnBsZV9WUTg?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOWGVQTVRMWnU5U3JNR0x3X0E1bUZJcERibDNYZ2VLek53X1Z6WmVHWmltXzBaYV9CNmhnbEJSSDlXcm5jTUpJX3N4blVCeldjMEF1bWNncWJ2UzR0Y0w5UDgzODhvdm1FXzFERURRRUZsTmdRTGhtUi02Y2ZpMVFkekxDOWxhWUJtZEEtRnBsZV9WUTg?oc=5\" target=\"_blank\">Sodium-Ion Batteries Could Spark 'New Oil Age,' Morgan Stanley Says—This US Auto Giant Has An 'Early Foothold'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "Morgan Stanley",
+      "US"
+    ],
+    "summary_3_sentences": [
+      "모건 스탠리는 나트륨 이온 배터리가 '새로운 석유 시대'를 열 수 있다고 전망했습니다.",
+      "한 미국 자동차 대기업은 이미 나트륨 이온 배터리 분야에서 초기 입지를 확보했습니다.",
+      "이는 나트륨 이온 배터리의 미래 성장 가능성을 시사합니다."
+    ],
+    "uid": "e8363924edeeb456d202af68bdc177c792def561"
+  },
+  {
+    "title": "World Electric Vehicle Battery Cathode - Market Analysis, Forecast, Size, Trends and Insights",
+    "published_at": "2026-07-01",
+    "source": "IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa1BVN1FwRjhVSnhtbVR1MUpndWczeXhqSXNwMTJtV3VqdVpyNkVBRGFNNEM3R0F6NFotT0ZqX05vSmI0bG1ETENKcWlNNTQtTEZYZVlSa3NVUFB4ejAxd1ZjTjlaNnhQa1ctMmtRNjFSTzlpcGhYYlVVMFdKTzVNUUFFUnpmSVFoUzZ0Zk44Qk0wZEZQbEl6US1yeUdHRGZlVjdiaGxLanE3OEFCa21XSklVc09rWkpacm45Q2szSGEtLS1sRjhIUUs2SDhoOC0xbmlaV1hIOEZKLWNPMmxwc3dhR2RNdXBMd0FpNUQ3WVQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa1BVN1FwRjhVSnhtbVR1MUpndWczeXhqSXNwMTJtV3VqdVpyNkVBRGFNNEM3R0F6NFotT0ZqX05vSmI0bG1ETENKcWlNNTQtTEZYZVlSa3NVUFB4ejAxd1ZjTjlaNnhQa1ctMmtRNjFSTzlpcGhYYlVVMFdKTzVNUUFFUnpmSVFoUzZ0Zk44Qk0wZEZQbEl6US1yeUdHRGZlVjdiaGxLanE3OEFCa21XSklVc09rWkpacm45Q2szSGEtLS1sRjhIUUs2SDhoOC0xbmlaV1hIOEZKLWNPMmxwc3dhR2RNdXBMd0FpNUQ3WVQ?oc=5\" target=\"_blank\">World Electric Vehicle Battery Cathode - Market Analysis, Forecast, Size, Trends and Insights</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "전 세계 전기차 배터리 양극재 시장은 2035년까지 상당한 성장이 예상됩니다.",
+      "이는 글로벌 기가팩토리 확장과 리튬인산철(LFP) 배터리로의 전환 추세에 따른 분석입니다.",
+      "시장 분석, 예측, 규모, 동향에 대한 인사이트를 제공합니다."
+    ],
+    "uid": "a5a49cf1cc9c7d616a8a151f45a2e1133655e7e3"
+  },
+  {
+    "title": "Lithium Battery Components Market Forecast Points Higher Toward 2035, Driven by Grid-Scale Storage Expansion",
+    "published_at": "2026-07-01",
+    "source": "IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVm1oa2RyUHpkTGVtMTE5c29nMEFRTENxd3RpVTZMMjZ1NTFIMllTaXNHa1M4UW1xeWhFUWdmbENRY0VYS1UyN2dFWEE3ZkctVEIxS05GZXZXVkxDaWlHcW9aYi1wb3VmVEF6ZDZwcDQ1SWdZdllVVW56TG1ZTDNKTnB0cDd2NjN3SEFPVW1JS3dSY1ZoYnBEdi1MLUFtUTIxNTB6eExFOEZNbGQwMmY1VS1SSi1MX2o1TjRTUm1IanlzYkxMWmZGbHY4RUdhYUJWbjNN?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVm1oa2RyUHpkTGVtMTE5c29nMEFRTENxd3RpVTZMMjZ1NTFIMllTaXNHa1M4UW1xeWhFUWdmbENRY0VYS1UyN2dFWEE3ZkctVEIxS05GZXZXVkxDaWlHcW9aYi1wb3VmVEF6ZDZwcDQ1SWdZdllVVW56TG1ZTDNKTnB0cDd2NjN3SEFPVW1JS3dSY1ZoYnBEdi1MLUFtUTIxNTB6eExFOEZNbGQwMmY1VS1SSi1MX2o1TjRTUm1IanlzYkxMWmZGbHY4RUdhYUJWbjNN?oc=5\" target=\"_blank\">Lithium Battery Components Market Forecast Points Higher Toward 2035, Driven by Grid-Scale Storage Expansion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "리튬 배터리 부품 시장은 2035년까지 그리드 규모 에너지 저장 장치 확장에 힘입어 성장할 것으로 예측됩니다.",
+      "이는 에너지 저장 시스템(ESS) 시장의 성장이 리튬 배터리 부품 수요를 견인할 것임을 시사합니다.",
+      "관련 시장의 규모와 동향에 대한 분석이 중요해지고 있습니다."
+    ],
+    "uid": "b72193c63410cd86e958414a72bb29dfe52bea3d"
+  },
+  {
+    "title": "EV Battery Cathode Market Demand to Accelerate by 2035 Amid Global Gigafactory Expansion and LFP Shift",
+    "published_at": "2026-07-01",
+    "source": "IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS2Rndm5fUnU0d21OZjB4b0ZQSGJRWWhrM0tack5FbGNHUDFOaGZfN0NJQ2VfdU1jWnhOSUgzQ25kU3JaZXRYYmFkWllBQ0M3LVFyNTVwZGlsRDNMWjdwQkl1VUh6cF9VS3pQbDhteGRyVmdqVUV1aEpoeTRqOFFGeEp4b0h4VzRvRy1MVlZqWjdrLUhfZ0pqc09xSHdtY0piRl9MOHRTVnVIMEprQ1hIUGdtcldVd3BlWmM3T3dUOFpza09FWHBZd1o0a2k?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQS2Rndm5fUnU0d21OZjB4b0ZQSGJRWWhrM0tack5FbGNHUDFOaGZfN0NJQ2VfdU1jWnhOSUgzQ25kU3JaZXRYYmFkWllBQ0M3LVFyNTVwZGlsRDNMWjdwQkl1VUh6cF9VS3pQbDhteGRyVmdqVUV1aEpoeTRqOFFGeEp4b0h4VzRvRy1MVlZqWjdrLUhfZ0pqc09xSHdtY0piRl9MOHRTVnVIMEprQ1hIUGdtcldVd3BlWmM3T3dUOFpza09FWHBZd1o0a2k?oc=5\" target=\"_blank\">EV Battery Cathode Market Demand to Accelerate by 2035 Amid Global Gigafactory Expansion and LFP Shift</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "전 세계 전기차 배터리 양극재 시장 수요는 2035년까지 가속화될 전망입니다.",
+      "이는 글로벌 기가팩토리 확장과 리튬인산철(LFP) 배터리로의 전환 추세에 힘입은 결과입니다.",
+      "이러한 시장 변화는 배터리 소재 산업에 큰 영향을 미칠 것으로 보입니다."
+    ],
+    "uid": "9b2156f6e9201dc19d7934da1ab6c17f71b91fd5"
+  },
+  {
+    "title": "2026: The Year of Validation for Sodium-ion Batteries",
+    "published_at": "2026-07-01",
+    "source": "Gasgoo",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOajFScUFVX0FoR0Q4aVlPMkZEcTRBVjFQU2pyYkhHbG5QaUFCekdsYldueXZIRUJ6T3BBS25iUS1CMWoxalQ1VHhfaWI1VUloVnJ5cWxIQnZpTWJHcXM4a0VFd205VXhHQWZ5a0ZoeVdjbFlqNWRYVHJteTRfRUxqOXVGaGxrc0NlMnJjaEZtaDE4S09JdzQtSTNWU3JTNDI5NjZhVl9fOTFaM1kxZHNmdzBmM0E?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOajFScUFVX0FoR0Q4aVlPMkZEcTRBVjFQU2pyYkhHbG5QaUFCekdsYldueXZIRUJ6T3BBS25iUS1CMWoxalQ1VHhfaWI1VUloVnJ5cWxIQnZpTWJHcXM4a0VFd205VXhHQWZ5a0ZoeVdjbFlqNWRYVHJteTRfRUxqOXVGaGxrc0NlMnJjaEZtaDE4S09JdzQtSTNWU3JTNDI5NjZhVl9fOTFaM1kxZHNmdzBmM0E?oc=5\" target=\"_blank\">2026: The Year of Validation for Sodium-ion Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gasgoo</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [],
+    "summary_3_sentences": [
+      "2026년은 나트륨 이온 배터리의 검증이 이루어지는 중요한 해가 될 것으로 예상됩니다.",
+      "이는 나트륨 이온 배터리 기술의 상용화 가능성을 높이는 중요한 시점이 될 것입니다.",
+      "관련 시장의 성장과 기술 발전에 대한 기대가 커지고 있습니다."
+    ],
+    "uid": "d648523fdc6aa8cfb7de481ffc1c7f932438af8f"
+  },
+  {
+    "title": "Safer metal recycling for the battery industry",
+    "published_at": "2026-07-01",
+    "source": "EurekAlert!",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvS0g0MHNXdzk1T0VRMTRkZmtmcEl0U3dnRVo2b2FtbG0zVVprV3lCUTRqMTRlaFpOc3FCUHEyb0NiUzNYSTVqV0FjOEhYOHhpdXE4SjF0ak4zS0h6?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvS0g0MHNXdzk1T0VRMTRkZmtmcEl0U3dnRVo2b2FtbG0zVVprV3lCUTRqMTRlaFpOc3FCUHEyb0NiUzNYSTVqV0FjOEhYOHhpdXE4SjF0ak4zS0h6?oc=5\" target=\"_blank\">Safer metal recycling for the battery industry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "배터리 산업을 위한 보다 안전한 금속 재활용 방안이 모색되고 있습니다.",
+      "이는 배터리 재활용 과정에서의 안전성 확보가 중요함을 시사합니다.",
+      "지속 가능한 배터리 산업 생태계 구축을 위한 노력이 진행 중입니다."
+    ],
+    "uid": "66f3824fcd010c90b63033cffaf339d706e3702f"
+  },
+  {
+    "title": "Could Sodium-Ion Batteries Rival Tesla's Lithium Technology?",
+    "published_at": "2026-07-01",
+    "source": "Electropages",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb21OVGc3VWdKMjZRS09kUkxZcTRjNzdreTgwNzRmMlVWRHVKQUdkOWFJNUxpU1BoUFlxRlRJd0M3TXBGQ0c3SFozNDc5MEZVTW5ESlEybXYzZy1HTDJLNm5XR3pHa0RyQlVVSy1QUThEOGJxLUtQMXEwRW51dmVKZEFXYndvMGRmTUJISXZQWEhfa0t2Vl9KR2V6V3lPSmx1cWRzdA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOb21OVGc3VWdKMjZRS09kUkxZcTRjNzdreTgwNzRmMlVWRHVKQUdkOWFJNUxpU1BoUFlxRlRJd0M3TXBGQ0c3SFozNDc5MEZVTW5ESlEybXYzZy1HTDJLNm5XR3pHa0RyQlVVSy1QUThEOGJxLUtQMXEwRW51dmVKZEFXYndvMGRmTUJISXZQWEhfa0t2Vl9KR2V6V3lPSmx1cWRzdA?oc=5\" target=\"_blank\">Could Sodium-Ion Batteries Rival Tesla's Lithium Technology?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electropages</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "Tesla"
+    ],
+    "summary_3_sentences": [
+      "나트륨 이온 배터리가 테슬라의 리튬 기술에 대한 대안이 될 수 있을지 주목받고 있습니다.",
+      "이는 나트륨 이온 배터리의 잠재력과 리튬 배터리와의 경쟁 구도를 보여줍니다.",
+      "기술 발전과 시장 변화에 대한 관심이 높아지고 있습니다."
+    ],
+    "uid": "8ff2ef68e52e4b300218b68e76870eb8acf2f839"
+  },
+  {
+    "title": "Alsym Energy and ERITY Sign Landmark 9GWh Strategic Partnership to Deploy Non-Flammable Sodium-Ion Batteries Across the Mining Sector",
+    "published_at": "2026-07-01",
+    "source": "Business Wire",
+    "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPcE5HVWNUdElRU2M1OWFiOXBBcFBJcER4MjVDcEhJd3JNTHhTaTAtel9hV3lfS0FLQzMtWmhfQjA2OVRnSUxSSExqRFhSNm5PM1BycGFLUzJsZTFyM0xlbXc5WnRCT2UwWXZfUTRzYkdtOElKUGZfcWJBcE1GVmpRaGhiRjk5NlFKcENmZDVRVThfcVk0MXRoa1BSU0cxYXZPc29qX1dhUy1iTzJ3MmlqUk40MXZtRGIzMUpjUkN5NkpmYVR0c3ZkZV94SjdPa3A5R1hXd0xoZkY5SXdhbDIzOU12emI0elRvS2pjR0poeDkwdUkzRExWdllTQk1aWkktcm5vUHBad0VuTWpVcGhTM3kxNGJkX1Vhdmc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimgJBVV95cUxPcE5HVWNUdElRU2M1OWFiOXBBcFBJcER4MjVDcEhJd3JNTHhTaTAtel9hV3lfS0FLQzMtWmhfQjA2OVRnSUxSSExqRFhSNm5PM1BycGFLUzJsZTFyM0xlbXc5WnRCT2UwWXZfUTRzYkdtOElKUGZfcWJBcE1GVmpRaGhiRjk5NlFKcENmZDVRVThfcVk0MXRoa1BSU0cxYXZPc29qX1dhUy1iTzJ3MmlqUk40MXZtRGIzMUpjUkN5NkpmYVR0c3ZkZV94SjdPa3A5R1hXd0xoZkY5SXdhbDIzOU12emI0elRvS2pjR0poeDkwdUkzRExWdllTQk1aWkktcm5vUHBad0VuTWpVcGhTM3kxNGJkX1Vhdmc?oc=5\" target=\"_blank\">Alsym Energy and ERITY Sign Landmark 9GWh Strategic Partnership to Deploy Non-Flammable Sodium-Ion Batteries Across the Mining Sector</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Wire</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "Alsym Energy",
+      "ERITY"
+    ],
+    "summary_3_sentences": [
+      "Alsym Energy와 ERITY는 비가연성 나트륨 이온 배터리를 광업 분야에 적용하기 위한 9GWh 규모의 전략적 파트너십을 체결했습니다.",
+      "이는 나트륨 이온 배터리의 안전성과 광업 분야 적용 가능성을 보여주는 중요한 사례입니다.",
+      "양사는 이번 파트너십을 통해 나트륨 이온 배터리 보급 확대에 나설 계획입니다."
+    ],
+    "uid": "b655df9e0e551078df880f61f1524559101e6650"
+  },
+  {
+    "title": "Solid-State Batteries in First Year of Mass Production: Antidote for High-End Electric Vehicles?",
+    "published_at": "2026-07-01",
+    "source": "36Kr",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vWV9rSHVtMUVLcGdxNF9sejg4VVQzU016ZWlfTFFwMExZRlRHQnZvNWpKcnAxUUNOekFER1hkd1Jud1JTQ3NWZ2NiMklEcmJLYThF?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vWV9rSHVtMUVLcGdxNF9sejg4VVQzU016ZWlfTFFwMExZRlRHQnZvNWpKcnAxUUNOekFER1hkd1Jud1JTQ3NWZ2NiMklEcmJLYThF?oc=5\" target=\"_blank\">Solid-State Batteries in First Year of Mass Production: Antidote for High-End Electric Vehicles?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">36Kr</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "전고체 배터리가 대량 생산 첫 해를 맞이하며 고급 전기차 시장의 대안이 될 수 있을지 관심이 모아지고 있습니다.",
+      "이는 전고체 배터리 기술의 상용화와 고급 전기차 시장에서의 역할에 대한 기대를 보여줍니다.",
+      "기술 발전과 시장 적용 가능성에 대한 분석이 이루어지고 있습니다."
+    ],
+    "uid": "3bfd54fdd904dd9be48a8ebea91bad72a61a0225"
+  },
+  {
     "title": "전기차만 기다릴 수 없다…K배터리 반등 '새 먹거리'는",
     "description": "전고체 배터리의 경우 장기적으로 안전성과 에너지 밀도를 높일 기술로 꼽히나 단기간에 자동차 배터리 시장 판도를 바꿀 가능성은 낮다. 완성차와 셀 업체 입장에서는 당장 양산차에 적용하기 어려운 전고체보다...",
     "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=846967",
