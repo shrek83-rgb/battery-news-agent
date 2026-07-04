@@ -1,5 +1,126 @@
 [
   {
+    "title": "\"노스볼트 전철 밟지 말자\"…글로벌 배터리 스타트업, 亞 유휴 공장 눈...",
+    "description": "웨어러블 기기·특수 산업용 전고체 배터리를 제조하는 미국 '아이온 스토리지 시스템즈' 역시 배터리 조립을 맡길 동남아시아 지역 유휴 공장을 집중적으로 물색 중이다. 이 회사는 독자적인 세라믹 양극재 생산에만...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=103963",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-07-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 84,
+    "monitoring_importance": 84,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "아이온 스토리지 시스템즈",
+      "아이온"
+    ],
+    "summary_3_sentences": [
+      "글로벌 배터리 스타트업들이 아시아 지역의 유휴 공장 확보에 나서고 있습니다.",
+      "미국 아이온 스토리지 시스템즈는 동남아시아 지역의 유휴 공장에서 배터리 조립을 위탁할 계획입니다.",
+      "이는 생산 비용 절감 및 효율성 증대를 위한 전략으로 풀이됩니다."
+    ],
+    "uid": "604e8f5b00d30795720abc782aa977b525bd3947"
+  },
+  {
+    "title": "[GAM]中 배터리 산업 대전환① '화재·폭발 제로 시대' 선언",
+    "description": "그는 전고체 배터리의 대규모 상용화는 단기간 내 실현 가능성이 크지 않지만, 구조 최적화와 소재 업그레이드만으로도 배터리 안전성을 충분히 향상시킬 수 있으며, 앞으로 각 기업들이 이 분야에서 치열한 기술...",
+    "link": "https://www.newspim.com/news/view/20260703000674",
+    "source": "www.newspim.com",
+    "published_at": "2026-07-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "GAM"
+    ],
+    "summary_3_sentences": [
+      "중국 배터리 산업은 '화재·폭발 제로 시대'를 선언하며 대전환을 맞이하고 있습니다.",
+      "전고체 배터리의 상용화는 단기간 내 어렵지만, 구조 최적화와 소재 개선으로 안전성을 높일 수 있습니다.",
+      "향후 각 기업들은 배터리 안전성 향상을 위한 기술 개발에 치열한 경쟁을 벌일 것으로 예상됩니다."
+    ],
+    "uid": "b263b424dc750795a57def6f7992319959de8c53"
+  },
+  {
+    "title": "[종목분석] LG에너지솔루션·삼성SDI·SK온 점유율 하락",
+    "description": "하나증권이 2차전지 업종에 대해 비중확대 의견을 유지했다. 5월 글로벌 전기차 판매는 전년 대비 7.2% 늘었지만 미국과 중국은 부진했고, 회복은 유럽과 한국에 집중됐다. 유럽 전기차 배터리 출하는 늘었지만...",
+    "link": "https://www.topstarnews.net/news/articleView.html?idxno=16122431",
+    "source": "www.topstarnews.net",
+    "published_at": "2026-07-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "삼성SDI",
+      "SK온"
+    ],
+    "summary_3_sentences": [
+      "5월 글로벌 전기차 판매는 전년 대비 7.2% 증가했지만, 미국과 중국 시장은 부진했습니다.",
+      "유럽과 한국 시장의 회복세에 힘입어 유럽 전기차 배터리 출하는 증가했습니다.",
+      "하지만 LG에너지솔루션, 삼성SDI, SK온 등 주요 기업들의 시장 점유율은 하락했습니다."
+    ],
+    "uid": "5d7a45e8d28a0192b15e98fd3f5d842b111a9230"
+  },
+  {
+    "title": "삼성SDI, 울산·천안에 차세대 배터리 25조원 투자",
+    "description": "울산 사업장은 전고체 배터리와 에너지저장장치(ESS)용 리튬인산철(LFP) 배터리, 나트륨 배터리 양산 라인을 구축해 차세대 배터리 양산 거점으로 키운다. 삼성SDI는 내년 하반기 전고체 배터리 양산이 목표다. 현재...",
+    "link": "https://www.thelec.kr/news/articleView.html?idxno=59075",
+    "source": "www.thelec.kr",
+    "published_at": "2026-07-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "삼성SDI",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 울산과 천안 사업장에 차세대 배터리 생산을 위해 25조 원을 투자할 계획입니다.",
+      "울산 사업장에서는 전고체 배터리, ESS용 리튬인산철(LFP) 배터리, 나트륨 배터리 양산 라인을 구축할 예정입니다.",
+      "삼성SDI는 내년 하반기까지 전고체 배터리 양산을 목표로 하고 있습니다."
+    ],
+    "uid": "9779c92f2d909c300e45ed44c076625a534d1a0f"
+  },
+  {
+    "title": "'돈줄'까지 막혔다···석유화학·배터리 신용등급 줄강등",
+    "description": "국내 석유화학과 2차전지 업계가 실적 부진에 이어 신용등급 하향이라는 이중고를 맞고 있다. 중국발... 전기차 시장의 성장세가 예상보다 둔화되면서 대규모 설비투자에 나섰던 배터리 소재 기업들의 재무 부담이...",
+    "link": "https://www.seoulfn.com/news/articleView.html?idxno=632612",
+    "source": "www.seoulfn.com",
+    "published_at": "2026-07-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "막혔다···석유화학·배터리",
+      "석유화학",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "국내 석유화학 및 2차전지 업계가 실적 부진과 신용등급 하락이라는 이중고를 겪고 있습니다.",
+      "특히 전기차 시장 성장 둔화로 인해 대규모 설비투자를 진행한 배터리 소재 기업들의 재무 부담이 커지고 있습니다.",
+      "이는 업계 전반의 자금 조달 어려움으로 이어질 수 있습니다."
+    ],
+    "uid": "80aeb5cd566248b82f77861d9c88981e3ca5e34b"
+  },
+  {
     "title": "건국대 최원창 교수 연구팀, 차세대 전기차 배터리용 '고출력·고안정성...",
     "description": "저온 환경에서의 전기차 성능 저하 완화, 급속충전 대응, ESS의 안정적인 전력 공급 등 차세대 배터리 소재 개발에 폭넓게 활용될 것으로 기대된다. 최원창 교수는 \"이번 연구는 LMFP 양극재의 성능 저하가 주로 발생하는...",
     "link": "https://www.newstnt.com/news/articleView.html?idxno=708839",
@@ -48,6 +169,30 @@
     "uid": "e2a8b54304c3760e6d07c8fad954a6b595e7c8d5"
   },
   {
+    "title": "[오늘의 주요공시] 한화에어로·삼성전기·삼성SDI·HJ중공업 등",
+    "description": "차세대 전고체·ESS 배터리 양산에 16조원 투자 △계룡건설, 부산 벡스코 제3전시장 건립사업 실시설계적격자 선정 △HJ중공업, 부산 벡스코 제3전시장 건립사업 실시설계적격자 선정 △선도전기, 시황변동 관련...",
+    "link": "https://www.etoday.co.kr/news/view/2600159",
+    "source": "www.etoday.co.kr",
+    "published_at": "2026-07-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "한화에어로·삼성전기·삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 차세대 전고체 및 ESS 배터리 양산을 위해 16조 원을 투자할 계획입니다.",
+      "이는 부산 벡스코 제3전시장 건립 사업과 관련된 내용입니다.",
+      "삼성SDI의 대규모 투자는 미래 배터리 기술 개발에 대한 의지를 보여줍니다."
+    ],
+    "uid": "87736e1cdfbb8bd81322f23fac9db16de5093158"
+  },
+  {
     "title": "美 가정용 배터리 설치 '사상 최대'. ESS 공급 LG엔솔. 삼성SDI 수혜",
     "description": "LG에너지솔루션은 지난 5월 미시간주 최대 종합 에너지 기업인 'DTE에너지'와 총 6GWh(기가와트아워) 규모의 ESS 배터리 공급 계약을 체결했다. 미시간주 디트로이트에 본사를 둔 DTE에너지는 미시간주 최대 전력...",
     "link": "https://www.autodaily.co.kr/news/articleView.html?idxno=545439",
@@ -73,6 +218,53 @@
     "uid": "7da0724fe3097155243430828ab6a257e9fc5994"
   },
   {
+    "title": "\"2차전지, 탈탄소 넘어 안보로…한국 배터리 기회\"",
+    "description": "김 애널리스트는 2차전지 산업 재편 과정에서 국내 배터리 기업이 수혜를 누릴 것이라 예상했다. 미국이 안보 논리상 중국산 제조업 공급망 의존도를 낮추려는 만큼, 국내 배터리 업체가 탈중국 공급망의 핵심 대안이 될...",
+    "link": "https://theviewers.co.kr/View.aspx?No=4136125",
+    "source": "theviewers.co.kr",
+    "published_at": "2026-07-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "2차전지 산업 재편 과정에서 국내 배터리 기업들이 수혜를 볼 것으로 예상됩니다.",
+      "미국이 안보 논리를 내세워 중국산 제조업 공급망 의존도를 낮추려 하기 때문입니다.",
+      "이에 따라 국내 배터리 업체들은 탈중국 공급망의 핵심 대안으로 부상할 가능성이 있습니다."
+    ],
+    "uid": "96d21245765414aa14f750e80d32ce8c5e5cfd24"
+  },
+  {
+    "title": "Gotion to build battery facilities in Spain next year",
+    "published_at": "2026-07-03",
+    "source": "electrive.com",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT0RrX3VUTjF0V2NIT3NKQ3RVQ3J1Njl3YnBDM2p4TlhjNzVmYUgwSk1Bb1YzR2YxcDFEREVXTGQyQU1ZSlk1d3FKZmltMGR0aFprRzNOUk56Q25INVJJRW5MM2FfYThkbXVXeVNNWjV2aG1wLUZ2VFlheWZRMDFzYmx5aE84TXA4UVF0ckl2TzJYQ3RzMUE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQT0RrX3VUTjF0V2NIT3NKQ3RVQ3J1Njl3YnBDM2p4TlhjNzVmYUgwSk1Bb1YzR2YxcDFEREVXTGQyQU1ZSlk1d3FKZmltMGR0aFprRzNOUk56Q25INVJJRW5MM2FfYThkbXVXeVNNWjV2aG1wLUZ2VFlheWZRMDFzYmx5aE84TXA4UVF0ckl2TzJYQ3RzMUE?oc=5\" target=\"_blank\">Gotion to build battery facilities in Spain next year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrive.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Gotion"
+    ],
+    "summary_3_sentences": [
+      "Gotion은 내년에 스페인에 배터리 생산 시설을 건설할 예정입니다.",
+      "이 시설 건설은 유럽 전기차 배터리 시장에서의 Gotion의 입지를 강화할 것입니다.",
+      "이는 유럽 내 배터리 공급망 확대에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "afe56ee427e79e5701de8ff05f243aa2f8a58e7b"
+  },
+  {
     "title": "건국대, 차세대 리튬이온전지 양극재 설계 기술 개발",
     "description": "건국대학교 화공생명에너지공학부 최원창 교수 연구팀이 전기차(EV)와 에너지저장장치(이하 ESS)에 적용할 수... 특히 양극재의 리튬이온 이동 속도와 계면 안정성은 배터리 성능을 좌우하는 핵심 요소로 꼽힌다. 연구팀은...",
     "link": "https://dhnews.co.kr/news/view/1065581925115110",
@@ -96,6 +288,199 @@
       "이는 고성능 배터리 소재 개발의 중요한 성과이다."
     ],
     "uid": "3d1b40a1524498b8bd2bf45c36ca0c89c78c013a"
+  },
+  {
+    "title": "CATL is mass-producing sodium-ion batteries and chasing 'breathable' lithium-air",
+    "published_at": "2026-07-03",
+    "source": "The Cool Down",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWmlHRHpoMHYxYmVSWGZYbFowZElxSFpqSE5yWk5hYzBuT2lnNm54UzVrTE11OVFYcmpoanpXaXJCUGpWRURTQ1F5UmpNOERLaUJ2S2l1TklPM2h3YzFZQjUtaHlYMnhMTEs1U2UtMXJDVGhIX0w4azRRR3Etalg2Q0VaZjB0Wkk?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOWmlHRHpoMHYxYmVSWGZYbFowZElxSFpqSE5yWk5hYzBuT2lnNm54UzVrTE11OVFYcmpoanpXaXJCUGpWRURTQ1F5UmpNOERLaUJ2S2l1TklPM2h3YzFZQjUtaHlYMnhMTEs1U2UtMXJDVGhIX0w4azRRR3Etalg2Q0VaZjB0Wkk?oc=5\" target=\"_blank\">CATL is mass-producing sodium-ion batteries and chasing 'breathable' lithium-air</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Cool Down</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 95,
+    "monitor_score": 95,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL은 나트륨 이온 배터리를 대량 생산하고 있습니다.",
+      "또한 CATL은 '통기성' 리튬 공기 배터리를 개발 중입니다.",
+      "이는 차세대 배터리 기술 개발에 대한 CATL의 노력을 보여줍니다."
+    ],
+    "uid": "7f8154b1179c6237a58f5b19ffa8b96f37928ece"
+  },
+  {
+    "title": "Sodium-ion Battery Market June Review: Cathode Shortage and Anode Growth Fuel Ongoing Industry Prosperity【SMM Analysis】",
+    "published_at": "2026-07-03",
+    "source": "SMM Metal",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNLWdlSVJBcmg0YUd1TkZ6LWRORVl2bGhINjViRklnZk9DMlZLSGFjMlp0YVZHZHNpSmFmaHdFbFlUbDR6aExaZ2xMdjZ4QzhvSWlZYmJ6cVRsb052ZXpHSm5KVm1xckp6bkdpcEFubk5SbWNNX25hMFVURmluQ3BYSV9TTDZwWkE0OEV1a1RteEx3WlFSdzlyWGlDVE5nd1BPUXhvSWRnOVY4YmZtOFdjR0M5M3IwUTNhVUd3dXpLT2JkV1YxSU5xR0h5S3U3Q0RLNHZvNWZjZjA3UTBqNzNwai1wdEdUZ3ZhZ1VjZE12VW10eUQ1MWZJ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxNLWdlSVJBcmg0YUd1TkZ6LWRORVl2bGhINjViRklnZk9DMlZLSGFjMlp0YVZHZHNpSmFmaHdFbFlUbDR6aExaZ2xMdjZ4QzhvSWlZYmJ6cVRsb052ZXpHSm5KVm1xckp6bkdpcEFubk5SbWNNX25hMFVURmluQ3BYSV9TTDZwWkE0OEV1a1RteEx3WlFSdzlyWGlDVE5nd1BPUXhvSWRnOVY4YmZtOFdjR0M5M3IwUTNhVUd3dXpLT2JkV1YxSU5xR0h5S3U3Q0RLNHZvNWZjZjA3UTBqNzNwai1wdEdUZ3ZhZ1VjZE12VW10eUQ1MWZJ?oc=5\" target=\"_blank\">Sodium-ion Battery Market June Review: Cathode Shortage and Anode Growth Fuel Ongoing Industry Prosperity【SMM Analysis】</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SMM Metal</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "SMM"
+    ],
+    "summary_3_sentences": [
+      "나트륨 이온 배터리 시장은 6월에 양극재 부족과 음극재 성장에 힘입어 호황을 누렸습니다.",
+      "이러한 시장 상황은 나트륨 이온 배터리 산업의 지속적인 성장을 견인하고 있습니다.",
+      "SMM 분석에 따르면, 이러한 추세는 앞으로도 이어질 것으로 보입니다."
+    ],
+    "uid": "ca616d362a8bf83570cd0a0db09aecc657743898"
+  },
+  {
+    "title": "New framework reinforces secure, circular supply chains for batteries",
+    "published_at": "2026-07-03",
+    "source": "Recycling Today",
+    "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNbHlZMUYyZVl1SkhlS3ZIaDBhSzV2ZjBOOWNKVUY0bmZZNmhjNEFpNkRjRU92NnNjMFZ4NXlNdjJJYjAtWHZnb3BFNDk5cUdvenZGOWtzMzZFTm1Ca0RqRjBmMWRvSUJrV1d5OTNySkJVbFZmMGxkdWp5VElVMUhLZHpMOG4zLXcwcG5ZWG9VUGRMaDh0VUswOVNsU2FtT3hESzBWdDJPMmNheHk1bFd6LU56REpPWk9WdU1CTzVERkhEdkppT1luVm1XZnNqU2VlSVZPQTE5RTV6cHl0R0pwUnk0NVNLUk9BOWtUdzB3S2pheF8tQzZvNVFpbF80SGZibm9Od3pfQjBBbHJwR2F5VHNQRmlITTd0ZlVNZEdiU2luNU9nM1BIeGkxWXdLSlhkb0I5UmhOR0g?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiuAJBVV95cUxNbHlZMUYyZVl1SkhlS3ZIaDBhSzV2ZjBOOWNKVUY0bmZZNmhjNEFpNkRjRU92NnNjMFZ4NXlNdjJJYjAtWHZnb3BFNDk5cUdvenZGOWtzMzZFTm1Ca0RqRjBmMWRvSUJrV1d5OTNySkJVbFZmMGxkdWp5VElVMUhLZHpMOG4zLXcwcG5ZWG9VUGRMaDh0VUswOVNsU2FtT3hESzBWdDJPMmNheHk1bFd6LU56REpPWk9WdU1CTzVERkhEdkppT1luVm1XZnNqU2VlSVZPQTE5RTV6cHl0R0pwUnk0NVNLUk9BOWtUdzB3S2pheF8tQzZvNVFpbF80SGZibm9Od3pfQjBBbHJwR2F5VHNQRmlITTd0ZlVNZEdiU2luNU9nM1BIeGkxWXdLSlhkb0I5UmhOR0g?oc=5\" target=\"_blank\">New framework reinforces secure, circular supply chains for batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Recycling Today</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "새로운 프레임워크가 배터리 공급망의 보안과 순환성을 강화합니다.",
+      "이는 지속 가능한 배터리 산업 생태계를 구축하는 데 기여할 것입니다.",
+      "이 프레임워크는 배터리 재활용 및 재사용을 촉진할 것으로 예상됩니다."
+    ],
+    "uid": "a7f4a491e59b1ab15da61256608a50af33a7ed42"
+  },
+  {
+    "title": "US scientists turn dead EV battery waste into high-performing new battery",
+    "published_at": "2026-07-03",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZTBxTkFNWEdCMUJ6Tk9UaThzZGpFb3FUS1FzRDZsX24waV9Gc19vOWhZMFNYSGdWOGtiZEt1ei1GZ2FQbDlPc1lsMXBwQk84cFJGN05FbWtXelFCNk5xa0QzOE5VZmlnbUFPdU1hbGcxcVJIV3o2S0hyWTZuUjdaLXlyWl91eDRjbWo0?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZTBxTkFNWEdCMUJ6Tk9UaThzZGpFb3FUS1FzRDZsX24waV9Gc19vOWhZMFNYSGdWOGtiZEt1ei1GZ2FQbDlPc1lsMXBwQk84cFJGN05FbWtXelFCNk5xa0QzOE5VZmlnbUFPdU1hbGcxcVJIV3o2S0hyWTZuUjdaLXlyWl91eDRjbWo0?oc=5\" target=\"_blank\">US scientists turn dead EV battery waste into high-performing new battery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "US"
+    ],
+    "summary_3_sentences": [
+      "미국 과학자들이 폐 전기차 배터리 폐기물을 활용하여 고성능 신형 배터리를 개발했습니다.",
+      "이 기술은 배터리 재활용 및 지속 가능성 측면에서 중요한 진전을 의미합니다.",
+      "이는 전기차 배터리 폐기물 문제를 해결하고 새로운 가치를 창출할 수 있는 가능성을 보여줍니다."
+    ],
+    "uid": "10bbc1564ec8525cbdb29154e996961315ba3c88"
+  },
+  {
+    "title": "Chinese inventors win European Inventor Award for battery recycling breakthrough",
+    "published_at": "2026-07-03",
+    "source": "Global Times",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40dkUyOS1MUUxFNGo3WUJOTmRadkhTMnBrQVlvM1Y0T2JCTUFmdDFNZWxSNS1OLTF3eFk1dW9jcDl6aktTUTd4Yk5MNTVnM0JRNUhUY0hwc2lyVm1xWVYtVmlR?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE40dkUyOS1MUUxFNGo3WUJOTmRadkhTMnBrQVlvM1Y0T2JCTUFmdDFNZWxSNS1OLTF3eFk1dW9jcDl6aktTUTd4Yk5MNTVnM0JRNUhUY0hwc2lyVm1xWVYtVmlR?oc=5\" target=\"_blank\">Chinese inventors win European Inventor Award for battery recycling breakthrough</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Global Times</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "Macau Business",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVHpTM21FZElOMmxnU3VqeXltS1FpNUxIT1JHLUJqZ3Exb3VscTFoc0lSaHBOOW1ZRWdmaTlTYW11cTNoNGtGR1BiWlU1QU5GRVpYRnBzcDhTVkowMnhLcFFtVFNrNHRYbEo1RnVZcktNYXF0cm9ZZUlGZ2JLMFZleHA2dEQ5R0lUZmxRSmdPcDEybGJjTmozRlRZRG1UNjdfTG5iWXFuYWF1ZDJtbk9GX1I1cExLNHhaTGN6T0V6ejV4NU0xUVAzQ0ZHVnlkZzFjaHQtaUhVaENubU5ubVZOcDZ0Y3Q?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "중국 발명가들이 배터리 재활용 분야의 혁신적인 성과로 유럽 발명가 상을 수상했습니다.",
+      "이들의 발명은 배터리 재활용 효율성을 크게 향상시키는 기술을 포함합니다.",
+      "이는 지속 가능한 배터리 산업 발전에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "e8662739fab8cfa2699da8fa1917423eec8ad222"
+  },
+  {
+    "title": "New sodium-ion battery could reshape grid storage",
+    "published_at": "2026-07-03",
+    "source": "Fox News",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2LVZOak8ydnlyTGVWc20yNkRhYi1aNEFkYnczVGk0eXJsTWJHanlpWHhaMFY5MlQ5bXVlMFBMbzRKOWVGZEp0UnlDNm9vdE1sWWV0aHQyeEpGRThUOW9xOGRkUGEwbi15eUl0Sy1kVXhxYVk5UkgwQmNRc1A?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFA2LVZOak8ydnlyTGVWc20yNkRhYi1aNEFkYnczVGk0eXJsTWJHanlpWHhaMFY5MlQ5bXVlMFBMbzRKOWVGZEp0UnlDNm9vdE1sWWV0aHQyeEpGRThUOW9xOGRkUGEwbi15eUl0Sy1kVXhxYVk5UkgwQmNRc1A?oc=5\" target=\"_blank\">New sodium-ion battery could reshape grid storage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fox News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [],
+    "summary_3_sentences": [
+      "새로운 나트륨 이온 배터리가 개발되었습니다.",
+      "이 배터리는 에너지 저장 시스템(ESS) 분야에 혁신을 가져올 잠재력을 가지고 있습니다.",
+      "이는 기존 그리드 저장 기술을 대체할 수 있을 것으로 기대됩니다."
+    ],
+    "uid": "cb57d50b5e83b57e43460d8f675b9bc6968f6a5a"
+  },
+  {
+    "title": "LG Energy Solution-Honda JV Plant Begins ESS Battery Production in U.S.",
+    "published_at": "2026-07-03",
+    "source": "Businesskorea",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UT1hVbE40TUJqQkVZeEJvYUpkaU9pUVRIUmsyRFRmdFo4NXVPZlN4NG9oNmkyQklpaXhXNWVHSnJRN1FSUEhmbV9yRGxUeG9xNFRtTmNkOVcxdHc3OEpwZk1TdFJjaVBicENJNXlRT0NhcVBy?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5UT1hVbE40TUJqQkVZeEJvYUpkaU9pUVRIUmsyRFRmdFo4NXVPZlN4NG9oNmkyQklpaXhXNWVHSnJRN1FSUEhmbV9yRGxUeG9xNFRtTmNkOVcxdHc3OEpwZk1TdFJjaVBicENJNXlRT0NhcVBy?oc=5\" target=\"_blank\">LG Energy Solution-Honda JV Plant Begins ESS Battery Production in U.S.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Businesskorea</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "Honda",
+      "LG"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션과 혼다의 합작 공장에서 미국 내 ESS 배터리 생산을 시작했습니다.",
+      "이 공장은 에너지 저장 시스템(ESS)용 배터리를 생산하여 북미 시장에 공급할 예정입니다.",
+      "이는 LG에너지솔루션의 미국 시장 내 입지를 강화하고 ESS 사업 확장에 기여할 것입니다."
+    ],
+    "uid": "efb510ae42f04f178de353a9633f4b5f02d10397"
+  },
+  {
+    "title": "Gotion’s €950m Spain battery projects get the go-ahead",
+    "published_at": "2026-07-03",
+    "source": "Automotive World",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPREhvMHh0OEpkc0FvbGJINXpMMmFGaWNIVzA0RkdFSnhUTWdYemE0LS1wRHZFYXVHRFVzZTRkczFobWk3R1k4MmZOMnpBdzZid2lINm10R3JvaDVoNFNjTEhENE5yQ3BxTUxFR0JVYTc1ZHVULXJ6VE9kQmZ0eGhqOVF2Szk1YjFXdGRPSkg4UDR4d0ZtQnlDNHBqQ0Q0QQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPREhvMHh0OEpkc0FvbGJINXpMMmFGaWNIVzA0RkdFSnhUTWdYemE0LS1wRHZFYXVHRFVzZTRkczFobWk3R1k4MmZOMnpBdzZid2lINm10R3JvaDVoNFNjTEhENE5yQ3BxTUxFR0JVYTc1ZHVULXJ6VE9kQmZ0eGhqOVF2Szk1YjFXdGRPSkg4UDR4d0ZtQnlDNHBqQ0Q0QQ?oc=5\" target=\"_blank\">Gotion’s €950m Spain battery projects get the go-ahead</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Automotive World</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Gotion"
+    ],
+    "summary_3_sentences": [
+      "Gotion의 스페인 배터리 프로젝트가 9억 5천만 유로 규모로 승인되었습니다.",
+      "이 프로젝트는 스페인에 새로운 배터리 생산 시설을 건설하는 것을 포함합니다.",
+      "이는 유럽 내 Gotion의 입지를 강화하고 전기차 배터리 공급망 확대에 기여할 것입니다."
+    ],
+    "uid": "111c98ff91c35f08ea65de393240c6496e0a661e"
   },
   {
     "title": "유진테크놀로지, 미국 전고체 배터리 기술 협력 추진",
