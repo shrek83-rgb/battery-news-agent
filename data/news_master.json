@@ -1,5 +1,153 @@
 [
   {
+    "title": "CATL, 中 장시성 리튬광산 생산 재개 최종 허가 받아",
+    "description": "한편 CATL은 지난해 리튬 가격이 상승함에 따라 나트륨 이온 배터리에 대한 투자도 함께 확대해 왔다. 니쥔 CATL 최고제조책임자(CMO)는 지난달 24일 블룸버그 TV와의 인터뷰에서 \"올해 1만~2만 대의 전기차에 자사의...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=103896",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-07-05",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 84,
+    "monitoring_importance": 84,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL",
+      "CMO"
+    ],
+    "summary_3_sentences": [
+      "CATL은 중국 장시성 리튬 광산의 생산 재개에 대한 최종 승인을 받았습니다.",
+      "또한 CATL은 리튬 가격 상승에 따라 나트륨 이온 배터리에 대한 투자를 확대해 왔습니다.",
+      "CATL 최고제조책임자(CMO)는 올해 10,000~20,000대의 전기차에 자사 배터리가 탑재될 것으로 예상했습니다."
+    ],
+    "uid": "fedd63f702c636244cb844618121b30502e28623"
+  },
+  {
+    "title": "LG에너지솔루션, 북미 ESS 공급망 구축 완료…하반기 실적 턴어라운드 ...",
+    "description": "5일 업계에 따르면 LG엔솔과 혼다의 합작법인 'L-H 배터리 컴퍼니'는 최근 미국 오하이오주 공장에서 ESS용 배터리 셀 양산을 시작했다. 당초 전기차(EV)용 배터리 생산을 위해 설계된 공장을 시장 변화에 맞춰 ESS 생산...",
+    "link": "https://www.newsis.com/view/NISX20260703_0003695392",
+    "source": "www.newsis.com",
+    "published_at": "2026-07-05",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "혼다",
+      "L-H 배터리 컴퍼니"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션과 혼다의 합작 회사인 L-H 배터리 컴퍼니는 미국 오하이오 공장에서 에너지 저장 시스템(ESS)용 배터리 셀 생산을 시작했습니다.",
+      "원래 전기 자동차(EV)용 배터리 생산을 위해 설계된 이 공장은 시장 변화에 대응하여 ESS 생산으로 전환되었습니다.",
+      "이러한 움직임은 북미 ESS 공급망을 강화하고 LG에너지솔루션의 하반기 실적 개선에 기여할 것으로 예상됩니다."
+    ],
+    "uid": "59c325213efb715843e7056da715967f14a2bc42"
+  },
+  {
+    "title": "멕시코 우회로 차단 나선 미국…K-배터리, 반사이익 커지나",
+    "description": "전기차 전환을 지속해야 하는 북미 완성차 업체들로서는 IRA 보조금과 USMCA 무관세 혜택을 모두 충족하며 대규모 물량을 공급할 수 있는 거대 인프라가 필수적이기 때문이다. 이는 곧 배터리 제조사들의 단가 협상력...",
+    "link": "https://www.mediapen.com/news/view/1108245",
+    "source": "www.mediapen.com",
+    "published_at": "2026-07-05",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 84,
+    "monitoring_importance": 84,
+    "tier": 3,
+    "category": "정책",
+    "companies": [
+      "IRA",
+      "USMCA",
+      "K-배터리"
+    ],
+    "summary_3_sentences": [
+      "미국이 멕시코를 우회하는 조치를 취함에 따라 한국 배터리 제조업체들은 반사이익을 얻을 수 있습니다.",
+      "북미 완성차 업체들은 IRA 보조금과 USMCA 무관세 혜택을 모두 충족하는 대규모 공급망이 필요합니다.",
+      "이는 한국 배터리 제조업체들에게 가격 협상력을 높여줄 수 있습니다."
+    ],
+    "uid": "0f4a3e66ac98e4b3f059e3226a1ea0a521e7864d"
+  },
+  {
+    "title": "전기차 다음은 AI…“ESS배터리 연 40% 급성장”",
+    "description": "현재 글로벌 ESS 대부분은 리튬이온배터리 기반이다. 인공지능(AI) 데이터센터의 서버는 일반 데이터센터보다 훨씬 많은 전력을 소비하는 만큼 전력 공급 안정성과 저장 설비 중요성도 함께 커지고 있다. 이에 리튬 가격이...",
+    "link": "https://www.dt.co.kr/article/12071068?ref=naver",
+    "source": "www.dt.co.kr",
+    "published_at": "2026-07-05",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 82,
+    "monitoring_importance": 82,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "ESS배터리",
+      "리튬이온배터리",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "인공지능(AI) 데이터센터의 전력 소비 증가로 인해 에너지 저장 시스템(ESS) 배터리 시장이 연간 40%의 급성장이 예상됩니다.",
+      "AI 데이터센터는 일반 데이터센터보다 훨씬 많은 전력을 소비하므로 전력 공급 안정성과 저장 설비의 중요성이 커지고 있습니다.",
+      "현재 글로벌 ESS의 대부분은 리튬 이온 배터리를 기반으로 하며, 리튬 가격 변동이 시장에 영향을 미칠 수 있습니다."
+    ],
+    "uid": "ece3007231a1d2027c9c3ebf0b1bfbfa12868abe"
+  },
+  {
+    "title": "관세 환급은 '보너스'…삼성SDI, 본업 회복에 7분기 만의 흑자 기대",
+    "description": "AI(인공지능) 데이터센터용 배터리와 미국 ESS(에너지저장장치) 사업이 수익성을 끌어올리고 유럽 전기차용 배터리 판매도 회복하면서 관세 환급 없이 손익분기점을 넘어설 수 있다는 분석이다. 전기차 부진 상쇄한...",
+    "link": "https://www.bloter.net/news/articleView.html?idxno=667244",
+    "source": "www.bloter.net",
+    "published_at": "2026-07-05",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "정책",
+    "companies": [
+      "삼성SDI",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 AI 데이터센터용 배터리와 미국 ESS 사업의 수익성 향상, 유럽 EV 배터리 판매 회복에 힘입어 7분기 만에 흑자 전환이 예상됩니다.",
+      "이는 관세 환급 없이도 손익분기점을 넘어설 수 있다는 분석에 따른 것입니다.",
+      "전기차 시장의 부진에도 불구하고 이러한 요인들이 삼성SDI의 재무 성과 개선에 기여할 것으로 보입니다."
+    ],
+    "uid": "3a703e1f87bb2b46151c049643f1183c3f9818f2"
+  },
+  {
+    "title": "금양부터 에코프로까지 … K-배터리 유상증자 잔혹사 [N-경제포커스]",
+    "description": "GM과 합작법인 투자와 전고체 배터리 설비 증설 등 자금 조달 목적이 있었음에도, 유증 발표에 따른 지분 희석 우려와 무배당 정책 발표가 겹치며 단기간 투자심리가 급격히 냉각된 바 있다. 주주총회에서 주주들의...",
+    "link": "https://biz.newdaily.co.kr/site/data/html/2026/07/03/2026070300038.html",
+    "source": "biz.newdaily.co.kr",
+    "published_at": "2026-07-05",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "GM",
+      "금양",
+      "에코프로"
+    ],
+    "summary_3_sentences": [
+      "한국 배터리 회사들은 GM과의 합작 투자 및 전고체 배터리 생산 능력 확대를 포함한 자금 조달 노력에도 불구하고 유상 증자 발표로 인해 어려움을 겪고 있습니다.",
+      "지분 희석에 대한 우려와 배당 정책 부재가 겹치면서 투자 심리가 급격히 위축되었습니다.",
+      "이러한 재정적 과제는 한국 배터리 산업의 성장과 투자에 영향을 미칠 수 있습니다."
+    ],
+    "uid": "dabe33b4389e40b54fd7da8ba82be806efe9d9c1"
+  },
+  {
     "title": "\"노스볼트 전철 밟지 말자\"…글로벌 배터리 스타트업, 亞 유휴 공장 눈...",
     "description": "웨어러블 기기·특수 산업용 전고체 배터리를 제조하는 미국 '아이온 스토리지 시스템즈' 역시 배터리 조립을 맡길 동남아시아 지역 유휴 공장을 집중적으로 물색 중이다. 이 회사는 독자적인 세라믹 양극재 생산에만...",
     "link": "https://www.theguru.co.kr/news/article.html?no=103963",
@@ -45,6 +193,150 @@
       "향후 각 기업들은 배터리 안전성 향상을 위한 기술 개발에 치열한 경쟁을 벌일 것으로 예상됩니다."
     ],
     "uid": "b263b424dc750795a57def6f7992319959de8c53"
+  },
+  {
+    "title": "Lithium battery fires hit record high in Japan in fiscal 2025",
+    "published_at": "2026-07-04",
+    "source": "The Japan Times",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSDdTeHZ0bmI4eHdLQzNmQXZ4d2FJanRRT2hzUHd2aVJ2Q2JxM2xTSmZKUzRhdnN4NkYtT21PcEtuRWFSNzFfanR1QWNsMzg3dUk1VzdSMkJiZmQ5N3V4aTFfUVRRd09mNUlqcnBBbGVIYUdjeUN0M0FDYndDSmV2aE1JYW4wUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxNSDdTeHZ0bmI4eHdLQzNmQXZ4d2FJanRRT2hzUHd2aVJ2Q2JxM2xTSmZKUzRhdnN4NkYtT21PcEtuRWFSNzFfanR1QWNsMzg3dUk1VzdSMkJiZmQ5N3V4aTFfUVRRd09mNUlqcnBBbGVIYUdjeUN0M0FDYndDSmV2aE1JYW4wUQ?oc=5\" target=\"_blank\">Lithium battery fires hit record high in Japan in fiscal 2025</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Japan Times</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "일본에서는 2025 회계연도에 리튬 배터리 화재가 기록적인 수준으로 증가했습니다.",
+      "이러한 증가는 배터리 안전 및 관리와 관련된 잠재적 위험에 대한 우려를 제기합니다.",
+      "이러한 추세는 배터리 기술의 안전 표준 및 규제에 대한 추가 조사가 필요함을 시사합니다."
+    ],
+    "uid": "573bfc9a8d914c241634397108142225cb6c59c7"
+  },
+  {
+    "title": "Talga launches commercial Talnode-C anode sales to Nyobolt from Swedish plant",
+    "published_at": "2026-07-04",
+    "source": "The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZW5IQmZKSjJmNktKUk1BS0tWdUlIZlVpT3gtWTZUYjJpeG43X0h3ejk2S05lX1pGUVMwOHdHZGJUNFcxVXl2VHlzeGZFSlNqM0VFTE5VaVR2NGh1WE1LRHBZZkxxVE9XWXJYRy1pS2NhU1hReXBpUFoxZG5CXzN2NTVabl8zaU9idmZnWk1BLWYwYWdLV1A4aXdmc0xVS3lDZnJpWnVaOV9rUVl2Z3B5Ynpxb2NLLVJ1M1RqRnRQYk9oZVlybmZjXzNwclliUUt1djRHSHZKR0JqdTdYendSMXdvS1E2RVdBVEVyR2Q0RQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZW5IQmZKSjJmNktKUk1BS0tWdUlIZlVpT3gtWTZUYjJpeG43X0h3ejk2S05lX1pGUVMwOHdHZGJUNFcxVXl2VHlzeGZFSlNqM0VFTE5VaVR2NGh1WE1LRHBZZkxxVE9XWXJYRy1pS2NhU1hReXBpUFoxZG5CXzN2NTVabl8zaU9idmZnWk1BLWYwYWdLV1A4aXdmc0xVS3lDZnJpWnVaOV9rUVl2Z3B5Ynpxb2NLLVJ1M1RqRnRQYk9oZVlybmZjXzNwclliUUt1djRHSHZKR0JqdTdYendSMXdvS1E2RVdBVEVyR2Q0RQ?oc=5\" target=\"_blank\">Talga launches commercial Talnode-C anode sales to Nyobolt from Swedish plant</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 70,
+    "monitor_score": 80,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "Talga",
+      "Nyobolt"
+    ],
+    "summary_3_sentences": [
+      "Talga는 스웨덴 공장에서 Nyobolt로 상업용 Talnode-C 음극재 판매를 시작했습니다.",
+      "이것은 Talga의 상업적 생산 능력과 배터리 재료 공급망에서의 입지를 나타냅니다.",
+      "Talnode-C의 판매는 배터리 산업의 혁신과 성장에 기여할 것입니다."
+    ],
+    "uid": "6caeb85a6fda94e06523bf38762ab99b0679120d"
+  },
+  {
+    "title": "Zoomlion accélère le déploiement des technologies de motorisation hybride et électrique sur l'ensemble de ses gammes d'équipements",
+    "published_at": "2026-07-04",
+    "source": "PR Newswire - Energy",
+    "link": "https://www.prnewswire.com/news-releases/zoomlion-accelere-le-deploiement-des-technologies-de-motorisation-hybride-et-electrique-sur-lensemble-de-ses-gammes-dequipements-302817827.html",
+    "description": "<p>CHANGSHA, Chine, 3 juillet 2026 /PRNewswire/ -- Zoomlion Heavy Industry Science & Technology Co., Ltd. (« Zoomlion ») a mis en avant cinq avancées technologiques dans les domaines de la motorisation hybride et électrique lors de la 7e Conférence sur l'innovation scientifique et...</p>",
+    "provider": "rss",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 75,
+    "monitoring_importance": 65,
+    "monitor_score": 72,
+    "tier": 1,
+    "category": "기타",
+    "companies": [
+      "Zoomlion",
+      "Zoomlion Heavy Industry Science & Technology Co., Ltd"
+    ],
+    "summary_3_sentences": [
+      "Zoomlion Heavy Industry Science & Technology Co., Ltd.(Zoomlion)는 제7회 과학 기술 혁신 컨퍼런션에서 하이브리드 및 전기 동력 기술의 5가지 발전을 강조했습니다.",
+      "이러한 발전은 Zoomlion의 장비 전반에 걸쳐 하이브리드 및 전기 기술의 채택을 가속화하려는 회사의 노력을 보여줍니다.",
+      "이러한 기술 혁신은 건설 기계 부문에서 지속 가능성과 효율성을 향상시키는 데 기여할 것입니다."
+    ],
+    "uid": "ad491015749ded3d634bdeb8f8e7c6336fb88f9b"
+  },
+  {
+    "title": "Shrnutí po veletrhu: Kompletní řetězec ZTT pro solární energii, skladování a výrobu vodíku zazářil na veletrhu Intersolar Europe 2026",
+    "published_at": "2026-07-04",
+    "source": "PR Newswire - Energy",
+    "link": "https://www.prnewswire.com/news-releases/shrnuti-po-veletrhu-kompletni-etzec-ztt-pro-solarni-energii-skladovani-a-vyrobu-vodiku-zazail-na-veletrhu-intersolar-europe-2026-302817910.html",
+    "description": "<p>MNICHOV, 4. července 2026 /PRNewswire/ -- Společnost Jiangsu Zhongtian Technology (dále jen „ZTT\") se letos na veletrhu Intersolar Europe prezentovala velmi působivě. Představila svůj komplexní průmyslový řetězec „Solární energie + skladování energie + vodík\" i systémová řešení. Díky...</p>",
+    "provider": "rss",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 80,
+    "monitoring_importance": 80,
+    "monitor_score": 80,
+    "tier": 1,
+    "category": "기타",
+    "companies": [
+      "ZTT",
+      "Jiangsu Zhongtian Technology"
+    ],
+    "summary_3_sentences": [
+      "Jiangsu Zhongtian Technology(ZTT)는 Intersolar Europe 2026에서 '태양광 + 에너지 저장 + 수소'의 포괄적인 산업 체인과 시스템 솔루션을 선보였습니다.",
+      "이 회사는 태양광, 에너지 저장, 수소 생산을 통합하는 솔루션을 제공하여 에너지 전환에 대한 포괄적인 접근 방식을 보여주었습니다.",
+      "ZTT의 참가는 유럽 에너지 시장에서 회사의 입지를 강화하고 지속 가능한 에너지 솔루션에 대한 증가하는 수요를 충족시킬 것입니다."
+    ],
+    "uid": "247b6a9ed327d18ac45f010db4af4acff35fa5eb"
+  },
+  {
+    "title": "New graphene interface keeps lithium-sulfur batteries running for 1,000 cycles",
+    "published_at": "2026-07-04",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX0RLbDdqMXdZaGVQd1VaYlRiN2JTYWV5Z0t3YWJWOFVKT0pBUlJ2WUhaQlpWVHFVcU95ajA0WlRpdXJIRVhpRXpTbENkM3NhYXg5RXh3cXA5bUx6SEMyMVRtcW8tZmpldl9iaDBidUxIbWl2NVVOZjJXVEZyVTdheS1ncE1reER6cm9sLUVySVJjbXVHMnFtRXU0OWxDUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQX0RLbDdqMXdZaGVQd1VaYlRiN2JTYWV5Z0t3YWJWOFVKT0pBUlJ2WUhaQlpWVHFVcU95ajA0WlRpdXJIRVhpRXpTbENkM3NhYXg5RXh3cXA5bUx6SEMyMVRtcW8tZmpldl9iaDBidUxIbWl2NVVOZjJXVEZyVTdheS1ncE1reER6cm9sLUVySVJjbXVHMnFtRXU0OWxDUQ?oc=5\" target=\"_blank\">New graphene interface keeps lithium-sulfur batteries running for 1,000 cycles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 75,
+    "monitor_score": 86,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "새로운 그래핀 인터페이스는 리튬-황 배터리의 성능을 향상시켜 1,000회 충방전 주기 동안 작동할 수 있게 합니다.",
+      "이 혁신은 배터리 수명과 안정성을 크게 향상시켜 잠재적으로 더 오래 지속되는 에너지 저장 솔루션을 가능하게 합니다.",
+      "그래핀 기술의 발전은 차세대 배터리 개발에 중요한 역할을 할 것입니다."
+    ],
+    "uid": "9853acd0614bdf2ccd5ae749f702bc22f8012dbe"
+  },
+  {
+    "title": "Vatrer LFP Battery Transforms EZ Go Golf Cart",
+    "published_at": "2026-07-04",
+    "source": "CleanTechnica",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNWQ5ZWNrM0ZBMzVvOTJPVWJ5SGw3aW1nMVJRc0FwOW5ZQTVfam9tWFg3NVhILWlfQUZuekpCNTRacER3UUQ5SGRXaG5TeXRnRmdCNHQzSmFybUhLMWJGX2E4amdiLVhka3FpTDByMDE0MVEwY2d1am82SmVyMERlT1NDckYyV3NkbkQ0?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNWQ5ZWNrM0ZBMzVvOTJPVWJ5SGw3aW1nMVJRc0FwOW5ZQTVfam9tWFg3NVhILWlfQUZuekpCNTRacER3UUQ5SGRXaG5TeXRnRmdCNHQzSmFybUhLMWJGX2E4amdiLVhka3FpTDByMDE0MVEwY2d1am82SmVyMERlT1NDckYyV3NkbkQ0?oc=5\" target=\"_blank\">Vatrer LFP Battery Transforms EZ Go Golf Cart</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CleanTechnica</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 60,
+    "monitor_score": 81,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LFP",
+      "EZ"
+    ],
+    "summary_3_sentences": [
+      "Vatrer LFP 배터리는 EZ Go 골프 카트에 적용되어 성능을 향상시켰습니다.",
+      "이 LFP 배터리 기술의 적용은 소형 운송 수단의 효율성과 지속 가능성을 향상시킬 가능성을 보여줍니다.",
+      "이러한 혁신은 다양한 응용 분야에서 LFP 배터리 기술의 잠재력을 강조합니다."
+    ],
+    "uid": "d2c1a37f09e150c48bf33161514b816163e5dfd2"
   },
   {
     "title": "[종목분석] LG에너지솔루션·삼성SDI·SK온 점유율 하락",
