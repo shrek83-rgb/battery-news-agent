@@ -1,5 +1,172 @@
 [
   {
+    "title": "칠레 SQM·코델코, 리튬 생산 70% 확대 추진…장기 배터리 수요 성장에 ...",
+    "description": "리튬 활용도가 높은 전기차 배터리와 에너지저장장치(ESS) 수요가 장기적으로 성장할 것이란 판단에서다. 다만 본격적인 추가 생산까지는 몇 년이 걸릴 전망이다. SQM과 코델코의 리튬 개발 합작법인인 ‘노반디노...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=103979",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-07-06",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "SQM",
+      "코델코",
+      "노반디노"
+    ],
+    "summary_3_sentences": [
+      "칠레의 SQM과 코델코는 장기적인 배터리 수요 성장에 대비하여 리튬 생산량을 70% 확대할 계획입니다.",
+      "이는 전기차 배터리와 에너지저장장치(ESS)의 수요 증가를 예상한 전략입니다.",
+      "다만, 생산량 증대가 실제 이루어지기까지는 수년이 소요될 것으로 보입니다."
+    ],
+    "uid": "1e3e4916fcc3314b26f0e449eff618ce0a3e2853"
+  },
+  {
+    "title": "전기차 배터리 '중국 천하'…K배터리 탈출구는 ESS",
+    "description": "SK온은 지난 2월 전력거래소가 주관한 제2차 ESS 중앙계약시장 경쟁입찰에서 전체 발주 물량의 50.3%에... 각형 배터리 제조사로 대형 계약을 따낸 것이 대표적이다. SNE리서치 관계자는 \"글로벌 전기차용 이차전지...",
+    "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=723851",
+    "source": "www.the-biz.co.kr",
+    "published_at": "2026-07-06",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "SK온",
+      "SNE리서치",
+      "이차전지"
+    ],
+    "summary_3_sentences": [
+      "SK온은 제2차 ESS 중앙계약시장 경쟁입찰에서 전체 발주 물량의 50.3%를 수주하며 ESS 시장에서의 경쟁력을 입증했습니다.",
+      "이는 각형 배터리 제조사로서 대형 계약을 따낸 대표적인 사례입니다.",
+      "글로벌 전기차용 이차전지 시장에서 K배터리의 탈출구로서 ESS 시장의 중요성이 부각되고 있습니다."
+    ],
+    "uid": "f9bfbd6f822c9fce0f424502e2c8362617bb418a"
+  },
+  {
+    "title": "LG엔솔, ESS 매출 절반으로 키운다…북미 생산거점 5곳으로 확대",
+    "description": "미시간 홀랜드 공장은 지난해 6월 ESS 배터리 양산을 시작했다. 캐나다 넥스트스타 에너지는 작년 11월 양산에 들어갔고, 얼티엄셀즈 테네시 공장은 기존 EV 배터리 생산라인 일부를 ESS용 리튬인산철(LFP) 배터리 셀...",
+    "link": "https://www.socialvalue.kr/news/view/1065602562492471",
+    "source": "www.socialvalue.kr",
+    "published_at": "2026-07-06",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG엔솔",
+      "넥스트스타 에너",
+      "얼티엄셀즈"
+    ],
+    "summary_3_sentences": [
+      "LG엔솔은 ESS 매출을 현재의 두 배로 늘리고 북미 생산 거점을 5곳으로 확대할 계획입니다.",
+      "미시간 홀랜드 공장과 캐나다 넥스트스타 에너지는 이미 ESS 배터리 양산을 시작했으며, 얼티엄셀즈 테네시 공장도 ESS용 LFP 배터리 셀 생산 라인을 일부 활용하고 있습니다.",
+      "이는 LG엔솔이 ESS 시장 공략을 강화하고 북미 생산 능력을 확장하여 시장 지배력을 높이려는 전략을 보여줍니다."
+    ],
+    "uid": "b06f1936afecd46983e38db7957698e7ed8bdb1f"
+  },
+  {
+    "title": "한국투자증권 \"삼성SDI, 북미 BESS 성장 최대 수혜…목표가 60만원 제시...",
+    "description": "북미 BESS 시장 급성장…AMPC 수혜 본격화 한국투자증권은 미국 BESS용 배터리 생산량이 빠르게 증가할 것으로 전망했다. 2027년 미국 BESS용 2차전지 생산량은 22GWh에 이를 것으로 예상했으며, 이에 따른 삼성SDI의...",
+    "link": "http://www.press9.kr/news/articleView.html?idxno=78910",
+    "source": "www.press9.kr",
+    "published_at": "2026-07-06",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "삼성SDI",
+      "2차전지",
+      "BESS"
+    ],
+    "summary_3_sentences": [
+      "한국투자증권은 삼성SDI가 북미 BESS 시장 성장의 최대 수혜자가 될 것으로 전망하며 목표가를 60만원으로 제시했습니다.",
+      "미국 BESS용 배터리 생산량은 2027년 22GWh에 이를 것으로 예상되며, 이에 따른 AMPC 수혜가 본격화될 것으로 보입니다.",
+      "이는 삼성SDI의 북미 BESS 시장 공략이 가속화될 것이며, 관련 시장의 성장 잠재력이 높음을 시사합니다."
+    ],
+    "uid": "f79cda342d9aa56e7cbf8ad61671a4d5299ae128"
+  },
+  {
+    "title": "차세대 배터리의 고질병, '탄탈럼'으로 길 열었다 [언박싱 연구실]",
+    "description": "이 기술로 겨울철 추운 날씨나 배터리를 빠르게 충전하고 쓸 때 발생하는 배터리의 힘이 떨어지는 문제를 크게 줄임으로써, 수명이 길고 출력도 높은 전기차 및 대형 배터리 저장 장치(ESS)용 차세대 배터리를 실제로...",
+    "link": "http://www.fnnews.com/news/202607052211594663",
+    "source": "www.fnnews.com",
+    "published_at": "2026-07-06",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "차세대 배터리의 성능 저하 문제를 해결하기 위해 '탄탈럼'을 활용하는 기술이 개발되었습니다.",
+      "이 기술은 겨울철 저온이나 빠른 충전 시 발생하는 배터리 성능 저하 문제를 크게 줄여줍니다.",
+      "이를 통해 수명이 길고 출력이 높은 전기차 및 ESS용 차세대 배터리 개발에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "f35b430f0194581f509af052eb93b8c55245f8b0"
+  },
+  {
+    "title": "[주목 e-맞수] 삼성SDI vs LG엔솔…\"전력 인프라투자, 기술·정책·금융이...",
+    "description": "BESS는 ESS의 하위 범주로, 리튬이온·LFP·바나듐 흐름전지 등 화학적 배터리 기반 저장장치를 의미한다.... 앞으로 2차·3차 ESS 중앙계약시장에서도 국책은행·보험사·자산운용사의 참여는 더욱 확대될 가능성이...",
+    "link": "http://www.economytalk.kr/news/articleView.html?idxno=422485",
+    "source": "www.economytalk.kr",
+    "published_at": "2026-07-06",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "삼성SDI",
+      "LG엔솔",
+      "리튬이온"
+    ],
+    "summary_3_sentences": [
+      "BESS는 ESS의 하위 범주로, 다양한 화학적 배터리 기반 저장 장치를 포함합니다.",
+      "향후 ESS 중앙 계약 시장에서 국책은행, 보험사, 자산운용사의 참여가 확대될 가능성이 있습니다.",
+      "이는 전력 인프라 투자의 중요성과 함께 기술, 정책, 금융의 협력이 필요함을 시사합니다."
+    ],
+    "uid": "facad837bf79f5bd6e50e5464b1cc04676b00ab1"
+  },
+  {
+    "title": "1~5월 글로벌 전기차 배터리 사용량, 전년比16.3%↑",
+    "description": "규제 강화 등이 맞물리면서 향후 시장에서는 중국 업체들의 규모와 가격 경쟁력, 한국·일본 업체들의 고객 다변화와 고부가가치 배터리, ESS 및 현지 생산 역량 확보가 핵심 경쟁 요소가 될 것으로 전망했다.",
+    "link": "http://amenews.kr/news/view.php?idx=67330",
+    "source": "amenews.kr",
+    "published_at": "2026-07-06",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "정책",
+    "companies": [],
+    "summary_3_sentences": [
+      "올해 1월부터 5월까지 글로벌 전기차 배터리 사용량이 전년 대비 16.3% 증가했습니다.",
+      "향후 시장에서는 중국 업체의 규모와 가격 경쟁력, 한국·일본 업체의 고객 다변화 및 고부가가치 배터리, ESS 역량이 핵심 경쟁 요소가 될 전망입니다.",
+      "이는 배터리 시장의 지속적인 성장과 함께 경쟁 구도가 변화하고 있음을 보여줍니다."
+    ],
+    "uid": "0b4e5c02e81992229c5d0416462da4b6d49908fb"
+  },
+  {
     "title": "CATL, 中 장시성 리튬광산 생산 재개 최종 허가 받아",
     "description": "한편 CATL은 지난해 리튬 가격이 상승함에 따라 나트륨 이온 배터리에 대한 투자도 함께 확대해 왔다. 니쥔 CATL 최고제조책임자(CMO)는 지난달 24일 블룸버그 TV와의 인터뷰에서 \"올해 1만~2만 대의 전기차에 자사의...",
     "link": "https://www.theguru.co.kr/news/article.html?no=103896",
@@ -49,6 +216,31 @@
     "uid": "59c325213efb715843e7056da715967f14a2bc42"
   },
   {
+    "title": "삼원계냐 LFP냐…에코프로·엘앤에프, 재활용 전략 갈렸다",
+    "description": "엘앤에프는 씨아이에스케미칼의 재활용 역량을 기반으로 LFP와 NCM 후처리 물량을 안정적으로 확보할 계획이다. 2027년 내 LFP 리사이클링 역량을 우선 배정받아 고객사의 재활용 수요에 공동 대응하고 양극재 원가...",
+    "link": "http://www.metroseoul.co.kr/article/20260705500222",
+    "source": "www.metroseoul.co.kr",
+    "published_at": "2026-07-05",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "엘앤에프",
+      "씨아이에스케미칼",
+      "에코프로"
+    ],
+    "summary_3_sentences": [
+      "엘앤에프는 씨아이에스케미칼의 재활용 역량을 활용하여 LFP와 NCM 후처리 물량을 확보할 계획입니다.",
+      "2027년까지 LFP 리사이클링 역량을 우선 확보하여 고객사의 재활용 수요에 공동 대응하고 양극재 원가를 절감하는 것을 목표로 합니다.",
+      "이는 배터리 재활용 시장에서의 경쟁력 확보와 지속 가능한 배터리 생산을 위한 전략입니다."
+    ],
+    "uid": "b724d43346b7655f8fd0c10f9160ac98bdfcb46a"
+  },
+  {
     "title": "멕시코 우회로 차단 나선 미국…K-배터리, 반사이익 커지나",
     "description": "전기차 전환을 지속해야 하는 북미 완성차 업체들로서는 IRA 보조금과 USMCA 무관세 혜택을 모두 충족하며 대규모 물량을 공급할 수 있는 거대 인프라가 필수적이기 때문이다. 이는 곧 배터리 제조사들의 단가 협상력...",
     "link": "https://www.mediapen.com/news/view/1108245",
@@ -72,6 +264,27 @@
       "이는 한국 배터리 제조업체들에게 가격 협상력을 높여줄 수 있습니다."
     ],
     "uid": "0f4a3e66ac98e4b3f059e3226a1ea0a521e7864d"
+  },
+  {
+    "title": "전기차 배터리는 여전히 中 천하…1~5월 점유율 1, 2위",
+    "description": "올해 1∼5월 글로벌 전기차 배터리 사용량이 견조한 상승세를 이어간 가운데 중국 업체들의 선전과 한국... 고객 다변화, 고부가 셀, ESS, 현지화 공급 역량 간 경쟁이 핵심 변수로 부상할 전망”이라고 분석했다.",
+    "link": "https://www.dt.co.kr/article/12071237?ref=naver",
+    "source": "www.dt.co.kr",
+    "published_at": "2026-07-05",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "올해 1월부터 5월까지 글로벌 전기차 배터리 사용량은 견조한 상승세를 보였습니다.",
+      "중국 업체들의 강세가 지속되는 가운데, 향후 시장에서는 고객 다변화, 고부가 셀, ESS, 현지화 공급 역량이 핵심 변수로 부상할 전망입니다.",
+      "이는 글로벌 배터리 시장에서 중국의 영향력이 여전하며, 기술 및 시장 전략의 중요성이 커지고 있음을 시사합니다."
+    ],
+    "uid": "4d02a69b69c48838a7fa1b03c11b729912a7acc7"
   },
   {
     "title": "전기차 다음은 AI…“ESS배터리 연 40% 급성장”",
@@ -123,6 +336,30 @@
     "uid": "3a703e1f87bb2b46151c049643f1183c3f9818f2"
   },
   {
+    "title": "[배터리 인사이드]엘앤에프, 하이니켈·LFP 양극재로 투트랙 발판 확보",
+    "description": "보급형 EV·북미 ESS로 고객사 다변화 기대 엘앤에프의 강력한 무기는 중국산 저가 제품과 차별화되는 '3세대 고밀도 LFP 양극재'다. 기존 LFP 배터리의 고질적인 약점으로 지적되던 낮은 에너지 밀도를 독자적인...",
+    "link": "https://www.bloter.net/news/articleView.html?idxno=667203",
+    "source": "www.bloter.net",
+    "published_at": "2026-07-05",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "엘앤에프",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "엘앤에프는 '3세대 고밀도 LFP 양극재'를 통해 중국산 저가 제품과 차별화를 꾀하고 있습니다.",
+      "이 양극재는 기존 LFP 배터리의 낮은 에너지 밀도 문제를 개선하여 보급형 EV 및 북미 ESS 시장으로 고객사를 다변화할 것으로 기대됩니다.",
+      "이는 엘앤에프가 기술 혁신을 통해 경쟁 우위를 확보하고 새로운 시장을 개척하려는 전략을 보여줍니다."
+    ],
+    "uid": "ca4af7387d9c42c3a489945f7fec706a92f34b56"
+  },
+  {
     "title": "금양부터 에코프로까지 … K-배터리 유상증자 잔혹사 [N-경제포커스]",
     "description": "GM과 합작법인 투자와 전고체 배터리 설비 증설 등 자금 조달 목적이 있었음에도, 유증 발표에 따른 지분 희석 우려와 무배당 정책 발표가 겹치며 단기간 투자심리가 급격히 냉각된 바 있다. 주주총회에서 주주들의...",
     "link": "https://biz.newdaily.co.kr/site/data/html/2026/07/03/2026070300038.html",
@@ -146,6 +383,54 @@
       "이러한 재정적 과제는 한국 배터리 산업의 성장과 투자에 영향을 미칠 수 있습니다."
     ],
     "uid": "dabe33b4389e40b54fd7da8ba82be806efe9d9c1"
+  },
+  {
+    "title": "New PTFE-free battery anode cuts charging time and extends EV range",
+    "published_at": "2026-07-05",
+    "source": "The Brighter Side of News",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM2JBNHdBaWg5WXZNSEVMRTl3SHF6RGlGY21CTmNwVFhac0VuQVJ3aFRGSHZRMGZZMktNcEVtR042U3RwNUxEYVNUOFI5cU9yMFNFdTF2N1FCYVllcXhzbVRsY1gwTkpLNC1NZG9JejgyTFZTclJOT3hZTXBBZ3djSkxIZG9STHg1QXJFTGlISW0zUHNUU3hGX3lzb2I4QnFBOE50UVVfOHdFZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM2JBNHdBaWg5WXZNSEVMRTl3SHF6RGlGY21CTmNwVFhac0VuQVJ3aFRGSHZRMGZZMktNcEVtR042U3RwNUxEYVNUOFI5cU9yMFNFdTF2N1FCYVllcXhzbVRsY1gwTkpLNC1NZG9JejgyTFZTclJOT3hZTXBBZ3djSkxIZG9STHg1QXJFTGlISW0zUHNUU3hGX3lzb2I4QnFBOE50UVVfOHdFZw?oc=5\" target=\"_blank\">New PTFE-free battery anode cuts charging time and extends EV range</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Brighter Side of News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "PTFE"
+    ],
+    "summary_3_sentences": [
+      "새로운 PTFE-free 배터리 음극재가 개발되었습니다.",
+      "이 음극재는 충전 시간을 단축하고 전기차의 주행 거리를 연장하는 효과가 있습니다.",
+      "이는 배터리 기술의 혁신을 통해 전기차 성능을 향상시킬 잠재력을 보여줍니다."
+    ],
+    "uid": "815b126a88b4135e3d44d9ec9deced0ed1e2c809"
+  },
+  {
+    "title": "Wakefield battery storage site given go-ahead after appeal",
+    "published_at": "2026-07-05",
+    "source": "BBC",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWcFJRR3hRd0c3N3RhS2FzNXNzMkxzZGlWdzR3SDZpT1RuckdzX2FWVzdFNWV6bG4zZm9WZURmNE14WHc2Tjg3YWxaYnhJb0dVcEk0enh2eUZXQQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWcFJRR3hRd0c3N3RhS2FzNXNzMkxzZGlWdzR3SDZpT1RuckdzX2FWVzdFNWV6bG4zZm9WZURmNE14WHc2Tjg3YWxaYnhJb0dVcEk0enh2eUZXQQ?oc=5\" target=\"_blank\">Wakefield battery storage site given go-ahead after appeal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 70,
+    "monitor_score": 84,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "BBC"
+    ],
+    "summary_3_sentences": [
+      "영국 웨이크필드 지역의 배터리 저장 시설 건설이 항소 끝에 승인되었습니다.",
+      "이 시설은 지역 에너지 저장 능력 강화에 기여할 것으로 보입니다.",
+      "이는 재생 에너지 확대와 전력망 안정성 확보를 위한 배터리 저장 시설의 중요성을 보여줍니다."
+    ],
+    "uid": "23c6aa641f9248c3c7da2ee8dfb3dbb9f631eabd"
   },
   {
     "title": "\"노스볼트 전철 밟지 말자\"…글로벌 배터리 스타트업, 亞 유휴 공장 눈...",
