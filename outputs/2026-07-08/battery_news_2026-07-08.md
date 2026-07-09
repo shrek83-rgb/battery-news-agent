@@ -1,0 +1,262 @@
+# 배터리 뉴스 데일리 브리핑 (2026-07-08 전날 기준)
+
+- 총 20건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | electrolyte | 2026-07-08 | www.digitaltoday.co.kr | '꿈의 배터리' 드디어 나오나…MIT, 전고체 최대 난제 풀 실마리 찾았다 | https://www.digitaltoday.co.kr/news/articleView.html?idxno=682441 | unknown |
+| 2 | 3 | 기타 | 2026-07-09 | www.hankookilbo.com | 배터리 업계에도 전략적 지원이 필요하다[아침을 열며] | https://www.hankookilbo.com/news/article/A2026070809470001044?did=NA | unknown |
+| 3 | 3 | 기타 | 2026-07-08 | www.sedaily.com | 소재 설계부터 제조 공정까지…AI發 배터리 기술혁신 가속 | https://www.sedaily.com/article/20065403?ref=naver | unknown |
+| 4 | 3 | 기타 | 2026-07-09 | news.dealsitetv.com | 민형배 시장, 광양서 철강·K-배터리 육성 행보…"미래산업 수도 도약" | https://news.dealsitetv.com/articles/173062 | unknown |
+| 5 | 3 | 전고체 | 2026-07-09 | www.cbci.co.kr | 전고체 배터리주 혼조 속 선별 강세…이수스페셜티케미컬·한농화성 LG엔... | https://www.cbci.co.kr/news/articleView.html?idxno=587752 | unknown |
+| 6 | 3 | 전고체 | 2026-07-09 | www.fnnews.com | "차세대 이차전지 선점하라" 전방위 협력 나선 기업들 | http://www.fnnews.com/news/202607090851055979 | unknown |
+| 7 | 3 | 기타 | 2026-07-09 | www.updownnews.co.kr | LG에너지솔루션 흑자전환 뒤의 ESS 확대...EV 둔화 속 새 축 부상 | http://www.updownnews.co.kr/news/articleView.html?idxno=317902 | unknown |
+| 8 | 3 | 기타 | 2026-07-09 | www.youthdaily.co.kr | LG엔솔, 세액공제에 올 2분기 영업익 "흑자 전환"…증권가 "하반기 턴어... | https://www.youthdaily.co.kr/news/article.html?no=222546 | unknown |
+| 9 | 3 | cathode | 2026-07-09 | www.pinpointnews.co.kr | 실적 훈풍 부는 배터리 3사…LG엔솔 흑자 전환, 삼성SDI·SK온도 반등 기... | https://www.pinpointnews.co.kr/news/articleView.html?idxno=466687 | unknown |
+| 10 | 3 | 기타 | 2026-07-09 | www.thebell.co.kr | [더벨][Company Watch] ESS가 구한 LG엔솔…EV 부진 속 '체질 변화' 시험대 | https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607071437222840102212 | unknown |
+| 11 | 3 | 기타 | 2026-07-08 | Spectroscopy Online | Exploring Trace Elemental Analysis in Lithium-Ion Battery Materials | https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaE52eVR5NlRNNUtUVlRmMWcyMzYzUkVkTUtuM205QjNaZWl3TzM0QzZKM0tObEFWTU5pd3A4aWE2VEFQNWhUbWlLeVZPS3FMeHRWRGVrRnZqTnA0WTdoRC1KWUhReG1XZ2tYNWkwRTVhc1pONFBSSVF3Y3FNZ3V1VUJiakF5RkNid1JoZDRnLVJaRlRPTXNlUVlwNXZBb0lIcUdaWXhpWkdnQ0k?oc=5 | unknown |
+| 12 | 3 | 나트륨 | 2026-07-08 | pv magazine USA | ESS introduces sodium-ion battery targeted at data centers and other commercial users | https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU0dydk9XWlpHQVpUalg5VVlKWHZrSkxKT0k1bkN2dlpxT2V2RWFnRF9iMkl5R3NFdmR4TTYtWGF3eDRjdkFHNG1rcGh2OVNnLWNpVVlKa0hraU9lZi16eGZPYWpvT1N1azhHOV8xLVg5YUJBb3c4Y3JqMkZCSHBYenVqbjdHQTZ4cEJMeHBsYjFJU2Q2eXgydUlmWVhjcHJycF9FMkF4VXgtVVc2azdJZEJQTHdSRm5uUi1OT2ZvSDVZTFE?oc=5 | unknown |
+| 13 | 3 | 나트륨 | 2026-07-08 | Solar Power World | UNIGRID unveils 9.25-kWh sodium-ion battery for residential applications | https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMVBJdUlfMEFaMkFFTjhReTFxWmtMUWlGb1NoaF92cFBsRHVwV2k2NW41WGgyVTg3OFl4anJSTF9kTTlBaTRrVG8tZy11NjBBbm9WZUJiYXJnSUs2T1phVk02YmVPbjM1TVhhRWRja1B3RVpjYU9qdG93VDNOZUZ3VHcyTHVEb1JCWnhtS29mQ2NpMzhScG1vOHl0R0E0NmxDZ3FJN1BSU0pTeGFYM19xbk9rVzV5NnJyMVRV?oc=5 | unknown |
+| 14 | 3 | 전고체 | 2026-07-08 | Battery Technology | Breaking Down the Limits of Solid-State Battery Performance | https://news.google.com/rss/articles/CBMitAFBVV95cUxNdGh0ckpDcVFRc1lZeGw2U28xNFZPZ0tfRFh3RlBpNVVDdy1FNGZQSTR6SlVDeEMwbWtLSWdiYkF2SEFXczV2MUNyZ3RmVGtXNGNNa21jX2JBcjNpN3FueXRoSWJTVjhpWXRmXzctWlpSX1VkWEFNcnlkbS1wZVNETkZVSnRVZkpmZHduOWpFY21jbEUxYVJPZ21nRnZVQ2ZvdWhzQ3ZlWG8tV2xDM3Q2YTR5TjY?oc=5 | unknown |
+| 15 | 3 | 재활용 | 2026-07-08 | Resource Recycling | Canada EV battery reuse pilot to start | https://news.google.com/rss/articles/CBMikwFBVV95cUxQWjNGckwtQm5Pb0ZQUExLNXRDMWZQYWFZZ0t3SHcwdjlCdVhkb2p2Q1JTeWNka1hLSWRkeURJLVpSMmtRTGxQSUFvWUxwTjNyNm1JMWhFMjFvUURnSTVFQkRMdDlYNWlYMV93NzdmdXo1aGdTR0xqcFBvc3AtOXk0TmwyNDg2VVdLVVVGdldFN0Exa0k?oc=5 | unknown |
+| 16 | 3 | 기타 | 2026-07-08 | Foley Hoag | Transmission Planning: The Unsung Use Case for Battery Storage | https://news.google.com/rss/articles/CBMi3gFBVV95cUxOT285UW12MXRyRG56VUJFZ09HUlAteUh2R0JZdGJybzlkWHlLWjVzRTJmSmQ1Qkt6YmR4ZmVrMHBpdTJRbjc5YlBDelJjd2lkZUJFMnVpWUZNYVhLaUJBZzRXNDE2Q190ZWZfTV9aWUhKZktkZ2ViY184M2Y0XzRNU3c3SEhYeE1vQ1pyMmEtb2tRWi1fdWpLeUhHYU5ITjBxbVdOenlzQlpJZzE2WUZEQ0NQZFQ3bUlmSDdXdkhYZFNCYy1vbVc0NWtmNTFDM0lqTVlOWXBTbnd6cEg1UEE?oc=5 | unknown |
+| 17 | 3 | 전고체 | 2026-07-08 | Tech Xplore | Elastic layer lets sulfide solid-state batteries run longer with less pressure | https://news.google.com/rss/articles/CBMif0FVX3lxTFA5YkUzb0Znek53Znlja2xmbzFjaG0ySTM1dXZNS0phbEhVblJYWlhKVUQ3dXV2ejJ4RGxJbUZ6ZTZpd1lOai1GTnNSb2FiYjNQVHNNYlNtZzgxNXc2Y1JIVTZ6a29XR2FrYXlnRGt0RElOWG5mRjJlQ3RhNUJROE0?oc=5 | unknown |
+| 18 | 3 | anode | 2026-07-08 | Physics World | Changes in structure and ionic resistance of lithium-ion battery graphite electrodes | https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3gwc00xNE9PM0N2cW9CTndRU1NXM0xvdXk4cGdKNExTMlVGeTloalZQc3BuOUxGWW5VaFpzd2lFU0l1NU8yMi1sdVRjaW9nVTNBVEswaTEwNlVrLXFNTWZmVFloWkRQc1ZtYlNaME1vTWxFRExaaDFKSDZ4c0dTUlBZZHF2cTY3QlBtSmtseER0UVZxQ1AwRThzT2ZrX05fYVI3cnZLNFJRSTZZVndRY19n?oc=5 | unknown |
+| 19 | 3 | 재활용 | 2026-07-08 | Global Market Insights Inc. | Black Mass Recycling Market Size, Forecasts Report 2026-2035 | https://news.google.com/rss/articles/CBMifEFVX3lxTE1QYkozRXR3dEJWck9OVF9ob0JndUIyUGxVRVdaY3VYZWZ2SF92Q0JKQngyR21fVnBWb1N1V2dZdVIzNlBUVHZ1cEV4dmwwVnZOU0hsRnJXMkFZZW9CWmpLMGQ4OUpQU3NjdU5lMmVmc2lscG14a2JaSF9VVHY?oc=5 | unknown |
+| 20 | 3 | 나트륨 | 2026-07-08 | Business Wire | ESS Introduces Bridge™, a Modular Sodium-Ion Battery Energy Storage System for Grid-Scale, Data Center, and Commercial Applications | https://news.google.com/rss/articles/CBMikgJBVV95cUxQcmdDX3gxYnBMcWVRQmdFMnYtejgxcmtVMXE3WmRzZW0xYjFCM2ZtXzlKV0RaV2pCRmNyQks2TVV5YmdYdW1mZ2NtaUgxR1FxREk2TFRucHQ2aUJxRElYQVVsTElxU2lDQ1VIM2R1c2w0dl94T3J6RGQtVTVKdnRhZ0hvdlBGRkMtUXZ2azlxVTNoRUNpc1A2bXR6aXJZWFEtcVBpT1dwLVkxZ1pIazFxM1JmNFdCY1dVOUpHdlkyUm03LVd0VERzUFo2SVRuZ3NXVC1VSzY0WDFXNWFGWVRCUEFtWDFyUU1mX2dBM1gtT1kwdm5BbFY2d2JRYjBBbVR2ZVJOSEg5WnZRUmtWU1NxNkN3?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. '꿈의 배터리' 드디어 나오나…MIT, 전고체 최대 난제 풀 실마리 찾았다
+- 발행일: 2026-07-08
+- 매체: www.digitaltoday.co.kr (출처등급 3)
+- 분야: electrolyte
+- 링크: https://www.digitaltoday.co.kr/news/articleView.html?idxno=682441
+- 인기신호: unknown
+- 3문장 요약:
+  - MIT와 뮌헨공대 연구진이 전고체 배터리의 단락을 유발하는 핵심 원인을 고체 전해질 내부의 입계(그레인 바운더리)에서 찾았습니다.
+  - 이들은 해당 원인을 해결하여 전류 밀도를 300%까지 끌어올릴 수 있는 실마리를 발견했습니다.
+  - 이는 전고체 배터리의 상용화를 앞당길 수 있는 중요한 연구 성과로 평가됩니다.
+- 관련 기업: MIT, 뮌헨공대
+
+### 2. 배터리 업계에도 전략적 지원이 필요하다[아침을 열며]
+- 발행일: 2026-07-09
+- 매체: www.hankookilbo.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.hankookilbo.com/news/article/A2026070809470001044?did=NA
+- 인기신호: unknown
+- 3문장 요약:
+  - 배터리 소재 기업은 한국 2차전지 산업의 미래를 지탱할 핵심 동력입니다.
+  - 이들 기업은 영업손실 구간을 벗어나기 위해 노력 중이며, 정책 자금 지원이 필요합니다.
+  - 저리 대출이나 세액공제 등의 금융 지원을 통해 활력을 불어넣어야 합니다.
+- 관련 기업: 2차전지
+
+### 3. 소재 설계부터 제조 공정까지…AI發 배터리 기술혁신 가속
+- 발행일: 2026-07-08
+- 매체: www.sedaily.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.sedaily.com/article/20065403?ref=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - 인공지능(AI) 기술이 배터리 산업의 기술 혁신을 가속하고 있습니다.
+  - 마이크로소프트는 미국 퍼시픽노스웨스트국립연구소(PNNL)와 협력하여 AI를 활용한 배터리 연구를 진행했습니다.
+  - AI는 소재 설계부터 제조 공정까지 배터리 전반의 기술 발전에 기여할 것으로 기대됩니다.
+- 관련 기업: 마이크로소프트, 퍼시픽노스웨스트국립연구소(PNNL, 2차전지
+
+### 4. 민형배 시장, 광양서 철강·K-배터리 육성 행보…"미래산업 수도 도약"
+- 발행일: 2026-07-09
+- 매체: news.dealsitetv.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.dealsitetv.com/articles/173062
+- 인기신호: unknown
+- 3문장 요약:
+  - 민형배 전남광주통합특별시장이 광양을 방문하여 철강 및 K-배터리 산업 육성 방안을 점검했습니다.
+  - 이번 방문은 포스코 광양제철소와 2차전지 기업을 대상으로 이루어졌습니다.
+  - 이는 저탄소 철강 및 배터리 전주기 생태계 구축을 지원하여 미래산업 수도로 도약하기 위한 행보입니다.
+- 관련 기업: 포스코, 철강·K-배터리, 미래산업
+
+### 5. 전고체 배터리주 혼조 속 선별 강세…이수스페셜티케미컬·한농화성 LG엔...
+- 발행일: 2026-07-09
+- 매체: www.cbci.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.cbci.co.kr/news/articleView.html?idxno=587752
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 전고체 배터리 관련 종목들이 혼조세를 보이며 종목별 차별화된 흐름을 나타냈습니다.
+  - 차세대 배터리 기술에 대한 기대감은 지속되고 있으나, 투자자들은 실적과 기술 경쟁력을 중심으로 선별적인 매수에 나서고 있습니다.
+  - 이수스페셜티케미컬, 한농화성 등의 종목이 주목받고 있습니다.
+- 관련 기업: 이수스페셜티케미컬, 한농화성, 2차전지
+
+### 6. "차세대 이차전지 선점하라" 전방위 협력 나선 기업들
+- 발행일: 2026-07-09
+- 매체: www.fnnews.com (출처등급 3)
+- 분야: 전고체
+- 링크: http://www.fnnews.com/news/202607090851055979
+- 인기신호: unknown
+- 3문장 요약:
+  - 이차전지 소재·부품·장비(소부장) 기업들이 차세대 전고체 배터리 시장 선점을 위해 협력하고 있습니다.
+  - 이는 5년 뒤 60조원 규모로 성장할 것으로 예상되는 전고체 배터리 시장을 공략하기 위한 전략입니다.
+  - 기업 간의 전방위적인 협력을 통해 기술 개발 및 시장 진입을 가속화할 것으로 보입니다.
+- 관련 기업: 이차전지
+
+### 7. LG에너지솔루션 흑자전환 뒤의 ESS 확대...EV 둔화 속 새 축 부상
+- 발행일: 2026-07-09
+- 매체: www.updownnews.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: http://www.updownnews.co.kr/news/articleView.html?idxno=317902
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션이 흑자 전환에 성공하며 에너지저장장치(ESS) 사업 확대를 추진하고 있습니다.
+  - 유진투자증권은 LG에너지솔루션의 2분기 ESS 매출을 2조원으로 추정하며, 북미 신규 공장 가동과 ESS 출하 확대가 성장을 이끌었다고 분석했습니다.
+  - 이는 전기차(EV) 시장 둔화 속에서 ESS가 새로운 성장 동력으로 부상하고 있음을 보여줍니다.
+- 관련 기업: LG에너지솔루션, AMPC
+
+### 8. LG엔솔, 세액공제에 올 2분기 영업익 "흑자 전환"…증권가 "하반기 턴어...
+- 발행일: 2026-07-09
+- 매체: www.youthdaily.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.youthdaily.co.kr/news/article.html?no=222546
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션이 세액공제 혜택과 함께 올 2분기 영업이익 흑자 전환에 성공했습니다.
+  - 북미 ESS 출하량 확대, EV 원통형 배터리 및 유럽 중저가 파우치 배터리 출하 확대가 실적 개선의 주요 요인으로 작용했습니다.
+  - 증권가에서는 하반기에도 턴어라운드 흐름이 이어질 것으로 전망하고 있습니다.
+- 관련 기업: LG에너지솔루션, LG엔솔
+
+### 9. 실적 훈풍 부는 배터리 3사…LG엔솔 흑자 전환, 삼성SDI·SK온도 반등 기...
+- 발행일: 2026-07-09
+- 매체: www.pinpointnews.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=466687
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 배터리 3사가 실적 개선세를 보이며 반등을 모색하고 있습니다.
+  - LG에너지솔루션은 흑자 전환에 성공했으며, 삼성SDI와 SK온도 실적 반등을 준비 중입니다.
+  - 특히 배터리 업체들은 ESS 생산 확대에 속도를 내고 있으며, LG에너지솔루션은 리튬인산철(LFP) 배터리 생산을, 삼성SDI는 미국 공장의 일부 라인을 ESS용으로 전환하고 있습니다.
+- 관련 기업: LG에너지솔루션, 삼성SDI, SK온
+
+### 10. [더벨][Company Watch] ESS가 구한 LG엔솔…EV 부진 속 '체질 변화' 시험대
+- 발행일: 2026-07-09
+- 매체: www.thebell.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607071437222840102212
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션이 ESS 사업 확대를 통해 실적 개선을 이루며 체질 변화 시험대에 올랐습니다.
+  - 미국을 중심으로 AI 데이터센터 및 신재생에너지 확대에 따른 전력 수요 급증으로 ESS용 배터리 시장이 빠르게 성장하고 있습니다.
+  - LG에너지솔루션은 올해 글로벌 ESS 생산 능력을 60GWh 이상으로 확대할 계획입니다.
+- 관련 기업: LG에너지솔루션, LG엔솔, 신재생에너지
+
+### 11. Exploring Trace Elemental Analysis in Lithium-Ion Battery Materials
+- 발행일: 2026-07-08
+- 매체: Spectroscopy Online (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaE52eVR5NlRNNUtUVlRmMWcyMzYzUkVkTUtuM205QjNaZWl3TzM0QzZKM0tObEFWTU5pd3A4aWE2VEFQNWhUbWlLeVZPS3FMeHRWRGVrRnZqTnA0WTdoRC1KWUhReG1XZ2tYNWkwRTVhc1pONFBSSVF3Y3FNZ3V1VUJiakF5RkNid1JoZDRnLVJaRlRPTXNlUVlwNXZBb0lIcUdaWXhpWkdnQ0k?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 리튬이온 배터리 소재의 미량 원소 분석에 대한 탐구가 진행되고 있습니다.
+  - 이는 배터리 성능 및 안정성 향상을 위한 기초 연구의 일환입니다.
+  - 정확한 미량 원소 분석은 배터리 소재 개발 및 품질 관리에 중요한 역할을 합니다.
+
+### 12. ESS introduces sodium-ion battery targeted at data centers and other commercial users
+- 발행일: 2026-07-08
+- 매체: pv magazine USA (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU0dydk9XWlpHQVpUalg5VVlKWHZrSkxKT0k1bkN2dlpxT2V2RWFnRF9iMkl5R3NFdmR4TTYtWGF3eDRjdkFHNG1rcGh2OVNnLWNpVVlKa0hraU9lZi16eGZPYWpvT1N1azhHOV8xLVg5YUJBb3c4Y3JqMkZCSHBYenVqbjdHQTZ4cEJMeHBsYjFJU2Q2eXgydUlmWVhjcHJycF9FMkF4VXgtVVc2azdJZEJQTHdSRm5uUi1OT2ZvSDVZTFE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - ESS(Energy Storage Systems)가 데이터센터 및 상업용 사용자들을 겨냥한 나트륨 이온 배터리를 출시했습니다.
+  - 이 나트륨 이온 배터리는 기존 리튬 이온 배터리의 대안으로 주목받고 있습니다.
+  - ESS는 이번 신제품 출시를 통해 에너지 저장 시스템 시장에서의 경쟁력을 강화할 것으로 예상됩니다.
+- 관련 기업: ESS, USA
+
+### 13. UNIGRID unveils 9.25-kWh sodium-ion battery for residential applications
+- 발행일: 2026-07-08
+- 매체: Solar Power World (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMVBJdUlfMEFaMkFFTjhReTFxWmtMUWlGb1NoaF92cFBsRHVwV2k2NW41WGgyVTg3OFl4anJSTF9kTTlBaTRrVG8tZy11NjBBbm9WZUJiYXJnSUs2T1phVk02YmVPbjM1TVhhRWRja1B3RVpjYU9qdG93VDNOZUZ3VHcyTHVEb1JCWnhtS29mQ2NpMzhScG1vOHl0R0E0NmxDZ3FJN1BSU0pTeGFYM19xbk9rVzV5NnJyMVRV?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - UNIGRID가 주거용 애플리케이션을 위한 9.25kWh 용량의 나트륨 이온 배터리를 공개했습니다.
+  - 이 배터리는 가정용 에너지 저장 시스템에 활용될 수 있습니다.
+  - UNIGRID는 이번 신제품 출시를 통해 주거용 에너지 시장에서의 입지를 넓힐 것으로 기대됩니다.
+- 관련 기업: UNIGRID
+
+### 14. Breaking Down the Limits of Solid-State Battery Performance
+- 발행일: 2026-07-08
+- 매체: Battery Technology (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMitAFBVV95cUxNdGh0ckpDcVFRc1lZeGw2U28xNFZPZ0tfRFh3RlBpNVVDdy1FNGZQSTR6SlVDeEMwbWtLSWdiYkF2SEFXczV2MUNyZ3RmVGtXNGNNa21jX2JBcjNpN3FueXRoSWJTVjhpWXRmXzctWlpSX1VkWEFNcnlkbS1wZVNETkZVSnRVZkpmZHduOWpFY21jbEUxYVJPZ21nRnZVQ2ZvdWhzQ3ZlWG8tV2xDM3Q2YTR5TjY?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리의 성능 한계를 극복하기 위한 연구가 진행 중입니다.
+  - 특히 황화물계 전고체 배터리의 압력 요구량을 줄이면서도 작동 시간을 늘릴 수 있는 탄성층 기술이 개발되었습니다.
+  - 이러한 기술 발전은 전고체 배터리의 상용화 가능성을 높이고 있습니다.
+
+### 15. Canada EV battery reuse pilot to start
+- 발행일: 2026-07-08
+- 매체: Resource Recycling (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMikwFBVV95cUxQWjNGckwtQm5Pb0ZQUExLNXRDMWZQYWFZZ0t3SHcwdjlCdVhkb2p2Q1JTeWNka1hLSWRkeURJLVpSMmtRTGxQSUFvWUxwTjNyNm1JMWhFMjFvUURnSTVFQkRMdDlYNWlYMV93NzdmdXo1aGdTR0xqcFBvc3AtOXk0TmwyNDg2VVdLVVVGdldFN0Exa0k?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 캐나다에서 전기차(EV) 배터리 재사용 파일럿 프로젝트가 시작될 예정입니다.
+  - 이 프로젝트는 폐기되는 EV 배터리의 재사용 방안을 모색하는 데 중점을 둡니다.
+  - 이는 배터리 재활용 및 지속 가능한 에너지 시스템 구축에 기여할 것으로 기대됩니다.
+
+### 16. Transmission Planning: The Unsung Use Case for Battery Storage
+- 발행일: 2026-07-08
+- 매체: Foley Hoag (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOT285UW12MXRyRG56VUJFZ09HUlAteUh2R0JZdGJybzlkWHlLWjVzRTJmSmQ1Qkt6YmR4ZmVrMHBpdTJRbjc5YlBDelJjd2lkZUJFMnVpWUZNYVhLaUJBZzRXNDE2Q190ZWZfTV9aWUhKZktkZ2ViY184M2Y0XzRNU3c3SEhYeE1vQ1pyMmEtb2tRWi1fdWpLeUhHYU5ITjBxbVdOenlzQlpJZzE2WUZEQ0NQZFQ3bUlmSDdXdkhYZFNCYy1vbVc0NWtmNTFDM0lqTVlOWXBTbnd6cEg1UEE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 배터리 저장 장치(ESS)가 송전망 계획에서 중요한 역할을 할 수 있다는 점이 조명되고 있습니다.
+  - ESS는 전력망 안정화 및 효율성 증대에 기여할 수 있는 잠재력을 가지고 있습니다.
+  - 이는 전력 인프라 운영에 있어 ESS의 활용 가치를 높이는 분석입니다.
+
+### 17. Elastic layer lets sulfide solid-state batteries run longer with less pressure
+- 발행일: 2026-07-08
+- 매체: Tech Xplore (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMif0FVX3lxTFA5YkUzb0Znek53Znlja2xmbzFjaG0ySTM1dXZNS0phbEhVblJYWlhKVUQ3dXV2ejJ4RGxJbUZ6ZTZpd1lOai1GTnNSb2FiYjNQVHNNYlNtZzgxNXc2Y1JIVTZ6a29XR2FrYXlnRGt0RElOWG5mRjJlQ3RhNUJROE0?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 탄성층 기술을 통해 황화물계 전고체 배터리의 압력 요구량을 줄이면서도 작동 시간을 늘릴 수 있게 되었습니다.
+  - 이 기술은 전고체 배터리의 성능과 안정성을 향상시키는 데 기여합니다.
+  - 이는 전고체 배터리의 상용화를 앞당길 수 있는 중요한 진전입니다.
+
+### 18. Changes in structure and ionic resistance of lithium-ion battery graphite electrodes
+- 발행일: 2026-07-08
+- 매체: Physics World (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3gwc00xNE9PM0N2cW9CTndRU1NXM0xvdXk4cGdKNExTMlVGeTloalZQc3BuOUxGWW5VaFpzd2lFU0l1NU8yMi1sdVRjaW9nVTNBVEswaTEwNlVrLXFNTWZmVFloWkRQc1ZtYlNaME1vTWxFRExaaDFKSDZ4c0dTUlBZZHF2cTY3QlBtSmtseER0UVZxQ1AwRThzT2ZrX05fYVI3cnZLNFJRSTZZVndRY19n?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 리튬 이온 배터리의 흑연 전극 구조 및 이온 저항 변화에 대한 연구가 수행되었습니다.
+  - 이 연구는 배터리 성능 저하의 원인을 이해하는 데 도움을 줄 수 있습니다.
+  - 흑연 전극의 구조적 변화와 이온 저항은 배터리 수명 및 효율에 영향을 미치는 중요한 요소입니다.
+
+### 19. Black Mass Recycling Market Size, Forecasts Report 2026-2035
+- 발행일: 2026-07-08
+- 매체: Global Market Insights Inc. (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMifEFVX3lxTE1QYkozRXR3dEJWck9OVF9ob0JndUIyUGxVRVdaY3VYZWZ2SF92Q0JKQngyR21fVnBWb1N1V2dZdVIzNlBUVHZ1cEV4dmwwVnZOU0hsRnJXMkFZZW9CWmpLMGQ4OUpQU3NjdU5lMmVmc2lscG14a2JaSF9VVHY?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 블랙매스(Black Mass) 재활용 시장의 규모와 향후 전망에 대한 보고서가 발표되었습니다.
+  - 블랙매스는 폐배터리에서 추출되는 핵심 재활용 원료입니다.
+  - 이 보고서는 2026년부터 2035년까지의 시장 규모를 예측하며 관련 산업의 성장을 조망합니다.
+
+### 20. ESS Introduces Bridge™, a Modular Sodium-Ion Battery Energy Storage System for Grid-Scale, Data Center, and Commercial Applications
+- 발행일: 2026-07-08
+- 매체: Business Wire (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMikgJBVV95cUxQcmdDX3gxYnBMcWVRQmdFMnYtejgxcmtVMXE3WmRzZW0xYjFCM2ZtXzlKV0RaV2pCRmNyQks2TVV5YmdYdW1mZ2NtaUgxR1FxREk2TFRucHQ2aUJxRElYQVVsTElxU2lDQ1VIM2R1c2w0dl94T3J6RGQtVTVKdnRhZ0hvdlBGRkMtUXZ2azlxVTNoRUNpc1A2bXR6aXJZWFEtcVBpT1dwLVkxZ1pIazFxM1JmNFdCY1dVOUpHdlkyUm03LVd0VERzUFo2SVRuZ3NXVC1VSzY0WDFXNWFGWVRCUEFtWDFyUU1mX2dBM1gtT1kwdm5BbFY2d2JRYjBBbVR2ZVJOSEg5WnZRUmtWU1NxNkN3?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMioAJBVV95cUxQa2xSbWpOeEpYNDRtV1pPeGhKLTdHdUNsaWxKVXdRYXhrTnZESkp0UXQtakcyNEVlaVVRQkE1UXpHRG1aNnJnUlNaWDNzdDVtdEtJanhHWDlpWXVkbTBxZ0pTS2FjVmpoSW5rUWgxRk5DUDZFOFdnZDZVc1hiZlZkeUFTZGlfS2p4cS12QWJhMzBUSFA5SWNtMTVkY2MwVDZ5bldYeXc0OTNvQjJjZE9WRnltR0tlOWE3TjIwZUY1RHZGZ1ZNMzJCRE0zRGpuWW40RlFvemJKU2xPend3THY2dHdJb2doWmtJMHhTSHhheXdlUWVSeUd5dllsWC1YYXFsZjN2bGpIa1JMcjZuVXdtSWd1NjZOSWgzRkxYUVpLX2c?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - ESS(Energy Storage Systems)가 그리드 규모, 데이터센터, 상업용 애플리케이션을 위한 모듈형 나트륨 이온 배터리 에너지 저장 시스템인 Bridge™를 출시했습니다.
+  - Bridge™ 시스템은 유연성과 확장성을 갖춘 설계로 다양한 에너지 저장 요구에 대응할 수 있습니다.
+  - 이번 신제품 출시는 ESS의 에너지 저장 솔루션 포트폴리오를 확장하고 관련 시장에서의 입지를 강화할 것으로 기대됩니다.
+- 관련 기업: ESS
