@@ -1,0 +1,465 @@
+{
+  "date_range": "2026-07-16",
+  "items": [
+    {
+      "title": "The Science Behind Honda’s Solid-State Battery Breakthrough",
+      "published_at": "2026-07-16",
+      "source": "Top Speed",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85OEpyLXJoczZ1UG1UU1VLbnVZdmVGX2NOdGdnZkJGcXpDSDdVcHhYZkR5NjNMeXFXdnFzelNwbUFObEpXNV9MUHZYaUhVdkoyWVM3RFdtOG5lazZQUjljX2FiZE1KeDhMWGkzOFU4OEVqUml3YzZZ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE85OEpyLXJoczZ1UG1UU1VLbnVZdmVGX2NOdGdnZkJGcXpDSDdVcHhYZkR5NjNMeXFXdnFzelNwbUFObEpXNV9MUHZYaUhVdkoyWVM3RFdtOG5lazZQUjljX2FiZE1KeDhMWGkzOFU4OEVqUml3YzZZ?oc=5\" target=\"_blank\">The Science Behind Honda’s Solid-State Battery Breakthrough</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Top Speed</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "trending",
+      "battery_relevance": 95,
+      "monitoring_importance": 80,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "Honda"
+      ],
+      "summary_3_sentences": [
+        "Honda has achieved a breakthrough in solid-state battery technology.",
+        "This advancement is crucial for the future of electric vehicles, promising enhanced safety and performance.",
+        "The specific scientific principles behind this development are detailed in the article."
+      ]
+    },
+    {
+      "title": "'1.2조' 유증 막힌 에코프로비엠 \"축소 계획 없다\"",
+      "description": "2차전지 소재 분야 대표 기업인 에코프로비엠이 금융감독원으로부터 정정신고 요구를 받은 1조2000억 원 규모... 김장우 에코프로비엠 대표는 유상증자 추진 배경과 관련해 \"최근 고객사인 배터리 업체와 완성차 업체들이...",
+      "link": "https://biz.sbs.co.kr/article_hub/20000323078?division=NAVER",
+      "source": "biz.sbs.co.kr",
+      "published_at": "2026-07-16",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "EcoPro BM",
+        "에코프로비엠",
+        "2차전지"
+      ],
+      "summary_3_sentences": [
+        "EcoPro BM is facing a setback with its 1.2 trillion won capital increase, as the Financial Supervisory Service requested a revised filing.",
+        "Despite this, CEO Kim Jang-woo stated there are no plans to scale back the capital increase, emphasizing its importance for securing nickel supply chains.",
+        "The capital is intended to support partnerships with battery and automotive clients."
+      ]
+    },
+    {
+      "title": "에코프로, 1.2조 유상증자 글로벌 니켈 공급망 구축 ‘사활’",
+      "description": "에코프로비엠은 전고체 배터리의 핵심 소재로 불리는 고체 전해질에 관해 파일럿 라인 구축을 완료했다. 이어 이르면 2027년 시양산을 목표로 고객사와 협의 중이다. 여기에 LMR 양극재와 관련해 북미 OEM향으로 양산...",
+      "link": "https://www.ceoscoredaily.com/page/view/2026071614261419209",
+      "source": "www.ceoscoredaily.com",
+      "published_at": "2026-07-16",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "EcoPro BM",
+        "에코프로",
+        "LMR"
+      ],
+      "summary_3_sentences": [
+        "EcoPro BM has completed a pilot line for solid electrolyte, a key material for all-solid-state batteries.",
+        "The company aims for pilot production by 2027 and is in discussions with clients regarding mass production schedules.",
+        "Additionally, EcoPro BM is proceeding with the mass production of LMR cathode materials for North American OEMs."
+      ]
+    },
+    {
+      "title": "[현장] 에코프로비엠 대표 김장우 \"유상증자 핵심은 인니 니켈 확보, 원...",
+      "description": "에코프로비엠 관계자는 \"전고체 배터리용 고체 전해질은 4년 전부터 개발 시작해 현재 연간 40톤 규모의 샘플을 생산하고 있으며, 고객사와 양산 일정 조율 후 구체적 내용을 확정할 것\"이라며 \"동시에 전고체 배터리용...",
+      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=442546",
+      "source": "www.businesspost.co.kr",
+      "published_at": "2026-07-16",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "electrolyte",
+      "companies": [
+        "EcoPro BM",
+        "에코프로비엠"
+      ],
+      "summary_3_sentences": [
+        "EcoPro BM CEO Kim Jang-woo highlighted the importance of securing nickel in Indonesia through the capital increase.",
+        "He confirmed that the company has been developing solid electrolytes for all-solid-state batteries for four years and is currently producing 40 tons annually.",
+        "Mass production schedules are being coordinated with clients."
+      ]
+    },
+    {
+      "title": "에코프로비엠 \"빚 갚으려는 유증 아니다\"...주주 앞에서 미래 청사진 제...",
+      "description": "포항 공장 투자금 1500억원은 기존 하이니켈 생산라인을 고전압 미드니켈 제품 생산에 맞게 개조하고 전고체 배터리 소재 생산설비와 자동화 설비를 구축하는 데 사용할 전망이다. 현재 포항 공장의 가동률은 40% 안팎에...",
+      "link": "https://www.ajunews.com/view/20260716161512111",
+      "source": "www.ajunews.com",
+      "published_at": "2026-07-16",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "EcoPro BM",
+        "에코프로비엠"
+      ],
+      "summary_3_sentences": [
+        "EcoPro BM clarified that the capital increase is not for repaying debt but for future investments.",
+        "Funds will be used to upgrade existing high-nickel production lines to high-voltage mid-nickel products and establish facilities for solid-state battery materials and automation.",
+        "The current operating rate of the Pohang plant is around 40%."
+      ]
+    },
+    {
+      "title": "K-배터리 소재사 자금조달 '희비'···에코프로비엠 제동·엘앤에프 전...",
+      "description": "LFP 양산에 돌입할 예정이며 LS그룹과의 합작법인 LS-엘앤에프배터리솔루션(LLBS)을 통해 연간 4만톤 규모의 NCM 전구체 생산시설도 구축하고 있다. 또 LS그룹의 원료 조달 역량을 활용해 황산니켈부터 전구체, 양극재까지...",
+      "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=422499",
+      "source": "www.sisajournal-e.com",
+      "published_at": "2026-07-16",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "EcoPro BM",
+        "L&F",
+        "LS Group"
+      ],
+      "summary_3_sentences": [
+        "K-battery material companies are experiencing mixed fortunes in fundraising, with EcoPro BM facing hurdles while L&F secures funding.",
+        "L&F is preparing to mass-produce LFP and is building a 40,000-ton NCM precursor production facility through its joint venture LS-EcoPro Battery Solutions (LLBS) with LS Group.",
+        "The company is leveraging LS Group's raw material sourcing capabilities for its entire production chain from nickel sulfate to precursors and cathode materials."
+      ]
+    },
+    {
+      "title": "Mass Commissioning of 100-mt-Class All-Solid-State Battery Production Lines, 2027 Vehicle Installation Demonstration Becomes Industry Consensus [SMM Solid-State Battery Weekly Analysis]",
+      "published_at": "2026-07-16",
+      "source": "Shanghai Metals Market",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNLTYyUlJ3cDR1MjR1cUlsX0pDWDJULTlUT25aLVFjSWFZX1ByODI5MjZSMTZ3Y2V6SjBKQjBlV0owVG50ajVKaXJtNzJONFVYdk85bUZjMmc3dVI3TjY2VUc2TTM2a3IzeGUtczI0YURPbEJ0TjVTNnc0Yzc4clJvQkZEeHRrVUQwV0w5TkhDTUk0QXZ5RV9RRU5rRDFXTzdEeENyLVZKVTVYVkVodjFTWFk0UU5tVjU5OUVkWGFXV2NPdDlXLWpVOUNXNjFicm9NUks2dlNYai1PYk96XzJRcnRXN0JHUUlRTE51cWpxUUYzd1NDRmxadV9aZ24?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxNLTYyUlJ3cDR1MjR1cUlsX0pDWDJULTlUT25aLVFjSWFZX1ByODI5MjZSMTZ3Y2V6SjBKQjBlV0owVG50ajVKaXJtNzJONFVYdk85bUZjMmc3dVI3TjY2VUc2TTM2a3IzeGUtczI0YURPbEJ0TjVTNnc0Yzc4clJvQkZEeHRrVUQwV0w5TkhDTUk0QXZ5RV9RRU5rRDFXTzdEeENyLVZKVTVYVkVodjFTWFk0UU5tVjU5OUVkWGFXV2NPdDlXLWpVOUNXNjFicm9NUks2dlNYai1PYk96XzJRcnRXN0JHUUlRTE51cWpxUUYzd1NDRmxadV9aZ24?oc=5\" target=\"_blank\">Mass Commissioning of 100-mt-Class All-Solid-State Battery Production Lines, 2027 Vehicle Installation Demonstration Becomes Industry Consensus [SMM Solid-State Battery Weekly Analysis]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shanghai Metals Market</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "SMM"
+      ],
+      "summary_3_sentences": [
+        "100-metric-ton-class all-solid-state battery production lines are undergoing mass commissioning.",
+        "Industry consensus points towards demonstration of vehicle installation by 2027.",
+        "This marks a significant step towards the commercialization of solid-state battery technology."
+      ]
+    },
+    {
+      "title": "LG엔솔, 오창에 나트륨이온 배터리 마더 라인 구축",
+      "description": "중국 CATL이 올해 기가와트시(GWh)급 나트륨이온 배터리 생산을 앞둔 가운데 LG에너지솔루션도 독자 공법으로 에너지 밀도, 수명을 높인 제품으로 맞불을 놓는다. 16일 업계에 따르면 LG에너지솔루션은 오창...",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=59687",
+      "source": "www.thelec.kr",
+      "published_at": "2026-07-16",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 92,
+      "monitoring_importance": 92,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [
+        "LG Energy Solution",
+        "CATL",
+        "LG엔솔"
+      ],
+      "summary_3_sentences": [
+        "LG Energy Solution is establishing a mother line for sodium-ion batteries in Ochang.",
+        "This move comes as Chinese competitor CATL prepares for GWh-scale sodium-ion battery production this year.",
+        "LG Energy Solution aims to compete with improved energy density and lifespan through its proprietary technology."
+      ]
+    },
+    {
+      "title": "‘열폭주’ 막는 새 냉각 기술…안전성 높였다",
+      "description": "[앵커] 전기차나 대용량 에너지 저장장치, ESS에 쓰이는 리튬이온 배터리는 화재 위험 때문에 안전성 우려가 여전히 제기되는데요. 국내 연구진이 전기가 통하지 않으면서 불에 타지 않는 액체를 배터리에 직접 뿌려 열을...",
+      "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8613144&ref=A",
+      "source": "news.kbs.co.kr",
+      "published_at": "2026-07-16",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 92,
+      "monitoring_importance": 92,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "리튬이온"
+      ],
+      "summary_3_sentences": [
+        "Korean researchers have developed a new cooling technology to enhance the safety of lithium-ion batteries.",
+        "This technology involves directly spraying a non-conductive and non-flammable liquid onto the battery to dissipate heat.",
+        "It addresses the persistent safety concerns associated with electric vehicles and large-scale energy storage systems."
+      ]
+    },
+    {
+      "title": "California's first sodium-ion gigafactory sold out fast, with enough power for 4 million homes",
+      "published_at": "2026-07-16",
+      "source": "The Cool Down",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMkxmdy0xX19OSVJXWFJxTEJFSkNGX29Cc0g1VTFTTHlNLUN5Z1FIN3JBUzJWRkN5cWFDdGN6YnE1U2h2ZFNoMXVma3ptY2d0X05ha3lOMk03a1IwMFpwcm5aMG9TX2MzeXNyVGg0T2htb1ZweWNGVDFNTWVqVXlhTWlIc0pkRlFMazdmZjRsa09jVThW?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOMkxmdy0xX19OSVJXWFJxTEJFSkNGX29Cc0g1VTFTTHlNLUN5Z1FIN3JBUzJWRkN5cWFDdGN6YnE1U2h2ZFNoMXVma3ptY2d0X05ha3lOMk03a1IwMFpwcm5aMG9TX2MzeXNyVGg0T2htb1ZweWNGVDFNTWVqVXlhTWlIc0pkRlFMazdmZjRsa09jVThW?oc=5\" target=\"_blank\">California's first sodium-ion gigafactory sold out fast, with enough power for 4 million homes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Cool Down</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [],
+      "summary_3_sentences": [
+        "California's first sodium-ion battery gigafactory has reportedly sold out quickly.",
+        "The facility is capable of powering approximately 4 million homes.",
+        "This indicates strong market interest and demand for sodium-ion battery technology."
+      ]
+    },
+    {
+      "title": "포스코, 아르헨티나 리튬 ‘10만 톤’ 체제 대폭 확대… 기존 투자액 2배...",
+      "description": "하반기 2차전지 양극재의 핵심 원료인 탄산리튬과 수산화리튬의 글로벌 유통 주권을 완벽히 장악하겠다는 자원 영토 확장 전술이다. 7월 16일(현지시각) 아르헨티나 살타(Salta) 주정부 공식 발표와 글로벌 배터리 원자재...",
+      "link": "https://www.g-enews.com/view.php?ud=2026071708190736740c8c1c064d_1",
+      "source": "www.g-enews.com",
+      "published_at": "2026-07-17",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 92,
+      "monitoring_importance": 92,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "POSCO",
+        "포스코",
+        "2차전지"
+      ],
+      "summary_3_sentences": [
+        "POSCO is significantly expanding its lithium production capacity in Argentina to 100,000 tons, doubling its previous investment.",
+        "This strategic move aims to secure global distribution rights for lithium carbonate and lithium hydroxide, key raw materials for secondary battery cathodes, in the second half of the year.",
+        "The announcement was made by the Salta provincial government and global battery raw material stakeholders."
+      ]
+    },
+    {
+      "title": "[주목 e-광물] 하얀 석유 '리튬'…\"글로벌 패권 경쟁 속 韓·포스코 전략...",
+      "description": "현재는 리튬 이온 배터리의 성능 한계를 넘기 위해 전고체 배터리, 리튬-황, 리튬-공기 등 차세대 기술 연구가 치열하게 진행 중이다. 돌 속에서 발견된 작은 원소가 인류의 에너지 시스템을 바꾸는 데까지 걸린 시간은...",
+      "link": "http://www.economytalk.kr/news/articleView.html?idxno=422807",
+      "source": "www.economytalk.kr",
+      "published_at": "2026-07-17",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 92,
+      "monitoring_importance": 92,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "POSCO",
+        "포스코"
+      ],
+      "summary_3_sentences": [
+        "The global race for lithium, dubbed 'white oil', is intensifying, with South Korea and POSCO implementing strategic measures.",
+        "Current research is focused on next-generation battery technologies like solid-state, lithium-sulfur, and lithium-air batteries to overcome the limitations of lithium-ion batteries.",
+        "These advancements aim to revolutionize the energy system, building upon the discovery of fundamental elements."
+      ]
+    },
+    {
+      "title": "나트륨 배터리 시장, 2035년까지 18억4600만 달러 규모 성장 전망",
+      "description": "시장조사기관 커스텀 마켓 인사이트 데이터 2035년까지 18억 4600만 달러 규모로 성장…연평균 성장률 11.8% 나트륨 이온 배터리(SIB) 시장이 리튬 대비 저렴한 원가와 공급 안정성을 바탕으로 성장세를 이어간다. 가격...",
+      "link": "https://www.theguru.co.kr/news/article.html?no=104360",
+      "source": "www.theguru.co.kr",
+      "published_at": "2026-07-17",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 92,
+      "monitoring_importance": 92,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [
+        "SIB"
+      ],
+      "summary_3_sentences": [
+        "The sodium-ion battery market is projected to reach $1.846 billion by 2035, with an average annual growth rate of 11.8%.",
+        "This growth is driven by the lower cost and stable supply of sodium compared to lithium.",
+        "The market is expected to continue its upward trend based on these advantages."
+      ]
+    },
+    {
+      "title": "Forge Nano to Host Groundbreaking Event for North Carolina Lithium-Ion Battery Manufacturing Facility Expansion on August 19th",
+      "published_at": "2026-07-16",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTlU0bUtSSklYa1dWNTQwenJZNVJzOVh5c1NOZjRoVl9Qc0xtVW5VM29sWUI3YnpIYnhxT2JGLXRLRG5UNEstRHFMRVh3am85RVh6OGZpdnNOWTRIN19xQ002NFdWQ0JlSlFfVlVNWEY3WEhFRTRUMTkwb1EyNmhvb18zeXBaaThUWGNHVTJQcGdzSC1pSWx6eQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNTlU0bUtSSklYa1dWNTQwenJZNVJzOVh5c1NOZjRoVl9Qc0xtVW5VM29sWUI3YnpIYnhxT2JGLXRLRG5UNEstRHFMRVh3am85RVh6OGZpdnNOWTRIN19xQ002NFdWQ0JlSlFfVlVNWEY3WEhFRTRUMTkwb1EyNmhvb18zeXBaaThUWGNHVTJQcGdzSC1pSWx6eQ?oc=5\" target=\"_blank\">Forge Nano to Host Groundbreaking Event for North Carolina Lithium-Ion Battery Manufacturing Facility Expansion on August 19th</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 80,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "Forge Nano"
+      ],
+      "summary_3_sentences": [
+        "Forge Nano will host a groundbreaking event for the expansion of its North Carolina lithium-ion battery manufacturing facility on August 19th.",
+        "This expansion signifies a commitment to increasing production capacity for lithium-ion batteries.",
+        "The event marks a significant milestone in the company's growth strategy."
+      ]
+    },
+    {
+      "title": "Chinese scientists built a gel electrolyte for solid-state batteries that solves the one flaw holding electric cars back",
+      "published_at": "2026-07-16",
+      "source": "OkDiario",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNV21hS2hqVnNOamFVQ0dsSWVJSmRoZElkaE1yTXc0Q0FVWjRKcWtSQ3FKRkp5dlFwQzJYSnVlTlBiZGtjd1UzWkxNUlRSSnNjcHpOVW12OVYwOEpiYWZEZWxSRmhqRVltMDBLOVBHOFZMYUd1X00tNmFKTWV4Q29leEFVZzN4M2Y3dWFYUHZLaWxPT0Z0cXZySmMxYW1NbE9qMENNbEtiUlB2eUkzZlpNdzg4Wk1BUmVXR2xKZFJaQVEtZDlFdll4U3EzMjFaVWJGaXhqVDMyS2ZvSjRoQXZDaXpoWTBrTWoxUnhaQQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxNV21hS2hqVnNOamFVQ0dsSWVJSmRoZElkaE1yTXc0Q0FVWjRKcWtSQ3FKRkp5dlFwQzJYSnVlTlBiZGtjd1UzWkxNUlRSSnNjcHpOVW12OVYwOEpiYWZEZWxSRmhqRVltMDBLOVBHOFZMYUd1X00tNmFKTWV4Q29leEFVZzN4M2Y3dWFYUHZLaWxPT0Z0cXZySmMxYW1NbE9qMENNbEtiUlB2eUkzZlpNdzg4Wk1BUmVXR2xKZFJaQVEtZDlFdll4U3EzMjFaVWJGaXhqVDMyS2ZvSjRoQXZDaXpoWTBrTWoxUnhaQQ?oc=5\" target=\"_blank\">Chinese scientists built a gel electrolyte for solid-state batteries that solves the one flaw holding electric cars back</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OkDiario</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 80,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "electrolyte",
+      "companies": [],
+      "summary_3_sentences": [
+        "Chinese scientists have developed a gel electrolyte for solid-state batteries that addresses a key limitation for electric cars.",
+        "This innovation aims to overcome the challenges that have hindered the widespread adoption of solid-state batteries.",
+        "The new electrolyte could significantly improve the performance and practicality of electric vehicles."
+      ]
+    },
+    {
+      "title": "Factorial Energy Eyes Solid-State Battery Scale-Up After Nasdaq Debut",
+      "published_at": "2026-07-16",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTVJdkdkVkIxdFUzMVJTMVdOc3Z2eWJFemVPYm02QW1oMkZQX243STZSaDljcTVfeUtyMkUxOUhnVHdpLUZyd1RKQ2daWHdyYmpJOFNjY01SSnJzbXpHd3VYckZneExrbFgyY0JFS1hNUi1HT292MVdIclBoVnpaNjFTUGJLNFFWVlJrYmNNNTBHS1A4WDRlVC1B?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTVJdkdkVkIxdFUzMVJTMVdOc3Z2eWJFemVPYm02QW1oMkZQX243STZSaDljcTVfeUtyMkUxOUhnVHdpLUZyd1RKQ2daWHdyYmpJOFNjY01SSnJzbXpHd3VYckZneExrbFgyY0JFS1hNUi1HT292MVdIclBoVnpaNjFTUGJLNFFWVlJrYmNNNTBHS1A4WDRlVC1B?oc=5\" target=\"_blank\">Factorial Energy Eyes Solid-State Battery Scale-Up After Nasdaq Debut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "provider": "google",
+      "related_links": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSWtEYzdmT3NGN1l1am96MjJ4ZVRMQVl4UFlFT3lQYzEtRUtaM2dQX0V6ajYwU1hpR2NxQndoVmg2UVhYYV9XcktEYjh5Z01ZZy1nNEN3c1VuSDJLNURacXNGbVlCUzZUUHR5MXd2NVVWdlk5YjY2cFhpTllBd203ZFpUUjE5QW5zUnZmOTk3eXR3TnRuMGIzUXB0SUlOOEtjZFpFX1NLdFFKVDdITjQtaldqNEwzZURoUnpUYlFLZko?oc=5"
+      ],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 80,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "Factorial Energy"
+      ],
+      "summary_3_sentences": [
+        "Factorial Energy is preparing for the scale-up of its solid-state battery production following its Nasdaq debut.",
+        "The company's validated solid-state battery technology is expected to drive scalable growth.",
+        "This move positions Factorial Energy to capitalize on the growing demand for advanced battery solutions."
+      ]
+    },
+    {
+      "title": "Sodium-ion battery maker takes aim at lithium's grip on US storage",
+      "published_at": "2026-07-16",
+      "source": "Recharge News",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPelpBRjV4SGktY1FWTlVTRWI4azVfLTVjcEpfcUhnNjNkaklnblpqRVdzSUtqRjE5SC1xT1R2VkNRSjdoT1huSGhnSUhacWprR1BVRWYwbzBScWtpUVNVQzYyRG5PTjRJeGhVVFE5YTRiUVIyU2JRaW5JZDZvbS16c2thNG1ZdVE0aURZWHFnWElfTWxVUG5pZW1MM2ZfdGFPc1gtbV9pVnBfU1lqN2Zxb1lFMVpudXNSb0JZM0NR?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPelpBRjV4SGktY1FWTlVTRWI4azVfLTVjcEpfcUhnNjNkaklnblpqRVdzSUtqRjE5SC1xT1R2VkNRSjdoT1huSGhnSUhacWprR1BVRWYwbzBScWtpUVNVQzYyRG5PTjRJeGhVVFE5YTRiUVIyU2JRaW5JZDZvbS16c2thNG1ZdVE0aURZWHFnWElfTWxVUG5pZW1MM2ZfdGFPc1gtbV9pVnBfU1lqN2Zxb1lFMVpudXNSb0JZM0NR?oc=5\" target=\"_blank\">Sodium-ion battery maker takes aim at lithium's grip on US storage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Recharge News</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 80,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "나트륨",
+      "companies": [
+        "US"
+      ],
+      "summary_3_sentences": [
+        "A sodium-ion battery maker is challenging lithium's dominance in the US energy storage market.",
+        "This company aims to provide a competitive alternative to lithium-based solutions.",
+        "The growing interest in sodium-ion batteries suggests a potential shift in the energy storage landscape."
+      ]
+    },
+    {
+      "title": "FAC: Capital-light strategy and validated solid-state battery tech drive scalable growth",
+      "published_at": "2026-07-16",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOdnZLdzdVdC1BQV9YTkdNdUhNZlZhNnNSN25xR0Jka3BmZWpGQVJxbVZ2SHdBVEl2NFlCa3NhVWpDcWJpa2RNSFV6X0lac1A0bHFkRWJiN3pFTUZ1MGx4NDJQVU12TmZnSmVMU0t5d2FTVHFRdUdfTC03Mk5CeF84SFlxbE1KS2pyT2F1dlZKeDRMUGVaOHdHSV9rZkU4UE5FdDMtQ1RMR3BMMnRQdG5wYWUtc1VHdVVlUGRLUmhxVU1xVXlkekE4OXRWcEhCTDdHdXNrRS12N2dNZFFUYXMwZ0xOYkhxRkdzMkpTTTZiZGdpQjdJajl0WGxWYWtfMTRGZ3RSVg?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxOdnZLdzdVdC1BQV9YTkdNdUhNZlZhNnNSN25xR0Jka3BmZWpGQVJxbVZ2SHdBVEl2NFlCa3NhVWpDcWJpa2RNSFV6X0lac1A0bHFkRWJiN3pFTUZ1MGx4NDJQVU12TmZnSmVMU0t5d2FTVHFRdUdfTC03Mk5CeF84SFlxbE1KS2pyT2F1dlZKeDRMUGVaOHdHSV9rZkU4UE5FdDMtQ1RMR3BMMnRQdG5wYWUtc1VHdVVlUGRLUmhxVU1xVXlkekE4OXRWcEhCTDdHdXNrRS12N2dNZFFUYXMwZ0xOYkhxRkdzMkpTTTZiZGdpQjdJajl0WGxWYWtfMTRGZ3RSVg?oc=5\" target=\"_blank\">FAC: Capital-light strategy and validated solid-state battery tech drive scalable growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 80,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "Factorial Energy",
+        "FAC"
+      ],
+      "summary_3_sentences": [
+        "Factorial Energy's capital-light strategy and validated solid-state battery technology are driving scalable growth.",
+        "The company's approach focuses on efficient expansion and leveraging proven technology.",
+        "This strategy is designed to ensure sustainable growth in the competitive battery market."
+      ]
+    },
+    {
+      "title": "Japan Hits 90% Lithium Recovery From Dead EV Batteries",
+      "published_at": "2026-07-16",
+      "source": "Yahoo Tech",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPekxHZWZFQ2JINERiNTJ6bTJPMkNaNlN3NzhfTnJSaHdNdFpoenNWQW8tSjZGWTl0ZFk0N3ZqUnloMXlfS2tlTjVSY3lWR1ZNcjVjWEQwUm5mc2hWY2dRSlhob1dOSWM0VUFCdFktaGptNkdidVhzcHNhemFGVW1DcDh1bE9qR1lyVVJyYXNB?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPekxHZWZFQ2JINERiNTJ6bTJPMkNaNlN3NzhfTnJSaHdNdFpoenNWQW8tSjZGWTl0ZFk0N3ZqUnloMXlfS2tlTjVSY3lWR1ZNcjVjWEQwUm5mc2hWY2dRSlhob1dOSWM0VUFCdFktaGptNkdidVhzcHNhemFGVW1DcDh1bE9qR1lyVVJyYXNB?oc=5\" target=\"_blank\">Japan Hits 90% Lithium Recovery From Dead EV Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Tech</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 80,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "기타",
+      "companies": [],
+      "summary_3_sentences": [
+        "Japan has achieved a remarkable 90% lithium recovery rate from spent electric vehicle batteries.",
+        "This high recovery rate is a significant advancement in battery recycling and resource management.",
+        "It demonstrates Japan's commitment to sustainable practices in the electric vehicle industry."
+      ]
+    },
+    {
+      "title": "Stryten Energy Acquisition to Expand Global Battery Manufacturing",
+      "published_at": "2026-07-16",
+      "source": "AftermarketNews",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPc1RYOUNaakt6NXRvekRiQ04yZG5taFE5SXhKaHV4SFA0emxqbkd6Sjd4VjFnTWFJbnV4N1VlRlN0SURXTDJoOG1SaDNHS0RoczVNaDhjUF92X19QOU5GQV9uYlphQ2dVVUtjc21rY3VaQjBON3dHTENSQWs0SWpzU3A4bXJNLUotZFlLdHd3?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPc1RYOUNaakt6NXRvekRiQ04yZG5taFE5SXhKaHV4SFA0emxqbkd6Sjd4VjFnTWFJbnV4N1VlRlN0SURXTDJoOG1SaDNHS0RoczVNaDhjUF92X19QOU5GQV9uYlphQ2dVVUtjc21rY3VaQjBON3dHTENSQWs0SWpzU3A4bXJNLUotZFlLdHd3?oc=5\" target=\"_blank\">Stryten Energy Acquisition to Expand Global Battery Manufacturing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AftermarketNews</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 80,
+      "monitor_score": 90,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "Stryten Energy"
+      ],
+      "summary_3_sentences": [
+        "The acquisition of Stryten Energy is expected to expand global battery manufacturing capabilities.",
+        "This strategic move aims to enhance the company's presence and production capacity in the international market.",
+        "The acquisition signifies a significant step towards global growth in the battery sector."
+      ]
+    }
+  ]
+}

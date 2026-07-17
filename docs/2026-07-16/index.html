@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-07-16</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-07-16 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMid0FVX3lxTE85OEpyLXJoczZ1UG1UU1VLbnVZdmVGX2NOdGdnZkJGcXpDSDdVcHhYZkR5NjNMeXFXdnFzelNwbUFObEpXNV9MUHZYaUhVdkoyWVM3RFdtOG5lazZQUjljX2FiZE1KeDhMWGkzOFU4OEVqUml3YzZZ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">The Science Behind Honda’s Solid-State Battery Breakthrough</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Top Speed</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Honda</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Honda has achieved a breakthrough in solid-state battery technology.</li><li>This advancement is crucial for the future of electric vehicles, promising enhanced safety and performance.</li><li>The specific scientific principles behind this development are detailed in the article.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://biz.sbs.co.kr/article_hub/20000323078?division=NAVER" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&#x27;1.2조&#x27; 유증 막힌 에코프로비엠 &quot;축소 계획 없다&quot;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">biz.sbs.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">EcoPro BM</span><span class="chip">에코프로비엠</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>EcoPro BM is facing a setback with its 1.2 trillion won capital increase, as the Financial Supervisory Service requested a revised filing.</li><li>Despite this, CEO Kim Jang-woo stated there are no plans to scale back the capital increase, emphasizing its importance for securing nickel supply chains.</li><li>The capital is intended to support partnerships with battery and automotive clients.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.ceoscoredaily.com/page/view/2026071614261419209" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">에코프로, 1.2조 유상증자 글로벌 니켈 공급망 구축 ‘사활’</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.ceoscoredaily.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">EcoPro BM</span><span class="chip">에코프로</span><span class="chip">LMR</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>EcoPro BM has completed a pilot line for solid electrolyte, a key material for all-solid-state batteries.</li><li>The company aims for pilot production by 2027 and is in discussions with clients regarding mass production schedules.</li><li>Additionally, EcoPro BM is proceeding with the mass production of LMR cathode materials for North American OEMs.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://www.businesspost.co.kr/BP?command=article_view&amp;num=442546" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[현장] 에코프로비엠 대표 김장우 &quot;유상증자 핵심은 인니 니켈 확보, 원...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.businesspost.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">EcoPro BM</span><span class="chip">에코프로비엠</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>EcoPro BM CEO Kim Jang-woo highlighted the importance of securing nickel in Indonesia through the capital increase.</li><li>He confirmed that the company has been developing solid electrolytes for all-solid-state batteries for four years and is currently producing 40 tons annually.</li><li>Mass production schedules are being coordinated with clients.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.ajunews.com/view/20260716161512111" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">에코프로비엠 &quot;빚 갚으려는 유증 아니다&quot;...주주 앞에서 미래 청사진 제...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.ajunews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">EcoPro BM</span><span class="chip">에코프로비엠</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>EcoPro BM clarified that the capital increase is not for repaying debt but for future investments.</li><li>Funds will be used to upgrade existing high-nickel production lines to high-voltage mid-nickel products and establish facilities for solid-state battery materials and automation.</li><li>The current operating rate of the Pohang plant is around 40%.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.sisajournal-e.com/news/articleView.html?idxno=422499" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">K-배터리 소재사 자금조달 &#x27;희비&#x27;···에코프로비엠 제동·엘앤에프 전...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.sisajournal-e.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">EcoPro BM</span><span class="chip">L&amp;F</span><span class="chip">LS Group</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>K-battery material companies are experiencing mixed fortunes in fundraising, with EcoPro BM facing hurdles while L&amp;F secures funding.</li><li>L&amp;F is preparing to mass-produce LFP and is building a 40,000-ton NCM precursor production facility through its joint venture LS-EcoPro Battery Solutions (LLBS) with LS Group.</li><li>The company is leveraging LS Group&#x27;s raw material sourcing capabilities for its entire production chain from nickel sulfate to precursors and cathode materials.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMi_AFBVV95cUxNLTYyUlJ3cDR1MjR1cUlsX0pDWDJULTlUT25aLVFjSWFZX1ByODI5MjZSMTZ3Y2V6SjBKQjBlV0owVG50ajVKaXJtNzJONFVYdk85bUZjMmc3dVI3TjY2VUc2TTM2a3IzeGUtczI0YURPbEJ0TjVTNnc0Yzc4clJvQkZEeHRrVUQwV0w5TkhDTUk0QXZ5RV9RRU5rRDFXTzdEeENyLVZKVTVYVkVodjFTWFk0UU5tVjU5OUVkWGFXV2NPdDlXLWpVOUNXNjFicm9NUks2dlNYai1PYk96XzJRcnRXN0JHUUlRTE51cWpxUUYzd1NDRmxadV9aZ24?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Mass Commissioning of 100-mt-Class All-Solid-State Battery Production Lines, 2027 Vehicle Installation Demonstration Becomes Industry Consensus [SMM Solid-State Battery Weekly Analysis]</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Shanghai Metals Market</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SMM</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>100-metric-ton-class all-solid-state battery production lines are undergoing mass commissioning.</li><li>Industry consensus points towards demonstration of vehicle installation by 2027.</li><li>This marks a significant step towards the commercialization of solid-state battery technology.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://www.thelec.kr/news/articleView.html?idxno=59687" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG엔솔, 오창에 나트륨이온 배터리 마더 라인 구축</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.thelec.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG Energy Solution</span><span class="chip">CATL</span><span class="chip">LG엔솔</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG Energy Solution is establishing a mother line for sodium-ion batteries in Ochang.</li><li>This move comes as Chinese competitor CATL prepares for GWh-scale sodium-ion battery production this year.</li><li>LG Energy Solution aims to compete with improved energy density and lifespan through its proprietary technology.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.kbs.co.kr/news/pc/view/view.do?ncd=8613144&amp;ref=A" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">‘열폭주’ 막는 새 냉각 기술…안전성 높였다</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">news.kbs.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">리튬이온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Korean researchers have developed a new cooling technology to enhance the safety of lithium-ion batteries.</li><li>This technology involves directly spraying a non-conductive and non-flammable liquid onto the battery to dissipate heat.</li><li>It addresses the persistent safety concerns associated with electric vehicles and large-scale energy storage systems.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMilAFBVV95cUxOMkxmdy0xX19OSVJXWFJxTEJFSkNGX29Cc0g1VTFTTHlNLUN5Z1FIN3JBUzJWRkN5cWFDdGN6YnE1U2h2ZFNoMXVma3ptY2d0X05ha3lOMk03a1IwMFpwcm5aMG9TX2MzeXNyVGg0T2htb1ZweWNGVDFNTWVqVXlhTWlIc0pkRlFMazdmZjRsa09jVThW?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">California&#x27;s first sodium-ion gigafactory sold out fast, with enough power for 4 million homes</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">The Cool Down</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>California&#x27;s first sodium-ion battery gigafactory has reportedly sold out quickly.</li><li>The facility is capable of powering approximately 4 million homes.</li><li>This indicates strong market interest and demand for sodium-ion battery technology.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.g-enews.com/view.php?ud=2026071708190736740c8c1c064d_1" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">포스코, 아르헨티나 리튬 ‘10만 톤’ 체제 대폭 확대… 기존 투자액 2배...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.g-enews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">POSCO</span><span class="chip">포스코</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>POSCO is significantly expanding its lithium production capacity in Argentina to 100,000 tons, doubling its previous investment.</li><li>This strategic move aims to secure global distribution rights for lithium carbonate and lithium hydroxide, key raw materials for secondary battery cathodes, in the second half of the year.</li><li>The announcement was made by the Salta provincial government and global battery raw material stakeholders.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-17</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="http://www.economytalk.kr/news/articleView.html?idxno=422807" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[주목 e-광물] 하얀 석유 &#x27;리튬&#x27;…&quot;글로벌 패권 경쟁 속 韓·포스코 전략...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.economytalk.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">POSCO</span><span class="chip">포스코</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The global race for lithium, dubbed &#x27;white oil&#x27;, is intensifying, with South Korea and POSCO implementing strategic measures.</li><li>Current research is focused on next-generation battery technologies like solid-state, lithium-sulfur, and lithium-air batteries to overcome the limitations of lithium-ion batteries.</li><li>These advancements aim to revolutionize the energy system, building upon the discovery of fundamental elements.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-17</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://www.theguru.co.kr/news/article.html?no=104360" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">나트륨 배터리 시장, 2035년까지 18억4600만 달러 규모 성장 전망</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.theguru.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SIB</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The sodium-ion battery market is projected to reach $1.846 billion by 2035, with an average annual growth rate of 11.8%.</li><li>This growth is driven by the lower cost and stable supply of sodium compared to lithium.</li><li>The market is expected to continue its upward trend based on these advantages.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-17</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNTlU0bUtSSklYa1dWNTQwenJZNVJzOVh5c1NOZjRoVl9Qc0xtVW5VM29sWUI3YnpIYnhxT2JGLXRLRG5UNEstRHFMRVh3am85RVh6OGZpdnNOWTRIN19xQ002NFdWQ0JlSlFfVlVNWEY3WEhFRTRUMTkwb1EyNmhvb18zeXBaaThUWGNHVTJQcGdzSC1pSWx6eQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Forge Nano to Host Groundbreaking Event for North Carolina Lithium-Ion Battery Manufacturing Facility Expansion on August 19th</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Yahoo Finance</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Forge Nano</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Forge Nano will host a groundbreaking event for the expansion of its North Carolina lithium-ion battery manufacturing facility on August 19th.</li><li>This expansion signifies a commitment to increasing production capacity for lithium-ion batteries.</li><li>The event marks a significant milestone in the company&#x27;s growth strategy.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxNV21hS2hqVnNOamFVQ0dsSWVJSmRoZElkaE1yTXc0Q0FVWjRKcWtSQ3FKRkp5dlFwQzJYSnVlTlBiZGtjd1UzWkxNUlRSSnNjcHpOVW12OVYwOEpiYWZEZWxSRmhqRVltMDBLOVBHOFZMYUd1X00tNmFKTWV4Q29leEFVZzN4M2Y3dWFYUHZLaWxPT0Z0cXZySmMxYW1NbE9qMENNbEtiUlB2eUkzZlpNdzg4Wk1BUmVXR2xKZFJaQVEtZDlFdll4U3EzMjFaVWJGaXhqVDMyS2ZvSjRoQXZDaXpoWTBrTWoxUnhaQQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">15</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Chinese scientists built a gel electrolyte for solid-state batteries that solves the one flaw holding electric cars back</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">OkDiario</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Chinese scientists have developed a gel electrolyte for solid-state batteries that addresses a key limitation for electric cars.</li><li>This innovation aims to overcome the challenges that have hindered the widespread adoption of solid-state batteries.</li><li>The new electrolyte could significantly improve the performance and practicality of electric vehicles.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTVJdkdkVkIxdFUzMVJTMVdOc3Z2eWJFemVPYm02QW1oMkZQX243STZSaDljcTVfeUtyMkUxOUhnVHdpLUZyd1RKQ2daWHdyYmpJOFNjY01SSnJzbXpHd3VYckZneExrbFgyY0JFS1hNUi1HT292MVdIclBoVnpaNjFTUGJLNFFWVlJrYmNNNTBHS1A4WDRlVC1B?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">16</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Factorial Energy Eyes Solid-State Battery Scale-Up After Nasdaq Debut</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Yahoo Finance</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Factorial Energy</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Factorial Energy is preparing for the scale-up of its solid-state battery production following its Nasdaq debut.</li><li>The company&#x27;s validated solid-state battery technology is expected to drive scalable growth.</li><li>This move positions Factorial Energy to capitalize on the growing demand for advanced battery solutions.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPelpBRjV4SGktY1FWTlVTRWI4azVfLTVjcEpfcUhnNjNkaklnblpqRVdzSUtqRjE5SC1xT1R2VkNRSjdoT1huSGhnSUhacWprR1BVRWYwbzBScWtpUVNVQzYyRG5PTjRJeGhVVFE5YTRiUVIyU2JRaW5JZDZvbS16c2thNG1ZdVE0aURZWHFnWElfTWxVUG5pZW1MM2ZfdGFPc1gtbV9pVnBfU1lqN2Zxb1lFMVpudXNSb0JZM0NR?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">17</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Sodium-ion battery maker takes aim at lithium&#x27;s grip on US storage</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Recharge News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">US</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>A sodium-ion battery maker is challenging lithium&#x27;s dominance in the US energy storage market.</li><li>This company aims to provide a competitive alternative to lithium-based solutions.</li><li>The growing interest in sodium-ion batteries suggests a potential shift in the energy storage landscape.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMihAJBVV95cUxOdnZLdzdVdC1BQV9YTkdNdUhNZlZhNnNSN25xR0Jka3BmZWpGQVJxbVZ2SHdBVEl2NFlCa3NhVWpDcWJpa2RNSFV6X0lac1A0bHFkRWJiN3pFTUZ1MGx4NDJQVU12TmZnSmVMU0t5d2FTVHFRdUdfTC03Mk5CeF84SFlxbE1KS2pyT2F1dlZKeDRMUGVaOHdHSV9rZkU4UE5FdDMtQ1RMR3BMMnRQdG5wYWUtc1VHdVVlUGRLUmhxVU1xVXlkekE4OXRWcEhCTDdHdXNrRS12N2dNZFFUYXMwZ0xOYkhxRkdzMkpTTTZiZGdpQjdJajl0WGxWYWtfMTRGZ3RSVg?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">18</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">FAC: Capital-light strategy and validated solid-state battery tech drive scalable growth</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">TradingView</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Factorial Energy</span><span class="chip">FAC</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Factorial Energy&#x27;s capital-light strategy and validated solid-state battery technology are driving scalable growth.</li><li>The company&#x27;s approach focuses on efficient expansion and leveraging proven technology.</li><li>This strategy is designed to ensure sustainable growth in the competitive battery market.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPekxHZWZFQ2JINERiNTJ6bTJPMkNaNlN3NzhfTnJSaHdNdFpoenNWQW8tSjZGWTl0ZFk0N3ZqUnloMXlfS2tlTjVSY3lWR1ZNcjVjWEQwUm5mc2hWY2dRSlhob1dOSWM0VUFCdFktaGptNkdidVhzcHNhemFGVW1DcDh1bE9qR1lyVVJyYXNB?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">19</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Japan Hits 90% Lithium Recovery From Dead EV Batteries</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Yahoo Tech</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Japan has achieved a remarkable 90% lithium recovery rate from spent electric vehicle batteries.</li><li>This high recovery rate is a significant advancement in battery recycling and resource management.</li><li>It demonstrates Japan&#x27;s commitment to sustainable practices in the electric vehicle industry.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPc1RYOUNaakt6NXRvekRiQ04yZG5taFE5SXhKaHV4SFA0emxqbkd6Sjd4VjFnTWFJbnV4N1VlRlN0SURXTDJoOG1SaDNHS0RoczVNaDhjUF92X19QOU5GQV9uYlphQ2dVVUtjc21rY3VaQjBON3dHTENSQWs0SWpzU3A4bXJNLUotZFlLdHd3?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">20</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Stryten Energy Acquisition to Expand Global Battery Manufacturing</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">AftermarketNews</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Stryten Energy</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The acquisition of Stryten Energy is expected to expand global battery manufacturing capabilities.</li><li>This strategic move aims to enhance the company&#x27;s presence and production capacity in the international market.</li><li>The acquisition signifies a significant step towards global growth in the battery sector.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-16</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
