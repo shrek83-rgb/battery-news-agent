@@ -24,6 +24,39 @@
     "uid": "89213a16cac0148d7f03122eaceafb3dbcaa1264"
   },
   {
+    "title": "KAIST, 머리카락 1만분의 1 두께까지 잡아내는 배터리 검사기술 개발",
+    "description": "향후에는 리튬이온배터리뿐 아니라 액체 전해질 대신 고체 전해질을 쓰는 차세대 전고체 배터리 생산 과정에서도 불량을 조기에 발견해 안전성과 품질을 높이는 핵심 기술로 활용될 것으로 기대된다. 김영진 교수는...",
+    "link": "http://www.worktoday.co.kr/news/articleView.html?idxno=87065",
+    "source": "www.worktoday.co.kr",
+    "published_at": "2026-07-23",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.safetimes.co.kr",
+        "link": "https://www.safetimes.co.kr/news/articleView.html?idxno=244434"
+      },
+      {
+        "source": "tjmbc.co.kr",
+        "link": "https://tjmbc.co.kr/NewsArticle/852630"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "KAIST",
+      "리튬이온배터리"
+    ],
+    "summary_3_sentences": [
+      "KAIST가 머리카락 1만분의 1 두께까지 잡아내는 배터리 검사 기술을 개발했습니다.",
+      "이 기술은 리튬이온배터리뿐 아니라 차세대 전고체 배터리 생산 과정에서도 불량을 조기에 발견하여 안전성과 품질을 높일 것으로 기대됩니다.",
+      "김영진 교수가 이끄는 연구팀의 성과입니다."
+    ],
+    "uid": "7eb43c7cac0f50216de89393c93e8e62db1c7aed"
+  },
+  {
     "title": "\"전기차 화재·폭발 걱정 그만\"…KAIST, 배터리 불량 초정밀 검사기술 개...",
     "description": "테라헤르츠파·광주파수빗 결합해 전극 분해 없이 두께와 소재 특성 동시 측정 0.2초 검사로 생산라인 적용 가능…리튬이온·전고체 배터리 품질관리 기대 연구 이미지 (AI 생성) 전기차 화재나 폭발의 원인이 될 수 있는...",
     "link": "http://www.tjb.co.kr/sub0301/bodo/view/id/101351",
@@ -233,6 +266,240 @@
       "이 기술은 배터리 안전성을 높이고 생산 공정의 효율성을 개선하는 데 기여할 것으로 예상됩니다."
     ],
     "uid": "c9c76ed907643d29364bda82937d95ba30b3b206"
+  },
+  {
+    "title": "Japan's 90% Lithium Recovery: The Battery-Recycling Chemistry Trick Explained",
+    "published_at": "2026-07-23",
+    "source": "Yahoo Autos",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQzNQSkZMVGJKUm1QSlJ3YlhqMDlETk4xUzFDcjgtZWlzWUNRRmNGRWJkYzVlaUEtNFQ1bzJzZmY5Sk9JazI2cjQxQ3JMZU9zWUR5ajV0MUZNZDhfdDlKSnl0d1A0MXlwMVFXMVA1SXF5ZGxDMl9tWW5rQlVmRkU4UWN6eERqNkZHSU1PTXVhdGp5SDdEUldKNk9ZMFFSS19hYTMw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQQzNQSkZMVGJKUm1QSlJ3YlhqMDlETk4xUzFDcjgtZWlzWUNRRmNGRWJkYzVlaUEtNFQ1bzJzZmY5Sk9JazI2cjQxQ3JMZU9zWUR5ajV0MUZNZDhfdDlKSnl0d1A0MXlwMVFXMVA1SXF5ZGxDMl9tWW5rQlVmRkU4UWN6eERqNkZHSU1PTXVhdGp5SDdEUldKNk9ZMFFSS19hYTMw?oc=5\" target=\"_blank\">Japan's 90% Lithium Recovery: The Battery-Recycling Chemistry Trick Explained</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Autos</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "일본은 배터리 재활용 화학 기술을 통해 리튬 회수율 90%를 달성했습니다.",
+      "이는 폐배터리에서 귀중한 자원을 효율적으로 회수하는 기술의 중요성을 강조합니다.",
+      "이러한 기술은 지속 가능한 배터리 산업 생태계 구축에 기여할 것입니다."
+    ],
+    "uid": "b74280549e2275ed0282b2c79adef9828af5c736"
+  },
+  {
+    "title": "【SMM analysis】 2026 H1 Lithium Battery Black Mass Market Report",
+    "published_at": "2026-07-23",
+    "source": "Shanghai Metals Market",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcVB6TENFazRoZWo0WElSZC1LWkVuV0lSS0NvdHJJemE0eFE4bEhhd3QxdWpqaFBjc0x3TWtwVHBWSV9sdk54cjV5QjhYNU4yTDc2TktLSktidUltLTBBZUJIWjBTekJpWTF1blpnSGRVeUpQTDVYVGxvLU1iX3dXbU5KQTZoTk9KaDRIZkpZY3Bob01yR2FMWWxMZFdXWHFSaEJtWnhhZURwN2JnQkE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNcVB6TENFazRoZWo0WElSZC1LWkVuV0lSS0NvdHJJemE0eFE4bEhhd3QxdWpqaFBjc0x3TWtwVHBWSV9sdk54cjV5QjhYNU4yTDc2TktLSktidUltLTBBZUJIWjBTekJpWTF1blpnSGRVeUpQTDVYVGxvLU1iX3dXbU5KQTZoTk9KaDRIZkpZY3Bob01yR2FMWWxMZFdXWHFSaEJtWnhhZURwN2JnQkE?oc=5\" target=\"_blank\">【SMM analysis】 2026 H1 Lithium Battery Black Mass Market Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shanghai Metals Market</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "SMM"
+    ],
+    "summary_3_sentences": [
+      "SMM 분석에 따르면 2026년 상반기 리튬 배터리 블랙 매스 시장 보고서가 발표될 예정입니다.",
+      "이는 향후 리튬 배터리 재활용 시장의 동향을 예측하는 데 중요한 정보를 제공할 것입니다.",
+      "배터리 원자재 시장의 변화를 이해하는 데 도움이 될 것입니다."
+    ],
+    "uid": "1df60de2f6b108fe8a72d8cae5eb2d27a4a89b06"
+  },
+  {
+    "title": "Solid-state Vs Sodium-ion: What The Battery Shift Means For Louisiana's Energy Future",
+    "published_at": "2026-07-23",
+    "source": "News Radio 710 KEEL",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVMGg5VjVLOURGdlU5b3dSVURobDBkQmdIRWZmOVJrbklKbDdoNUV6NUJkcXF4T1FLUVpmeUZhRWZsRUFEZVFzbVVLVVF2UURGZW5vdUJMcW5wOU1DQmplRVRVLTBvZTh1YkE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFBVMGg5VjVLOURGdlU5b3dSVURobDBkQmdIRWZmOVJrbklKbDdoNUV6NUJkcXF4T1FLUVpmeUZhRWZsRUFEZVFzbVVLVVF2UURGZW5vdUJMcW5wOU1DQmplRVRVLTBvZTh1YkE?oc=5\" target=\"_blank\">Solid-state Vs Sodium-ion: What The Battery Shift Means For Louisiana's Energy Future</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News Radio 710 KEEL</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "KEEL"
+    ],
+    "summary_3_sentences": [
+      "전고체 배터리와 나트륨 이온 배터리의 비교는 루이지애나의 에너지 미래에 중요한 의미를 가집니다.",
+      "이는 다양한 배터리 기술이 지역 에너지 전략에 미치는 영향을 분석합니다.",
+      "배터리 기술의 전환이 에너지 산업의 미래를 어떻게 형성할지 보여줍니다."
+    ],
+    "uid": "b0d5e2c226f95e923cb85e31620a367031eca73a"
+  },
+  {
+    "title": "New computing system aims for 80% purity in metals recovered from lithium battery waste",
+    "published_at": "2026-07-23",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeC1lRm81X2xnQUs5LUdVcWVJOURnRXpQQ0dSOE1UWnhHeTRBRldYTl9kM2MtSkd6RlNkOFVMTGZ2SzhBOG1pb0VNaWxlM2kzWW03dDVwQjlUQmM4a1JWLXFPUC15cnllaFRreE5SMFpaV0VpRnZGdFRlbGt0Uld4MUZlRDJseW5xbHRydHFhQ3czSk5rLVQ4YnJvR0lhWEk?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPeC1lRm81X2xnQUs5LUdVcWVJOURnRXpQQ0dSOE1UWnhHeTRBRldYTl9kM2MtSkd6RlNkOFVMTGZ2SzhBOG1pb0VNaWxlM2kzWW03dDVwQjlUQmM4a1JWLXFPUC15cnllaFRreE5SMFpaV0VpRnZGdFRlbGt0Uld4MUZlRDJseW5xbHRydHFhQ3czSk5rLVQ4YnJvR0lhWEk?oc=5\" target=\"_blank\">New computing system aims for 80% purity in metals recovered from lithium battery waste</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "새로운 컴퓨팅 시스템은 리튬 배터리 폐기물에서 회수된 금속의 순도를 80%까지 높이는 것을 목표로 합니다.",
+      "이는 배터리 재활용 과정의 효율성과 경제성을 개선하는 데 기여할 것입니다.",
+      "폐배터리 자원화 기술의 발전을 보여주는 사례입니다."
+    ],
+    "uid": "8e3a920587ce162fa4d0d2cd035db09183dcdc58"
+  },
+  {
+    "title": "Peak Energy’s Sodium Batteries Aim to Beat Lithium on Lifetime Cost",
+    "published_at": "2026-07-23",
+    "source": "IEEE Spectrum",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hUnRpbndQS3phWVlxdnBIcVNNZnZmRGk2S0hVYVJlbUdfX2RRWDJYU01JSFpvM2ZlRGJXa0ppOVB5TEJIalJ3SERXdDNvTWhSUGIzMGhaVVREMldnanRhWjdFQ2VQTTA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hUnRpbndQS3phWVlxdnBIcVNNZnZmRGk2S0hVYVJlbUdfX2RRWDJYU01JSFpvM2ZlRGJXa0ppOVB5TEJIalJ3SERXdDNvTWhSUGIzMGhaVVREMldnanRhWjdFQ2VQTTA?oc=5\" target=\"_blank\">Peak Energy’s Sodium Batteries Aim to Beat Lithium on Lifetime Cost</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IEEE Spectrum</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Peak Energy",
+      "IEEE"
+    ],
+    "summary_3_sentences": [
+      "Peak Energy는 리튬 배터리보다 수명 비용이 저렴한 나트륨 배터리를 개발하고 있습니다.",
+      "이는 배터리 기술의 비용 효율성을 개선하려는 노력의 일환입니다.",
+      "나트륨 배터리가 미래 에너지 저장 시장에서 경쟁력을 가질 수 있음을 보여줍니다."
+    ],
+    "uid": "c5c9f2222e91254fca4d68a349c9475152cffbaf"
+  },
+  {
+    "title": "Sila Raises $300M for EV Battery Production Expansion",
+    "published_at": "2026-07-23",
+    "source": "Fuel Cells Works",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaGN1RlFobzNwaDZDTFY0cWN3ZzQ4RTZCSVJVT1JoUXFXY0JEcUxJajlta3Zfanp2NFNodWpNOTFEbnhURjNuOTBTY0tGTGFweFFkbVFxWTd2WFZUcHBmUDdxNmVVNkVFSnBaU2RJT0N1V3lGMlh0dTdkbkdLQWhHR0VRME1GVm1ac3l4bXNfRDBJYV9fYTBaMFNuT2dkYW1rWXFpemwwcVRJM3k3YWlrZUVDLUg4cmctaVJoV0ZoRXU3TEN3RURPNG01aHljQ0NsUlE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaGN1RlFobzNwaDZDTFY0cWN3ZzQ4RTZCSVJVT1JoUXFXY0JEcUxJajlta3Zfanp2NFNodWpNOTFEbnhURjNuOTBTY0tGTGFweFFkbVFxWTd2WFZUcHBmUDdxNmVVNkVFSnBaU2RJT0N1V3lGMlh0dTdkbkdLQWhHR0VRME1GVm1ac3l4bXNfRDBJYV9fYTBaMFNuT2dkYW1rWXFpemwwcVRJM3k3YWlrZUVDLUg4cmctaVJoV0ZoRXU3TEN3RURPNG01aHljQ0NsUlE?oc=5\" target=\"_blank\">Sila Raises $300M for EV Battery Production Expansion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fuel Cells Works</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Sila"
+    ],
+    "summary_3_sentences": [
+      "Sila는 전기차 배터리 생산 확장을 위해 3억 달러를 투자받았습니다.",
+      "이는 전기차 배터리 산업의 성장과 기술 발전에 대한 낙관적인 전망을 반영합니다.",
+      "Sila는 배터리 생산 능력 증대를 통해 시장 경쟁력을 강화할 것으로 보입니다."
+    ],
+    "uid": "621dd5233f70eac380e752ffb381be44d6f1d7bc"
+  },
+  {
+    "title": "CATL Signs 2GWh Sodium-Ion Battery Storage Agreement",
+    "published_at": "2026-07-23",
+    "source": "Fuel Cells Works",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcFg2TnhkTDVLaGtXVkZCa1lZeHp1VlBLQlBkM1hXbnFFRXFLaEI3cEtETHh4WWVweHpqRFlQQkk3WFVDeG45a1h1OFNvRWFwRXdnS0N3U2NlYlJIUXJ4RlNHb2ZpVDB3OU9rOUdSb0lVZTlDbUJsMWpVSlQ0WmFSLVJSTUROVDB3VVVyOFJVdUZVYkhMellQUjcwMVF3MTg0MElsZzZLS1VEUWh6QTZFank4RDZzUDEwZXJUSw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNcFg2TnhkTDVLaGtXVkZCa1lZeHp1VlBLQlBkM1hXbnFFRXFLaEI3cEtETHh4WWVweHpqRFlQQkk3WFVDeG45a1h1OFNvRWFwRXdnS0N3U2NlYlJIUXJ4RlNHb2ZpVDB3OU9rOUdSb0lVZTlDbUJsMWpVSlQ0WmFSLVJSTUROVDB3VVVyOFJVdUZVYkhMellQUjcwMVF3MTg0MElsZzZLS1VEUWh6QTZFank4RDZzUDEwZXJUSw?oc=5\" target=\"_blank\">CATL Signs 2GWh Sodium-Ion Battery Storage Agreement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fuel Cells Works</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL은 2GWh 규모의 나트륨 이온 배터리 저장 장치 계약을 체결했습니다.",
+      "이는 나트륨 이온 배터리 기술의 상업적 적용 가능성을 보여줍니다.",
+      "에너지 저장 시스템 분야에서 CATL의 입지를 강화할 것으로 예상됩니다."
+    ],
+    "uid": "9893f437e8fc52510108f80b702053daa69b1f18"
+  },
+  {
+    "title": "FDNY reports NYC’s first Li-ion battery fire death of 2026",
+    "published_at": "2026-07-23",
+    "source": "FireRescue1",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONzRwb25sNEpnajhLTm10Qm1zZDBua2tnblNtZmdCRWFvbjZEakEwVkIxTVZwRFNhOHZ6dFY1bVFZbFBzc1lUaktMaW92T3VENm5CeDI4Q2JiWFJYRkR2SkpQUjNvZEdScGxPSy1qRUFUU3NsWS1ZS01GTWVsM2UwTU02SVNqTElWa1Fab3FGREZlZzNWaElZSlg5QmFoRzk3bGl0YVo4RDJ3RG9sdFY1eg?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxONzRwb25sNEpnajhLTm10Qm1zZDBua2tnblNtZmdCRWFvbjZEakEwVkIxTVZwRFNhOHZ6dFY1bVFZbFBzc1lUaktMaW92T3VENm5CeDI4Q2JiWFJYRkR2SkpQUjNvZEdScGxPSy1qRUFUU3NsWS1ZS01GTWVsM2UwTU02SVNqTElWa1Fab3FGREZlZzNWaElZSlg5QmFoRzk3bGl0YVo4RDJ3RG9sdFY1eg?oc=5\" target=\"_blank\">FDNY reports NYC’s first Li-ion battery fire death of 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FireRescue1</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 95,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "FDNY",
+      "NYC"
+    ],
+    "summary_3_sentences": [
+      "FDNY는 2026년 뉴욕시 최초의 리튬 이온 배터리 화재 사망 사고를 보고했습니다.",
+      "이는 리튬 이온 배터리의 안전 문제에 대한 경각심을 높입니다.",
+      "배터리 안전 관리 및 규제 강화의 필요성을 시사합니다."
+    ],
+    "uid": "a789038d4b73c53122ebe736d82a2ec86af3ed8a"
+  },
+  {
+    "title": "Colorado Thinks It Found The Answer To EV Battery Recycling's Biggest Challenge",
+    "published_at": "2026-07-23",
+    "source": "Engadget",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mazNoZExuaFZGSFlVUnF5aWNROFF1NjlCZVNmNGhFZ3g0eDgxX18wWk1SaW5TbmlPSnM1Q2RjbHhnZXlBaTMxWGdoYmQxMHVKaWc2SjVXbk10OElOQlNsX0Zjel9jbXZkVkJkQU5iaURTRTNjc0E?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5mazNoZExuaFZGSFlVUnF5aWNROFF1NjlCZVNmNGhFZ3g0eDgxX18wWk1SaW5TbmlPSnM1Q2RjbHhnZXlBaTMxWGdoYmQxMHVKaWc2SjVXbk10OElOQlNsX0Zjel9jbXZkVkJkQU5iaURTRTNjc0E?oc=5\" target=\"_blank\">Colorado Thinks It Found The Answer To EV Battery Recycling's Biggest Challenge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Engadget</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "콜로라도는 전기차 배터리 재활용의 가장 큰 난제를 해결할 방법을 찾은 것으로 보입니다.",
+      "이는 배터리 재활용 산업의 효율성과 경제성을 향상시킬 잠재력을 가지고 있습니다.",
+      "향후 배터리 재활용 기술 발전에 중요한 이정표가 될 수 있습니다."
+    ],
+    "uid": "06b527652d3dc8154cbfbc1450001fec8c83a370"
+  },
+  {
+    "title": "China's New Solid-State Battery Could Crash The Resale Value Of Your Electric Vehicle",
+    "published_at": "2026-07-23",
+    "source": "CarBuzz",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZTdyRHQ0ZDAtZTlDbnlUVHcxbFc4cGlHYXlVRkRoTEN3b290eS1hX3NlNjRZV0sxRzB4YXNVdTg1TmtmeW9WMERjQU44eXZsZl9OX2Q2SUhiZ0p6TUhvSFdFOXBpYkt3XzVsNVAybnRmM0NNLXNNUnlsX19nSWhKaU5XalYwd0p2OVFBU1JpX1ZaMlRpRVc2WExrRjFfUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPZTdyRHQ0ZDAtZTlDbnlUVHcxbFc4cGlHYXlVRkRoTEN3b290eS1hX3NlNjRZV0sxRzB4YXNVdTg1TmtmeW9WMERjQU44eXZsZl9OX2Q2SUhiZ0p6TUhvSFdFOXBpYkt3XzVsNVAybnRmM0NNLXNNUnlsX19nSWhKaU5XalYwd0p2OVFBU1JpX1ZaMlRpRVc2WExrRjFfUQ?oc=5\" target=\"_blank\">China's New Solid-State Battery Could Crash The Resale Value Of Your Electric Vehicle</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CarBuzz</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "중국의 새로운 전고체 배터리가 전기차의 중고차 가치에 영향을 미칠 수 있습니다.",
+      "이는 배터리 기술의 발전이 자동차 시장에 미치는 잠재적 영향을 시사합니다.",
+      "전기차 소유자들은 이러한 변화에 주목해야 할 것입니다."
+    ],
+    "uid": "fedba3d366f93a403e72d10ef1a1f9dadaafe034"
   },
   {
     "title": "‘꿈의 배터리’ 고체 배터리 고장 미스터리 풀렸다… MIT 연구팀 등 근...",
