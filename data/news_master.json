@@ -1,5 +1,498 @@
 [
   {
+    "title": "CATL이 제시한 나트륨배터리 성공조건…공급망·양산·검증",
+    "description": "양·음극재 공급망부터 200GWh 양산기반까지 구축 알펜과 서유럽 5GWh 공급 합의…'테너' 9월 中서 첫 출하 중국 CATL이 나트륨이온배터리의 초기 생태계 주도권을 확보하기 위해 글로벌 공급망 구축과 대규모 양산...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=104902",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-07-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "CATL",
+      "나트륨배터리",
+      "나트륨이온배터리"
+    ],
+    "summary_3_sentences": [
+      "CATL has outlined key conditions for the success of sodium-ion batteries, including supply chain, mass production, and verification.",
+      "The company is establishing a supply chain and a 200 GWh production base, with initial shipments of its 'Tena' sodium-ion battery planned for September.",
+      "CATL is also securing global supply agreements, such as a 5 GWh deal with Alpen in Western Europe."
+    ],
+    "uid": "aa1d037a6dffdee24757174a8140f1e8c98bd65b"
+  },
+  {
+    "title": "'전기차 대신 ESS'…K-배터리, 하반기 생존게임 시작됐다",
+    "description": "◆ ESS가 배터리 업계 '구원투수' 배터리 업계가 가장 기대하는 분야는 ESS다. 전기차 시장 성장세가 둔화되자 배터리 업체들은 북미 공장의 생산라인을 ESS용으로 전환하며 가동률을 높이는 전략을 추진하고 있다....",
+    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1717762",
+    "source": "www.ebn.co.kr",
+    "published_at": "2026-07-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "K-배터리"
+    ],
+    "summary_3_sentences": [
+      "The energy storage system (ESS) market is emerging as a critical area for the battery industry.",
+      "As the electric vehicle (EV) market growth slows, battery companies are shifting production lines to ESS.",
+      "This strategic pivot aims to maintain production line utilization and drive growth in the second half of the year."
+    ],
+    "uid": "18abba66c1c5763f75fc4c9f67e67ed6e1af5d12"
+  },
+  {
+    "title": "K-배터리, 실적 발표 시즌 돌입…하반기 전망은? [위클리배터리]",
+    "description": "배터리레이다와 함께 놓친 이차전지·에너지 이슈, 체크해보시죠. &lt;편집자주&gt; 국내 배터리 업계가 다음주... 전력거래소는 2026년도 ESS 중앙계약시장 개설을 앞두고 사업자 의견을 수렴해 왔으며 업계에서는 2차...",
+    "link": "https://www.ddaily.co.kr/page/view/2026072420332809468",
+    "source": "www.ddaily.co.kr",
+    "published_at": "2026-07-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "K-배터리",
+      "위클리배터리",
+      "이차전지·에너지"
+    ],
+    "summary_3_sentences": [
+      "The Korean battery industry is entering its earnings announcement season, with a focus on the second half outlook.",
+      "The Korea Power Exchange is preparing to open the 2026 ESS Central Contract Market, gathering opinions from market participants.",
+      "Industry expectations are high for the second phase of the ESS market development."
+    ],
+    "uid": "3d95541ec983683ef42715d3e38c1b7d3ac68fcf"
+  },
+  {
+    "title": "배터리 전쟁, 특허로 번졌다…국내 기업 IP 방어 총력",
+    "description": "삼성SDI는 미국에서 각형 배터리 특허 1200여 건과 전고체 배터리 특허 1100여 건을 확보했다. 각형 배터리와 전고체 배터리를 중심으로 특허 포트폴리오를 확대해 차세대 시장 주도권을 확보한다는 전략이다. 배터리...",
+    "link": "https://it.chosun.com/news/articleView.html?idxno=2023092166511",
+    "source": "it.chosun.com",
+    "published_at": "2026-07-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Samsung SDI",
+      "삼성SDI",
+      "IP"
+    ],
+    "summary_3_sentences": [
+      "The battery industry is experiencing a 'patent war'.",
+      "Samsung SDI has secured over 1,200 patents for prismatic batteries and 1,100 for all-solid-state batteries in the US.",
+      "The company aims to expand its patent portfolio to lead the next-generation battery market."
+    ],
+    "uid": "ea800a205dd8cccdc1ad7e261377d4fbc9524985"
+  },
+  {
+    "title": "나트륨 배터리 양산 성공‥\"배터리 시장의 게임 체인저 될 것\" [기후인사...",
+    "description": "━ 나트륨 이온 배터리 양산 돌입‥대규모 계약까지 나트륨(소듐) 이온 배터리가 양산 단계에 돌입했습니다. 세계 최대 배터리 제조사인 중국 CATL은 오는 9월 중국에서 처음으로 대규모 나트륨 이온 배터리 저장 시설을...",
+    "link": "https://imnews.imbc.com/newszoomin/newsinsight/6840000_29123.html",
+    "source": "imnews.imbc.com",
+    "published_at": "2026-07-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "Sodium-ion batteries have entered mass production.",
+      "China's CATL plans to launch large-scale sodium-ion battery storage facilities in China starting September.",
+      "This development could be a game-changer for the battery market."
+    ],
+    "uid": "9a47263b0a024bd8033ed24ec09fec7453255285"
+  },
+  {
+    "title": "에코앤드림, 새만금 전구체 공장 출하 개시",
+    "description": "차세대 배터리 분야에선 전고체 배터리 시장 진입을 목표로 고체전해질과의 계면 안정성 및 반응 특성을 고려한 전구체 설계 기술을 고도화하고 있다. 이를 바탕으로 향후 고객사와의 공동 개발 및 제품 평가 기회를...",
+    "link": "https://zdnet.co.kr/view/?no=20260724131455",
+    "source": "zdnet.co.kr",
+    "published_at": "2026-07-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "Eco & Dream"
+    ],
+    "summary_3_sentences": [
+      "Eco & Dream has begun shipping precursors from its Saemangeum facility.",
+      "The company is advancing its precursor design technology for all-solid-state batteries, focusing on interfacial stability and reaction characteristics.",
+      "This effort aims to secure opportunities for joint development and product evaluation with customers in the next-generation battery market."
+    ],
+    "uid": "0d3bccb8d3977656daa22a6988e8f0da7ddddab0"
+  },
+  {
+    "title": "포스코퓨처엠, 나트륨 배터리 핵심소재 키운다…2028년 양산",
+    "description": "나트륨이온 배터리용 하드카본 음극재 개발 현황과 양산 계획이 처음으로 포함됐다. 포스코퓨처엠은 2027년 3분기까지 하드카본 음극재 개발을 마치고 2028년 양산할 계획이다. 나트륨이온 배터리가 리튬인산철(LFP)...",
+    "link": "https://www.thelec.kr/news/articleView.html?idxno=60018",
+    "source": "www.thelec.kr",
+    "published_at": "2026-07-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "POSCO Future M",
+      "핵심소재",
+      "나트륨이온"
+    ],
+    "summary_3_sentences": [
+      "POSCO Future M is developing hard carbon anode material for sodium-ion batteries.",
+      "The company plans to complete development by Q3 2027 and begin mass production in 2028.",
+      "This move positions POSCO Future M to capitalize on the growing sodium-ion battery market."
+    ],
+    "uid": "898532faef0d8fdde6a33e068d1887d6104fe5f4"
+  },
+  {
+    "title": "에코앤드림, 새만금서 NCM 전구체 양산 출하",
+    "description": "기존 제품과 신규 제품을 기반으로 글로벌 전기차와 전고체 배터리 소재 시장도 공략한다. 전기차용 전구체 제품군을 확대해 '전구체 파운드리(Precursor Foundry)' 전략을 강화하고, 전고체 배터리용 전구체 설계 기술도...",
+    "link": "https://www.thelec.kr/news/articleView.html?idxno=60007",
+    "source": "www.thelec.kr",
+    "published_at": "2026-07-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "Eco & Dream",
+      "NCM"
+    ],
+    "summary_3_sentences": [
+      "Eco & Dream has started shipping NCM precursors from its Saemangeum plant.",
+      "The company plans to target the global EV and all-solid-state battery materials market with its existing and new products.",
+      "This initiative strengthens its 'Precursor Foundry' strategy by expanding its EV precursor product line and developing precursor design technology for all-solid-state batteries."
+    ],
+    "uid": "3f35a663bad2b067083fd70aa7ada3725306c693"
+  },
+  {
+    "title": "전고체만 보지 않는다…LG엔솔, ESS·중저가·차세대 '멀티트랙' 승부",
+    "description": "LG에너지솔루션이 전고체 배터리부터 소듐이온(SIB), 에너지저장장치(ESS)용 리튬인산철(LFP) 배터리까지 연구개발 영역을 넓히고 있다. 전기차 시장의 성장 둔화가 장기화하고 배터리 수요가 전기차와 ESS, 소형 전지...",
+    "link": "https://www.econovill.com/news/articleView.html?idxno=746096",
+    "source": "www.econovill.com",
+    "published_at": "2026-07-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG Energy Solution",
+      "LG엔솔",
+      "LG에너지솔루션"
+    ],
+    "summary_3_sentences": [
+      "LG Energy Solution is diversifying its research and development beyond all-solid-state batteries.",
+      "The company is expanding its R&D to include sodium-ion batteries (SIB) and lithium iron phosphate (LFP) batteries for energy storage systems (ESS).",
+      "This multi-track strategy addresses the slowing growth in the EV market and increasing demand for batteries in ESS and small cells."
+    ],
+    "uid": "0ccc7888a40d44a439cf6affe1ec608290fdbbe3"
+  },
+  {
+    "title": "에코앤드림, 새만금 전구체 출하 개시…\"양산 거점 본격 가동\"",
+    "description": "생산 거점 운영을 본격화하는 한편 전기차(EV)와 전고체 배터리 소재를 중심으로 사업 확대에 나선다는 계획이다. 에코앤드림은 고객사 주문에 맞춰 새만금캠퍼스에서 생산한 NCM 전구체를 출하했다고 24일 밝혔다....",
+    "link": "https://www.ddaily.co.kr/page/view/2026072414034189379",
+    "source": "www.ddaily.co.kr",
+    "published_at": "2026-07-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "Eco & Dream",
+      "NCM"
+    ],
+    "summary_3_sentences": [
+      "Eco & Dream has commenced shipments of precursors from its Saemangeum facility.",
+      "The company is focusing on expanding its business in materials for electric vehicles (EVs) and all-solid-state batteries.",
+      "This marks the full operational start of its production base."
+    ],
+    "uid": "ccc2fc76a1ff31f2a4cf217c939d9241f5d63fdc"
+  },
+  {
+    "title": "POSCO Future M to Mass Produce Hard Carbon Anode Material for Sodium-Ion Batteries From 2028",
+    "published_at": "2026-07-24",
+    "source": "thelec.net",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtV1dlbUJPVTZmLVlFSFFWS2k5LVBBdzFmaWVYd3BBMWF4ZlJqMkh2enhlMHJIZUx0bGtwTVVYTnNVQ3NFTm8xTFozX0hHUXJRLXpqTVJWcHdRSmJmbGFnUC1aUHJfT1U?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtV1dlbUJPVTZmLVlFSFFWS2k5LVBBdzFmaWVYd3BBMWF4ZlJqMkh2enhlMHJIZUx0bGtwTVVYTnNVQ3NFTm8xTFozX0hHUXJRLXpqTVJWcHdRSmJmbGFnUC1aUHJfT1U?oc=5\" target=\"_blank\">POSCO Future M to Mass Produce Hard Carbon Anode Material for Sodium-Ion Batteries From 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thelec.net</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "POSCO Future M",
+      "POSCO"
+    ],
+    "summary_3_sentences": [
+      "POSCO Future M is set to mass produce hard carbon anode material for sodium-ion batteries starting in 2028.",
+      "This development was detailed for the first time, including the mass production plan.",
+      "The company aims to be a key player in the emerging sodium-ion battery supply chain."
+    ],
+    "uid": "413bd28ee26f0001445501ba76378ae8f9f1ca5d"
+  },
+  {
+    "title": "German startup launches high-voltage sodium-ion battery for residential applications",
+    "published_at": "2026-07-24",
+    "source": "pv magazine Global",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONjg4SF80VWhRSVVYeTk4Q1VQdjdPN3VHU2M0clhNZGowTnpXLWR1aVEyS2tYV2Y5eFc4NGhfdHZaMDloU3hSRjVteVdUZkhHOHpROWVBSzVSVDdsR3ZHbjVxUGZzWU9SYThCMzlpRmhDWVkxS1NZZXNZUWxIUkhsX3NpbVNUUkllS3pKTkNzTEQ1UGZ1eEFzaEhZRUtJd3hUY21wdWFmUGt6ZUxIYTEyZTMxekQycXFIdURSY0Y2UHRtZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxONjg4SF80VWhRSVVYeTk4Q1VQdjdPN3VHU2M0clhNZGowTnpXLWR1aVEyS2tYV2Y5eFc4NGhfdHZaMDloU3hSRjVteVdUZkhHOHpROWVBSzVSVDdsR3ZHbjVxUGZzWU9SYThCMzlpRmhDWVkxS1NZZXNZUWxIUkhsX3NpbVNUUkllS3pKTkNzTEQ1UGZ1eEFzaEhZRUtJd3hUY21wdWFmUGt6ZUxIYTEyZTMxekQycXFIdURSY0Y2UHRtZw?oc=5\" target=\"_blank\">German startup launches high-voltage sodium-ion battery for residential applications</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pv magazine Global</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [],
+    "summary_3_sentences": [
+      "A German startup has launched a high-voltage sodium-ion battery.",
+      "This new battery is designed for residential applications.",
+      "The launch signifies advancements in energy storage solutions for homes."
+    ],
+    "uid": "b9d74861b83c0e7955d78a19e2d67de677b5a0de"
+  },
+  {
+    "title": "Molecular catalysts could help unlock the promise of lithium–sulfur batteries",
+    "published_at": "2026-07-24",
+    "source": "chemeurope.com",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU3FfbUkxa1lqOE14ZDQzM1gtSzVTdVpfTENwSGlMVWowYmRHVmJtV3YzQVNhUlNBb1ZEUjNjSHp5UWluSlppRDVSSzJqZXRfcjN6c0xGTDQ3TG9ZamxqUXRoT21jZ25RNTZPT1hpd2lmR2VoaGlWazZjdXhqNUhjSkxZZkluTTdyLWthZUJ0ejdNRThON09uZ3V4T3RISlE1RFhiVGV0OWJVTU9DY2V5RmFlZFN5MC0tZDd2V1VKZ2RrUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU3FfbUkxa1lqOE14ZDQzM1gtSzVTdVpfTENwSGlMVWowYmRHVmJtV3YzQVNhUlNBb1ZEUjNjSHp5UWluSlppRDVSSzJqZXRfcjN6c0xGTDQ3TG9ZamxqUXRoT21jZ25RNTZPT1hpd2lmR2VoaGlWazZjdXhqNUhjSkxZZkluTTdyLWthZUJ0ejdNRThON09uZ3V4T3RISlE1RFhiVGV0OWJVTU9DY2V5RmFlZFN5MC0tZDd2V1VKZ2RrUQ?oc=5\" target=\"_blank\">Molecular catalysts could help unlock the promise of lithium–sulfur batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">chemeurope.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "chemeurope.com"
+    ],
+    "summary_3_sentences": [
+      "Molecular catalysts show promise for unlocking the potential of lithium-sulfur batteries.",
+      "These catalysts can help overcome existing challenges in lithium-sulfur battery technology.",
+      "Further research in this area could lead to significant advancements in battery performance."
+    ],
+    "uid": "948fa8c7b8626bfd4849b3ed690d70bbf98c5b4f"
+  },
+  {
+    "title": "China’s Gotion Lands $114M African Development Bank Backing to Build EV Battery Gigafactory in Morocco",
+    "published_at": "2026-07-24",
+    "source": "The China-Global South Project",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPODc1MGJPWEU5Q2VoQlZyUG9jNlZ0WTdQT1p1MEdmVUs0eXIzSU5jaFM1RVZ0OFJvZ1JGVnpJalhHUGkzVjlyV2xiNGhPMmZMU2FSc0QtZFhHdzJNbTU5TGpRWi0yeFgzZ0Y2TnViQjMxWXYtZlF0Z2swQXVaMEhWRXRiNjhhVUc5UXdv?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPODc1MGJPWEU5Q2VoQlZyUG9jNlZ0WTdQT1p1MEdmVUs0eXIzSU5jaFM1RVZ0OFJvZ1JGVnpJalhHUGkzVjlyV2xiNGhPMmZMU2FSc0QtZFhHdzJNbTU5TGpRWi0yeFgzZ0Y2TnViQjMxWXYtZlF0Z2swQXVaMEhWRXRiNjhhVUc5UXdv?oc=5\" target=\"_blank\">China’s Gotion Lands $114M African Development Bank Backing to Build EV Battery Gigafactory in Morocco</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The China-Global South Project</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Gotion",
+      "African Development Bank"
+    ],
+    "summary_3_sentences": [
+      "China's Gotion has secured $114 million in backing from the African Development Bank.",
+      "This funding will be used to construct an EV battery gigafactory in Morocco.",
+      "The project aims to establish a major battery production hub in Africa."
+    ],
+    "uid": "eeb899efe2ec05b35256a131bf587124cd3553c5"
+  },
+  {
+    "title": "Solid‑State Battery Weekly Review Hybrid Solid‑Liquid Mass Production Set, All‑Solid‑State R&D Continues",
+    "published_at": "2026-07-24",
+    "source": "Shanghai Metals Market",
+    "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOODY2dXd3cGk1bEFjSVFONzVYNThVaGx5U0g5bl9SRFA5U1FDS0JFMndxNFlOdlJZY0pqWG90SkNNWFRJdHpCTENoY25GS01aMjJ1NGdZTmtjNExKeXdUeG5KbVQ5Tm9BTW56a0dtbGlsN1R5djUwNnI2OFN6aFdFeXpseWRxT0hXa0JycDByM2pQWHpsdXlwS1NYMlkwWkNVUWpfMDUydXlGT3luZ3dTT3AzS3FZS0VydjdTYmNTc1dqT3FzNmhWTnBTOWJFdDlrRHFlV3dreUZaMTVBN3FQdFlsd29GSjMzTnRMZmNQaUZYZkREeWI4OVh6NEdpMXhOV1FZQjVfVVpUcFNBWG5V?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMijwJBVV95cUxOODY2dXd3cGk1bEFjSVFONzVYNThVaGx5U0g5bl9SRFA5U1FDS0JFMndxNFlOdlJZY0pqWG90SkNNWFRJdHpCTENoY25GS01aMjJ1NGdZTmtjNExKeXdUeG5KbVQ5Tm9BTW56a0dtbGlsN1R5djUwNnI2OFN6aFdFeXpseWRxT0hXa0JycDByM2pQWHpsdXlwS1NYMlkwWkNVUWpfMDUydXlGT3luZ3dTT3AzS3FZS0VydjdTYmNTc1dqT3FzNmhWTnBTOWJFdDlrRHFlV3dreUZaMTVBN3FQdFlsd29GSjMzTnRMZmNQaUZYZkREeWI4OVh6NEdpMXhOV1FZQjVfVVpUcFNBWG5V?oc=5\" target=\"_blank\">Solid‑State Battery Weekly Review Hybrid Solid‑Liquid Mass Production Set, All‑Solid‑State R&amp;D Continues</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shanghai Metals Market</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Shanghai Metals Market"
+    ],
+    "summary_3_sentences": [
+      "Hybrid solid-liquid mass production for batteries is set, while R&D for all-solid-state batteries continues.",
+      "This indicates a dual approach in battery technology development.",
+      "The industry is progressing with both near-term deployable solutions and long-term advanced technologies."
+    ],
+    "uid": "b039d3a3b9188c09fb81e696b248a36bc5594ccf"
+  },
+  {
+    "title": "Lithium Sulfur Battery Market to Reach USD 1,247.68 Billion by 2035 at 15.2% CAGR.",
+    "published_at": "2026-07-24",
+    "source": "EIN Presswire",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeTBCZlhuMFctUVVLc19aNUxvUXhlNVRZdEIxRzBDS3dmblpQYUhFZHY4R1pPN21UckJDWWlPY0JZaHgzQjdwdU16QXFkME1zZ2lWVlBCZ3ZUeFByanQwdk9OQjNKNDd4QmZwQlBING5nS3RUcUZKM2lSeWZTcWozeEJEV0MxWF9SSHR5R0pFb1hjRnpZZWM1N3dkWXc2cFc5QTRTNURDdjBxb19XOWVJelo3OEFjRUU5d1V2SDRpcmFJWnVlNXc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNeTBCZlhuMFctUVVLc19aNUxvUXhlNVRZdEIxRzBDS3dmblpQYUhFZHY4R1pPN21UckJDWWlPY0JZaHgzQjdwdU16QXFkME1zZ2lWVlBCZ3ZUeFByanQwdk9OQjNKNDd4QmZwQlBING5nS3RUcUZKM2lSeWZTcWozeEJEV0MxWF9SSHR5R0pFb1hjRnpZZWM1N3dkWXc2cFc5QTRTNURDdjBxb19XOWVJelo3OEFjRUU5d1V2SDRpcmFJWnVlNXc?oc=5\" target=\"_blank\">Lithium Sulfur Battery Market to Reach USD 1,247.68 Billion by 2035 at 15.2% CAGR.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EIN Presswire</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "USD",
+      "CAGR",
+      "EIN"
+    ],
+    "summary_3_sentences": [
+      "The lithium-sulfur battery market is expected to reach USD 1,247.68 billion by 2035.",
+      "This growth is projected at a CAGR of 15.2%.",
+      "The substantial market size indicates a strong future for lithium-sulfur battery technology."
+    ],
+    "uid": "b0a8efd5986ba86225bedd73298e50e94ef278cf"
+  },
+  {
+    "title": "Lithium-ion Battery Recycling Market to Reach USD 31.95 Billion by 2035 at 21.5% CAGR.",
+    "published_at": "2026-07-24",
+    "source": "EIN News",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZXdzQUdjRXo3dVA0U0tkSlQ4b1RCTlc3NGUydGZxdDZ4TGZFOHNTaFdEUjJXRmJyNEN2cnVBcU55NC03LXhpN0xfQUI2Qk11RmRMNVpnMWxzZ1dfN2V4b2NWV09XdzlLcVZ6MWdpcTZ4cmdHRVFmcFBoQXJ4VFR4VmZscDBjWS1rcnRObDdPZTM1RlhwSnpfVWU3S0FYY2RzOXRTNWNuU0lNUWw2WmtIZ0lfNzRkbk9pV1lNY2doVGhfd3Fp?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPZXdzQUdjRXo3dVA0U0tkSlQ4b1RCTlc3NGUydGZxdDZ4TGZFOHNTaFdEUjJXRmJyNEN2cnVBcU55NC03LXhpN0xfQUI2Qk11RmRMNVpnMWxzZ1dfN2V4b2NWV09XdzlLcVZ6MWdpcTZ4cmdHRVFmcFBoQXJ4VFR4VmZscDBjWS1rcnRObDdPZTM1RlhwSnpfVWU3S0FYY2RzOXRTNWNuU0lNUWw2WmtIZ0lfNzRkbk9pV1lNY2doVGhfd3Fp?oc=5\" target=\"_blank\">Lithium-ion Battery Recycling Market to Reach USD 31.95 Billion by 2035 at 21.5% CAGR.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EIN News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "USD",
+      "CAGR",
+      "EIN"
+    ],
+    "summary_3_sentences": [
+      "The lithium-ion battery recycling market is projected to reach USD 31.95 billion by 2035.",
+      "This represents a compound annual growth rate (CAGR) of 21.5%.",
+      "The significant growth highlights the increasing importance of sustainable battery management."
+    ],
+    "uid": "a4250c008a1ec69d21d075b704c9f09061cb8445"
+  },
+  {
+    "title": "African Development Bank Approves €100 Million to Gotion Power Morocco to Develop Africa’s First Lithium Ion Phosphate Battery Gigafactory",
+    "published_at": "2026-07-24",
+    "source": "African Development Bank Group",
+    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQRGdJUnBqbHUxbmo0dXVQUWlCdzhaM01nc0FSWXpMaWVNVm5nQ3NkNFZ4SzVTZlJRZkVNWFdQVlRnR1Nua3RNZF9JRGFNRXlnYnRINkVKVGpPMWt1Q21jXzNoMnpuT0FueHNXcEItcVpEd0JmMU05N3BGa1JJLXJJdlNvX0l3Wl9aNl94QnA1blVCemRLWHdFUmhrcllBVnIyWnZnTDRNVmVlVWJKaUtPVS13Qk1RdU5tUGRvN0hPWjlaVklHMEJybjZVb29DbVVaQXV6bElrQmxmWm5xcS1NMFF1WnNKZGpWdDlxeTNETlNseXZqQzJRZzRGMFZmWEd2NF8xOW9BNm9QUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiigJBVV95cUxQRGdJUnBqbHUxbmo0dXVQUWlCdzhaM01nc0FSWXpMaWVNVm5nQ3NkNFZ4SzVTZlJRZkVNWFdQVlRnR1Nua3RNZF9JRGFNRXlnYnRINkVKVGpPMWt1Q21jXzNoMnpuT0FueHNXcEItcVpEd0JmMU05N3BGa1JJLXJJdlNvX0l3Wl9aNl94QnA1blVCemRLWHdFUmhrcllBVnIyWnZnTDRNVmVlVWJKaUtPVS13Qk1RdU5tUGRvN0hPWjlaVklHMEJybjZVb29DbVVaQXV6bElrQmxmWm5xcS1NMFF1WnNKZGpWdDlxeTNETlNseXZqQzJRZzRGMFZmWEd2NF8xOW9BNm9QUQ?oc=5\" target=\"_blank\">African Development Bank Approves €100 Million to Gotion Power Morocco to Develop Africa’s First Lithium Ion Phosphate Battery Gigafactory</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">African Development Bank Group</font>",
+    "provider": "google",
+    "related_links": [
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMEtmYWlIaXpGSS1BTDZyTWVoekJzRE1faWl0djdVSF81a3ZTQnhiLTVXTTVha3VCLW56enhGZjU1YVo2N3VDOGd5Y3JQMFo2a1BwejZTSXV3djN6clBWY0Rtcm1BSXBjNnRWaTQyNERJaVdYRUlERnpPUUhOckhucVVJaG9qeGFWaTJuRGt1SnhHVkxKRmNTbzlueGF6aGZFbXZNRUpCUV85TWJSM1QtdndmclB6UzFNZHduMDc4TnQtN281YUhscXhDSGhHQTdicExaTXpBY0FQWXo0ejV5STYzYU9IZU0?oc=5"
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "African Development Bank",
+      "Gotion Power Morocco"
+    ],
+    "summary_3_sentences": [
+      "African Development Bank has approved €100 million in funding.",
+      "This funding will support Gotion Power Morocco in developing Africa's first Lithium Ion Phosphate Battery Gigafactory.",
+      "This project marks a significant step in advancing battery manufacturing capabilities on the African continent."
+    ],
+    "uid": "a64c7ccf777de83d847e5e310ac32abecd64c92f"
+  },
+  {
+    "title": "Predict Long-Term Stability in Ni-Rich Lithium-Ion Batteries Using Formaldehyde Generation",
+    "published_at": "2026-07-24",
+    "source": "AZoCleantech",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqWjZMYzlMbDFMTUh6SzRQb2hjMHo3UFhsVmpNaWxra3dGZDRvOVF1eXFvTXZ3UUdoRGJ2a3lpU0k5Y2NYYjJ2dEcyTDlnZ05qMFJOX0o5VHZNUFN5VG8tdEdrUzR0bTg?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqWjZMYzlMbDFMTUh6SzRQb2hjMHo3UFhsVmpNaWxra3dGZDRvOVF1eXFvTXZ3UUdoRGJ2a3lpU0k5Y2NYYjJ2dEcyTDlnZ05qMFJOX0o5VHZNUFN5VG8tdEdrUzR0bTg?oc=5\" target=\"_blank\">Predict Long-Term Stability in Ni-Rich Lithium-Ion Batteries Using Formaldehyde Generation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AZoCleantech</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "AZoCleantech"
+    ],
+    "summary_3_sentences": [
+      "A new method using formaldehyde generation can predict the long-term stability of Ni-rich lithium-ion batteries.",
+      "This technique allows for better assessment of battery lifespan and performance.",
+      "Improved stability prediction is crucial for the development of more reliable batteries."
+    ],
+    "uid": "9cec2b4aa03ddb64e63cd7a598522a57636fa854"
+  },
+  {
+    "title": "QuantumScape Sinks 14%, Solid Power and SES AI Fall as Solid-State Battery Stocks Slide",
+    "published_at": "2026-07-24",
+    "source": "24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdE1SS1owbHFla244TnloMHJQRFhVVHpqcC1hRUhQNlUxSnptZy1jMV9jLTNRNVRrN3kxdUpsOVRmMDgyVUlmQ19FR2lVblZXRVVsZU9BZ3EtUkREcWNjNW5aaDRQbGJPSXVoaDUyVTlGUzNudDhRS09mVTNHM0JVUHNLOUtpVVNBYktJLWRKdXdCSEp5eWN2bW5MSU5hS1dvS3J6MlBqb252U0Z6NTVtY1dESnVXWjdGZWRoWWtCcmJ0SkdlY3NLMQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdE1SS1owbHFla244TnloMHJQRFhVVHpqcC1hRUhQNlUxSnptZy1jMV9jLTNRNVRrN3kxdUpsOVRmMDgyVUlmQ19FR2lVblZXRVVsZU9BZ3EtUkREcWNjNW5aaDRQbGJPSXVoaDUyVTlGUzNudDhRS09mVTNHM0JVUHNLOUtpVVNBYktJLWRKdXdCSEp5eWN2bW5MSU5hS1dvS3J6MlBqb252U0Z6NTVtY1dESnVXWjdGZWRoWWtCcmJ0SkdlY3NLMQ?oc=5\" target=\"_blank\">QuantumScape Sinks 14%, Solid Power and SES AI Fall as Solid-State Battery Stocks Slide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>",
+    "provider": "google",
+    "related_links": [
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMnV2TFdOTXB3TzNpR2pJNmRUbGZPZ3gyeXN3S2J2eHhsZ3NoS0ZtaVUtV2tLSVlubkJhWkFxTGFQQm9XZ2NzR1ZaVVJ3djZhcEFRN1lPUGdtc1BhTy1MUmlpby1ZTG9FY2NpSVJMRmZ0WVVGTzhrQ2tJR0d0VEhseFNxNXBlWVpjX0s3N1lvcHA3bXhDU0JlZnNodzY3Rm8?oc=5"
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "QuantumScape",
+      "Solid Power",
+      "SES AI"
+    ],
+    "summary_3_sentences": [
+      "Stocks for solid-state battery companies experienced a significant decline.",
+      "QuantumScape saw a 14% drop, with Solid Power and SES AI also falling.",
+      "This downturn reflects current market sentiment and challenges in the solid-state battery sector."
+    ],
+    "uid": "ce1bad9bbeb9ea3814ae5f07ce1bfb7d2667b6e4"
+  },
+  {
     "title": "KAIST, 전기차 배터리 화재 막는 초정밀 검사 기술 개발",
     "description": "김영진 교수는 \"이번 기술은 전극 두께와 소재 특성을 별도 보정 없이 동시에 측정할 수 있는 통합형 계측 플랫폼\"이라며 \"차세대 리튬이온배터리뿐만 아니라 전고체 배터리 생산라인의 실시간 품질관리를 위한 핵심...",
     "link": "https://www.yna.co.kr/view/AKR20260723072600063?input=1195m",
