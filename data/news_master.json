@@ -1,5 +1,60 @@
 [
   {
+    "title": "\"AMPC 빼면 적자? 말 안 된다\"⋯LG엔솔 진짜 투자 포인트는 [찐코노미]",
+    "description": "이투데이=이은지 PD 기자 | 전기차 캐즘(일시적 수요 둔화) 장기화로 부진했던 K배터리가 하반기 실적... 2차전지 투자 전략과 관련해서는 LG에너지솔루션을 가장 긍정적으로 평가했다. 윤 평론가는 “급락 이후에는...",
+    "link": "https://www.etoday.co.kr/news/view/2609571",
+    "source": "www.etoday.co.kr",
+    "published_at": "2026-07-31",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "LG엔솔",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "LG Energy Solution is viewed positively in terms of investment strategy, despite the prolonged slowdown in electric vehicle demand.",
+      "The company's potential lies beyond the impact of the AMPC (Advanced Manufacturing Production Credit).",
+      "Analysts are optimistic about LG Energy Solution's future performance following a significant price drop."
+    ],
+    "uid": "0f85a0f17270169c9ce18a7d279d1fac71ef7056"
+  },
+  {
+    "title": "ESS 수요 급증에…K-배터리 ‘3사 3색’ 전략 경쟁",
+    "description": "차세대 제품으로는 매장량이 풍부한 나트륨을 활용한 소듐이온 배터리를 개발하고 있다. 장주기 ESS와 UPS를 겨냥해 제품 개발과 양산 계획을 구체화할 방침이다. SK온은 SK그룹 관계사와 협력 네트워크를 활용한...",
+    "link": "https://biz.heraldcorp.com/article/10826855?ref=naver",
+    "source": "biz.heraldcorp.com",
+    "published_at": "2026-07-31",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "biz.heraldcorp.com",
+        "link": "https://biz.heraldcorp.com/article/10826479?ref=naver"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "SK On",
+      "K-배터리",
+      "소듐이온"
+    ],
+    "summary_3_sentences": [
+      "The demand for Energy Storage Systems (ESS) is rapidly increasing, leading to a competitive landscape among Korean battery manufacturers with distinct strategies.",
+      "SK On is developing sodium-ion batteries utilizing abundant sodium resources and plans to commercialize products for long-duration ESS and Uninterruptible Power Supplies (UPS).",
+      "SK On is leveraging its collaboration network with SK Group affiliates for its strategic initiatives."
+    ],
+    "uid": "8daf2d06fbddad2f00a03fd320b97b75e813d16b"
+  },
+  {
     "title": "LG엔솔, 2분기 영업이익 1133억원···흑자 전환",
     "description": "준비하고 46시리즈 수요를 확대할 것\"이라며 \"아울러 고출력 탭리스 2170 배터리 양산을 본격화하며 2027년 ESS용 소듐전지 샘플 출하와 건식전극 공정을 적용한 전고체 배터리 파일럿 라인 준비를 이어가겠다\"고 전했다.",
     "link": "https://www.seoulfn.com/news/articleView.html?idxno=634510",
@@ -32,6 +87,282 @@
       "LG에너지솔루션은 하반기에도 고출력 탭리스 배터리 양산과 전고체 배터리 파일럿 라인 준비를 이어갈 계획입니다."
     ],
     "uid": "6d54d9bfc2037b89052530babe6594a567a6449a"
+  },
+  {
+    "title": "SK On, Factorial Energy Partner to Explore Solid-State Battery Manufacturing",
+    "published_at": "2026-07-30",
+    "source": "thelec.net",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Ka0JYeHVUQ2FmbGFXMHBKdmhZazZjUnlYcmhJeklpczBYSkpNUnU2c1NGTmVHMENjZDdIN3I3bmEzQmRlSHV6UU11S1N1dUl1LTBVTUlndjlfc2RSV2k4MFVWMFVYT0k?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Ka0JYeHVUQ2FmbGFXMHBKdmhZazZjUnlYcmhJeklpczBYSkpNUnU2c1NGTmVHMENjZDdIN3I3bmEzQmRlSHV6UU11S1N1dUl1LTBVTUlndjlfc2RSV2k4MFVWMFVYT0k?oc=5\" target=\"_blank\">SK On, Factorial Energy Partner to Explore Solid-State Battery Manufacturing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thelec.net</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "SK On",
+      "Factorial Energy",
+      "SK"
+    ],
+    "summary_3_sentences": [
+      "SK On and Factorial Energy are partnering to explore the manufacturing of solid-state batteries.",
+      "This collaboration aims to leverage their combined expertise to overcome challenges in solid-state battery production.",
+      "The partnership is expected to accelerate the development and potential mass production of this next-generation battery technology."
+    ],
+    "uid": "482ebd4b97c376b0946a37b669dc7320fd16850b"
+  },
+  {
+    "title": "Factorial and SK On to cooperate on solid-state batteries",
+    "published_at": "2026-07-30",
+    "source": "electrive.com",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZGdCT01hYkVKQXZwTEpKN1c0SGJQM0lnVms4ODNwVzVvQVRSVFBzNlN3RDBSU09xV25idlRsTl9UNEV3c2JCVUNmYTRuSFpndlZMMks4Y2NjNzFmay1mZGZMU3ZySDFqOXNHVW1BVkZUWENWd1R4aDRvS3hxeG9LOFh5QzhtTmlkSWthNzdrd1R5el8tdGhV?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPZGdCT01hYkVKQXZwTEpKN1c0SGJQM0lnVms4ODNwVzVvQVRSVFBzNlN3RDBSU09xV25idlRsTl9UNEV3c2JCVUNmYTRuSFpndlZMMks4Y2NjNzFmay1mZGZMU3ZySDFqOXNHVW1BVkZUWENWd1R4aDRvS3hxeG9LOFh5QzhtTmlkSWthNzdrd1R5el8tdGhV?oc=5\" target=\"_blank\">Factorial and SK On to cooperate on solid-state batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrive.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Factorial",
+      "SK On",
+      "SK"
+    ],
+    "summary_3_sentences": [
+      "Factorial and SK On are entering into a cooperation agreement focused on solid-state batteries.",
+      "This partnership will likely involve joint research, development, and potentially manufacturing efforts.",
+      "The collaboration aims to accelerate the progress and commercialization of solid-state battery technology."
+    ],
+    "uid": "bd8ad960215bb91a42061059a06aed2208b41c61"
+  },
+  {
+    "title": "배터리 3사, '전기차 캐즘' ESS·AMPC로 돌파…2Q 동반 흑자 전환",
+    "description": "조한재 삼성SDI 전략마케팅실장 부사장은 컨퍼런스 콜에서 \"전고체 배터리는 당초 계획대로 2027년 하반기 양산을 목표로 준비 중\"이라며 \"현재 고객 수요 및 협력 진행 상황을 볼 때 첫 상용화 프로젝트는...",
+    "link": "https://bizhankook.com/articles/k-battery-makers-q2-profit.html",
+    "source": "bizhankook.com",
+    "published_at": "2026-07-30",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.smedaily.co.kr",
+        "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=361100"
+      },
+      {
+        "source": "www.joongang.co.kr",
+        "link": "https://www.joongang.co.kr/article/25449620"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "Korean battery manufacturers achieved a turnaround to profitability in the second quarter, driven by Energy Storage Systems (ESS) and the Advanced Manufacturing Production Credit (AMPC).",
+      "Samsung SDI is on track to begin mass production of all-solid-state batteries in the second half of 2027, as per their original plan.",
+      "The company is currently assessing customer demand and collaboration progress for its initial commercialization projects."
+    ],
+    "uid": "b258208937df0f752b91de3f4002eb628fc37147"
+  },
+  {
+    "title": "Factorial, SK On Sign Solid-State Battery MOU",
+    "published_at": "2026-07-30",
+    "source": "The EV Report",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXZUwzQzY4SVJpQXdfbzV5dkxYRnY4QXN3SE13MTRqRnQ0SlhkUnZPakpfbGp1OHhGNnZEeTBTblU0Qm5jNFc3UGMtdXE2dER4N0JrU3FXbjF0b3Nabmo0akF2Q0R6VDBneDdxaXFzQlM?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBXZUwzQzY4SVJpQXdfbzV5dkxYRnY4QXN3SE13MTRqRnQ0SlhkUnZPakpfbGp1OHhGNnZEeTBTblU0Qm5jNFc3UGMtdXE2dER4N0JrU3FXbjF0b3Nabmo0akF2Q0R6VDBneDdxaXFzQlM?oc=5\" target=\"_blank\">Factorial, SK On Sign Solid-State Battery MOU</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The EV Report</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Factorial",
+      "SK On",
+      "SK"
+    ],
+    "summary_3_sentences": [
+      "Factorial and SK On have signed a Memorandum of Understanding (MOU) to collaborate on solid-state battery technology.",
+      "This partnership aims to advance the development and potential manufacturing of solid-state batteries.",
+      "The collaboration signifies a joint effort to overcome challenges in bringing solid-state batteries to market."
+    ],
+    "uid": "60a710dd98791579d8b2c176896cff6c149b85e5"
+  },
+  {
+    "title": "Automotive Battery Market Accelerates | Persistence Market Research",
+    "published_at": "2026-07-30",
+    "source": "The Auto Channel",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYl9hczBMOVo1dHp2UV92S1R3Y25sN1A4bW1taHk2RjBOdTdsRDRGZ1JwdlZEZGtaTVNKTmpPUmZFRzJtaG9TUElaeTlfb3Z3cHlQNmZIMUZ4QzZpeWJFejZwTDZWdkEwM2lJOGlHaC1TZF9Ta1pvcnExWkdjY05oLWo1NF9RVnlWWFJpRXlmVlhqWHA2bzgySHk1aTM0ZGxYNkQ1eTRDbzhjQ3FJT25ETGYtRDRFT041U0tkSW5YNDUtOVVxWm50ZkViVEExTFM5NHlFaA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYl9hczBMOVo1dHp2UV92S1R3Y25sN1A4bW1taHk2RjBOdTdsRDRGZ1JwdlZEZGtaTVNKTmpPUmZFRzJtaG9TUElaeTlfb3Z3cHlQNmZIMUZ4QzZpeWJFejZwTDZWdkEwM2lJOGlHaC1TZF9Ta1pvcnExWkdjY05oLWo1NF9RVnlWWFJpRXlmVlhqWHA2bzgySHk1aTM0ZGxYNkQ1eTRDbzhjQ3FJT25ETGYtRDRFT041U0tkSW5YNDUtOVVxWm50ZkViVEExTFM5NHlFaA?oc=5\" target=\"_blank\">Automotive Battery Market Accelerates | Persistence Market Research</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Auto Channel</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 95,
+    "monitor_score": 98,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "The automotive battery market is experiencing significant growth.",
+      "This acceleration is driven by increasing demand for electric vehicles and advancements in battery technology.",
+      "Market research indicates a positive outlook for the automotive battery sector in the coming years."
+    ],
+    "uid": "f45b5a5a734c682790be0b8d691685b3014bbf28"
+  },
+  {
+    "title": "Solid-State Battery July 2026 ： Policy Standardization + Hundred-Ton-Level Production Lines + Semi-Solid Batteries",
+    "published_at": "2026-07-30",
+    "source": "Shanghai Metals Market",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNOXplVDBLOWxSQWEzN1Yyem4zNzlhdUJuWFdBaGRDZWJ1VjJEQk1pMVpicUluSENteGVVLWlUa0VPSWdtOWp5SUx0bjdiVU5CdExCRHpsN0ExWk1Qc25sZEJoVXpITWhrOGJab25PcURNZXNGbDhFdFdDcXd6bUlBMUlTZlpncEdaR0h0ejJNaUk2UENPY1p1VXA2UjBPVVQwWVlSeGlEZkxMU3RyaUl3T2lHVGQ4Z19QX1NlU01sdG92ZkV5dlV3R2dXUWU3MHlta1BRazFLZWNSYWZHbFhMc2haMUZUMTZHT05lQnVoNVBtQQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNOXplVDBLOWxSQWEzN1Yyem4zNzlhdUJuWFdBaGRDZWJ1VjJEQk1pMVpicUluSENteGVVLWlUa0VPSWdtOWp5SUx0bjdiVU5CdExCRHpsN0ExWk1Qc25sZEJoVXpITWhrOGJab25PcURNZXNGbDhFdFdDcXd6bUlBMUlTZlpncEdaR0h0ejJNaUk2UENPY1p1VXA2UjBPVVQwWVlSeGlEZkxMU3RyaUl3T2lHVGQ4Z19QX1NlU01sdG92ZkV5dlV3R2dXUWU3MHlta1BRazFLZWNSYWZHbFhMc2haMUZUMTZHT05lQnVoNVBtQQ?oc=5\" target=\"_blank\">Solid-State Battery July 2026 ： Policy Standardization + Hundred-Ton-Level Production Lines + Semi-Solid Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shanghai Metals Market</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 95,
+    "monitor_score": 98,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "Solid-state battery development is targeting July 2026 for potential advancements.",
+      "Key focus areas include policy standardization, the establishment of hundred-ton-level production lines, and the development of semi-solid batteries.",
+      "These initiatives aim to accelerate the commercialization and mass production of next-generation battery technologies."
+    ],
+    "uid": "4ba3be2a0b9fd7fa1e1d107b48f62b084271b09e"
+  },
+  {
+    "title": "China’s EV Problem: What Happens When Millions of Batteries Die?",
+    "published_at": "2026-07-30",
+    "source": "Inside Climate News",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNEh6Q0dwQW5rNHQwVFMtSUJaalNnZHFGWmtkM2VYdzdDT1ZiMWFJTzN4NXdYOFNDZ1hkaXNwZEQzVWloSnRPVVBfOVJHZlloNlZfRUhqUGFHZ1ZJWWRRM0dnU2ZabjJXVVpvWFpFaGtGQnprSEdjbC1mcV9lLVZ3Smd5RjlPaXVJVHBMbQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQNEh6Q0dwQW5rNHQwVFMtSUJaalNnZHFGWmtkM2VYdzdDT1ZiMWFJTzN4NXdYOFNDZ1hkaXNwZEQzVWloSnRPVVBfOVJHZlloNlZfRUhqUGFHZ1ZJWWRRM0dnU2ZabjJXVVpvWFpFaGtGQnprSEdjbC1mcV9lLVZ3Smd5RjlPaXVJVHBMbQ?oc=5\" target=\"_blank\">China’s EV Problem: What Happens When Millions of Batteries Die?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inside Climate News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "China faces a significant challenge with the end-of-life management of millions of electric vehicle batteries.",
+      "The disposal and recycling of these large volumes of batteries pose environmental and logistical concerns.",
+      "Developing effective solutions for battery recycling and repurposing is crucial for the sustainability of China's EV industry."
+    ],
+    "uid": "4ed5254dc9aee51c799c0de63553365fba37bd91"
+  },
+  {
+    "title": "Factorial Energy and SK On Join Forces to Accelerate Solid-State Battery Manufacturing",
+    "published_at": "2026-07-30",
+    "source": "Electric Cars Report",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaWlJdHJpZWpIVHhUY0pEVExGSENzS2tzbUJycW1mekNCbVVFM0xzSU5IREVtQTlGbEVPSXlvb3lfVVpBMDdpZDBMMlVJZFc0eGl4SXFGcGZucGJXa3dTaEtDbzlXYkFvTXd5dENBT0x6U1d4WjBNMUFhRk53X2pJb0Y3QkJPbi1tdmRZaUdKTVdIVmVFc2FJUWZCcmFYbGFHNDdFaWsyLWlfSHliUmEwZWU4MmxJRkpfemhQWGpWRXMwWlZa?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPaWlJdHJpZWpIVHhUY0pEVExGSENzS2tzbUJycW1mekNCbVVFM0xzSU5IREVtQTlGbEVPSXlvb3lfVVpBMDdpZDBMMlVJZFc0eGl4SXFGcGZucGJXa3dTaEtDbzlXYkFvTXd5dENBT0x6U1d4WjBNMUFhRk53X2pJb0Y3QkJPbi1tdmRZaUdKTVdIVmVFc2FJUWZCcmFYbGFHNDdFaWsyLWlfSHliUmEwZWU4MmxJRkpfemhQWGpWRXMwWlZa?oc=5\" target=\"_blank\">Factorial Energy and SK On Join Forces to Accelerate Solid-State Battery Manufacturing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electric Cars Report</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Factorial Energy",
+      "SK On",
+      "SK"
+    ],
+    "summary_3_sentences": [
+      "Factorial Energy and SK On are joining forces to accelerate the manufacturing of solid-state batteries.",
+      "This partnership aims to combine their strengths to overcome the challenges associated with solid-state battery production.",
+      "The collaboration is expected to speed up the development and commercialization of this advanced battery technology."
+    ],
+    "uid": "c7d7638daecd70a650e68273027a034a39bf22f2"
+  },
+  {
+    "title": "The Firm Behind Stellantis’ Solid-State Cells Just Teamed Up With SK On To Build Them",
+    "published_at": "2026-07-30",
+    "source": "Carscoops",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yR0k5SDRUU0lNYU5rS1Zud09EbGVBWVhnMEZNX1l5VXluWkxKS0d6RUJ0VnNETl9GOVF1TU50NnZBS1NqR2Fad3oxVXZMVXoyY2w4djg2dEFMRzRlcVVTdkhMTW9jZ2V1eldod3NYRQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE0yR0k5SDRUU0lNYU5rS1Zud09EbGVBWVhnMEZNX1l5VXluWkxKS0d6RUJ0VnNETl9GOVF1TU50NnZBS1NqR2Fad3oxVXZMVXoyY2w4djg2dEFMRzRlcVVTdkhMTW9jZ2V1eldod3NYRQ?oc=5\" target=\"_blank\">The Firm Behind Stellantis’ Solid-State Cells Just Teamed Up With SK On To Build Them</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Carscoops</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Stellantis",
+      "SK On",
+      "SK"
+    ],
+    "summary_3_sentences": [
+      "The company responsible for Stellantis' solid-state cells has partnered with SK On for their production.",
+      "This collaboration signifies a move towards the mass manufacturing of solid-state battery technology.",
+      "The partnership is expected to accelerate the deployment of solid-state batteries in electric vehicles."
+    ],
+    "uid": "8ab41b31f0be9f32d086f6bdedd1193cfe86ac68"
+  },
+  {
+    "title": "Factoral Finds A Partner To Mass Produce Solid State EV Batteries",
+    "published_at": "2026-07-30",
+    "source": "Autoguide.com",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNFdmNFlnd2hNQXlGNWZjQmdGTjRMQ0tJRVlXYVRWb3h4OTVjazlPSDk0SHB1eWZYOHkwWmhvNm5iamdhdk1mMjJaS0k4R09PRm1uRjg3R3cyNmRIa05ybnVPUjRIRm5jclZad3VNZkNvLWhIT2RPNHFrSEd2dkptVEtUdlY2ZU53VnZGU3JEMnZIOThhZU5HSm1IOWlwZXlBdnRzY1ZGa2g5U0t4VXlDVzhNUjdnWGlCcWlCZkp1bHN0NG9fZkdB?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNNFdmNFlnd2hNQXlGNWZjQmdGTjRMQ0tJRVlXYVRWb3h4OTVjazlPSDk0SHB1eWZYOHkwWmhvNm5iamdhdk1mMjJaS0k4R09PRm1uRjg3R3cyNmRIa05ybnVPUjRIRm5jclZad3VNZkNvLWhIT2RPNHFrSEd2dkptVEtUdlY2ZU53VnZGU3JEMnZIOThhZU5HSm1IOWlwZXlBdnRzY1ZGa2g5U0t4VXlDVzhNUjdnWGlCcWlCZkp1bHN0NG9fZkdB?oc=5\" target=\"_blank\">Factoral Finds A Partner To Mass Produce Solid State EV Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Autoguide.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Factorial"
+    ],
+    "summary_3_sentences": [
+      "Factorial has secured a partner to facilitate the mass production of solid-state EV batteries.",
+      "This partnership is a significant step towards commercializing Factorial's solid-state battery technology.",
+      "The collaboration aims to scale up production to meet the growing demand for advanced EV batteries."
+    ],
+    "uid": "dd0339a29d123b129fcfe9123bb587200fc16394"
+  },
+  {
+    "title": "BYD Finds A Way To Make Solid-State EV Batteries Last Longer",
+    "published_at": "2026-07-30",
+    "source": "Autoblog",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONVJwZ2k2a2RfeGpfaGZmdkI2TEZkNlBfUWpRbmF5UmlpWUxOOHJUcUg3SGJoRWkyWEp2MFZpZnpfdU5XWTNWVTZzaU9HSkFtdm5ZbXJ6Wmk5SGNTRkZ5MFlCeVBfNl9aREV0VnVkSlp1ZmlOYkhhRTl2RmRWSk1UMmN1dDBmWnpWeHRGZi1BTjkxaktD?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxONVJwZ2k2a2RfeGpfaGZmdkI2TEZkNlBfUWpRbmF5UmlpWUxOOHJUcUg3SGJoRWkyWEp2MFZpZnpfdU5XWTNWVTZzaU9HSkFtdm5ZbXJ6Wmk5SGNTRkZ5MFlCeVBfNl9aREV0VnVkSlp1ZmlOYkhhRTl2RmRWSk1UMmN1dDBmWnpWeHRGZi1BTjkxaktD?oc=5\" target=\"_blank\">BYD Finds A Way To Make Solid-State EV Batteries Last Longer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Autoblog</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 90,
+    "monitor_score": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "BYD"
+    ],
+    "summary_3_sentences": [
+      "BYD has developed a method to enhance the lifespan of solid-state EV batteries.",
+      "This innovation addresses a key challenge in the adoption of solid-state battery technology for electric vehicles.",
+      "The improvement in battery longevity could accelerate the transition to more advanced EV battery solutions."
+    ],
+    "uid": "29c64367fe4af898a293d76be1777e9c3b913bfe"
   },
   {
     "title": "엘앤에프, 美 코어셸 손잡고 모빌리티·방산까지 LFP 영토 확장",
