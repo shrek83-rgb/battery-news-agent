@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-07-31</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-07-31 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMizgFBVV95cUxOSFJ2UUpUbWNOY01NLTJtM1VQVkdad0htSnE0eVQ5U0tubmljNHpjcDNqbHZ5QTY0X0N6eGFLQWNYOU44ZlpIeE9iTUNwQkp6enZiQzhKWnlIRUpNeEVqQTZvZWhoUlJDZFJOQjVmOWlzZXRPang4REdQdkF4MlRiT0FlSTNULXhMYXVLTXptWDI4V1drNWhEUzg3QWt6Nk9Xd2dUU0l2TEdkbUNld3JWX01zOEJKblZhc3JDVW4xZFltc0phU1pHVmF3TUlEdw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Samsung SDI to Start Mass Production of All-Solid-State Batteries in 2027</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Gasgoo</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Samsung SDI</span><span class="chip">SDI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Samsung SDI는 2027년에 전고체 배터리 양산을 시작할 예정입니다.</li><li>이는 기존 리튬이온 배터리의 안전성 문제를 해결하고 차세대 배터리 시장에서의 경쟁력을 강화하기 위한 전략입니다.</li><li>전고체 배터리는 높은 에너지 밀도와 향상된 안전성을 제공하여 전기차 및 에너지 저장 장치 분야에 혁신을 가져올 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMixwFBVV95cUxOcWxxNGo3eW4wdUc4YXRzWkFLVWRTQUZaZVd4alNaN0RKR3FsR1NIS1lUYW9TVDRlY25xc0NHUUlkNTVjZ1pJV3FGa1FBTW1HT0hjeEs3SEFxa0x6Q0plZmhQUFhEdFFHU0NpcHE0WWZhV1dfMkxkbVNkbWtMdVdHdjBuakp0WGhucjNFSGt6SmluZ1F4T3d6VDFxWHpzdW9qVWJkb1ktcG9CVFFtclU0T0FJX3hhdUZzaUxHcjRPeTV2MklIVmF3?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">US and ROK firms explore mass-producing solid-state batteries on existing EV lines</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">interestingengineering.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">US</span><span class="chip">ROK</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국과 한국 기업들이 기존 전기차 생산 라인을 활용하여 전고체 배터리를 대량 생산하는 방안을 모색하고 있습니다.</li><li>이는 전고체 배터리 기술의 상용화를 앞당기고 전기차 산업의 패러다임을 전환할 잠재력을 가지고 있습니다.</li><li>이러한 협력은 차세대 배터리 기술 개발 및 생산 능력 확보 경쟁에서 중요한 진전으로 평가됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=473275" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">차세대 배터리 주도권 확보전… 2차전지(전고체)株 삼성전기 미코 대주...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.pinpointnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">삼성전기</span><span class="chip">미코</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>차세대 전고체 배터리의 상용화 타임라인 단축 소식과 핵심 소재 및 장비 기술 국산화 모멘텀에 힘입어 2차전지(전고체) 테마가 강세를 보이고 있습니다.</li><li>기존 리튬이온 배터리의 화재 위험성을 극복할 수 있는 전고체 배터리에 대한 관심이 높아지고 있습니다.</li><li>삼성전기와 미코 등 관련 기업들의 주가 움직임이 주목받고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQVFdEamxCUVF1Ni1FWmNTS1VwY0ttRmkzSEF1TGJEUW52QTd3TUdKbXBMWGRTOExCTmJoTnRBQVVBWlBlM0ZWOFpwZ0t2ZDg0ZFpxSnIxcy1YM1l0bkdSQ3J5MFBvMFJtR2x6ZTVKTUkyOUx2bzhNVTZGUlBYZWc1YVlJb0ZtTHFNY01BUEdJVEszTzU5eWJSTkVR?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Solid Electrolyte Material for Batteries Market Size, Share, Trend Report 2026 to 2035</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Insightace Analytic</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전고체 배터리용 고체 전해질 소재 시장은 2026년부터 2035년까지의 보고서에 따르면 상당한 성장세를 보일 것으로 예상됩니다.</li><li>이는 전기차 및 에너지 저장 장치 시장의 확대와 차세대 배터리 기술에 대한 수요 증가에 기인합니다.</li><li>고체 전해질 소재는 전고체 배터리의 핵심 구성 요소로서 안전성과 성능 향상에 중요한 역할을 합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNN25KQkpBTDEwR0lmQlJ0cXUtLURncnF2NHpueHQtcFQ5WUZHQTZtTGZUSmE3Z3F4Y3ZHVFNQb1pBU0lSemlsSVBuWmowR2dwOVpnRDRWQ0RDdGJKS05VYmlab0Vjeng2MWFNNHMxZFBvQkJMdW9odkFhZy1RQWdiLURMRUFwMHRJZWhmcWRLU0xGaGk4UkFFXzRVQTZ0d0U?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Factorial, SK On to explore solid-state battery manufacturing</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Evertiq</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Factorial</span><span class="chip">SK On</span><span class="chip">SK</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Factorial과 SK On은 전고체 배터리 제조 분야에서의 협력을 모색하고 있습니다.</li><li>이는 차세대 배터리 기술 개발 및 상용화를 위한 중요한 움직임입니다.</li><li>양사는 이번 협력을 통해 전고체 배터리 생산 역량을 강화하고 시장 경쟁력을 확보하고자 합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxQcnp6NHgyWGM4Zy1YNEpNajFzdXZRaUxRUURFcmZaVEx2SUJMdEJYY0dsN3VZNk84OUxacW1JWHdIYTBLNGpucHhYRnNzel82SzhaX1RySE8zXzNDRU13WWFraldGcXR4MjM0NzM0Qy1mM0V0ZEFYbGxkNlQzcjBvcTIyVkp4c0JlYmQ1VERpTThhWGZmbUxsbnZSYjBxOWd5ZVdhX3dMN0QwYlB4ZkU0Z0FSSXIzWUdEbVNCank5bzBhRmNTT29EdEdaYm9nVXhDSDJyaEpsUE5SbEhDOHh6NHVGQWQwV3A5SVVxUHJSdE1COHV0Z28yeg?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Solid-State Battery: LG Energy Solution Swings to Profit in Q2, Launc</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Shanghai Metals Market</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">LG</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG에너지솔루션은 2분기에 흑자 전환에 성공했으며, 전고체 배터리 출시를 준비하고 있습니다.</li><li>이는 회사의 재무 건전성 회복과 미래 성장 동력 확보를 위한 중요한 성과입니다.</li><li>전고체 배터리 출시는 LG에너지솔루션이 차세대 배터리 시장을 선도하려는 의지를 보여줍니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPdmxkOUxQeEZkMjh1anlLNTJJWWRQOG5lbEhJQ3ZKSmc5NEZWNU5GVy1JMEVRQlVhVWNLMFM4aWtCTGFpdjZScjRMNDZKRTBNYVp0NEkzLVoyRWxJU2o1MlJvRzk4cnZKbm5yUHlxZzhoSG1FRUVnNWl3UDE3WVJmWW5KaHQ1aHZSRmNaXy1DMDZiNHI2NHRDT1FrQnA3Sm9OUHhOTm9kSnliS1BrOGs4?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">All-Solid-State Batteries: Time for a Reality Check</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Gasgoo</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전고체 배터리의 상용화 가능성에 대한 현실적인 검토가 필요한 시점입니다.</li><li>기술적 과제와 생산 비용 등 상용화를 가로막는 요인들을 면밀히 분석해야 합니다.</li><li>이러한 현실적인 평가는 전고체 배터리 기술 개발의 방향성을 설정하는 데 중요한 역할을 할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.ntoday.co.kr/news/articleView.html?idxno=128514" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">나란히 반등한 K-배터리 3사…하반기 성장 기반 다진다</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.ntoday.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">삼성SDI</span><span class="chip">K-배터리</span><span class="chip">나트륨이온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>국내 주요 배터리 3사가 나란히 반등하며 하반기 성장을 위한 기반을 다지고 있습니다.</li><li>ESS 및 UPS용 나트륨이온 배터리 상용화를 가속화하고, 내년 양산을 앞둔 전고체 배터리의 적용 범위를 넓힐 계획입니다.</li><li>삼성SDI는 휴머노이드 기술을 바탕으로 글로벌 시장에서의 경쟁력을 강화할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMkdiOEJ0bHNRaGpOMTRzTE51YXlFRk9YQjI0TGVwRmF5S09YMGkyeTYyWmMxSHNIMXcyQmt3SWdMVkN0T2ZYWEpUMk1YYkhVSGJDR083QWpENVlOa3p5cDVybnZxa201YVIxek9lQ19zcTJZOEk0a3NIWGJaT04wZDFjMVdJU25wVjlTYkY5SDFpbUdtNDFfdnp3WmRCVnFxZlRxbkxsblVDckU?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">EV battery waste threatens to overwhelm China&#x27;s recycling system</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Planetizen</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>중국의 전기차 배터리 폐기물 문제가 심각해지면서 재활용 시스템에 부담을 주고 있습니다.</li><li>급증하는 폐배터리 양은 기존 재활용 시스템의 처리 능력을 초과할 위험이 있습니다.</li><li>이는 지속 가능한 배터리 산업 생태계 구축을 위한 재활용 인프라 확충 및 기술 개발의 시급성을 보여줍니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTkc4dE1fZmVOSWFqVk5ya0s1X2VyQVJaNE91VHYzNzctZ1JGVXBSRFdHSDlscFZMRHF0MHE2dkFyR2lXTnBOVGdvWFZVMm5lUzM0Sk50eXhFUlVJOEtlZFlZVlFDTVJNSmNwQ1U2VXB3YTFkYXZHZ050U2hLS2NXeTFOU0hpcjdtRlFlOWNWNFZYZTZ6VEwzZ1NpOVhQMGZrdEVqcVlvT2V6MzRlcmJFcnJ2U0ZKZzlQQ3JFclJ1R0JKOXhwWEMzdlZXd3NJSTFfbTFYRQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">【SMM analysis】 Lithium Battery Recycling Gains Momentum: Major Projects Accelerate Nationwide</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Shanghai Metals Market</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SMM</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>중국 내에서 리튬 배터리 재활용 사업이 활기를 띠고 있으며, 전국적으로 주요 프로젝트들이 가속화되고 있습니다.</li><li>이는 폐배터리 처리 및 재활용에 대한 수요 증가와 관련 정책 지원에 힘입은 결과입니다.</li><li>이러한 움직임은 자원 순환 경제 구축 및 환경 문제 해결에 기여할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNGtkNlJfV0FPMGVzSDh0R3Ridno4cGhXMVkyQWtkbEVRWjF1Qlo3VWd2Nnd4QjVlblNYUWtWbElnNVdVbjRfc2pYZk9IMzByR0hkeko1OW1QN1hpUnNOVlBTTWZ5d0dYaDNlTXN6TG9nYmVJMnNCRjczcDVVd0hITzlWSkdhWHBla2MtYV9lUXVlV0lWNkxSWmxibWRoVFVBcExjZ0tIVFJrakJTX0FGMHlEeUt3RGV0M3BnRW1mX25TQkotV3dvcDRlRW9LdXJITzVqWTBTdjNkbVhyQVBRQTJmb0tXWWsyLUI4?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[SMM Analysis] Power Battery Recycling Continues to Heat Up, July Construction and Approval Projects Announced</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Shanghai Metals Market</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SMM</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>7월 전력 배터리 재활용 관련 건설 및 승인 프로젝트가 발표되면서 관련 산업이 더욱 활기를 띠고 있습니다.</li><li>이는 폐배터리 재활용 시장의 성장 잠재력과 관련 기업들의 적극적인 투자를 보여줍니다.</li><li>이러한 추세는 배터리 산업의 지속 가능성을 높이는 데 중요한 역할을 할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSFA5bWhQbkNRSVhBM05rRkt0VTM5UlBlZG1jOG1JVXhDekU2eUV2V0JrR213ZWs5ZlBaU2s0WTFaVFg5QTdUekZ6SklsenJaUEwtTVFycVAtVDdmM2Y2UzgwN2Z0ZXBjR3M4cll5ekRzdTkxT3huLXVTMUdwdWVETWxnZk93QUVOM0dpVzdJWWJNTkNMQUhkQnFDc1BGZWFSNGZycVZaTnNQdWs?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Altilium granted UK patent for EV battery recycling process</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">EV Infrastructure News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Altilium</span><span class="chip">UK</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>영국에서 Altilium이 전기차 배터리 재활용 공정에 대한 특허를 획득했습니다.</li><li>이는 혁신적인 재활용 기술 개발을 통해 폐배터리 처리 문제를 해결하려는 노력의 일환입니다.</li><li>이 특허는 향후 전기차 배터리 재활용 산업의 발전에 기여할 것으로 예상됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.job-post.co.kr/news/articleView.html?idxno=222686" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG에너지솔루션, 장중 급락 딛고 보합권 회복…32만원선에서 치열한 공...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.job-post.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG에너지솔루션의 주가는 장중 급락세를 보였으나 보합권으로 회복하며 32만원선에서 치열한 공방을 벌이고 있습니다.</li><li>이는 2차전지 업종 전반의 혼조세를 반영하는 것으로, 단기 상승에 따른 차익 실현 매물과 저가 매수세가 맞서고 있습니다.</li><li>향후 시장의 방향성에 따라 주가 흐름이 결정될 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.job-post.co.kr/news/articleView.html?idxno=222684" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">에코프로, 8만원 회복 눈앞서 숨 고르기…2차전지 투자심리 개선에 10퍼...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.job-post.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">에코프로</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>에코프로 주가가 8만원 회복을 눈앞에 두고 숨 고르기에 들어갔으며, 2차전지 투자 심리 개선에 힘입어 10% 이상 상승했습니다.</li><li>최근 전기차 시장 성장세 둔화 우려가 완화되면서 배터리 산업의 중장기 성장 가능성이 다시 부각되고 있습니다.</li><li>이러한 투자 심리 개선은 관련 종목으로 자금 유입을 촉진하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-07-31</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
