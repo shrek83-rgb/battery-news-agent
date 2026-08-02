@@ -1,5 +1,365 @@
 [
   {
+    "title": "전기차 부진 메운 ESS…K-배터리 회복 신호탄?",
+    "description": "\" 당장은 전기차 부진을 메우는 효자로 떠오른 ESS. 하반기에도 흑자 기조를 이어갈 수 있을지가 K-배터리 회복의 분수령이 될 전망입니다. 연합뉴스TV 이지현입니다. [영상편집 이유리] [그래픽 박혜령]",
+    "link": "http://www.yonhapnewstv.co.kr/news/MYH20260802091200cVo",
+    "source": "www.yonhapnewstv.co.kr",
+    "published_at": "2026-08-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "K-배터리"
+    ],
+    "summary_3_sentences": [
+      "에너지 저장 장치(ESS) 시장이 전기차 판매 부진을 만회하며 K-배터리 기업들의 회복 신호탄이 되고 있습니다.",
+      "하반기에도 ESS 시장의 호조세가 지속될 경우 K-배터리 산업 전반의 회복세가 본격화될 전망입니다.",
+      "이는 배터리 기업들이 사업 다각화를 통해 시장 변동성에 대응하는 능력을 보여주는 사례입니다."
+    ],
+    "uid": "5e59c271c501dfdb9c7ef5087d7e4b95ab057c5e"
+  },
+  {
+    "title": "성균관대, 버려지는 DNA로 차세대 아연배터리 수명 3만회 구현…친환경...",
+    "description": "연구팀은 이번 기술이 폭발 위험이 낮고 가격 경쟁력이 높은 수계 아연 배터리의 상용화를 앞당기는 핵심 기술이 될 것으로 기대하고 있다. 특히 대규모 에너지저장장치(ESS), 스마트그리드, 재생에너지 저장 시스템 등...",
+    "link": "https://www.newstnt.com/news/articleView.html?idxno=712530",
+    "source": "www.newstnt.com",
+    "published_at": "2026-08-02",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.enewstoday.co.kr",
+        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2454853"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 84,
+    "monitoring_importance": 84,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "성균관대",
+      "아연배터리",
+      "재생에너지"
+    ],
+    "summary_3_sentences": [
+      "성균관대 연구팀이 버려지는 DNA를 활용하여 차세대 아연 배터리의 수명을 3만 회까지 구현하는 데 성공했습니다.",
+      "이 기술은 폭발 위험이 낮고 가격 경쟁력이 높은 수계 아연 배터리의 상용화를 앞당길 핵심 기술로 기대됩니다.",
+      "특히 대규모 에너지 저장 장치(ESS), 스마트 그리드, 재생 에너지 저장 시스템 등 다양한 분야에 적용될 수 있습니다."
+    ],
+    "uid": "82dd87a0876f5771db3641be5b451ea62cb32070"
+  },
+  {
+    "title": "K-배터리셀, 작년 美 ESS 시장 점유율 두배↑…“공급망 재편 대응 전략...",
+    "description": "이 같은 상황에서 기업들은 원산지·공급망 규제 강화에 대응해 미국 내 ESS용 배터리 생산거점을 구축하고 현지 공급 기반을 확대하고 있다. 국내 기업인 LG에너지솔루션과 삼성SDI, SK온 등도 현지생산 거점을...",
+    "link": "https://biz.heraldcorp.com/article/10828076?ref=naver",
+    "source": "biz.heraldcorp.com",
+    "published_at": "2026-08-02",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.yna.co.kr",
+        "link": "https://www.yna.co.kr/view/AKR20260801030300003?input=1195m"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "정책",
+    "companies": [
+      "LG에너지솔루션",
+      "삼성SDI",
+      "SK온"
+    ],
+    "summary_3_sentences": [
+      "한국 배터리 셀 제조사들의 미국 에너지 저장 장치(ESS) 시장 점유율이 작년에 두 배로 증가했습니다.",
+      "이는 미국 내 ESS용 배터리 생산 거점 구축 및 현지 공급망 확대 전략의 성공을 보여줍니다.",
+      "LG에너지솔루션, 삼성SDI, SK온 등은 강화되는 원산지 및 공급망 규제에 대응하며 미국 시장 공략을 강화하고 있습니다."
+    ],
+    "uid": "7eb372535bfe3b6dcb0cd7a964f1ec0b6073da59"
+  },
+  {
+    "title": "EcoPro BM to Add Second Hungary Cathode Line in September",
+    "published_at": "2026-08-01",
+    "source": "thelec.net",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KelRhb2pVYmVLMk04MW55ZG9hM29WbVJvYmlJVG1iVVhPNjhERFo3bTFlZWgxOWFKZ0VpQlBRWTNqVlNvWF9VcTl2dHRnWnFQcUZOSjB0blRHQnc0dlEzdzRiR1JVUG8?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KelRhb2pVYmVLMk04MW55ZG9hM29WbVJvYmlJVG1iVVhPNjhERFo3bTFlZWgxOWFKZ0VpQlBRWTNqVlNvWF9VcTl2dHRnWnFQcUZOSjB0blRHQnc0dlEzdzRiR1JVUG8?oc=5\" target=\"_blank\">EcoPro BM to Add Second Hungary Cathode Line in September</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thelec.net</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 70,
+    "monitor_score": 84,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "EcoPro BM",
+      "BM"
+    ],
+    "summary_3_sentences": [
+      "에코프로비엠은 9월 헝가리에 두 번째 양극재 생산 라인을 추가할 예정입니다.",
+      "이번 증설은 유럽 시장에서의 수요 증가에 대응하고 공급망을 강화하기 위한 조치입니다.",
+      "이는 에코프로비엠의 글로벌 배터리 소재 시장에서의 입지를 더욱 공고히 할 것입니다."
+    ],
+    "uid": "1aefceecb329a646887ad09ac0a425ae7e00a923"
+  },
+  {
+    "title": "LG엔솔·삼성SDI·SK온 모두 웃었다…보조금 뺀 경쟁력은 과제",
+    "description": "전기차에 집중됐던 사업구조를 ESS와 고출력 배터리로 넓힌 전략이 공통된 반등 요인으로 꼽힌다. 먼저 LG에너지솔루션은 2분기 매출 7조5602억원, 영업이익 1133억원을 기록했다. 매출은 전 분기보다 15.3% 늘었고...",
+    "link": "https://daily.hankooki.com/news/articleView.html?idxno=1391602",
+    "source": "daily.hankooki.com",
+    "published_at": "2026-08-01",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.ddaily.co.kr",
+        "link": "https://www.ddaily.co.kr/page/view/2026080200212216612"
+      },
+      {
+        "source": "www.youthdaily.co.kr",
+        "link": "https://www.youthdaily.co.kr/news/article.html?no=224266"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "정책",
+    "companies": [
+      "LG에너지솔루션",
+      "삼성SDI",
+      "SK온"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션, 삼성SDI, SK온 등 국내 배터리 기업들이 2분기 실적 반등에 성공했습니다.",
+      "이는 전기차 배터리 외에 에너지 저장 장치(ESS)와 고출력 배터리 사업으로 사업 구조를 다각화한 전략이 주효했던 것으로 분석됩니다.",
+      "하지만 보조금을 제외한 순수 경쟁력 확보는 여전히 과제로 남아있습니다."
+    ],
+    "uid": "cef127f3fcfeb278dab5f71d038447f3a9444f62"
+  },
+  {
+    "title": "American And South Korean Battery Companies Team Up To Make Solid State EV Batteries",
+    "published_at": "2026-08-01",
+    "source": "Yahoo Autos",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdUJqSDF1cThfNGkzRXRDN0I3WVpPY3VFVklMVzRMYmRud2lpRnZYQy1WUW5lT1g5X001dDJmNWFDLTg0V1g0NjF4c3J2eXNSUTl2R3hOamZWalhwUkMwV29XQl9vaW9JOHI1cHZsZlNBa1p3NHBCOW5MeV90VTE2NnR5X2VTTWxCZ1JHT0RrVVF0bXAwdW8zMkNOWjV3bDN5WE8xb1J1MTNxQQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdUJqSDF1cThfNGkzRXRDN0I3WVpPY3VFVklMVzRMYmRud2lpRnZYQy1WUW5lT1g5X001dDJmNWFDLTg0V1g0NjF4c3J2eXNSUTl2R3hOamZWalhwUkMwV29XQl9vaW9JOHI1cHZsZlNBa1p3NHBCOW5MeV90VTE2NnR5X2VTTWxCZ1JHT0RrVVF0bXAwdW8zMkNOWjV3bDN5WE8xb1J1MTNxQQ?oc=5\" target=\"_blank\">American And South Korean Battery Companies Team Up To Make Solid State EV Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Autos</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "미국과 한국의 배터리 기업들이 차세대 고체 상태 전기차 배터리 개발을 위해 협력합니다.",
+      "이번 협력은 고체 상태 배터리 기술의 상용화를 가속화하고 전기차 시장에서의 경쟁력을 강화하는 것을 목표로 합니다.",
+      "양국 기업들은 각자의 기술력과 시장 경험을 결합하여 혁신적인 배터리 솔루션을 선보일 것으로 기대됩니다."
+    ],
+    "uid": "b12cd1686df3334fe32756f4cbd53a8e1c6eb7b6"
+  },
+  {
+    "title": "China’s EV Market Is Booming. There’s Just One Problem",
+    "published_at": "2026-08-01",
+    "source": "WIRED",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKRnVsNEhQRXlRWFZRWndnMnF6Nm4xRzVoajhtUE5HNGFRcjY4UHdGU1VGY2ZOTzBvTUYxelU0Y3pmTW1kakhfN3FVbVVrQk1ybWROdWxZYnU3TVNsY3dNNFZLUEVuUm53Vm1FT2c4RVZoVHM5N0tz?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBKRnVsNEhQRXlRWFZRWndnMnF6Nm4xRzVoajhtUE5HNGFRcjY4UHdGU1VGY2ZOTzBvTUYxelU0Y3pmTW1kakhfN3FVbVVrQk1ybWROdWxZYnU3TVNsY3dNNFZLUEVuUm53Vm1FT2c4RVZoVHM5N0tz?oc=5\" target=\"_blank\">China’s EV Market Is Booming. There’s Just One Problem</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WIRED</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 80,
+    "monitor_score": 84,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "WIRED"
+    ],
+    "summary_3_sentences": [
+      "중국의 전기차 시장은 폭발적으로 성장하고 있지만, 해결해야 할 문제가 존재합니다.",
+      "이 문제는 중국 전기차 시장의 지속 가능한 성장을 저해할 수 있는 요인으로 작용할 수 있습니다.",
+      "중국 정부와 업계는 이러한 문제를 해결하기 위한 방안을 모색하고 있습니다."
+    ],
+    "uid": "e9c02a5992f4b3cf068c3d7fafa54caa4c1739f1"
+  },
+  {
+    "title": "Scientists left water inside a battery and nearly doubled its power",
+    "published_at": "2026-08-01",
+    "source": "ScienceDaily",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1BQ0ZVcGdjU1ZBbzZsY1oyTm1ZVF9TTTZTMzlaWmM5WTNGZEFIT1RmMXVWd1pvZE1iU3NBemZ6d3h5QVZORjJrUUhOSlpLYUQwdUxLQlNheXk1UXZOdEpZbTY1VC1vUVJWOWtQeENTYw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1BQ0ZVcGdjU1ZBbzZsY1oyTm1ZVF9TTTZTMzlaWmM5WTNGZEFIT1RmMXVWd1pvZE1iU3NBemZ6d3h5QVZORjJrUUhOSlpLYUQwdUxLQlNheXk1UXZOdEpZbTY1VC1vUVJWOWtQeENTYw?oc=5\" target=\"_blank\">Scientists left water inside a battery and nearly doubled its power</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ScienceDaily</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 70,
+    "monitor_score": 84,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "과학자들이 배터리 내부에 물을 첨가하여 전력 용량을 거의 두 배로 늘리는 데 성공했습니다.",
+      "이 기술은 기존 배터리의 에너지 밀도를 획기적으로 향상시킬 잠재력을 가지고 있습니다.",
+      "이는 차세대 배터리 기술 개발에 새로운 가능성을 제시합니다."
+    ],
+    "uid": "f5e74a4033f1cb5be4fc17c335f0d8c3d90775ff"
+  },
+  {
+    "title": "Dragonfly Energy Adds Dakota Lithium to Its Battery Brand Portfolio",
+    "published_at": "2026-08-01",
+    "source": "RV PRO",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZW8zLWhZdFVVSTVINlNkOXUzeUl2ZG8ybmJpUDV5SDQ5dUY0RzJKTThMZkdLalRJZVY2WnJFSW9UQmNmd1dEMmFjbUlIdldTbjJWQmxoNnQ0NXg0azdtSHFRRXgtTDExMXZqOUtGOGxuN01oc0pBTzY3VW51bWtDY196a3dMT2R2akdrSUU1UDUwQjN5ek9F?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNZW8zLWhZdFVVSTVINlNkOXUzeUl2ZG8ybmJpUDV5SDQ5dUY0RzJKTThMZkdLalRJZVY2WnJFSW9UQmNmd1dEMmFjbUlIdldTbjJWQmxoNnQ0NXg0azdtSHFRRXgtTDExMXZqOUtGOGxuN01oc0pBTzY3VW51bWtDY196a3dMT2R2akdrSUU1UDUwQjN5ek9F?oc=5\" target=\"_blank\">Dragonfly Energy Adds Dakota Lithium to Its Battery Brand Portfolio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RV PRO</font>",
+    "provider": "google",
+    "related_links": [
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVF9IYU9MSXhNU2trbjlqcTVDMzdLakJrSHJpd000b0FTa2dLbTl3dHZOSEVkbHZiOGVsOFNMc2pjVGVSbklzVEVjTUhHYXluSmlDXzR3NDMxejJuOGZKYTRCUGE4UFhtQXZqM1NlRWx6N1JrUTBvLU4tMHJBMU5XMUppWXZWcjZSTW8yTkZsNEo?oc=5"
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 80,
+    "monitoring_importance": 60,
+    "monitor_score": 74,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Dragonfly Energy",
+      "Dakota Lithium",
+      "RV"
+    ],
+    "summary_3_sentences": [
+      "Dragonfly Energy는 Dakota Lithium을 배터리 브랜드 포트폴리오에 추가했습니다.",
+      "이번 인수는 Dragonfly Energy의 배터리 사업 확장 및 시장 경쟁력 강화 전략의 일환입니다.",
+      "이를 통해 Dragonfly Energy는 다양한 고객 요구에 부응하는 폭넓은 배터리 솔루션을 제공할 수 있게 되었습니다."
+    ],
+    "uid": "a9942426201e7944d2f8b30dbcbbd99c2e8c6b7c"
+  },
+  {
+    "title": "ProLogium And Translational Development Acquisition Corp. Announce $50 Million Committed Primary Capital Investment",
+    "published_at": "2026-08-01",
+    "source": "Pulse 2.0",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbWNfbGxxTHFhTFgtSl9vV29pWTd2MlBhb0hRRHhiMHBRanB2Q1NYVU5oTXQ0TzcyRzVxREprby1QZ2wxOGJTX3ZRVnZOd3F5amZtdFU0YlMycm1Dd25YMnBuNl9aaG81RjJmZkZxYW5NNlBqRVRaVi1Xc0E2ZFJXVUlxVGtpOWlHZkwxVzVzSkxhVW9BdlRSVGpiak51SHZMU1c1T25YVllzeFFid0dVamVfbUI5V2JjM3JRQ0hhOGxKdWFjZHpzb0t0UUdyd9IB0wFBVV95cUxNQmtOa1gya2EtUDBLeDdqYVM4YWp2Z2ZKQlhBT3U3VDFlWWNWLWJxd3haX3I0TTZ3dlRwcXNZV0tPV21YbXVMRTZlc3JFV1Rwek1naEFBMVFTVDNQeFBzS1VDQlp3T0FyaE5Tekc2bzFkSTZ2NC0ycFVoVjJ6Y0xLSm00WmpPZFhzalI4dTJXU1dOdl9rSzlaVmFxTjJhR3hRc0tNMkQ4SHl2UnFsQTZHN0FzSGFfWU5mbTB0ZW5DVWdxWXFxejdZQi1SSkt2dXdKdms4?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNbWNfbGxxTHFhTFgtSl9vV29pWTd2MlBhb0hRRHhiMHBRanB2Q1NYVU5oTXQ0TzcyRzVxREprby1QZ2wxOGJTX3ZRVnZOd3F5amZtdFU0YlMycm1Dd25YMnBuNl9aaG81RjJmZkZxYW5NNlBqRVRaVi1Xc0E2ZFJXVUlxVGtpOWlHZkwxVzVzSkxhVW9BdlRSVGpiak51SHZMU1c1T25YVllzeFFid0dVamVfbUI5V2JjM3JRQ0hhOGxKdWFjZHpzb0t0UUdyd9IB0wFBVV95cUxNQmtOa1gya2EtUDBLeDdqYVM4YWp2Z2ZKQlhBT3U3VDFlWWNWLWJxd3haX3I0TTZ3dlRwcXNZV0tPV21YbXVMRTZlc3JFV1Rwek1naEFBMVFTVDNQeFBzS1VDQlp3T0FyaE5Tekc2bzFkSTZ2NC0ycFVoVjJ6Y0xLSm00WmpPZFhzalI4dTJXU1dOdl9rSzlaVmFxTjJhR3hRc0tNMkQ4SHl2UnFsQTZHN0FzSGFfWU5mbTB0ZW5DVWdxWXFxejdZQi1SSkt2dXdKdms4?oc=5\" target=\"_blank\">ProLogium And Translational Development Acquisition Corp. Announce $50 Million Committed Primary Capital Investment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pulse 2.0</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "ProLogium",
+      "Translational Development Acquisition Corp"
+    ],
+    "summary_3_sentences": [
+      "ProLogium과 Translational Development Acquisition Corp.은 5천만 달러 규모의 초기 자본 투자를 발표했습니다.",
+      "이번 투자는 ProLogium의 차세대 배터리 기술 개발 및 생산 능력 확대를 지원할 예정입니다.",
+      "이는 전기차 및 에너지 저장 장치 시장에서 ProLogium의 입지를 강화하는 중요한 계기가 될 것입니다."
+    ],
+    "uid": "d68be507b258b9a26322719c9fe1de4297e2aa32"
+  },
+  {
+    "title": "Ilika showed commercial progress in Stereax and Goliath solid-state battery businesses - ICYMI",
+    "published_at": "2026-08-01",
+    "source": "Proactive financial news",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPXzlqTjluQWhhOGVzM21vVGtIOEh6X0F6eFZxX0FYczNROTUwcU5CUUlraUtqWlFyaWRUMUdHbEFjVDRLTE5GZHVnNEQ5aUMzOHluanRIR2lZbi1xQlVTZkN1RVNnQS1fSE1ISEx5eEgweS1Rckt0NHlvQ19keFhuMXJiYVhqclp2M2oyaFZZR25QTVhhUFdVU3doWHhJdDhkY2pFLUJ6SDlydHJnWlVtLTM2VzBVa3JMcHJ2Rm5BUjVBc1pyQ0c0dVc0R3RiNmRMZlNKMEZOQlVEWDZCMnI2aXExQm9lWllVYllpeFVzMk9ZSFRZdHc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxPXzlqTjluQWhhOGVzM21vVGtIOEh6X0F6eFZxX0FYczNROTUwcU5CUUlraUtqWlFyaWRUMUdHbEFjVDRLTE5GZHVnNEQ5aUMzOHluanRIR2lZbi1xQlVTZkN1RVNnQS1fSE1ISEx5eEgweS1Rckt0NHlvQ19keFhuMXJiYVhqclp2M2oyaFZZR25QTVhhUFdVU3doWHhJdDhkY2pFLUJ6SDlydHJnWlVtLTM2VzBVa3JMcHJ2Rm5BUjVBc1pyQ0c0dVc0R3RiNmRMZlNKMEZOQlVEWDZCMnI2aXExQm9lWllVYllpeFVzMk9ZSFRZdHc?oc=5\" target=\"_blank\">Ilika showed commercial progress in Stereax and Goliath solid-state battery businesses - ICYMI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Proactive financial news</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 75,
+    "monitor_score": 89,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Ilika",
+      "ICYMI"
+    ],
+    "summary_3_sentences": [
+      "Ilika는 Stereax 및 Goliath 전고체 배터리 사업에서 상업적 진전을 이루었다고 발표했습니다.",
+      "이는 Ilika의 전고체 배터리 기술이 상용화 단계에 가까워지고 있음을 시사합니다.",
+      "회사는 이러한 성과를 바탕으로 차세대 배터리 시장에서의 경쟁력을 강화할 것으로 예상됩니다."
+    ],
+    "uid": "75718df5dabd0a09f228f356413bff70ff4e08e7"
+  },
+  {
+    "title": "HIZENERGY Enters Global Top Tier with BloombergNEF Tier 1 Listing",
+    "published_at": "2026-08-01",
+    "source": "PR Newswire - Energy",
+    "link": "https://www.prnewswire.com/news-releases/hizenergy-enters-global-top-tier-with-bloombergnef-tier-1-listing-302840558.html",
+    "description": "<p>HEFEI, China, Aug. 1, 2026 /PRNewswire/ -- On 31 July 2026, BloombergNEF (BNEF), the world's leading energy research institute, released its Q3 2026 Energy Storage Tier 1 Manufacturer List. Founded merely four years ago in China, HIZENERGY has secured a spot on this prestigious list,...</p>",
+    "provider": "rss",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 80,
+    "monitoring_importance": 65,
+    "monitor_score": 76,
+    "tier": 1,
+    "category": "기타",
+    "companies": [
+      "HIZENERGY",
+      "BloombergNEF",
+      "HEFEI"
+    ],
+    "summary_3_sentences": [
+      "HIZENERGY는 설립 4년 만에 BloombergNEF(BNEF)의 2026년 3분기 에너지 저장 장치 Tier 1 제조업체 목록에 이름을 올렸습니다.",
+      "이는 HIZENERGY가 글로벌 에너지 저장 시장에서 최상위권으로 진입했음을 의미합니다.",
+      "이 목록은 에너지 저장 장치 제조업체의 기술력, 시장 점유율, 재무 건전성 등을 종합적으로 평가하여 선정됩니다."
+    ],
+    "uid": "67e17139472e4412c4cb24a64cd515051e9f4355"
+  },
+  {
+    "title": "What Is A Silicon Carbon Battery And Is It The Answer To Smartphone Battery Life Issues?",
+    "published_at": "2026-08-01",
+    "source": "Engadget",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeGFvRjFhY0t0WWo2ZU05bERSMVUzcG81SkhYdWFVTllsMGdJZ1VUb3NsRktvNXZSZ2huZ242NHdyYmpWZUJxNW0zNWg5bWZhSWRmQm80TVdZa2J2X3lCc2FzT0hTeUgtQmJvT0ZqaEp0c1d1SEUxYXdsM25FYWFvLTNsOVVPQkU?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOeGFvRjFhY0t0WWo2ZU05bERSMVUzcG81SkhYdWFVTllsMGdJZ1VUb3NsRktvNXZSZ2huZ242NHdyYmpWZUJxNW0zNWg5bWZhSWRmQm80TVdZa2J2X3lCc2FzT0hTeUgtQmJvT0ZqaEp0c1d1SEUxYXdsM25FYWFvLTNsOVVPQkU?oc=5\" target=\"_blank\">What Is A Silicon Carbon Battery And Is It The Answer To Smartphone Battery Life Issues?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Engadget</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 70,
+    "monitor_score": 84,
+    "tier": 3,
+    "category": "anode",
+    "companies": [],
+    "summary_3_sentences": [
+      "실리콘-탄소 배터리는 스마트폰 배터리 수명 문제를 해결할 수 있는 대안으로 주목받고 있습니다.",
+      "이 배터리 기술은 기존 리튬이온 배터리보다 높은 에너지 밀도와 긴 수명을 제공할 수 있습니다.",
+      "실리콘-탄소 배터리의 상용화는 모바일 기기 및 기타 전자 제품의 성능 향상에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "27554e8f321c6dd3966d268267791de9d8079aba"
+  },
+  {
+    "title": "Lithium Prices Recover From July Decline While Battery ETF Rebounds",
+    "published_at": "2026-08-01",
+    "source": "Brave New Coin",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWEIxa3NkTGlTQkoxeDB3RVVPU0tRWXJpc0RfY2ZkTWx3cUpCRXJCaDg2SUR1R1RwWXE0ZkxUb01hUUxfZGJwREF1RUo1U05YbjUtcHNLNGotWkJYWXpJT2Z5NWVKOWFselBLVFZOQS1wN25KWDFuVkMwbkNyOEFOUTJVRlpmWFRiV3R4WFVuZk5NUjBKcTdBU1V0Z21tbC1TNEE4?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPWEIxa3NkTGlTQkoxeDB3RVVPU0tRWXJpc0RfY2ZkTWx3cUpCRXJCaDg2SUR1R1RwWXE0ZkxUb01hUUxfZGJwREF1RUo1U05YbjUtcHNLNGotWkJYWXpJT2Z5NWVKOWFselBLVFZOQS1wN25KWDFuVkMwbkNyOEFOUTJVRlpmWFRiV3R4WFVuZk5NUjBKcTdBU1V0Z21tbC1TNEE4?oc=5\" target=\"_blank\">Lithium Prices Recover From July Decline While Battery ETF Rebounds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Brave New Coin</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 80,
+    "monitor_score": 84,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "ETF"
+    ],
+    "summary_3_sentences": [
+      "리튬 가격이 7월 하락세에서 회복세를 보이고 있으며, 배터리 상장지수펀드(ETF)도 반등했습니다.",
+      "이는 배터리 산업 전반에 대한 투자 심리가 개선되고 있음을 나타냅니다.",
+      "리튬 가격의 안정화는 배터리 생산 비용 절감에 긍정적인 영향을 미칠 수 있습니다."
+    ],
+    "uid": "8d78e2a6ac35877d2879fd1a8346156c253517d3"
+  },
+  {
     "title": "차세대 배터리 주도권 확보전… 2차전지(전고체)株 삼성전기 미코 대주...",
     "description": "2차전지(전고체) 테마가 31일 차세대 전고체 배터리 상용화 타임라인 단축 소식과 핵심 소재 및 장비 기술 국산화 모멘텀에 힘입어 전일 대비 8.83% 상승하며 강세를 나타내고 있다. 기존 리튬이온 배터리의 화재 위험성을...",
     "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=473275",
