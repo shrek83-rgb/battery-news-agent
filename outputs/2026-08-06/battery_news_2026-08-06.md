@@ -1,0 +1,202 @@
+# 배터리 뉴스 데일리 브리핑 (2026-08-06 전날 기준)
+
+- 총 15건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 전고체 | 2026-08-06 | MotorTrend | We Keep Hearing About Solid-State Batteries. Here’s What’s Actually Coming First. | https://news.google.com/rss/articles/CBMieEFVX3lxTE1MYXZObG9GRW1GOTBkeWd0cF9OYWRfa3ZsVzRUNjFCTHRDM1o3TGhmSERxNUYxZ0VROFlVd1dodkNuUnRfdGY3Y25GYjhFSHhGS1U0R3BGWGlDZzQwbFpwdVo0VERfaTlRMnppRzFMUVdrQndVc21RMg?oc=5 | unknown |
+| 2 | 3 | cathode | 2026-08-06 | CarNewsChina.com | BYD files six solid-state battery patents, eyes 2027 production with dual-electrolyte cathode cells | https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUlgxM3Y1MlVfYmVYdVNBbF80Vy11ZGtDVWN1X2p1X2FJeWlXdEFSRGFVOFFRNHcxNk9hRk1sYjFLTloyeHVUdVhxeXdqVC1OWDlUc2hNWmxveXBGSEpvcGpEcXZPdHJ3aV8xVGtyS19GSGFaSkxqb0cwR2dJWXJDUmNvUERUVXh3NUtscnlqbXhxODNtNDFLSFFvejBkc3REcHVpaS1HdEtOaEhPN1dFRjVIZXJoS1Rkc0pEc0hwM1BOUzV6RG1uem5mVk9qZHlH?oc=5 | unknown |
+| 3 | 3 | 나트륨 | 2026-08-06 | Battery Technology | CATL achieves sodium-ion battery mass production | https://news.google.com/rss/articles/CBMiygFBVV95cUxOOVRUVllRdmtrSVdYYWE1QXRSdU5jb0NyNVNWSWQ5VENtWE9oU0lDMVhmTFh3NUhrODF6b0YwVkE2NTBsVVdRc2Vya1pMNm4xWFBSbmxIMVBYWW1FWmRrUHdCd2ZuMkNibGZKVGI1eDhDdVJrZW1nblpNNEF6Y215ZDRsbFFUV1NuRDEwUVhZOElJMXlEUkQ4anRrUjJKa0JnaWNiNFZBS0pNOW1aOW1peXlpWkxXUXNqU2psVmtrbjV6eUEyVXA3cUtn?oc=5 | unknown |
+| 4 | 3 | 기타 | 2026-08-06 | einnews.com | German Company ALGATEC Develops Lithium-Free Battery Technology Targeting 1,000 Wh/kg Energy Density | https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSlUwS3VUUFI2V0hyNzZiRDM4UkVFSGRMbEZ5a0F0VXktSDYteldONENqd2N3UGl2RlZiNnlfU3NIYlk3ZC1ZZk1qQkpPOHhBdG11SktGYWVUaVV4OEt1Y05ibzh4VHh1WEwyX0NGTFNLdlVIbEZfSXhXdWtQY2pGUnZhZzNfYUpfS0N1b0xlTHRxcnd4R0kyaDFIeDFBN3VfZy1DOXJDNlROQ01OTTZYUDZ2R3F2NlZPeUF1Q3Q3UURfSkhaRjM2cXJYUDFySXdMSW8zR0tVdlJNZw?oc=5 | unknown |
+| 5 | 3 | 전고체 | 2026-08-06 | Shanghai Metals Market | Solid-State Battery: Sinocera Materials Constructs Automated Producti | https://news.google.com/rss/articles/CBMi_AFBVV95cUxNWlJLNHJxTDFZYlIyckN0c0lWN0JHYklteDRzbmxCM1dWaHdOTUMxMUFMdzdwd1FobXNTVFR0NEcyX3VISnRfWkQtOEJlSTJhMUdyMFZnbHhfSnFqNHlCblZXNlY4dGNHdnE5ekJHRGFnT0xVVzdfYjQ2Z3hJb1lKMHhkRE9zNFg5MGc5QmVqeFpxY3RjaXVZSUpQT1BXYngxajItNFZJWVZUZ1d1Qko4OFljQzJlTzh1c0tZejdUR2czcHJneHJ4UGFoNXhDcFpZTGQzRnBqNU9xbUp2eFpaaUFPMXZKMHpZeWVDOEw4VkxiRjYwbkFHYnlBNHA?oc=5 | unknown |
+| 6 | 3 | 전고체 | 2026-08-06 | Shanghai Metals Market | Solid-State Battery: Crown Advanced Materials Completes Client Sample | https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMjhCby10WnV5V0Q5LXZ5X3A3R3I4bUJ0dS1GajFoZ0pWUjZVai1sXzVYOTR4b3JXUEpVWE9OZFpHbFNlQXRVYnk1WWdnYXJuMVdjUEJndDhyWjhfQy1lYl9JTTVrVlNvMnRzVm8zTHBOYlVTWmxCbFQ1SW5oLXVQd3VQTEpnLW9XMGhIX0U2UjUwX19Na3lzazJGLWJOOE83dEE5MG5ORENBQnNwOGVIM25mR0JIenIxMFNhckRjTEMydXpiRmxlUnQwZmpfNlN5ZWNvMW00TUJNd08ydjhhTjVDVlNuR3dHeDJpWFQ1NFp5WWl3SkVBdHUtVQ?oc=5 | unknown |
+| 7 | 3 | 전고체 | 2026-08-06 | Shanghai Metals Market | China's First Sulphide All-Solid-State Real-Vehicle Road Test Completed, 30 Gwh-Class Projects Intensively Implemented [SMM Solid-State Battery Weekly Analysis] | https://news.google.com/rss/articles/CBMi_AFBVV95cUxOS1pqcER2eW5DZHY1d054RlMySjBkOF9keThQY1pCcHBTMGZYd0RNVG5uZmNkWUI0UlR4YlVlOTI1Q29sRlFDODByOC1oSjhKbmdPMkVRc1NnRkcxZzhYdVNZSzlWd05QNnJVRXg1YnVEZXRxQWpQQy1xVDVEbWpGbVN4Q1pLYUFnT19uVDVjYWpibGFkVDlROGt6bUJnMWdLaW9EdXNKOElrNkYyNmxzMnNabXFHaXZfajItbkNTVFJsQVc4SkctYmlsSnN0cWdmTThqVThhWWFvN1VSRlBxT19hemdIdi1ob2UyWU5QMlg5RENwR2pwcVQ3N1Y?oc=5 | unknown |
+| 8 | 3 | cathode | 2026-08-06 | www.biztribune.co.kr | 포스코퓨처엠, LFP 양극재 사업 본궤도… 국내 배터리사와 19만톤 공급 ... | http://www.biztribune.co.kr/news/articleView.html?idxno=357103 | unknown |
+| 9 | 3 | electrolyte | 2026-08-06 | www.thelec.kr | 에코프로비엠, 전고체 고체 전해질 '슈퍼 을' 선정 | https://www.thelec.kr/news/articleView.html?idxno=60649 | unknown |
+| 10 | 3 | cathode | 2026-08-06 | Interesting Engineering | 97.9% efficiency, 1,000+ cycles: New sodium-ion battery tech skips mechanical cooling | https://news.google.com/rss/articles/CBMifkFVX3lxTE5DdjNDeFVteG45QU9OLTA0U0xFOVFyQlpmelFpNUJYMGpWdWtsOWtuWUg4SXQ4WmZ2S1FhekptcEt3Ty1MVHFzN05tbG1rVE14UGprbVZmcHdFRDdybFExY1BQcmtzeUdybF9ycEVqcjdPWE1jYnRCd2pMQWFtZw?oc=5 | unknown |
+| 11 | 3 | 나트륨 | 2026-08-06 | The Cool Down | New sodium-ion batteries could make city EVs, winter driving, and backup power cheaper | https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmpkeHZwSDBlbGF4TU1UNHhDbk51emdicUFYNTN3VUtLaVZ0YjBUZTZ0YjVGcENrcmRzWVRDdTF3OWluUGktTTRqWUxFSHdjeHp6RWMza3JHT0R4a3BEUEgzbGhXdkVKQUVIZVZwUU13bHY5LXA0Z2RWQ0V3bHgzd3FiSmxhQXFjR2d1MmVnamZWUVVoSkE?oc=5 | unknown |
+| 12 | 3 | 나트륨 | 2026-08-06 | Procopio | Energy Technology Client UNIGRID Expands Sodium-Ion Battery Systems Into Europe and Prepares for U.S. Launch | https://news.google.com/rss/articles/CBMibkFVX3lxTFBjaFM0cFJCNlZOOEhPUHk0UlZfV2pUNFVUTGpFVU44U0RldkdxYjRJQW5rb0lXNW54TmtWV29DOV9hVi1FVUx3RXFEbjI2ai1WcWN0dTJNX29vdU1Xdl9TMXhrTHhiQjZycFlPOVlB?oc=5 | unknown |
+| 13 | 3 | cathode | 2026-08-07 | www.smartbizn.com | 상반기 매출 1위 LG엔솔·영업익 1위 SK온···하반기 배터리 3사 기상도 | https://www.smartbizn.com/news/articleView.html?idxno=150654 | unknown |
+| 14 | 3 | cathode | 2026-08-07 | www.newsis.com | 캐즘 넘는 배터리 소재…포스코퓨처엠 LFP 공급부터 에코프로비엠 전고... | https://www.newsis.com/view/NISX20260807_0003740174 | unknown |
+| 15 | 3 | 전고체 | 2026-08-07 | www.pinpointnews.co.kr | 전고체 배터리株 질주…동화기업 상한가에 삼성SDI 강세 | https://www.pinpointnews.co.kr/news/articleView.html?idxno=475205 | unknown |
+
+## 상세 요약
+
+### 1. We Keep Hearing About Solid-State Batteries. Here’s What’s Actually Coming First.
+- 발행일: 2026-08-06
+- 매체: MotorTrend (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMieEFVX3lxTE1MYXZObG9GRW1GOTBkeWd0cF9OYWRfa3ZsVzRUNjFCTHRDM1o3TGhmSERxNUYxZ0VROFlVd1dodkNuUnRfdGY3Y25GYjhFSHhGS1U0R3BGWGlDZzQwbFpwdVo0VERfaTlRMnppRzFMUVdrQndVc21RMg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리에 대한 기대감이 높지만, 실제로 시장에 먼저 출시될 제품은 다른 기술을 기반으로 할 가능성이 있습니다.
+  - 이는 전고체 배터리 기술의 상용화가 아직 초기 단계에 있으며, 기존 기술의 개선이나 새로운 형태의 배터리가 먼저 소비자에게 다가갈 수 있음을 시사합니다.
+  - 따라서 전고체 배터리의 상용화 시점과 실제 시장 출시 제품에 대한 지속적인 관심이 필요합니다.
+
+### 2. BYD files six solid-state battery patents, eyes 2027 production with dual-electrolyte cathode cells
+- 발행일: 2026-08-06
+- 매체: CarNewsChina.com (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUlgxM3Y1MlVfYmVYdVNBbF80Vy11ZGtDVWN1X2p1X2FJeWlXdEFSRGFVOFFRNHcxNk9hRk1sYjFLTloyeHVUdVhxeXdqVC1OWDlUc2hNWmxveXBGSEpvcGpEcXZPdHJ3aV8xVGtyS19GSGFaSkxqb0cwR2dJWXJDUmNvUERUVXh3NUtscnlqbXhxODNtNDFLSFFvejBkc3REcHVpaS1HdEtOaEhPN1dFRjVIZXJoS1Rkc0pEc0hwM1BOUzV6RG1uem5mVk9qZHlH?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - BYD는 6건의 전고체 배터리 관련 특허를 출원하며 기술 개발에 박차를 가하고 있습니다.
+  - 이 회사는 2027년까지 이중 전해질 양극재를 사용하는 전고체 배터리 생산을 목표로 하고 있습니다.
+  - 이는 BYD가 차세대 배터리 시장에서 경쟁 우위를 확보하려는 전략의 일환으로 해석됩니다.
+- 관련 기업: BYD
+
+### 3. CATL achieves sodium-ion battery mass production
+- 발행일: 2026-08-06
+- 매체: Battery Technology (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMiygFBVV95cUxOOVRUVllRdmtrSVdYYWE1QXRSdU5jb0NyNVNWSWQ5VENtWE9oU0lDMVhmTFh3NUhrODF6b0YwVkE2NTBsVVdRc2Vya1pMNm4xWFBSbmxIMVBYWW1FWmRrUHdCd2ZuMkNibGZKVGI1eDhDdVJrZW1nblpNNEF6Y215ZDRsbFFUV1NuRDEwUVhZOElJMXlEUkQ4anRrUjJKa0JnaWNiNFZBS0pNOW1aOW1peXlpWkxXUXNqU2psVmtrbjV6eUEyVXA3cUtn?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - CATL이 나트륨 이온 배터리의 대량 생산에 성공했습니다.
+  - 이는 기존 리튬 이온 배터리를 대체할 수 있는 새로운 배터리 기술의 상용화 가능성을 보여줍니다.
+  - 나트륨 이온 배터리는 저렴한 비용과 풍부한 원료라는 장점을 가지고 있어 향후 배터리 시장에 큰 영향을 미칠 것으로 예상됩니다.
+- 관련 기업: CATL
+
+### 4. German Company ALGATEC Develops Lithium-Free Battery Technology Targeting 1,000 Wh/kg Energy Density
+- 발행일: 2026-08-06
+- 매체: einnews.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSlUwS3VUUFI2V0hyNzZiRDM4UkVFSGRMbEZ5a0F0VXktSDYteldONENqd2N3UGl2RlZiNnlfU3NIYlk3ZC1ZZk1qQkpPOHhBdG11SktGYWVUaVV4OEt1Y05ibzh4VHh1WEwyX0NGTFNLdlVIbEZfSXhXdWtQY2pGUnZhZzNfYUpfS0N1b0xlTHRxcnd4R0kyaDFIeDFBN3VfZy1DOXJDNlROQ01OTTZYUDZ2R3F2NlZPeUF1Q3Q3UURfSkhaRjM2cXJYUDFySXdMSW8zR0tVdlJNZw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 독일의 ALGATEC은 리튬을 사용하지 않는 새로운 배터리 기술을 개발했습니다.
+  - 이 기술은 1,000 Wh/kg의 높은 에너지 밀도를 목표로 하며, 기존 배터리 기술의 한계를 극복할 잠재력을 가지고 있습니다.
+  - 리튬 의존도를 낮추고 친환경적인 배터리 개발에 기여할 것으로 기대됩니다.
+- 관련 기업: ALGATEC
+
+### 5. Solid-State Battery: Sinocera Materials Constructs Automated Producti
+- 발행일: 2026-08-06
+- 매체: Shanghai Metals Market (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMi_AFBVV95cUxNWlJLNHJxTDFZYlIyckN0c0lWN0JHYklteDRzbmxCM1dWaHdOTUMxMUFMdzdwd1FobXNTVFR0NEcyX3VISnRfWkQtOEJlSTJhMUdyMFZnbHhfSnFqNHlCblZXNlY4dGNHdnE5ekJHRGFnT0xVVzdfYjQ2Z3hJb1lKMHhkRE9zNFg5MGc5QmVqeFpxY3RjaXVZSUpQT1BXYngxajItNFZJWVZUZ1d1Qko4OFljQzJlTzh1c0tZejdUR2czcHJneHJ4UGFoNXhDcFpZTGQzRnBqNU9xbUp2eFpaaUFPMXZKMHpZeWVDOEw4VkxiRjYwbkFHYnlBNHA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Sinocera Materials는 전고체 배터리 생산을 위한 자동화 설비를 구축했습니다.
+  - 이는 전고체 배터리 상용화를 위한 중요한 단계로, 생산 효율성과 품질 향상을 기대할 수 있습니다.
+  - 회사는 전고체 배터리 시장에서의 경쟁력을 강화하기 위해 노력하고 있습니다.
+- 관련 기업: Sinocera Materials
+
+### 6. Solid-State Battery: Crown Advanced Materials Completes Client Sample
+- 발행일: 2026-08-06
+- 매체: Shanghai Metals Market (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMjhCby10WnV5V0Q5LXZ5X3A3R3I4bUJ0dS1GajFoZ0pWUjZVai1sXzVYOTR4b3JXUEpVWE9OZFpHbFNlQXRVYnk1WWdnYXJuMVdjUEJndDhyWjhfQy1lYl9JTTVrVlNvMnRzVm8zTHBOYlVTWmxCbFQ1SW5oLXVQd3VQTEpnLW9XMGhIX0U2UjUwX19Na3lzazJGLWJOOE83dEE5MG5ORENBQnNwOGVIM25mR0JIenIxMFNhckRjTEMydXpiRmxlUnQwZmpfNlN5ZWNvMW00TUJNd08ydjhhTjVDVlNuR3dHeDJpWFQ1NFp5WWl3SkVBdHUtVQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Crown Advanced Materials는 고객에게 전고체 배터리 샘플을 성공적으로 제공했습니다.
+  - 이는 회사가 전고체 배터리 기술 개발에서 상당한 진전을 이루었음을 나타냅니다.
+  - 향후 상용화를 위한 중요한 발판을 마련한 것으로 평가됩니다.
+- 관련 기업: Crown Advanced Materials
+
+### 7. China's First Sulphide All-Solid-State Real-Vehicle Road Test Completed, 30 Gwh-Class Projects Intensively Implemented [SMM Solid-State Battery Weekly Analysis]
+- 발행일: 2026-08-06
+- 매체: Shanghai Metals Market (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMi_AFBVV95cUxOS1pqcER2eW5DZHY1d054RlMySjBkOF9keThQY1pCcHBTMGZYd0RNVG5uZmNkWUI0UlR4YlVlOTI1Q29sRlFDODByOC1oSjhKbmdPMkVRc1NnRkcxZzhYdVNZSzlWd05QNnJVRXg1YnVEZXRxQWpQQy1xVDVEbWpGbVN4Q1pLYUFnT19uVDVjYWpibGFkVDlROGt6bUJnMWdLaW9EdXNKOElrNkYyNmxzMnNabXFHaXZfajItbkNTVFJsQVc4SkctYmlsSnN0cWdmTThqVThhWWFvN1VSRlBxT19hemdIdi1ob2UyWU5QMlg5RENwR2pwcVQ3N1Y?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국에서 최초로 황화물계 전고체 배터리를 탑재한 실제 차량의 도로 주행 시험이 완료되었습니다.
+  - 또한, 30GWh 규모의 전고체 배터리 프로젝트들이 집중적으로 추진되고 있습니다.
+  - 이는 중국이 전고체 배터리 기술 개발 및 상용화에 속도를 내고 있음을 보여줍니다.
+- 관련 기업: SMM
+
+### 8. 포스코퓨처엠, LFP 양극재 사업 본궤도… 국내 배터리사와 19만톤 공급 ...
+- 발행일: 2026-08-06
+- 매체: www.biztribune.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: http://www.biztribune.co.kr/news/articleView.html?idxno=357103
+- 참고 링크: https://www.ajunews.com/view/20260807100606634, https://www.wolyo.co.kr/news/articleView.html?idxno=316150
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코퓨처엠은 LFP 양극재 사업을 본격화하며 국내 배터리사와 19만 톤 규모의 공급 계약을 체결했습니다.
+  - 이는 포스코그룹이 확보한 리튬 자원과 연계된 공급망을 바탕으로 중국 중심의 LFP 시장에서 경쟁력을 확보하려는 전략입니다.
+  - LFP 배터리가 에너지 저장 장치(ESS) 시장의 핵심 소재로 자리 잡을 것으로 예상됨에 따라, 포스코퓨처엠의 사업 확대가 주목됩니다.
+- 관련 기업: 포스코퓨처엠, 포스코그룹, LFP
+
+### 9. 에코프로비엠, 전고체 고체 전해질 '슈퍼 을' 선정
+- 발행일: 2026-08-06
+- 매체: www.thelec.kr (출처등급 3)
+- 분야: electrolyte
+- 링크: https://www.thelec.kr/news/articleView.html?idxno=60649
+- 참고 링크: https://www.ddaily.co.kr/page/view/2026080617504744023
+- 인기신호: unknown
+- 3문장 요약:
+  - 에코프로비엠이 산업통상자원부의 '제3기 슈퍼 을 프로젝트' 지원 대상으로 선정되었습니다.
+  - 이 프로젝트는 전고체 배터리의 핵심 소재인 황화물계 고체 전해질 개발을 지원합니다.
+  - 에코프로비엠은 이 사업을 통해 전고체 배터리 분야에서의 기술 경쟁력을 강화할 것으로 기대됩니다.
+- 관련 기업: 에코프로비엠, 산업통상자원부
+
+### 10. 97.9% efficiency, 1,000+ cycles: New sodium-ion battery tech skips mechanical cooling
+- 발행일: 2026-08-06
+- 매체: Interesting Engineering (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMifkFVX3lxTE5DdjNDeFVteG45QU9OLTA0U0xFOVFyQlpmelFpNUJYMGpWdWtsOWtuWUg4SXQ4WmZ2S1FhekptcEt3Ty1MVHFzN05tbG1rVE14UGprbVZmcHdFRDdybFExY1BQcmtzeUdybF9ycEVqcjdPWE1jYnRCd2pMQWFtZw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 새로운 나트륨 이온 배터리 기술은 97.9%의 효율성과 1,000회 이상의 사이클 수명을 제공합니다.
+  - 이 기술은 기계적인 냉각 시스템 없이도 작동하여 에너지 효율성을 높입니다.
+  - 이는 도시형 전기차, 겨울철 주행, 백업 전력 시스템 등에 활용되어 비용 절감 효과를 가져올 수 있습니다.
+
+### 11. New sodium-ion batteries could make city EVs, winter driving, and backup power cheaper
+- 발행일: 2026-08-06
+- 매체: The Cool Down (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmpkeHZwSDBlbGF4TU1UNHhDbk51emdicUFYNTN3VUtLaVZ0YjBUZTZ0YjVGcENrcmRzWVRDdTF3OWluUGktTTRqWUxFSHdjeHp6RWMza3JHT0R4a3BEUEgzbGhXdkVKQUVIZVZwUU13bHY5LXA0Z2RWQ0V3bHgzd3FiSmxhQXFjR2d1MmVnamZWUVVoSkE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 새로운 나트륨 이온 배터리 기술은 도시형 전기차, 겨울철 주행, 백업 전력 시스템의 비용을 절감할 수 있습니다.
+  - 이 배터리는 기존 리튬 이온 배터리에 비해 저렴한 비용과 풍부한 원료 접근성을 제공합니다.
+  - 이는 전기차 보급 확대와 에너지 저장 시스템의 경제성 향상에 기여할 것으로 예상됩니다.
+
+### 12. Energy Technology Client UNIGRID Expands Sodium-Ion Battery Systems Into Europe and Prepares for U.S. Launch
+- 발행일: 2026-08-06
+- 매체: Procopio (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFBjaFM0cFJCNlZOOEhPUHk0UlZfV2pUNFVUTGpFVU44U0RldkdxYjRJQW5rb0lXNW54TmtWV29DOV9hVi1FVUx3RXFEbjI2ai1WcWN0dTJNX29vdU1Xdl9TMXhrTHhiQjZycFlPOVlB?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - UNIGRID는 유럽 시장에 나트륨 이온 배터리 시스템을 확장하고 미국 출시를 준비하고 있습니다.
+  - 이는 UNIGRID가 글로벌 시장에서 나트륨 이온 배터리 기술의 채택을 늘리려는 전략을 보여줍니다.
+  - 회사는 에너지 저장 솔루션 분야에서 입지를 강화하고 있습니다.
+- 관련 기업: UNIGRID
+
+### 13. 상반기 매출 1위 LG엔솔·영업익 1위 SK온···하반기 배터리 3사 기상도
+- 발행일: 2026-08-07
+- 매체: www.smartbizn.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.smartbizn.com/news/articleView.html?idxno=150654
+- 인기신호: unknown
+- 3문장 요약:
+  - 상반기 매출 1위는 LG에너지솔루션, 영업이익 1위는 SK온이 차지했습니다.
+  - 하반기에는 삼성SDI의 영업이익이 감소할 것으로 예상되며, 국내 ESS 공급과 미국 LFP 배터리 생산 확대가 주요 변수가 될 것입니다.
+  - 배터리 3사는 소듐이온 및 전고체 배터리 등 차세대 제품 개발에도 힘쓰고 있습니다.
+- 관련 기업: LG엔솔, SK온, 삼성SDI
+
+### 14. 캐즘 넘는 배터리 소재…포스코퓨처엠 LFP 공급부터 에코프로비엠 전고...
+- 발행일: 2026-08-07
+- 매체: www.newsis.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.newsis.com/view/NISX20260807_0003740174
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 배터리 소재 기업들이 기존 삼원계(NCM) 중심에서 벗어나 LFP와 전고체 배터리 등 차세대 시장 선점에 속도를 내고 있습니다.
+  - 포스코퓨처엠은 최근 국내 배터리 업체와 LFP 공급 계약을 체결하며 사업을 본격화했습니다.
+  - 이는 배터리 소재 시장의 변화와 함께 새로운 기술 개발 및 시장 확보 노력이 중요해지고 있음을 보여줍니다.
+- 관련 기업: 포스코퓨처엠, 에코프로비엠, LFP
+
+### 15. 전고체 배터리株 질주…동화기업 상한가에 삼성SDI 강세
+- 발행일: 2026-08-07
+- 매체: www.pinpointnews.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=475205
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리 테마가 강세를 보이며 동화기업은 상한가를 기록하고 삼성SDI도 강세를 나타내고 있습니다.
+  - 전고체 배터리는 높은 에너지 밀도와 안전성을 바탕으로 차세대 배터리 시장의 핵심 기술로 평가받고 있습니다.
+  - 글로벌 완성차 업체와 배터리 기업 간의 상용화 경쟁이 치열해지면서 관련 기술 및 기업에 대한 관심이 높아지고 있습니다.
+- 관련 기업: 동화기업, 삼성SDI
