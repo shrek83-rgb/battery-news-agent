@@ -1,0 +1,265 @@
+# 배터리 뉴스 데일리 브리핑 (2026-08-07 전날 기준)
+
+- 총 20건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 기타 | 2026-08-07 | GlobeNewswire | Lithium-Ion Battery Materials Market Report 2026: Global Opportunities and Revenue Outlook to 2030 | https://news.google.com/rss/articles/CBMigwJBVV95cUxQZWFjZXpCSjNNWkszNkppOGhlUDAwTGU0LUltdTY4Wi1EQlNQaFlCeGFUcFlvOG9KMFE1UE5MMkRYZDk1V3BYNllsRWQwWUNTTzNfMEtZRGpOYzZSZXFwaFlVTWVTU2xWNW1OVDFCYnc0bzZRcHljUm9rUTNaMURaWC1DV1hobVB5WWxSYVRyTFpnZHBQUjJjbFZheWZmdUNaaFZzbDNRWkZmX0s3NE9sZ0poQ0lvbEg1em9KUWVzSDg3WDRuUlc1S3V1VXJCdXo3YmctY005M3hkSUlfdmkxcEVySHFBeWRIR1I3SmNJUHM1b0N0N3ZFajNxU3BpRF9naTlR?oc=5 | unknown |
+| 2 | 3 | 기타 | 2026-08-07 | Battery Technology | Battery Market Analysis: $300B Industry Growth Forecast to 2035 | https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQlBJOW1kcG1NRzFLZDRKclZyWUliZklvS1cwOW1Wc1NFTENSRGpxWG5lRkxrSUJVZ25qSndYVHV5ekFydzhtSFdia1ZRNVBqdnFOWnRTdmNDR2tIYllpOG1vSzBvZkdOSjlRUzF1VXNWV1RoVkdmemRDUkdvb2RqeTlPODRSa1dxWFBUZ1BLaHJCNkZBbWR0cnJDS3RjT0JocTV1Zjk4MVJFUEdzTUhlOFhjTTJyeXhDQWtXMGdFeGx0eHpuVVhSOTZIVmM1MTdFU05zQw?oc=5 | unknown |
+| 3 | 3 | cathode | 2026-08-07 | www.pinpointnews.co.kr | 글로벌 셀 업체 차세대 양극재 뚫었나… 엘앤에프, 대형 공급 계약에 '시... | https://www.pinpointnews.co.kr/news/articleView.html?idxno=475337 | unknown |
+| 4 | 3 | cathode | 2026-08-07 | biz.heraldcorp.com | 배터리 소재 3사, LFP·NCM 전략 재정비 잰걸음…하반기 승부수 [비즈360... | https://biz.heraldcorp.com/article/10833705?ref=naver | unknown |
+| 5 | 3 | cathode | 2026-08-07 | www.newsis.com | 캐즘 넘는 배터리 소재…포스코퓨처엠 LFP 공급부터 에코프로비엠 전고... | https://www.newsis.com/view/NISX20260807_0003740174 | unknown |
+| 6 | 3 | cathode | 2026-08-07 | www.ddaily.co.kr | K-양극재, LFP 양극재 출하 초읽기…탈중국 ESS 수요 정조준 [배터리레이... | https://www.ddaily.co.kr/page/view/2026080714460844746 | unknown |
+| 7 | 3 | cathode | 2026-08-07 | www.sentv.co.kr | 포스코퓨처엠, LFP 수주 물꼬…양·음극재 패키지 통할까 | https://www.sentv.co.kr/article/view/sentv202608070097 | unknown |
+| 8 | 3 | cathode | 2026-08-07 | www.updownnews.co.kr | LFP 시장 뚫었다...포스코퓨처엠, 배터리사 장기공급으로 북미 ESS 수요 ... | http://www.updownnews.co.kr/news/articleView.html?idxno=318301 | unknown |
+| 9 | 3 | 나트륨 | 2026-08-07 | Baton Rouge Business Report | Could sodium-ion batteries break China's stranglehold on battery manufacturing? | https://news.google.com/rss/articles/CBMitwFBVV95cUxObUVrMmpnemFTTDFiazFWMm45WWQ4UmFIYnNFQkRyY1lmZmN2ekxJX1RqMDNmd3pkQ2NFTGNGZERZWTZJVEQyUUtNQmRwTVkweFd5S0l4cmEwaGJoWWR6WEl5dk9LeDEtNG4tUzZNbG5sZkFWSTdPaWlhRG1kMmlqaVVTNk04MTJQeUZhWWIzcXFRa0x4VV82RFQ1UGQ4UXNrT21wSU4wVEk4ZTBPeXpKLTVMOHZiMmPSAb8BQVVfeXFMTURMekRFYzdUT3hEREEtUE9DSzdpYjFfOVdMLUVXVmJYQnY3cFJSdFJHRUZsZmo0c1BZRGdzS0I4RktkNUQ0MVdQUjRmOVY2TWJyWGFUTVg3alY2eGlPU3IxcXNyTlBjbGpIZDVPRXc4MTdoVDR4bV8yX0ZtU3BuaVNUUERYbUdlNmhiVXppM0tMNU1EM0ZtdTBYWF9SVUc1RXNYdzJnSkY1RW02b3VvNzdqMUZBUnN5b082SjFQWk0?oc=5 | unknown |
+| 10 | 3 | 전고체 | 2026-08-07 | electrive.com | BYD files six more solid-state battery patents | https://news.google.com/rss/articles/CBMijAFBVV95cUxNbzFuaHpJODdqN3oxYlFYbzdKZ1dRMWpzTkgyVS1UVEVLQ0kzdXUxUlJUWFd6R0d0WWh3WFZ2bFRhbTcwMnpoZTJzTHNwb0otOWpyYlFITGdhQTlENTJSLVY5cW5wUVhqZHNnLVBMMC1sSDY0cVRURzF3Sm5KTjEzWXlVNU9NbVNiRGM2ZA?oc=5 | unknown |
+| 11 | 3 | cathode | 2026-08-07 | Charged EVs | Altilium secures a patent for its EcoCathode battery recycling process | https://news.google.com/rss/articles/CBMipgFBVV95cUxPWTlXZXU3OFVRa3FGZEdEc0o0ZnRHdG1wbm1NcGNlUHpVNjdWOERGc2YyOHZRTDZ0WjBqQ1Bya2tRcFUycDNIZzIyYVhQX1lQTVVwNkNIREE3NlhNeUxVTmQxZ0dQc3RMV2FhR3FMTk1rN242cW03MUJWc3pfNXNrcC02WjBiLTV4aTBtMDNUd2xwaDVxY3c1SlJ2VUhydnpuR2tzMTRB?oc=5 | unknown |
+| 12 | 3 | anode | 2026-08-07 | Mining Weekly | Pure Lithium granted Australian patent for its lithium metal anode tech, battery | https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnhqSEZyLXJEMDRRV1djaXU3azJNaHdsVV8zdVVMNVpDX2E1WXptM1piZU9JbTR6OWdUTVp0Z0Fwc0xTUHR4YUtHeFJCTElJS05hd2VRazhja2dlbVE5SDA2UjFZZkNMTmVJXzEzNHVIay1jc3RQMUp2enhOcmRVUXVRZ2lmRjNNZEE2aU56NF9oTFNmR1NOWGd5ZFBMeEhtNlQ0QWxwUFRKQXROcGs3X0pfdGlyZVpFaldSVTlvUFZDVW05Unc?oc=5 | unknown |
+| 13 | 3 | electrolyte | 2026-08-07 | ArenaEV | BYD bets on dual-electrolyte solid-state battery tech, to start production next year - ArenaEV | https://news.google.com/rss/articles/CBMikwFBVV95cUxNLUhXdGd3WlJvQkVrSG5HbGszakpVRWhIVFFoMHRlZFdsX1J2NjFqQVduU1dCdE9uWWR0N2hCdE9vZFpIUmlKSGRMUWFaTVBjX1haeHpBZG1BNlYzbXA3SnR4ZlBVc1NYcUNEdnBWUjdvMGt4LVJiaHdVdkJQQTNKTUU4U0ZtUFBQZVRwSjVOUTdVeTTSAY8BQVVfeXFMUGV1MW5OdkN2ZEhEQmFydWNYcjhqU3B1Q1NON0psWnFVcF9ZR2VDMUo1TFlQbkNfdEM2TEh4N2NWaGtFbGltclZERDlsclg1eUtDdjZVekJwNmZfY3B1cTlkWUpSVlZjcFRLaWlXa0FsdWdHMHhFNW5xRllBODUtQkJMN19wWjJHQVN1WFVqQ3M?oc=5 | unknown |
+| 14 | 3 | 기타 | 2026-08-07 | Interesting Engineering | Altilium’s patented hydromet technology reduces EV battery material costs by 20% | https://news.google.com/rss/articles/CBMiwgFBVV95cUxPT2JEQlNGMTZUMzdrZTc0VHRxQVdXdl9MVzhxSDJtNG5kazB1TGJIQTJkQ1VMamtyTnA5dy00eENSY3NWRXhMczd1UGRBWk13WGJnWnRkRTltWk5vdnYzODZNNUFJcEFPcWFZNE9kbFlsclRCVGhPNmNER21qb2E5b2pNWDdaRGc2WW9XWnZsVXRzdE5ROVpnOWc1U1RWMGw5R3p3UnJPbE9fWjlNLXZXa1lXTmFWU3pnQW1HUVlVa2c4UQ?oc=5 | unknown |
+| 15 | 3 | cathode | 2026-08-07 | thelec.net | POSCO Future M Agrees 190,000-Ton LFP Cathode Deal | https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XZHQ0enNIOGJJcXRsLTFyWEJWcnFocXctTF9feVFiRnI5WC15VGEzTUZGbWpGcXZyX0VBS2dWWXRXeE1KYXN6X0M0bjRjaFA1em1WbDZiS0ozVlVoNWRwZ1dCRGEyRlU?oc=5 | unknown |
+| 16 | 3 | cathode | 2026-08-08 | www.sisajournal-e.com | 하이니켈 라인까지 바꾼다···양극재업계 LFP 양산전 | https://www.sisajournal-e.com/news/articleView.html?idxno=422962 | unknown |
+| 17 | 3 | cathode | 2026-08-08 | www.sisajournal-e.com | '하이니켈에 LFP'···양극재 '투트랙' 전략 본격화 | https://www.sisajournal-e.com/news/articleView.html?idxno=422944 | unknown |
+| 18 | 3 | cathode | 2026-08-08 | www.getnews.co.kr | K-배터리 소재의 반격… 포스코퓨처엠, LFP 양극재 19만톤 잭팟 | https://www.getnews.co.kr/news/articleView.html?idxno=877353 | unknown |
+| 19 | 3 | cathode | 2026-08-08 | www.wowtv.co.kr | LFP 양극재 시장 뚫은 포스코퓨처엠…'원가 경쟁' 승부수 | http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202608070470&t=NN | unknown |
+| 20 | 3 | electrolyte | 2026-08-07 | WSJ | China-Free Batteries Made From Salt Are Finally Here | https://news.google.com/rss/articles/CBMiowFBVV95cUxPUlhCZjVIankxWTZETEJJbVlTLUszS0xVTW8yUlF0cW9nOGNnRDBBSTVDOGU2OVJhRXhEMWp5OWlQanprUXFWcWs5ZkdndTJsb2tpNzlBZWt5aG4zeThSLWdIeEE3U1Y0bTEwNXBsdElDaUJpRmRQZHFSamkxRUF0cmU5TVkyQUo0THRnTWJCWlRFaHMyQ3NSWGR4cUJtbW1lS2I0?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. Lithium-Ion Battery Materials Market Report 2026: Global Opportunities and Revenue Outlook to 2030
+- 발행일: 2026-08-07
+- 매체: GlobeNewswire (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMigwJBVV95cUxQZWFjZXpCSjNNWkszNkppOGhlUDAwTGU0LUltdTY4Wi1EQlNQaFlCeGFUcFlvOG9KMFE1UE5MMkRYZDk1V3BYNllsRWQwWUNTTzNfMEtZRGpOYzZSZXFwaFlVTWVTU2xWNW1OVDFCYnc0bzZRcHljUm9rUTNaMURaWC1DV1hobVB5WWxSYVRyTFpnZHBQUjJjbFZheWZmdUNaaFZzbDNRWkZmX0s3NE9sZ0poQ0lvbEg1em9KUWVzSDg3WDRuUlc1S3V1VXJCdXo3YmctY005M3hkSUlfdmkxcEVySHFBeWRIR1I3SmNJUHM1b0N0N3ZFajNxU3BpRF9naTlR?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 2026년 리튬이온 배터리 소재 시장 보고서가 발표되었습니다.
+  - 이 보고서는 2030년까지의 글로벌 기회와 수익 전망을 다룹니다.
+  - 이는 배터리 소재 시장의 성장과 동향을 파악하는 데 중요한 자료가 될 것입니다.
+
+### 2. Battery Market Analysis: $300B Industry Growth Forecast to 2035
+- 발행일: 2026-08-07
+- 매체: Battery Technology (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQlBJOW1kcG1NRzFLZDRKclZyWUliZklvS1cwOW1Wc1NFTENSRGpxWG5lRkxrSUJVZ25qSndYVHV5ekFydzhtSFdia1ZRNVBqdnFOWnRTdmNDR2tIYllpOG1vSzBvZkdOSjlRUzF1VXNWV1RoVkdmemRDUkdvb2RqeTlPODRSa1dxWFBUZ1BLaHJCNkZBbWR0cnJDS3RjT0JocTV1Zjk4MVJFUEdzTUhlOFhjTTJyeXhDQWtXMGdFeGx0eHpuVVhSOTZIVmM1MTdFU05zQw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 배터리 시장 분석 보고서에 따르면, 2035년까지 3000억 달러 규모의 산업 성장이 예측됩니다.
+  - 이는 배터리 기술의 발전과 수요 증가를 반영하는 수치입니다.
+  - 향후 배터리 산업의 성장 가능성을 보여주는 중요한 전망입니다.
+
+### 3. 글로벌 셀 업체 차세대 양극재 뚫었나… 엘앤에프, 대형 공급 계약에 '시...
+- 발행일: 2026-08-07
+- 매체: www.pinpointnews.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=475337
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 셀 업체들이 차세대 양극재 개발에 성공했는지 여부가 주목받고 있습니다.
+  - 엘앤에프는 대형 공급 계약 체결 소식에 상승세를 보이고 있으며, SK이노베이션, 강원에너지도 오름세를 이끌고 있습니다.
+  - 삼성SDI, LG전자, LG화학 등 주요 배터리 관련 기업들도 매수세를 보이고 있습니다.
+- 관련 기업: 엘앤에프, SK이노베이션, 강원에너지
+
+### 4. 배터리 소재 3사, LFP·NCM 전략 재정비 잰걸음…하반기 승부수 [비즈360...
+- 발행일: 2026-08-07
+- 매체: biz.heraldcorp.com (출처등급 3)
+- 분야: cathode
+- 링크: https://biz.heraldcorp.com/article/10833705?ref=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - 배터리 소재 3사가 LFP 및 NCM 전략 재정비에 나서고 있습니다.
+  - 엘앤에프와 포스코퓨처엠은 북미 ESS 시장 공략에 집중하고 있으며, 에코프로비엠은 삼원계 양극재와 전고체 배터리 소재에 집중하고 있습니다.
+  - 이는 하반기 시장 경쟁에서 승부를 보기 위한 전략으로 풀이됩니다.
+- 관련 기업: 엘앤에프, 포스코퓨처엠, 에코프로비엠
+
+### 5. 캐즘 넘는 배터리 소재…포스코퓨처엠 LFP 공급부터 에코프로비엠 전고...
+- 발행일: 2026-08-07
+- 매체: www.newsis.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.newsis.com/view/NISX20260807_0003740174
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 배터리 소재 기업들이 기존 삼원계(NCM) 중심에서 벗어나 LFP 및 전고체 배터리 시장 선점에 속도를 내고 있습니다.
+  - 포스코퓨처엠은 최근 국내 배터리 업체와 협력하여 LFP 시장 공략에 나서고 있습니다.
+  - 이는 차세대 배터리 시장에서의 경쟁 우위를 확보하기 위한 움직임입니다.
+- 관련 기업: 포스코퓨처엠, 에코프로비엠, LFP
+
+### 6. K-양극재, LFP 양극재 출하 초읽기…탈중국 ESS 수요 정조준 [배터리레이...
+- 발행일: 2026-08-07
+- 매체: www.ddaily.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.ddaily.co.kr/page/view/2026080714460844746
+- 인기신호: unknown
+- 3문장 요약:
+  - 양극재 판매 가격 상승과 분리막 출하 확대로 전지소재 매출이 증가했으며, 전자소재 신제품 양산으로 흑자 전환했습니다.
+  - 에코프로비엠은 주요 고객사의 출하 정체와 북미 ESS 물량 이원화 등의 영향으로 실적에 영향을 받았습니다.
+  - 이는 배터리 소재 기업들의 실적 변동성과 시장 상황을 보여줍니다.
+- 관련 기업: 에코프로비엠, 전지소재, 전자소재
+
+### 7. 포스코퓨처엠, LFP 수주 물꼬…양·음극재 패키지 통할까
+- 발행일: 2026-08-07
+- 매체: www.sentv.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.sentv.co.kr/article/view/sentv202608070097
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코퓨처엠이 배터리 업체와 내년부터 2032년까지 6년간 19만 톤 이상의 LFP 양극재를 공급하는 계약을 합의했습니다.
+  - 3분기 중 정식 계약이 체결될 예정이며, 다른 대형 고객사와도 협의가 진행 중입니다.
+  - 이는 급증하는 북미 ESS 시장 수요에 대응하기 위한 움직임입니다.
+- 관련 기업: 포스코퓨처엠, LFP
+
+### 8. LFP 시장 뚫었다...포스코퓨처엠, 배터리사 장기공급으로 북미 ESS 수요 ...
+- 발행일: 2026-08-07
+- 매체: www.updownnews.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: http://www.updownnews.co.kr/news/articleView.html?idxno=318301
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코퓨처엠이 국내 배터리사와 대규모 LFP 양극재 공급에 합의하며 북미 ESS 시장 공략을 가속화합니다.
+  - 이는 현지 생산 시설 전환과 독자적인 원가 구조를 결합하여 경쟁력을 확보하려는 전략입니다.
+  - LFP 시장 진출을 통해 포스코퓨처엠의 성장이 기대됩니다.
+- 관련 기업: 포스코퓨처엠, LFP
+
+### 9. Could sodium-ion batteries break China's stranglehold on battery manufacturing?
+- 발행일: 2026-08-07
+- 매체: Baton Rouge Business Report (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMitwFBVV95cUxObUVrMmpnemFTTDFiazFWMm45WWQ4UmFIYnNFQkRyY1lmZmN2ekxJX1RqMDNmd3pkQ2NFTGNGZERZWTZJVEQyUUtNQmRwTVkweFd5S0l4cmEwaGJoWWR6WEl5dk9LeDEtNG4tUzZNbG5sZkFWSTdPaWlhRG1kMmlqaVVTNk04MTJQeUZhWWIzcXFRa0x4VV82RFQ1UGQ4UXNrT21wSU4wVEk4ZTBPeXpKLTVMOHZiMmPSAb8BQVVfeXFMTURMekRFYzdUT3hEREEtUE9DSzdpYjFfOVdMLUVXVmJYQnY3cFJSdFJHRUZsZmo0c1BZRGdzS0I4RktkNUQ0MVdQUjRmOVY2TWJyWGFUTVg3alY2eGlPU3IxcXNyTlBjbGpIZDVPRXc4MTdoVDR4bV8yX0ZtU3BuaVNUUERYbUdlNmhiVXppM0tMNU1EM0ZtdTBYWF9SVUc1RXNYdzJnSkY1RW02b3VvNzdqMUZBUnN5b082SjFQWk0?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 나트륨 이온 배터리가 중국의 배터리 제조 독점을 깰 수 있을지 주목받고 있습니다.
+  - 이는 중국 의존도를 낮추고 새로운 배터리 기술 개발을 촉진할 가능성을 시사합니다.
+  - 차세대 배터리 기술 개발 동향을 파악하는 데 중요한 질문입니다.
+
+### 10. BYD files six more solid-state battery patents
+- 발행일: 2026-08-07
+- 매체: electrive.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMijAFBVV95cUxNbzFuaHpJODdqN3oxYlFYbzdKZ1dRMWpzTkgyVS1UVEVLQ0kzdXUxUlJUWFd6R0d0WWh3WFZ2bFRhbTcwMnpoZTJzTHNwb0otOWpyYlFITGdhQTlENTJSLVY5cW5wUVhqZHNnLVBMMC1sSDY0cVRURzF3Sm5KTjEzWXlVNU9NbVNiRGM2ZA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - BYD가 6건의 전고체 배터리 관련 특허를 추가로 출원했습니다.
+  - 이는 BYD가 전고체 배터리 기술 개발에 적극적으로 투자하고 있음을 보여줍니다.
+  - 향후 전고체 배터리 시장에서의 BYD의 경쟁력 강화가 예상됩니다.
+- 관련 기업: BYD
+
+### 11. Altilium secures a patent for its EcoCathode battery recycling process
+- 발행일: 2026-08-07
+- 매체: Charged EVs (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMipgFBVV95cUxPWTlXZXU3OFVRa3FGZEdEc0o0ZnRHdG1wbm1NcGNlUHpVNjdWOERGc2YyOHZRTDZ0WjBqQ1Bya2tRcFUycDNIZzIyYVhQX1lQTVVwNkNIREE3NlhNeUxVTmQxZ0dQc3RMV2FhR3FMTk1rN242cW03MUJWc3pfNXNrcC02WjBiLTV4aTBtMDNUd2xwaDVxY3c1SlJ2VUhydnpuR2tzMTRB?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Altilium이 EcoCathode 배터리 재활용 공정에 대한 특허를 확보했습니다.
+  - 이 기술은 배터리 재활용 효율성을 높이고 비용을 절감하는 데 기여할 것으로 기대됩니다.
+  - 이는 지속 가능한 배터리 산업 생태계 구축에 긍정적인 영향을 미칠 것입니다.
+- 관련 기업: Altilium
+
+### 12. Pure Lithium granted Australian patent for its lithium metal anode tech, battery
+- 발행일: 2026-08-07
+- 매체: Mining Weekly (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnhqSEZyLXJEMDRRV1djaXU3azJNaHdsVV8zdVVMNVpDX2E1WXptM1piZU9JbTR6OWdUTVp0Z0Fwc0xTUHR4YUtHeFJCTElJS05hd2VRazhja2dlbVE5SDA2UjFZZkNMTmVJXzEzNHVIay1jc3RQMUp2enhOcmRVUXVRZ2lmRjNNZEE2aU56NF9oTFNmR1NOWGd5ZFBMeEhtNlQ0QWxwUFRKQXROcGs3X0pfdGlyZVpFaldSVTlvUFZDVW05Unc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Pure Lithium이 리튬 금속 음극재 및 배터리 기술에 대한 호주 특허를 획득했습니다.
+  - 이는 Pure Lithium의 혁신적인 배터리 기술 개발 역량을 입증하는 결과입니다.
+  - 향후 배터리 성능 향상 및 신기술 개발에 기여할 것으로 기대됩니다.
+- 관련 기업: Pure Lithium
+
+### 13. BYD bets on dual-electrolyte solid-state battery tech, to start production next year - ArenaEV
+- 발행일: 2026-08-07
+- 매체: ArenaEV (출처등급 3)
+- 분야: electrolyte
+- 링크: https://news.google.com/rss/articles/CBMikwFBVV95cUxNLUhXdGd3WlJvQkVrSG5HbGszakpVRWhIVFFoMHRlZFdsX1J2NjFqQVduU1dCdE9uWWR0N2hCdE9vZFpIUmlKSGRMUWFaTVBjX1haeHpBZG1BNlYzbXA3SnR4ZlBVc1NYcUNEdnBWUjdvMGt4LVJiaHdVdkJQQTNKTUU4U0ZtUFBQZVRwSjVOUTdVeTTSAY8BQVVfeXFMUGV1MW5OdkN2ZEhEQmFydWNYcjhqU3B1Q1NON0psWnFVcF9ZR2VDMUo1TFlQbkNfdEM2TEh4N2NWaGtFbGltclZERDlsclg1eUtDdjZVekJwNmZfY3B1cTlkWUpSVlZjcFRLaWlXa0FsdWdHMHhFNW5xRllBODUtQkJMN19wWjJHQVN1WFVqQ3M?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - BYD가 듀얼 전해질 전고체 배터리 기술에 투자하며 내년부터 생산을 시작할 계획입니다.
+  - 이는 BYD의 차세대 배터리 기술 개발 의지를 보여줍니다.
+  - 향후 전고체 배터리 시장에서의 BYD의 입지 강화가 예상됩니다.
+- 관련 기업: BYD
+
+### 14. Altilium’s patented hydromet technology reduces EV battery material costs by 20%
+- 발행일: 2026-08-07
+- 매체: Interesting Engineering (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPT2JEQlNGMTZUMzdrZTc0VHRxQVdXdl9MVzhxSDJtNG5kazB1TGJIQTJkQ1VMamtyTnA5dy00eENSY3NWRXhMczd1UGRBWk13WGJnWnRkRTltWk5vdnYzODZNNUFJcEFPcWFZNE9kbFlsclRCVGhPNmNER21qb2E5b2pNWDdaRGc2WW9XWnZsVXRzdE5ROVpnOWc1U1RWMGw5R3p3UnJPbE9fWjlNLXZXa1lXTmFWU3pnQW1HUVlVa2c4UQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Altilium의 특허받은 습식 제련 기술은 전기차 배터리 소재 비용을 20% 절감합니다.
+  - 이 기술은 배터리 재활용 효율성을 높이고 원자재 비용을 절감하는 데 기여할 것입니다.
+  - 이는 전기차 배터리 산업의 비용 경쟁력 강화에 긍정적인 영향을 미칠 것입니다.
+- 관련 기업: Altilium
+
+### 15. POSCO Future M Agrees 190,000-Ton LFP Cathode Deal
+- 발행일: 2026-08-07
+- 매체: thelec.net (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XZHQ0enNIOGJJcXRsLTFyWEJWcnFocXctTF9feVFiRnI5WC15VGEzTUZGbWpGcXZyX0VBS2dWWXRXeE1KYXN6X0M0bjRjaFA1em1WbDZiS0ozVlVoNWRwZ1dCRGEyRlU?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - POSCO Future M이 19만 톤 규모의 LFP 양극재 공급 계약을 체결했습니다.
+  - 이는 중국 기업들이 주도해 온 LFP 시장에서 K-배터리 소재의 경쟁력을 보여줍니다.
+  - 이번 계약은 북미 ESS 시장 공략에 중요한 발판이 될 것입니다.
+- 관련 기업: POSCO Future M, POSCO, LFP
+
+### 16. 하이니켈 라인까지 바꾼다···양극재업계 LFP 양산전
+- 발행일: 2026-08-08
+- 매체: www.sisajournal-e.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.sisajournal-e.com/news/articleView.html?idxno=422962
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 양극재 업계가 하이니켈 라인까지 변경하며 LFP 양산에 돌입하고 있습니다.
+  - 이는 북미 ESS 시장의 성장과 보급형 전기차 확대에 따른 수요 증가에 대응하기 위함입니다.
+  - 국내 배터리 업계는 LFP, 전고체, 망간리치 등 차세대 소재 개발에도 힘쓰고 있습니다.
+- 관련 기업: LFP, LMR
+
+### 17. '하이니켈에 LFP'···양극재 '투트랙' 전략 본격화
+- 발행일: 2026-08-08
+- 매체: www.sisajournal-e.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.sisajournal-e.com/news/articleView.html?idxno=422944
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 양극재 업계가 하이니켈과 LFP를 병행하는 '투트랙' 전략을 본격화하고 있습니다.
+  - 이는 AI 데이터센터 확산에 따른 ESS 수요 증가와 보급형 전기차 확대에 대응하기 위함입니다.
+  - 중국 업체들이 주도해 온 LFP 시장에 국내 기업들의 진입이 가속화되고 있습니다.
+- 관련 기업: LFP, AI
+
+### 18. K-배터리 소재의 반격… 포스코퓨처엠, LFP 양극재 19만톤 잭팟
+- 발행일: 2026-08-08
+- 매체: www.getnews.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.getnews.co.kr/news/articleView.html?idxno=877353
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코퓨처엠이 중국 기업들이 독식해 온 LFP 분야에서 대규모 장기 물량을 확보하며 북미 ESS 시장 선점에 성공했습니다.
+  - 이는 고성장하는 북미 ESS 시장을 겨냥한 전략적 성과입니다.
+  - 포스코퓨처엠은 국내 대표 배터리 제조사와 LFP 양극재 대규모 공급 계약을 체결했습니다.
+- 관련 기업: 포스코퓨처엠, K-배터리, 독식해온
+
+### 19. LFP 양극재 시장 뚫은 포스코퓨처엠…'원가 경쟁' 승부수
+- 발행일: 2026-08-08
+- 매체: www.wowtv.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202608070470&t=NN
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코퓨처엠이 LFP 양극재 시장 진출에 성공하며 원가 경쟁력을 바탕으로 승부수를 던졌습니다.
+  - LG에너지솔루션과 삼성SDI는 각각 하반기 ESS 생산량 증대 및 미국 ESS용 LFP 배터리 양산을 계획하고 있습니다.
+  - 이번 계약은 북미 ESS 시장의 가파른 성장세에 힘입은 결과입니다.
+- 관련 기업: 포스코퓨처엠, LG에너지솔루션, 삼성SDI
+
+### 20. China-Free Batteries Made From Salt Are Finally Here
+- 발행일: 2026-08-07
+- 매체: WSJ (출처등급 3)
+- 분야: electrolyte
+- 링크: https://news.google.com/rss/articles/CBMiowFBVV95cUxPUlhCZjVIankxWTZETEJJbVlTLUszS0xVTW8yUlF0cW9nOGNnRDBBSTVDOGU2OVJhRXhEMWp5OWlQanprUXFWcWs5ZkdndTJsb2tpNzlBZWt5aG4zeThSLWdIeEE3U1Y0bTEwNXBsdElDaUJpRmRQZHFSamkxRUF0cmU5TVkyQUo0THRnTWJCWlRFaHMyQ3NSWGR4cUJtbW1lS2I0?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 소금으로 만든 중국산이 아닌 배터리가 마침내 등장했습니다.
+  - 이는 배터리 제조 분야에서 중국의 독점을 깰 수 있는 새로운 가능성을 제시합니다.
+  - 차세대 배터리 기술 개발 동향에 대한 주목할 만한 소식입니다.
+- 관련 기업: WSJ
