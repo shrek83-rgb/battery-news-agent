@@ -1,5 +1,64 @@
 [
   {
+    "title": "CATL, 2027년 전고체 배터리 시범 생산 착수 'BYD 이어 두번째'",
+    "description": "세계 최대 배터리 제조업체인 중국 CATL이 같은 배터리 제조사인 BYD에 이어 2027년 전고체 배터리(SSB) 시범 생산을 시작하겠다는 정식 목표를 발표했다. 차세대 전기차의 최종 진화형이자 '꿈의 배터리'로 불리는...",
+    "link": "https://www.starnewskorea.com/business-life/2026/08/11/2026081110483595506",
+    "source": "www.starnewskorea.com",
+    "published_at": "2026-08-11",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.theguru.co.kr",
+        "link": "https://www.theguru.co.kr/news/article.html?no=105616"
+      },
+      {
+        "source": "CarNewsChina.com",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUFB1am9NM2xFOE45eVBFZWZnR0k2Y1E4bXFXcVNUaWd1cTJ0dy1lTWp4bi1wOFBNZ0xCaEJlLWhBVGxhZTZ3TWhHb3hZTFh6TDN1QjhOaEllRkEwa3EtRmtEUDhadWtCcjQyZGg1WE40WTJ0QzVUVUFCTFdkVU9xQ00tMGtXWXBMVnk1ck5ySXgxNjZRN0dUX0hJRERqZjMxWDNLMkEtakZrQQ?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "CATL",
+      "BYD",
+      "SSB"
+    ],
+    "summary_3_sentences": [
+      "세계 최대 배터리 제조업체인 CATL이 2027년 전고체 배터리 시범 생산 착수를 목표로 발표했습니다.",
+      "이는 BYD에 이어 두 번째로 발표된 전고체 배터리 양산 목표입니다.",
+      "전고체 배터리는 차세대 전기차의 핵심 기술로 주목받고 있습니다."
+    ],
+    "uid": "70a61ba2754fdbe2315dc2f3cdbdad8d06193dab"
+  },
+  {
+    "title": "삼성SDI, 美서 10월 LFP 배터리 생산..“2028년 공급 부족”",
+    "description": "데이터센터와 대규모 에너지저장 시스템을 대상으로 나트륨이온 배터리 개발도 진행 중이다. 다만 나트륨이온 배터리의 구체적인 상용화 시점은 아직 공개하지 않았다. 배터리 업계 전문가들은 “삼성SDI가 미국...",
+    "link": "https://www.dailycar.co.kr/content/news.html?type=view&autoId=62245",
+    "source": "www.dailycar.co.kr",
+    "published_at": "2026-08-11",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 90,
+    "monitoring_importance": 90,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "삼성SDI",
+      "나트륨이온",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 미국에서 10월부터 LFP 배터리 생산을 시작할 예정입니다.",
+      "또한 데이터센터 및 대규모 에너지 저장 시스템을 위한 나트륨 이온 배터리 개발도 진행 중입니다.",
+      "전문가들은 삼성SDI의 이러한 행보가 향후 배터리 공급 부족에 대비하는 전략으로 보고 있습니다."
+    ],
+    "uid": "91d316528b8b287290f363bb540ddece76ffe4a4"
+  },
+  {
     "title": "[더벨][IR Briefing] 엘앤에프, 하반기 'NCM·LFP' 투트랙 성장 본격화",
     "description": "특히 울트라 하이니켈의 안정적인 물량 공급이 지속되고 있고, 원통형 배터리용 양극재인 '46파이' 제품이... 엘앤에프플러스는 북미 ESS 시장 확대와 고객사 수요에 맞춰 내년 상반기까지 연산 6만t 규모로 LFP 양극재...",
     "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608061653574240102036",
@@ -25,6 +84,55 @@
     "uid": "62236155476bab5dc49f40173864e58f3cb63ee6"
   },
   {
+    "title": "이차전지 소재 3사, 2분기 나란히 흑자…\"회복은 하반기가 분수령\"",
+    "description": "이와 함께 리튬망간리치(LMR)와 나트륨(소듐)이온 배터리 양극재 등 중저가·차세대 제품군을 중심으로 ESS 수요에 대응할 방침이다. 업계 관계자는 \"2분기 실적 개선은 분명 긍정적인 신호지만 북미 전기차 시장과 해외...",
+    "link": "https://www.sidae.com/article/2026081014103670326",
+    "source": "www.sidae.com",
+    "published_at": "2026-08-10",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "이차전지",
+      "LMR"
+    ],
+    "summary_3_sentences": [
+      "이차전지 소재 기업 3사가 2분기 연속 흑자를 기록하며 회복세를 보이고 있습니다.",
+      "이들은 리튬망간리치(LMR)와 나트륨(소듐)이온 배터리 양극재 등 중저가 및 차세대 제품군 중심으로 ESS 수요에 대응할 방침입니다.",
+      "2분기 실적 개선은 긍정적 신호이나, 북미 전기차 시장 및 해외 상황이 하반기 실적의 분수령이 될 전망입니다."
+    ],
+    "uid": "0d41aa133f55238f7ea74f25cd4d4f828cee59f0"
+  },
+  {
+    "title": "배터리 열폭주 막아라…전기차 화재 방지株 무더기 상승",
+    "description": "서연이화는 자동차 부품 사업을 기반으로 전기차 전환에 따른 부품 수요 변화에 대응하고 있으며 케이엔에스는 배터리 제조 관련 자동화 장비 사업을 통해 2차전지 설비투자 회복 기대를 받고 있다. 엔바이오니아와...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=475948",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-08-10",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "장비",
+    "companies": [
+      "서연이화",
+      "케이엔에스",
+      "엔바이오니아"
+    ],
+    "summary_3_sentences": [
+      "배터리 열폭주를 방지하는 기술이 전기차 화재 예방에 중요해지면서 관련 주가가 상승하고 있습니다.",
+      "서연이화는 전기차 전환에 따른 부품 수요 변화에 대응하고 있으며, 케이엔에스는 배터리 제조 자동화 장비 사업을 통해 설비 투자 회복 기대를 받고 있습니다.",
+      "엔바이오니아 등도 관련 사업을 통해 주목받고 있습니다."
+    ],
+    "uid": "57200bdf190a123d7a7ac42984eaa5324a0e68c8"
+  },
+  {
     "title": "7분기 만에 흑자전환 삼성SDI…하반기 美 ESS로 회복세 잇는다",
     "description": "삼성SDI는 올해부터 2040년까지 울산에 약 16조원을 투입해 전고체·나트륨 배터리와 ESS용 LFP 배터리 생산 기반을 구축하고, 천안에도 9조원을 투자해 차세대 배터리 마더팩토리를 구축할 계획이다. 국내 생산에...",
     "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=475292",
@@ -47,6 +155,29 @@
       "이는 삼성SDI의 미래 배터리 기술 확보 및 생산 능력 확대를 위한 공격적인 투자 계획을 보여줍니다."
     ],
     "uid": "d90dc909b46226c327632935eeb6ad1a9237b02d"
+  },
+  {
+    "title": "2차전지株 다시 달아오른다…소재·부품주 동반 폭풍매수",
+    "description": "2차전지 업종은 전기차 시장의 성장 속도와 완성차 업체의 배터리 재고 조정, 중국 업체와의 경쟁, 주요 원재료 가격 등에 따라 실적 변동성이 큰 산업이다. 따라서 테마 상승이 실제 실적 증가로 연결되는지 여부가...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=475964",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-08-10",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "2차전지 업종이 다시 주목받으며 관련 소재 및 부품주에 대한 매수세가 몰리고 있습니다.",
+      "해당 업종은 전기차 시장 성장, 완성차 업체의 재고 조정, 경쟁 심화, 원자재 가격 등 다양한 요인에 따라 실적 변동성이 큽니다.",
+      "따라서 테마 상승이 실제 실적 증가로 이어질지 여부가 투자 판단의 중요한 기준이 될 것입니다."
+    ],
+    "uid": "1066413f7890f75faf428149c901ae93260f0898"
   },
   {
     "title": "포스코퓨처엠, 양극재 본업 회복 '본격화'…가동률 반등 기대",
@@ -96,6 +227,314 @@
       "무역 제재로 인해 중국 업체들이 주도하던 LFP 시장에 국내 기업들이 새로운 기회를 모색하고 있습니다."
     ],
     "uid": "2faf8516e8fc6f10f3f4ee8c3557dd810b07d2d5"
+  },
+  {
+    "title": "배터리 소재 3사도 2분기 나란히 흑자...\"LFP 및 차세대 소재 투자 확대...",
+    "description": "에코프로비엠을 중심으로 삼원계 배터리의 원가경쟁력을 높이고, 전고체 배터리용 고체전해질과 코발트프리 망간리치(LMR) 등 차세대 소재 개발에 나선다는 복안이다. 또한 에코프로비엠은 인도네시아 BNSI 니켈...",
+    "link": "https://www.electimes.com/news/articleView.html?idxno=371164",
+    "source": "www.electimes.com",
+    "published_at": "2026-08-10",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "에코프로비엠",
+      "LFP",
+      "LMR"
+    ],
+    "summary_3_sentences": [
+      "주요 배터리 소재 기업들이 2분기에 나란히 흑자를 기록하며 회복세를 보이고 있습니다.",
+      "이들 기업은 LFP 및 전고체 배터리용 고체전해질, 코발트프리 망간리치(LMR) 등 차세대 소재 개발에 투자를 확대하고 있습니다.",
+      "에코프로비엠은 인도네시아 BNSI 니켈 사업도 진행하며 경쟁력 강화에 나서고 있습니다."
+    ],
+    "uid": "ee91005e549d7e708abd6d98f07820ed4076f411"
+  },
+  {
+    "title": "구호 넘어 실체화되는 삼성SDI 전고체…2027년 양산 판도 읽기",
+    "description": "황화물계 전고체 배터리 양산 구상이 실체적인 윤곽을 드러내고 있다. 전기차 캐즘 여파로 배터리 업계 전반에 속도조절론이 불어닥친 상황에서도 파일럿 라인 데이터를 바탕으로 양산 라인 셋업을 차질 없이 전개하며...",
+    "link": "https://www.ddaily.co.kr/page/view/2026081015150216348",
+    "source": "www.ddaily.co.kr",
+    "published_at": "2026-08-10",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI가 황화물계 전고체 배터리 양산 구상을 실체화하고 있습니다.",
+      "전기차 시장 둔화 속에서도 파일럿 라인 데이터를 기반으로 양산 라인 셋업을 진행 중입니다.",
+      "이는 2027년 전고체 배터리 양산 목표 달성을 위한 중요한 단계입니다."
+    ],
+    "uid": "78a1ae0a4d2af8a06e46dbfd8961340b7e874d9f"
+  },
+  {
+    "title": "Advanced sodium-ion battery prototypes now approaching 200 Wh/kg",
+    "published_at": "2026-08-10",
+    "source": "pv magazine Global",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPakFRVXV2cUJUWWxzdGNHR0FWa2RsRDJoWlZQRkhFVDFZamdqeU41UlhoWW45cE1teTR5blcwTHlCaTNVdGx4YUpjMDNaOTcyMk9QYTVUTUNXVmFzem1lUkN1c0llRDhsUEpkRGxxaVNjNmQyVTFvbVplUkpucVBwenhwTUd6QlBnZW1Lb1FZa3RWSDhuUVpvNnJuS092N0VlNzJmQmpBcw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPakFRVXV2cUJUWWxzdGNHR0FWa2RsRDJoWlZQRkhFVDFZamdqeU41UlhoWW45cE1teTR5blcwTHlCaTNVdGx4YUpjMDNaOTcyMk9QYTVUTUNXVmFzem1lUkN1c0llRDhsUEpkRGxxaVNjNmQyVTFvbVplUkpucVBwenhwTUd6QlBnZW1Lb1FZa3RWSDhuUVpvNnJuS092N0VlNzJmQmpBcw?oc=5\" target=\"_blank\">Advanced sodium-ion battery prototypes now approaching 200 Wh/kg</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pv magazine Global</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [],
+    "summary_3_sentences": [
+      "첨단 나트륨 이온 배터리 시제품의 에너지 밀도가 200Wh/kg에 근접하고 있습니다.",
+      "이는 기존 리튬 이온 배터리의 대안으로 나트륨 이온 배터리의 가능성을 보여줍니다.",
+      "이러한 기술 발전은 향후 배터리 시장에 새로운 변화를 가져올 수 있습니다."
+    ],
+    "uid": "c15ae65e5b03e902aac3540e959932224fa3b1f1"
+  },
+  {
+    "title": "Americans are developing sodium batteries as an alternative to lithium, but fear the Chinese",
+    "published_at": "2026-08-10",
+    "source": "nashaniva.com",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5GRDNHQ2xYQjFFaHhNLVVic25CaFpvTWc2TGI4WjVERGRGUDlscFVOd0RwcFBnckNGeGhxb3BhSXBGRUwxYXfSAUtBVV95cUxQQ3hob0JxbGRHM3JhUXdsSFlXcEhFV3FqcW9iTGdiaVdsLVhPaUo2T1hKbEw4UTdBcjFlM0p0VXRFNDJQV29lUWVUMUk?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiRkFVX3lxTE5GRDNHQ2xYQjFFaHhNLVVic25CaFpvTWc2TGI4WjVERGRGUDlscFVOd0RwcFBnckNGeGhxb3BhSXBGRUwxYXfSAUtBVV95cUxQQ3hob0JxbGRHM3JhUXdsSFlXcEhFV3FqcW9iTGdiaVdsLVhPaUo2T1hKbEw4UTdBcjFlM0p0VXRFNDJQV29lUWVUMUk?oc=5\" target=\"_blank\">Americans are developing sodium batteries as an alternative to lithium, but fear the Chinese</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nashaniva.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "미국에서 리튬을 대체할 수 있는 나트륨 배터리 개발이 진행 중입니다.",
+      "하지만 개발자들은 중국과의 경쟁을 우려하고 있습니다.",
+      "이는 나트륨 배터리 기술 개발에 있어 지정학적 요인이 중요하게 작용할 수 있음을 시사합니다."
+    ],
+    "uid": "f0d6c8ae4b6a53be123990159ed0a935ed58b425"
+  },
+  {
+    "title": "BYD Secures Six Patents for Solid State Battery Technology",
+    "published_at": "2026-08-10",
+    "source": "fuelcellsworks.com",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWFl0LVlSbUpScUhZUFZYWDFVcmJEV1J5dUpYZ1lqR1hVdkdBaUFFVjRpRHoyVjVOMFZEaG8zN2pvSjIyQ1hzVm9MeGpMamVqZUFNZVZ2Y0luaWVBMEhYdzNzVU1KSnpHdlo3S0VxU0c1UzJoTW5KX3VtYXpHY0lNOU5feG5Qeml1M3ZoMUNtYlljeVlzdFltSllVWTJtaHlSSFZZNlQ5RXZZS3QtVy1vNlhsdXQzWTJybVlZRVdpbkQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWFl0LVlSbUpScUhZUFZYWDFVcmJEV1J5dUpYZ1lqR1hVdkdBaUFFVjRpRHoyVjVOMFZEaG8zN2pvSjIyQ1hzVm9MeGpMamVqZUFNZVZ2Y0luaWVBMEhYdzNzVU1KSnpHdlo3S0VxU0c1UzJoTW5KX3VtYXpHY0lNOU5feG5Qeml1M3ZoMUNtYlljeVlzdFltSllVWTJtaHlSSFZZNlQ5RXZZS3QtVy1vNlhsdXQzWTJybVlZRVdpbkQ?oc=5\" target=\"_blank\">BYD Secures Six Patents for Solid State Battery Technology</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fuelcellsworks.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "BYD"
+    ],
+    "summary_3_sentences": [
+      "BYD가 전고체 배터리 기술과 관련된 6건의 특허를 확보했습니다.",
+      "이는 BYD가 전고체 배터리 기술 개발에 적극적으로 투자하고 있음을 시사합니다.",
+      "향후 전고체 배터리 시장에서의 경쟁 구도에 영향을 미칠 수 있습니다."
+    ],
+    "uid": "8bb8833dddd8e0ca9efd43341214eb89bcea83c5"
+  },
+  {
+    "title": "[시장 따라잡기] 2차전지주, 부진 끝내고 반등 기대감 키우나?",
+    "description": "그리고 2차전지 투자를 한다면 배터리 3사 위주로 먼저 주목하는 게 좋을까요? Q. 이러한 미국의 대중 규제 기대감에 오른 게 태양광주 그리고 광통신주이기도한데요. 기대감으로만 오르다 보니, 주의해서 투자할 필요성도...",
+    "link": "https://biz.sbs.co.kr/article_hub/20000327603?division=NAVER",
+    "source": "biz.sbs.co.kr",
+    "published_at": "2026-08-10",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "정책",
+    "companies": [
+      "배터리 3사",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "2차전지 주식들이 부진을 딛고 반등할 수 있을지에 대한 기대감이 커지고 있습니다.",
+      "미국의 대중 규제 기대감은 태양광 및 광통신 주식 상승으로 이어지기도 했으나, 이는 기대감에 기반한 상승일 수 있어 주의가 필요합니다.",
+      "2차전지 투자는 배터리 3사를 중심으로 고려하는 것이 좋다는 의견도 있습니다."
+    ],
+    "uid": "6d2397980d5e1aed39d7e49605ac0eda79ea070a"
+  },
+  {
+    "title": "배터리 소재 3사, LFP·NCM 전략 재정비 가속",
+    "description": "여기에 전고체 배터리용 고체전해질과 코발트프리 망간리치(LMR) 등 차세대 배터리 소재 개발에도 박차를 가하고 있다. LMR 양극재는 양산을 겨냥한 최종 검증 단계에 진입한 것으로 알려졌다. 권제인 기자",
+    "link": "https://biz.heraldcorp.com/article/10835940?ref=naver",
+    "source": "biz.heraldcorp.com",
+    "published_at": "2026-08-10",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LFP",
+      "NCM",
+      "LMR"
+    ],
+    "summary_3_sentences": [
+      "배터리 소재 기업들이 LFP 및 NCM 전략 재정비를 가속화하고 있습니다.",
+      "또한 전고체 배터리용 고체전해질과 코발트프리 망간리치(LMR) 등 차세대 배터리 소재 개발에도 박차를 가하고 있습니다.",
+      "LMR 양극재는 양산을 겨냥한 최종 검증 단계에 진입한 것으로 알려졌습니다."
+    ],
+    "uid": "32ba2750d5fcec21252a5e5129f507b75a499b94"
+  },
+  {
+    "title": "World’s first: China delivers 676 kWh sodium-ion electric mining truck that charges in 25 minutes",
+    "published_at": "2026-08-10",
+    "source": "Yahoo Tech",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMzBMU0tBenNQOWNhSnZxazNUWHc2dmJRLWQ4VnhWejkzX095dUJlUm5QblUxOER3UnBoUXVSRUNXeWRXazgyZklJSC05djFwTHk4cjFOZDFFY1UtVTZfY2hxRE5mbDVDRHViYjZ5ektQNkRSZElfR0FZcHRDVk9wYVZlbHBFQnktQTRNQ2ZJSzZDWXB3SkVJ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNMzBMU0tBenNQOWNhSnZxazNUWHc2dmJRLWQ4VnhWejkzX095dUJlUm5QblUxOER3UnBoUXVSRUNXeWRXazgyZklJSC05djFwTHk4cjFOZDFFY1UtVTZfY2hxRE5mbDVDRHViYjZ5ektQNkRSZElfR0FZcHRDVk9wYVZlbHBFQnktQTRNQ2ZJSzZDWXB3SkVJ?oc=5\" target=\"_blank\">World’s first: China delivers 676 kWh sodium-ion electric mining truck that charges in 25 minutes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Tech</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [],
+    "summary_3_sentences": [
+      "중국에서 세계 최초로 676kWh 용량의 나트륨 이온 배터리를 탑재한 전기 광산 트럭을 인도했습니다.",
+      "이 트럭은 25분이라는 짧은 시간에 충전이 가능하여 효율성을 높였습니다.",
+      "이는 나트륨 이온 배터리 기술이 실제 산업 현장에 적용될 수 있음을 보여주는 중요한 성과입니다."
+    ],
+    "uid": "1be96657d560c21c9287efead4393508857d2605"
+  },
+  {
+    "title": "China debuts world’s first electric mining trucks with huge sodium-ion battery packs",
+    "published_at": "2026-08-10",
+    "source": "The Driven IO",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRDZ0TTZBV0FpaDUxbjdweU83a29JYWVoSk11NFFGcVdDYUNwTU1FYVNydW5Qd1Y5Z1NJNVZRb0wzTzRkdm5KMnE3N3plSkwtMEljLWJMVUE2LXZLZ2hXbTNZZnJkczlaWVg0OXczd2pZcWthY0ZnYlYwSkkwWkc0bnFsVDctUGM4Z0IyT2hVOVRzR2tzcS1tTlZwUm1odjB1dU82a1VnazBiellQd3VmN242aUpfMmM?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPRDZ0TTZBV0FpaDUxbjdweU83a29JYWVoSk11NFFGcVdDYUNwTU1FYVNydW5Qd1Y5Z1NJNVZRb0wzTzRkdm5KMnE3N3plSkwtMEljLWJMVUE2LXZLZ2hXbTNZZnJkczlaWVg0OXczd2pZcWthY0ZnYlYwSkkwWkc0bnFsVDctUGM4Z0IyT2hVOVRzR2tzcS1tTlZwUm1odjB1dU82a1VnazBiellQd3VmN242aUpfMmM?oc=5\" target=\"_blank\">China debuts world’s first electric mining trucks with huge sodium-ion battery packs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Driven IO</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "IO"
+    ],
+    "summary_3_sentences": [
+      "중국에서 세계 최초로 대용량 나트륨 이온 배터리 팩을 탑재한 전기 광산 트럭이 공개되었습니다.",
+      "이 트럭은 676kWh의 배터리 용량을 자랑하며, 25분 만에 충전이 가능합니다.",
+      "이는 나트륨 이온 배터리 기술의 실용화 가능성을 보여주는 중요한 사례입니다."
+    ],
+    "uid": "d0885b620e32028f2f2074f437142b373f658898"
+  },
+  {
+    "title": "Weilan IPO Valuation at 20 Billion Yuan; How Solid-State Battery Enterprises Are Racing for Capital Markets in 2026 [SMM Analysis]",
+    "published_at": "2026-08-10",
+    "source": "Shanghai Metals Market",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNa1dySlZOdHV5MnRtcmp0Z3BxWWRHZ08zNkpyUU1WMjFMbDc2RTZLX3VLaF9VM281VFFHUEx3UjlBcDhPWXVIeWtCdk9XdUMta05lNHpkQ2hjUzVwNkVoS25XOUNWNlBFcVdpdHloNlgtYXNORVRBeWk2WE5YVmZGWGFESzJMbFdyLXVST0dPWG5vaVRQYWdzVUhLeklfYXRlbmYyenJVWEI1V21XemFISENGZkY5aERnMENpT01nYTFBRHczRkd3WHhCczRWZVFxblIyTHJCYUsza2xBcFBKblFmZXVWMEFZbUdPOGI0VkppalAtM3Y5enlqZFk?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxNa1dySlZOdHV5MnRtcmp0Z3BxWWRHZ08zNkpyUU1WMjFMbDc2RTZLX3VLaF9VM281VFFHUEx3UjlBcDhPWXVIeWtCdk9XdUMta05lNHpkQ2hjUzVwNkVoS25XOUNWNlBFcVdpdHloNlgtYXNORVRBeWk2WE5YVmZGWGFESzJMbFdyLXVST0dPWG5vaVRQYWdzVUhLeklfYXRlbmYyenJVWEI1V21XemFISENGZkY5aERnMENpT01nYTFBRHczRkd3WHhCczRWZVFxblIyTHJCYUsza2xBcFBKblFmZXVWMEFZbUdPOGI0VkppalAtM3Y5enlqZFk?oc=5\" target=\"_blank\">Weilan IPO Valuation at 20 Billion Yuan; How Solid-State Battery Enterprises Are Racing for Capital Markets in 2026 [SMM Analysis]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shanghai Metals Market</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "웨이란",
+      "IPO",
+      "SMM"
+    ],
+    "summary_3_sentences": [
+      "웨이란(Weilan)의 IPO 예상 기업 가치가 200억 위안에 달하며, 2026년 전고체 배터리 기업들의 자본 시장 경쟁이 예상됩니다.",
+      "이는 전고체 배터리 기술 개발 및 상용화에 대한 투자자들의 높은 기대감을 반영합니다.",
+      "SMM 분석에 따르면, 이러한 경쟁은 관련 기업들의 성장에 중요한 기회가 될 수 있습니다."
+    ],
+    "uid": "31f7aa86b30e1bccffcc3ec40779562f86233c8b"
+  },
+  {
+    "title": "Solid-State Battery IPOs: A 2026 Race for the First Mover",
+    "published_at": "2026-08-10",
+    "source": "Shanghai Metals Market",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNnVoM2J0enFyRWtGVmpmUUg1emtoRVV1eFA1ZlJOYkEtbXRCaldZd1M4bXlFa1pMZXh2bHBHSll1X2JTb1pFRENEdmI0d1VHX1RlSk1LQldHUFRzRnloenZzUkdoLU5FOWltdDF4R3cxWGtnWndTUG1odUZTQWlDZ05zXzM5TmlxRGpYZlFMS296SWZCbXVGbmpSZlBvanB2elhnU05rTQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQNnVoM2J0enFyRWtGVmpmUUg1emtoRVV1eFA1ZlJOYkEtbXRCaldZd1M4bXlFa1pMZXh2bHBHSll1X2JTb1pFRENEdmI0d1VHX1RlSk1LQldHUFRzRnloenZzUkdoLU5FOWltdDF4R3cxWGtnWndTUG1odUZTQWlDZ05zXzM5TmlxRGpYZlFMS296SWZCbXVGbmpSZlBvanB2elhnU05rTQ?oc=5\" target=\"_blank\">Solid-State Battery IPOs: A 2026 Race for the First Mover</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shanghai Metals Market</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "전고체 배터리 관련 기업들의 IPO 경쟁이 2026년에 치열해질 것으로 예상됩니다.",
+      "이는 전고체 배터리 기술의 상용화가 임박했음을 시사하며, 자본 시장에서의 관심이 집중될 것임을 보여줍니다.",
+      "가장 먼저 상장하는 기업이 시장을 선점할 가능성이 높습니다."
+    ],
+    "uid": "76a8f7407dd1f1c221a1b3eb1840d4709021066a"
+  },
+  {
+    "title": "CATL and BYD Both Target 2027 for Solid-State Batteries — But Mass Production Is Still Years Away",
+    "published_at": "2026-08-10",
+    "source": "Gagadget.com",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPalJRdlh1ZE5fWHJsYXZSZXVESmlfNGp4Mms5cEFwNE5QcEhXUHpmdVIwaGt3bHJRX1pzbEp5T1hRcEswYmUtanI3aG5MdWtabl9raC0zbDJvQ0lFejE1bjNVSGRUQmxDOXN5N0NvTVpzMk1kazNEaWZtLUpjNDlwMG85dWN3eTZnS01EcGJSUnFxbHJIZEc5a09QelZCd2NZSDdXdHJQQ2lyMkJkTWNmVnpESFhtNVM5dTliS0t3UktoSldQOFHSAcsBQVVfeXFMTmRnUWlaUGttMGlPMktBaVZScVJjUGxDZDh2M1hlTTFPNmc5ZkVRalJVRjZsdENlUkFjN1dIU3JyTGpuY0FUVi1QSkhIS1l1YWtiRU1kVVJXRnNsajlSczZzVlB4WnJob0VyNVE0OF9nSnMtSVBEY0h3bWcySjBDM0dFQjN6R3BmNUFpbm1peWJ6a1dlNDNfU21XQW1tUlpRUTBUY01TLXdGV0p2WUZKbFJtSFNpckIxNVJ1OWpNcnFtM3VyTkVIMWdaYVU?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPalJRdlh1ZE5fWHJsYXZSZXVESmlfNGp4Mms5cEFwNE5QcEhXUHpmdVIwaGt3bHJRX1pzbEp5T1hRcEswYmUtanI3aG5MdWtabl9raC0zbDJvQ0lFejE1bjNVSGRUQmxDOXN5N0NvTVpzMk1kazNEaWZtLUpjNDlwMG85dWN3eTZnS01EcGJSUnFxbHJIZEc5a09QelZCd2NZSDdXdHJQQ2lyMkJkTWNmVnpESFhtNVM5dTliS0t3UktoSldQOFHSAcsBQVVfeXFMTmRnUWlaUGttMGlPMktBaVZScVJjUGxDZDh2M1hlTTFPNmc5ZkVRalJVRjZsdENlUkFjN1dIU3JyTGpuY0FUVi1QSkhIS1l1YWtiRU1kVVJXRnNsajlSczZzVlB4WnJob0VyNVE0OF9nSnMtSVBEY0h3bWcySjBDM0dFQjN6R3BmNUFpbm1peWJ6a1dlNDNfU21XQW1tUlpRUTBUY01TLXdGV0p2WUZKbFJtSFNpckIxNVJ1OWpNcnFtM3VyTkVIMWdaYVU?oc=5\" target=\"_blank\">CATL and BYD Both Target 2027 for Solid-State Batteries — But Mass Production Is Still Years Away</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gagadget.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "CATL",
+      "BYD"
+    ],
+    "summary_3_sentences": [
+      "CATL과 BYD 모두 2027년을 전고체 배터리 시범 생산 목표 시점으로 잡고 있습니다.",
+      "하지만 대량 생산까지는 아직 수년이 더 소요될 것으로 예상됩니다.",
+      "이는 전고체 배터리 기술 상용화에 대한 기대와 현실적인 과제를 동시에 보여줍니다."
+    ],
+    "uid": "6f66f426f0d87c20d93d35352c15f2dd975dc3f4"
+  },
+  {
+    "title": "UK lithium recovery project wins £3m to cut EV battery import reliance",
+    "published_at": "2026-08-10",
+    "source": "Electric & Hybrid Vehicle Technology International",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaXNwSUxlRndrcG9vWHRkZzFIbTYwXy1QTzVjZEFidjdGVUl6dXh0TG56U2E5N1RTeUM5SW9kZ1hxWkJRd0p2SEozRFl0S3hPWVRRbXlienpPbjFUakczTkRoUTFydVpiSzE2amxQR2JiWUJ6N1VWejZMX29iMVFmXzl2X29VZG9FcmtTSGZWTTU3cDVGaTRFWUNVTFhIOVpJa1k3MHlvZ0FUeXdNRHpoaXJ2YnVXSmdZYUgzcGRLb01MQV9tTFE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNaXNwSUxlRndrcG9vWHRkZzFIbTYwXy1QTzVjZEFidjdGVUl6dXh0TG56U2E5N1RTeUM5SW9kZ1hxWkJRd0p2SEozRFl0S3hPWVRRbXlienpPbjFUakczTkRoUTFydVpiSzE2amxQR2JiWUJ6N1VWejZMX29iMVFmXzl2X29VZG9FcmtTSGZWTTU3cDVGaTRFWUNVTFhIOVpJa1k3MHlvZ0FUeXdNRHpoaXJ2YnVXSmdZYUgzcGRLb01MQV9tTFE?oc=5\" target=\"_blank\">UK lithium recovery project wins £3m to cut EV battery import reliance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electric & Hybrid Vehicle Technology International</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 75,
+    "monitor_score": 86,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "UK"
+    ],
+    "summary_3_sentences": [
+      "영국에서 전기차 배터리 수입 의존도를 줄이기 위한 리튬 회수 프로젝트가 3백만 파운드의 지원금을 확보했습니다.",
+      "이 프로젝트는 폐배터리에서 리튬을 회수하여 재활용하는 기술을 개발할 예정입니다.",
+      "이는 영국 내 배터리 공급망 강화 및 지속 가능한 배터리 산업 구축에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "22c516fd0d06674a62f5e2e7156ac95cd3a1b6ae"
   },
   {
     "title": "LG엔솔, 中 로팔테크서 LFP 양극재 5조원 이상 구매",
