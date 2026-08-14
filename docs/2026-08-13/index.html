@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-08-13</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-08-13 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVnJ0VllIdk1ab21NVk1GcnF6V3JOX2poeXJCV25WVjR6Vjg2V3lpOHpzTXl1MzdoRVNIWGNhRVRuX0l6RTA3X3NjUnpqV0FPOEpDemFvbTQyWXJSY0hVTGw0UnlXbnI3MEc3cHVXc1hIM2N4WGJTeVUwY2FoQWwzUVd4Sl9oTnZveVRkZVc5UTYxa2JFVEZvNFpjdEFhTDEwWEE0UE5RZXVTMDdqLVgxNjk3dVpCWFV3WWtHMDZKekZUbkFadG92VFo3MWgzamdab2R5NVVmQ2thVEpsQUxhbmtUS0hIT3UyeDlSb1lfZ2EzWnM?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium-Ion Battery Market Poised for 15.6% CAGR, Growing from USD 73.5 Billion in 2026 to USD 271.0 Billion by 2035</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">EIN Presswire</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CAGR</span><span class="chip">USD</span><span class="chip">EIN</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>리튬이온 배터리 시장은 2026년 735억 달러에서 2035년 2710억 달러로 연평균 15.6% 성장할 것으로 예상됩니다.</li><li>이는 전기차, 에너지 저장 시스템, 휴대용 전자기기 등 다양한 분야에서 리튬이온 배터리 수요 증가에 따른 것입니다.</li><li>이러한 시장 성장은 배터리 기술 혁신과 생산 능력 확대를 촉진할 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQUFJ1aW1kMlNkTnFOS05zQU9jWHlmYkJSQkp5ZVFmaHhRbVQzY0FBV3hPX2tpeEdwZ3ZiUFhQWWNTaE9TNEJGai12SkstN1lPR01HTlRSRnVhNzlBc1FFSGFlU2I2YWNyTFdRT2FNOEFFS1RUOTVienVuM3h6R0V1NVdva1BoT2NqR3A4Y1lFd0pSVU0?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Samsung Acquires GM’s Stake in $3.5 Billion Battery Joint Venture</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">ESG Today</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">삼성SDI</span><span class="chip">제너럴모터스(GM</span><span class="chip">GM</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>삼성SDI가 제너럴모터스(GM)로부터 35억 달러 규모의 배터리 합작 투자 지분을 인수했습니다.</li><li>이번 인수는 삼성SDI의 북미 전기차 배터리 시장 경쟁력 강화에 기여할 것으로 예상됩니다.</li><li>이는 양사 간의 전략적 협력 관계를 더욱 공고히 하는 계기가 될 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMidkFVX3lxTE52SVpCbm1JR3BQSElpcWpnT3h3VkJySUppUFpEODdpeldycWNPYloyYVRFMWlWZXlkUFVleVUzQ0NjUk9HckFaZ3BGOFVjQWwtcEN6eTlSLXA5WEY5WThhdWxCa08yTFo2X0M4M3B2WnRXS25xTGc?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">GM-LG Energy Solution Ohio Battery Plant Restarts After Seven-Month Halt</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">finance.biggo.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">GM</span><span class="chip">LG에너지솔루션</span><span class="chip">LG</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>GM과 LG에너지솔루션의 미국 오하이오 배터리 공장이 7개월간의 중단 끝에 재가동되었습니다.</li><li>이 공장은 전기차 배터리 생산 능력 확대에 중요한 역할을 할 것으로 기대됩니다.</li><li>이번 재가동은 북미 전기차 시장 공급망 안정화에 기여할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.tournews21.com/news/articleView.html?idxno=140974" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">고려아연 케이잼, 배터리용 동박 첫 공급…이차전지 소재 사업 본격화</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.tournews21.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">고려아연</span><span class="chip">케이잼</span><span class="chip">이차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>고려아연의 자회사 케이잼이 배터리용 동박을 처음으로 공급하며 이차전지 소재 사업을 본격화했습니다.</li><li>이는 2차 원료부터 친환경 동, 배터리용 동박까지 이어지는 자원순환형 밸류체인을 완성했음을 의미합니다.</li><li>고려아연은 제련 및 자원순환 기술을 바탕으로 고부가가치 이차전지 소재 시장에서의 입지를 강화할 계획입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNME42TjdjZ2dGdnVFRUloRnpuN1M2d0ZXd1RfTjVPa3VOaVJvY0QxcEpVLU9SaEhkRHlpbmNIeHRVZ1ROUnZzbTF3TlZ0MFRHWThPREY1TGEtX0l0U3dKMGd0bVZ5QmJNSEI1T0R4WlFIQWFhaWs1VFdNdTFfY1pkZTNXaXpNV0wwRDdiMmlaRllOTlBpZC1kVUo2WGdnTzBDVVR1RlBnRWFVNDQzbHRTZ3R0dmhuU1B4U0NzSENqR0k?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Tesla Committed $4.3 Billion to LFP Batteries - This Nasdaq Company Will Be Needed…</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Barchart.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">테슬라</span><span class="chip">Tesla</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>테슬라가 리튬인산철(LFP) 배터리에 43억 달러를 투자하기로 결정했습니다.</li><li>이는 LFP 배터리의 중요성이 커지고 있으며, 관련 기술 및 생산 능력 확보가 필수적임을 시사합니다.</li><li>이러한 투자는 테슬라의 전기차 생산 확대 및 배터리 공급망 다변화 전략의 일환으로 분석됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPd3RMU1N4Y0c1N2s1bVVjMTNLTlZ1d05IVmt3RnlTOVd0VHRIVzcwYTA5MFJ4R2l1SDhKc2laRnd6ZG5mZkFETm9KVTlGS2hyaGRYYlpIaGhaZUJ1alFpamg4Q2lqVHNwSkozMFVyMkZ2WFBjeWpTTmZBcFdPeTZHN05PTkR1RC1iaHJfcVl2ZHBlS0xhN3FZ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">World’s largest LFP grid-forming goes online in China</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">pv magazine Global</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>세계 최대 규모의 LFP 그리드포밍(grid-forming) 시스템이 중국에서 가동을 시작했습니다.</li><li>이는 LFP 배터리가 전력망 안정화 및 신재생 에너지 통합에 중요한 역할을 할 수 있음을 보여줍니다.</li><li>이번 시스템 가동은 에너지 저장 기술의 발전과 중국의 에너지 전환 노력에 기여할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMimwFBVV95cUxQN2x6bUM4dW5QTlhXNzhmNDN2dTVzZUpDSFp2MXNWRW5hWHdoRG9Oa3Y5LURzQ1ZFOC1vQnZ6enRVSWEtZ1ZCNFpSWVE0eVBHZWYxbHZadUZFS2Jtajktd0RlOXJYR0NNTWN1M09mQ3ZyMElpZjI2SVBkeC1zN3k1cVk3SURORUg1S0JvSG92U2J0bVJKQnYtNDhxZw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Exclusive: US makers accelerate sodium battery plans as shared lithium-ion lines draw investment</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">digitimes</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">US</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국 제조업체들이 리튬이온 배터리 라인을 공유하며 나트륨 배터리 개발 계획을 가속화하고 있습니다.</li><li>이는 리튬 공급망의 불안정성과 높은 비용에 대한 대안으로 나트륨 배터리의 잠재력을 보여줍니다.</li><li>이러한 움직임은 차세대 배터리 기술 개발 경쟁을 심화시킬 것으로 예상됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMipAFBVV95cUxOZzliU0gyN1BqQnlQNmtSWm5zdHJlWHJwX1NuSWhFUlE3SHRFbnc1NV9keVd1aDRPdXpJeFM0cTZxQ0dfMU5hQkhNb3JnaXFQTnQ3c2N0SEU0VUY1ZEk5QmlGZm5PUkFzOF9ZOVJoRG9vWFVHMVFLTXJpTnJuLU1kdXFGM1Q0bVdlY1hacTNaVXVhbG8xR2JjYXYzanJDQW9DRzYwVQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG Chem reportedly wins cathode supply deal for Hyundai-LG Energy Solution&#x27;s US battery venture</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">digitimes</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG화학</span><span class="chip">현대-LG에너지솔루션</span><span class="chip">LG</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG화학이 현대-LG에너지솔루션의 미국 배터리 합작 사업을 위한 양극재 공급 계약을 체결한 것으로 알려졌습니다.</li><li>이는 LG화학의 북미 전기차 배터리 시장 공급망 내 입지를 강화하는 중요한 계약입니다.</li><li>이번 계약은 합작 사업의 안정적인 배터리 생산에 기여할 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMikwJBVV95cUxPb2hTTkpyMHVfZGR1VzdxNjJiNVhzUEp5MTVRd2Mxell1SE9DWjJmVVppd2FwM2ljZ0taQUk2ODR2ME5GZmxWNTNNMTZ1Y0dKTFN3a3d6RlF6M2o4UFlfY1YwZlNwQ3F1WFZ4TEc0aElaUXA1OWk0dG5fbFhjLVRPTXVDa1ViZzFzZjNWMjFZRGw1bmdFWi1FWmhja2VRQTBpdlZ6dmEtdTBvWDZrNG9mSVhTYmtJOFlUeGdKRnRJc2JmLTdaVGhNX1VjTU5laTQxRUREcjY2ZkRLWFpNQjJsT0J6eWlFZGZlSWgyNzVua2R3dUxjMDBmb2ZJN2VmY1NTNGcwTlFjZ2dWTV91TGZRNFF1VQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">QS: Solid-state battery commercialization accelerates with OEM partnerships and scalable pilot line</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">TradingView</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">QS(QuantumScape</span><span class="chip">QS</span><span class="chip">OEM</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>QS(QuantumScape)가 OEM 파트너십과 확장 가능한 파일럿 라인을 통해 전고체 배터리 상용화를 가속화하고 있습니다.</li><li>전고체 배터리는 기존 리튬이온 배터리보다 안전성과 에너지 밀도가 높아 차세대 배터리로 주목받고 있습니다.</li><li>QS의 기술 개발 및 상용화 노력은 전기차 및 휴대용 기기 시장에 큰 영향을 미칠 것으로 예상됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMidkFVX3lxTE5JY09RMkVYbmQtVlhVRGk1Nk9qU0NrS3l1WHBpZWVLZW9VeWN6VVdYQW92VlhNVE5KUWlnNDdMQjd2U3c3NFlDckJITUVLS3lBbkVCTVpzMzJMYkNEdkRMNUVmN29oYllJQWJ0cU1qd0NXd0N2Y0E?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Londian Wason, World&#x27;s Top Lithium Battery Copper Foil Maker, Lists in U.S. at $22 Per Share, Raising $94.3 Million</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">finance.biggo.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">롱디안 와슨(Londian Wason</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>세계 최대 리튬 배터리 동박 제조업체인 롱디안 와슨(Londian Wason)이 주당 22달러에 미국 증시에 상장하여 9,430만 달러를 조달했습니다.</li><li>이번 상장은 롱디안 와슨의 성장 잠재력과 글로벌 배터리 시장에서의 중요성을 보여줍니다.</li><li>조달된 자금은 생산 능력 확대 및 기술 개발에 사용될 것으로 예상됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-13</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
