@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-08-16</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-08-16 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-etc" href="https://www.prnewswire.com/news-releases/catl-et-quinbrook-renforcent-leur-partenariat-supernode-apres-avoir-franchi-des-etapes-cles-lors-des-phases-2-et-3-302852321.html" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 1</span>
+            </div>
+          </div>
+
+          <div class="title">CATL et Quinbrook renforcent leur partenariat Supernode après avoir franchi des étapes clés lors des phases 2 et 3</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">PR Newswire - Energy</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CATL</span><span class="chip">Quinbrook</span><span class="chip">AUD</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>호주 퀸즈랜드의 슈퍼노드 배터리 저장 프로젝트가 2단계 상업 운전을 완료했습니다.</li><li>이 프로젝트는 3단계 개발을 위해 4억 6,900만 호주 달러의 자금을 확보했습니다.</li><li>CATL과 퀸즈랜드 정부는 이 프로젝트의 성공적인 진행을 위해 파트너십을 강화하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.donga.com/news/Economy/article/all/20260817/134486279/2" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">로봇 심장 ‘전고체 배터리’에 사활건 韓 배터리 3사</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.donga.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">삼성SDI</span><span class="chip">SK온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>한국의 배터리 3사가 로봇을 차세대 성장 동력으로 삼고 전고체 배터리 개발에 속도를 내고 있습니다.</li><li>이들 기업은 최근 적자 터널에서 벗어나 새로운 성장 동력을 모색하고 있습니다.</li><li>전고체 배터리는 전기차 산업에서 &#x27;꿈의 배터리&#x27;로 불리며 상용화에 대한 기대가 높아지고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-17</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMifEFVX3lxTE1kRXZYUzd3MXN4a0RPSG43cGlNNW9vcE0tVjhyc3FDVzhLWmY2bVEwaWNwNjJWem1PQ3NTNWpzUVBVTEZVZVdlM09fd01sbE5kbE9vdHp2YVJRUzQ4Rk81MkxWZi1UdnV0a2Fja2MzWl9naFFkbGstWXphcEw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">CATL’s 500 Wh/kg Solid-State Battery: Sulfide Patent, 2027 Pilot Production, and What It Means for EVs</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Intelligent Living</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CATL</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>CATL은 500Wh/kg의 전고체 배터리 기술을 개발했으며, 황화물 전고체 배터리 특허를 확보했습니다.</li><li>이 회사는 2027년 파일럿 생산을 목표로 하고 있으며, 이는 전기차 시장에 큰 영향을 미칠 것으로 예상됩니다.</li><li>CATL의 전고체 배터리 기술은 에너지 밀도 향상과 안전성 증대를 통해 전기차의 성능을 혁신할 잠재력을 가지고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-anode" href="https://www.goodkyung.com/news/articleView.html?idxno=290306" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">anode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">흑연 수출 통제에 떨던 배터리 업계, 음극재 자립 속도 낸다</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.goodkyung.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">삼성SDI</span><span class="chip">SK온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>최근 국내 배터리 제조사들과 연구진은 흑연 수출 통제에 대응하기 위해 음극재 자립화에 속도를 내고 있습니다.</li><li>액체 전해질 대신 고체 전해질을 적용하는 전고체 배터리 기술과 계면 공학 기술을 통해 덴드라이트 억제 성과를 내고 있습니다.</li><li>이러한 기술 개발은 배터리 상용화 시점을 앞당기고 국내 배터리 산업의 경쟁력을 강화할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-17</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065580147287978" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">K배터리, AI데이터센터가 살린다…&#x27;ESS 대전&#x27; 막 올랐다</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.megaeconomy.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">재생에너지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>정부의 &#x27;전기국가(Electro-state)&#x27; 전략 발표에 따라 에너지저장장치(ESS)가 국내 배터리 업계의 새로운 성장 축으로 부상하고 있습니다.</li><li>이는 전기차 배터리 시장에서 중국 업체에 밀린 국내 배터리 업계에 새로운 기회를 제공할 것으로 보입니다.</li><li>AI 데이터센터 확산과 전력망 안정화 요구 증가는 ESS 배터리 수요를 견인할 것으로 예상됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxONzZrdVBNVkx1SDhrQi12dnFzVkthWUE3VFV6UU5aakVXelI2Vmwtd2tMdjduNGN3YzRnbEFuX3oxVXZGSFYwbGVfa24zVDdNT0NsaUNQYnBEc3VCb04xbEZHemZVNk5UczFUWFJtVGhvUXJRR0dPaDltRTZnSXlGSW5wd3pFeVNyeWRGUXZ1NldNcUpodzhXZHVYVXlIU25qNTd4eUpNRGRjeDQ2UnZQZUxDNFc4bG5u?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Standard Lithium demonstrates use of its South Arkansas lithium carbonate in battery cells</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Magnolia Reporter</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Standard Lithium</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Standard Lithium은 자체 생산한 사우스 아칸소 리튬 탄산염을 배터리 셀에 성공적으로 적용했다고 발표했습니다.</li><li>이는 Standard Lithium의 리튬 생산 기술이 상업용 배터리 제조에 직접 활용될 수 있음을 보여줍니다.</li><li>이번 시연은 Standard Lithium의 리튬 공급망 통합 능력과 배터리 산업 내에서의 입지를 강화하는 계기가 될 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-anode" href="https://www.theguru.co.kr/news/article.html?no=105853" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">anode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">中 산산 &quot;CATL·BYD·LG엔솔 음극재 공급&quot;…상반기 순익 최대 334% 껑충</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.theguru.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CATL</span><span class="chip">BYD</span><span class="chip">LG에너지솔루션</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>중국 산산은 CATL, BYD, LG에너지솔루션 등 주요 글로벌 배터리 제조사에 음극재를 공급하고 있다고 밝혔습니다.</li><li>이 회사는 상반기 순이익이 최대 334% 증가하며 실적 호조를 보였습니다.</li><li>산산은 내몽골, 쓰촨, 윈난의 3대 생산 기지를 기반으로 전기차, 소비자 가전, ESS 등 다양한 시장에 제품을 공급하며 경쟁력을 강화하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-17</div>
+          </div>
+        </a>
+        
+        <a class="card cat-policy" href="https://imnews.imbc.com/replay/2026/nwtoday/article/6845209_37012.html" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">정책</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">폐배터리 재자원화 업종‥과도한 규제 풀리나</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">imnews.imbc.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>폐배터리 재자원화 업종에 대한 과도한 규제가 완화될 가능성이 있습니다.</li><li>정부는 약 천억 원 규모의 신규 투자를 지원하기 위해 2차전지 자원재생업도 입주할 수 있도록 할 예정입니다.</li><li>이는 블루밸리 국가산업단지에 공장 설립을 추진했으나 규제에 묶였던 업체들에게 기회가 될 수 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-17</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.mt.co.kr/industry/2026/08/17/2026081414555784315" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG엔솔·삼성SDI, 커지는 ESS 존재감…매출 비중 20→30%로</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.mt.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">삼성SDI</span><span class="chip">LG엔솔·삼성SDI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG에너지솔루션과 삼성SDI의 에너지저장장치(ESS) 사업 비중이 매출의 20%에서 30%로 확대되고 있습니다.</li><li>삼성SDI는 급성장하는 북미 ESS 시장에 선제적으로 대응할 계획입니다.</li><li>하나증권은 삼성SDI가 단독 법인 전환을 통해 최소 40GWh 이상의 ESS 배터리 생산 인프라를 확보했다고 분석했습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-17</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMivgFBVV95cUxORHR1X1gxTlpOUEJvbHUtSm9fbzkwaUF2MldXdzFWbndaSk5WVDh0Q09HMTFhNmcxeDZ6ZXNwUDRGZEM1ZDd1dWJJUUNNU0FTT25WeDk1NkpWMUM0T2h4M2MtczNWdkVSblVXYzM3Rm5ET1JUc2NDTTh4MHlCQWdkVDZPS29HUEU3R0VrZ0JHYmdBVURFelAyYTVYQVV2cjlQcEtSZmQ5VnV6a3VSTER3am9HQzUzS3pYYWxNcDFB0gHSAUFVX3lxTE1pVEhSZjJuYmFKOHhJaUpYRUZ1WnNZczB3Q1BQRmY0SmQ0TUxlMXRxdFBmNF92M3h3TEdMQkNaUTZQT21mRl9vdDZFRDR4TktXNnhYN2VoZE0zcmRqOTJtM1VKaGM3V25oOUlnSXBKWEJtM2pCdlRhSGlOODhGVWZwTVk1bWN5dlJTR0x6ZldzM0pGX1lUdy1zZXpoZ2otZWdYNllHSGE1ZGxlVEgwc0xJLTIyMWh0ZzZVcmJURzRCOXJ1ZUlHYndlS0Z4NjhoQ2Rqdw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">‘Very toxic’: Lithium-ion battery burning in Scottsdale trash fire prompts hazmat response</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">AZ Family</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">AZ</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국 스코츠데일에서 리튬이온 배터리가 쓰레기 더미에서 불타는 사고가 발생하여 유해물질 대응팀이 출동했습니다.</li><li>이 화재는 &#x27;매우 유독한&#x27; 물질을 방출하여 지역 사회에 위험을 초래했습니다.</li><li>사고는 리튬이온 배터리의 안전한 폐기 및 처리의 중요성을 다시 한번 강조했습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.g-enews.com/view.php?ud=2026081622083389259a1f309431_1" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">美 배터리 750GW 전력망 대기…접속에 5년</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.g-enews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">AI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국의 전력 수요가 AI 데이터센터 확산과 전기화로 인해 급증하고 있으나, ESS 배터리를 전력망에 연결하기 위한 기반 시설 확충이 지연되고 있습니다.</li><li>현재 미국 전역에서 약 750GW 규모의 전력망 접속이 대기 중이며, 접속까지 5년 이상 소요될 것으로 예상됩니다.</li><li>이는 ESS 배터리 수요 증가에 비해 전력망 인프라 구축이 뒤처지고 있음을 보여줍니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-17</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTUVNTlNRUmVmUTdRUDVBdVhNMDJBMjdOdEktdHlUOWZhcm1Mck40b25RSmRUSzVpZVpIdXptTW9xdVhsQklXbFhxNGdKaE5SSDNRdVJYdk92azVGSlBKeVd3V1c0SGx6T19hLVlVQXF4U1hLOGhVR212QlNmRlQ4NVRLcmJ5S243S0lrT2NfNkhRZlZoeDllQjUwTEotYnczX3VkOWp3eThPLUk?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Should I be worried about my e-bike catching on fire?</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">The Globe and Mail</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전기 자전거(e-bike)의 화재 위험성에 대한 우려가 제기되고 있습니다.</li><li>리튬이온 배터리를 사용하는 전기 자전거는 특정 조건에서 화재가 발생할 가능성이 있습니다.</li><li>사용자는 배터리 관리 및 충전 시 안전 수칙을 준수하여 화재 위험을 최소화해야 합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://biz.chosun.com/industry/company/2026/08/17/N6QKEPK2TFGLDL34WQO3PZWEFY/?utm_source=naver&amp;utm_medium=original&amp;utm_campaign=biz" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">트럼프가 만든 찬바람에…韓 배터리 3사 잇달아 완성차 업체와 합작 종...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">biz.chosun.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SK온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국의 보호무역주의 정책으로 인해 한국 배터리 3사가 완성차 업체와의 합작 공장 설립 계획을 재검토하고 있습니다.</li><li>SK온은 테네시주 공장에서 2028년부터 ESS 배터리를 생산하는 방안을 검토 중입니다.</li><li>전기차 시장 침체로 완성차 업체들이 전동화 전략을 수정하면서 배터리 업계도 유연하게 대응하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-17</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMizwFBVV95cUxPekhraEFVcW4zdmVleWtzMkJHODBTUndrWmpqcTh5NWQwbVRDTm1jZUh5cEpzU3lhV3pMaEJsYkZQZ203UFVyaFdPb0NjUHY1c0FSWFVkOXdfeVhxTlhHS0I0bDRUeFJITms1cE1qVEVXZ2ZoZHNwWm5wa1psUXUwNUNid21pSksyUlRlRUZiNHl6c3JYbV96TGRaWW83QUYtbmZmSXVzMzFHbXhyNXpTVzB2VzBlOHh5TFh5aWZfMThCRkJRWDVtZ21BNEJSNW8?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">A battery recycling plant is planned for construction in Ryazan near residential buildings and a lake.</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Говорит НеМосква</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>러시아 랴잔에 주거 건물과 호수 인근에 배터리 재활용 공장 건설이 계획되어 있습니다.</li><li>이 계획은 지역 주민들의 안전과 환경에 대한 우려를 불러일으키고 있습니다.</li><li>배터리 재활용 시설의 입지 선정 및 운영에 대한 신중한 검토가 필요합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-separator" href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQWRJUlRmSC01OURUa2xpbl9zSG8tZFpUblZBOGtNSVFBaC1KZTJZQldNQlQ4eUQ3M3ZhSzFsd1Q0a29LMUk3NDRwM1pkaEpDU2dWQlI4dTJmRUNZSDBWX0VhUEhSSldnWVFNN1ZiV3Nfd0IyTG1rZWZJazRQMGc5MGxJQ1plMmZZOVBJX0ZtLU16eVB6X3EwUXBQTGZWeDJYWnEwSXRwczZPTWpLMXYwUVBzclJzSHp2M1VJbGcxeXU?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">15</div>
+            <div class="badgeRow">
+              <span class="badge">separator</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Polycarbonate Separator Films Market Growth to 2035 Driven by Specialty Cell Demand - News and Statistics</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">IndexBox</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>특수 배터리 셀에 대한 수요 증가로 폴리카보네이트 분리막 필름 시장이 2035년까지 성장할 것으로 예상됩니다.</li><li>이러한 필름은 배터리의 성능과 안전성을 향상시키는 데 중요한 역할을 합니다.</li><li>시장 성장은 전기차, 에너지 저장 장치 등 다양한 응용 분야에서의 배터리 기술 발전에 힘입을 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-16</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.shinailbo.co.kr/news/articleView.html?idxno=5051709" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">16</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">KTL, 액침형 ESS 기능안전 국제인증 국내 첫 발행</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.shinailbo.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">KTL</span><span class="chip">리튬이차전지</span><span class="chip">IEC</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>한국산업기술시험원(KTL)이 액침형 에너지저장장치(ESS)에 대한 기능 안전 국제 인증을 국내 최초로 발행했습니다.</li><li>이번 인증은 국제 표준인 &#x27;산업용 리튬이차전지 기능안전 요구사항(IEC 62619 Annex E)&#x27;과 &#x27;전자제어장치 기능안전 요구사항(IEC 60730-1 Annex H)&#x27;을 기반으로 합니다.</li><li>이는 국내 ESS 배터리 기술의 안전성과 신뢰성을 국제적으로 인정받는 중요한 성과입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-17</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
