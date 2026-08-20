@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-08-19</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-08-19 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMixAFBVV95cUxNZHQzeXdwbk1ZclRwWnRuNGwzcmcwUFBfZ3QxMnlMSUlueUFfa2FERWJTRV9FT09UZlBTSHhiMnRNWGpZWkdXclJJSUlQbXRJMFdEWS1Neml3TjdnTERlMnhRVFljZ3FqOWU0WXk1Z09ZNW5Fd3lfNFgtZkZBTmtVYVVwdkdrMmx1NTdQYzNjWkhFVE5XVi02c2tmVHNKNGFaQllJekpzU3laM3ZQdHNiVU9kVTZMQndKVkc4d1BGa1NMYnVB?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Quick response halts South Kearney structure fire caused by lithium-ion battery &quot;thermal runaway&quot;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Elkhorn Media Group</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>사우스카니에서 리튬이온 배터리의 열폭주로 인한 구조물 화재가 발생했습니다.</li><li>소방 당국의 신속한 대응으로 화재는 진압되었습니다.</li><li>이번 사건은 리튬이온 배터리의 잠재적 위험성을 다시 한번 상기시켰습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-19</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbFE2eDdPMWwta3dtMGFFSnZIWC1QZjJHOVlXSGRLSjV4Sk53UlB4VzdWdUlDYlVYaFVGYjN1V0VwN2Z4bUdKbThMMDlSTk8zUjh4S3RFNGFoSnJyLTZBcnRVY1FURTk1dU9qcEhUYTljVkRweU16bURnajRWVmZsRlhQbmFGSFFHWFVMaU9BWmRwS3J2ZWlMYV9mXzZSVjFfeHZSWk5QMFhsbmVQNGNnbnlsQkpaRDVIOXhJV0p0d2Z6UQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Fire risk in plain sight: Lithium-ion batteries</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">13newsnow.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>리튬이온 배터리는 일상생활에서 흔히 사용되지만 화재 위험성을 내포하고 있습니다.</li><li>이러한 위험성은 특히 배터리 사용 및 폐기 과정에서 더욱 부각될 수 있습니다.</li><li>리튬이온 배터리의 안전한 관리를 위한 주의가 요구됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-19</div>
+          </div>
+        </a>
+        
+        <a class="card cat-policy" href="https://news.google.com/rss/articles/CBMirAFBVV95cUxOZThTazU3SC1tc3hjQ2F3em5fM19aS2h3NldBODdBSk9EZGw5cDJPaG9tcGFGMjN0al9qTTdtcmdXRS0tVFhPWDZXMHhvQWJLc0dlR3lnSDM4TnVTcWZhNWplZm1YMVlUdDU4NUFxQm1ZZUhLVTFsMEN0NzVISW9TZVJ6R1I0eUEweWk2d0JBbnVhOHVQRkl4V2UybVN5blNZbFZZZENiWWhTV2hK?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">정책</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG Energy Solution starts battery production at new Lansing facility</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">pv magazine USA</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">LG</span><span class="chip">USA</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG에너지솔루션이 랜싱 신규 공장에서 배터리 생산을 시작했습니다.</li><li>이 공장은 LG에너지솔루션의 북미 생산 능력을 강화하는 데 기여할 것입니다.</li><li>이는 전기차 배터리 시장에서의 경쟁력 확보를 위한 중요한 발걸음입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-19</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSGppdW1CRkplanRPVVdraG41QTNJNmh4b3dmZFlBNVA3QjRDU0JfN1dOZlI5bWZYb3JHQVlvMXpaU3VhT0RPU1dENi00RzRVNFNRY3pKb2JhUUVReFJTVXNDZXNBaTZ4T216ZHdBOC1GbFIzdE85ZmhweERLSWVFZUJUQjdQYm1RTWgyWThrZGNFd1NLbERXV1ZJcE1MUFFrSlkxSUh6V3RNTm5pVGZtTEgxeldaQ3dYYTZlQnJZcmNRMmhfY1dpaHhzMHZPbXhDTG4zSUpuTjdlakl3cFhpVnpxQmtVZm9z?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[Watch]Thermal runaway: Managing lithium-ion battery risks in waste and recycling operations</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Waste Today -</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>폐기물 및 재활용 작업에서 리튬이온 배터리의 열폭주 위험을 관리하는 방법을 다룹니다.</li><li>이 영상은 관련 위험을 이해하고 예방하기 위한 정보를 제공합니다.</li><li>안전한 배터리 처리는 환경 및 작업자 안전에 필수적입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-19</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1lSTl4M3JNT1dEZEFmOGJlLTh4a205NzNIQTJfV1hiMUJTNlBvV1JVcW1LMmR5THZqNVpiZFNWTFBvaENEWm1HUmE1UFl3RlJ6UG44dU42VXJpZUdFY0V0RV9DVVE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium Batteries Causing Trash Truck Fires</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">League City (.gov)</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>리튬 배터리가 쓰레기 트럭에서 화재를 일으키는 사건이 발생하고 있습니다.</li><li>이는 배터리 폐기 및 처리 과정에서의 안전 문제에 대한 우려를 제기합니다.</li><li>지역 사회는 이러한 위험에 대한 인식을 높이고 예방 조치를 강화해야 합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-19</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUFZOMGxha1FBem5tb1JyamxDdWVGRWdvVjVRVEtrY2lsZzJablFrYV95Tmt2T004WXlialRvZ2lFV3BjUnJzNFgtbHJUeGlJWXBXSWdBNkRWcGFjMjJnSi1odkhrYzFaTFdFZm52R2p0VzZxc3lHc2pMSmp5MUY4RG5KUHBHMVRIZlZQVmtNekN3RTd0TmdnTWEzdUdqQl8xN2JaT0h6cmxjWmfSAbMBQVVfeXFMT1dVTDdxTzE3T1p3UzVzNTMzX3hDTExHVm5VblFvaHhld01LZkI1QmZ1UjY5SHBuWnlVZGtpQ2lNd0dTQmZqZEhmTDNmNjhKdHpQOE8tVnJna193bEVtenhZMU13SC02ZnNIcm40LThmNXlNUEgwWDluSGJoV1FTeWNpdHVFNFZzUDhZLTlESDhKR2I2bXctd2sxMjNObDBiZUdUQ1FFckFTUnAtNjNCM3d3b2M?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium battery fires spark new legislation in NJ</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">NBC10 Philadelphia</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">NJ</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>뉴저지주에서 리튬 배터리 화재 사건이 잇따르면서 새로운 법안이 추진되고 있습니다.</li><li>이 법안은 배터리 안전 규정을 강화하여 유사 사고를 예방하는 것을 목표로 합니다.</li><li>이는 리튬 배터리 사용 증가에 따른 안전 관리의 중요성을 보여줍니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-19</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.sedaily.com/article/20080995?ref=naver" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">포스코, 中 롱바이에 배터리 리튬 공급…“2차전지 소재 전방위 공조”</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.sedaily.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">포스코</span><span class="chip">롱바이그룹</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>포스코그룹이 중국 롱바이그룹과 배터리용 리튬 공급 협약을 체결했습니다.</li><li>이번 협력을 통해 양사는 리튬 공급부터 폐배터리 재활용까지 2차전지 소재 공급망 전반에 걸쳐 협력할 예정입니다.</li><li>이는 포스코그룹의 2차전지 소재 사업 경쟁력 강화 전략의 일환입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-19</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.econovill.com/news/articleView.html?idxno=748393" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[CEO파일] 원톱 된 이용욱 SK온 대표이사…몸집보다 &#x27;체질&#x27; 바꾼다</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.econovill.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SK온</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>이용욱 SK온 대표가 회사의 체질 개선을 통해 경쟁력을 강화하려 하고 있습니다.</li><li>중국 업체들의 LFP 배터리 공세와 국내 업체의 포트폴리오 다변화 속에서 SK온은 새로운 전략을 모색 중입니다.</li><li>이는 글로벌 전기차 배터리 시장의 변화에 대응하기 위한 움직임입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-19</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.theguru.co.kr/news/article.html?no=105955" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">BMW, 6세대 원통형 배터리 적용 속도…CATL·EVE에너지 적용 확대</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.theguru.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">BMW</span><span class="chip">CATL</span><span class="chip">EVE에너지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>BMW가 6세대 원통형 배터리 적용을 확대하며 CATL 및 EVE에너지와의 협력을 강화하고 있습니다.</li><li>이는 BMW의 차세대 배터리 기술 확보 및 공급망 다변화 전략의 일환입니다.</li><li>삼성SDI와의 파트너십은 유지되면서 전고체 배터리 공동 개발 등 차세대 기술 협력도 지속될 전망입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-19</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.bloter.net/news/articleView.html?idxno=671231" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&quot;실탄 충분&quot; 자신한 엔켐, 1년 만에 자금 전략 선회…확장서 버티기로</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.bloter.net</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">엔켐</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>2차전지 전해액 업체 엔켐이 공격적인 생산 능력 확대 기조에서 유동성 관리 중심으로 전략을 선회했습니다.</li><li>이는 전기차 시장의 캐즘 현상으로 인한 고객사의 배터리 생산 지연에 선제적으로 대응하기 위한 조치입니다.</li><li>엔켐은 외부 자금 조달보다는 내부 자원을 활용한 안정적인 운영에 집중할 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-20</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://www.getnews.co.kr/news/articleView.html?idxno=878341" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">리튬 등 이차전지 소재 사업 &#x27;가속페달&#x27; 포스코그룹 장인화號, 삼원계 ...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.getnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">포스코</span><span class="chip">롱바이그룹</span><span class="chip">이차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>포스코그룹이 중국 롱바이그룹과 리튬 공급 및 폐배터리 재활용 협력을 포함한 2차전지 소재 사업 협약을 체결했습니다.</li><li>이번 협약을 통해 양사는 2차전지 소재 밸류체인 전반에 걸쳐 협력하며 포스코그룹의 관련 사업을 가속화할 것입니다.</li><li>또한, 포스코그룹은 삼원계 및 나트륨이온전지 등 제품 포트폴리오 확장을 통해 경쟁력을 강화할 계획입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-20</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
