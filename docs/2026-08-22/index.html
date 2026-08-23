@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-08-22</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-08-22 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVmpiNE9XaXZwZ3ZEclFyOE02b1gtemxTbGNabGZKYURoWURMTEdGbXBBNkwwU083WldELVgwQkk3LVVDckVCMGxaTjNaXzVRamZ0R3RTdWJ6YXVRTWhrR1BiYUVCTVh3YXdjaTlHMWxneFA1WmpGeGdOQ1FBSkliSDJnRENFalo4Ukdn?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&#x27;Most Companies Are Struggling&#x27;: Executive Shares An Uncomfortable Truth About Solid-State EV Batteries</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">InsideEVs</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Solid-state EV batteries are facing significant challenges, with many companies struggling to overcome technical hurdles.</li><li>An executive highlighted that the current state of development means most companies are not yet ready for mass production.</li><li>This indicates a gap between the promise of solid-state technology and its practical implementation in the electric vehicle market.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVEtSdFlMQ1RwZW9TUy1LaDVFcmt1TUNVekN2cGhoSWlFR25KMldkQnV3N1NZY21TN1hkMExpSXFjdVF6clhDb1FvVmxlSi02aDUxczJFY3o1UDF6dUdkMUN1VFpvUjVsdXppMDNLQ2JxeUowWGR6ZHJMS0NUQTdEZTNVbDJodHhwcDNz?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Sodium-ion batteries near a key EV milestone, and they may already undercut lithium on price</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">The Cool Down</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Sodium-ion batteries are approaching a significant milestone in their development for electric vehicles.</li><li>These batteries may already offer a cost advantage over traditional lithium-ion batteries.</li><li>This development could lead to more affordable EVs in the future.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPRFVnMFVYV0c5NmFIT3hyNDEyQlJ3Zm9Uc01vN0psVzQyMXNveXBGVUcteG5famZ2dVpsY2hISkJKQ0YwLXpnZ1FQWGRkejBQYVJDdmpWcFZPSFlGTDgwWnlBazVyR0lJc1FHZUhaemlzU2FLVEhOSTk4QmxPR0Ewekdwc0k?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Inside The $2 Billion Battery Factory Making Cells For Tesla And Toyota</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">InsideEVs</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Tesla</span><span class="chip">Toyota</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>A $2 billion battery factory is producing cells for major automakers like Tesla and Toyota.</li><li>This facility represents a significant investment in battery manufacturing capacity.</li><li>The factory&#x27;s output is crucial for meeting the growing demand for electric vehicles.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPU1JGOENYbjc2b0JQQXV5LXdQM0VxYlRGZzhUS0xUMEROLVVUemlZTGJqeEswY0lac2hrX1BBMVAyaUFldmxINlRqay01eHZaXzNhY1d1cmQ2OFNxMllENDAtMldITjF6WEpMd3BhWk9TQ0FZUEt5bjZVMmI0UEh4cUZFVUsydU9MLXE5bjNVbUxCYzVKMm5McGcyQ1YtNnVzWVE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG Energy Solution names the main obstacle for solid-state batteries</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">UA.NEWS</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG Energy Solution</span><span class="chip">LG</span><span class="chip">UA</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG Energy Solution has identified the primary obstacle hindering the widespread adoption of solid-state batteries.</li><li>While solid-state batteries promise advancements, a key challenge remains to be solved.</li><li>Addressing this obstacle is crucial for LG Energy Solution and the broader battery industry to move forward with this technology.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="http://www.newstomato.com/ReadNews.aspx?no=1311042&amp;inflow=N" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">K-배터리 3사 특허 경쟁 가속…글로벌 등록 10만건 육박</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.newstomato.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SK On</span><span class="chip">K-배터리</span><span class="chip">SK온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The top three Korean battery companies are accelerating their patent competition, with global registrations nearing 100,000.</li><li>They are actively expanding their patent portfolios in next-generation technologies like solid-state batteries.</li><li>SK On, for instance, significantly increased its registered patents from around 1,100 in 2022 to over 3,200 recently.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMihwFBVV95cUxNN2JwR0V6eVc4bVFtVVRZWjNmbTM1YWJaN1dKWkthTHhsTDFzYXZ4Nk04dXpRMmJkeEdVS3hyYlVibEt4b2t1LXk3WkxjY2ZCS050dlcxMVVNMmV4dzJmUGs4OW5hdkdVNFNBOTNVMVJRbDFiYUxPUzh5VEtYSEZzVkQ2T0ZEaGs?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium-Ion Battery Suspected in Cortland Fire</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">WSTM</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">WSTM</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>A fire in Cortland is suspected to have been caused by a lithium-ion battery.</li><li>The incident highlights the potential risks associated with lithium-ion battery technology.</li><li>Further investigation is likely underway to confirm the exact cause of the fire.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQbWpIWEMzODFHQU8xcC15eWN4anBScTRtZW5WNTNFV0VuRTk1azlCT21xZWdDaHBxMlZoa1djTzRNVWVIaEN5WWhUTVZZdmYwdWszMWVVX3lzUGJFOWFyM2JJREtleWRWbkNFdnRJNDhQcU54Q3RxempZVWw0Q3pQVnhNcU14X1A3Smc1bUVkWWtZYjVFbDItczNJUEdrSkUza25yREVvM1JLWlJDNF9lSmlrSDk?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">FDNY: Lithium-ion battery sparked Bronx barbershop blaze</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Spectrum News NY1</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">FDNY</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The FDNY has determined that a lithium-ion battery ignited a fire at a barbershop in the Bronx.</li><li>This incident underscores the fire risks associated with lithium-ion batteries, particularly in urban environments.</li><li>Authorities are likely investigating safety protocols related to the use and storage of such batteries.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-policy" href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=479646" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">정책</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">에코프로, 2차전지 밸류체인 완성…글로벌 공급망 승부수</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.pinpointnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">에코프로</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>EcoPro is completing its secondary battery value chain, aiming to compete globally.</li><li>As regulations against Chinese batteries and materials tighten in the US and Europe, establishing a non-Chinese supply chain is a key competitive advantage.</li><li>EcoPro&#x27;s vertical integration strategy is designed to align with these market shifts.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdlFkTEdPVUFnaTk1WllpV1lDR0VoYnB0WjRMSF9tUnZ1TGlYQTNPRE9NcHkyYmRDNmNFNXRLVjh3YzgwaC1WdUZiQnlDTlBHTElMVjVDYUh2YmhhQ1FVa2VaaEVQaWp5bjJSTXByMWRhZTRMcEEya2wyTnBhMExHSDNfMHlXMmFfOFVOOUd3T3dySDRBNHpPdXh6by1BekpaSmRqRk5teVBxVGhsX0RLWG5hM3pyZ1loeFJxbElzalkwaWZxM3F3M3otdEdpM2wwYWNqYW1FVFFRRFMxdmc?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">DOE Awards $500M to 7 Critical Mineral Projects Hoping to Bolster Domestic Battery Supply Chains</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">energytech.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">DOE</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The Department of Energy (DOE) has awarded $500 million to seven critical mineral projects.</li><li>These projects aim to strengthen domestic battery supply chains in the United States.</li><li>The funding is intended to bolster the availability of essential materials for battery production.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMiigFBVV95cUxOQnpRQzU4cGZ3TGNlVmJBNWl3ZEw1MHVYLWo3c1lEV3RvSnJZdXg0MHl5T0xDdU9lLWhPQ0NRZ0VRVzctRHpwU1JrczB4dTh0SGVYMzV1aWl0dVlfb2dxNnh6Q3NmdGhvVmRpM0JxNmo1WlJ5Z3REMWpDT2RZRjIwMzZxekhNX3FLNEE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">China’s Geely targets 621-mile EV range with 2027 solid-state battery deployment</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Interesting Engineering</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Geely</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>China&#x27;s Geely is targeting the deployment of solid-state batteries by 2027, aiming for an EV range of 621 miles.</li><li>This ambitious goal signifies a major leap in battery technology for electric vehicles.</li><li>The successful implementation of these batteries could significantly enhance EV performance and consumer appeal.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.g-enews.com/view.php?ud=2026082216281961470c8c1c064d_1" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">美 국제무역위, LG엔솔 제소로 中 EVE에너지 &#x27;특허 침해&#x27; 정식 조사 착수</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.g-enews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG Energy Solution</span><span class="chip">EVE Energy</span><span class="chip">LG엔솔</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The US International Trade Commission has launched a formal investigation into EVE Energy for patent infringement, following a complaint by LG Energy Solution.</li><li>This action is part of LG Energy Solution&#x27;s efforts to protect its proprietary cylindrical 2nd-generation battery technology.</li><li>The investigation comes amid the rapid expansion of Chinese batteries in the global EV and ESS markets.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.g-enews.com/view.php?ud=2026082220575735012bd56fbc3c_1" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">미국은 원자재 블랙홀로 변했다… K-배터리 공급망 &#x27;비상등&#x27;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.g-enews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">K-배터리</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>The United States is becoming a &#x27;black hole&#x27; for raw materials, raising concerns for K-battery supply chains.</li><li>US Customs and Border Protection has strengthened verification procedures for importer information.</li><li>Importers and customs brokers must ensure the accuracy of their data for materials like black mass, a key component in battery recycling.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRnUtU2hLMVgxTUtHRkQ1QUZ2bDZzLTdUWDlKUDhPMFdnd1BlRFh1LXYzQzN2bGU2alNWQXMwUmxjWXhDV09HaUlMZGF6Vl8wQkR3U3gzS3NJdnBTXzBrSXZGYXhJVnVlTFlXYTRFbHd4b1R2M1RQanQtMHNvLVR1OFp4WXI0WGEzeXpoVVQ4bTNjRk1RcnpzV1g4d1JtOVRGZFltNVhtN1pkdw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Battery fires at recycling centres are costing UK £1bn a year, figures show</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">The Guardian</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">UK</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Battery fires at recycling centers in the UK are causing an estimated £1 billion in damages annually.</li><li>These fires pose a significant financial and safety risk to the recycling industry.</li><li>The figures highlight the urgent need for improved safety measures and handling protocols for batteries in recycling facilities.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiggFBVV95cUxQZG5HY3RENTB6cGx0X042WGROdmg0dzRsZE5ETVdJRVotLWlpaWVObnJmdTR1SWFab3BrN0NFblU3X0EzR1ptZ2FLY3l0ay1oZ0pnY3N0aDY2d2hBQld4bEVYelhLOFhDZDRMRGdBZHR2NVd0Sl9OOGhXYUgzSHVFbVln?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">US: Lithium battery materials plant supporting 25 GWh of cell production breaks ground</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Interesting Engineering</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">US</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>A new lithium battery materials plant has broken ground in the US, designed to support 25 GWh of cell production.</li><li>This facility represents a significant step in bolstering domestic battery manufacturing capabilities.</li><li>The plant&#x27;s development is crucial for meeting the growing demand for electric vehicles and energy storage solutions.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.g-enews.com/view.php?ud=2026082301052051860c8c1c064d_1" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">15</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&quot;디젤차처럼 1000㎞ 달린다&quot;… 지리(Geely), &#x27;500Wh/kg&#x27; 꿈의 전고체 배터...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.g-enews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Geely</span><span class="chip">리튬이온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Geely has announced plans to develop next-generation solid-state batteries with an energy density of 500 Wh/kg.</li><li>The company aims to begin vehicle verification testing in 2026 and pilot the batteries in its premium brand vehicles by 2027.</li><li>This development could enable EVs to achieve a driving range comparable to diesel vehicles, potentially exceeding 1000 km.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-23</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
