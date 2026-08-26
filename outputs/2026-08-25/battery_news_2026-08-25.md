@@ -1,0 +1,135 @@
+# 배터리 뉴스 데일리 브리핑 (2026-08-25 전날 기준)
+
+- 총 10건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | separator | 2026-08-25 | www.e-platform.net | SK이노, 분리막 사업 내재화위해 SKIET 흡수합병 | http://www.e-platform.net/news/articleView.html?idxno=104795 | unknown |
+| 2 | 3 | 기타 | 2026-08-25 | Straits Research | Battery Market Size, Share, Growth, Report, 2034 | https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sTVZnbzNMMFRUbVB2YXFvTnoxLUNZelcxZVJRbUYxUHFXWFhJUWZhUFBwSTRtNXdDZ1BRNFNfeVNwOU1jSW55QWJoektxUWlLck5ZZjJMaE9sLTVlcFE?oc=5 | unknown |
+| 3 | 3 | 재활용 | 2026-08-25 | MassLive.com | The collapse of a Mass. battery recycling company that had nearly $1B in backing | https://news.google.com/rss/articles/CBMiygFBVV95cUxPYTdqUUxVd0duYUVIeGExSDdXVV9zb0xrb3haOHR3QXBqTUVueGFzR2lqaVkxMDJYNUdQeVpwUVd5ZFdGRERKLV91WFNMbGI0WURqTkU1Nm9hN0JjQkt6Yzd6RnVrdlZsaFUyXzhnZXl3emY4VWFjT0JYb3BsUEtMNUZTaEVWVHQ5cnZEd28yQzRqV3p0ODh1U0lSemoyWXhwXzItV214RkloMXlmdHc0OGc2cW4tNzJ1N2s5dHpQZFJDZjJGZHB6TkZB?oc=5 | unknown |
+| 4 | 3 | 기타 | 2026-08-25 | TradingView | Beijing Easpring Material Technology: Revenue up 136% YoY to ¥10.48B, net profit up 67% to ¥520M, strong growth in lithium battery materials | https://news.google.com/rss/articles/CBMivAJBVV95cUxQeTBGZjhRdThhNUJNenhOenUySjVYM0RyTGd2ZDltck8wOFJ3OU02RDRjOXN1NGREekpuSk9jTW9Lb3MtS3BvT2p6T1hKNm1Mejg2UkI0dk9iZUw0amhzRjM3d2Y3eE92WkplcjI4YjVZc1RDcFU2bXF6RzYwcmsySGJkM1U5VGNOTHJ5OFFFeW0wYjFCZDRDY0RGb2MtNk9NLS1fMjUzUzBoUmF4NEQ3R2hrX1ZDemNXSm9lZjhMdU1HaFo5a2RYN3lsbGZzMThlTmVjWDA2c0k1ZVhxRTNWa1F6T2I0ZllyTG1qRmpOSHNjVHh3VVJJd25FR29tU3RiSWtDVVZ4cnllV3YybTN6ZVpGamowNDRZcDJDZGYxNkFaSWpUY1Z3cF9kNDBKc2FzYTd3MnZFR3hua1pz?oc=5 | unknown |
+| 5 | 3 | cathode | 2026-08-25 | Down To Earth | Lithium carbonate prices fall 10.3%, energy storage cells extend decline as market eyes 2027 surplus | https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVTE3OGhMZk9PQXVjeWVKZ2MyNzZIbzZCbG5CQXc5QmJLODdnWnBQb3ljSTB0c2U3RE1JTkJVLWFGUTJncERzeVctUVhabG5odTN1T01rNnBjcFNQUlltdW92MDJ2elI3dFVmRFlfOVFTSEpHYUM5V3ZjWWtmaFNJTmd6NW9GYkstV1NQa0ExSlRtZ2lraFVUcm1QTENCajY4MC1TRW44aTVYQzIwVktGd2MzbndCcVRsTDlZQjBQUzhONl82cW5WRmFiRWtWUmNo0gHeAUFVX3lxTFBrcjNWSjg4dWwzd1RZQXRoMGVfajBzdUxRWk9sN1BLQU53WE9JZTBSQ0hRSk53Ym9MZFZOcV85WjJ4QzhHOGFFZTA4OVRMSDJraUUxck5uQnBoZ3JMQXlzZVcyQTIySTlIR05uRC1mMTNueEpRS0h5blJ1SUJadXpZMjVsaS16Ynd1QTVmSUI3M3Z1ZExCVUkzQzduMHRHOXRqS25pWXM3VEF3LTY1cFVScHd3OE5QN09FT19IMy1QNEdkOWxLdjI1ZDBpMEhYX1h2QWV0WHgwVnNlcGZxQQ?oc=5 | unknown |
+| 6 | 3 | 기타 | 2026-08-25 | 01net | LibertyStream Reports Three Months of Consistent Battery-Grade Lithium Carbonate Production | https://news.google.com/rss/articles/CBMiswFBVV95cUxQVy0tbmhlLVNVQ2ZIWnlELUdEWVk2eFl2UENPaHp6dUdoM1NTbnVGUmRxdnhoTzhCNVVNRWc5cGxrVVV4Yk5mTFJZYktsemZTd3JOa0UzNHM4YkhKOWxkV0dYZTllbDljY1BqT01haHdhc1hBS0otRWM2UnZVbHhPM1o1MWJycXpFYnNDdjJTT01PYURUd1RCblc5dHZUN1BiU2h1eUFiNUluamZhT0V0Q2xKdw?oc=5 | unknown |
+| 7 | 3 | 재활용 | 2026-08-25 | pv magazine USA | Princeton NuEnergy secures $50 million DOE grant for Georgia battery recycling plant | https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTXNLX0llcDJfWmZOMHp2dHl6ZDdVODJSdzhmMk0wal90MmpkNVloMUc2T1MwR29qMTRJUWhKUDBmcFdSQmQ5bURHc25qSkpITnlwd3ZhelI5RVQtOEZsV2JYS2dGUzVXaXNxMnVHY0FkbzNhbnZzdE5xVklFMGtLN084d0VMQ3hqWlMtV3R5REhpcjJJaHNLaEkzOE5EOGl2M2oyWFd6VU4yWmQ5Y0x2ZGFhT3lkOGVqZlFraW9oYzg?oc=5 | unknown |
+| 8 | 3 | 재활용 | 2026-08-25 | The Business Journals | Trump administration invests $50 million into battery recycling project in Commerce | https://news.google.com/rss/articles/CBMimgFBVV95cUxOZndIdWdBRTRJMTUzNGViUUFIbVhQYlpJdnFieUZLcVZPQmd5aFZVcnphbTJaSThZYnR1YWFGa0piaklVTlpyUHBvZzBBUFctUXN0eVBrbUhVWTVleVhvWlVZcmRJeVI2cEpackQ0dC0zd1Fpdl9WR0RjN1JQSmN4RVFUV1R2NlkwTXNvdUlBRTMwNnowOE43ajlR?oc=5 | unknown |
+| 9 | 3 | 기타 | 2026-08-25 | The National Law Review | Global New Energy Lithium Battery Supply Chain Analysis and TRUNNANO Lithium Carbonate Powder Market Entry | https://news.google.com/rss/articles/CBMitwFBVV95cUxPRjVLNFlncEpSNEgwMFppektUR3dmMXVUV1pPV3dRSEVPUTZYQ2hSWFRzVGpxbGIyTmE4YllGUEh5THBGVmUtenFiLUFpLXdaLTZGTW12R3FXX2w3YWk2OUVrLWhTTGh2NXNzU1lmMy1yWDJvek8zTEhXQS1wa2t4NmpQUGM1V2tIQ050ZC15X25MSElkaFFSeUJ2LXlURHF4ZFhidVdFdExCdWRYNnA2SjBRNV9EMEE?oc=5 | unknown |
+| 10 | 3 | 기타 | 2026-08-25 | Shanghai Metals Market | Guangdong Hongkai Intelligent invites you to attend the 2026 SMM Lithium Battery Raw Material Conference | https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTDVnQnZ5Q3ppLWlwR2JXQi1tbm1TSVIxb040MHE4MmU2MWdiVVFjWFRGcWJPRWJCRHdmb0lEbnVBc1FwS19udEZka1hyb2xjYjg3YnhfdEV4UHEwS2NsWHdUR0YwRUszb3cycGNWbTJvYkNJT2tFeV9KT0NXbmQyaE5BeTdrQlNGS0FhSFVoM1p2QmhyaTJpcUNUM01vd08zMTlneEFPOFdGOFY5UDF4ak04X01CMUFTM2pzRUh3bFdMa2IyNHNmcEM4TkhhTHBZYmNqQ1NjTGpHcFNrdFpEMWtPQzZGVE0?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. SK이노, 분리막 사업 내재화위해 SKIET 흡수합병
+- 발행일: 2026-08-25
+- 매체: www.e-platform.net (출처등급 3)
+- 분야: separator
+- 링크: http://www.e-platform.net/news/articleView.html?idxno=104795
+- 참고 링크: https://www.newsway.co.kr/news/view?ud=2026082609340170871, https://www.gasnews.com/news/articleView.html?idxno=126498
+- 인기신호: unknown
+- 3문장 요약:
+  - SK이노베이션이 전기차용 리튬이온배터리의 핵심 소재인 분리막(LiBS) 생산 역량을 강화하기 위해 SK아이이테크놀로지를 흡수합병합니다.
+  - 이번 합병은 전기차 시장의 폭발적 성장과 함께 고성장이 기대되는 2차 전지 분리막 분야에서 글로벌 입지를 확대하기 위한 전략입니다.
+  - SK이노베이션은 이번 합병을 통해 분리막 사업의 내재화를 추진하며 경쟁력을 높일 것으로 기대됩니다.
+- 관련 기업: SK이노베이션, SK아이이테크놀로지, 리튬이온배터리
+
+### 2. Battery Market Size, Share, Growth, Report, 2034
+- 발행일: 2026-08-25
+- 매체: Straits Research (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sTVZnbzNMMFRUbVB2YXFvTnoxLUNZelcxZVJRbUYxUHFXWFhJUWZhUFBwSTRtNXdDZ1BRNFNfeVNwOU1jSW55QWJoektxUWlLck5ZZjJMaE9sLTVlcFE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Straits Research에서 발행한 보고서에 따르면 배터리 시장 규모, 점유율, 성장률에 대한 분석이 2034년까지 전망됩니다.
+  - 이 보고서는 배터리 산업의 현재 상황과 미래 성장 가능성을 다각적으로 분석할 것으로 예상됩니다.
+  - 배터리 시장의 주요 동향과 발전 방향을 파악하는 데 중요한 자료가 될 것입니다.
+
+### 3. The collapse of a Mass. battery recycling company that had nearly $1B in backing
+- 발행일: 2026-08-25
+- 매체: MassLive.com (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMiygFBVV95cUxPYTdqUUxVd0duYUVIeGExSDdXVV9zb0xrb3haOHR3QXBqTUVueGFzR2lqaVkxMDJYNUdQeVpwUVd5ZFdGRERKLV91WFNMbGI0WURqTkU1Nm9hN0JjQkt6Yzd6RnVrdlZsaFUyXzhnZXl3emY4VWFjT0JYb3BsUEtMNUZTaEVWVHQ5cnZEd28yQzRqV3p0ODh1U0lSemoyWXhwXzItV214RkloMXlmdHc0OGc2cW4tNzJ1N2s5dHpQZFJDZjJGZHB6TkZB?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 매사추세츠에 위치한 배터리 재활용 회사가 거의 10억 달러의 지원을 받았음에도 불구하고 파산했습니다.
+  - 이 회사의 갑작스러운 붕괴는 배터리 재활용 산업의 재정적 불안정성을 시사합니다.
+  - 이 사건은 해당 산업의 투자 및 운영 위험에 대한 경각심을 높이고 있습니다.
+
+### 4. Beijing Easpring Material Technology: Revenue up 136% YoY to ¥10.48B, net profit up 67% to ¥520M, strong growth in lithium battery materials
+- 발행일: 2026-08-25
+- 매체: TradingView (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMivAJBVV95cUxQeTBGZjhRdThhNUJNenhOenUySjVYM0RyTGd2ZDltck8wOFJ3OU02RDRjOXN1NGREekpuSk9jTW9Lb3MtS3BvT2p6T1hKNm1Mejg2UkI0dk9iZUw0amhzRjM3d2Y3eE92WkplcjI4YjVZc1RDcFU2bXF6RzYwcmsySGJkM1U5VGNOTHJ5OFFFeW0wYjFCZDRDY0RGb2MtNk9NLS1fMjUzUzBoUmF4NEQ3R2hrX1ZDemNXSm9lZjhMdU1HaFo5a2RYN3lsbGZzMThlTmVjWDA2c0k1ZVhxRTNWa1F6T2I0ZllyTG1qRmpOSHNjVHh3VVJJd25FR29tU3RiSWtDVVZ4cnllV3YybTN6ZVpGamowNDRZcDJDZGYxNkFaSWpUY1Z3cF9kNDBKc2FzYTd3MnZFR3hua1pz?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Beijing Easpring Material Technology는 전년 대비 매출 136% 증가한 104억 8천만 위안, 순이익 67% 증가한 5억 2천만 위안을 기록했습니다.
+  - 이는 리튬 배터리 소재 분야에서의 강력한 성장을 보여줍니다.
+  - 회사의 재무 성과는 배터리 소재 시장의 긍정적인 전망을 반영합니다.
+- 관련 기업: Beijing Easpring Material Technology
+
+### 5. Lithium carbonate prices fall 10.3%, energy storage cells extend decline as market eyes 2027 surplus
+- 발행일: 2026-08-25
+- 매체: Down To Earth (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVTE3OGhMZk9PQXVjeWVKZ2MyNzZIbzZCbG5CQXc5QmJLODdnWnBQb3ljSTB0c2U3RE1JTkJVLWFGUTJncERzeVctUVhabG5odTN1T01rNnBjcFNQUlltdW92MDJ2elI3dFVmRFlfOVFTSEpHYUM5V3ZjWWtmaFNJTmd6NW9GYkstV1NQa0ExSlRtZ2lraFVUcm1QTENCajY4MC1TRW44aTVYQzIwVktGd2MzbndCcVRsTDlZQjBQUzhONl82cW5WRmFiRWtWUmNo0gHeAUFVX3lxTFBrcjNWSjg4dWwzd1RZQXRoMGVfajBzdUxRWk9sN1BLQU53WE9JZTBSQ0hRSk53Ym9MZFZOcV85WjJ4QzhHOGFFZTA4OVRMSDJraUUxck5uQnBoZ3JMQXlzZVcyQTIySTlIR05uRC1mMTNueEpRS0h5blJ1SUJadXpZMjVsaS16Ynd1QTVmSUI3M3Z1ZExCVUkzQzduMHRHOXRqS25pWXM3VEF3LTY1cFVScHd3OE5QN09FT19IMy1QNEdkOWxLdjI1ZDBpMEhYX1h2QWV0WHgwVnNlcGZxQQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 리튬 탄산염 가격이 10.3% 하락했으며, 에너지 저장 셀 가격도 하락세를 이어가고 있습니다.
+  - 시장에서는 2027년 공급 과잉을 예상하고 있습니다.
+  - 이는 배터리 원자재 시장의 변동성과 향후 공급 전망에 대한 우려를 나타냅니다.
+
+### 6. LibertyStream Reports Three Months of Consistent Battery-Grade Lithium Carbonate Production
+- 발행일: 2026-08-25
+- 매체: 01net (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiswFBVV95cUxQVy0tbmhlLVNVQ2ZIWnlELUdEWVk2eFl2UENPaHp6dUdoM1NTbnVGUmRxdnhoTzhCNVVNRWc5cGxrVVV4Yk5mTFJZYktsemZTd3JOa0UzNHM4YkhKOWxkV0dYZTllbDljY1BqT01haHdhc1hBS0otRWM2UnZVbHhPM1o1MWJycXpFYnNDdjJTT01PYURUd1RCblc5dHZUN1BiU2h1eUFiNUluamZhT0V0Q2xKdw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - LibertyStream은 배터리 등급 리튬 탄산염 생산에서 3개월간의 일관된 성과를 보고했습니다.
+  - 이는 회사의 생산 공정 안정성과 제품 품질을 입증합니다.
+  - 이러한 성과는 배터리 소재 시장에서 LibertyStream의 신뢰도를 높일 것으로 기대됩니다.
+- 관련 기업: LibertyStream
+
+### 7. Princeton NuEnergy secures $50 million DOE grant for Georgia battery recycling plant
+- 발행일: 2026-08-25
+- 매체: pv magazine USA (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTXNLX0llcDJfWmZOMHp2dHl6ZDdVODJSdzhmMk0wal90MmpkNVloMUc2T1MwR29qMTRJUWhKUDBmcFdSQmQ5bURHc25qSkpITnlwd3ZhelI5RVQtOEZsV2JYS2dGUzVXaXNxMnVHY0FkbzNhbnZzdE5xVklFMGtLN084d0VMQ3hqWlMtV3R5REhpcjJJaHNLaEkzOE5EOGl2M2oyWFd6VU4yWmQ5Y0x2ZGFhT3lkOGVqZlFraW9oYzg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Princeton NuEnergy는 조지아주 배터리 재활용 공장을 위해 미국 에너지부(DOE)로부터 5천만 달러의 보조금을 확보했습니다.
+  - 이 자금은 배터리 재활용 기술 개발 및 시설 확장에 사용될 예정입니다.
+  - 이는 미국 내 배터리 재활용 역량 강화에 기여할 것으로 보입니다.
+- 관련 기업: Princeton NuEnergy, DOE, USA
+
+### 8. Trump administration invests $50 million into battery recycling project in Commerce
+- 발행일: 2026-08-25
+- 매체: The Business Journals (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMimgFBVV95cUxOZndIdWdBRTRJMTUzNGViUUFIbVhQYlpJdnFieUZLcVZPQmd5aFZVcnphbTJaSThZYnR1YWFGa0piaklVTlpyUHBvZzBBUFctUXN0eVBrbUhVWTVleVhvWlVZcmRJeVI2cEpackQ0dC0zd1Fpdl9WR0RjN1JQSmN4RVFUV1R2NlkwTXNvdUlBRTMwNnowOE43ajlR?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 트럼프 행정부는 커머스 지역의 배터리 재활용 프로젝트에 5천만 달러를 투자했습니다.
+  - 이 투자는 미국 내 배터리 재활용 산업의 성장을 촉진하기 위한 것입니다.
+  - 이는 배터리 폐기물 관리 및 자원 순환에 대한 정부의 의지를 보여줍니다.
+
+### 9. Global New Energy Lithium Battery Supply Chain Analysis and TRUNNANO Lithium Carbonate Powder Market Entry
+- 발행일: 2026-08-25
+- 매체: The National Law Review (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMitwFBVV95cUxPRjVLNFlncEpSNEgwMFppektUR3dmMXVUV1pPV3dRSEVPUTZYQ2hSWFRzVGpxbGIyTmE4YllGUEh5THBGVmUtenFiLUFpLXdaLTZGTW12R3FXX2w3YWk2OUVrLWhTTGh2NXNzU1lmMy1yWDJvek8zTEhXQS1wa2t4NmpQUGM1V2tIQ050ZC15X25MSElkaFFSeUJ2LXlURHF4ZFhidVdFdExCdWRYNnA2SjBRNV9EMEE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Global New Energy Lithium Battery Supply Chain Analysis 보고서는 새로운 에너지 리튬 배터리 공급망에 대한 분석을 제공합니다.
+  - 또한 TRUNNANO의 리튬 탄산염 분말 시장 진출에 대한 내용을 다룹니다.
+  - 이 보고서는 배터리 소재 시장의 동향과 관련 기업의 전략을 이해하는 데 도움을 줄 것입니다.
+- 관련 기업: TRUNNANO
+
+### 10. Guangdong Hongkai Intelligent invites you to attend the 2026 SMM Lithium Battery Raw Material Conference
+- 발행일: 2026-08-25
+- 매체: Shanghai Metals Market (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTDVnQnZ5Q3ppLWlwR2JXQi1tbm1TSVIxb040MHE4MmU2MWdiVVFjWFRGcWJPRWJCRHdmb0lEbnVBc1FwS19udEZka1hyb2xjYjg3YnhfdEV4UHEwS2NsWHdUR0YwRUszb3cycGNWbTJvYkNJT2tFeV9KT0NXbmQyaE5BeTdrQlNGS0FhSFVoM1p2QmhyaTJpcUNUM01vd08zMTlneEFPOFdGOFY5UDF4ak04X01CMUFTM2pzRUh3bFdMa2IyNHNmcEM4TkhhTHBZYmNqQ1NjTGpHcFNrdFpEMWtPQzZGVE0?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Guangdong Hongkai Intelligent은 2026 SMM 리튬 배터리 원자재 컨퍼런스에 참석을 요청했습니다.
+  - 이 컨퍼런스는 리튬 배터리 원자재 시장의 최신 동향과 기술을 공유하는 자리가 될 것입니다.
+  - 업계 관계자들은 이 컨퍼런스를 통해 네트워킹 및 비즈니스 기회를 모색할 수 있습니다.
+- 관련 기업: Guangdong Hongkai Intelligent, SMM

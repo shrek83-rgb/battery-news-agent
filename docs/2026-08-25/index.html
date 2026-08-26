@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-08-25</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-08-25 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-separator" href="http://www.e-platform.net/news/articleView.html?idxno=104795" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">separator</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">SK이노, 분리막 사업 내재화위해 SKIET 흡수합병</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.e-platform.net</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SK이노베이션</span><span class="chip">SK아이이테크놀로지</span><span class="chip">리튬이온배터리</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>SK이노베이션이 전기차용 리튬이온배터리의 핵심 소재인 분리막(LiBS) 생산 역량을 강화하기 위해 SK아이이테크놀로지를 흡수합병합니다.</li><li>이번 합병은 전기차 시장의 폭발적 성장과 함께 고성장이 기대되는 2차 전지 분리막 분야에서 글로벌 입지를 확대하기 위한 전략입니다.</li><li>SK이노베이션은 이번 합병을 통해 분리막 사업의 내재화를 추진하며 경쟁력을 높일 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sTVZnbzNMMFRUbVB2YXFvTnoxLUNZelcxZVJRbUYxUHFXWFhJUWZhUFBwSTRtNXdDZ1BRNFNfeVNwOU1jSW55QWJoektxUWlLck5ZZjJMaE9sLTVlcFE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Battery Market Size, Share, Growth, Report, 2034</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Straits Research</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Straits Research에서 발행한 보고서에 따르면 배터리 시장 규모, 점유율, 성장률에 대한 분석이 2034년까지 전망됩니다.</li><li>이 보고서는 배터리 산업의 현재 상황과 미래 성장 가능성을 다각적으로 분석할 것으로 예상됩니다.</li><li>배터리 시장의 주요 동향과 발전 방향을 파악하는 데 중요한 자료가 될 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMiygFBVV95cUxPYTdqUUxVd0duYUVIeGExSDdXVV9zb0xrb3haOHR3QXBqTUVueGFzR2lqaVkxMDJYNUdQeVpwUVd5ZFdGRERKLV91WFNMbGI0WURqTkU1Nm9hN0JjQkt6Yzd6RnVrdlZsaFUyXzhnZXl3emY4VWFjT0JYb3BsUEtMNUZTaEVWVHQ5cnZEd28yQzRqV3p0ODh1U0lSemoyWXhwXzItV214RkloMXlmdHc0OGc2cW4tNzJ1N2s5dHpQZFJDZjJGZHB6TkZB?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">The collapse of a Mass. battery recycling company that had nearly $1B in backing</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">MassLive.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>매사추세츠에 위치한 배터리 재활용 회사가 거의 10억 달러의 지원을 받았음에도 불구하고 파산했습니다.</li><li>이 회사의 갑작스러운 붕괴는 배터리 재활용 산업의 재정적 불안정성을 시사합니다.</li><li>이 사건은 해당 산업의 투자 및 운영 위험에 대한 경각심을 높이고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMivAJBVV95cUxQeTBGZjhRdThhNUJNenhOenUySjVYM0RyTGd2ZDltck8wOFJ3OU02RDRjOXN1NGREekpuSk9jTW9Lb3MtS3BvT2p6T1hKNm1Mejg2UkI0dk9iZUw0amhzRjM3d2Y3eE92WkplcjI4YjVZc1RDcFU2bXF6RzYwcmsySGJkM1U5VGNOTHJ5OFFFeW0wYjFCZDRDY0RGb2MtNk9NLS1fMjUzUzBoUmF4NEQ3R2hrX1ZDemNXSm9lZjhMdU1HaFo5a2RYN3lsbGZzMThlTmVjWDA2c0k1ZVhxRTNWa1F6T2I0ZllyTG1qRmpOSHNjVHh3VVJJd25FR29tU3RiSWtDVVZ4cnllV3YybTN6ZVpGamowNDRZcDJDZGYxNkFaSWpUY1Z3cF9kNDBKc2FzYTd3MnZFR3hua1pz?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Beijing Easpring Material Technology: Revenue up 136% YoY to ¥10.48B, net profit up 67% to ¥520M, strong growth in lithium battery materials</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">TradingView</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Beijing Easpring Material Technology</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Beijing Easpring Material Technology는 전년 대비 매출 136% 증가한 104억 8천만 위안, 순이익 67% 증가한 5억 2천만 위안을 기록했습니다.</li><li>이는 리튬 배터리 소재 분야에서의 강력한 성장을 보여줍니다.</li><li>회사의 재무 성과는 배터리 소재 시장의 긍정적인 전망을 반영합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVTE3OGhMZk9PQXVjeWVKZ2MyNzZIbzZCbG5CQXc5QmJLODdnWnBQb3ljSTB0c2U3RE1JTkJVLWFGUTJncERzeVctUVhabG5odTN1T01rNnBjcFNQUlltdW92MDJ2elI3dFVmRFlfOVFTSEpHYUM5V3ZjWWtmaFNJTmd6NW9GYkstV1NQa0ExSlRtZ2lraFVUcm1QTENCajY4MC1TRW44aTVYQzIwVktGd2MzbndCcVRsTDlZQjBQUzhONl82cW5WRmFiRWtWUmNo0gHeAUFVX3lxTFBrcjNWSjg4dWwzd1RZQXRoMGVfajBzdUxRWk9sN1BLQU53WE9JZTBSQ0hRSk53Ym9MZFZOcV85WjJ4QzhHOGFFZTA4OVRMSDJraUUxck5uQnBoZ3JMQXlzZVcyQTIySTlIR05uRC1mMTNueEpRS0h5blJ1SUJadXpZMjVsaS16Ynd1QTVmSUI3M3Z1ZExCVUkzQzduMHRHOXRqS25pWXM3VEF3LTY1cFVScHd3OE5QN09FT19IMy1QNEdkOWxLdjI1ZDBpMEhYX1h2QWV0WHgwVnNlcGZxQQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium carbonate prices fall 10.3%, energy storage cells extend decline as market eyes 2027 surplus</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Down To Earth</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>리튬 탄산염 가격이 10.3% 하락했으며, 에너지 저장 셀 가격도 하락세를 이어가고 있습니다.</li><li>시장에서는 2027년 공급 과잉을 예상하고 있습니다.</li><li>이는 배터리 원자재 시장의 변동성과 향후 공급 전망에 대한 우려를 나타냅니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQVy0tbmhlLVNVQ2ZIWnlELUdEWVk2eFl2UENPaHp6dUdoM1NTbnVGUmRxdnhoTzhCNVVNRWc5cGxrVVV4Yk5mTFJZYktsemZTd3JOa0UzNHM4YkhKOWxkV0dYZTllbDljY1BqT01haHdhc1hBS0otRWM2UnZVbHhPM1o1MWJycXpFYnNDdjJTT01PYURUd1RCblc5dHZUN1BiU2h1eUFiNUluamZhT0V0Q2xKdw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LibertyStream Reports Three Months of Consistent Battery-Grade Lithium Carbonate Production</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">01net</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LibertyStream</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LibertyStream은 배터리 등급 리튬 탄산염 생산에서 3개월간의 일관된 성과를 보고했습니다.</li><li>이는 회사의 생산 공정 안정성과 제품 품질을 입증합니다.</li><li>이러한 성과는 배터리 소재 시장에서 LibertyStream의 신뢰도를 높일 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTXNLX0llcDJfWmZOMHp2dHl6ZDdVODJSdzhmMk0wal90MmpkNVloMUc2T1MwR29qMTRJUWhKUDBmcFdSQmQ5bURHc25qSkpITnlwd3ZhelI5RVQtOEZsV2JYS2dGUzVXaXNxMnVHY0FkbzNhbnZzdE5xVklFMGtLN084d0VMQ3hqWlMtV3R5REhpcjJJaHNLaEkzOE5EOGl2M2oyWFd6VU4yWmQ5Y0x2ZGFhT3lkOGVqZlFraW9oYzg?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Princeton NuEnergy secures $50 million DOE grant for Georgia battery recycling plant</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">pv magazine USA</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Princeton NuEnergy</span><span class="chip">DOE</span><span class="chip">USA</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Princeton NuEnergy는 조지아주 배터리 재활용 공장을 위해 미국 에너지부(DOE)로부터 5천만 달러의 보조금을 확보했습니다.</li><li>이 자금은 배터리 재활용 기술 개발 및 시설 확장에 사용될 예정입니다.</li><li>이는 미국 내 배터리 재활용 역량 강화에 기여할 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOZndIdWdBRTRJMTUzNGViUUFIbVhQYlpJdnFieUZLcVZPQmd5aFZVcnphbTJaSThZYnR1YWFGa0piaklVTlpyUHBvZzBBUFctUXN0eVBrbUhVWTVleVhvWlVZcmRJeVI2cEpackQ0dC0zd1Fpdl9WR0RjN1JQSmN4RVFUV1R2NlkwTXNvdUlBRTMwNnowOE43ajlR?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Trump administration invests $50 million into battery recycling project in Commerce</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">The Business Journals</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>트럼프 행정부는 커머스 지역의 배터리 재활용 프로젝트에 5천만 달러를 투자했습니다.</li><li>이 투자는 미국 내 배터리 재활용 산업의 성장을 촉진하기 위한 것입니다.</li><li>이는 배터리 폐기물 관리 및 자원 순환에 대한 정부의 의지를 보여줍니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPRjVLNFlncEpSNEgwMFppektUR3dmMXVUV1pPV3dRSEVPUTZYQ2hSWFRzVGpxbGIyTmE4YllGUEh5THBGVmUtenFiLUFpLXdaLTZGTW12R3FXX2w3YWk2OUVrLWhTTGh2NXNzU1lmMy1yWDJvek8zTEhXQS1wa2t4NmpQUGM1V2tIQ050ZC15X25MSElkaFFSeUJ2LXlURHF4ZFhidVdFdExCdWRYNnA2SjBRNV9EMEE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Global New Energy Lithium Battery Supply Chain Analysis and TRUNNANO Lithium Carbonate Powder Market Entry</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">The National Law Review</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">TRUNNANO</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Global New Energy Lithium Battery Supply Chain Analysis 보고서는 새로운 에너지 리튬 배터리 공급망에 대한 분석을 제공합니다.</li><li>또한 TRUNNANO의 리튬 탄산염 분말 시장 진출에 대한 내용을 다룹니다.</li><li>이 보고서는 배터리 소재 시장의 동향과 관련 기업의 전략을 이해하는 데 도움을 줄 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTDVnQnZ5Q3ppLWlwR2JXQi1tbm1TSVIxb040MHE4MmU2MWdiVVFjWFRGcWJPRWJCRHdmb0lEbnVBc1FwS19udEZka1hyb2xjYjg3YnhfdEV4UHEwS2NsWHdUR0YwRUszb3cycGNWbTJvYkNJT2tFeV9KT0NXbmQyaE5BeTdrQlNGS0FhSFVoM1p2QmhyaTJpcUNUM01vd08zMTlneEFPOFdGOFY5UDF4ak04X01CMUFTM2pzRUh3bFdMa2IyNHNmcEM4TkhhTHBZYmNqQ1NjTGpHcFNrdFpEMWtPQzZGVE0?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Guangdong Hongkai Intelligent invites you to attend the 2026 SMM Lithium Battery Raw Material Conference</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Shanghai Metals Market</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Guangdong Hongkai Intelligent</span><span class="chip">SMM</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Guangdong Hongkai Intelligent은 2026 SMM 리튬 배터리 원자재 컨퍼런스에 참석을 요청했습니다.</li><li>이 컨퍼런스는 리튬 배터리 원자재 시장의 최신 동향과 기술을 공유하는 자리가 될 것입니다.</li><li>업계 관계자들은 이 컨퍼런스를 통해 네트워킹 및 비즈니스 기회를 모색할 수 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-08-25</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
