@@ -1,5 +1,125 @@
 [
   {
+    "title": "150도 고열에도 버티는 전고체 배터리 나왔다",
+    "description": "일본 전자기업 맥셀이 최대 150도 고온에서도 충전과 방전이 가능한 전고체 배터리를 개발했다고 과학기술매체 인터레스팅엔지니어링이 최근 보도했다. 이번에 개발된 배터리는 산업 장비와 스마트 계량기, 사물인터넷...",
+    "link": "https://zdnet.co.kr/view/?no=20260828091407",
+    "source": "zdnet.co.kr",
+    "published_at": "2026-08-28",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "Interesting Engineering",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORUVidm1BMTRfNktuS3VzcWg3bmhOTkFxMmg2VnkwUXFMMnhtcW50ZGRVQlNIenNlLVBHbTlqWjZ0WVVON3lkUHh4cHRwWUJuSXNHWG9Da3BJQUdKcG9pOGZpbzNyMV85NFRCOHJsRVJpOXBibW14Z2hxa0dpbV9HTkRjaXpfWm1heTl0bmk1Rm1ncHV0VGk0?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 97,
+    "monitoring_importance": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "맥셀"
+    ],
+    "summary_3_sentences": [
+      "일본 전자기업 맥셀이 최대 150도 고온에서도 충전 및 방전이 가능한 전고체 배터리를 개발했다.",
+      "이 배터리는 산업 장비, 스마트 계량기, 사물인터넷(IoT) 기기 등 극한의 환경에서도 사용될 수 있을 것으로 기대된다.",
+      "전고체 배터리는 기존 리튬이온 배터리의 단점인 안전성 문제를 해결하고 에너지 밀도를 높일 수 있어 차세대 배터리로 주목받고 있다."
+    ],
+    "uid": "7a4109d5f9fff8ab5a021783e2848570e8b8b572"
+  },
+  {
+    "title": "에스엠벡셀, 국책과제로 전고체 배터리 제작·평가 기술 확보",
+    "description": "SM그룹 제조부문 계열사 에스엠벡셀이 국책과제를 통해 나노멤브레인 기반 고분자 전해질을 적용한 전고체 배터리 제작·평가 기술을 확보했다고 28일 밝혔다. 소재 적용부터 셀 설계·제작·성능 평가까지 개발 전...",
+    "link": "https://www.sentv.co.kr/article/view/sentv202608280179",
+    "source": "www.sentv.co.kr",
+    "published_at": "2026-08-28",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.widedaily.com",
+        "link": "https://www.widedaily.com/news/articleView.html?idxno=300258"
+      },
+      {
+        "source": "www.newspim.com",
+        "link": "https://www.newspim.com/news/view/20260828000425"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "에스엠벡셀",
+      "SM그룹"
+    ],
+    "summary_3_sentences": [
+      "SM그룹 계열사 에스엠벡셀이 국책과제를 통해 나노멤브레인 기반 고분자 전해질을 적용한 전고체 배터리 제작 및 평가 기술을 확보했다.",
+      "이번 기술 확보는 소재 적용부터 셀 설계, 제작, 성능 평가까지 전 과정에 걸친 개발 역량을 갖추었음을 의미한다.",
+      "이는 향후 전고체 배터리 상용화를 위한 중요한 발판이 될 것으로 기대된다."
+    ],
+    "uid": "35f7f3e743c2c6c8d6bb8e61400cc26650d3fc6d"
+  },
+  {
+    "title": "배터리소재 '캐즘' 터널 지나나?…포스코홀딩스·L&F·에코프로머티 등...",
+    "description": "국내 주요 배터리소재 기업 7곳 가운데 5곳의 상반기 영업이익이 증가했다. 포스코홀딩스(대표 장인화... 포스코홀딩스 관계자는 \"아직은 2차전지 시황이 예전만큼 회복되지 않은 상황\"이라며 \"(실적) 개선을 위해...",
+    "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=762181",
+    "source": "www.consumernews.co.kr",
+    "published_at": "2026-08-28",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "포스코홀딩스",
+      "L&F",
+      "에코프로머티"
+    ],
+    "summary_3_sentences": [
+      "국내 주요 배터리 소재 기업 7곳 중 5곳의 상반기 영업이익이 증가하며 배터리 소재 시장의 '캐즘' 현상 극복 가능성을 보여주고 있다.",
+      "포스코홀딩스는 실적 개선을 위해 노력하고 있으며, 아직 2차전지 시황이 완전히 회복되지 않은 상황임을 언급했다.",
+      "이는 배터리 소재 산업의 회복세와 함께 관련 기업들의 실적 개선이 이어질 수 있음을 시사한다."
+    ],
+    "uid": "2517bf1510f2d6fee028a7a036a5949feece4df8"
+  },
+  {
+    "title": "포항시 '5극 3특' 대경권 성장엔진에 '이차전지' 선정···글로벌 배터...",
+    "description": "이번에 선정된 '이차전지 핵심소재·자원순환' 분야는 리튬·코발트 등 1차 소재부터 양극재·음극재 등 2차 소재 생산, 차세대 배터리 개발, 그리고 폐배터리 재활용을 통한 희소광물 회수까지 산업 전 주기를 아우르는...",
+    "link": "https://www.cnbnews.com/news/articleView.html?idxno=1013247",
+    "source": "www.cnbnews.com",
+    "published_at": "2026-08-28",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.metroseoul.co.kr",
+        "link": "http://www.metroseoul.co.kr/article/20260827500640"
+      },
+      {
+        "source": "www.sidae.com",
+        "link": "https://www.sidae.com/article/2026082808052312839"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "포항시",
+      "이차전지",
+      "핵심소재"
+    ],
+    "summary_3_sentences": [
+      "포항시가 대경권 성장 엔진으로 '이차전지 핵심소재·자원순환' 분야를 선정했다.",
+      "이 분야는 1차 소재부터 차세대 배터리 개발, 폐배터리 재활용까지 산업 전 주기를 포함한다.",
+      "이는 포항시가 이차전지 산업 생태계 구축에 집중하겠다는 의지를 보여준다."
+    ],
+    "uid": "85521ebc7c2c1afbdaac6f59812dd4f452b02fa3"
+  },
+  {
     "title": "\"전기차 대신 휴머노이드 탑승\"…K배터리, '꿈의 배터리' 전선 바꿨다",
     "description": "특히 화재 위험을 원천 차단하고 작동 성능을 비약적으로 끌어올릴 수 있어 정부와 국내 배터리 3사가 2027년 상용화를 목표로 추진 중인 '꿈의 배터리(전고체 배터리)'가 로봇 산업의 핵심 동력으로 부상했다. 전 세계...",
     "link": "https://www.ziksir.com/news/articleView.html?idxno=144340",
@@ -242,6 +362,197 @@
       "이는 전고체 배터리 시장의 성장 잠재력이 매우 크다는 것을 보여줍니다."
     ],
     "uid": "c0ebe4e31b3e5035ca389b51675aa33b31eb3b39"
+  },
+  {
+    "title": "Researchers Develop New Composite Solid Electrolyte Enabling 1,000-Cycle Lithium-Metal Battery",
+    "published_at": "2026-08-27",
+    "source": "autoevolution",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPb2NvNTdla1B0UUpCeHQ3RkR0eUJWVkpheHk4S3ZOTllaNk91dFh6aW9QdzJ4eWhLdXRhSUNDZ0stX2dfdDVpLXB0MUlYVWNYckhXZlR1WXo3aTR4MWFKZkV3UHlwZ0REQl9hRDgyeDN6ck9yb0pVVl91WlR5UlNqendleTRibl95V3J6dkcwV0RsektESEZ1YTJFLWtvZjdDaHB5NXl4QTJGNF8xMmJlR05DdnFQR0tCYWRxOHRwa1FCRmc2TVI0cHFBd2VPWklSSHhMUU5lcw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPb2NvNTdla1B0UUpCeHQ3RkR0eUJWVkpheHk4S3ZOTllaNk91dFh6aW9QdzJ4eWhLdXRhSUNDZ0stX2dfdDVpLXB0MUlYVWNYckhXZlR1WXo3aTR4MWFKZkV3UHlwZ0REQl9hRDgyeDN6ck9yb0pVVl91WlR5UlNqendleTRibl95V3J6dkcwV0RsektESEZ1YTJFLWtvZjdDaHB5NXl4QTJGNF8xMmJlR05DdnFQR0tCYWRxOHRwa1FCRmc2TVI0cHFBd2VPWklSSHhMUU5lcw?oc=5\" target=\"_blank\">Researchers Develop New Composite Solid Electrolyte Enabling 1,000-Cycle Lithium-Metal Battery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">autoevolution</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [],
+    "summary_3_sentences": [
+      "연구진이 1,000회 이상의 사이클 수명을 갖는 복합 고체 전해질을 개발하여 리튬 금속 배터리의 성능을 향상시켰다.",
+      "이 새로운 전해질은 배터리의 충방전 효율과 안정성을 크게 개선할 수 있다.",
+      "이는 차세대 고성능 배터리 개발에 중요한 진전을 의미한다."
+    ],
+    "uid": "33aebd993e73dcffebc2547bf769989db882d685"
+  },
+  {
+    "title": "Tri-layer electrolyte improves safety and lifespan of lithium-metal batteries",
+    "published_at": "2026-08-27",
+    "source": "Tech Xplore",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOF9EZWlTaTdKQzVheXoyQ2wtMTI2N20yTkFFRDBjbDdMUGo4MzZoWms3S3UwdnRuczZuVTh3ZjRPRnhvZTVqYnhCQzNNcjFqRHhuaDdkT2xkcUx2Q05ESHNPN2pDU3JzSGdmZF9mV2Vxc2gwdnF4S3ZneXdqTjNIS1A2dTI?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOOF9EZWlTaTdKQzVheXoyQ2wtMTI2N20yTkFFRDBjbDdMUGo4MzZoWms3S3UwdnRuczZuVTh3ZjRPRnhvZTVqYnhCQzNNcjFqRHhuaDdkT2xkcUx2Q05ESHNPN2pDU3JzSGdmZF9mV2Vxc2gwdnF4S3ZneXdqTjNIS1A2dTI?oc=5\" target=\"_blank\">Tri-layer electrolyte improves safety and lifespan of lithium-metal batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Xplore</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "ESS News",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVWNVWUxVNDQwOWc5bmxJdUMydGFzQzRwcUhXamh5eENGdkFqYVhHenNyYjZjR0thcmNsWG51VjdDa2VWYkZYU01VYWk5bFQ5dlpTblQtTXpVeEdfT0J0aHU2LXVIUlh0LWR6TU14U2c2R0FycTh3aFR6aXVxSFNzMUJRVk9WMVYyR3hnZzAxaF9sU3lfc3c1Wl9ndVVwMmFtQXhGdnVYc1Rjdw?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [],
+    "summary_3_sentences": [
+      "3중층 전해질 기술이 리튬 금속 배터리의 안전성과 수명을 향상시켰다.",
+      "이 기술은 배터리 내부의 안정성을 높여 잠재적인 위험을 줄여준다.",
+      "안전성과 수명이 개선된 리튬 금속 배터리는 전기차 등 다양한 분야에서 활용될 가능성이 높다."
+    ],
+    "uid": "3bdc0d32a3538ee306fd704f658776a026a2f804"
+  },
+  {
+    "title": "“It’s a commercial system. And it has a customer:” Sodium-ion battery sale hailed as a fi...",
+    "published_at": "2026-08-27",
+    "source": "Renew Economy",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWc5dlpzbkJHdkJ2OU5GR3R0aVhLOENkM0F1Z1c5OVd3OWtaVVdYa1RmcUdYVjVTcW5OczByNUJoWGZpSVVuQ3ZILTFwR0o1YmVHeUlkVTRuTGJHQXFlRUVEbnhwOHBtZUJVeFdSZXo4ZDVlZEU5a0dSdWRQOVpuZk41ZzdiREJjZThzbGtKVWJjR2lRT1JaV18xbE84LU84b3VMVDhROVBLRkphY29vQ2pzS3lJQm5YS0lSTkJ0a25CTG8zdDJUOExB0gHPAUFVX3lxTE92MlFKOEtSVzJuZFlWNEJyZy1KdWNxMUVwdHV5TnhCY1d0WDJjUGlPUkE5YllSS3phbEh3aUl5M0J1aENqMTlKZC1PbjFfeTdxd2JIWDZfQUVfa1YxX0hHWWFOM2FlUFpUU3ptXzgtZEdGdFE1RWRJNWpSMmFMTTBCbHZMeXhYSjNuOHhudUhuUC16NEptbUVvNTNvNE5EZVFkT1B4YS1sU1dXUUZ1cVZIRDZ3MHJpc3J2LTFVM09hcGtHZkN2SmNTOFFvSWlZbw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWc5dlpzbkJHdkJ2OU5GR3R0aVhLOENkM0F1Z1c5OVd3OWtaVVdYa1RmcUdYVjVTcW5OczByNUJoWGZpSVVuQ3ZILTFwR0o1YmVHeUlkVTRuTGJHQXFlRUVEbnhwOHBtZUJVeFdSZXo4ZDVlZEU5a0dSdWRQOVpuZk41ZzdiREJjZThzbGtKVWJjR2lRT1JaV18xbE84LU84b3VMVDhROVBLRkphY29vQ2pzS3lJQm5YS0lSTkJ0a25CTG8zdDJUOExB0gHPAUFVX3lxTE92MlFKOEtSVzJuZFlWNEJyZy1KdWNxMUVwdHV5TnhCY1d0WDJjUGlPUkE5YllSS3phbEh3aUl5M0J1aENqMTlKZC1PbjFfeTdxd2JIWDZfQUVfa1YxX0hHWWFOM2FlUFpUU3ptXzgtZEdGdFE1RWRJNWpSMmFMTTBCbHZMeXhYSjNuOHhudUhuUC16NEptbUVvNTNvNE5EZVFkT1B4YS1sU1dXUUZ1cVZIRDZ3MHJpc3J2LTFVM09hcGtHZkN2SmNTOFFvSWlZbw?oc=5\" target=\"_blank\">“It’s a commercial system. And it has a customer:” Sodium-ion battery sale hailed as a fi...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Renew Economy</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [],
+    "summary_3_sentences": [
+      "나트륨 이온 배터리 시스템이 상업적으로 판매되었으며 고객사를 확보했다.",
+      "이는 나트륨 이온 배터리 기술의 상용화 가능성을 보여주는 중요한 사례이다.",
+      "나트륨 이온 배터리는 저렴한 비용과 풍부한 자원량으로 인해 차세대 배터리로 주목받고 있다."
+    ],
+    "uid": "149e7a39888c367014cc459f21205369f2496321"
+  },
+  {
+    "title": "Focus zooms in on mine-to-anode technology, inks MoU with C4V",
+    "published_at": "2026-08-27",
+    "source": "Mining.com.au",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNmEwbWNmR2RqaFBuVGVQbllZTjFPdU1ndGFPY0l4NG5vSHM0eExTNWVlNWhMQ1p2c09Qd1RyWHpXRmpmSVlWTzF3al82MWpDSlVmcEt6RHlHdXNYTEl0enBVeXdDcEEzS1M3VVdIWGUwRkUwM1lyQ0RTWXpwVExxak83eElDN1NKNmJJ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNmEwbWNmR2RqaFBuVGVQbllZTjFPdU1ndGFPY0l4NG5vSHM0eExTNWVlNWhMQ1p2c09Qd1RyWHpXRmpmSVlWTzF3al82MWpDSlVmcEt6RHlHdXNYTEl0enBVeXdDcEEzS1M3VVdIWGUwRkUwM1lyQ0RTWXpwVExxak83eElDN1NKNmJJ?oc=5\" target=\"_blank\">Focus zooms in on mine-to-anode technology, inks MoU with C4V</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mining.com.au</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "Focus",
+      "C4V"
+    ],
+    "summary_3_sentences": [
+      "Focus가 C4V와 양해각서(MoU)를 체결하고 광물 채굴부터 음극재 생산까지 이어지는 기술 개발에 나선다.",
+      "이번 협력은 배터리 핵심 소재의 안정적인 공급망 구축을 목표로 한다.",
+      "이는 배터리 산업의 수직 계열화 강화 및 기술 경쟁력 확보에 기여할 것으로 보인다."
+    ],
+    "uid": "b99ed9860b7f8b166b2e0eba032eba0e57c689b8"
+  },
+  {
+    "title": "LFP cathode active material startup Nano One brings a strategy to meet demand from supply chains outside China",
+    "published_at": "2026-08-27",
+    "source": "Energy-Storage.News",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSm11RVJyTVV6SXF2MFF5cV9Ca21DcjRpc2lHendNa09iNDZfQ0NzbzBxMk8xYUlaR19nbnZ3dGpRSVFvTWhkYndpbDJGZGZrQk1wRTh3Z1pabW1lZmI5Qk9BWVpwRlg4S25mREdWd0xVYmc1cmw4dmhWcGM4azJrdDgtM3llYnVxOGFUc0tBNFB3dXFXUU5kQXlnWjBnX0hXcnNEY01uYWNVSXZyUVJYTTBhemZmOGhjN2xWRndsVzY1TDl3QjdMZ0R0WGVJOVVvN2hRMnl6VHkzN3M?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSm11RVJyTVV6SXF2MFF5cV9Ca21DcjRpc2lHendNa09iNDZfQ0NzbzBxMk8xYUlaR19nbnZ3dGpRSVFvTWhkYndpbDJGZGZrQk1wRTh3Z1pabW1lZmI5Qk9BWVpwRlg4S25mREdWd0xVYmc1cmw4dmhWcGM4azJrdDgtM3llYnVxOGFUc0tBNFB3dXFXUU5kQXlnWjBnX0hXcnNEY01uYWNVSXZyUVJYTTBhemZmOGhjN2xWRndsVzY1TDl3QjdMZ0R0WGVJOVVvN2hRMnl6VHkzN3M?oc=5\" target=\"_blank\">LFP cathode active material startup Nano One brings a strategy to meet demand from supply chains outside China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Energy-Storage.News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "나노원",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "LFP 양극재 활물질 스타트업 나노원이 중국 외 공급망의 수요를 충족시키기 위한 전략을 제시했다.",
+      "이는 글로벌 배터리 공급망 다변화 노력의 일환으로 해석된다.",
+      "나노원은 LFP 배터리 소재 시장에서의 경쟁력을 강화하고자 한다."
+    ],
+    "uid": "038c39df1362a4751a6e17f4a5fec01e62980a3e"
+  },
+  {
+    "title": "Sodium-Ion Batteries For The Win!",
+    "published_at": "2026-08-27",
+    "source": "CleanTechnica",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxUlRTakFab1AtbHVVaGtDRWdhT3dBV3VtRXIxZGpNU0J4enhFU1dnNWpTbUNnU0lpOW5GdGUyY3BCZEs5X1FmX1FMRWxCdlBGWjl5bkpOeXB1YzFfYnNpWDhLSGlvczZPYVFuOG1BbjdjVjNVaGlnR1RR?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBxUlRTakFab1AtbHVVaGtDRWdhT3dBV3VtRXIxZGpNU0J4enhFU1dnNWpTbUNnU0lpOW5GdGUyY3BCZEs5X1FmX1FMRWxCdlBGWjl5bkpOeXB1YzFfYnNpWDhLSGlvczZPYVFuOG1BbjdjVjNVaGlnR1RR?oc=5\" target=\"_blank\">Sodium-Ion Batteries For The Win!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CleanTechnica</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [],
+    "summary_3_sentences": [
+      "나트륨 이온 배터리가 주목받고 있다.",
+      "이는 기존 리튬 이온 배터리의 대안으로 떠오르고 있음을 시사한다.",
+      "나트륨 이온 배터리는 리튬보다 풍부하고 저렴한 나트륨을 사용한다는 장점이 있다."
+    ],
+    "uid": "c5cc6d1d0bc54789e1d6588d545ed31224a0ee30"
+  },
+  {
+    "title": "Nano One and Standard Lithium collaborate to qualify lithium carbonate for LFP cathodes",
+    "published_at": "2026-08-27",
+    "source": "Charged EVs",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMjZfYzZFT2loMEQtZnpHNjFieVBZYXdDcGxsTHpCVWVVR0VYUnB4ekM3SGdRVVl5QVpRcWpOZkFFQ3hob2ctSW94eXNmQndRQmFYRzNjYWgtcU5VcEZXY2VycmFuVHpaeUtIb3N5M1Z6YTFlSDhDOU1XTnJxTGN6OGpOUkFmYkdTQ3ZQUjF5ZkJHOVR6eGtaZlF0aGtveTNnbHNlTFNDdEJPRHRzMXJUODBkZXFWRjlxb3M5aw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNMjZfYzZFT2loMEQtZnpHNjFieVBZYXdDcGxsTHpCVWVVR0VYUnB4ekM3SGdRVVl5QVpRcWpOZkFFQ3hob2ctSW94eXNmQndRQmFYRzNjYWgtcU5VcEZXY2VycmFuVHpaeUtIb3N5M1Z6YTFlSDhDOU1XTnJxTGN6OGpOUkFmYkdTQ3ZQUjF5ZkJHOVR6eGtaZlF0aGtveTNnbHNlTFNDdEJPRHRzMXJUODBkZXFWRjlxb3M5aw?oc=5\" target=\"_blank\">Nano One and Standard Lithium collaborate to qualify lithium carbonate for LFP cathodes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Charged EVs</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "나노원",
+      "스탠다드 리튬",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "나노원과 스탠다드 리튬이 LFP(리튬인산철) 양극재용 탄산리튬을 검증하기 위해 협력한다.",
+      "이번 협력은 LFP 배터리 소재 공급망 확보에 중요한 역할을 할 것으로 예상된다.",
+      "이는 중국 외 지역에서의 LFP 배터리 소재 생산 능력 강화에 기여할 수 있다."
+    ],
+    "uid": "48d54f0b0ee9bbdccc46fd0be04a48363e3b19f4"
+  },
+  {
+    "title": "Chinese researchers unveil high-stability lithium metal battery with energy density exceeding 600 Wh/kg",
+    "published_at": "2026-08-27",
+    "source": "CarNewsChina.com",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWXE3XzB2dWRWSmF4SllDR2JrSWZWekpJbk9veVk3UkRhOVpPdVNGdUY3U1BVXzd2QXRTWlJNbGNkM2V3OHJPT2J2U1U3SlMtTnNGNFhsdnozR0dFMU85TzE5bHZ2RllMRmtBeGdIZ3g4QWFvOE95WEN5cEt2MGd3bGZjNC1zUXM1MmR0ZmMydElIZ3hkQzhMOG1wcWNkTFR2am9yc2toOXVwTEh6NFN2b3htZlZDUGxNczAxa082QU9kZ0RGNE5SRjhrbWhjNkxmUzFzUGcxaw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWXE3XzB2dWRWSmF4SllDR2JrSWZWekpJbk9veVk3UkRhOVpPdVNGdUY3U1BVXzd2QXRTWlJNbGNkM2V3OHJPT2J2U1U3SlMtTnNGNFhsdnozR0dFMU85TzE5bHZ2RllMRmtBeGdIZ3g4QWFvOE95WEN5cEt2MGd3bGZjNC1zUXM1MmR0ZmMydElIZ3hkQzhMOG1wcWNkTFR2am9yc2toOXVwTEh6NFN2b3htZlZDUGxNczAxa082QU9kZ0RGNE5SRjhrbWhjNkxmUzFzUGcxaw?oc=5\" target=\"_blank\">Chinese researchers unveil high-stability lithium metal battery with energy density exceeding 600 Wh/kg</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CarNewsChina.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "중국 연구진이 에너지 밀도가 600Wh/kg를 초과하는 고안정성 리튬 금속 배터리를 개발했다.",
+      "이는 기존 리튬 이온 배터리보다 훨씬 높은 에너지 밀도를 제공하여 전기차 주행 거리 향상에 기여할 수 있다.",
+      "고안정성은 배터리 수명과 안전성을 높여 상용화 가능성을 높인다."
+    ],
+    "uid": "38b1deaa13271f4d6e9136022ac198da6b1482e0"
   },
   {
     "title": "Landfill launches lithium-ion battery recycling program",
