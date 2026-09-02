@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-09-01</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-09-01 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-electrolyte" href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=482682" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">전고체 배터리株에 올라탈까… SK이노베이션 8%↑·롯데에너지머티리얼...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.pinpointnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SK이노베이션</span><span class="chip">롯데에너지머티리얼즈</span><span class="chip">·롯데에너지머티리얼</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>1일 전고체 배터리 관련주가 강세를 보였다.</li><li>이는 차세대 배터리로 꼽히는 전고체 배터리의 상용화 기대감이 이어지고 있기 때문이다.</li><li>고체 전해질 및 소재·공정 기술 개발이 진행되면서 관련 기업에 대한 투자자들의 관심이 높아지고 있다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.businesspost.co.kr/BP?command=article_view&amp;num=446124" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&#x27;전고체 배터리&#x27; 기술표준도 중국이 주도, 한국 차세대 배터리 주도권마...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.businesspost.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">중국 국가시장감독관리총국</span><span class="chip">국제전기기술위원회</span><span class="chip">SAMR</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>최근 중국이 제안한 &#x27;전고체 배터리&#x27; 관련 표준안이 국제전기기술위원회(IEC)에서 공식 표준 개발 과제로 승인되었다.</li><li>이는 중국이 차세대 배터리 표준 주도권을 확보하려는 움직임으로 해석된다.</li><li>표준 선점 시 가뜩이나 경쟁이 치열한 배터리 시장에서 중국의 영향력이 더욱 커질 수 있다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.imaeil.com/page/view/2026090109202831865" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">에코프로비엠, 전고체 배터리 조기 상용화 원팀 출범…민관학 맞손</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.imaeil.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">에코프로비엠</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>에코프로비엠이 전고체 배터리 조기 상용화를 위해 관련 기업 및 연구소와 협력에 나섰다.</li><li>이는 정부가 추진하는 &#x27;슈퍼을 프로젝트&#x27;의 일환으로 진행된다.</li><li>슈퍼을 프로젝트는 세계 최고, 최초 기술 개발을 목표로 한다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiigFBVV95cUxOMm5OMVU5V3hxemlZbFBjbFpBVHpPSFdDQjU4RXJJU1BYVFU0c2hGOWZOTkQ5UTVNVWRvZU9OeUtoNGpKdWE4WG9yRWdTalc4NXVDNjR6Qk9SaDRYNV9OYUh1VnJmelZTVEwtbS1iRHcxbHdiUzlUaEdMdFdhTGRUemhvbmZFaGRkOFE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG Energy signs lithium carbonate deal with Smackover</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Mining Technology</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">스맥오버</span><span class="chip">LG</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG에너지솔루션이 리튬탄산염 공급 계약을 체결했다.</li><li>이번 계약은 스맥오버(Smackover)와의 협력을 통해 이루어졌다.</li><li>이는 LG에너지솔루션의 배터리 원료 확보 전략의 일환으로 보인다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXpvTzdHdTd6Mllvd3ZHbkRwRVh2YXlIcnBfTlp0VjBZV3RQMWQwSU1wUV96OVdCT3FYaGlDMzJZeG00VzVjQnRjQzc1T3k1RzN4QW1GdmNxMGVodkpmSEU0OGdBekU0TmJCa08wTXFUXzFQdDREak1XOXVhM09oMHltak9NTWM3MklRbzZQT1ZSeTNydkZZZjdObzZFaTVvZUd1UmRULUdzdlNteWUweWRxOWlFRHVQ0gHMAUFVX3lxTE8yYl9QVWpDTVJsZS00cWVRdmw0MW9ENkNySm1QRjBaZVYwMmU2ekdWTm1pazJiNUZsazNBVG5WMXZQOER0M2VrX1UtMFo3d25hckRrOXNvWnBYT0xGTDRac2ZUeWhNU05XcmF0M3YwMmt2dWd2T3Z0eDQ1MGM3SHdLT1N2R01FYjlxSS1iZElIdTREN1BFalZwN1F6aXlIb0Q4MVpPcGdrWl85WU5hQkZIVlpvalY4SzhUWFFoU0pVUFd0YlN2cHdSWjh4Vg?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium company signs agreement with LG Energy Solution for South West Arkansas Project</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">K8 News | Jonesboro, Arkansas</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">LG</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>한 리튬 기업이 LG에너지솔루션과 남서 아칸소 프로젝트에 대한 계약을 체결했다.</li><li>이 계약은 LG에너지솔루션의 미국 내 리튬 공급망 확보에 중요한 역할을 할 것으로 예상된다.</li><li>프로젝트의 구체적인 내용은 공개되지 않았으나, 북미 지역에서의 배터리 원료 확보 경쟁이 심화되고 있음을 시사한다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbUtkVWFMNUx1ZVp2R1JwMXBHSGVNQkVORmxEQ2JvQTR5SjZoaGtYNnhOM2ZOMGJzMkpZLVFIMlo0Z2FibjYyTUV4WDZYbTlOQ1VIaEpjbFdILXRKdE84T3U1UHk4WHVWcG1aM0NSNGhieWh0a2ZZMC1xMTJFVjUxT1ZaTUhRdHFKWlVwYWMzTHliT1VXaUFDaTF3N2RwQ004YTMyODR0VlZFMWNXNnNaUWVPaVY5WEJWTnVoRUw1VHVhVmdqU3JpNnB4YU0wUzVfTFZDcUdhX3M?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">South Korea&#x27;s LG Energy Solution signs 10-year US lithium supply deal</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Fibre2Fashion</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">LG</span><span class="chip">US</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG에너지솔루션이 미국 공급업체와 10년간의 리튬 공급 계약을 체결했다.</li><li>이번 계약은 LG에너지솔루션의 북미 지역 배터리 생산 능력 강화에 기여할 것으로 보인다.</li><li>이는 미국 정부의 인플레이션 감축법(IRA) 시행에 따른 현지 생산 및 공급망 구축 노력의 일환으로 해석된다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE9lSFdPdDRiQWtDa0thLWRiUFRCY1FLNFFZNFEwbHpjLVBzRU1ONEVnVkZPbHZCS01pZHUxdWdobTBxU3ZUR3d2QVVhTDBqYno1OE11LW1vaw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG Energy Solution secures W2tr lithium carbonate deal with US supplier</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">The Korea Herald</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">LG</span><span class="chip">US</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG에너지솔루션이 미국 공급업체와 2조 원 규모의 리튬탄산염 공급 계약을 체결했다.</li><li>이번 계약은 LG에너지솔루션의 안정적인 배터리 원료 확보를 위한 전략적 움직임이다.</li><li>이는 북미 지역의 배터리 생산 확대와 공급망 다변화에 기여할 것으로 예상된다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-equipment" href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUEVkb3Q3Sjd6djgyTlVvUU5CQnREQ0VodjZzcFFqX2lBRzlXcDBUdDM0WUFmaGtQcHJfUlBwYi1FdEZuN3F3dDhaT1dTSmNDNDBlVXpwS0tEMXJCY1c2TVY5TXFSSmdpUVNXUDFJdG90V0pqSFF2UnhSdmRrQmJaQ3VqNFVvUlR4OGN2aWYwbXpKamRSVUhMS0tQU2IweGhBWWdOMEFXV1pYLUROT3J4SGNyTTZIeEU1bXR0UGtFdGY3QQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">장비</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG Energy Agrees to Buy $1.5 Billion in Lithium Carbonate from Arkansas Project</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Industrial Equipment News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">LG</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG에너지솔루션이 아칸소 프로젝트로부터 15억 달러 규모의 리튬탄산염을 구매하기로 합의했다.</li><li>이는 LG에너지솔루션의 북미 지역 배터리 생산 확대를 위한 원료 확보 노력의 일환이다.</li><li>이번 계약은 미국 내 리튬 공급망 구축에 중요한 기여를 할 것으로 기대된다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.newsis.com/view/NISX20260901_0003771119" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&quot;가동률 반등·R&amp;D 최대&quot;…얼어붙었던 2차전지, 하반기 실적 개선 &#x27;시동...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.newsis.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">삼성SDI</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>국내 2차전지 업계가 하반기 실적 개선을 위한 움직임을 보이고 있다.</li><li>LG에너지솔루션과 삼성SDI는 상반기 R&amp;D 투자를 역대 최대 수준으로 늘리며 차세대 배터리 기술 개발에 집중하고 있다.</li><li>이는 전기차 수요 둔화로 인한 정체기를 극복하고 미래 성장 동력을 확보하기 위한 전략이다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.m-i.kr/news/articleView.html?idxno=1408808" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">정부, 충청 셀·영남 소재·호남 원료 잇는다…&#x27;배터리 삼각벨트&#x27; 가동</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.m-i.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">국가첨단전략산업</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>정부가 &#x27;배터리 삼각벨트&#x27; 구축을 통해 배터리 산업 생태계 강화를 추진한다.</li><li>충청 지역에는 셀, 영남 지역에는 소재, 호남 지역에는 원료 관련 산업을 집중 육성할 계획이다.</li><li>이를 통해 전고체 배터리 성능평가 인프라, 나트륨 배터리 실증센터 등 차세대 배터리 기술 개발 및 상용화를 지원한다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-separator" href="https://www.moneystorm.kr/news/articleView.html?idxno=6135" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">separator</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[특징주] SK이노베이션, SK온 미국 ESS 1.5조 수주 소식에 7.8% 급등 마감</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.moneystorm.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SK이노베이션</span><span class="chip">SK온</span><span class="chip">SK아이이테크놀로지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>SK이노베이션이 SK온의 미국 ESS(에너지 저장 장치) 수주 소식에 주가가 7.8% 급등했다.</li><li>이번 수주는 위축되었던 투자 심리를 일부 회복시키는 계기가 되었다.</li><li>SK이노베이션은 최근 분리막 자회사 SK아이이테크놀로지 흡수합병 결정으로 주가 하락을 겪은 바 있다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-01</div>
+          </div>
+        </a>
+        
+        <a class="card cat-policy" href="https://magazine.hankyung.com/business/article/202609028798b" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">정책</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">“탈중국 본격화” SK온 북미 ESS 수주 의미</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">magazine.hankyung.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SK온</span><span class="chip">ITC</span><span class="chip">AMPC</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국 정부의 세액공제 및 관세 강화, 국가 안보 관련 규제 증가는 중국산 배터리 및 소재 사용 ESS 사업의 불확실성을 키우고 있다.</li><li>투자세액공제(ITC) 및 첨단제조생산세액공제(AMPC) 등 각종 지원 제도에서도 비중국산 제품에 대한 우대 정책이 강화되고 있다.</li><li>이는 미국 ESS 시장에서 탈중국화 움직임을 가속화하고 한국 배터리 기업들에게 기회를 제공할 것으로 보인다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-02</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.theguru.co.kr/news/article.html?no=106551" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">美 ESS 수요 폭발…LG엔솔·삼성SDI·SK온 &#x27;날개&#x27;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.theguru.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">삼성SDI</span><span class="chip">SK온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국 ESS 시장의 수요가 폭발적으로 증가하며 LG엔솔, 삼성SDI, SK온 등 국내 배터리 기업들이 수혜를 입고 있다.</li><li>삼성SDI는 스텔란티스와의 합작법인 스타플러스에너지를 통해 올 4분기부터 ESS용 LFP 배터리 양산을 시작한다.</li><li>SK온 역시 조지아 공장을 통해 북미 ESS 시장 공략에 박차를 가하고 있다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-02</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

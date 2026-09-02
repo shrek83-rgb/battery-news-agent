@@ -1,5 +1,105 @@
 [
   {
+    "title": "美 ESS 수요 폭발…LG엔솔·삼성SDI·SK온 '날개'",
+    "description": "삼성SDI는 스텔란티스와의 합작법인(JV)인 스타플러스에너지를 통해 올 4분기부터 ESS용 LFP 배터리 양산에 돌입한다. 스타플러스에너지는 지난해 4분기부터 ESS용 NCA 배터리를 생산해 왔다. SK온 역시 조지아 공장을...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=106551",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-09-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG에너지솔루션",
+      "삼성SDI",
+      "SK온"
+    ],
+    "summary_3_sentences": [
+      "미국 ESS 시장의 수요가 폭발적으로 증가하며 LG엔솔, 삼성SDI, SK온 등 국내 배터리 기업들이 수혜를 입고 있다.",
+      "삼성SDI는 스텔란티스와의 합작법인 스타플러스에너지를 통해 올 4분기부터 ESS용 LFP 배터리 양산을 시작한다.",
+      "SK온 역시 조지아 공장을 통해 북미 ESS 시장 공략에 박차를 가하고 있다."
+    ],
+    "uid": "bef6ee4367487ea45e83f365776f33849d59f0d1"
+  },
+  {
+    "title": "“탈중국 본격화” SK온 북미 ESS 수주 의미",
+    "description": "세액공제와 관세뿐 아니라 국가 안보 관련 규제가 강화되면서 중국산 배터리와 소재를 활용한 ESS 사업의 불확실성이 커지고 있다. 투자세액공제(ITC)와 첨단제조생산세액공제(AMPC) 등 각종 지원 제도에서도 비중국산...",
+    "link": "https://magazine.hankyung.com/business/article/202609028798b",
+    "source": "magazine.hankyung.com",
+    "published_at": "2026-09-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "정책",
+    "companies": [
+      "SK온",
+      "ITC",
+      "AMPC"
+    ],
+    "summary_3_sentences": [
+      "미국 정부의 세액공제 및 관세 강화, 국가 안보 관련 규제 증가는 중국산 배터리 및 소재 사용 ESS 사업의 불확실성을 키우고 있다.",
+      "투자세액공제(ITC) 및 첨단제조생산세액공제(AMPC) 등 각종 지원 제도에서도 비중국산 제품에 대한 우대 정책이 강화되고 있다.",
+      "이는 미국 ESS 시장에서 탈중국화 움직임을 가속화하고 한국 배터리 기업들에게 기회를 제공할 것으로 보인다."
+    ],
+    "uid": "957bdb1e23b06b84f89207941c67d1555fdb74f0"
+  },
+  {
+    "title": "전고체 배터리株에 올라탈까… SK이노베이션 8%↑·롯데에너지머티리얼...",
+    "description": "차세대 배터리로 꼽히는 전고체 배터리의 상용화 기대가 이어지면서 1일 2차전지(전고체) 관련주가 강세를 보이고 있다. 고체 전해질과 전고체 배터리 소재·공정 기술 개발이 진행되면서 관련 기업에 대한 투자자들의...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=482682",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-09-01",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "SK이노베이션",
+      "롯데에너지머티리얼즈",
+      "·롯데에너지머티리얼"
+    ],
+    "summary_3_sentences": [
+      "1일 전고체 배터리 관련주가 강세를 보였다.",
+      "이는 차세대 배터리로 꼽히는 전고체 배터리의 상용화 기대감이 이어지고 있기 때문이다.",
+      "고체 전해질 및 소재·공정 기술 개발이 진행되면서 관련 기업에 대한 투자자들의 관심이 높아지고 있다."
+    ],
+    "uid": "7e3bc95254cb0789a9b06659bc3c7174f1c1f1cf"
+  },
+  {
+    "title": "\"가동률 반등·R&D 최대\"…얼어붙었던 2차전지, 하반기 실적 개선 '시동...",
+    "description": "전기차 수요 둔화로 정체기를 겪던 국내 2차전지 업계가 연구개발(R&D) 투자 확대와 공장 가동률 반등... 1일 업계에 따르면 LG에너지솔루션과 삼성SDI는 상반기 R&D 투자를 역대 최대 수준으로 늘리며 차세대 배터리...",
+    "link": "https://www.newsis.com/view/NISX20260901_0003771119",
+    "source": "www.newsis.com",
+    "published_at": "2026-09-01",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "삼성SDI",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "국내 2차전지 업계가 하반기 실적 개선을 위한 움직임을 보이고 있다.",
+      "LG에너지솔루션과 삼성SDI는 상반기 R&D 투자를 역대 최대 수준으로 늘리며 차세대 배터리 기술 개발에 집중하고 있다.",
+      "이는 전기차 수요 둔화로 인한 정체기를 극복하고 미래 성장 동력을 확보하기 위한 전략이다."
+    ],
+    "uid": "befaeb46c572b20dcf73b2fc86487173a5964156"
+  },
+  {
     "title": "에코프로비엠, 산학연 협력 '전고체 배터리 원팀' 구축… 2027년 상용화...",
     "description": "에코프로비엠이 차세대 전고체 배터리의 조기 상용화를 위해 원료부터 소재, 완제품(셀)으로 이어지는 전 주기 밸류체인 구축에 나섰다. 에코프로비엠은 지난 8월 26일 경기도 모처에서 정부의 '슈퍼을 프로젝트' 추진을...",
     "link": "https://www.mtnews.net/news/articleView.html?idxno=25818",
@@ -30,6 +130,86 @@
       "정부의 '슈퍼을 프로젝트' 추진과 함께 2027년 상용화를 목표로 하고 있습니다."
     ],
     "uid": "cc24b8b136489b880c8d832c40ce789fabff2e91"
+  },
+  {
+    "title": "[특징주] SK이노베이션, SK온 미국 ESS 1.5조 수주 소식에 7.8% 급등 마감",
+    "description": "공시로 위축됐던 투자 심리를 일부 회복시켰다고 평가했다. SK이노베이션은 지난달 25일 분리막 자회사 SK아이이테크놀로지(SKIET) 흡수합병 결정 공시 이후 이튿날 주가가 11.04% 급락하는 등 홍역을 치른 바 있다.",
+    "link": "https://www.moneystorm.kr/news/articleView.html?idxno=6135",
+    "source": "www.moneystorm.kr",
+    "published_at": "2026-09-01",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.yna.co.kr",
+        "link": "https://www.yna.co.kr/view/AKR20260901052051008?input=1195m"
+      },
+      {
+        "source": "www.issuenbiz.com",
+        "link": "http://www.issuenbiz.com/news/articleView.html?idxno=79323"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "separator",
+    "companies": [
+      "SK이노베이션",
+      "SK온",
+      "SK아이이테크놀로지"
+    ],
+    "summary_3_sentences": [
+      "SK이노베이션이 SK온의 미국 ESS(에너지 저장 장치) 수주 소식에 주가가 7.8% 급등했다.",
+      "이번 수주는 위축되었던 투자 심리를 일부 회복시키는 계기가 되었다.",
+      "SK이노베이션은 최근 분리막 자회사 SK아이이테크놀로지 흡수합병 결정으로 주가 하락을 겪은 바 있다."
+    ],
+    "uid": "a5304c8449ac756d63e8bc0cd6a1851e7ea61d90"
+  },
+  {
+    "title": "정부, 충청 셀·영남 소재·호남 원료 잇는다…'배터리 삼각벨트' 가동",
+    "description": "산업부는 지자체가 제출한 신규 사업 가운데 전고체 배터리 성능평가 인프라와 나트륨 배터리 상용화를 위한 실증센터, 재활용 소재 적용 배터리의 안전성 평가 인프라, 국가첨단전략산업 특화단지 내 전력 공급시설 구축...",
+    "link": "https://www.m-i.kr/news/articleView.html?idxno=1408808",
+    "source": "www.m-i.kr",
+    "published_at": "2026-09-01",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "국가첨단전략산업"
+    ],
+    "summary_3_sentences": [
+      "정부가 '배터리 삼각벨트' 구축을 통해 배터리 산업 생태계 강화를 추진한다.",
+      "충청 지역에는 셀, 영남 지역에는 소재, 호남 지역에는 원료 관련 산업을 집중 육성할 계획이다.",
+      "이를 통해 전고체 배터리 성능평가 인프라, 나트륨 배터리 실증센터 등 차세대 배터리 기술 개발 및 상용화를 지원한다."
+    ],
+    "uid": "92bd9e78e829d608d586cf2100835675a3849e5f"
+  },
+  {
+    "title": "에코프로비엠, 전고체 배터리 조기 상용화 원팀 출범…민관학 맞손",
+    "description": "에코프로비엠이 전고체 배터리 조기 상용화를 위해 관련 기업 및 연구소 등과 손잡고 본격 활동에 착수했다. 정부가 추진하는 '슈퍼을 프로젝트' 일환이다. 1일 에코프로비엠에 따르면 슈퍼을 프로젝트는 세계 최고, 최초...",
+    "link": "https://www.imaeil.com/page/view/2026090109202831865",
+    "source": "www.imaeil.com",
+    "published_at": "2026-09-01",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "에코프로비엠"
+    ],
+    "summary_3_sentences": [
+      "에코프로비엠이 전고체 배터리 조기 상용화를 위해 관련 기업 및 연구소와 협력에 나섰다.",
+      "이는 정부가 추진하는 '슈퍼을 프로젝트'의 일환으로 진행된다.",
+      "슈퍼을 프로젝트는 세계 최고, 최초 기술 개발을 목표로 한다."
+    ],
+    "uid": "f8108730895381ada75fd7d2d5fc4f7d962525a7"
   },
   {
     "title": "산업부, 배터리 삼각벨트 구축 속도…전고체·나트륨 인프라 검토",
@@ -64,6 +244,31 @@
     "uid": "282f3b06226a544e80e7da1d53be28d65558fceb"
   },
   {
+    "title": "'전고체 배터리' 기술표준도 중국이 주도, 한국 차세대 배터리 주도권마...",
+    "description": "최근 중국 국가시장감독관리총국(SAMR)은 중국이 제안한 '전고체 배터리' 관련 표준안이 국제전기기술위원회(IEC)에서 공식 표준 개발 과제로 승인됐다고 밝혔다. 중국이 차세대 배터리 표준까지 선점하면, 가뜩이나 중국에...",
+    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=446124",
+    "source": "www.businesspost.co.kr",
+    "published_at": "2026-09-01",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "중국 국가시장감독관리총국",
+      "국제전기기술위원회",
+      "SAMR"
+    ],
+    "summary_3_sentences": [
+      "최근 중국이 제안한 '전고체 배터리' 관련 표준안이 국제전기기술위원회(IEC)에서 공식 표준 개발 과제로 승인되었다.",
+      "이는 중국이 차세대 배터리 표준 주도권을 확보하려는 움직임으로 해석된다.",
+      "표준 선점 시 가뜩이나 경쟁이 치열한 배터리 시장에서 중국의 영향력이 더욱 커질 수 있다."
+    ],
+    "uid": "2f6224e16ab9d030a0846a84640095c272de6da4"
+  },
+  {
     "title": "[애프터마켓 리뷰] 리튬 가격 반등·공급 불확실성 부각…2차전지 강세",
     "description": "어제(31일) 눈에 띄었던 섹터, 단연 2차전지였는데요. 특징주 종목으로 먼저 정리해보시죠. 첫 번째 특징주... 특히 엘앤에프는, SK온이 미국 ESS 시장에서 1조 5천억 원 규모 배터리 공급 계약을 체결했다는 소식에 핵심...",
     "link": "https://biz.sbs.co.kr/article_hub/20000331888?division=NAVER",
@@ -87,6 +292,148 @@
       "이는 2차전지 관련 기업들의 실적 개선과 주가 상승에 긍정적인 영향을 미칠 것으로 예상됩니다."
     ],
     "uid": "d0eb141b084e4de34f17a9e60c9378f6ccc1d45b"
+  },
+  {
+    "title": "LG Energy Solution secures W2tr lithium carbonate deal with US supplier",
+    "published_at": "2026-09-01",
+    "source": "The Korea Herald",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9lSFdPdDRiQWtDa0thLWRiUFRCY1FLNFFZNFEwbHpjLVBzRU1ONEVnVkZPbHZCS01pZHUxdWdobTBxU3ZUR3d2QVVhTDBqYno1OE11LW1vaw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9lSFdPdDRiQWtDa0thLWRiUFRCY1FLNFFZNFEwbHpjLVBzRU1ONEVnVkZPbHZCS01pZHUxdWdobTBxU3ZUR3d2QVVhTDBqYno1OE11LW1vaw?oc=5\" target=\"_blank\">LG Energy Solution secures W2tr lithium carbonate deal with US supplier</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Korea Herald</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "LG",
+      "US"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션이 미국 공급업체와 2조 원 규모의 리튬탄산염 공급 계약을 체결했다.",
+      "이번 계약은 LG에너지솔루션의 안정적인 배터리 원료 확보를 위한 전략적 움직임이다.",
+      "이는 북미 지역의 배터리 생산 확대와 공급망 다변화에 기여할 것으로 예상된다."
+    ],
+    "uid": "2a7c0078b7998003682376dddd88e746f76cbe84"
+  },
+  {
+    "title": "LG Energy signs lithium carbonate deal with Smackover",
+    "published_at": "2026-09-01",
+    "source": "Mining Technology",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMm5OMVU5V3hxemlZbFBjbFpBVHpPSFdDQjU4RXJJU1BYVFU0c2hGOWZOTkQ5UTVNVWRvZU9OeUtoNGpKdWE4WG9yRWdTalc4NXVDNjR6Qk9SaDRYNV9OYUh1VnJmelZTVEwtbS1iRHcxbHdiUzlUaEdMdFdhTGRUemhvbmZFaGRkOFE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOMm5OMVU5V3hxemlZbFBjbFpBVHpPSFdDQjU4RXJJU1BYVFU0c2hGOWZOTkQ5UTVNVWRvZU9OeUtoNGpKdWE4WG9yRWdTalc4NXVDNjR6Qk9SaDRYNV9OYUh1VnJmelZTVEwtbS1iRHcxbHdiUzlUaEdMdFdhTGRUemhvbmZFaGRkOFE?oc=5\" target=\"_blank\">LG Energy signs lithium carbonate deal with Smackover</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mining Technology</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "스맥오버",
+      "LG"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션이 리튬탄산염 공급 계약을 체결했다.",
+      "이번 계약은 스맥오버(Smackover)와의 협력을 통해 이루어졌다.",
+      "이는 LG에너지솔루션의 배터리 원료 확보 전략의 일환으로 보인다."
+    ],
+    "uid": "1ca527a7c6919df6f1528c2b40491e1f4d9ba21d"
+  },
+  {
+    "title": "Lithium company signs agreement with LG Energy Solution for South West Arkansas Project",
+    "published_at": "2026-09-01",
+    "source": "K8 News | Jonesboro, Arkansas",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXpvTzdHdTd6Mllvd3ZHbkRwRVh2YXlIcnBfTlp0VjBZV3RQMWQwSU1wUV96OVdCT3FYaGlDMzJZeG00VzVjQnRjQzc1T3k1RzN4QW1GdmNxMGVodkpmSEU0OGdBekU0TmJCa08wTXFUXzFQdDREak1XOXVhM09oMHltak9NTWM3MklRbzZQT1ZSeTNydkZZZjdObzZFaTVvZUd1UmRULUdzdlNteWUweWRxOWlFRHVQ0gHMAUFVX3lxTE8yYl9QVWpDTVJsZS00cWVRdmw0MW9ENkNySm1QRjBaZVYwMmU2ekdWTm1pazJiNUZsazNBVG5WMXZQOER0M2VrX1UtMFo3d25hckRrOXNvWnBYT0xGTDRac2ZUeWhNU05XcmF0M3YwMmt2dWd2T3Z0eDQ1MGM3SHdLT1N2R01FYjlxSS1iZElIdTREN1BFalZwN1F6aXlIb0Q4MVpPcGdrWl85WU5hQkZIVlpvalY4SzhUWFFoU0pVUFd0YlN2cHdSWjh4Vg?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXpvTzdHdTd6Mllvd3ZHbkRwRVh2YXlIcnBfTlp0VjBZV3RQMWQwSU1wUV96OVdCT3FYaGlDMzJZeG00VzVjQnRjQzc1T3k1RzN4QW1GdmNxMGVodkpmSEU0OGdBekU0TmJCa08wTXFUXzFQdDREak1XOXVhM09oMHltak9NTWM3MklRbzZQT1ZSeTNydkZZZjdObzZFaTVvZUd1UmRULUdzdlNteWUweWRxOWlFRHVQ0gHMAUFVX3lxTE8yYl9QVWpDTVJsZS00cWVRdmw0MW9ENkNySm1QRjBaZVYwMmU2ekdWTm1pazJiNUZsazNBVG5WMXZQOER0M2VrX1UtMFo3d25hckRrOXNvWnBYT0xGTDRac2ZUeWhNU05XcmF0M3YwMmt2dWd2T3Z0eDQ1MGM3SHdLT1N2R01FYjlxSS1iZElIdTREN1BFalZwN1F6aXlIb0Q4MVpPcGdrWl85WU5hQkZIVlpvalY4SzhUWFFoU0pVUFd0YlN2cHdSWjh4Vg?oc=5\" target=\"_blank\">Lithium company signs agreement with LG Energy Solution for South West Arkansas Project</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">K8 News | Jonesboro, Arkansas</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "iGrow News",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11RktpSHd1QWlwMl9xYVduY2M0WTJXbWVJLWQ4U3FVSVVBN3BKWHVaQm9TQkxDcDBPTGVidTdjU1dydGR5MzVLdF8tTFZOQXBfLWJmOWJwdWNQdGdFczZZODVn?oc=5"
+      },
+      {
+        "source": "KATV",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOclNCM2NRdXNXY1EwZnQ2QVhHaWpJSnFndkQ4b2p4RFpXNDEwNDFLRllhX00ycVQ2TnhIYWZzM3JSOWlJUUJPSkVJYUJmRUd3a2lZZlJkOUJqYy1zMms1NjQzd0VMZS1qR0dGSkFhWFI3aFRRXzIxUTllU3JUcE1KaUQzeGtaTHJTenNidUNsdDdMX2lUS3BJQ094QQ?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "LG"
+    ],
+    "summary_3_sentences": [
+      "한 리튬 기업이 LG에너지솔루션과 남서 아칸소 프로젝트에 대한 계약을 체결했다.",
+      "이 계약은 LG에너지솔루션의 미국 내 리튬 공급망 확보에 중요한 역할을 할 것으로 예상된다.",
+      "프로젝트의 구체적인 내용은 공개되지 않았으나, 북미 지역에서의 배터리 원료 확보 경쟁이 심화되고 있음을 시사한다."
+    ],
+    "uid": "23a8ee17418c3531d3b44bebb13dd4468eb2eb28"
+  },
+  {
+    "title": "LG Energy Agrees to Buy $1.5 Billion in Lithium Carbonate from Arkansas Project",
+    "published_at": "2026-09-01",
+    "source": "Industrial Equipment News",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUEVkb3Q3Sjd6djgyTlVvUU5CQnREQ0VodjZzcFFqX2lBRzlXcDBUdDM0WUFmaGtQcHJfUlBwYi1FdEZuN3F3dDhaT1dTSmNDNDBlVXpwS0tEMXJCY1c2TVY5TXFSSmdpUVNXUDFJdG90V0pqSFF2UnhSdmRrQmJaQ3VqNFVvUlR4OGN2aWYwbXpKamRSVUhMS0tQU2IweGhBWWdOMEFXV1pYLUROT3J4SGNyTTZIeEU1bXR0UGtFdGY3QQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUEVkb3Q3Sjd6djgyTlVvUU5CQnREQ0VodjZzcFFqX2lBRzlXcDBUdDM0WUFmaGtQcHJfUlBwYi1FdEZuN3F3dDhaT1dTSmNDNDBlVXpwS0tEMXJCY1c2TVY5TXFSSmdpUVNXUDFJdG90V0pqSFF2UnhSdmRrQmJaQ3VqNFVvUlR4OGN2aWYwbXpKamRSVUhMS0tQU2IweGhBWWdOMEFXV1pYLUROT3J4SGNyTTZIeEU1bXR0UGtFdGY3QQ?oc=5\" target=\"_blank\">LG Energy Agrees to Buy $1.5 Billion in Lithium Carbonate from Arkansas Project</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Equipment News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "장비",
+    "companies": [
+      "LG에너지솔루션",
+      "LG"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션이 아칸소 프로젝트로부터 15억 달러 규모의 리튬탄산염을 구매하기로 합의했다.",
+      "이는 LG에너지솔루션의 북미 지역 배터리 생산 확대를 위한 원료 확보 노력의 일환이다.",
+      "이번 계약은 미국 내 리튬 공급망 구축에 중요한 기여를 할 것으로 기대된다."
+    ],
+    "uid": "b21d2c505c47f64563b5982827b1388a5886cb71"
+  },
+  {
+    "title": "South Korea's LG Energy Solution signs 10-year US lithium supply deal",
+    "published_at": "2026-09-01",
+    "source": "Fibre2Fashion",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbUtkVWFMNUx1ZVp2R1JwMXBHSGVNQkVORmxEQ2JvQTR5SjZoaGtYNnhOM2ZOMGJzMkpZLVFIMlo0Z2FibjYyTUV4WDZYbTlOQ1VIaEpjbFdILXRKdE84T3U1UHk4WHVWcG1aM0NSNGhieWh0a2ZZMC1xMTJFVjUxT1ZaTUhRdHFKWlVwYWMzTHliT1VXaUFDaTF3N2RwQ004YTMyODR0VlZFMWNXNnNaUWVPaVY5WEJWTnVoRUw1VHVhVmdqU3JpNnB4YU0wUzVfTFZDcUdhX3M?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbUtkVWFMNUx1ZVp2R1JwMXBHSGVNQkVORmxEQ2JvQTR5SjZoaGtYNnhOM2ZOMGJzMkpZLVFIMlo0Z2FibjYyTUV4WDZYbTlOQ1VIaEpjbFdILXRKdE84T3U1UHk4WHVWcG1aM0NSNGhieWh0a2ZZMC1xMTJFVjUxT1ZaTUhRdHFKWlVwYWMzTHliT1VXaUFDaTF3N2RwQ004YTMyODR0VlZFMWNXNnNaUWVPaVY5WEJWTnVoRUw1VHVhVmdqU3JpNnB4YU0wUzVfTFZDcUdhX3M?oc=5\" target=\"_blank\">South Korea's LG Energy Solution signs 10-year US lithium supply deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fibre2Fashion</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "Businesskorea",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pei1wYWIzRE9OMElTdklYc2V4NVFJMVlRT1VORmx1YnViUHV5R3FCOWtQWlNER3BsR3dOVC1VU0pYVWkxeEJmQlg2ajd4RDZoamZDa2dsUkRCeXptc3MtM1NVT3RBU2xTTGc3R29ZV0Y4UTMt?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG에너지솔루션",
+      "LG",
+      "US"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션이 미국 공급업체와 10년간의 리튬 공급 계약을 체결했다.",
+      "이번 계약은 LG에너지솔루션의 북미 지역 배터리 생산 능력 강화에 기여할 것으로 보인다.",
+      "이는 미국 정부의 인플레이션 감축법(IRA) 시행에 따른 현지 생산 및 공급망 구축 노력의 일환으로 해석된다."
+    ],
+    "uid": "de3ed8a9f1c1f1409d7a5692b4d8947b8d6f37f0"
   },
   {
     "title": "전해액·양극재·열관리 소재 내재화 결실… 독보적 기술력 확보 기업에...",
