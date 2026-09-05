@@ -1,5 +1,29 @@
 [
   {
+    "title": "[더딥] 기다렸다, 꿈의 배터리…‘2027년 전고체 양산’ 돈 버는 곳은?",
+    "description": "“2027년, 전고체 배터리가 온다.” 삼성SDI는 2027년 하반기 전고체 배터리 양산을 목표로 하고 있습니다. 그런데 세계 1위 배터리 기업 CATL의 쩡위친 회장은 2030년 이전 대규모 적용에 회의적인 전망을 내놨습니다. 같은...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=106535",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-09-05",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 97,
+    "monitoring_importance": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 2027년 하반기 전고체 배터리 양산을 목표로 하고 있습니다.",
+      "하지만 세계 1위 배터리 기업 CATL의 쩡위친 회장은 2030년 이전 전고체 배터리 대규모 적용에 회의적인 전망을 내놓았습니다.",
+      "이는 전고체 배터리 시장의 성장 가능성과 실제 양산 시점에 대한 업계의 엇갈린 시각을 보여줍니다."
+    ],
+    "uid": "764dfdbe0fab022daa8a682fd78473d8330631c7"
+  },
+  {
     "title": "삼성, 8월 中 특허 504건 승인…'휴머노이드·6G·전고체' IP 방어망 구축",
     "description": "中 CNIPA, 8월 한 달간 삼성그룹 주요 계열사 특허 504건 최종 승인 삼성전자 217건·디스플레이 152건·SDI 81건…첨단 기술 전방위 포착 가변형 로봇·6G AI 예측·전고체 배터리·부품 원천 IP 확보로 초격차 공고...",
     "link": "https://www.theguru.co.kr/news/article.html?no=106603",
@@ -23,6 +47,30 @@
       "이는 삼성의 미래 기술 선점 노력과 경쟁력 강화를 보여줍니다."
     ],
     "uid": "ddfa42dedb60ccb06211a6c34e71906458a38d20"
+  },
+  {
+    "title": "BYD 전고체 배터리 사양 확산…'400Wh/kg·15분 충전·1만회↑ 수명' 전망",
+    "description": "에너지밀도 400Wh/kg·15분 완충 등 차세대 사양 전망 잇따라 현대차도 2030년 양산 목표…정의선 \"전고체 성과 나와야\" 중국 자동차 산업 관계자들이 내년을 전고체 배터리 소량 양산이 시작될 핵심 연도로 관측하고...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=106677",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-09-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "BYD",
+      "현대차"
+    ],
+    "summary_3_sentences": [
+      "BYD의 전고체 배터리 사양이 에너지 밀도 400Wh/kg, 15분 완충, 1만 회 이상의 수명으로 전망되고 있습니다.",
+      "현대차 역시 2030년 양산을 목표로 하고 있으며, 정의선 회장은 전고체 배터리의 성과를 강조했습니다.",
+      "중국 자동차 업계 관계자들은 내년을 전고체 배터리 소량 양산의 핵심 연도로 관측하고 있습니다."
+    ],
+    "uid": "ba2487f0801745e079c5745120bba2e3a94e5034"
   },
   {
     "title": "'포스코·이브이첨단소재 투자' 프롤로지움, 고밀도 전고체배터리 양산...",
@@ -50,6 +98,78 @@
     "uid": "f871bb49515c1c712c956e0b972b3e7e27f9b82d"
   },
   {
+    "title": "반도체서 2차전지로 순환매…한달 새 21% 쑥 [ETF 줌인]",
+    "description": "반도체 대형주의 주가 조정이 이어진 사이 상대적으로 덜 오른 2차전지 업종으로 자금이 옮겨간 데다 전기차를 넘어 전력망으로 배터리 수요처가 확대될 것이라는 기대가 투자심리를 끌어올린 것으로 풀이된다....",
+    "link": "https://www.sedaily.com/article/20087390?ref=naver",
+    "source": "www.sedaily.com",
+    "published_at": "2026-09-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 82,
+    "monitoring_importance": 82,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "2차전지",
+      "ETF"
+    ],
+    "summary_3_sentences": [
+      "반도체 대형주의 주가 조정 이후 2차전지 업종으로 자금이 이동하고 있습니다.",
+      "전기차를 넘어 전력망까지 배터리 수요처가 확대될 것이라는 기대감이 투자 심리를 끌어올리고 있습니다.",
+      "이는 2차전지 산업의 성장 잠재력에 대한 시장의 긍정적인 전망을 보여줍니다."
+    ],
+    "uid": "f8c5b3e9352d74bb2f86887276413d58ccf62cf1"
+  },
+  {
+    "title": "국내서 밀린 LG엔솔? 'AI 전력 대폭발' 북미서 ESS '독주 체제' 가속",
+    "description": "LG엔솔 관계자는 \"ESS용 LFP를 북미 현지에서 생산할 수 있는 유일한 배터리 업체라는 점은 현지 공급과 생산이 중요한 ESS 시장에서 큰 경쟁력 중 하나\"라며 \"LG에너지솔루션 버테크를 자회사로 두고 있어 배터리...",
+    "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=300328",
+    "source": "www.newsquest.co.kr",
+    "published_at": "2026-09-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 84,
+    "monitoring_importance": 84,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG에너지솔루션",
+      "LG에너지솔루션 버테크",
+      "LG엔솔"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션은 북미 ESS 시장에서 독주 체제를 가속화하고 있습니다.",
+      "ESS용 LFP를 북미 현지에서 생산할 수 있는 유일한 배터리 업체라는 점이 큰 경쟁력으로 작용하고 있습니다.",
+      "LG에너지솔루션 버테크를 자회사로 두고 있어 배터리 공급망 관리에도 유리한 위치를 점하고 있습니다."
+    ],
+    "uid": "f6ec60a8dd633ccb2fabb0364596755904ee4b85"
+  },
+  {
+    "title": "삼성SDI, 전고체·소듐·리튬메탈 '3각 편대'⋯미래 배터리 시장 공략",
+    "description": "가장 앞선 기술은 전고체 배터리다. 삼성SDI는 자체 개발한 고체 전해질 소재와 무음극 기술을 적용해 전고체 배터리의 에너지밀도와 안전성 향상을 추진하고 있다. 적용 분야도 넓다. 전기차용 각형뿐 아니라 로봇용...",
+    "link": "https://www.autodaily.co.kr/news/articleView.html?idxno=600188",
+    "source": "www.autodaily.co.kr",
+    "published_at": "2026-09-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 96,
+    "monitoring_importance": 96,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 자체 개발한 고체 전해질 소재와 무음극 기술을 적용하여 전고체 배터리의 에너지 밀도와 안전성 향상을 추진하고 있습니다.",
+      "특히 전기차용 각형뿐만 아니라 로봇용으로도 적용 분야를 넓히며 미래 배터리 시장 공략에 나서고 있습니다.",
+      "이는 삼성SDI가 전고체, 소듐, 리튬메탈 배터리를 아우르는 '3각 편대' 전략으로 미래 시장을 선점하려는 의지를 보여줍니다."
+    ],
+    "uid": "a20b0d79d9b55714be2aa4e947ea3877a982780f"
+  },
+  {
     "title": "나노실리칸첨단소재, 실리콘 음극재 혁신 기술... 연이은 특허 출원",
     "description": "이차전지 소재 혁신 기업 나노실리칸첨단소재(이하 나노실리칸)가 차세대 배터리의 핵심으로 꼽히는... 이번에 출원된 2차 특허(출원번호: 10-2026-0164122)와 3차 특허(출원번호: 10-2026-0164148)는 표면개질과 탄소코팅을...",
     "link": "https://weeklytrade.co.kr/news/view.html?section=1&category=5&item=&no=101279",
@@ -72,6 +192,88 @@
       "이는 나노실리칸첨단소재가 차세대 배터리 소재 기술 경쟁에서 입지를 강화하려는 노력의 일환입니다."
     ],
     "uid": "85ca421feef78a88b5410250f7f2c1380e751954"
+  },
+  {
+    "title": "[김대준의 증시산책] '핫'해진 2차전지, 기대요인과 주의사항은",
+    "description": "국민성장펀드는 전고체 배터리를 포함한 2차전지 산업에 적극 투자할 계획인 것으로 전해진다. 아직은 전고체 배터리 양산까지 긴 시간이 남아 있다. 그러나 신규 투자 자금이 계속해서 유입될 수 있다는 전망에 주가는...",
+    "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7182331",
+    "source": "weekly.hankooki.com",
+    "published_at": "2026-09-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "국민성장펀드",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "국민성장펀드는 전고체 배터리를 포함한 2차전지 산업에 적극 투자할 계획인 것으로 전해집니다.",
+      "아직 전고체 배터리 양산까지는 시간이 남아있지만, 신규 투자 자금 유입 기대감으로 주가 상승 요인이 될 수 있습니다.",
+      "이는 2차전지 산업, 특히 전고체 배터리 기술에 대한 시장의 높은 관심과 기대를 보여줍니다."
+    ],
+    "uid": "34d60161487f21a8fe075e2ecd690012636917e1"
+  },
+  {
+    "title": "SungEel HiTech to Expand LFP Battery Recycling Capacity Tenfold by 2028",
+    "published_at": "2026-09-04",
+    "source": "thelec.net",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16UHloeHg1RlhXYXJBY3l1MFQtdlQxaW1vMW5HX1M4UDhmV0ExV3VsX2ZxT1plenZodWp2LVJlZHFUQkVGcDMwcWpfdW9tVExyLUQtNGtKQUgyRERxR0xmNTF6QnBQbDQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16UHloeHg1RlhXYXJBY3l1MFQtdlQxaW1vMW5HX1M4UDhmV0ExV3VsX2ZxT1plenZodWp2LVJlZHFUQkVGcDMwcWpfdW9tVExyLUQtNGtKQUgyRERxR0xmNTF6QnBQbDQ?oc=5\" target=\"_blank\">SungEel HiTech to Expand LFP Battery Recycling Capacity Tenfold by 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thelec.net</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "SungEel HiTech",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "SungEel HiTech는 2028년까지 LFP 배터리 재활용 용량을 10배로 확장할 계획입니다.",
+      "이는 폐배터리 재활용 산업의 중요성이 커지고 있음을 보여줍니다.",
+      "이러한 용량 증가는 지속 가능한 배터리 생태계 구축에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "dcc1981773a7a0ccf6b2d19e85751b98985da3c9"
+  },
+  {
+    "title": "나노실리칸, 실리콘 음극재 제조 핵심 특허 연이어 출원",
+    "description": "이차전지 소재 혁신 기업 나노실리칸첨단소재(이하 나노실리칸)가 차세대 배터리 핵심 소재로 꼽히는... 2차 특허(출원번호 10-2026-0164122)와 3차 특허(출원번호 10-2026-0164148)는 표면개질과 탄소코팅을 동시에 진행하는...",
+    "link": "https://news.dealsitetv.com/articles/175632",
+    "source": "news.dealsitetv.com",
+    "published_at": "2026-09-04",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.edaily.co.kr",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=03775286645576840&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+      },
+      {
+        "source": "www.sentv.co.kr",
+        "link": "https://www.sentv.co.kr/article/view/sentv202609040138"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "나노실리칸첨단소재",
+      "이차전지"
+    ],
+    "summary_3_sentences": [
+      "이차전지 소재 혁신 기업 나노실리칸첨단소재가 실리콘 음극재 제조 관련 핵심 특허를 연이어 출원했습니다.",
+      "이번 특허들은 표면 개질과 탄소 코팅을 동시에 진행하는 기술을 포함하고 있습니다.",
+      "이는 차세대 배터리 소재 기술 경쟁에서 나노실리칸의 기술력을 강화하는 계기가 될 것으로 보입니다."
+    ],
+    "uid": "45968aeb6f2dd391716b96aead270e6f179df8a5"
   },
   {
     "title": "소테리아, K-BATTERY SHOW 2026서 안전성 높인 배터리 셀 'Voltaplex LIFE' 선...",
@@ -97,6 +299,242 @@
       "소테리아의 이번 출품은 배터리 안전 기술의 중요성을 강조합니다."
     ],
     "uid": "889a73788fd6ddf826993d965d5e0251f3054e0f"
+  },
+  {
+    "title": "Chery to Test Solid-State EV Batteries in 2026 With $1.5 Billion Push",
+    "published_at": "2026-09-04",
+    "source": "finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zYm5WYVJuRzRGVlZPRmw1RS1wNWxwdy1YVnlxaGFrMmFrWWxRR29UcHdXRW94U2tRbFgwVHNhRjVJUlJiZl9LclJ3Y01Qem1sNUVnUXFSeW9lZnVCRzlSNkRGaDVUUUZaNE5fM3prQ2xxQWkwcGc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5zYm5WYVJuRzRGVlZPRmw1RS1wNWxwdy1YVnlxaGFrMmFrWWxRR29UcHdXRW94U2tRbFgwVHNhRjVJUlJiZl9LclJ3Y01Qem1sNUVnUXFSeW9lZnVCRzlSNkRGaDVUUUZaNE5fM3prQ2xxQWkwcGc?oc=5\" target=\"_blank\">Chery to Test Solid-State EV Batteries in 2026 With $1.5 Billion Push</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Chery"
+    ],
+    "summary_3_sentences": [
+      "Chery는 15억 달러를 투입하여 2026년에 전고체 EV 배터리 테스트를 시작할 예정입니다.",
+      "이는 Chery가 전고체 배터리 기술 상용화를 위해 적극적으로 투자하고 있음을 나타냅니다.",
+      "이러한 투자는 미래 전기차 시장의 기술 발전에 기여할 것으로 예상됩니다."
+    ],
+    "uid": "6f88e28603e2421b887ce84444144c67222e29d6"
+  },
+  {
+    "title": "52조원 ESS 시장 열린다…배터리 3사 LFP ‘증설 경쟁’",
+    "description": "국내 ESS 시장 확대가 배터리 셀뿐 아니라 양극재와 전구체, 분리막, 전해액, 동박 등 후방 산업의 생산능력 확대를 동시에 끌어낼 수 있다는 관측이다. 한편, 국내 ESS 시장의 의미는 자체 시장 규모에만 그치지...",
+    "link": "https://dealsite.co.kr/articles/168454",
+    "source": "dealsite.co.kr",
+    "published_at": "2026-09-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "국내 ESS 시장 확대는 배터리 셀뿐만 아니라 양극재, 전구체, 분리막, 전해액, 동박 등 후방 산업의 생산 능력 확대도 동시에 이끌어낼 것으로 관측됩니다.",
+      "이는 ESS 시장 성장이 배터리 산업 생태계 전반에 긍정적인 영향을 미칠 것임을 시사합니다.",
+      "국내 ESS 시장의 의미는 자체 시장 규모를 넘어 관련 산업의 동반 성장에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "c9a344116e57d65169bdf8735d1fdd196be84224"
+  },
+  {
+    "title": "Chinese carmaker Chery to begin testing solid-state EV batteries next year",
+    "published_at": "2026-09-04",
+    "source": "South China Morning Post",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN1RDTUlldDdad0VCLVlFaW43SnFBY2lidVpBWUhHbjZaaTg4Z0hwZXNLY215a1J4Qm13bVZ5X3FHNk0xelpzb0M3UWlSM2tGWmNNSXdoZjM2OWlMNHV3dnUzaUhaSGg0Q3lmN3hjam1GRlZQcXdzN3k2Q2VfclpmTm9WbXhpeDhVdXpjYlVfSnlaRTNKUzJzb1RHVGVmcUlVY3ZLa3M3UmkzdFBJMG8xVEZPQVpqNzNybXQwQ1VnYlZ6UXFicUo4c19VdnA3MnRMcElJU1R30gHWAUFVX3lxTE5CMklQdU5oRHhQZ0luazVmMEVrcnVYWGZtNGNZYVZVeDRRV19tZUJhTDZkRUZrTzgxaUJhOXRUTG4yemVCYkl1NGFMcDJsaUwzSVJhczZvZFYwU202eXkxX2wzUnZLUEk5NUdFMFA0S3M0ZktReWRvUlp2d1VvMU5FcWVBNzBVYmNHYVlQSHZja2FoSDJpVGhRX3dqdG4xY29na3doeGRlQVkzTjJUXzNvc2hSUEtkaklHTjJfbWRqOGQzWHRualltaVNJdDc0cGtTS2JzLUE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN1RDTUlldDdad0VCLVlFaW43SnFBY2lidVpBWUhHbjZaaTg4Z0hwZXNLY215a1J4Qm13bVZ5X3FHNk0xelpzb0M3UWlSM2tGWmNNSXdoZjM2OWlMNHV3dnUzaUhaSGg0Q3lmN3hjam1GRlZQcXdzN3k2Q2VfclpmTm9WbXhpeDhVdXpjYlVfSnlaRTNKUzJzb1RHVGVmcUlVY3ZLa3M3UmkzdFBJMG8xVEZPQVpqNzNybXQwQ1VnYlZ6UXFicUo4c19VdnA3MnRMcElJU1R30gHWAUFVX3lxTE5CMklQdU5oRHhQZ0luazVmMEVrcnVYWGZtNGNZYVZVeDRRV19tZUJhTDZkRUZrTzgxaUJhOXRUTG4yemVCYkl1NGFMcDJsaUwzSVJhczZvZFYwU202eXkxX2wzUnZLUEk5NUdFMFA0S3M0ZktReWRvUlp2d1VvMU5FcWVBNzBVYmNHYVlQSHZja2FoSDJpVGhRX3dqdG4xY29na3doeGRlQVkzTjJUXzNvc2hSUEtkaklHTjJfbWRqOGQzWHRualltaVNJdDc0cGtTS2JzLUE?oc=5\" target=\"_blank\">Chinese carmaker Chery to begin testing solid-state EV batteries next year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">South China Morning Post</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Chery"
+    ],
+    "summary_3_sentences": [
+      "중국 자동차 제조업체 Chery는 내년에 전고체 전기차 배터리 테스트를 시작할 예정입니다.",
+      "이는 전고체 배터리 기술의 상용화가 점차 가시화되고 있음을 나타냅니다.",
+      "Chery의 이러한 움직임은 미래 전기차 시장의 기술 트렌드에 영향을 줄 수 있습니다."
+    ],
+    "uid": "c0eb1c54b65106f92083de3d187c4784a8475cc3"
+  },
+  {
+    "title": "Today, SMM battery-grade lithium carbonate spot prices drifted lower c",
+    "published_at": "2026-09-04",
+    "source": "Shanghai Metals Market",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR2ZsSXM1bjktYmhGSXFtelZPcjFjSDU4MktFcXFfTEFUNlBxWGhqaHIyX2QtYl9yTmxabTM1eXA5SndqS3hZd2RYN1RqSnBWSFVXZXVSdC1IZmROOUpkQnZaTktoUUhmU2QtZU5GTXdZdXVvTUJHWTNORnYxaU9FVk9PeVJsUmIycVlzZ014NkE4SmF2UWw5eWFhWm85MjR4MWhpVmpNTVBtUlpxTDdBM1ZNQWlqd2lIT3NrOHV3YjE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR2ZsSXM1bjktYmhGSXFtelZPcjFjSDU4MktFcXFfTEFUNlBxWGhqaHIyX2QtYl9yTmxabTM1eXA5SndqS3hZd2RYN1RqSnBWSFVXZXVSdC1IZmROOUpkQnZaTktoUUhmU2QtZU5GTXdZdXVvTUJHWTNORnYxaU9FVk9PeVJsUmIycVlzZ014NkE4SmF2UWw5eWFhWm85MjR4MWhpVmpNTVBtUlpxTDdBM1ZNQWlqd2lIT3NrOHV3YjE?oc=5\" target=\"_blank\">Today, SMM battery-grade lithium carbonate spot prices drifted lower c</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shanghai Metals Market</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "SMM"
+    ],
+    "summary_3_sentences": [
+      "오늘 SMM 배터리 등급 리튬 탄산염 현물 가격이 하락했습니다.",
+      "이는 배터리 원자재 시장의 단기적인 가격 변동성을 보여줍니다.",
+      "향후 리튬 탄산염 가격 추이는 배터리 산업 전반에 영향을 미칠 수 있습니다."
+    ],
+    "uid": "8526942dd7af594e1193f458bde2411c26397048"
+  },
+  {
+    "title": "Ecobat Completes Sale Of Lithium Recycling Business And Exits Lithium Market",
+    "published_at": "2026-09-04",
+    "source": "Pulse 2.0",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRjBlY2dERVZGMEJuc0czOXZYT1JpZEs2ZnFVdHdkQjZCTy1CRi1NM2J5UkxESVRWSEVTYmRDN2EyVUhoU25QVzZXSG9QVkp6THNlMDFTUlJnb09ITEVoc3I3Rm9mNmo2a1hTMWZLV0NiTndyRnN0N3pMS3FaczQ5TnBoRVdsa2s4VzBEYTlyY25HUzdoNDNXWmtreXTSAaIBQVVfeXFMTTd2ZnhUMThKaXh4XzcyOTdObmgtbGtfMzhpaGpDRXZweG5zNVlsZUotTmU5LUJVd29xUk1mODdnVHdjYklGdl9iR3UydzNTSi11c3lDdlM5TXBsd3BLZENYQnZtOWNUeTVZZnh6YTdsMms4ZWdSdGpud0ZrbDZDalZZX3pwY0tuLTBWQnFTZ0F6M1Jodk4tNndRLU9VNEp3U3J3?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQRjBlY2dERVZGMEJuc0czOXZYT1JpZEs2ZnFVdHdkQjZCTy1CRi1NM2J5UkxESVRWSEVTYmRDN2EyVUhoU25QVzZXSG9QVkp6THNlMDFTUlJnb09ITEVoc3I3Rm9mNmo2a1hTMWZLV0NiTndyRnN0N3pMS3FaczQ5TnBoRVdsa2s4VzBEYTlyY25HUzdoNDNXWmtreXTSAaIBQVVfeXFMTTd2ZnhUMThKaXh4XzcyOTdObmgtbGtfMzhpaGpDRXZweG5zNVlsZUotTmU5LUJVd29xUk1mODdnVHdjYklGdl9iR3UydzNTSi11c3lDdlM5TXBsd3BLZENYQnZtOWNUeTVZZnh6YTdsMms4ZWdSdGpud0ZrbDZDalZZX3pwY0tuLTBWQnFTZ0F6M1Jodk4tNndRLU9VNEp3U3J3?oc=5\" target=\"_blank\">Ecobat Completes Sale Of Lithium Recycling Business And Exits Lithium Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pulse 2.0</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "Ecobat"
+    ],
+    "summary_3_sentences": [
+      "Ecobat은 리튬 재활용 사업 매각을 완료하고 리튬 시장에서 철수했습니다.",
+      "이는 리튬 시장의 재편 움직임과 관련 기업들의 사업 전략 변화를 보여줍니다.",
+      "Ecobat의 결정은 향후 리튬 시장의 경쟁 구도에 영향을 미칠 수 있습니다."
+    ],
+    "uid": "3f4307ff816b577f7b9b7a794ce42fb95cfae2b1"
+  },
+  {
+    "title": "Chery Plans $1.49B Investment in Solid-State Batteries, Testing in 2027 - News and Statistics",
+    "published_at": "2026-09-04",
+    "source": "IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOamZ6U0dvQm9GZ0VzYkljQzBVZ1pEOFJHNU1ieXljQmVjeUhxb2dUOUFiTmYzLVYxamVIUnVQN1QtT0R5ZG82akpBVkd6d3pHaWVuRnhIRUMxSUFXSF9fclRGa292ZU9UX0RpZ0RtNFhIaVFCTy03a0tQZkh4ZDJHaW1qUW5WOURTQVZsaWxHb2VPNVU?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOamZ6U0dvQm9GZ0VzYkljQzBVZ1pEOFJHNU1ieXljQmVjeUhxb2dUOUFiTmYzLVYxamVIUnVQN1QtT0R5ZG82akpBVkd6d3pHaWVuRnhIRUMxSUFXSF9fclRGa292ZU9UX0RpZ0RtNFhIaVFCTy03a0tQZkh4ZDJHaW1qUW5WOURTQVZsaWxHb2VPNVU?oc=5\" target=\"_blank\">Chery Plans $1.49B Investment in Solid-State Batteries, Testing in 2027 - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Chery"
+    ],
+    "summary_3_sentences": [
+      "Chery는 전고체 배터리에 14억 9천만 달러를 투자할 계획이며, 2027년에 테스트를 진행할 예정입니다.",
+      "이는 Chery가 전고체 배터리 기술 개발에 상당한 투자를 하고 있음을 보여줍니다.",
+      "이러한 투자는 미래 전기차 시장에서 전고체 배터리의 중요성을 강조합니다."
+    ],
+    "uid": "3e7ab0bcf5cdd1db61b347bb01bfbb19fe4d1e3b"
+  },
+  {
+    "title": "BESS Industry Buzz: German grid attack, revenue cannibilisation, CATL's price cut, sodium-ion's ramp-up and more",
+    "published_at": "2026-09-04",
+    "source": "Energy-Storage.News",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbXRTTkF0aWNrSkhJOWlZaUxSZmp5MEhrVFZEVS1YWUZ4c1dRaUFhS0lZVWNKNGlZczVtZXdaSjk3OE5XODZyVVc4RGhVaEFQZGlhSGFOQzJCMnpmM1RJU1p6OEpwSVVUY25wRm9tWWdrazE5Q3R5bnBUeDZFNjAyM0p1UV9zTWJVdWpPZ2ZsQ3V5dzBsYS1VZDZDOGdmUW12d2N3ajNUV3pkVXd2R09ZRTRVT01hV3IyUTA5MVRPZUdSVHR3bXhNTkEwclFucVJhbjFCQnJn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbXRTTkF0aWNrSkhJOWlZaUxSZmp5MEhrVFZEVS1YWUZ4c1dRaUFhS0lZVWNKNGlZczVtZXdaSjk3OE5XODZyVVc4RGhVaEFQZGlhSGFOQzJCMnpmM1RJU1p6OEpwSVVUY25wRm9tWWdrazE5Q3R5bnBUeDZFNjAyM0p1UV9zTWJVdWpPZ2ZsQ3V5dzBsYS1VZDZDOGdmUW12d2N3ajNUV3pkVXd2R09ZRTRVT01hV3IyUTA5MVRPZUdSVHR3bXhNTkEwclFucVJhbjFCQnJn?oc=5\" target=\"_blank\">BESS Industry Buzz: German grid attack, revenue cannibilisation, CATL's price cut, sodium-ion's ramp-up and more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Energy-Storage.News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 95,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL",
+      "BESS"
+    ],
+    "summary_3_sentences": [
+      "BESS 산업계 소식으로는 독일 전력망 공격, 수익 잠식, CATL의 가격 인하, 나트륨 이온 배터리의 생산 확대 등이 있습니다.",
+      "이는 에너지 저장 시스템(ESS) 산업의 다양한 이슈와 동향을 보여줍니다.",
+      "이러한 소식들은 ESS 시장의 현재와 미래를 이해하는 데 중요한 정보를 제공합니다."
+    ],
+    "uid": "f52a20b47004f027a22278bbd6a823160f439672"
+  },
+  {
+    "title": "China LiPF6 Prices Rise 6.73% in Late August on Strong Battery Demand and Tighter Supply",
+    "published_at": "2026-09-04",
+    "source": "ChemAnalyst",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMVg0aDUxcWtPYUJaTm11ODZHTndQYUxHU1hfc3poeEVaRDRQbHdiTl8weUI2azJQZV9NVnhuaWJFLUZtajVGZmZXSWlSRkxRb05SVGNBOUd6YzNub2dXd2d0UU1BQWNSaDB6RTBFZnFIdWxHTkM1c3VSZFhaNkdLbWZzaGdoLU1LWWpqQXFCclZpT293Qnd6ZnFiMVRHWHBidEpWS28wUktOX2ctUU02NFZn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQMVg0aDUxcWtPYUJaTm11ODZHTndQYUxHU1hfc3poeEVaRDRQbHdiTl8weUI2azJQZV9NVnhuaWJFLUZtajVGZmZXSWlSRkxRb05SVGNBOUd6YzNub2dXd2d0UU1BQWNSaDB6RTBFZnFIdWxHTkM1c3VSZFhaNkdLbWZzaGdoLU1LWWpqQXFCclZpT293Qnd6ZnFiMVRHWHBidEpWS28wUktOX2ctUU02NFZn?oc=5\" target=\"_blank\">China LiPF6 Prices Rise 6.73% in Late August on Strong Battery Demand and Tighter Supply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ChemAnalyst</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "8월 말 기준 중국의 배터리 등급 리튬염 가격이 강한 배터리 수요와 공급 부족으로 6.73% 상승했습니다.",
+      "이는 배터리 원자재 가격 변동성이 커지고 있음을 나타냅니다.",
+      "이러한 가격 상승은 배터리 제조 비용 및 최종 제품 가격에 영향을 미칠 수 있습니다."
+    ],
+    "uid": "0b91d9a18b9512fedda209d56c5721ecccdd8b47"
+  },
+  {
+    "title": "Over $60 billion in capex required to meet 2040 lithium demand",
+    "published_at": "2026-09-04",
+    "source": "Benchmark Mineral Intelligence",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2dKVklvR1JYWEp4ai1YRTJkOHBJWGg1d0ZaaHBIT2Z4VTBVOUo1OW9zcTgtbFF0bmt5dmZienVWMHQxRFY2N3JfNGpXYUtmclhpNHl5T21KUVU5RTlHeXVtODE3ZW5mZ01BZEdTRDZ6ZlRBTXA3SDFTdFZJNVUzVGpyUWlFeVFEWktac1ZkT1ZPRktld0VWd2xGMEVxS01iX0RXNW9NNFhKTG5qanVHX0hJTmZHUF8zckV6NTFveWtiZDNER3pqSjlRZ0I5WDNHeGc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2dKVklvR1JYWEp4ai1YRTJkOHBJWGg1d0ZaaHBIT2Z4VTBVOUo1OW9zcTgtbFF0bmt5dmZienVWMHQxRFY2N3JfNGpXYUtmclhpNHl5T21KUVU5RTlHeXVtODE3ZW5mZ01BZEdTRDZ6ZlRBTXA3SDFTdFZJNVUzVGpyUWlFeVFEWktac1ZkT1ZPRktld0VWd2xGMEVxS01iX0RXNW9NNFhKTG5qanVHX0hJTmZHUF8zckV6NTFveWtiZDNER3pqSjlRZ0I5WDNHeGc?oc=5\" target=\"_blank\">Over $60 billion in capex required to meet 2040 lithium demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benchmark Mineral Intelligence</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "2040년까지 리튬 수요를 충족시키기 위해서는 600억 달러 이상의 설비 투자가 필요할 것으로 예상됩니다.",
+      "이는 리튬 공급망의 안정성과 확대를 위한 대규모 투자의 필요성을 시사합니다.",
+      "이러한 투자는 미래 배터리 산업의 성장에 필수적인 요소가 될 것입니다."
+    ],
+    "uid": "2736ed459edcb9e5067517c5b318dffbc852f76c"
+  },
+  {
+    "title": "CATL consolidating Chile presence, eying mid-2027 dispatch for first sodium-ion batteries",
+    "published_at": "2026-09-04",
+    "source": "BNamericas",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQb3NCV3diSmdNalBqNExWNFhKQUdtdHAwQnZOU0hCWlJhUGVUb19NcnljUS14MEdyTzB4OTRVVDhRb3Nhc0xZNkVPcjVKOGk3WHJOQ3ZnSjk0NlI5NDhsM0JwUEhFVFc3dndSQnVfb3QtQ0ZoRWgwbDhFc2dDQmxTRE9ZdkxhVkpOeGNzY2p2VjBPNVlLejY4X3JZNHktNDJWRXhfbk90RzNlOWN3Ukl4RU01RGtyX0lIR05GdGxGVlVUUFJ1Wnc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQb3NCV3diSmdNalBqNExWNFhKQUdtdHAwQnZOU0hCWlJhUGVUb19NcnljUS14MEdyTzB4OTRVVDhRb3Nhc0xZNkVPcjVKOGk3WHJOQ3ZnSjk0NlI5NDhsM0JwUEhFVFc3dndSQnVfb3QtQ0ZoRWgwbDhFc2dDQmxTRE9ZdkxhVkpOeGNzY2p2VjBPNVlLejY4X3JZNHktNDJWRXhfbk90RzNlOWN3Ukl4RU01RGtyX0lIR05GdGxGVlVUUFJ1Wnc?oc=5\" target=\"_blank\">CATL consolidating Chile presence, eying mid-2027 dispatch for first sodium-ion batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BNamericas</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL은 칠레에서의 입지를 강화하고 있으며, 2027년 중반 첫 나트륨 이온 배터리 출하를 목표로 하고 있습니다.",
+      "이는 CATL이 나트륨 이온 배터리 기술 개발 및 상용화에 적극적으로 나서고 있음을 보여줍니다.",
+      "이러한 움직임은 차세대 배터리 시장에서의 경쟁 구도에 영향을 미칠 수 있습니다."
+    ],
+    "uid": "3a0f234206e163a5533c03bb1478d11e15d51afa"
   },
   {
     "title": "K배터리 지도 다시 그린다…청주 셀·포항 소재·새만금 원료 '삼각축'",
