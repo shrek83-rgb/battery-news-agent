@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-09-06</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-09-06 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-solid_state" href="https://www.ccdn.co.kr/news/articleView.html?idxno=1098013" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">에코프로, 휴머노이드 로봇 배터리 시장 공략</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.ccdn.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">에코프로</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>에코프로는 전고체 배터리 기술 개발을 통해 휴머노이드 로봇 배터리 시장 공략을 강화할 계획이다.</li><li>전고체 배터리는 기존 삼원계 배터리보다 에너지 밀도가 높아 로봇의 성능 향상에 기여할 수 있다.</li><li>이는 배터리 업계의 게임체인저가 될 잠재력을 가진 기술로 평가받고 있다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-06</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxOME01SlZTeGZhMF90M0V6NDk3U2VLa1ZIcU9GcHNWZHRYUGd6eDV6UXl4dE03VmV1ZFJYYlMtMWh1RGZVa04yRDhlNUpFeEMxTDVmenFNVUo0MDlxV0VYS3BiVTZrMW1CRlVoUFZoSHhLMDRwSG16NFVlS3NkZHdkZXViUXBMRjJrc25CYTFqMXlYMGt2YUgyQzNjNjBRUFVCRjJyNmdEdjNkRlVFQXZIWk90MjVUN05VWm5jODByaXlhOW1YVEVmTFhpUE1ObC0ySlE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Mercedes-backed ProLogium starts 381 Wh/kg solid-state production as carmakers watch from sidelines</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CarNewsChina.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">ProLogium</span><span class="chip">Mercedes</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Mercedes-backed ProLogium은 381 Wh/kg의 에너지 밀도를 가진 전고체 배터리 생산을 시작했다.</li><li>이는 자동차 제조사들이 주목하는 가운데 이루어진 성과이다.</li><li>ProLogium의 전고체 배터리 기술은 차세대 배터리 시장에서 중요한 역할을 할 것으로 기대된다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-06</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE83TEdXQlBZTjRiT3c2cjEtVzRwaTM3dFo4V2NJWTNJVHp0MHJLT19ud1BGd0ZueHRBaUFBQVVmVnJpVU80eDh2aThhVi1RRGdXeHcyaEhxNnc1N2hRaHVrTktXVTRhVThCZFZMcHFsNkRzd21MNFVGQUVfdw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Sodium-Ion Battery Technology in 2026: How It Works and Why It Matters</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Intelligent Living</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>2026년에는 나트륨 이온 배터리 기술이 중요한 역할을 할 것으로 예상된다.</li><li>나트륨 이온 배터리는 기존 리튬 이온 배터리를 대체할 수 있는 잠재력을 가지고 있다.</li><li>이 기술은 에너지 저장 시스템 및 전기 자동차 분야에서 활용될 가능성이 높다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-06</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBkc1VhcWMwZEJzT0NmRW9yamRvZFhHRU9WUVhHLU9VaW9PV0NWdGNzSC16VU9sRTR5NzY3M28yNmk4M0JGZmdudmk5d3RwaEM4dk9UZkVtclQ4UDRCbEdqY3Jn?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">China&#x27;s power battery recycling ushers in comprehensive upgrade</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Global Times</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>중국의 동력 배터리 재활용 산업이 전면적인 업그레이드를 맞이하고 있다.</li><li>이는 환경 규제 강화와 지속 가능한 배터리 생태계 구축을 위한 노력의 일환이다.</li><li>이번 업그레이드는 배터리 재활용 효율성을 높이고 자원 순환을 촉진할 것으로 기대된다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-06</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiowFBVV95cUxPY09uUlFOTWd0d3dNMmM3ZktkOHo4SW1pQTBpOTlxVlJLdkVNdUZEcVdOSWJ3U3F2NFB0Y0ZNbUxaYXY5WHd2ZHRwN2czS2wzUzJEZWl3aHBwN1hKbzFCbXNzMnY2cm80TUt5eVh1dnVvWEFka19QMkRGYW41dl9KT0FVSnBEMDBvOHd4X2NpdTV3ZGhxWnhIQjNzWHBUZlR3M240?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">New AA and AAA lithium-ion batteries with USB-C unveiled</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Notebookcheck</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">AA</span><span class="chip">AAA</span><span class="chip">USB</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>새로운 AA 및 AAA 규격의 리튬 이온 배터리가 USB-C 충전 기능을 탑재하여 출시되었다.</li><li>이는 휴대용 전자기기 사용자들에게 더욱 편리한 충전 경험을 제공할 것이다.</li><li>이러한 배터리는 기존의 일회용 배터리를 대체하며 친환경적인 대안으로 주목받고 있다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-06</div>
+          </div>
+        </a>
+        
+        <a class="card cat-anode" href="https://news.google.com/rss/articles/CBMi6AJBVV95cUxNcjNOWG1LR2kzY0dhMTN3OTg4U1lKNUVhVTVYdEJ1TVp2N1ZwdWE2RzZpMUxxa3g3RHRCOGJyRU02eFNXZ3dzWmVOZE5KTUhUN3VnQmlnaU9vMEtUTHZiOGhVdXlndXJ6OFFiQTZaRmFIUGlFb0x2RktfQ0V2RHRITnhNQmRTS2NSV1Zpdk9TVlo4cFNPWFZ3YUU1bk44V0gtNHU3WWRYX3RZS3U4U2hVNUZoTzgtbC15T1ZMZmNybHhxNjFqRENqdGw4cDA0MFp1WkpSbEUxc3NPUDRYbTNYX3FpSWliQ2dJMjRXOGtpcVQzeVZVQzZfSGs1M1IzQzFUMHpXTlZhdTRWZUZwY3RHeE4xeFBsbm9qbVN2ZFdXVzhVaXFRV0Z2NWtqVWFlLTFxMnk0Ym8xS21ielhqdzhNRVRRT0ltQlhESW9MbGpRUVphVUdPNl9qNnZORnluZHVoSVF3cTl6MFrSAe4CQVVfeXFMTzdCdmFPY2pyOS1XNGdVTlJsdmk4MmxzOUR0bklndjMwUHlHWmFpeThnTGZGRU4wTldkM250cEVEWmwtOVpaM2Q1YUU2V3hFNkF3cGx2V2ZZNkVTX3JpSzk5anp5TURPNUpwWEdtX3FCMzJIX0ItdFlOV1k1ZWRVSDF4dldQZ3lhNTJNbzZOSGllNEtkZzl4am9Oc3o4VXRMR013ZjAza0YyYTBZTERvb2VORFNsc2VfcHZNZjc5cFdpcVBlQTNxdy11Y1hVQTN3VjFiVU53WkUwbDVQZWNsNjY0SlVMYWlDZUlyT1lmclJPTmtyYWl3UGJ2VUtOekJGMTRadmNNNWh2Ukg3VFdiSVY4YkxrV1ROYmVIYnhjQ0NSQ0NpR1Q5R3lXR1FzTUVuYkJSRk1uWVNmVkp6VXdSMGVuVTRleGMzZVhvd0pULU5mVTlUdkV4ZTZBQ1pEakMzdjl6VWpWZVlVZzdZdjRR?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">anode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">In 2017, UC Riverside turned waste glass bottles into lithium-battery anode material; one bottle could sup</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">The Economic Times</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">UC Riverside</span><span class="chip">UC</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>2017년 UC Riverside 연구진은 폐유리병을 리튬 배터리 음극재로 재활용하는 기술을 개발했다.</li><li>이 기술은 폐기물을 활용하여 배터리 성능을 향상시키는 혁신적인 접근 방식을 보여준다.</li><li>하나의 유리병으로도 상당한 양의 음극재를 생산할 수 있어 자원 절약 효과가 크다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-06</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+# 배터리 뉴스 데일리 브리핑 (2026-09-06 전날 기준)
+
+- 총 6건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 전고체 | 2026-09-06 | www.ccdn.co.kr | 에코프로, 휴머노이드 로봇 배터리 시장 공략 | https://www.ccdn.co.kr/news/articleView.html?idxno=1098013 | unknown |
+| 2 | 3 | 전고체 | 2026-09-06 | CarNewsChina.com | Mercedes-backed ProLogium starts 381 Wh/kg solid-state production as carmakers watch from sidelines | https://news.google.com/rss/articles/CBMi0gFBVV95cUxOME01SlZTeGZhMF90M0V6NDk3U2VLa1ZIcU9GcHNWZHRYUGd6eDV6UXl4dE03VmV1ZFJYYlMtMWh1RGZVa04yRDhlNUpFeEMxTDVmenFNVUo0MDlxV0VYS3BiVTZrMW1CRlVoUFZoSHhLMDRwSG16NFVlS3NkZHdkZXViUXBMRjJrc25CYTFqMXlYMGt2YUgyQzNjNjBRUFVCRjJyNmdEdjNkRlVFQXZIWk90MjVUN05VWm5jODByaXlhOW1YVEVmTFhpUE1ObC0ySlE?oc=5 | unknown |
+| 3 | 3 | 나트륨 | 2026-09-06 | Intelligent Living | Sodium-Ion Battery Technology in 2026: How It Works and Why It Matters | https://news.google.com/rss/articles/CBMie0FVX3lxTE83TEdXQlBZTjRiT3c2cjEtVzRwaTM3dFo4V2NJWTNJVHp0MHJLT19ud1BGd0ZueHRBaUFBQVVmVnJpVU80eDh2aThhVi1RRGdXeHcyaEhxNnc1N2hRaHVrTktXVTRhVThCZFZMcHFsNkRzd21MNFVGQUVfdw?oc=5 | unknown |
+| 4 | 3 | 재활용 | 2026-09-06 | Global Times | China's power battery recycling ushers in comprehensive upgrade | https://news.google.com/rss/articles/CBMiYkFVX3lxTFBkc1VhcWMwZEJzT0NmRW9yamRvZFhHRU9WUVhHLU9VaW9PV0NWdGNzSC16VU9sRTR5NzY3M28yNmk4M0JGZmdudmk5d3RwaEM4dk9UZkVtclQ4UDRCbEdqY3Jn?oc=5 | unknown |
+| 5 | 3 | 기타 | 2026-09-06 | Notebookcheck | New AA and AAA lithium-ion batteries with USB-C unveiled | https://news.google.com/rss/articles/CBMiowFBVV95cUxPY09uUlFOTWd0d3dNMmM3ZktkOHo4SW1pQTBpOTlxVlJLdkVNdUZEcVdOSWJ3U3F2NFB0Y0ZNbUxaYXY5WHd2ZHRwN2czS2wzUzJEZWl3aHBwN1hKbzFCbXNzMnY2cm80TUt5eVh1dnVvWEFka19QMkRGYW41dl9KT0FVSnBEMDBvOHd4X2NpdTV3ZGhxWnhIQjNzWHBUZlR3M240?oc=5 | unknown |
+| 6 | 3 | anode | 2026-09-06 | The Economic Times | In 2017, UC Riverside turned waste glass bottles into lithium-battery anode material; one bottle could sup | https://news.google.com/rss/articles/CBMi6AJBVV95cUxNcjNOWG1LR2kzY0dhMTN3OTg4U1lKNUVhVTVYdEJ1TVp2N1ZwdWE2RzZpMUxxa3g3RHRCOGJyRU02eFNXZ3dzWmVOZE5KTUhUN3VnQmlnaU9vMEtUTHZiOGhVdXlndXJ6OFFiQTZaRmFIUGlFb0x2RktfQ0V2RHRITnhNQmRTS2NSV1Zpdk9TVlo4cFNPWFZ3YUU1bk44V0gtNHU3WWRYX3RZS3U4U2hVNUZoTzgtbC15T1ZMZmNybHhxNjFqRENqdGw4cDA0MFp1WkpSbEUxc3NPUDRYbTNYX3FpSWliQ2dJMjRXOGtpcVQzeVZVQzZfSGs1M1IzQzFUMHpXTlZhdTRWZUZwY3RHeE4xeFBsbm9qbVN2ZFdXVzhVaXFRV0Z2NWtqVWFlLTFxMnk0Ym8xS21ielhqdzhNRVRRT0ltQlhESW9MbGpRUVphVUdPNl9qNnZORnluZHVoSVF3cTl6MFrSAe4CQVVfeXFMTzdCdmFPY2pyOS1XNGdVTlJsdmk4MmxzOUR0bklndjMwUHlHWmFpeThnTGZGRU4wTldkM250cEVEWmwtOVpaM2Q1YUU2V3hFNkF3cGx2V2ZZNkVTX3JpSzk5anp5TURPNUpwWEdtX3FCMzJIX0ItdFlOV1k1ZWRVSDF4dldQZ3lhNTJNbzZOSGllNEtkZzl4am9Oc3o4VXRMR013ZjAza0YyYTBZTERvb2VORFNsc2VfcHZNZjc5cFdpcVBlQTNxdy11Y1hVQTN3VjFiVU53WkUwbDVQZWNsNjY0SlVMYWlDZUlyT1lmclJPTmtyYWl3UGJ2VUtOekJGMTRadmNNNWh2Ukg3VFdiSVY4YkxrV1ROYmVIYnhjQ0NSQ0NpR1Q5R3lXR1FzTUVuYkJSRk1uWVNmVkp6VXdSMGVuVTRleGMzZVhvd0pULU5mVTlUdkV4ZTZBQ1pEakMzdjl6VWpWZVlVZzdZdjRR?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. 에코프로, 휴머노이드 로봇 배터리 시장 공략
+- 발행일: 2026-09-06
+- 매체: www.ccdn.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.ccdn.co.kr/news/articleView.html?idxno=1098013
+- 참고 링크: https://www.mtnews.net/news/articleView.html?idxno=25874, https://www.ccreview.co.kr/news/articleView.html?idxno=356741
+- 인기신호: unknown
+- 3문장 요약:
+  - 에코프로는 전고체 배터리 기술 개발을 통해 휴머노이드 로봇 배터리 시장 공략을 강화할 계획이다.
+  - 전고체 배터리는 기존 삼원계 배터리보다 에너지 밀도가 높아 로봇의 성능 향상에 기여할 수 있다.
+  - 이는 배터리 업계의 게임체인저가 될 잠재력을 가진 기술로 평가받고 있다.
+- 관련 기업: 에코프로
+
+### 2. Mercedes-backed ProLogium starts 381 Wh/kg solid-state production as carmakers watch from sidelines
+- 발행일: 2026-09-06
+- 매체: CarNewsChina.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOME01SlZTeGZhMF90M0V6NDk3U2VLa1ZIcU9GcHNWZHRYUGd6eDV6UXl4dE03VmV1ZFJYYlMtMWh1RGZVa04yRDhlNUpFeEMxTDVmenFNVUo0MDlxV0VYS3BiVTZrMW1CRlVoUFZoSHhLMDRwSG16NFVlS3NkZHdkZXViUXBMRjJrc25CYTFqMXlYMGt2YUgyQzNjNjBRUFVCRjJyNmdEdjNkRlVFQXZIWk90MjVUN05VWm5jODByaXlhOW1YVEVmTFhpUE1ObC0ySlE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Mercedes-backed ProLogium은 381 Wh/kg의 에너지 밀도를 가진 전고체 배터리 생산을 시작했다.
+  - 이는 자동차 제조사들이 주목하는 가운데 이루어진 성과이다.
+  - ProLogium의 전고체 배터리 기술은 차세대 배터리 시장에서 중요한 역할을 할 것으로 기대된다.
+- 관련 기업: ProLogium, Mercedes
+
+### 3. Sodium-Ion Battery Technology in 2026: How It Works and Why It Matters
+- 발행일: 2026-09-06
+- 매체: Intelligent Living (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMie0FVX3lxTE83TEdXQlBZTjRiT3c2cjEtVzRwaTM3dFo4V2NJWTNJVHp0MHJLT19ud1BGd0ZueHRBaUFBQVVmVnJpVU80eDh2aThhVi1RRGdXeHcyaEhxNnc1N2hRaHVrTktXVTRhVThCZFZMcHFsNkRzd21MNFVGQUVfdw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 2026년에는 나트륨 이온 배터리 기술이 중요한 역할을 할 것으로 예상된다.
+  - 나트륨 이온 배터리는 기존 리튬 이온 배터리를 대체할 수 있는 잠재력을 가지고 있다.
+  - 이 기술은 에너지 저장 시스템 및 전기 자동차 분야에서 활용될 가능성이 높다.
+
+### 4. China's power battery recycling ushers in comprehensive upgrade
+- 발행일: 2026-09-06
+- 매체: Global Times (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMiYkFVX3lxTFBkc1VhcWMwZEJzT0NmRW9yamRvZFhHRU9WUVhHLU9VaW9PV0NWdGNzSC16VU9sRTR5NzY3M28yNmk4M0JGZmdudmk5d3RwaEM4dk9UZkVtclQ4UDRCbEdqY3Jn?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국의 동력 배터리 재활용 산업이 전면적인 업그레이드를 맞이하고 있다.
+  - 이는 환경 규제 강화와 지속 가능한 배터리 생태계 구축을 위한 노력의 일환이다.
+  - 이번 업그레이드는 배터리 재활용 효율성을 높이고 자원 순환을 촉진할 것으로 기대된다.
+
+### 5. New AA and AAA lithium-ion batteries with USB-C unveiled
+- 발행일: 2026-09-06
+- 매체: Notebookcheck (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiowFBVV95cUxPY09uUlFOTWd0d3dNMmM3ZktkOHo4SW1pQTBpOTlxVlJLdkVNdUZEcVdOSWJ3U3F2NFB0Y0ZNbUxaYXY5WHd2ZHRwN2czS2wzUzJEZWl3aHBwN1hKbzFCbXNzMnY2cm80TUt5eVh1dnVvWEFka19QMkRGYW41dl9KT0FVSnBEMDBvOHd4X2NpdTV3ZGhxWnhIQjNzWHBUZlR3M240?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 새로운 AA 및 AAA 규격의 리튬 이온 배터리가 USB-C 충전 기능을 탑재하여 출시되었다.
+  - 이는 휴대용 전자기기 사용자들에게 더욱 편리한 충전 경험을 제공할 것이다.
+  - 이러한 배터리는 기존의 일회용 배터리를 대체하며 친환경적인 대안으로 주목받고 있다.
+- 관련 기업: AA, AAA, USB
+
+### 6. In 2017, UC Riverside turned waste glass bottles into lithium-battery anode material; one bottle could sup
+- 발행일: 2026-09-06
+- 매체: The Economic Times (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMi6AJBVV95cUxNcjNOWG1LR2kzY0dhMTN3OTg4U1lKNUVhVTVYdEJ1TVp2N1ZwdWE2RzZpMUxxa3g3RHRCOGJyRU02eFNXZ3dzWmVOZE5KTUhUN3VnQmlnaU9vMEtUTHZiOGhVdXlndXJ6OFFiQTZaRmFIUGlFb0x2RktfQ0V2RHRITnhNQmRTS2NSV1Zpdk9TVlo4cFNPWFZ3YUU1bk44V0gtNHU3WWRYX3RZS3U4U2hVNUZoTzgtbC15T1ZMZmNybHhxNjFqRENqdGw4cDA0MFp1WkpSbEUxc3NPUDRYbTNYX3FpSWliQ2dJMjRXOGtpcVQzeVZVQzZfSGs1M1IzQzFUMHpXTlZhdTRWZUZwY3RHeE4xeFBsbm9qbVN2ZFdXVzhVaXFRV0Z2NWtqVWFlLTFxMnk0Ym8xS21ielhqdzhNRVRRT0ltQlhESW9MbGpRUVphVUdPNl9qNnZORnluZHVoSVF3cTl6MFrSAe4CQVVfeXFMTzdCdmFPY2pyOS1XNGdVTlJsdmk4MmxzOUR0bklndjMwUHlHWmFpeThnTGZGRU4wTldkM250cEVEWmwtOVpaM2Q1YUU2V3hFNkF3cGx2V2ZZNkVTX3JpSzk5anp5TURPNUpwWEdtX3FCMzJIX0ItdFlOV1k1ZWRVSDF4dldQZ3lhNTJNbzZOSGllNEtkZzl4am9Oc3o4VXRMR013ZjAza0YyYTBZTERvb2VORFNsc2VfcHZNZjc5cFdpcVBlQTNxdy11Y1hVQTN3VjFiVU53WkUwbDVQZWNsNjY0SlVMYWlDZUlyT1lmclJPTmtyYWl3UGJ2VUtOekJGMTRadmNNNWh2Ukg3VFdiSVY4YkxrV1ROYmVIYnhjQ0NSQ0NpR1Q5R3lXR1FzTUVuYkJSRk1uWVNmVkp6VXdSMGVuVTRleGMzZVhvd0pULU5mVTlUdkV4ZTZBQ1pEakMzdjl6VWpWZVlVZzdZdjRR?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 2017년 UC Riverside 연구진은 폐유리병을 리튬 배터리 음극재로 재활용하는 기술을 개발했다.
+  - 이 기술은 폐기물을 활용하여 배터리 성능을 향상시키는 혁신적인 접근 방식을 보여준다.
+  - 하나의 유리병으로도 상당한 양의 음극재를 생산할 수 있어 자원 절약 효과가 크다.
+- 관련 기업: UC Riverside, UC
