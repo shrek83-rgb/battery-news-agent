@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-09-10</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-09-10 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTWVxVE40UnJLRUV2VG9TZEhHbXhaRDVwS3UwbWstSEpCSnZuaVA1WWV1LVZBdzNzalNhLUw5LWdiMUlGQUN5V3piY1VPWElhNG54eHJRVmNQLXNBR1FyMGRSV0xmX1lEREo2S2hKTHhPTDhyQjh2Mld1bEJVaUo4aTVESnB0eFlRNnBqQ2g0b2kwVW0wM0JCNTZuTlFBX1VOMGU1WEJKR3FjU20tWUc0SnJLUDBoNGtOMUlGbmpSNW96cFlnbXpid180dFZoSC1tV2ZwaDEtclk4QQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">A Mercedes-Backed Battery Company Claims It Cracked Solid-State Batteries</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">RideApart.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Mercedes-Benz</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>A Mercedes-Benz-backed battery company has announced a breakthrough in solid-state battery technology.</li><li>This development could pave the way for safer and more efficient electric vehicles.</li><li>Further details on the technology and its potential applications are expected.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQSmF3eGdJRW9kMnNlNWFaUVVUb3lmVEVJdGNLV25BLXRQYkpiSFVDVDFnM1NmODl5Qk1TeWRiUklKQ3R0NUk4QnFYMzlxQ2dXRGgxaUxZVDIzWkk1VzBZXzZrVUtXaUtLbTN4czI1dUc5dU92VjdMSVV2WFhBcnBxNXVqTThVS012anp5aFBhWQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Ilika Completes PRIMED Programme for 10Ah Goliath Solid-State Battery</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Yahoo Finance UK</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Ilika</span><span class="chip">PRIMED</span><span class="chip">UK</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Ilika has successfully completed the PRIMED Programme, developing a 10Ah Goliath solid-state battery.</li><li>This achievement marks a significant step forward in the development of high-capacity solid-state batteries.</li><li>The company is expected to further commercialize this technology for various applications.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEtQaEhYN2x4OVZDZUJVdjM1Ym0wYmoxVFpkb3d0QjljQ0JjRlJBVjltWGhQcVBoMVBpcE1wN0tldm1nZ1B4dmZjSXkzQlFUSmtGXzg1UVR2Uzg4UkI0dzMzanBUbGthcHdOY1ppajIxWVdnTTgxcXVPNEhiNzBkN0thZHgtR09PZXJOdDJvRWRmdXBDQXNyM0JoQUpqVW1ZN2VuWQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Inside GM’s new battery lab — and its plans to challenge Asian rivals</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Latitude Media</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">GM</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>General Motors (GM) has opened a new battery lab to advance its electric vehicle technology.</li><li>The company aims to challenge Asian rivals in the competitive EV battery market.</li><li>This initiative underscores GM&#x27;s commitment to developing next-generation battery solutions.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSDMyT3IzbjVDdTNaa2Q3Qm8ydkVJVzlPM3pRX1RFVDNQR1MwSE4zSTQ4RTlIcjB2RUpIUm5NR19KRGs1OFRNNEY5Y1VobThTczBPVlFpZ0lmUjAxeU9OQ0tUZHI5X2VRX01ETmE3RVV4b3E0c0hPWS1BODhEMUlYS3d6UGd0eE00cjRJSWFHYjFHR3Z2T3U1NkZXU1J5T3B1WklaWndRM3JxeHlaUXg1WEpZMkhwQi1lS1BpQXJYYjNqS09Ccl9wN9IBzgFBVV95cUxNeVNYeFZUcjBGa0J2djFKNk1CU0tRaWZZcE8wYklaZWhoNERnaV8zbElYeHhjT05MZmJZNXVTbkVRQmxZVzRRWndoZDhHR1RuZWpiVkhGMWtycDFTeXB3SXF2VWhRbjRKdldsMUNLQUFvejRCdzVJTzZXdnMtdVpGQ1pEMUFWbUZWNkZqUGZfeWFvZVd4ZHlDR0l3V2F5bGJIeHdYMnhpSngyYmlSRlc3dEgtSlUxQTAtZkVoWDI2cEJxUUR6bzlQLVZ1bHd4UQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Kyushu Electric Power To Make Strategic Investment In ProLogium To Expand Next-Generation Battery Partnership</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Pulse 2.0</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Kyushu Electric Power</span><span class="chip">ProLogium</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Kyushu Electric Power is making a strategic investment in ProLogium to expand their partnership in next-generation batteries.</li><li>This collaboration aims to accelerate the development and deployment of advanced battery technologies.</li><li>The investment signifies a growing commitment to future battery solutions in the energy sector.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMixwFBVV95cUxOM1Y4bHNOV0p1UGZjaTV3TmVsbkU3Wk1rUjZzNGUxZlc5QWNXTmhLUzRpWHhXRS02Qk9vRGpVaXlXeEVWTXlxYnpIb1BMLTJoQjI3a0k3clZidXpsU0lhcTY5Q2tMbl9TWjJqOGJpV1I5VEZHSm96Rk1IYWhnUjJjdnNYRW05TjJoWG9mNDNpQUIwNVpQMEQ5aGNnbFUtdmVOYlM3b0RQVm1LRTNNOHR5OEJOOHpwQ0xuX25MYlZ5M3pZbWJ3dnVV?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Sky’s the limit for eVTOL racer next-gen battery design and prototype agreement</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">pv magazine Australia</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>An agreement has been reached for the design and prototyping of next-generation batteries for eVTOL racers.</li><li>This collaboration focuses on developing advanced battery solutions for high-performance electric vertical take-off and landing aircraft.</li><li>The project aims to push the boundaries of battery technology for the burgeoning eVTOL market.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.theguru.co.kr/news/article.html?no=106952" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">파나소닉, &#x27;150도 고온&#x27;도 견디는 각형 전고체배터리 개발</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.theguru.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Panasonic</span><span class="chip">전고체배터리</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Panasonic has developed a prismatic all-solid-state battery that can withstand temperatures up to 150 degrees Celsius.</li><li>This new battery technology offers improved heat resistance, making it suitable for high-temperature sterilization processes.</li><li>The development was showcased at Battery Japan, Japan&#x27;s largest battery exhibition.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.ebn.co.kr/news/articleView.html?idxno=1723811" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[현장] &quot;2차전지 흑자전환, 구조적 개선 아니다&quot;…한신평, 신용위험 경고</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.ebn.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">한국신용평가</span><span class="chip">2차전지</span><span class="chip">KIS</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Korea Investors Service (KIS) has warned of credit risks in the secondary battery sector, stating that recent profit turnarounds are not due to structural improvements.</li><li>Factors such as negative growth, decreased battery operating rates, and excessive debt burden are hindering credit rating improvements.</li><li>The warning highlights ongoing challenges within the secondary battery industry despite some positive financial movements.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxOTF9Fb3dRck1qbGZOcnFrTktES1ZVUWUwZUQwOUg4V19kWGZ3ZWhyVmMzUjdVNDFRaVJZd3pXdGczamMzQUstRElMSFY2MDRoU3dydExuNDZtVDd4RTBERVpCUUQtTHpFOTVHUU1XbDBBX2x6SXdTWTNKcWtWR21sbzdPQ0dMWWFGM21xLQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Solid-state vs lithium-ion batteries: EV timeline compared</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">evinfrastructurenews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>A comparison has been made between solid-state and lithium-ion batteries regarding their timeline for adoption in electric vehicles (EVs).</li><li>The analysis likely explores the technological advancements and challenges associated with each battery type.</li><li>Understanding these timelines is crucial for the future development and adoption of EVs.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMFFxQnZoYzdwbnIyQTJrRDhoaFZSdXRjeG1MOW9oZF92ZndISThlTWsxZlNzNlFsVlhZbFJYek9UcWZ5SUVMUmgxVldZbFFZbVVXZ1VNLUtQRHowbkttV1hOR0pFY1hycEhxOWdYSTdzZFk2MUdjekx0Tlp6T2dlQjFsbG9jdXN1MnJrendJejdXVG11dDA4amNGendMZ21aYXE1T2dVaWhpY28?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Amprius To Offer 500 Wh/kg Battery Cells for Long-endurance Drones</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Aviation International News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Amprius</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Amprius will offer 500 Wh/kg battery cells designed for long-endurance drones.</li><li>These high-energy-density cells are expected to significantly enhance drone flight times and capabilities.</li><li>This offering caters to the growing demand for advanced power solutions in the unmanned aerial vehicle sector.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.itbiznews.com/news/articleView.html?idxno=224639" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">현대차·기아 &quot;사용 후 EV 배터리 ESS로 활용&quot;…UBESS 실증 추진</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.itbiznews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">현대차</span><span class="chip">기아</span><span class="chip">E-GMP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Hyundai Motor and Kia are planning to utilize used EV batteries for Energy Storage Systems (ESS).</li><li>They will begin a demonstration project using used battery packs from EVs built on their dedicated E-GMP platform.</li><li>This initiative represents the first domestic project to verify a next-generation ESS business model using used EV batteries.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-11</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbWUtMWpsRXlzdlhvaTZubUc0OHhoV1NPQWp3WG5HYnc5aG94b3c1YTJkbER6OENUdFM1cnpfaFZLZEc5R0xzYWduY0Jubm5NcGRUaFhqeHhsYVpYamt1MnNIUFdJZ3pQTm1TLW1TMXZ0Z3dJUnpHQlg1VS1MTXM1WGRxOS1MTWRNS0JCV2YzS25TemF4UDhEbEJSZld2RVYwN3hvbWFNLThPQS1IQUluTHFON3BPa0VpOVpRU0tOQUYxZ0ZWeVE0MzF3WGpqRTJHWHlrNGJ4OW9Rdw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">India’s largest utility NTPC and Global Energy Alliance for People and Planet pilot sodium-ion battery storage</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">energy-storage.news</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">NTPC</span><span class="chip">Global Energy Alliance for People and Planet</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>India&#x27;s largest utility, NTPC, is piloting sodium-ion battery storage in collaboration with the Global Energy Alliance for People and Planet.</li><li>This pilot project aims to explore the potential of sodium-ion batteries for large-scale energy storage solutions.</li><li>The initiative could contribute to diversifying India&#x27;s energy storage technologies and reducing reliance on traditional methods.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-10</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE1DN3VKSmMtZDIybDFnc1FFalI0NUpqUkF5X2RfbkltcnpuZUdnTkhqM3V2N21VYnhwcm5veENKd3ExNTlWcXJRMnV2bFNWcGJ4bFpiVzJsdnhIUjFHRUs0a0EyWTk0cVJEcEYzanFNSEs2ZWFPaGxfQldoMA?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Sodium batteries are coming to Europe</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Dialogue Earth</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Sodium batteries are set to be introduced in Europe.</li><li>This development indicates a growing interest and potential market for sodium-based energy storage solutions in the region.</li><li>The adoption of sodium batteries could offer a more sustainable and cost-effective alternative to current battery technologies.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-09-10</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

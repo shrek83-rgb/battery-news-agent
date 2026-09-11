@@ -1,5 +1,64 @@
 [
   {
+    "title": "파나소닉, '150도 고온'도 견디는 각형 전고체배터리 개발",
+    "description": "배터리 재팬은 매년 개최되는 일본 최대 2차전지 박람회다. 이번 행사는 9일부터 11일까지 지바현 마쿠하리 멧세에서 진행된다. 파나소닉은 내열성 향상과 폼팩터 다변화를 바탕으로 고온 멸균 처리가 필요한...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=106952",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-09-11",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Panasonic",
+      "전고체배터리",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "Panasonic has developed a prismatic all-solid-state battery that can withstand temperatures up to 150 degrees Celsius.",
+      "This new battery technology offers improved heat resistance, making it suitable for high-temperature sterilization processes.",
+      "The development was showcased at Battery Japan, Japan's largest battery exhibition."
+    ],
+    "uid": "15926de7c673dfe113432729b72e676bbc01cb96"
+  },
+  {
+    "title": "현대차·기아 \"사용 후 EV 배터리 ESS로 활용\"…UBESS 실증 추진",
+    "description": "후 배터리를 활용한 차세대 ESS 사업 모델 검증을 본격 추진한다고 밝혔다. 이번 실증사업은 현대차·기아의 전용 EV 플랫폼인 'E-GMP(Electric-Global Modular Platform)' 전기차의 사용 후 배터리팩을 활용한 국내 첫...",
+    "link": "https://www.itbiznews.com/news/articleView.html?idxno=224639",
+    "source": "www.itbiznews.com",
+    "published_at": "2026-09-11",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.dailycar.co.kr",
+        "link": "https://www.dailycar.co.kr/content/news.html?type=view&autoId=62525"
+      },
+      {
+        "source": "www.newscape.co.kr",
+        "link": "http://www.newscape.co.kr/news/articleView.html?idxno=124497"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 90,
+    "monitoring_importance": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "현대차",
+      "기아",
+      "E-GMP"
+    ],
+    "summary_3_sentences": [
+      "Hyundai Motor and Kia are planning to utilize used EV batteries for Energy Storage Systems (ESS).",
+      "They will begin a demonstration project using used battery packs from EVs built on their dedicated E-GMP platform.",
+      "This initiative represents the first domestic project to verify a next-generation ESS business model using used EV batteries."
+    ],
+    "uid": "832bfed93011f337c5aac0b6b6264ed8b7e525b8"
+  },
+  {
     "title": "배터리, 단순 부품 넘어 전략 자산으로...\"비용·공급망·SW·수명주기\" ...",
     "description": "본격 가동 시 전기차 및 에너지 저장 장치(ESS)용 배터리 생산 능력을 35GWh 이상으로 확보한다. 회사는 올해 말까지 북미 지역에서 ESS용 LFP 배터리 생산 능력을 50GWh 이상으로 확대할 방침이다. 배터리의 효율성과...",
     "link": "https://www.theguru.co.kr/news/article.html?no=106904",
@@ -22,6 +81,259 @@
       "또한 연말까지 북미 지역 ESS용 LFP 배터리 생산 능력을 50GWh 이상으로 확대할 계획입니다."
     ],
     "uid": "e60e17bb3db2f37577e624037a23d5e166aca04e"
+  },
+  {
+    "title": "[현장] \"2차전지 흑자전환, 구조적 개선 아니다\"…한신평, 신용위험 경고",
+    "description": "역성장과 배터리 가동률 하락, 이익창출력 대비 과중한 차입 부담 등이 신용도 개선의 걸림돌로 지목됐다. 권기혁 한국신용평가 기업평가본부장은 10일 여의도 한국거래소에서 열린 'KIS Credit Issue Seminar'에서 \"2차전지...",
+    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1723811",
+    "source": "www.ebn.co.kr",
+    "published_at": "2026-09-10",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 90,
+    "monitoring_importance": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "한국신용평가",
+      "2차전지",
+      "KIS"
+    ],
+    "summary_3_sentences": [
+      "Korea Investors Service (KIS) has warned of credit risks in the secondary battery sector, stating that recent profit turnarounds are not due to structural improvements.",
+      "Factors such as negative growth, decreased battery operating rates, and excessive debt burden are hindering credit rating improvements.",
+      "The warning highlights ongoing challenges within the secondary battery industry despite some positive financial movements."
+    ],
+    "uid": "dd15a45008511e4e41b77ca784fd0d6d7ba7990b"
+  },
+  {
+    "title": "Sky’s the limit for eVTOL racer next-gen battery design and prototype agreement",
+    "published_at": "2026-09-10",
+    "source": "pv magazine Australia",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM1Y4bHNOV0p1UGZjaTV3TmVsbkU3Wk1rUjZzNGUxZlc5QWNXTmhLUzRpWHhXRS02Qk9vRGpVaXlXeEVWTXlxYnpIb1BMLTJoQjI3a0k3clZidXpsU0lhcTY5Q2tMbl9TWjJqOGJpV1I5VEZHSm96Rk1IYWhnUjJjdnNYRW05TjJoWG9mNDNpQUIwNVpQMEQ5aGNnbFUtdmVOYlM3b0RQVm1LRTNNOHR5OEJOOHpwQ0xuX25MYlZ5M3pZbWJ3dnVV?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOM1Y4bHNOV0p1UGZjaTV3TmVsbkU3Wk1rUjZzNGUxZlc5QWNXTmhLUzRpWHhXRS02Qk9vRGpVaXlXeEVWTXlxYnpIb1BMLTJoQjI3a0k3clZidXpsU0lhcTY5Q2tMbl9TWjJqOGJpV1I5VEZHSm96Rk1IYWhnUjJjdnNYRW05TjJoWG9mNDNpQUIwNVpQMEQ5aGNnbFUtdmVOYlM3b0RQVm1LRTNNOHR5OEJOOHpwQ0xuX25MYlZ5M3pZbWJ3dnVV?oc=5\" target=\"_blank\">Sky’s the limit for eVTOL racer next-gen battery design and prototype agreement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pv magazine Australia</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "An agreement has been reached for the design and prototyping of next-generation batteries for eVTOL racers.",
+      "This collaboration focuses on developing advanced battery solutions for high-performance electric vertical take-off and landing aircraft.",
+      "The project aims to push the boundaries of battery technology for the burgeoning eVTOL market."
+    ],
+    "uid": "c9c6e9c59a79937b252888ba91d44d6dc37409e4"
+  },
+  {
+    "title": "Solid-state vs lithium-ion batteries: EV timeline compared",
+    "published_at": "2026-09-10",
+    "source": "evinfrastructurenews.com",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTF9Fb3dRck1qbGZOcnFrTktES1ZVUWUwZUQwOUg4V19kWGZ3ZWhyVmMzUjdVNDFRaVJZd3pXdGczamMzQUstRElMSFY2MDRoU3dydExuNDZtVDd4RTBERVpCUUQtTHpFOTVHUU1XbDBBX2x6SXdTWTNKcWtWR21sbzdPQ0dMWWFGM21xLQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOTF9Fb3dRck1qbGZOcnFrTktES1ZVUWUwZUQwOUg4V19kWGZ3ZWhyVmMzUjdVNDFRaVJZd3pXdGczamMzQUstRElMSFY2MDRoU3dydExuNDZtVDd4RTBERVpCUUQtTHpFOTVHUU1XbDBBX2x6SXdTWTNKcWtWR21sbzdPQ0dMWWFGM21xLQ?oc=5\" target=\"_blank\">Solid-state vs lithium-ion batteries: EV timeline compared</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">evinfrastructurenews.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "A comparison has been made between solid-state and lithium-ion batteries regarding their timeline for adoption in electric vehicles (EVs).",
+      "The analysis likely explores the technological advancements and challenges associated with each battery type.",
+      "Understanding these timelines is crucial for the future development and adoption of EVs."
+    ],
+    "uid": "6373eb3117038436c908ff93d6ed8cc513e64690"
+  },
+  {
+    "title": "India’s largest utility NTPC and Global Energy Alliance for People and Planet pilot sodium-ion battery storage",
+    "published_at": "2026-09-10",
+    "source": "energy-storage.news",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbWUtMWpsRXlzdlhvaTZubUc0OHhoV1NPQWp3WG5HYnc5aG94b3c1YTJkbER6OENUdFM1cnpfaFZLZEc5R0xzYWduY0Jubm5NcGRUaFhqeHhsYVpYamt1MnNIUFdJZ3pQTm1TLW1TMXZ0Z3dJUnpHQlg1VS1MTXM1WGRxOS1MTWRNS0JCV2YzS25TemF4UDhEbEJSZld2RVYwN3hvbWFNLThPQS1IQUluTHFON3BPa0VpOVpRU0tOQUYxZ0ZWeVE0MzF3WGpqRTJHWHlrNGJ4OW9Rdw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbWUtMWpsRXlzdlhvaTZubUc0OHhoV1NPQWp3WG5HYnc5aG94b3c1YTJkbER6OENUdFM1cnpfaFZLZEc5R0xzYWduY0Jubm5NcGRUaFhqeHhsYVpYamt1MnNIUFdJZ3pQTm1TLW1TMXZ0Z3dJUnpHQlg1VS1MTXM1WGRxOS1MTWRNS0JCV2YzS25TemF4UDhEbEJSZld2RVYwN3hvbWFNLThPQS1IQUluTHFON3BPa0VpOVpRU0tOQUYxZ0ZWeVE0MzF3WGpqRTJHWHlrNGJ4OW9Rdw?oc=5\" target=\"_blank\">India’s largest utility NTPC and Global Energy Alliance for People and Planet pilot sodium-ion battery storage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">energy-storage.news</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "ESS News",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbGphVWNFWHFaS3dpZjNBTHlmSkZXemx0ODBsdDFlSTdHQ1FUODA3RTd3YWNNaFhNMkdmcWhVdFpscXVBbXg4ZzRkNnR0cWFVaHBKZHBybTk5RTE0d3RwMHg0a2otdENRYVNHdUlqejlWYUtNZG1VQ21vM2hScVpMWjJRRWZNQ2dyTzB0ZmJiNzlRaXJYeE9z?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "NTPC",
+      "Global Energy Alliance for People and Planet"
+    ],
+    "summary_3_sentences": [
+      "India's largest utility, NTPC, is piloting sodium-ion battery storage in collaboration with the Global Energy Alliance for People and Planet.",
+      "This pilot project aims to explore the potential of sodium-ion batteries for large-scale energy storage solutions.",
+      "The initiative could contribute to diversifying India's energy storage technologies and reducing reliance on traditional methods."
+    ],
+    "uid": "658e3ecc5ae2ee64ceaac89aa9194be51eef6e23"
+  },
+  {
+    "title": "Ilika Completes PRIMED Programme for 10Ah Goliath Solid-State Battery",
+    "published_at": "2026-09-10",
+    "source": "Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSmF3eGdJRW9kMnNlNWFaUVVUb3lmVEVJdGNLV25BLXRQYkpiSFVDVDFnM1NmODl5Qk1TeWRiUklKQ3R0NUk4QnFYMzlxQ2dXRGgxaUxZVDIzWkk1VzBZXzZrVUtXaUtLbTN4czI1dUc5dU92VjdMSVV2WFhBcnBxNXVqTThVS012anp5aFBhWQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQSmF3eGdJRW9kMnNlNWFaUVVUb3lmVEVJdGNLV25BLXRQYkpiSFVDVDFnM1NmODl5Qk1TeWRiUklKQ3R0NUk4QnFYMzlxQ2dXRGgxaUxZVDIzWkk1VzBZXzZrVUtXaUtLbTN4czI1dUc5dU92VjdMSVV2WFhBcnBxNXVqTThVS012anp5aFBhWQ?oc=5\" target=\"_blank\">Ilika Completes PRIMED Programme for 10Ah Goliath Solid-State Battery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance UK</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 98,
+    "monitoring_importance": 90,
+    "monitor_score": 96,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Ilika",
+      "PRIMED",
+      "UK"
+    ],
+    "summary_3_sentences": [
+      "Ilika has successfully completed the PRIMED Programme, developing a 10Ah Goliath solid-state battery.",
+      "This achievement marks a significant step forward in the development of high-capacity solid-state batteries.",
+      "The company is expected to further commercialize this technology for various applications."
+    ],
+    "uid": "fe8f2a516197b17bc2f9dc88b396709a2088f22d"
+  },
+  {
+    "title": "A Mercedes-Backed Battery Company Claims It Cracked Solid-State Batteries",
+    "published_at": "2026-09-10",
+    "source": "RideApart.com",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTWVxVE40UnJLRUV2VG9TZEhHbXhaRDVwS3UwbWstSEpCSnZuaVA1WWV1LVZBdzNzalNhLUw5LWdiMUlGQUN5V3piY1VPWElhNG54eHJRVmNQLXNBR1FyMGRSV0xmX1lEREo2S2hKTHhPTDhyQjh2Mld1bEJVaUo4aTVESnB0eFlRNnBqQ2g0b2kwVW0wM0JCNTZuTlFBX1VOMGU1WEJKR3FjU20tWUc0SnJLUDBoNGtOMUlGbmpSNW96cFlnbXpid180dFZoSC1tV2ZwaDEtclk4QQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTWVxVE40UnJLRUV2VG9TZEhHbXhaRDVwS3UwbWstSEpCSnZuaVA1WWV1LVZBdzNzalNhLUw5LWdiMUlGQUN5V3piY1VPWElhNG54eHJRVmNQLXNBR1FyMGRSV0xmX1lEREo2S2hKTHhPTDhyQjh2Mld1bEJVaUo4aTVESnB0eFlRNnBqQ2g0b2kwVW0wM0JCNTZuTlFBX1VOMGU1WEJKR3FjU20tWUc0SnJLUDBoNGtOMUlGbmpSNW96cFlnbXpid180dFZoSC1tV2ZwaDEtclk4QQ?oc=5\" target=\"_blank\">A Mercedes-Backed Battery Company Claims It Cracked Solid-State Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RideApart.com</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "www.etoday.co.kr",
+        "link": "https://www.etoday.co.kr/news/view/2624063"
+      },
+      {
+        "source": "www.gpkorea.com",
+        "link": "https://www.gpkorea.com/news/articleView.html?idxno=146591"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 98,
+    "monitoring_importance": 90,
+    "monitor_score": 96,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Mercedes-Benz"
+    ],
+    "summary_3_sentences": [
+      "A Mercedes-Benz-backed battery company has announced a breakthrough in solid-state battery technology.",
+      "This development could pave the way for safer and more efficient electric vehicles.",
+      "Further details on the technology and its potential applications are expected."
+    ],
+    "uid": "0b6f4ca516d9689a1e40b7130287843cf31de188"
+  },
+  {
+    "title": "Kyushu Electric Power To Make Strategic Investment In ProLogium To Expand Next-Generation Battery Partnership",
+    "published_at": "2026-09-10",
+    "source": "Pulse 2.0",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSDMyT3IzbjVDdTNaa2Q3Qm8ydkVJVzlPM3pRX1RFVDNQR1MwSE4zSTQ4RTlIcjB2RUpIUm5NR19KRGs1OFRNNEY5Y1VobThTczBPVlFpZ0lmUjAxeU9OQ0tUZHI5X2VRX01ETmE3RVV4b3E0c0hPWS1BODhEMUlYS3d6UGd0eE00cjRJSWFHYjFHR3Z2T3U1NkZXU1J5T3B1WklaWndRM3JxeHlaUXg1WEpZMkhwQi1lS1BpQXJYYjNqS09Ccl9wN9IBzgFBVV95cUxNeVNYeFZUcjBGa0J2djFKNk1CU0tRaWZZcE8wYklaZWhoNERnaV8zbElYeHhjT05MZmJZNXVTbkVRQmxZVzRRWndoZDhHR1RuZWpiVkhGMWtycDFTeXB3SXF2VWhRbjRKdldsMUNLQUFvejRCdzVJTzZXdnMtdVpGQ1pEMUFWbUZWNkZqUGZfeWFvZVd4ZHlDR0l3V2F5bGJIeHdYMnhpSngyYmlSRlc3dEgtSlUxQTAtZkVoWDI2cEJxUUR6bzlQLVZ1bHd4UQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSDMyT3IzbjVDdTNaa2Q3Qm8ydkVJVzlPM3pRX1RFVDNQR1MwSE4zSTQ4RTlIcjB2RUpIUm5NR19KRGs1OFRNNEY5Y1VobThTczBPVlFpZ0lmUjAxeU9OQ0tUZHI5X2VRX01ETmE3RVV4b3E0c0hPWS1BODhEMUlYS3d6UGd0eE00cjRJSWFHYjFHR3Z2T3U1NkZXU1J5T3B1WklaWndRM3JxeHlaUXg1WEpZMkhwQi1lS1BpQXJYYjNqS09Ccl9wN9IBzgFBVV95cUxNeVNYeFZUcjBGa0J2djFKNk1CU0tRaWZZcE8wYklaZWhoNERnaV8zbElYeHhjT05MZmJZNXVTbkVRQmxZVzRRWndoZDhHR1RuZWpiVkhGMWtycDFTeXB3SXF2VWhRbjRKdldsMUNLQUFvejRCdzVJTzZXdnMtdVpGQ1pEMUFWbUZWNkZqUGZfeWFvZVd4ZHlDR0l3V2F5bGJIeHdYMnhpSngyYmlSRlc3dEgtSlUxQTAtZkVoWDI2cEJxUUR6bzlQLVZ1bHd4UQ?oc=5\" target=\"_blank\">Kyushu Electric Power To Make Strategic Investment In ProLogium To Expand Next-Generation Battery Partnership</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pulse 2.0</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "Kyushu Electric Power",
+      "ProLogium"
+    ],
+    "summary_3_sentences": [
+      "Kyushu Electric Power is making a strategic investment in ProLogium to expand their partnership in next-generation batteries.",
+      "This collaboration aims to accelerate the development and deployment of advanced battery technologies.",
+      "The investment signifies a growing commitment to future battery solutions in the energy sector."
+    ],
+    "uid": "fc98d824e5658aaaa1340a338a1db6a86f6e1015"
+  },
+  {
+    "title": "Inside GM’s new battery lab — and its plans to challenge Asian rivals",
+    "published_at": "2026-09-10",
+    "source": "Latitude Media",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEtQaEhYN2x4OVZDZUJVdjM1Ym0wYmoxVFpkb3d0QjljQ0JjRlJBVjltWGhQcVBoMVBpcE1wN0tldm1nZ1B4dmZjSXkzQlFUSmtGXzg1UVR2Uzg4UkI0dzMzanBUbGthcHdOY1ppajIxWVdnTTgxcXVPNEhiNzBkN0thZHgtR09PZXJOdDJvRWRmdXBDQXNyM0JoQUpqVW1ZN2VuWQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEtQaEhYN2x4OVZDZUJVdjM1Ym0wYmoxVFpkb3d0QjljQ0JjRlJBVjltWGhQcVBoMVBpcE1wN0tldm1nZ1B4dmZjSXkzQlFUSmtGXzg1UVR2Uzg4UkI0dzMzanBUbGthcHdOY1ppajIxWVdnTTgxcXVPNEhiNzBkN0thZHgtR09PZXJOdDJvRWRmdXBDQXNyM0JoQUpqVW1ZN2VuWQ?oc=5\" target=\"_blank\">Inside GM’s new battery lab — and its plans to challenge Asian rivals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Latitude Media</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "GM"
+    ],
+    "summary_3_sentences": [
+      "General Motors (GM) has opened a new battery lab to advance its electric vehicle technology.",
+      "The company aims to challenge Asian rivals in the competitive EV battery market.",
+      "This initiative underscores GM's commitment to developing next-generation battery solutions."
+    ],
+    "uid": "d0a47a6d0519ceff8b3341c275129db449d172b5"
+  },
+  {
+    "title": "Sodium batteries are coming to Europe",
+    "published_at": "2026-09-10",
+    "source": "Dialogue Earth",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1DN3VKSmMtZDIybDFnc1FFalI0NUpqUkF5X2RfbkltcnpuZUdnTkhqM3V2N21VYnhwcm5veENKd3ExNTlWcXJRMnV2bFNWcGJ4bFpiVzJsdnhIUjFHRUs0a0EyWTk0cVJEcEYzanFNSEs2ZWFPaGxfQldoMA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE1DN3VKSmMtZDIybDFnc1FFalI0NUpqUkF5X2RfbkltcnpuZUdnTkhqM3V2N21VYnhwcm5veENKd3ExNTlWcXJRMnV2bFNWcGJ4bFpiVzJsdnhIUjFHRUs0a0EyWTk0cVJEcEYzanFNSEs2ZWFPaGxfQldoMA?oc=5\" target=\"_blank\">Sodium batteries are coming to Europe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Dialogue Earth</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "Sodium batteries are set to be introduced in Europe.",
+      "This development indicates a growing interest and potential market for sodium-based energy storage solutions in the region.",
+      "The adoption of sodium batteries could offer a more sustainable and cost-effective alternative to current battery technologies."
+    ],
+    "uid": "595eb2761e6123a339b4455a5f53ac78aa9d70c2"
+  },
+  {
+    "title": "Amprius To Offer 500 Wh/kg Battery Cells for Long-endurance Drones",
+    "published_at": "2026-09-10",
+    "source": "Aviation International News",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMFFxQnZoYzdwbnIyQTJrRDhoaFZSdXRjeG1MOW9oZF92ZndISThlTWsxZlNzNlFsVlhZbFJYek9UcWZ5SUVMUmgxVldZbFFZbVVXZ1VNLUtQRHowbkttV1hOR0pFY1hycEhxOWdYSTdzZFk2MUdjekx0Tlp6T2dlQjFsbG9jdXN1MnJrendJejdXVG11dDA4amNGendMZ21aYXE1T2dVaWhpY28?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMFFxQnZoYzdwbnIyQTJrRDhoaFZSdXRjeG1MOW9oZF92ZndISThlTWsxZlNzNlFsVlhZbFJYek9UcWZ5SUVMUmgxVldZbFFZbVVXZ1VNLUtQRHowbkttV1hOR0pFY1hycEhxOWdYSTdzZFk2MUdjekx0Tlp6T2dlQjFsbG9jdXN1MnJrendJejdXVG11dDA4amNGendMZ21aYXE1T2dVaWhpY28?oc=5\" target=\"_blank\">Amprius To Offer 500 Wh/kg Battery Cells for Long-endurance Drones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Aviation International News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Amprius"
+    ],
+    "summary_3_sentences": [
+      "Amprius will offer 500 Wh/kg battery cells designed for long-endurance drones.",
+      "These high-energy-density cells are expected to significantly enhance drone flight times and capabilities.",
+      "This offering caters to the growing demand for advanced power solutions in the unmanned aerial vehicle sector."
+    ],
+    "uid": "76d209334ad6a6c82df5b6c865deefaf8a48823e"
   },
   {
     "title": "배터리·나노과학 글로벌 석학 집결 차세대 에너지 기술 해법 모색",
