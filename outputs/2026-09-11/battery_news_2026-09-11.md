@@ -1,0 +1,215 @@
+# 배터리 뉴스 데일리 브리핑 (2026-09-11 전날 기준)
+
+- 총 16건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 기타 | 2026-09-11 | www.ekoreanews.co.kr | 전기차 배터리, ESS로 재탄생...현대차·기아, LG·원익피앤아이와 실증... | https://www.ekoreanews.co.kr/news/articleView.html?idxno=88080 | unknown |
+| 2 | 3 | 기타 | 2026-09-11 | Insider NJ | Norcross, Pallone, Camden leaders meet to discuss nationwide lithium battery fires | https://news.google.com/rss/articles/CBMivgFBVV95cUxPVTFtZ20zYVU5ajBRZkdLUjRJTDZQNHFuUmdhM0oxbnV2RVpEazR6VllzT1hiaDJXemJ0Qlk1Q3BmQ3lUT3YwdkdVOGN6d1JpbVhBTGFkNl8xOHdrbUY1WUtlSkRiMU9PR2tNd01KaGxsMTJhdm1HdnQ2SFRlMFJLd1k1ZTJiWkRlRGRESDdwRTRXMzNZeXNwYXlteVE1TndhQ3pqeERBSkZiakE2NDZJakRobE5JblZtQ0ZLSThn?oc=5 | unknown |
+| 3 | 3 | cathode | 2026-09-12 | www.shinailbo.co.kr | [흑과백⑨-흑] LG엔솔, 북미 5대 거점 구축…국내 최초 'ESS용 LFP' 양산 ... | https://www.shinailbo.co.kr/news/articleView.html?idxno=5061353 | unknown |
+| 4 | 3 | cathode | 2026-09-11 | weekly.hankooki.com | SM벡셀, 글로벌 완성차 기업과 차세대 리튬망간리치 배터리 개발 맞손 | https://weekly.hankooki.com/news/articleView.html?idxno=7183830 | unknown |
+| 5 | 3 | 전고체 | 2026-09-11 | www.fieldnews.kr | 삼성SDI, 세계 EV배터리 7위→톱10 밖 추락…韓 3사 중 사용량 최대 29.4... | http://www.fieldnews.kr/news/articleView.html?idxno=31436 | unknown |
+| 6 | 3 | cathode | 2026-09-11 | Patch | Truck Fire Involving Lithium-Ion Batteries Extinguished In Marple Twp. | https://news.google.com/rss/articles/CBMisAFBVV95cUxPTi1HejFfb3NrTm16S21vcXlTdXAzTDQ1bG5yTDd6T3hlc0pjN2lqV1JqdXREdGhDQjJUTUdzUHcyb21KeldZQ25XalVMWmFvckFWT1J0eVBaLVNCaE9wQU8xbTBMS21uVDE0RnVXM2NISmo5UXNRRVAzNTg1SG1nelVCUWdBRVNfN2ZNbktaRlBpY2loWUtrN0FFNHZwcGszbHJnOXdERkJxRXNBdzJjMtIBxgFBVV95cUxPLWR2Tl9YOE1UYTJzdkxENDg0bDhfa3ZEYl9OZURCQlRmX05sY21reHpaS1lVWk1EZ0t5Z2J2TXVBWFE1M2hnRkozUWdSaGdaUndHYXlNZGlCcDdUZlk2Mkx6cVVFLS1rNkhueHd5OVhILWU1bWlqXy1qNC1zODVwcHl0Njg5SnZNdjlzN2dlNUJNYnNCdzlvNEtQZW1yV1FDeVBiRVc3MDVncUZuUHFJX3I5WGJLalg3c0R6OVgzNF96R3Vwb2c?oc=5 | unknown |
+| 7 | 3 | 재활용 | 2026-09-11 | Interesting Engineering | New 154,000-square-foot US plant makes lithium carbonate from 100% recycled batteries | https://news.google.com/rss/articles/CBMikAFBVV95cUxQT1FpUjNSdTFwZDRoaWNLSEdIalVsTDFuMUE0V01HXzdxeG1ESzFMOWFVeEszeS1uOW93cFVGdk5icl9saUdGT0tPa2VEZFN1X2h2SzltUnp0U2xSTHBtNEJMbG5XXzQ4NVdGSHdQbjhrcGpJRnRFQ2dYUXBxRHBYMmUzVlVLQzZlbVNZVVRRMko?oc=5 | unknown |
+| 8 | 3 | 재활용 | 2026-09-11 | Industrial Info Resources | U.S. Metal, Battery Recycling Construction Means Big Spending | https://news.google.com/rss/articles/CBMirwFBVV95cUxPSk9ycjFhai1uMURHVm50ZHM1SHBtcjZKMGR1MzVkS205OF8zeURvUGtaSW9nZGxfZ1lOU2VtMjRRUUJaWlprQU1VSmEwQ01WNFRtOVJFaEV2cVpyOVpmVnFxUkJjSU5WZmxxN0pnaFhTWUQ2c0dxWDlBR2dJX1lGY3VvSTM4OUNzWkt5ZHNUZm93XzZGN2ljZ3ROWGYzd19kc25XcTRFZU1IS0ZWMFVj?oc=5 | unknown |
+| 9 | 3 | 기타 | 2026-09-11 | autoevolution | LMR Batteries One Step Closer to Production, As LGES Solves Critical Gas-Generation Problem | https://news.google.com/rss/articles/CBMi0wFBVV95cUxOc1I0TWhFSXByRVp0blZHVnMxYVBjMk42bk5PUnlOd0tIaFBRUjZhSmhac2o1VnJCY21yeWNxZ3lDMjM0T0ZnbGhHNXR0UGdyNnhkZVRYazdNY3F3RndRN29QSDJKenBhb1Y2dWNvbTd1U19scmZkV2FoOUFQUThucWszOGRITHlpR3ZXVlIxWmRxTV9Ea2lac2d3ek9pQUl6WUtoOWRXZHZJTVBHekxBcmdQWjBGT04zYjlzd2lTN3RPeVVhaHNZNS1BUk9PWmVzTWhF?oc=5 | unknown |
+| 10 | 3 | 전고체 | 2026-09-12 | www.ceoscoredaily.com | 中 ‘배터리 굴기’, 글로벌 시장 덮쳤다…K-배터리 ‘EV 밖’ 돌파구 모... | https://www.ceoscoredaily.com/page/view/2026091016034356818 | unknown |
+| 11 | 3 | cathode | 2026-09-11 | www.sisaon.co.kr | '탈중국' 기조 미국 ESS가 'K-배터리'에 던진 과제 | https://www.sisaon.co.kr/news/articleView.html?idxno=204349 | unknown |
+| 12 | 3 | 기타 | 2026-09-11 | www.polinews.co.kr | 사용후 배터리 'ESS 활용' 길 연다 | https://www.polinews.co.kr/news/articleView.html?idxno=742850 | unknown |
+| 13 | 3 | 기타 | 2026-09-11 | www.digitaltoday.co.kr | 美, 전력망용 中 배터리 사실상 금지…에너지저장 시장 '비상' | https://www.digitaltoday.co.kr/news/articleView.html?idxno=699997 | unknown |
+| 14 | 3 | 재활용 | 2026-09-11 | 6abc Philadelphia | EMR highlights new safety measures following fires at Camden recycling facility | https://news.google.com/rss/articles/CBMirAFBVV95cUxNRzhQVGp5VUlmN21fbEhNbUNxOEdSdWU4RkstczdPdW1NVjlvbGM4elRibnJmVlVoS2ZTNUdzalRuekR1bEpVMUh4cmJrZEJsbFExRnhyZGl3RG1wNlNJaWF2Y2pXNTVNNE1ZSFY0Vl90azZrdGhxS3pieVY0XzFnUUdnYW9SVEtudTdnRXJEREN2U2dTSUhZRm43ak51cFQ1TzBDOExOYmNqU1lT0gGyAUFVX3lxTE83alNjdmNvZU9CZWxTTWgzTFRrYThMaEo2ejFNQThqZHp4X2kzY0dFdkdCVV9QeTh1V0tOMHlJek0tX0hackFPcVQxREh4aG90bW1RVEdvNEN3VGc4U0dzdEkyQV96WjZvVklCRk9heUJvS3hyRjZjSy1mcUJ6QjYtV0ZCN2NNZl9keU9UWFFqMnpmYkQ0d3dLVGlKRzJldWFyMVhrZHVEVmRaRFFWWnFGOXc?oc=5 | unknown |
+| 15 | 3 | cathode | 2026-09-12 | www.mk.co.kr | 美가 막아선 中 LFP…K배터리 전방위 반사이익? | https://www.mk.co.kr/article/12150432 | unknown |
+| 16 | 3 | 전고체 | 2026-09-11 | Newswise | A Microscopic View of Dendrites: Why Solid-State Batteries Still Fall Short \| Newswise | https://news.google.com/rss/articles/CBMirAFBVV95cUxQcC12ZkhLdlBmU3M1NDF3cXhncUVSZldLTGtGM0JaQndHYzlhSS1GaVpCMEF1aGpmSGVnLVZHSHlYb1FhaVlSWTBZN1FTM2daM25Ua2l0UHBTSmRBSDNLaUw2amlfdzUtNXNXRHhKSjZOS3UyUWk2YXdUZDhRQXhjb21YMjhnTERPRnVzWWNrbHFUQTZQMjFGc3ludS1WdHJxeFVaQml3MWlzN0820gGsAUFVX3lxTFBwLXZmSEt2UGZTczU0MXdxeGdxRVJmV0tMa0YzQlpCd0djOWFJLUZpWkIwQXVoamZIZWctVkdIeVhvUWFpWVJZMFk3UVMzZ1ozblRraXRQcFNKZEFIM0tpTDZqaV93NS01c1dEeEpKNk5LdTJRaTZhd1RkOFFBeGNvbVgyOGdMRE9GdXNZY2tscVRBNlAyMUZzeW51LVZ0cnF4VVpCaXcxaXM3TzY?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. 전기차 배터리, ESS로 재탄생...현대차·기아, LG·원익피앤아이와 실증...
+- 발행일: 2026-09-11
+- 매체: www.ekoreanews.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.ekoreanews.co.kr/news/articleView.html?idxno=88080
+- 참고 링크: https://www.kpinews.kr/newsView/1065600219800991
+- 인기신호: unknown
+- 3문장 요약:
+  - 현대자동차·기아는 LG에너지솔루션, 원익피앤이, 현대엔지니어링과 협력하여 사용 후 전기차 배터리를 에너지저장장치(ESS)로 재활용하는 실증 사업을 시작합니다.
+  - 이 'UBESS(Used Battery Energy Storage System)' 실증사업은 폐배터리의 새로운 활용 방안을 모색하고 전기차 생태계의 지속가능성을 높이는 데 기여할 것입니다.
+  - 이번 사업은 배터리 재활용 및 재사용 기술의 중요성이 커지는 가운데, 업계 선도 기업들의 협력을 통해 실질적인 성과를 창출할 것으로 기대됩니다.
+- 관련 기업: 현대자동차, 기아, LG에너지솔루션
+
+### 2. Norcross, Pallone, Camden leaders meet to discuss nationwide lithium battery fires
+- 발행일: 2026-09-11
+- 매체: Insider NJ (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMivgFBVV95cUxPVTFtZ20zYVU5ajBRZkdLUjRJTDZQNHFuUmdhM0oxbnV2RVpEazR6VllzT1hiaDJXemJ0Qlk1Q3BmQ3lUT3YwdkdVOGN6d1JpbVhBTGFkNl8xOHdrbUY1WUtlSkRiMU9PR2tNd01KaGxsMTJhdm1HdnQ2SFRlMFJLd1k1ZTJiWkRlRGRESDdwRTRXMzNZeXNwYXlteVE1TndhQ3pqeERBSkZiakE2NDZJakRobE5JblZtQ0ZLSThn?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMinAFBVV95cUxOTWhTQ2JkUUhZRm9WMWJaV2JLbVVYcDJwUGpCYTFFSU04cTVvTWFHNjJPdzNqMG15YkN0WTR0TmVTR2dBWU5RUTZfdTYwNFAxUXFOeWhyLW81YUlINHRGNktIYU50VlRabldyWTRYMDRORGtuckk0N2NzcEtDcGZDOU1sMFB5SDQ1RnZJdzRCRjgzV25XbFBJZWJRVms?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국 의원들이 전국적으로 발생하는 리튬 이온 배터리 화재 문제에 대한 논의를 위해 회동했습니다.
+  - 이 회의는 리튬 이온 배터리의 안전성 문제와 잠재적 위험에 대한 우려를 해소하기 위한 방안을 모색하는 데 중점을 두었습니다.
+  - 이번 논의는 배터리 기술의 발전과 함께 안전 규제 및 관리의 중요성을 강조하는 계기가 될 것으로 보입니다.
+- 관련 기업: NJ
+
+### 3. [흑과백⑨-흑] LG엔솔, 북미 5대 거점 구축…국내 최초 'ESS용 LFP' 양산 ...
+- 발행일: 2026-09-12
+- 매체: www.shinailbo.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.shinailbo.co.kr/news/articleView.html?idxno=5061353
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 미시간 홀랜드 공장에서 북미 최초로 대규모 ESS용 배터리 양산을 시작했으며, 테라젠과 델타 등에 제품을 공급하고 있습니다.
+  - 또한, 캐나다 온타리오 공장에서도 ESS 배터리 양산을 시작하여 가동 3개월 만에 셀 생산을 달성했습니다.
+  - LG에너지솔루션은 북미 지역에 5개의 거점을 구축하며 ESS 배터리 시장에서의 입지를 강화하고 있습니다.
+- 관련 기업: LG에너지솔루션, 테라젠, 델타
+
+### 4. SM벡셀, 글로벌 완성차 기업과 차세대 리튬망간리치 배터리 개발 맞손
+- 발행일: 2026-09-11
+- 매체: weekly.hankooki.com (출처등급 3)
+- 분야: cathode
+- 링크: https://weekly.hankooki.com/news/articleView.html?idxno=7183830
+- 인기신호: unknown
+- 3문장 요약:
+  - SM벡셀은 글로벌 완성차 기업과 협력하여 차세대 리튬망간리치(LMR) 소재를 적용한 원통형 2차전지 개발에 나섭니다.
+  - 이번 프로젝트는 고에너지밀도 배터리 소재로 주목받는 LMR을 실제 전지에 적용하여 성능과 적용 가능성을 검증하는 것을 목표로 합니다.
+  - 이는 SM벡셀이 차세대 배터리 기술 개발을 통해 미래 모빌리티 시장에서의 경쟁력을 강화하려는 전략의 일환입니다.
+- 관련 기업: SM벡셀, 2차전지, LMR
+
+### 5. 삼성SDI, 세계 EV배터리 7위→톱10 밖 추락…韓 3사 중 사용량 최대 29.4...
+- 발행일: 2026-09-11
+- 매체: www.fieldnews.kr (출처등급 3)
+- 분야: 전고체
+- 링크: http://www.fieldnews.kr/news/articleView.html?idxno=31436
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성SDI는 GM과 차세대 각형 배터리 공동 개발에 착수했으며, 2027년 하반기 전고체 배터리 양산을 목표로 하고 있습니다.
+  - 이러한 노력에도 불구하고, 삼성SDI는 최근 EV 배터리 시장에서 세계 7위에서 10위권 밖으로 밀려났으며, 한국 3사 중 사용량은 가장 많습니다.
+  - 삼성SDI의 기술 개발과 시장 점유율 회복 노력은 향후 전기차 배터리 시장의 판도 변화에 중요한 변수가 될 것으로 예상됩니다.
+- 관련 기업: 삼성SDI, GM, EV배터리
+
+### 6. Truck Fire Involving Lithium-Ion Batteries Extinguished In Marple Twp.
+- 발행일: 2026-09-11
+- 매체: Patch (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMisAFBVV95cUxPTi1HejFfb3NrTm16S21vcXlTdXAzTDQ1bG5yTDd6T3hlc0pjN2lqV1JqdXREdGhDQjJUTUdzUHcyb21KeldZQ25XalVMWmFvckFWT1J0eVBaLVNCaE9wQU8xbTBMS21uVDE0RnVXM2NISmo5UXNRRVAzNTg1SG1nelVCUWdBRVNfN2ZNbktaRlBpY2loWUtrN0FFNHZwcGszbHJnOXdERkJxRXNBdzJjMtIBxgFBVV95cUxPLWR2Tl9YOE1UYTJzdkxENDg0bDhfa3ZEYl9OZURCQlRmX05sY21reHpaS1lVWk1EZ0t5Z2J2TXVBWFE1M2hnRkozUWdSaGdaUndHYXlNZGlCcDdUZlk2Mkx6cVVFLS1rNkhueHd5OVhILWU1bWlqXy1qNC1zODVwcHl0Njg5SnZNdjlzN2dlNUJNYnNCdzlvNEtQZW1yV1FDeVBiRVc3MDVncUZuUHFJX3I5WGJLalg3c0R6OVgzNF96R3Vwb2c?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국 펜실베이니아주 마플 타운십에서 리튬 이온 배터리가 탑재된 트럭에서 화재가 발생하여 진압되었습니다.
+  - 이번 화재는 리튬 이온 배터리의 안전성에 대한 우려를 다시 한번 제기하며, 관련 사고 예방 및 대응책 마련의 필요성을 강조합니다.
+  - 화재 원인 및 정확한 피해 규모는 현재 조사 중에 있습니다.
+
+### 7. New 154,000-square-foot US plant makes lithium carbonate from 100% recycled batteries
+- 발행일: 2026-09-11
+- 매체: Interesting Engineering (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMikAFBVV95cUxQT1FpUjNSdTFwZDRoaWNLSEdIalVsTDFuMUE0V01HXzdxeG1ESzFMOWFVeEszeS1uOW93cFVGdk5icl9saUdGT0tPa2VEZFN1X2h2SzltUnp0U2xSTHBtNEJMbG5XXzQ4NVdGSHdQbjhrcGpJRnRFQ2dYUXBxRHBYMmUzVlVLQzZlbVNZVVRRMko?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxOS3dCVkQ1Sy05dEl5YTIySndISWhuWHNwQ0w3VzZPZlB5dndxbjY5Sjc5ci0xaHE0MXFSeUljVFZScEJOTDhneklNdXVwWUlMR25MdUI2akFpcWNYeFpoVUJpLWdYVGZVMkNCMDBTQk1nX2YtS080eVNfb1lmU1RLSw?oc=5, https://news.google.com/rss/articles/CBMivAFBVV95cUxPbEVUQm55eDBOMGlRRERkRkRmemZ5d1J3XzFod3RaaEdabE1hTmVNUFZBSnRZb3A5dEFhWm5kN1h6dnA1djF0RmFKVDlhRThKTnVxYWs1SkQ0Q2lwVUI4a3ZfeHBMYTlJSnhhZWRxQVNuTEF5aGd0TlFYb1VOc3NaM1pXSm5ORGs2emVnajJOZk5MVmM0ZTRzNnpLVUN1alpCV3FhOFJXbkRzcFdzbXBFek1UNUpXWnh4eE0zWA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국에 154,000평방피트 규모의 새로운 공장이 건설되어 100% 재활용 배터리에서 리튬 탄산염을 생산합니다.
+  - 이 공장은 폐배터리를 재활용하여 리튬 탄산염을 추출함으로써 자원 순환 경제에 기여하고 환경 부담을 줄이는 데 중요한 역할을 할 것입니다.
+  - 이는 배터리 재활용 기술의 발전과 함께 지속 가능한 배터리 공급망 구축을 위한 중요한 진전으로 평가됩니다.
+- 관련 기업: US
+
+### 8. U.S. Metal, Battery Recycling Construction Means Big Spending
+- 발행일: 2026-09-11
+- 매체: Industrial Info Resources (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMirwFBVV95cUxPSk9ycjFhai1uMURHVm50ZHM1SHBtcjZKMGR1MzVkS205OF8zeURvUGtaSW9nZGxfZ1lOU2VtMjRRUUJaWlprQU1VSmEwQ01WNFRtOVJFaEV2cVpyOVpmVnFxUkJjSU5WZmxxN0pnaFhTWUQ2c0dxWDlBR2dJX1lGY3VvSTM4OUNzWkt5ZHNUZm93XzZGN2ljZ3ROWGYzd19kc25XcTRFZU1IS0ZWMFVj?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국의 금속 및 배터리 재활용 산업 건설은 상당한 규모의 투자를 동반하고 있습니다.
+  - 이는 폐배터리 재활용 인프라 확충과 관련된 대규모 지출이 이루어지고 있음을 시사하며, 관련 산업의 성장을 뒷받침할 것으로 보입니다.
+  - 이러한 투자는 배터리 재활용 시장의 확대와 기술 혁신을 촉진하는 데 기여할 것으로 예상됩니다.
+
+### 9. LMR Batteries One Step Closer to Production, As LGES Solves Critical Gas-Generation Problem
+- 발행일: 2026-09-11
+- 매체: autoevolution (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOc1I0TWhFSXByRVp0blZHVnMxYVBjMk42bk5PUnlOd0tIaFBRUjZhSmhac2o1VnJCY21yeWNxZ3lDMjM0T0ZnbGhHNXR0UGdyNnhkZVRYazdNY3F3RndRN29QSDJKenBhb1Y2dWNvbTd1U19scmZkV2FoOUFQUThucWszOGRITHlpR3ZXVlIxWmRxTV9Ea2lac2d3ek9pQUl6WUtoOWRXZHZJTVBHekxBcmdQWjBGT04zYjlzd2lTN3RPeVVhaHNZNS1BUk9PWmVzTWhF?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션이 LMR(리튬망간리치) 배터리의 핵심 문제였던 가스 발생 문제를 해결하여 양산에 한 걸음 더 다가섰습니다.
+  - 이러한 기술적 진보는 LMR 배터리의 안정성과 성능을 향상시켜 상용화를 앞당길 것으로 기대됩니다.
+  - 이는 차세대 배터리 기술 개발 경쟁에서 LG에너지솔루션의 입지를 강화하는 중요한 성과입니다.
+- 관련 기업: LG에너지솔루션, LMR, LGES
+
+### 10. 中 ‘배터리 굴기’, 글로벌 시장 덮쳤다…K-배터리 ‘EV 밖’ 돌파구 모...
+- 발행일: 2026-09-12
+- 매체: www.ceoscoredaily.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.ceoscoredaily.com/page/view/2026091016034356818
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성SDI는 내년 하반기 휴머노이드 로봇 등 피지컬 AI용 전고체 배터리를 선보일 예정입니다.
+  - 전고체 배터리는 기존 리튬이온배터리보다 에너지 밀도와 안전성 측면에서 우수하여 차세대 배터리로 주목받고 있습니다.
+  - 삼성SDI의 전고체 배터리 양산 계획은 미래 배터리 시장에서의 기술 리더십 확보를 위한 중요한 발걸음입니다.
+- 관련 기업: 삼성SDI, K-배터리, 리튬이온배터리
+
+### 11. '탈중국' 기조 미국 ESS가 'K-배터리'에 던진 과제
+- 발행일: 2026-09-11
+- 매체: www.sisaon.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.sisaon.co.kr/news/articleView.html?idxno=204349
+- 인기신호: unknown
+- 3문장 요약:
+  - SK온은 미국 ESS 제조기업 네오볼타 파워와 ESS용 배터리 셀 공급 계약을 체결했습니다.
+  - 이 계약을 통해 SK온은 2027년부터 2031년까지 총 9GWh 규모의 LFP 배터리 셀을 공급할 예정이며, 이는 미국 ESS 시장 공략의 중요한 발판이 될 것입니다.
+  - 이는 중국산 배터리 의존도를 낮추려는 미국의 정책 기조 속에서 K-배터리가 새로운 기회를 잡을 수 있음을 보여줍니다.
+- 관련 기업: SK온, 네오볼타 파워, K-배터리
+
+### 12. 사용후 배터리 'ESS 활용' 길 연다
+- 발행일: 2026-09-11
+- 매체: www.polinews.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.polinews.co.kr/news/articleView.html?idxno=742850
+- 인기신호: unknown
+- 3문장 요약:
+  - 차량용으로 성능이 다한 배터리도 ESS와 같이 출력 및 에너지 밀도 요구 수준이 낮은 분야에서는 재사용이 가능합니다.
+  - 이러한 이유로 관련 업계에서는 폐배터리를 에너지저장장치(ESS)로 활용하기 위한 연구를 국내외에서 활발히 진행하고 있습니다.
+  - 폐배터리의 ESS 활용은 자원 효율성을 높이고 환경 문제를 해결하는 데 기여할 수 있는 중요한 방안입니다.
+
+### 13. 美, 전력망용 中 배터리 사실상 금지…에너지저장 시장 '비상'
+- 발행일: 2026-09-11
+- 매체: www.digitaltoday.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.digitaltoday.co.kr/news/articleView.html?idxno=699997
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국이 전력망용 ESS에 대한 중국산 배터리 의존도를 낮추려는 움직임을 보이면서, 관련 프로젝트 지연과 비용 상승에 대한 우려가 커지고 있습니다.
+  - 이는 미국 에너지저장장치(ESS) 시장의 성장세와 맞물려, 중국 외 배터리 공급망 확보의 중요성을 부각시키고 있습니다.
+  - 미국의 이러한 정책 변화는 글로벌 ESS 시장의 판도를 재편할 가능성이 있습니다.
+
+### 14. EMR highlights new safety measures following fires at Camden recycling facility
+- 발행일: 2026-09-11
+- 매체: 6abc Philadelphia (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMirAFBVV95cUxNRzhQVGp5VUlmN21fbEhNbUNxOEdSdWU4RkstczdPdW1NVjlvbGM4elRibnJmVlVoS2ZTNUdzalRuekR1bEpVMUh4cmJrZEJsbFExRnhyZGl3RG1wNlNJaWF2Y2pXNTVNNE1ZSFY0Vl90azZrdGhxS3pieVY0XzFnUUdnYW9SVEtudTdnRXJEREN2U2dTSUhZRm43ak51cFQ1TzBDOExOYmNqU1lT0gGyAUFVX3lxTE83alNjdmNvZU9CZWxTTWgzTFRrYThMaEo2ejFNQThqZHp4X2kzY0dFdkdCVV9QeTh1V0tOMHlJek0tX0hackFPcVQxREh4aG90bW1RVEdvNEN3VGc4U0dzdEkyQV96WjZvVklCRk9heUJvS3hyRjZjSy1mcUJ6QjYtV0ZCN2NNZl9keU9UWFFqMnpmYkQ0d3dLVGlKRzJldWFyMVhrZHVEVmRaRFFWWnFGOXc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - EMR은 캠든 재활용 시설에서 발생한 화재 이후 새로운 안전 조치를 강조하고 있습니다.
+  - 이번 발표는 리튬 이온 배터리 관련 시설의 안전 관리 중요성을 재확인하고, 잠재적 위험을 최소화하기 위한 노력을 보여줍니다.
+  - EMR은 안전 규정 준수와 사고 예방을 통해 신뢰할 수 있는 재활용 서비스를 제공하고자 합니다.
+- 관련 기업: EMR
+
+### 15. 美가 막아선 中 LFP…K배터리 전방위 반사이익?
+- 발행일: 2026-09-12
+- 매체: www.mk.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.mk.co.kr/article/12150432
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국이 중국산 LFP 배터리에 대한 규제를 강화하면서 K-배터리 업계가 반사이익을 얻을 수 있다는 전망이 나오고 있습니다.
+  - 이는 LG에너지솔루션과 삼성SDI 같은 국내 배터리 셀 제조사뿐만 아니라 소재 업체들에게도 긍정적인 영향을 미칠 수 있습니다.
+  - JP모건은 보고서를 통해 배터리 셀 제조사들의 전망을 분석하며 시장 변화에 주목하고 있습니다.
+- 관련 기업: LG에너지솔루션, 삼성SDI, JP모건
+
+### 16. A Microscopic View of Dendrites: Why Solid-State Batteries Still Fall Short | Newswise
+- 발행일: 2026-09-11
+- 매체: Newswise (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMirAFBVV95cUxQcC12ZkhLdlBmU3M1NDF3cXhncUVSZldLTGtGM0JaQndHYzlhSS1GaVpCMEF1aGpmSGVnLVZHSHlYb1FhaVlSWTBZN1FTM2daM25Ua2l0UHBTSmRBSDNLaUw2amlfdzUtNXNXRHhKSjZOS3UyUWk2YXdUZDhRQXhjb21YMjhnTERPRnVzWWNrbHFUQTZQMjFGc3ludS1WdHJxeFVaQml3MWlzN0820gGsAUFVX3lxTFBwLXZmSEt2UGZTczU0MXdxeGdxRVJmV0tMa0YzQlpCd0djOWFJLUZpWkIwQXVoamZIZWctVkdIeVhvUWFpWVJZMFk3UVMzZ1ozblRraXRQcFNKZEFIM0tpTDZqaV93NS01c1dEeEpKNk5LdTJRaTZhd1RkOFFBeGNvbVgyOGdMRE9GdXNZY2tscVRBNlAyMUZzeW51LVZ0cnF4VVpCaXcxaXM3TzY?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMitwFBVV95cUxOOHBzV3FsWGs3RWs4U2FERWhiQTNXTXVZSTdMWFp4X293eUJPTzFsUEtSTDVpSHE3V2JlS2xSTVFBeEtzaDhUTzkxMmlIbnVfSU1TX1d5OE9zaWRsVEF1MjhQbXBlV2xZMGFSbElGeEV5VktmLURUaFJlN09WeC1jUEtjYWt2dGlzckJJMy1jbzdvYXk4ZEQ0eGw0SVhHSUtabUxVcmt3QXJkcGU4WGFtT3IxNG0tVlk?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 고체 배터리의 상용화를 가로막는 주요 원인 중 하나인 덴드라이트(나뭇가지 모양 결정체) 형성에 대한 미세 구조 분석 결과가 발표되었습니다.
+  - 덴드라이트 형성은 배터리 성능 저하와 안전 문제를 야기하며, 이는 고체 배터리의 실용화를 위한 기술적 과제로 남아있습니다.
+  - 이러한 연구는 고체 배터리 기술의 한계를 극복하고 차세대 배터리 개발을 가속화하는 데 기여할 것입니다.
