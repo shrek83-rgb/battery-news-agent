@@ -1,5 +1,89 @@
 [
   {
+    "title": "폐배터리 시장 커진다…이지트로닉스·SK이노베이션 등 관련주 방긋",
+    "description": "친환경차 폐배터리를 ESS용으로 재사용하기 위한 전력조절 부품 개발과 실증 사업이 주목받았다. 폐배터리의 용도를 전환하는 과정에서 전력변환 및 제어 기술이 중요하다는 점이 투자심리에 영향을 미쳤다. 대형주...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490350",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-09-26",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "이지트로닉스",
+      "SK이노베이션",
+      "이지트로닉스·SK이노베이션"
+    ],
+    "summary_3_sentences": [
+      "친환경차 폐배터리를 ESS용으로 재사용하기 위한 전력 조절 부품 개발 및 실증 사업이 주목받고 있습니다.",
+      "폐배터리 용도 전환 과정에서 전력 변환 및 제어 기술의 중요성이 부각되고 있습니다.",
+      "이는 폐배터리 시장의 성장에 대한 기대감을 높이고 있습니다."
+    ],
+    "uid": "c82d1f01d2ad3dae8147570f39dca3bc8ba7471c"
+  },
+  {
+    "title": "충북도, '이차전지 산업 중장기 육성 전략' 발표",
+    "description": "이어 테스트베드형 기술개발 강화를 위해 상용·차세대 배터리의 기술개발부터 사업화까지 지원하는 전주기 테스트베드를 조성한다. 또 ESS, 피지컬 AI, 전고체와 소듐이온전지 등 미래 수요에 대응하는 실증·평가...",
+    "link": "https://www.jbnews.com/news/articleView.html?idxno=1512246",
+    "source": "www.jbnews.com",
+    "published_at": "2026-09-26",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.newsis.com",
+        "link": "https://www.newsis.com/view/NISX20260926_0003803749"
+      },
+      {
+        "source": "www.daejonilbo.com",
+        "link": "https://www.daejonilbo.com/news/articleView.html?idxno=2303388"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "이차전지",
+      "소듐이온전지",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "충청북도가 이차전지 산업의 중장기 육성 전략을 발표했습니다.",
+      "전주기 테스트베드 조성을 통해 상용 및 차세대 배터리의 기술 개발부터 사업화까지 지원할 계획입니다.",
+      "또한 ESS, 피지컬 AI, 전고체 및 소듐이온전지 등 미래 수요에 대응하는 실증 및 평가 사업도 추진합니다."
+    ],
+    "uid": "7281294b0760fb8b372d17248eb504aa090bdf3a"
+  },
+  {
+    "title": "삼성SDI, 보수적 기조가 결실로… ESS·전고체로 캐즘 정면돌파",
+    "description": "AMPC 등 일회성 요인을 걷어내고도 본업 흑자를 유지하는 한편, AI 데이터센터용 에너지저장장치(ESS)와 차세대 전고체 배터리를 앞세워 신시장 개척에도 속도를 내고 있다. 26일 삼성SDI에 따르면 올해 2분기 매출...",
+    "link": "https://www.g-enews.com/view.php?ud=202609231141486854139bf6e4b2_1",
+    "source": "www.g-enews.com",
+    "published_at": "2026-09-26",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "AMPC",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI가 보수적인 경영 기조 속에서도 본업 흑자를 유지하며 성과를 내고 있습니다.",
+      "AI 데이터센터용 에너지저장장치(ESS)와 차세대 전고체 배터리를 통해 신시장 개척에도 속도를 내고 있습니다.",
+      "이는 어려운 시장 상황 속에서도 삼성SDI가 경쟁력을 확보하고 있음을 보여줍니다."
+    ],
+    "uid": "88f5c3b8ecb30e7969f7733beb41a2bce486ff3f"
+  },
+  {
     "title": "“전고체 배터리 5년 내 양산 어렵다”…고개 드는 ‘꿈의 배터리’ 회...",
     "description": "쩡위친 CATL 회장은 최근 언론 인터뷰에서 “현재 전고체 배터리 기술 성숙도는 9단계 중 4단계 수준에 불과하며 황화물계 셀 가격은 기존 리튬이온 배터리보다 3~5배 비싸다”며 “2030년 이전에 전고체배터리 탑재 차량이...",
     "link": "https://www.sedaily.com/article/20094346?ref=naver",
@@ -74,6 +158,83 @@
     "uid": "89aea2672777e3f80233aa6152e83e4f90ecdb42"
   },
   {
+    "title": "벤츠, 프롤로지움 4세대 전고체 배터리 선점…\"2030년엔 전고체\"",
+    "description": "벤츠가 프롤로지움의 최신 4세대 전고체 배터리 셀에 대한 우선 접근권을 확보했다. [사진: 프롤로지움] 벤츠가 대만 배터리 업체 프롤로지움의 최신 4세대 전고체 배터리 셀에 대한 우선 접근권을 확보하고 차세대...",
+    "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=702973",
+    "source": "www.digitaltoday.co.kr",
+    "published_at": "2026-09-25",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.autodaily.co.kr",
+        "link": "https://www.autodaily.co.kr/news/articleView.html?idxno=600709"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "메르세데스-벤츠",
+      "프로로지움"
+    ],
+    "summary_3_sentences": [
+      "메르세데스-벤츠가 대만 배터리 업체 프로로지움의 4세대 전고체 배터리 셀에 대한 우선 접근권을 확보했습니다.",
+      "이를 통해 메르세데스-벤츠는 2030년까지 전고체 배터리 탑재를 목표로 하고 있습니다.",
+      "프로로지움은 차세대 배터리 기술 개발을 선도하는 기업 중 하나입니다."
+    ],
+    "uid": "493fff8c8d86d644d90d4316076a4eb460609cd7"
+  },
+  {
+    "title": "BYD, 내년 전고체 배터리車 공개한다..업계 ‘주목’",
+    "description": "중국 최대 전기차·배터리 업체 BYD가 내년 전고체 배터리를 탑재한 전기차를 선보이겠다고 밝혔다. 당장 대량 양산에 들어가기보다는 실제 차량에 전고체 배터리를 적용해 기술력을 검증하는 단계가 될 가능성이 크다....",
+    "link": "https://www.dailycar.co.kr/content/news.html?type=view&autoId=62643",
+    "source": "www.dailycar.co.kr",
+    "published_at": "2026-09-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "BYD",
+      "전기차·배터리"
+    ],
+    "summary_3_sentences": [
+      "중국의 전기차 및 배터리 업체 BYD가 내년에 전고체 배터리를 탑재한 전기차를 공개할 예정입니다.",
+      "당장 대량 양산보다는 실제 차량에 적용하여 기술력을 검증하는 단계가 될 가능성이 높습니다.",
+      "BYD의 전고체 배터리 탑재 계획은 업계의 주목을 받고 있습니다."
+    ],
+    "uid": "53859165364366aec96daa9da0239eeb8aedf310"
+  },
+  {
+    "title": "Sila Appoints Executives & Scales U.S. Gigascale Battery Production",
+    "published_at": "2026-09-25",
+    "source": "unmannedsystemstechnology.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPamdYdy1rNlgwV0tnU0NpYTMtZkVJbUF5VjNUYjlkUlp6dW5MbDhUamd4SWRQdHB2dDc0OEtKd3FuX0otUVY4dlZYVUZLMTY4N3ZXNEpJRXZNXzhYYmp2SmpzakFDc00zblJwaWhzUEVQVERYdTVVSURVbGh4dS1xZzZUcGNVMnJMM0FuWDlBeGU2VkRDcFJYcFpobFRYalZIc1M5T1Q1aEFsaS11YWU4MWYyeU9Tdw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPamdYdy1rNlgwV0tnU0NpYTMtZkVJbUF5VjNUYjlkUlp6dW5MbDhUamd4SWRQdHB2dDc0OEtKd3FuX0otUVY4dlZYVUZLMTY4N3ZXNEpJRXZNXzhYYmp2SmpzakFDc00zblJwaWhzUEVQVERYdTVVSURVbGh4dS1xZzZUcGNVMnJMM0FuWDlBeGU2VkRDcFJYcFpobFRYalZIc1M5T1Q1aEFsaS11YWU4MWYyeU9Tdw?oc=5\" target=\"_blank\">Sila Appoints Executives & Scales U.S. Gigascale Battery Production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">unmannedsystemstechnology.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Sila"
+    ],
+    "summary_3_sentences": [
+      "실라(Sila)가 임원진을 임명하고 미국 내 기가스케일 배터리 생산을 확대합니다.",
+      "이번 인사는 실라의 배터리 생산 능력 강화 및 시장 확대 전략의 일환으로 풀이됩니다.",
+      "실라는 차세대 배터리 소재 개발 및 생산에 주력하고 있습니다."
+    ],
+    "uid": "9fcea5a7efb0f9151c23af03180413c37898fb92"
+  },
+  {
     "title": "유럽 IAA의 역설, 中 CATL엔 오히려 ‘날개’ … K배터리 입지는 위협",
     "description": "하지만 전기차용 삼원계 배터리와 ESS용 배터리 생산 중심이다. 보고서는 \"현재 한·중 양강 구도인 EU 배터리 시장에서 국내 배터리 3사는 역내 셀 제조 용량의 약 80%를 담당하고 있지만 우위가 지속될 것으로...",
     "link": "https://biz.newdaily.co.kr/site/data/html/2026/09/22/2026092200297.html",
@@ -96,6 +257,219 @@
       "한국 배터리 3사는 유럽 내 셀 제조 용량의 약 80%를 차지하지만, 중국과의 경쟁 심화로 우위 지속이 불투명합니다."
     ],
     "uid": "c1c4a7a7f51ed7533d286f8627ed1afa43123c40"
+  },
+  {
+    "title": "China’s EV and battery makers tussle over lithium-ion tax: sources",
+    "published_at": "2026-09-25",
+    "source": "South China Morning Post",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNemgtWDNUb24zVE9qQ3pxeFZDNUhWSGV2ZHNIOW1Vemg3RGhiZW5aYnR6V1VQTXlEam1iRkliS1NsZ2l4eFp5WlpRcjZEeTZMZHhUbG5ONE1TVFNOV0RKRkZ5TVpHWnN1d3U4cmRWNVUyX2FLRTlWLWJrelY3cHZJUTY2TG5fRGxadlB2aWZIYUMwOVVzTFAwOTR1cmZTT0NZUHUxS2g2dW5oeTBwN29naVZGOW43R2o0REg2TzRhVDhBTm9taEgtLVdjWFh6TTNF0gHQAUFVX3lxTE42T1FhYk5pMllXNVNDUGpwWk1xZGdpSDdHdUpRS18xQWhpNWdicGQ1ZFI4X2g5QzJiMTJBS1pxdVZtTkItcjdVX2dzNXJCYk1JRWh1M011NWRZa0FtUWk0c0NHbnhXM0FzMHlYM3dIRWpTX1BBcVhqOThaTWFydmhLM2xCUHBzdnVQMVZ6NXdUaE1XNVJfLU1Zakl3TmVXcFZOVVBuMGU1bV95SzJxSDhQdkZyZUtpUXk0TWVnWVZNV3gteFU0aFJyTkdrMzAyZFo?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNemgtWDNUb24zVE9qQ3pxeFZDNUhWSGV2ZHNIOW1Vemg3RGhiZW5aYnR6V1VQTXlEam1iRkliS1NsZ2l4eFp5WlpRcjZEeTZMZHhUbG5ONE1TVFNOV0RKRkZ5TVpHWnN1d3U4cmRWNVUyX2FLRTlWLWJrelY3cHZJUTY2TG5fRGxadlB2aWZIYUMwOVVzTFAwOTR1cmZTT0NZUHUxS2g2dW5oeTBwN29naVZGOW43R2o0REg2TzRhVDhBTm9taEgtLVdjWFh6TTNF0gHQAUFVX3lxTE42T1FhYk5pMllXNVNDUGpwWk1xZGdpSDdHdUpRS18xQWhpNWdicGQ1ZFI4X2g5QzJiMTJBS1pxdVZtTkItcjdVX2dzNXJCYk1JRWh1M011NWRZa0FtUWk0c0NHbnhXM0FzMHlYM3dIRWpTX1BBcVhqOThaTWFydmhLM2xCUHBzdnVQMVZ6NXdUaE1XNVJfLU1Zakl3TmVXcFZOVVBuMGU1bV95SzJxSDhQdkZyZUtpUXk0TWVnWVZNV3gteFU0aFJyTkdrMzAyZFo?oc=5\" target=\"_blank\">China’s EV and battery makers tussle over lithium-ion tax: sources</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">South China Morning Post</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 75,
+    "monitor_score": 86,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "BYD"
+    ],
+    "summary_3_sentences": [
+      "중국의 전기차 및 배터리 제조업체들이 리튬이온 관련 세금을 두고 갈등을 겪고 있다는 소식입니다.",
+      "이는 중국 내 배터리 산업의 성장과 규제 환경 변화에 대한 시사점을 제공합니다.",
+      "세금 문제는 향후 중국 배터리 산업의 경쟁력에 영향을 미칠 수 있습니다."
+    ],
+    "uid": "0233962f24df603e1468ef3fcdda4efe4ea557ca"
+  },
+  {
+    "title": "Amid disposal hazards, Michigan lawmakers consider creating battery recycling program",
+    "published_at": "2026-09-25",
+    "source": "Michigan Advance",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdXdhNzBqbEl4dXFDTkVtNUE5WlJUdDNnd2dhQkJPQjNFT0pWX05KNGJYbW5aSmFiVTI1bnU3UTVaa01VbEZrYWxvVU9YeVo1WGFZdWNBc1NJX1BraEVLaWdZRXBKMlFEN1JENUFQMHA1a3BqazFnZHNudTZ6OGl0bGJuRjcxWVo0SWFYZTh1ajdyM1FiSnREcmwtVlFiYzdGYnNyT3h2Y3lLM0hqS3o0eVdHMDZJTTU0NlBUZkViUTJldw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdXdhNzBqbEl4dXFDTkVtNUE5WlJUdDNnd2dhQkJPQjNFT0pWX05KNGJYbW5aSmFiVTI1bnU3UTVaa01VbEZrYWxvVU9YeVo1WGFZdWNBc1NJX1BraEVLaWdZRXBKMlFEN1JENUFQMHA1a3BqazFnZHNudTZ6OGl0bGJuRjcxWVo0SWFYZTh1ajdyM1FiSnREcmwtVlFiYzdGYnNyT3h2Y3lLM0hqS3o0eVdHMDZJTTU0NlBUZkViUTJldw?oc=5\" target=\"_blank\">Amid disposal hazards, Michigan lawmakers consider creating battery recycling program</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Michigan Advance</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 75,
+    "monitor_score": 86,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "미시간주 의회에서 배터리 재활용 프로그램 생성을 고려하고 있습니다.",
+      "이는 폐기물 처리의 위험성을 줄이고 지속 가능한 배터리 생태계를 구축하기 위한 노력의 일환입니다.",
+      "해당 프로그램은 지역 내 배터리 재활용 산업 활성화에 기여할 것으로 기대됩니다."
+    ],
+    "uid": "88677d8123d74b85239e9fdf4f444d2bcb7819fd"
+  },
+  {
+    "title": "Lithium-ion battery fire disrupts another California community, raising questions about storage, safety",
+    "published_at": "2026-09-25",
+    "source": "Los Angeles Times",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOWl4R0ozQTh0NVE5M0tDd0hVbWVkZm5DN2JlTDZxenVMd1U2QzBpVFMwWVBmVUkybjVIZnQ0cXlNUnRzeFF4Yy0tQ0RrcExoSkVIbi15dndGMG1leXlOYUlMZ1NBa3VWclBJWXNFVlozQ3pHREhQcWZncktXdk9fUnB4LXFvYmFtQTRtSnRYSUR2ZS1Yb1lYUUM4bFhSY0hTQjFBMFZrWF9Wc3o1ZTQ0Wmd6Yy1jTTI2cVhiOTROS2Z0ejZqTUpHY0lDcWJCX1BlZzBxcC1VRlZzZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOWl4R0ozQTh0NVE5M0tDd0hVbWVkZm5DN2JlTDZxenVMd1U2QzBpVFMwWVBmVUkybjVIZnQ0cXlNUnRzeFF4Yy0tQ0RrcExoSkVIbi15dndGMG1leXlOYUlMZ1NBa3VWclBJWXNFVlozQ3pHREhQcWZncktXdk9fUnB4LXFvYmFtQTRtSnRYSUR2ZS1Yb1lYUUM4bFhSY0hTQjFBMFZrWF9Wc3o1ZTQ0Wmd6Yy1jTTI2cVhiOTROS2Z0ejZqTUpHY0lDcWJCX1BlZzBxcC1VRlZzZw?oc=5\" target=\"_blank\">Lithium-ion battery fire disrupts another California community, raising questions about storage, safety</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Times</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "캘리포니아 지역에서 리튬이온 배터리 화재가 발생하여 지역 사회에 혼란을 야기했습니다.",
+      "이 사건은 에너지 저장 시스템의 안전한 설치 및 운영에 대한 의문을 제기하고 있습니다.",
+      "지역 당국은 사고 원인을 조사하고 재발 방지를 위한 대책 마련에 나섰습니다."
+    ],
+    "uid": "edf80555afa210f33a9a784c5f4b05af6c39eaef"
+  },
+  {
+    "title": "Chlorine helps lithium-sulfur battery store 58% more energy in tests",
+    "published_at": "2026-09-25",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUTEwSFlLWkc1c0tCek9hdVdxMFp0aW1Db2xMU0Vxamd1elUwZG84VlJJcy1QQklOYWFQTl8tUzcxSjN5dm4xWTFFMjUtcmppMkxMbXNvdk5OQXhOT2p2dlFJU2Rva1hZbXNyanhzcU9iSndFMzBhRmpoQ2ZhaDNDTzNMSHQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPUTEwSFlLWkc1c0tCek9hdVdxMFp0aW1Db2xMU0Vxamd1elUwZG84VlJJcy1QQklOYWFQTl8tUzcxSjN5dm4xWTFFMjUtcmppMkxMbXNvdk5OQXhOT2p2dlFJU2Rva1hZbXNyanhzcU9iSndFMzBhRmpoQ2ZhaDNDTzNMSHQ?oc=5\" target=\"_blank\">Chlorine helps lithium-sulfur battery store 58% more energy in tests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 75,
+    "monitor_score": 86,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "염소(Chlorine)를 활용하여 리튬-황 배터리의 에너지 저장 용량을 58% 향상시키는 연구 결과가 나왔습니다.",
+      "이는 기존 리튬이온 배터리의 에너지 밀도를 뛰어넘는 잠재력을 보여줍니다.",
+      "해당 기술은 차세대 배터리 개발에 새로운 가능성을 제시합니다."
+    ],
+    "uid": "d04d850eb039ad922f56046476e676de3eb54de1"
+  },
+  {
+    "title": "Mercedes-Benz gets first dibs on ProLogium’s Gen4 solid-state EV battery cells",
+    "published_at": "2026-09-25",
+    "source": "Electrek",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM3NBa1BKZ2FEUFFUeVFMeGhaM0l1VlR5cXVtN0l4NE92U2c5NGZXMlN5dWlybVBxSEZtXzYxN1ZQZ0ZjYmNNU0JwSXFlWjBLcWI3STlUdHRjUGxhVGNtMWZIdEtPeTVwSEFZTV9WT0d4NlNFTzg2RUI5SVNtOHRHSDI1ZWNYSzNLWWtkcVZWVnJuUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOM3NBa1BKZ2FEUFFUeVFMeGhaM0l1VlR5cXVtN0l4NE92U2c5NGZXMlN5dWlybVBxSEZtXzYxN1ZQZ0ZjYmNNU0JwSXFlWjBLcWI3STlUdHRjUGxhVGNtMWZIdEtPeTVwSEFZTV9WT0d4NlNFTzg2RUI5SVNtOHRHSDI1ZWNYSzNLWWtkcVZWVnJuUQ?oc=5\" target=\"_blank\">Mercedes-Benz gets first dibs on ProLogium’s Gen4 solid-state EV battery cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electrek</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "메르세데스-벤츠",
+      "프로로지움",
+      "T0d4NlNFTzg2RUI5SVNtOHRHSDI"
+    ],
+    "summary_3_sentences": [
+      "메르세데스-벤츠가 프로로지움의 4세대 전고체 배터리 셀에 대한 우선 접근권을 확보했습니다.",
+      "이번 계약을 통해 메르세데스-벤츠는 차세대 배터리 기술 확보에 유리한 고지를 점하게 되었습니다.",
+      "이는 전기차 시장에서 전고체 배터리 기술의 중요성이 더욱 부각되고 있음을 보여줍니다."
+    ],
+    "uid": "017f5504b6021f938e50e56b9c9495f5a431e5bb"
+  },
+  {
+    "title": "How AI Is Speeding the Hunt for Cheaper, Safer Sodium-Ion Battery Materials",
+    "published_at": "2026-09-25",
+    "source": "Bioengineer.org",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMmUySnlZWkZyYzVpb3Q3YTdTcnZqUkJQNmdMY19pMkN2M0c0bDM5R0hjd3FydmVGbmxwcVJ4ZlNpV3ljVEpHdDg0Z3F4eWFfLUp0dFRocXdWN1Zpc0pEUmdMeUI1a0xGRVdObFZFU1NOX1VUbklZa19JeE1wQ2swbFAtUEVvRlU3WXpfczdJX0FBM29TZk5oRWxna3ZkMGR2?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPMmUySnlZWkZyYzVpb3Q3YTdTcnZqUkJQNmdMY19pMkN2M0c0bDM5R0hjd3FydmVGbmxwcVJ4ZlNpV3ljVEpHdDg0Z3F4eWFfLUp0dFRocXdWN1Zpc0pEUmdMeUI1a0xGRVdObFZFU1NOX1VUbklZa19JeE1wQ2swbFAtUEVvRlU3WXpfczdJX0FBM29TZk5oRWxna3ZkMGR2?oc=5\" target=\"_blank\">How AI Is Speeding the Hunt for Cheaper, Safer Sodium-Ion Battery Materials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bioengineer.org</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 75,
+    "monitor_score": 86,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "인공지능(AI) 기술을 활용하여 더 저렴하고 안전한 나트륨이온 배터리 소재 탐색 속도를 높이고 있습니다.",
+      "AI는 방대한 데이터를 분석하여 새로운 소재를 효율적으로 발굴하는 데 기여합니다.",
+      "이는 차세대 배터리 기술 개발의 비용과 시간을 단축할 것으로 기대됩니다."
+    ],
+    "uid": "2b6a1de349f75d96a38752dd17af74e25b44dd79"
+  },
+  {
+    "title": "Closing the Loop: Battery Recycling Pilot Uses 100% Recycled Critical Minerals to Power New GM EVs - Cirba Solutions",
+    "published_at": "2026-09-25",
+    "source": "Batteries News",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa0cwRWI4RHBiYlF2cDBCVzN0bkRQSGpBNV9qVUxERmNTc2ViVUxLTnZuRFVRTDM5Z180UFoyLTAwbzZ4TU1SWms1Qk9UTEgxR2hwNEZaQTVucUVWMldOdVIxNXo0aldadDZpaC1PNEdhdkRpS1ZlYlBIVHNPd3VuSnNmZ1RQWDJ2TUNMSFFfNXk0SnhWTHpGa1FScmhBOWdtNVZUMGFNUFo1MDR3U0Vyb05ET25nYWtGaDdhMmN4SHJXSU9qeHl0REJjNDNQZzY3NjREWkdR?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa0cwRWI4RHBiYlF2cDBCVzN0bkRQSGpBNV9qVUxERmNTc2ViVUxLTnZuRFVRTDM5Z180UFoyLTAwbzZ4TU1SWms1Qk9UTEgxR2hwNEZaQTVucUVWMldOdVIxNXo0aldadDZpaC1PNEdhdkRpS1ZlYlBIVHNPd3VuSnNmZ1RQWDJ2TUNMSFFfNXk0SnhWTHpGa1FScmhBOWdtNVZUMGFNUFo1MDR3U0Vyb05ET25nYWtGaDdhMmN4SHJXSU9qeHl0REJjNDNQZzY3NjREWkdR?oc=5\" target=\"_blank\">Closing the Loop: Battery Recycling Pilot Uses 100% Recycled Critical Minerals to Power New GM EVs - Cirba Solutions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Batteries News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 75,
+    "monitor_score": 86,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "Cirba Solutions",
+      "GM"
+    ],
+    "summary_3_sentences": [
+      "서바 솔루션즈(Cirba Solutions)가 배터리 재활용 파일럿 프로그램을 통해 100% 재활용된 핵심 광물로 신형 GM 전기차를 생산합니다.",
+      "이 프로그램은 폐배터리 재활용을 통해 순환 경제를 구축하고 지속 가능한 배터리 공급망을 만드는 것을 목표로 합니다.",
+      "GM은 재활용 소재 사용을 확대하여 친환경적인 전기차 생산에 기여하고 있습니다."
+    ],
+    "uid": "7a68c111b58ea46768e5e0e6667071eeae14d818"
+  },
+  {
+    "title": "Battery X Metals Appoints Lithium-Ion Battery and Electric Vehicle Entrepreneur William Fan as President to Advance Development of Its Patent-Pending Lithium-Ion Battery Rebalancing Technology Platform and Corporate Growth Initiatives",
+    "published_at": "2026-09-25",
+    "source": "Batteries News",
+    "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPbmkwVXBUUE1ROVhOaDNwTTdCaVRlWWRiWmxVT3N5N2syU0I4MDVOdTVrdlVsLU0yTXpXRW43X0lqV0ZmX21MOUJzMU5HTHZBUGtPRFJ5NGM5QjFLeGVXdGFHN0p2emh4Q1Q2WWxDX2txMEsyU2FacTNncjFFQnhrY0dtWkU5M0tRZmVmaVp2aHpHXzEwNXlOajVLcF8wN05zVnJ3M0UzemdrVlBQVkdqNGxGQU9udzhVWVM0RldxbmxzWmE0eUxXd0hPbG1CVGtreE1jRkh4Mm9tU3FkdTZiRU9tTEtSckpJbUZEVzFpTjRqbFMyLS1tLW4tUTlSYmJVR1ctdWNiRUxrTG1pcFp6aFJyQlZPU2xqbUdOY1Foby1nX2ZMVVZCRVc4TlllNTFFQjdkN1ViVDJYVldFb09UZ0VNenlBcWRFOGF3?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiywJBVV95cUxPbmkwVXBUUE1ROVhOaDNwTTdCaVRlWWRiWmxVT3N5N2syU0I4MDVOdTVrdlVsLU0yTXpXRW43X0lqV0ZmX21MOUJzMU5HTHZBUGtPRFJ5NGM5QjFLeGVXdGFHN0p2emh4Q1Q2WWxDX2txMEsyU2FacTNncjFFQnhrY0dtWkU5M0tRZmVmaVp2aHpHXzEwNXlOajVLcF8wN05zVnJ3M0UzemdrVlBQVkdqNGxGQU9udzhVWVM0RldxbmxzWmE0eUxXd0hPbG1CVGtreE1jRkh4Mm9tU3FkdTZiRU9tTEtSckpJbUZEVzFpTjRqbFMyLS1tLW4tUTlSYmJVR1ctdWNiRUxrTG1pcFp6aFJyQlZPU2xqbUdOY1Foby1nX2ZMVVZCRVc4TlllNTFFQjdkN1ViVDJYVldFb09UZ0VNenlBcWRFOGF3?oc=5\" target=\"_blank\">Battery X Metals Appoints Lithium-Ion Battery and Electric Vehicle Entrepreneur William Fan as President to Advance Development of Its Patent-Pending Lithium-Ion Battery Rebalancing Technology Platform and Corporate Growth Initiatives</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Batteries News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Battery X Metals"
+    ],
+    "summary_3_sentences": [
+      "배터리 X 메탈스가 윌리엄 판을 사장으로 임명했습니다.",
+      "이는 특허 출원 중인 리튬이온 배터리 재밸런싱 기술 플랫폼 개발과 기업 성장을 가속화하기 위함입니다.",
+      "윌리엄 판은 리튬이온 배터리 및 전기차 분야의 기업가로 알려져 있습니다."
+    ],
+    "uid": "a481c2b90119bff1945ab4dabb8209bb42566e64"
+  },
+  {
+    "title": "Porsche produces battery cathode material using 100% recycled raw materials",
+    "published_at": "2026-09-25",
+    "source": "Automotive Powertrain Technology International",
+    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTFVJM2h2T1pydGgzZ0MweEJCeThMZm1sSHo1S0NyRndLcHFTVjh3Z1FDUzA4cWdaeFRJRm9mck9vQ3B2VktRNUVfZDZ1ZTJWYWppREZxWW5jV0VXb3J6MnNNQy1vdXJ6dDZFRFo3Vm9VYzlreXNjX3lnNTloZ2RZUVJ5aEFaNVR2ekF4ODRMaEhLQWZFV3lqUVVHUGJLTFZvYXkwV0dnc3RwWmhJYzFQSjBTSGFPNEhiRExiRUJvR0IzNkhWcnBkRnJWVVZHVFhsc0xnWGN2ZGNoYWlBeXRPMlpkRFBfM2FhWTluTTc1emJKaW10?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTFVJM2h2T1pydGgzZ0MweEJCeThMZm1sSHo1S0NyRndLcHFTVjh3Z1FDUzA4cWdaeFRJRm9mck9vQ3B2VktRNUVfZDZ1ZTJWYWppREZxWW5jV0VXb3J6MnNNQy1vdXJ6dDZFRFo3Vm9VYzlreXNjX3lnNTloZ2RZUVJ5aEFaNVR2ekF4ODRMaEhLQWZFV3lqUVVHUGJLTFZvYXkwV0dnc3RwWmhJYzFQSjBTSGFPNEhiRExiRUJvR0IzNkhWcnBkRnJWVVZHVFhsc0xnWGN2ZGNoYWlBeXRPMlpkRFBfM2FhWTluTTc1emJKaW10?oc=5\" target=\"_blank\">Porsche produces battery cathode material using 100% recycled raw materials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Automotive Powertrain Technology International</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 75,
+    "monitor_score": 86,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "Porsche"
+    ],
+    "summary_3_sentences": [
+      "포르쉐가 100% 재활용된 원자재를 사용하여 배터리 양극재 소재를 생산했습니다.",
+      "이는 전기차 배터리 생산 과정에서의 지속 가능성을 높이기 위한 노력입니다.",
+      "포르쉐는 재활용 소재 사용을 통해 친환경적인 생산 방식을 추구하고 있습니다."
+    ],
+    "uid": "498830d69cfd21293093ccd1190a063269db6f99"
   },
   {
     "title": "SK온, 미국 ESS '탈중국' 공급망 구축…포스코퓨처엠서 LFP 양극재 1.1조...",
