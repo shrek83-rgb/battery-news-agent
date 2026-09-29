@@ -1,5 +1,113 @@
 [
   {
+    "title": "삼성SDI, '원통형 LFP' 첫선…AI 전력망 정조준",
+    "description": "SBB 존에서는 주력 일체형 에너지저장장치(ESS) 솔루션인 'SBB 2.0'에 탑재되는 각형 LFP 배터리를 전시했다. 삼성SDI의 주력 폼팩터인 견고한 각형 알루미늄 캔 구조에 LFP 소재를 결합해 열 분산 성능을 극대화했다....",
+    "link": "http://www.srtimes.kr/news/articleView.html?idxno=213480",
+    "source": "www.srtimes.kr",
+    "published_at": "2026-09-29",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "삼성SDI",
+      "LFP",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI가 원통형 LFP 배터리를 선보이며 AI 전력망 시장을 공략합니다.",
+      "주력 일체형 에너지저장장치(ESS) 솔루션인 'SBB 2.0'에 탑재되는 각형 LFP 배터리는 견고한 각형 알루미늄 캔 구조와 LFP 소재를 결합하여 열 분산 성능을 극대화했습니다.",
+      "이는 기존 삼성SDI의 주력 폼팩터 강점을 유지하면서 LFP 소재의 장점을 활용한 혁신적인 솔루션입니다."
+    ],
+    "uid": "b51540f4e77c587dbad36594e0817b31702ca3b5"
+  },
+  {
+    "title": "中, 전고체 등 배터리 산업 육성 로드맵 공개",
+    "description": "공업정보화부 등 6개 부처 배터리산업 발전 15차5개년 계획 발표 2030년까지 전고체 대규모 상용화 등 배터리 산업 육성 중국 공업정보화부 등 6개 부처가 오는 2030년까지 전고체 배터리 대규노 상용화 등 배터리 산업...",
+    "link": "https://www.raonnews.com/news/article.html?no=61470",
+    "source": "www.raonnews.com",
+    "published_at": "2026-09-29",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.etnews.com",
+        "link": "https://www.etnews.com/20260929000113"
+      },
+      {
+        "source": "www.ebn.co.kr",
+        "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1725972"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "중국 공업정보화부",
+      "배터리산업"
+    ],
+    "summary_3_sentences": [
+      "중국 공업정보화부 등 6개 부처가 배터리 산업 발전 15차 5개년 계획을 발표했습니다.",
+      "이 계획은 2030년까지 전고체 배터리 대규모 상용화를 목표로 하며, 배터리 산업 육성을 위한 로드맵을 제시합니다.",
+      "이번 발표는 중국이 차세대 배터리 기술 확보에 집중하며 글로벌 배터리 시장에서의 영향력을 강화하려는 의지를 보여줍니다."
+    ],
+    "uid": "a7d15c1c3c7b9f160d29c34f5585f1661ef5f87f"
+  },
+  {
+    "title": "삼성SDI, AIDC용 배터리 라인업 확대",
+    "description": "BBU존에는 하부 벤트 설계를 적용한 고출력·고용량의 삼원계 배터리를 전시했고, SBB존에서는 일체형 에너지저장장치(ESS) 솔루션인 'SBB 2.0'에 탑재될 각형 LFP 배터리를 선보였다. 삼성SDI는 행사 기간에 글로벌...",
+    "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=665449",
+    "source": "www.kfenews.co.kr",
+    "published_at": "2026-09-29",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "삼성SDI",
+      "SBB",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI가 AIDC(자동 데이터 센터)용 배터리 라인업을 확대했습니다.",
+      "행사에서 삼성SDI는 고출력·고용량의 삼원계 배터리와 일체형 에너지저장장치(ESS) 솔루션 'SBB 2.0'에 탑재될 각형 LFP 배터리를 선보였습니다.",
+      "이는 다양한 산업 분야의 전력 수요에 대응하기 위한 삼성SDI의 기술력과 제품 포트폴리오 확장을 보여줍니다."
+    ],
+    "uid": "839d856e1415adb8c84d045223c08b33a6fda23e"
+  },
+  {
+    "title": "산업부 발표 '차세대 배터리 로드맵', 160Wh/kg 나트륨전지…나인테크 관...",
+    "description": "전고체 배터리용 적층 장비 개발을 마쳐 중소벤처기업부 '강소기업 100' 과제로 검증받았고, 건식전극 공정 장비는 국내 전고체 배터리 개발사의 양산 환경에서 검증이 진행 중이다. 차세대 전극 소재인 MXene...",
+    "link": "https://www.etnews.com/20260929000206",
+    "source": "www.etnews.com",
+    "published_at": "2026-09-29",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "산업통상자원부",
+      "나인테크",
+      "중소벤처기업부"
+    ],
+    "summary_3_sentences": [
+      "산업통상자원부가 차세대 배터리 로드맵을 발표했습니다.",
+      "이 로드맵에는 160Wh/kg 나트륨전지 개발 및 전고체 배터리용 적층 장비 개발 등이 포함됩니다.",
+      "나인테크는 중소벤처기업부의 '강소기업 100' 과제로 전고체 배터리용 적층 장비 개발을 검증받았으며, 건식전극 공정 장비는 국내 전고체 배터리 개발사의 양산 환경에서 검증 중입니다."
+    ],
+    "uid": "7e0dc85f684623d111c547220e2341b93ce6f93b"
+  },
+  {
     "title": "'고성능 배터리' 등장에도...현대차 R&D 수장 \"전고체 포기 없다\"",
     "description": "\"전고체, 자동차 산업 최대 승부수…5년 내 고성능차 적용\" 자체 기술 확보·삼성SDI 등과 공동 개발 병행 현대자동차그룹 연구개발(R&D) 수장이 기존 리튬이온배터리의 성능 향상에도 전고체 배터리 개발 필요성을...",
     "link": "https://www.theguru.co.kr/news/article.html?no=107598",
@@ -219,6 +327,41 @@
     "uid": "0920d8ee0eccd00a3ee020cf656c5ec5b28dee06"
   },
   {
+    "title": "Volkswagen Group, PowerCo and Gotion deepen strategic partnership",
+    "published_at": "2026-09-28",
+    "source": "volkswagen-group.com",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcjNibDZWX2EzQUNWdjA1cmM0cDZaVk55RGkwRmphMC1jcm03cXpGMkFrbjF5LURfN004LXpobjkyWm9qajU0VGpCTk1zS0lTalJMei0yZUI2cU5FcEU2ZzVMdGpjWUVoOTFEQW51Q1YxemhGWE5vQ3AySzhRNURFWG1MQnJtZWJLQkY3QWhJbkZsWkpMSU9NcWpYSG5uZTJPbURJTWhUakkyRm1tTy11Y19HQUVsQ1BUcVJySzFB?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNcjNibDZWX2EzQUNWdjA1cmM0cDZaVk55RGkwRmphMC1jcm03cXpGMkFrbjF5LURfN004LXpobjkyWm9qajU0VGpCTk1zS0lTalJMei0yZUI2cU5FcEU2ZzVMdGpjWUVoOTFEQW51Q1YxemhGWE5vQ3AySzhRNURFWG1MQnJtZWJLQkY3QWhJbkZsWkpMSU9NcWpYSG5uZTJPbURJTWhUakkyRm1tTy11Y19HQUVsQ1BUcVJySzFB?oc=5\" target=\"_blank\">Volkswagen Group, PowerCo and Gotion deepen strategic partnership</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">volkswagen-group.com</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "electrive.com",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMFFPOGhYZkpfczVHMzlsSmlsZmV0MDNLdmd2YWVYWm53R2lrczJCMFhiZ1pLMmRMNlA0ODNtTGxCZkZSR2c4bnJvVTFneENTVDdhWXRMdkFlTm85V3pPcHR3SkphRFBJNmFQal9jelVJVU1DbHI3b2hLUXoxd1NFZU11UkVmVktQakFTTjRBZHZkdHpQQnNxcXhzVDJORFpnZVNNcjdn?oc=5"
+      },
+      {
+        "source": "Newsquawk",
+        "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPQWw2T002Z1oxcU15dFNqdExEdmV3Z0JHbHF5VDNIOURXZ2p3T0JlNEwzejQ4eFBxZ09uR0h2X09Mb21LcU11QXRBbE96VnNqOVdwZERSZmNUcTVBT2lON21rbmF5MjYtdVNLY3J0YnppYnl0RzYzVmJNQy1JYWNydDlMSFJoVW5yVEwtRjF5M1F4ZjFNMnE5RnNaS1NOV1d3czJGb3BQSm1qWjVmYW9DOWcwUkhpN0lzeEZkTDdHNmU1NDA2R0ZEeVJOZ1JNZS0xNmJBWF85T19HTkF1UGlaaU5rYTV2NTIxWDVJS1YwRlg5ZTFWQTNkTGlFV2xQRW5xeG9TaUZmendscEtQWTVxTlJKSk56V3h4ZzQ5R2xtSUdWZFZSRWc?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Volkswagen Group",
+      "PowerCo",
+      "Gotion"
+    ],
+    "summary_3_sentences": [
+      "폭스바겐 그룹, 파워코, 궈션 하이테크가 전략적 파트너십을 강화했습니다.",
+      "이번 파트너십은 유럽 내 배터리 생산 및 공급망 구축을 위한 협력을 심화하는 것을 목표로 합니다.",
+      "이는 폭스바겐 그룹의 전동화 전환 전략에 있어 핵심적인 역할을 할 것으로 기대됩니다."
+    ],
+    "uid": "6ec925808e7e70e9d96e6766d5011dbbb9dbd1fe"
+  },
+  {
     "title": "프롤로지움, 벤츠와 차세대 배터리 검증 착수",
     "description": "'Gen4' 공동 테스트 계약 체결···나스닥 상장 속도에 이브이첨단소재 수혜 기대 대만 전고체 배터리 기업 프롤로지움(ProLogium)이 독일 메르세데스-벤츠와 손잡고 차세대 배터리 기술 검증에 나선다고 28일 밝혔다....",
     "link": "https://news.dealsitetv.com/articles/176384",
@@ -242,6 +385,41 @@
       "프롤로지움의 나스닥 상장 추진과 맞물려 이브이첨단소재의 수혜도 기대된다."
     ],
     "uid": "d9b2b7cf994c274514306e3686bcd3c41a57cada"
+  },
+  {
+    "title": "Gotion and VW plan US$3.67bn European battery investment",
+    "published_at": "2026-09-28",
+    "source": "Automotive World",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcTZzVGNZRnV2cDNtS0pxVUlJcWJfcXRTNHo4dzZOTUFFeUtsQm0zQjVnN3JiMmFPVlNBcndnMjktYVlja1JUT0UxWU1qU1RnMmVrNTAwdHZaWTVWOUFXbXhNS0oweG8tZ2J1U19EQkl3V29JTXpQVFUxTzlnOTJzWUJfVE1iRHpxUjBsQkpzd2NPUndEa3VKNA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNcTZzVGNZRnV2cDNtS0pxVUlJcWJfcXRTNHo4dzZOTUFFeUtsQm0zQjVnN3JiMmFPVlNBcndnMjktYVlja1JUT0UxWU1qU1RnMmVrNTAwdHZaWTVWOUFXbXhNS0oweG8tZ2J1U19EQkl3V29JTXpQVFUxTzlnOTJzWUJfVE1iRHpxUjBsQkpzd2NPUndEa3VKNA?oc=5\" target=\"_blank\">Gotion and VW plan US$3.67bn European battery investment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Automotive World</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "CnEVPost",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSDdLMDUxMTZEWE1IVXhUbzlLamhYSVp0VVFTV0NOQjUxUXFsSV80LWYtOTdUQlZNLVhvcC1CZUNES1ZpSWxwcGY1UTJyaDNJSWQ3Ml9qLUJmaEhBWmJIaVBDNEs1S0hwUlhzSVduemlhd2ZRRVJWVWRTdlVibTQwcllRcDdKNVZJ?oc=5"
+      },
+      {
+        "source": "finance.biggo.com",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80TUZFUDJ2dlBMdTBWQlF5cFZrMmZkT0JBdUFldVhNWG0wSk5jaFM1c2t3Szd1VkhiRDNENDVlSURkWnVWaTBmZDJlSG1NcWRfbXlCcDA0aG1vRVh0ZXkyS3dIUldRRjFQVnRveTFQbWNXakNJQ2c?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Gotion",
+      "VW",
+      "US"
+    ],
+    "summary_3_sentences": [
+      "궈션 하이테크와 폭스바겐이 유럽에 36억 7천만 달러 규모의 배터리 투자를 계획하고 있습니다.",
+      "이번 투자는 유럽 내 배터리 생산 능력 확대를 통해 전기차 공급망을 강화하기 위한 전략의 일환입니다.",
+      "이는 양사의 협력을 통해 유럽 전기차 시장에서의 경쟁력을 높이려는 움직임입니다."
+    ],
+    "uid": "590b3a62611e2e9c67f1cbbde3a39b7df2ab0191"
   },
   {
     "title": "Exclusive: Train Lithium Battery Fires Reveal Equipment Shortages",
