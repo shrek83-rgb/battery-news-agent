@@ -1,5 +1,97 @@
 [
   {
+    "title": "전기차 폐배터리, 블랙매스 거쳐 금속 원료로",
+    "description": "습식 제련은 블랙매스에 용액을 사용해 금속 성분을 녹여낸 뒤 용매 추출이나 침전 등의 과정으로 분리한다. 아르곤국립연구소의 배터리 재활용 공정 분석 보고서는 습식 공정에서 코발트·니켈·망간 화합물과 리튬...",
+    "link": "https://www.vegannews.co.kr/news/article.html?no=390675",
+    "source": "www.vegannews.co.kr",
+    "published_at": "2026-10-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [],
+    "summary_3_sentences": [
+      "Used EV batteries are being processed into metal raw materials through a 'black mass' intermediate.",
+      "The hydrometallurgical process involves using solutions to dissolve metal components from the black mass, followed by separation techniques like solvent extraction or precipitation.",
+      "Research indicates that the wet process can efficiently recover cobalt, nickel, manganese compounds, and lithium."
+    ],
+    "uid": "692a205627574e53e4459a88b3ccbd23fc6496d6"
+  },
+  {
+    "title": "[사설] 배터리 시장 커지는데 韓기업 부진…반전 총력전 나서야",
+    "description": "급팽창 중인 에너지저장장치(ESS)용 배터리, 차세대로 각광받는 전고체 배터리 개발 등에서도 한국보다 앞서 있다. 한국 배터리 3사는 2분기에 모두 흑자를 내며 기대를 키웠지만 점유율 추락에서 보듯 본질적인...",
+    "link": "https://www.hankyung.com/article/2026100210331",
+    "source": "www.hankyung.com",
+    "published_at": "2026-10-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 98,
+    "monitoring_importance": 98,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "The Korean battery market is facing challenges despite the growth of the energy storage system (ESS) and solid-state battery sectors.",
+      "While Korean battery manufacturers saw profits in the second quarter, their market share is declining compared to competitors.",
+      "Korean companies need to intensify efforts to regain competitiveness in the rapidly expanding battery market."
+    ],
+    "uid": "9b7d2e7aed23ba8769d7c54321b4c463b5fa0c26"
+  },
+  {
+    "title": "에코프로 그룹주, 주가 흐름은?…에코프로비엠 ↑, 에코프로에이치엔↓",
+    "description": "에코프로 측에 따르면 에코프로비엠은 전고체 배터리 관련 밸류체인 구축을 추진하고 있다. 이날 주요 그룹주가 상승세로 연휴를 맞이한 만큼 개천절 연휴 이후 첫 거래일인 오는 6일에도 강세 흐름을 이어갈지...",
+    "link": "https://www.cbci.co.kr/news/articleView.html?idxno=612068",
+    "source": "www.cbci.co.kr",
+    "published_at": "2026-10-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "EcoPro BM",
+      "에코프로",
+      "에코프로비엠"
+    ],
+    "summary_3_sentences": [
+      "EcoPro BM is pursuing the establishment of a value chain for solid-state batteries.",
+      "This strategic move indicates the company's commitment to next-generation battery technology.",
+      "The group's stock performance is being closely watched, with expectations for continued strength following the holiday."
+    ],
+    "uid": "f3074cf81203d64038082a0cecb636fbb968e6fe"
+  },
+  {
+    "title": "'하얀 석유' 찾아 5만리…포스코, 리튬 첫 흑자",
+    "description": "에너지저장장치(ESS) 및 엔트리급 전기차용 LFP 배터리에 쓰이는 탄산리튬을 각각 생산하는 3·4공장도 추진하고 있다. 이를 통해 포스코는 2033년까지 연간 17만3천t의 생산체제를 완성해 글로벌 '톱 5' 기업으로 도약하고...",
+    "link": "https://www.yonhapmidas.com/news/articleView.html?idxno=10628",
+    "source": "www.yonhapmidas.com",
+    "published_at": "2026-10-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "POSCO",
+      "포스코",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "POSCO has achieved its first profit in lithium production, referred to as 'white oil'.",
+      "The company is proceeding with plans for two additional plants to produce lithium carbonate for ESS and entry-level EV LFP batteries.",
+      "POSCO aims to become a top 5 global producer with an annual production capacity of 173,000 tons by 2033."
+    ],
+    "uid": "bdd52639518ff8c1cd69610d71f1cd24dd139acb"
+  },
+  {
     "title": "글로벌 전기차 배터리 19.7% 증가해 844GWh…중국계 점유율 73%",
     "description": "SNE리서치는 북미 전기차 수요 둔화로 배터리 업체들이 전기차용 생산라인을 ESS용으로 전환하는 움직임이 확대되고 있다고 분석했다. 중국의 배터리 소비세 및 수출 환급 정책 변화도 향후 시장...",
     "link": "https://www.todayenergy.kr/news/articleView.html?idxno=303776",
@@ -21,6 +113,80 @@
       "북미 전기차 수요 둔화로 배터리 업체들이 생산 라인을 ESS용으로 전환하는 움직임이 확대되고 있습니다."
     ],
     "uid": "2e814397158caffa079184150088d7fafacc0b85"
+  },
+  {
+    "title": "[영상] 현대차, 전고체 배터리 끝까지 간다…'배터리 주도권' 승부수",
+    "description": "만프레드 하러 현대자동차그룹 R&D본부장이 최근 전고체 배터리 개발을 포기할 계획이 없다는 입장을 밝혔습니다. 이미 기존 리튬이온배터리의 성능이 빠르게 개선되고 있고, 전고체 배터리는 원재료와 제조비용이라는...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=107672",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-10-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 98,
+    "monitoring_importance": 98,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Hyundai Motor Group",
+      "현대자동차그룹",
+      "리튬이온배터리"
+    ],
+    "summary_3_sentences": [
+      "Manfred Harrer, Head of R&D at Hyundai Motor Group, stated that the company has no plans to abandon solid-state battery development.",
+      "He acknowledged that current lithium-ion battery performance is rapidly improving, but solid-state batteries still face challenges in raw material and manufacturing costs.",
+      "Hyundai aims to secure leadership in battery technology through continued development."
+    ],
+    "uid": "9224122d870dff8cb216d25e6ddb8e5a54766cc6"
+  },
+  {
+    "title": "쓰레기를 자원으로… 삼성·LG의 '폐배터리' 재활용 전략",
+    "description": "지난해부터 '배터리 재활용 순환 체계(Circular Battery Supply Chain)'를 구축·운영 중이다. 보상판매(Trade-In) 등을 통해 구형 갤럭시를 회수해 폐배터리를 수집하는 방식이다. 분리된 폐배터리는 '블랙 매스(Black Mass)'라...",
+    "link": "https://www.sisaweek.com/news/articleView.html?idxno=238202",
+    "source": "www.sisaweek.com",
+    "published_at": "2026-10-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "Samsung",
+      "LG"
+    ],
+    "summary_3_sentences": [
+      "Samsung and LG are implementing strategies to recycle used batteries, turning waste into valuable resources.",
+      "Samsung has been operating a 'Circular Battery Supply Chain' since last year, collecting used Galaxy devices for battery recycling.",
+      "The collected used batteries are processed into 'Black Mass', a key component for new battery production."
+    ],
+    "uid": "24dc45b9e44de1e9d796a48625aaef3581e71636"
+  },
+  {
+    "title": "첨단소재 힘주는 에코프로에이치엔···배터리 전문가 전진 배치 '승부...",
+    "description": "향후 LMR 배터리와 전고체 등 차세대 배터리 소재 개발에도 나선다. 반도체 소재 분야에서도 사업 확대를 추진하고 있다. 반도체 전공정에 쓰이는 하드마스크 소재의 원료와 HBM(고대역폭메모리) 후공정 패키징용 디본딩 PI...",
+    "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=424102",
+    "source": "www.sisajournal-e.com",
+    "published_at": "2026-10-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "EcoPro HN",
+      "첨단소재",
+      "에코프로에이치엔···배터리"
+    ],
+    "summary_3_sentences": [
+      "EcoPro HN is strengthening its focus on advanced materials, including next-generation battery materials like LMR and solid-state batteries.",
+      "The company is strategically deploying battery experts to drive innovation in these areas.",
+      "EcoPro HN is also expanding its business in semiconductor materials, such as hard mask materials for semiconductor front-end processes and debonding PI for HBM packaging."
+    ],
+    "uid": "749d02b4b4d501dbd69ad14c481096193eda8f02"
   },
   {
     "title": "2차전지 장비업계, 수주 모멘텀 속 체질 개선 집중… 투자 전략은?",
@@ -115,6 +281,31 @@
     "uid": "eb5604440f603316a5c453bf91183c9c086ab8d2"
   },
   {
+    "title": "피엔티엠에스, 태국정부 2차전지 핵심 파트너로…\"연내 태국법인 설립\"",
+    "description": "태국 배터리 장비산업 진출과 전략사업에 대한 상호 협력하는 내용이 골자다. 이날 협약식에 앞서 태국 중소기업진흥청은 구미시청에서 2차전지 산업 발전을 위한 LOI(협력의향서)를 체결했다. 피엔티엠에스·피엔티와...",
+    "link": "https://www.mt.co.kr/stock/2026/10/02/2026100213553689306",
+    "source": "www.mt.co.kr",
+    "published_at": "2026-10-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "장비",
+    "companies": [
+      "PNT MS",
+      "PNT",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "PNT MS has been selected as a key partner for Thailand's secondary battery industry by the Thai government.",
+      "The companies plan to establish a Thai subsidiary within the year to collaborate on battery equipment industry advancements and strategic projects.",
+      "This partnership follows a Letter of Intent (LOI) signed between PNT MS, PNT, and the Small and Medium Enterprise Promotion Agency of Thailand for the development of the secondary battery industry."
+    ],
+    "uid": "0b01507ec46ef7c2acd4fcf0d27ee1d1476b6338"
+  },
+  {
     "title": "\"中 LFP 독점 깬다\"… 韓, 2030년 '나트륨이온 배터리' 완전 상용화 총력...",
     "description": "이와 동시에 2028년 에너지 밀도 400Wh/kg에 달하는 '꿈의 배터리' 전고체 배터리를 완성해 프리미엄 전기차, 휴머노이드 로봇, 드론, 도심항공교통(UAM)을 공략하는 '극과 극 투트랙(Two-track)' 전략을 가동한다. 그동안...",
     "link": "https://www.g-enews.com/view.php?ud=2026100200203737290c8c1c064d_1",
@@ -140,6 +331,30 @@
     "uid": "43d9e0749607346b465d37e5cb0a2873aac501d1"
   },
   {
+    "title": "포스코퓨처엠, 첫 LFP 양극재 연말 양산...전환 라인 준비 완료",
+    "description": "안정적인 전력 공급을 위한 ESS용 LFP 배터리 수요가 확대되고 있다는 것이다. 전기차 시장에서도 보급형 모델을 중심으로 LFP 채택이 늘고 있다고 밝혔다. 포스코퓨처엠은 전기차와 ESS 등 다양한 수요처에 제품을 적기에...",
+    "link": "https://www.e-science.co.kr/news/articleView.html?idxno=136568",
+    "source": "www.e-science.co.kr",
+    "published_at": "2026-10-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "POSCO Future M",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "POSCO Future M will begin mass production of its first LFP cathode material by the end of the year, with conversion lines ready.",
+      "The demand for LFP batteries for ESS is increasing due to the need for stable power supply, and their adoption in entry-level EVs is also growing.",
+      "POSCO Future M is preparing to supply these products to various customers, including EV and ESS manufacturers, in a timely manner."
+    ],
+    "uid": "622dedefca9e3a0c02fa8d5c8f164560c6f80680"
+  },
+  {
     "title": "공급과잉 단속 들어간 中…LG엔솔은 소듐, 삼성SDI는 UPS, 에코프로는 니...",
     "description": "저가 물량 공세에 시달려온 K배터리에는 숨 돌릴 여지가 생겼고, LG에너지솔루션은 소듐이온전지... 2차 발행가액은 10월 12일 정해지고, 확정 발행가액은 1·2차 중 낮은 가격을 기준으로 13일 공고돼 조달액은 더 줄...",
     "link": "http://www.dailypop.kr/news/articleView.html?idxno=103038",
@@ -163,6 +378,273 @@
       "이는 각 기업의 사업 전략 다각화 및 경쟁력 강화에 기여할 것으로 보입니다."
     ],
     "uid": "578e0f3c0d9624e75b63f3608933a9a61d7c5edd"
+  },
+  {
+    "title": "미국 특허 1200건⋯삼성SDI '프리즘스택' 기술장벽 더 높인다",
+    "description": "양극·음극·분리막을 층층이 쌓는 독자 스태킹 공법을 기반으로 공간 활용도를 높이고 부품과 내부 저항을... 삼성SDI는 양극과 음극, 분리막을 각형 캔 내부 형상에 맞춰 적층해 빈 공간을 줄였다. 내부 부품 수도 줄여...",
+    "link": "https://www.autodaily.co.kr/news/articleView.html?idxno=600897",
+    "source": "www.autodaily.co.kr",
+    "published_at": "2026-10-02",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "Samsung SDI",
+      "삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "Samsung SDI is enhancing its technological advantage in prismatic batteries with approximately 1,200 US patents.",
+      "Their proprietary stacking method increases space utilization by layering electrodes and separators efficiently within the prismatic can.",
+      "This optimized design reduces the number of internal components, contributing to improved battery performance and reliability."
+    ],
+    "uid": "ba98294bcfc990a82b8560be9dd42029795fa957"
+  },
+  {
+    "title": "LG Energy Solution to Supply Tesla-Style Batteries to Mercedes-Benz EVs",
+    "published_at": "2026-10-02",
+    "source": "thelec.net",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5vWml2elBwQkJVZm5LSTFEU3JGcXcydW1IRlV5SWhOWFltSmVYUW52SFlsekJybWdLenFkUm5Jd2xxQnBYdEIyOEpPeE5YMXRsNDlUZzAxeFJyQVA1SzU5aTV0dWVfdTA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5vWml2elBwQkJVZm5LSTFEU3JGcXcydW1IRlV5SWhOWFltSmVYUW52SFlsekJybWdLenFkUm5Jd2xxQnBYdEIyOEpPeE5YMXRsNDlUZzAxeFJyQVA1SzU5aTV0dWVfdTA?oc=5\" target=\"_blank\">LG Energy Solution to Supply Tesla-Style Batteries to Mercedes-Benz EVs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thelec.net</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "LG Energy Solution",
+      "Tesla",
+      "Mercedes-Benz"
+    ],
+    "summary_3_sentences": [
+      "LG Energy Solution will supply Tesla-style batteries to Mercedes-Benz for its electric vehicles.",
+      "This partnership signifies a move towards adopting advanced battery designs in premium EVs.",
+      "The collaboration is expected to enhance the performance and range of Mercedes-Benz's electric car lineup."
+    ],
+    "uid": "30b92b2b00b27c011b07abdad3ab8c895789dae0"
+  },
+  {
+    "title": "China develops new lithium battery material for faster charging",
+    "published_at": "2026-10-02",
+    "source": "news.cgtn.com",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaUlwNHJTaWFBbEtkUXlEN1Z3em82dUl3SS1PcXBDWW9nMkxIQ05ZeVFib0QzdUJFNnZGZjlxbmlIR2kwOXFMdmM0WG94dXZxWlpXWEU3dV9OQjFBbEEweXNNUHoxLWdSeFYwQWlCT0h3RHhFR05JQWMyQ3FRLVBMVno5X2JORlBoak9yS2R4X3Vaa0ptc1RQWHl1SlY0cjRrTFpzVUY2cUVyellabWhkcTd2dnVlSmhldG1mZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNaUlwNHJTaWFBbEtkUXlEN1Z3em82dUl3SS1PcXBDWW9nMkxIQ05ZeVFib0QzdUJFNnZGZjlxbmlIR2kwOXFMdmM0WG94dXZxWlpXWEU3dV9OQjFBbEEweXNNUHoxLWdSeFYwQWlCT0h3RHhFR05JQWMyQ3FRLVBMVno5X2JORlBoak9yS2R4X3Vaa0ptc1RQWHl1SlY0cjRrTFpzVUY2cUVyellabWhkcTd2dnVlSmhldG1mZw?oc=5\" target=\"_blank\">China develops new lithium battery material for faster charging</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.cgtn.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "China has developed a new lithium battery material designed for faster charging.",
+      "This innovation could significantly reduce charging times for electric vehicles and other electronic devices.",
+      "The development highlights China's ongoing efforts to advance battery technology."
+    ],
+    "uid": "bb04131e1e1fd41c94e8084c8d450e4cbe605b5b"
+  },
+  {
+    "title": "Explosion causes damage at battery recycling plant in Lancaster",
+    "published_at": "2026-10-02",
+    "source": "WSYX",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYVNHWXMwZzhyWG56R0JlOGxIOV9nUEJBQ24zazdYYTh2ZENXMTJiZGJYcnEwSl9CWlFxckVfMkVwSmp0OW16TEIyYS1fZTVhNHd5RzB4WGdyYVgzV08xZjUyYk1lUXg2bFFJak9xMVRraVNPM1RZRklZSFUybzZxZ2xyTUxuUjF5eS1BMTVrbEQ0c2F1US1OYWE3SVB2Q05wTS1TTXZxbUVXeDl1SUJBcXJUbkt3cnBpN0IzdFpYLWRnSGxCZ01PXzltaHpzUUwxei1HTkd6SUs5bzIwa2JlQkhXaUZUYWF1cmxlMm5FQzYwdG8?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYVNHWXMwZzhyWG56R0JlOGxIOV9nUEJBQ24zazdYYTh2ZENXMTJiZGJYcnEwSl9CWlFxckVfMkVwSmp0OW16TEIyYS1fZTVhNHd5RzB4WGdyYVgzV08xZjUyYk1lUXg2bFFJak9xMVRraVNPM1RZRklZSFUybzZxZ2xyTUxuUjF5eS1BMTVrbEQ0c2F1US1OYWE3SVB2Q05wTS1TTXZxbUVXeDl1SUJBcXJUbkt3cnBpN0IzdFpYLWRnSGxCZ01PXzltaHpzUUwxei1HTkd6SUs5bzIwa2JlQkhXaUZUYWF1cmxlMm5FQzYwdG8?oc=5\" target=\"_blank\">Explosion causes damage at battery recycling plant in Lancaster</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSYX</font>",
+    "provider": "google",
+    "related_links": [
+      "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPb2RrNnF2eWp6dWRXcUdraE5XSS0zUXB4Wk4xZTd5QWd6SVdkZ0wxa0JVNVBwTmpNbnpiLTZTOEdXWnEwdW1tcUpTNGUzM2tpdUEteFRHdldlelhoY3F5RXRjdjhMMWRiSXQ2UEhvVXZoa1hyQ1lpSDdrdGxwZGdTQUF0MzBOanBic2xSZWhMTFp0dnUyZ1ZZRmJ2dV9MNGhyS21mUHBvajhDMzdRM0h5Mk1iUk0xRkhtMEJkRHF2eEpZZGo1Zk5MVGdkYjQ4Ni1TMVZEZUhLVTN0dlJ3Q21CTHJISmxBUEVMX1lISmNfbG41b1FpdVRjRGUzSks1cDIwMmFiUmVqamw1OWs?oc=5"
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "WSYX"
+    ],
+    "summary_3_sentences": [
+      "An explosion occurred at a battery recycling plant in Lancaster, causing damage to the facility.",
+      "Emergency services responded to the incident at the plant.",
+      "The cause of the explosion and the extent of the damage are under investigation."
+    ],
+    "uid": "03ccdb21bce49dddb2667f04cc4cb6206d704f88"
+  },
+  {
+    "title": "WATCHDOG REPORT: Evergreen Battery Recycling holds hazardous batteries for years",
+    "published_at": "2026-10-02",
+    "source": "WFMJ",
+    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNTVh4MkpPbVMwRS1OckZZRnFmemdtdVVoZ09tREk4eUtYS1N1SXZKWWVMYWVnUnZyXzlBelhiNXdmekFfZllvN3o1VGNBdmtET0JXN25XVEdOVVpRbEVpV3BhSFV1bVFIcUU2LU1pRUFIZXU1N2VpR0h6Z1duc0thbUUwaWZua2dnV1VlWVNTSHBVVWNMVWJCOVZteHNDLWdDd0d1NC1KOV9sQkIzVVpUTEdyWjM4eE9GSm9aMzk0cHNzX3Q3eHBXYmhKQjdxVUxLM1BDbmw3S3oxZDNWbXlZYnlGbEhtMTViajY5bXltVGJNNjRyLVdtckpMdDB2dWtwQ0RLbFNn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihgJBVV95cUxNTVh4MkpPbVMwRS1OckZZRnFmemdtdVVoZ09tREk4eUtYS1N1SXZKWWVMYWVnUnZyXzlBelhiNXdmekFfZllvN3o1VGNBdmtET0JXN25XVEdOVVpRbEVpV3BhSFV1bVFIcUU2LU1pRUFIZXU1N2VpR0h6Z1duc0thbUUwaWZua2dnV1VlWVNTSHBVVWNMVWJCOVZteHNDLWdDd0d1NC1KOV9sQkIzVVpUTEdyWjM4eE9GSm9aMzk0cHNzX3Q3eHBXYmhKQjdxVUxLM1BDbmw3S3oxZDNWbXlZYnlGbEhtMTViajY5bXltVGJNNjRyLVdtckpMdDB2dWtwQ0RLbFNn?oc=5\" target=\"_blank\">WATCHDOG REPORT: Evergreen Battery Recycling holds hazardous batteries for years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WFMJ</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "Evergreen Battery Recycling",
+      "REPORT",
+      "WFMJ"
+    ],
+    "summary_3_sentences": [
+      "A watchdog report has raised concerns about Evergreen Battery Recycling's handling of hazardous batteries.",
+      "The report alleges that the company has been holding onto these batteries for years.",
+      "This situation raises questions about the company's safety protocols and environmental responsibility."
+    ],
+    "uid": "136cfda376eaee0faa156eaa1d0d0e037f7271f3"
+  },
+  {
+    "title": "The Science Behind Honda’s Solid-State Battery Breakthrough",
+    "published_at": "2026-10-02",
+    "source": "Top Speed",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPM1VtbjVJUmltb0o2R2xpLTluQ29rdURsSjlqOVVwUVpGcFZOR1VyNURoODVRemtzeXFRdzRsblZWOFNuQVhJV09VRGdFYUVMWjN5czZrZEVJVGF0UnlGR04wcTRfUlBGdDZGNUkyZmxJTDdLSVg0UTVEWlV2eDJlaUZhek9Tdw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPM1VtbjVJUmltb0o2R2xpLTluQ29rdURsSjlqOVVwUVpGcFZOR1VyNURoODVRemtzeXFRdzRsblZWOFNuQVhJV09VRGdFYUVMWjN5czZrZEVJVGF0UnlGR04wcTRfUlBGdDZGNUkyZmxJTDdLSVg0UTVEWlV2eDJlaUZhek9Tdw?oc=5\" target=\"_blank\">The Science Behind Honda’s Solid-State Battery Breakthrough</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Top Speed</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "trending",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Honda"
+    ],
+    "summary_3_sentences": [
+      "Honda has achieved a breakthrough in solid-state battery technology.",
+      "This advancement could lead to batteries that are safer, more energy-dense, and charge faster than current lithium-ion batteries.",
+      "The company is focusing on the science behind this new battery type to further enhance its capabilities."
+    ],
+    "uid": "6c73e0cde9383d235262681b4c7c444e972bfed7"
+  },
+  {
+    "title": "No injuries reported in explosion at Cirba Solutions",
+    "published_at": "2026-10-02",
+    "source": "Lexington Herald Leader",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VUHVzOG1DaG5WQ3NQc3J0X2RQaWpXcXJHNzlYblM5V1NlREV2QWFjSk56aF9YOWdhejE3OWNDaGxQS0wtOGdzWEoxamRwcUdhU0xtMDIxNExESVNvOHJBcXBFUmtPN0VFVlJDYlhVMV82dmlKTmVqZF93eVFqZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5VUHVzOG1DaG5WQ3NQc3J0X2RQaWpXcXJHNzlYblM5V1NlREV2QWFjSk56aF9YOWdhejE3OWNDaGxQS0wtOGdzWEoxamRwcUdhU0xtMDIxNExESVNvOHJBcXBFUmtPN0VFVlJDYlhVMV82dmlKTmVqZF93eVFqZw?oc=5\" target=\"_blank\">No injuries reported in explosion at Cirba Solutions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lexington Herald Leader</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Cirba Solutions"
+    ],
+    "summary_3_sentences": [
+      "An explosion took place at Cirba Solutions, a battery recycling facility.",
+      "Fortunately, no injuries were reported as a result of the incident.",
+      "The company is likely investigating the cause of the explosion."
+    ],
+    "uid": "98cd079be9c9c1b279eb77786b9f3c77a29c15e8"
+  },
+  {
+    "title": "China Targets Solid-State Battery Dominance by 2030",
+    "published_at": "2026-10-02",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWU9DWFZDTXlWemZhSWdvWGhsZ05jMW55YVhFU2swQ2VrYUJmWVdxQ1pqV3BCWTk2NVFHUkRiX1FjV1pJZ3E3bjgwRUk0MFNGRERJRWdHTXN5UzB4U1FMVThVS0duY3RsempCSVVyeWdhYm1qQy1lRFVlQ0JXY0FtcVdWVC1WdzEzSUhERnp0ejlXSmVvUkZWNDBkN2xWRUFH0gGmAUFVX3lxTE5SakRBUDdUcUhHUV9kSWpZeFFoWHRLeUJvS3BOVEcycmFvdkE5SE91VDRkZEQya3NBaGFiX3JXVVBKTmp5aDlTVHJYNXRTSWVveGJteUo2UldIQ3owb1dBYXFPbWg3RUU2Q2NHcF9DM1UwWWQxWTVfdDJibGdmakRpRWJ4NGdXRlR2Q1g3c0VBbVk4ektWdklOZExBQl81YkpQVkZObHc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQWU9DWFZDTXlWemZhSWdvWGhsZ05jMW55YVhFU2swQ2VrYUJmWVdxQ1pqV3BCWTk2NVFHUkRiX1FjV1pJZ3E3bjgwRUk0MFNGRERJRWdHTXN5UzB4U1FMVThVS0duY3RsempCSVVyeWdhYm1qQy1lRFVlQ0JXY0FtcVdWVC1WdzEzSUhERnp0ejlXSmVvUkZWNDBkN2xWRUFH0gGmAUFVX3lxTE5SakRBUDdUcUhHUV9kSWpZeFFoWHRLeUJvS3BOVEcycmFvdkE5SE91VDRkZEQya3NBaGFiX3JXVVBKTmp5aDlTVHJYNXRTSWVveGJteUo2UldIQ3owb1dBYXFPbWg3RUU2Q2NHcF9DM1UwWWQxWTVfdDJibGdmakRpRWJ4NGdXRlR2Q1g3c0VBbVk4ektWdklOZExBQl81YkpQVkZObHc?oc=5\" target=\"_blank\">China Targets Solid-State Battery Dominance by 2030</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crude Oil Prices Today | OilPrice.com</font>",
+    "provider": "google",
+    "related_links": [
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcHJ6N3RzZU5xb2pTaWxBbFFqczlBOHFtSkhWcDZfdG9iWEFOcGJfQWFObEZ6QVNWdEVyQUItTEJHd3pmWDFMUDVCdVFkaVBFTGNnQm8tOFd0Z0lvcFVKdHhiY3d1ZGJtRUxVX3dSelh3SDBodEJkUy1uUjNEWjllUDBMN2h3UmRfY3RiWU9HWlhwUXB0?oc=5"
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "China is targeting dominance in the solid-state battery market by 2030.",
+      "This strategic goal indicates a significant push towards developing and commercializing next-generation battery technology.",
+      "Achieving this target would position China as a leader in the future of battery innovation."
+    ],
+    "uid": "dd3eb12eac31664cf9905edd106f5f73646199c4"
+  },
+  {
+    "title": "Bendable Battery Breakthrough: Nanowire Cathode Lets Lithium-Sulfur Cells Wrap Around Drone Legs",
+    "published_at": "2026-10-02",
+    "source": "Bioengineer.org",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcW5EcnRkZWNpNGVZR053Yk10WlZhZVNjS1BDRnNKNVJpZVdWZHhySlV4YmhqYlpvNjdUcUZLWC1pdGRocENmempRTWsyU00tNjBtVEw0NFhwMXZ2UUFmVVUzNW0zYW1oSXdyMW55MmF1MGZhQmVwS3FqN0ZWbXNSQTR3aTNKT1JEU0lSWjBGMXJFSFN6LUh0NWFybzhwanFKSDF1MGl5bTAxekdlSE5SWGtQYXBqaEY2NV9Kaw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPcW5EcnRkZWNpNGVZR053Yk10WlZhZVNjS1BDRnNKNVJpZVdWZHhySlV4YmhqYlpvNjdUcUZLWC1pdGRocENmempRTWsyU00tNjBtVEw0NFhwMXZ2UUFmVVUzNW0zYW1oSXdyMW55MmF1MGZhQmVwS3FqN0ZWbXNSQTR3aTNKT1JEU0lSWjBGMXJFSFN6LUh0NWFybzhwanFKSDF1MGl5bTAxekdlSE5SWGtQYXBqaEY2NV9Kaw?oc=5\" target=\"_blank\">Bendable Battery Breakthrough: Nanowire Cathode Lets Lithium-Sulfur Cells Wrap Around Drone Legs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bioengineer.org</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [],
+    "summary_3_sentences": [
+      "Researchers have achieved a breakthrough in bendable battery technology using a nanowire cathode in lithium-sulfur cells.",
+      "This innovation allows the batteries to be wrapped around objects, such as the legs of a drone.",
+      "This development opens up new possibilities for flexible and adaptable energy storage solutions."
+    ],
+    "uid": "c3da7ab0ba21684716f5ca9357b4deb28b1052d0"
+  },
+  {
+    "title": "Q3 2026 Lithium Price Review",
+    "published_at": "2026-10-02",
+    "source": "Benchmark Mineral Intelligence",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZUpwTHRuYnptMlcyRDZXdDhIUnRUZWVpcFo0RnVaUkdsNkQtMlJldm0xcmVJT094RjhjdXF1WHZfSUV4dFpJWTgxb3pyOWFoQzVKNkQtOTdTdktTUDV6UUR2U0JPMlRQaF9ZRElGQWJZU1ZINjByT1YzLUloUi1WUVNWVURpdEsyalRzVkEyd2YzT1Z2blg2dF9DMDNyQUVTLVZrN3hBdFpYU1pfUGc3NFVUOXBoYjcyUkJxdFNYcw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPZUpwTHRuYnptMlcyRDZXdDhIUnRUZWVpcFo0RnVaUkdsNkQtMlJldm0xcmVJT094RjhjdXF1WHZfSUV4dFpJWTgxb3pyOWFoQzVKNkQtOTdTdktTUDV6UUR2U0JPMlRQaF9ZRElGQWJZU1ZINjByT1YzLUloUi1WUVNWVURpdEsyalRzVkEyd2YzT1Z2blg2dF9DMDNyQUVTLVZrN3hBdFpYU1pfUGc3NFVUOXBoYjcyUkJxdFNYcw?oc=5\" target=\"_blank\">Q3 2026 Lithium Price Review</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benchmark Mineral Intelligence</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Benchmark Mineral Intelligence"
+    ],
+    "summary_3_sentences": [
+      "This report provides a review of lithium prices for the third quarter of 2026.",
+      "It analyzes market trends and factors influencing lithium pricing.",
+      "The review is likely intended for stakeholders in the battery and mining industries."
+    ],
+    "uid": "62b615e9c6399f637507fe9b2a2dbe0e01eb3993"
+  },
+  {
+    "title": "Nanoramic Launches Neocarbonix® Slurry Precursor (NXSP™) Standard Product Catalog to Deliver Immediate Cost and Performance Gains for Battery Manufacturers",
+    "published_at": "2026-10-02",
+    "source": "Batteries News",
+    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPWWZBRUhIWTdwZXZRekhrS2dOOHVXcUUtY3lyZnk1TEZjT19FY3ZvVjV3OWotTW1SWXU3VFFoUm10LXJGVkNlNU9JTHpsSzZqSXBkVDRmcWtxMHVoTXhXdGxDUnRtU2J6dVBVMWdtVGpsZl9NZE5iRTROLUpNZXdLZ0RQSDl5LXMwVmsxNlhaek5rQmMxTTVoNllVN2tZdlVIc2xyVnNQS1l3V3dWTTdPQzVmdUh3WFltanpxZloxOFJxaHZ6YlZOc3Q1bEZkZ3NXS0p3Y0lBdXFEMkhtRW5CRUlpT3J3bDJhUEFxZmhNdXJFU3Y0Z3lzdkZFZWlkZW5nTjAxdDNWQm9oUQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiigJBVV95cUxPWWZBRUhIWTdwZXZRekhrS2dOOHVXcUUtY3lyZnk1TEZjT19FY3ZvVjV3OWotTW1SWXU3VFFoUm10LXJGVkNlNU9JTHpsSzZqSXBkVDRmcWtxMHVoTXhXdGxDUnRtU2J6dVBVMWdtVGpsZl9NZE5iRTROLUpNZXdLZ0RQSDl5LXMwVmsxNlhaek5rQmMxTTVoNllVN2tZdlVIc2xyVnNQS1l3V3dWTTdPQzVmdUh3WFltanpxZloxOFJxaHZ6YlZOc3Q1bEZkZ3NXS0p3Y0lBdXFEMkhtRW5CRUlpT3J3bDJhUEFxZmhNdXJFU3Y0Z3lzdkZFZWlkZW5nTjAxdDNWQm9oUQ?oc=5\" target=\"_blank\">Nanoramic Launches Neocarbonix® Slurry Precursor (NXSP™) Standard Product Catalog to Deliver Immediate Cost and Performance Gains for Battery Manufacturers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Batteries News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Nanoramic",
+      "NXSP"
+    ],
+    "summary_3_sentences": [
+      "Nanoramic has launched its Neocarbonix® Slurry Precursor (NXSP™) standard product catalog.",
+      "This new catalog aims to provide immediate cost and performance benefits for battery manufacturers.",
+      "The NXSP™ products are designed to enhance the efficiency and capabilities of battery production."
+    ],
+    "uid": "89d326b2ac974a48758327876b6e932f26c4edca"
   },
   {
     "title": "에코프로 그룹주 동반 상승… 리튬 가격 안정화 및 양극재 출하 증가",
