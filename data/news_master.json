@@ -1,5 +1,198 @@
 [
   {
+    "title": "전기차 라인을 에너지저장장치로 전환…배터리 시험대",
+    "description": "LG에너지솔루션은 약 950억 원을 들여 미국 테네시주 얼티엄셀즈 공장 설비를 전환해 ESS용 LFP 배터리 셀 생산을 시작했고, 삼성SDI는 전기차 배터리 전용으로 만들던 북미 인디애나주 뉴칼라일공장을 ESS까지...",
+    "link": "http://www.yonhapnewstv.co.kr/news/MYH20261004102216gvR",
+    "source": "www.yonhapnewstv.co.kr",
+    "published_at": "2026-10-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 89,
+    "monitoring_importance": 89,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG에너지솔루션",
+      "삼성SDI",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "LG Energy Solution is converting part of its Ultium Cells plant in Tennessee to produce LFP battery cells for ESS, investing approximately 95 billion won.",
+      "Samsung SDI is also expanding the scope of its North American plant in Indiana to include ESS battery production alongside EV batteries.",
+      "These strategic shifts indicate a growing focus on the ESS market by major Korean battery manufacturers."
+    ],
+    "uid": "43e1827ee3dda3057d01fd6f2f3d9f37df05549c"
+  },
+  {
+    "title": "차세대 기술 선점 나선 K배터리·태양광…글로벌 주도권 잡는다[초격차...",
+    "description": "4일 업계에 따르면 국내 배터리 업체들은 에너지저장장치(ESS) 시장에서 사업 기반을 넓히는 동시에 리튬망간리치(LMR)와 전고체 배터리 등 차세대 기술 상용화에 속도를 내고 있다. LG에너지솔루션은 제너럴모터스(GM)...",
+    "link": "https://www.newsis.com/view/NISX20261002_0003812996",
+    "source": "www.newsis.com",
+    "published_at": "2026-10-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 82,
+    "monitoring_importance": 82,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG에너지솔루션",
+      "GM",
+      "LMR"
+    ],
+    "summary_3_sentences": [
+      "Korean battery and solar companies are proactively adopting next-generation technologies to secure global leadership.",
+      "Battery manufacturers are expanding their presence in the Energy Storage System (ESS) market while accelerating the commercialization of technologies like lithium manganese-rich (LMR) and solid-state batteries.",
+      "LG Energy Solution is mentioned in relation to its collaboration with General Motors (GM) on these advancements."
+    ],
+    "uid": "f8db87991dc241e5371febe9addc3df73abce5c2"
+  },
+  {
+    "title": "韓 ESS·유럽 EV 수주전 재점화…K-배터리 물량 경쟁 [위클리배터리]",
+    "description": "배터리레이다와 함께 놓친 이차전지·에너지 이슈, 체크해보시죠. &lt;편집자주&gt; 국내 배터리 업계의 수주... 이번 공고 물량은 총 1180MW로 1차 563MW, 2차 565MW를 크게 웃돕니다. 앞선 두 차례 선정 물량을 합친 1128MW보다...",
+    "link": "https://www.ddaily.co.kr/page/view/2026100223325276488",
+    "source": "www.ddaily.co.kr",
+    "published_at": "2026-10-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "배터리레이다",
+      "K-배터리",
+      "위클리배터리"
+    ],
+    "summary_3_sentences": [
+      "Korean battery companies are facing intense competition in securing orders for Energy Storage Systems (ESS) in Europe and electric vehicles (EVs).",
+      "The latest tender for ESS in Europe involves a total volume of 1180MW, significantly exceeding previous tenders.",
+      "This indicates a growing market and fierce competition among K-battery manufacturers for global supply contracts."
+    ],
+    "uid": "19f40563259563cded094e6515cd47b723e957f6"
+  },
+  {
+    "title": "롯데에너지머티리얼즈 18%대 급등…대주전자재료·SK이노베이션 등 전고...",
+    "description": "국내 2차전지 전고체 관련주들이 지난 2일 정규장에서 일제히 강세를 나타냈다.... 대형 배터리주도 상승 흐름을 보였다. LG에너지솔루션은 36만9000원으로 2.36%, 삼성SDI는 52만9000원으로 2.32% 상승했다. 민테크(+2.23...",
+    "link": "https://www.cbci.co.kr/news/articleView.html?idxno=612293",
+    "source": "www.cbci.co.kr",
+    "published_at": "2026-10-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 77,
+    "monitoring_importance": 77,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "롯데에너지머티리얼즈",
+      "대주전자재료",
+      "SK이노베이션"
+    ],
+    "summary_3_sentences": [
+      "Related stocks for solid-state batteries, including Lotte Energy Materials, Daejoo Electronic Materials, and SK Innovation, showed strong performance.",
+      "Major battery stocks like LG Energy Solution and Samsung SDI also experienced gains.",
+      "The positive trend in the stock market reflects investor confidence in the future of battery technology."
+    ],
+    "uid": "e0eabfb86ef909ac2a9d7fd8ccf6bb5913d032b7"
+  },
+  {
+    "title": "SK이노베이션·디케이티 등 ESS 관련주 동반 강세…다음 흐름은?",
+    "description": "특히 ESS 관련주로 묶이는 기업들의 사업 영역은 배터리부터 전해액, 전력제어 부품과 장비 등으로 다양하다. 2일장에서 관련 종목들이 폭넓게 상승한 만큼 연휴 이후 첫 거래일인 6일에도 ESS 관련주가 강세...",
+    "link": "https://www.cbci.co.kr/news/articleView.html?idxno=612297",
+    "source": "www.cbci.co.kr",
+    "published_at": "2026-10-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 72,
+    "monitoring_importance": 72,
+    "tier": 3,
+    "category": "장비",
+    "companies": [
+      "SK이노베이션",
+      "디케이티"
+    ],
+    "summary_3_sentences": [
+      "Stocks related to Energy Storage Systems (ESS), including SK Innovation and DK Tech, showed a concurrent upward trend.",
+      "The business areas of these ESS-related companies are diverse, spanning batteries, electrolytes, and power control components.",
+      "The broad gains observed suggest continued investor interest in the ESS sector following the holiday period."
+    ],
+    "uid": "89ff932c7ad9026155345c243be86016378dd6e1"
+  },
+  {
+    "title": "\"삼원계 외길 끝\"…LFP·양·음극재로 다시 뛰는 K-배터리 소재 3사",
+    "description": "그동안 하이니켈 삼원계(NCM·NCA) 배터리 소재를 중심으로 사업을 전개해 왔던 포스코퓨처엠과... 아울러 중국산 전구체 의존도를 근본적으로 낮추기 위한 '무전구체 LFP 양극재' 공법 개발도 완료했다. 기존 공법은...",
+    "link": "https://www.bloter.net/news/articleView.html?idxno=674904",
+    "source": "www.bloter.net",
+    "published_at": "2026-10-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "포스코퓨처엠",
+      "K-배터리",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "POSCO Future M and other Korean battery material companies are diversifying their product lines beyond ternary (NCM/NCA) batteries.",
+      "They are developing and producing materials for LFP batteries, including a 'precursor-free LFP cathode material' process to reduce reliance on Chinese precursors.",
+      "This strategic shift aims to strengthen the competitiveness of the Korean battery industry in diverse battery chemistries."
+    ],
+    "uid": "a7fd6544e8c7f329b75ae1178123450792f76144"
+  },
+  {
+    "title": "[중화학ON]전기차서 은퇴한 배터리, ESS로 재취업…K배터리 '두 번째 생...",
+    "description": "배터리를 ESS 등으로 한 번 더 활용한 뒤 수명이 다하면 핵심광물을 회수해 다시 배터리 원료로 투입할 수 있다. 이런 순환체계가 자리 잡을 경우 원료 확보와 폐기물 저감 효과를 함께 기대할 수 있다.",
+    "link": "https://view.asiae.co.kr/article/2026100215402810412",
+    "source": "view.asiae.co.kr",
+    "published_at": "2026-10-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "Batteries retired from electric vehicles (EVs) are being repurposed for Energy Storage Systems (ESS).",
+      "This secondary use extends the life of batteries before their core materials are recovered for recycling.",
+      "Establishing such a circular system is expected to help secure raw materials and reduce waste."
+    ],
+    "uid": "566c7a60f788eab9299cce379b2350ed28d08261"
+  },
+  {
+    "title": "전기차 시장 판도 바꿀 ‘게임체인저’… 車 업계, 전고체 배터리 개발...",
+    "description": "현대차, 전고체 배터리 자체 개발 뜻 밝혀 日·中 완성차 기업들도 잇따라 ‘참전’ 개발 난이도 높고 비용 부담… 조기 상용화 힘들 듯 현대차를 비롯한 완성차 업체들이 전고체 배터리 개발에 전력을 쏟고 있다. 전고체...",
+    "link": "https://biz.chosun.com/industry/company/2026/10/04/SHN6Y3O5P5BX5C3Q4BDPMTHQZA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+    "source": "biz.chosun.com",
+    "published_at": "2026-10-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 96,
+    "monitoring_importance": 96,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "현대차"
+    ],
+    "summary_3_sentences": [
+      "Hyundai Motor Company has announced its intention to develop solid-state batteries independently.",
+      "Other automakers in Japan and China are also entering the race to develop this next-generation battery technology.",
+      "However, the high development difficulty and cost may hinder early commercialization."
+    ],
+    "uid": "80403a49d423d32f101e26b37d02daa37f281562"
+  },
+  {
     "title": "전기차 폐배터리, 블랙매스 거쳐 금속 원료로",
     "description": "습식 제련은 블랙매스에 용액을 사용해 금속 성분을 녹여낸 뒤 용매 추출이나 침전 등의 과정으로 분리한다. 아르곤국립연구소의 배터리 재활용 공정 분석 보고서는 습식 공정에서 코발트·니켈·망간 화합물과 리튬...",
     "link": "https://www.vegannews.co.kr/news/article.html?no=390675",
@@ -65,6 +258,250 @@
       "The group's stock performance is being closely watched, with expectations for continued strength following the holiday."
     ],
     "uid": "f3074cf81203d64038082a0cecb636fbb968e6fe"
+  },
+  {
+    "title": "What Honda’s Solid-State Battery Breakthrough Tells About The Future Of EV Tech",
+    "published_at": "2026-10-03",
+    "source": "Top Speed",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWnE3VFpqaGJXMndTMDN4VkJXUy16eHh5a29zR05HS3pwU3k2NmU1X2E4SHJTTWNpQndmdGJmeWo1aHVMSnZhbFFodDY0UmlfZTNzMndNY0t6YllLZHdMcXd4ZEZNSXpLd3IwX0RrUlhwelBadVB5SDdaRnRCZV9RQlFSWERrMWxBYUVJSkJoMEVJQ0swdnc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOWnE3VFpqaGJXMndTMDN4VkJXUy16eHh5a29zR05HS3pwU3k2NmU1X2E4SHJTTWNpQndmdGJmeWo1aHVMSnZhbFFodDY0UmlfZTNzMndNY0t6YllLZHdMcXd4ZEZNSXpLd3IwX0RrUlhwelBadVB5SDdaRnRCZV9RQlFSWERrMWxBYUVJSkJoMEVJQ0swdnc?oc=5\" target=\"_blank\">What Honda’s Solid-State Battery Breakthrough Tells About The Future Of EV Tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Top Speed</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "trending",
+    "battery_relevance": 98,
+    "monitoring_importance": 90,
+    "monitor_score": 96,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Honda"
+    ],
+    "summary_3_sentences": [
+      "Honda has made a breakthrough in solid-state battery technology.",
+      "This advancement could significantly impact the future of electric vehicle technology.",
+      "The development signals a potential shift in the EV landscape."
+    ],
+    "uid": "2f4c2808199ab37aa700111df83c97b1250e8178"
+  },
+  {
+    "title": "Princeton NuEnergy plans closed-loop recycling with SK Battery America",
+    "published_at": "2026-10-03",
+    "source": "Solarbytes",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQb0hQVERlSkI2Q3hxcHZKbUg3U0hZakQxVTdHZDB6REgwZEk0YmM5WVdrR2MtdU05ZE1IdzRyd255LTBBRmFWUmc0cnRjTktmQUtLeC1iNlVZdHlDWHlfR29mWjhLZEV3dXVUR3F3eXVUYy1vMHB6aS1kTF9QM2dVSEFFMktuSTM3dGJRd0xxdHpleXFZbl9UZmx4MDdxcVVHRXN6WEhkWDUwNEY1T3ltMDNaZUFnR0hGN1N4ZmtoN3Jic0RpNTQwQnFBYmJMM1hyX1VoWHhtQQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQb0hQVERlSkI2Q3hxcHZKbUg3U0hZakQxVTdHZDB6REgwZEk0YmM5WVdrR2MtdU05ZE1IdzRyd255LTBBRmFWUmc0cnRjTktmQUtLeC1iNlVZdHlDWHlfR29mWjhLZEV3dXVUR3F3eXVUYy1vMHB6aS1kTF9QM2dVSEFFMktuSTM3dGJRd0xxdHpleXFZbl9UZmx4MDdxcVVHRXN6WEhkWDUwNEY1T3ltMDNaZUFnR0hGN1N4ZmtoN3Jic0RpNTQwQnFBYmJMM1hyX1VoWHhtQQ?oc=5\" target=\"_blank\">Princeton NuEnergy plans closed-loop recycling with SK Battery America</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Solarbytes</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "Princeton NuEnergy",
+      "SK Battery America",
+      "SK"
+    ],
+    "summary_3_sentences": [
+      "Princeton NuEnergy is planning to implement a closed-loop recycling system in collaboration with SK Battery America.",
+      "This initiative aims to create a sustainable battery lifecycle by recycling used batteries.",
+      "The partnership signifies a commitment to environmental responsibility in the battery industry."
+    ],
+    "uid": "15309f5fc95c27a64f9456c94769486dbcaf03d0"
+  },
+  {
+    "title": "HiTHIUM launches next-gen sodium-ion BESS for industrial deployment",
+    "published_at": "2026-10-03",
+    "source": "Solarbytes",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeDF0T3hJYU45LTFlTkI1T0g3ejJNVkU3NW1raTIzX3Z2S21nZUVUWjAwMjBjVEp2ZDFlYjZaSG14Z0hfMWZVUHNNdlJ6WlIxRFVoOEJXc3lrMWNfUk1lQ3dEaUczd0ZBVGJfTG9IeEptRzNTelJiSlU0cV94NVpiS3pQYUxHSFBoT0xWUkhQX0tsUHp6QmxDLTNlN0pmcWpaV0VJVmVn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQeDF0T3hJYU45LTFlTkI1T0g3ejJNVkU3NW1raTIzX3Z2S21nZUVUWjAwMjBjVEp2ZDFlYjZaSG14Z0hfMWZVUHNNdlJ6WlIxRFVoOEJXc3lrMWNfUk1lQ3dEaUczd0ZBVGJfTG9IeEptRzNTelJiSlU0cV94NVpiS3pQYUxHSFBoT0xWUkhQX0tsUHp6QmxDLTNlN0pmcWpaV0VJVmVn?oc=5\" target=\"_blank\">HiTHIUM launches next-gen sodium-ion BESS for industrial deployment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Solarbytes</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "HiTHIUM",
+      "BESS"
+    ],
+    "summary_3_sentences": [
+      "HiTHIUM has launched a new generation of sodium-ion battery energy storage systems (BESS).",
+      "These systems are designed for industrial deployment.",
+      "The launch signifies advancements in energy storage solutions beyond traditional lithium-ion."
+    ],
+    "uid": "6cf423af8c207eef0c5838d719e3f54390175ee6"
+  },
+  {
+    "title": "General Motors brings 33% denser lithium manganese-rich EV battery tech to Tennessee",
+    "published_at": "2026-10-03",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRVlmZ0czZ2t0ZWc4TjM0SXNoUjFndjluVi1YTjdTRXBINnk4UVZXR1MxNGtLYXlXcW5kZnY4QkY4SlE5VXJsNlk5VVFHUnpRR1VKcG51LWttem8tRjBYam9CN2J4cF9YU19kd0hTUG5TSGJxaEtWVWJZS2h2RFBxdWlvU3hocnNuRkEzdDI2N01sOWM?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQRVlmZ0czZ2t0ZWc4TjM0SXNoUjFndjluVi1YTjdTRXBINnk4UVZXR1MxNGtLYXlXcW5kZnY4QkY4SlE5VXJsNlk5VVFHUnpRR1VKcG51LWttem8tRjBYam9CN2J4cF9YU19kd0hTUG5TSGJxaEtWVWJZS2h2RFBxdWlvU3hocnNuRkEzdDI2N01sOWM?oc=5\" target=\"_blank\">General Motors brings 33% denser lithium manganese-rich EV battery tech to Tennessee</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 98,
+    "monitoring_importance": 85,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "General Motors"
+    ],
+    "summary_3_sentences": [
+      "General Motors is introducing a new lithium manganese-rich EV battery technology with 33% greater density.",
+      "This advanced battery technology is being brought to Tennessee.",
+      "The development is a significant step in improving EV performance and range."
+    ],
+    "uid": "242da77c2750fec4fba7ca384d4a8c23e09f6a81"
+  },
+  {
+    "title": "Composite Laminated Separator Market To 2035: EV Battery Demand Drives Growth - News and Statistics",
+    "published_at": "2026-10-03",
+    "source": "IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSGw4S1RjWjVpR2xyTVloSzI3bkQwcHNWT3dwdHBwU25RMFpPOGI4LW5oTVNRdHJkSHE5amU2ZE9qamNhVXZaX09qeDdfMmdremtQZEs4dnZtN0xSMTJYSE1KZ3c5SmU5ZF9CTG4zOXp1b0xsR2dnSVlKalp3NGRSMXN6YVZTblF3eTNGUzFBZlphMmZ5a3MyYVIxZWRTOE1tcjFRTXNZTTZ2aW91RENaazF6dmFKZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPSGw4S1RjWjVpR2xyTVloSzI3bkQwcHNWT3dwdHBwU25RMFpPOGI4LW5oTVNRdHJkSHE5amU2ZE9qamNhVXZaX09qeDdfMmdremtQZEs4dnZtN0xSMTJYSE1KZ3c5SmU5ZF9CTG4zOXp1b0xsR2dnSVlKalp3NGRSMXN6YVZTblF3eTNGUzFBZlphMmZ5a3MyYVIxZWRTOE1tcjFRTXNZTTZ2aW91RENaazF6dmFKZw?oc=5\" target=\"_blank\">Composite Laminated Separator Market To 2035: EV Battery Demand Drives Growth - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "separator",
+    "companies": [
+      "IndexBox"
+    ],
+    "summary_3_sentences": [
+      "The market for composite laminated separators is projected to grow significantly by 2035.",
+      "This growth is primarily driven by the increasing demand for EV batteries.",
+      "The report provides insights into market trends and statistics."
+    ],
+    "uid": "c974c0088ddc3753656a7342e16c982ba28408bc"
+  },
+  {
+    "title": "GM Beats Ford With New LMR Battery Production Plan",
+    "published_at": "2026-10-03",
+    "source": "Ford Authority",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWtpemU5cWdlam8wSGFyYWZkVkFoamg2NHYtemZiQnJJaXNVVjZaMEVSdElzTUkyaG5GQW82Yl9icjhvT2xDa3JiaTNXWFVHZERGZ0V3c2tCZG1vbHhyaEFPZFpnWGJvYUdHbUhBcEFQWUhLYThRcjVnRHBQc2EzcV9fQVNhcmdOTzE0eW93?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWtpemU5cWdlam8wSGFyYWZkVkFoamg2NHYtemZiQnJJaXNVVjZaMEVSdElzTUkyaG5GQW82Yl9icjhvT2xDa3JiaTNXWFVHZERGZ0V3c2tCZG1vbHhyaEFPZFpnWGJvYUdHbUhBcEFQWUhLYThRcjVnRHBQc2EzcV9fQVNhcmdOTzE0eW93?oc=5\" target=\"_blank\">GM Beats Ford With New LMR Battery Production Plan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ford Authority</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 98,
+    "monitoring_importance": 85,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "GM",
+      "Ford",
+      "LMR"
+    ],
+    "summary_3_sentences": [
+      "General Motors has announced a new production plan for its lithium manganese-rich (LMR) batteries.",
+      "This plan appears to position GM ahead of Ford in the race for this specific battery technology.",
+      "The move highlights the competitive landscape in EV battery development."
+    ],
+    "uid": "f5564b2357791fb02e55a82fef5264cfef98a033"
+  },
+  {
+    "title": "Taming the Invisible Walls Inside Batteries: New Review Maps the Path to Longer-Lasting Lithium Cells",
+    "published_at": "2026-10-03",
+    "source": "Bioengineer.org",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaFkwNnFJRjBTTW16QWdRY0FEcEZCY1NUN3RUMFo5eTlsNF9uV0lYcEV6LUpCMjRhSE5ob0Q4anhMc2piTXo2dHk5elhDSjgtbFRGUVhfbWs5cEExSVFyWkF1VUo2ZHNZWXdiWVRNeWswSkdoMEI0NWJYaGd4M1loRjFldF90MnZVaE90WmNqaHFkaXlzMTZVQjQ0bTlOLXZtUWR1TUQ3YTB2clJsQm1EMldJNzYwcFE3cC13WGZnMERZREk?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaFkwNnFJRjBTTW16QWdRY0FEcEZCY1NUN3RUMFo5eTlsNF9uV0lYcEV6LUpCMjRhSE5ob0Q4anhMc2piTXo2dHk5elhDSjgtbFRGUVhfbWs5cEExSVFyWkF1VUo2ZHNZWXdiWVRNeWswSkdoMEI0NWJYaGd4M1loRjFldF90MnZVaE90WmNqaHFkaXlzMTZVQjQ0bTlOLXZtUWR1TUQ3YTB2clJsQm1EMldJNzYwcFE3cC13WGZnMERZREk?oc=5\" target=\"_blank\">Taming the Invisible Walls Inside Batteries: New Review Maps the Path to Longer-Lasting Lithium Cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bioengineer.org</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 85,
+    "monitor_score": 92,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Bioengineer.org"
+    ],
+    "summary_3_sentences": [
+      "A new review maps out a path to creating longer-lasting lithium battery cells.",
+      "The research focuses on understanding and overcoming internal barriers within batteries.",
+      "This work could lead to significant improvements in battery lifespan and performance."
+    ],
+    "uid": "8b286cde6a56d1fd4a0c60859540545bb04a0956"
+  },
+  {
+    "title": "Panel Discussion: Powering the Battery Boom: Global Lithium Supply Chains and Africa's Place in Them",
+    "published_at": "2026-10-03",
+    "source": "Benchmark Mineral Intelligence",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaVdYbjVudVZsZHpkdi1MOGJkeUt1UmpZRkh1a3VFdlZTNWRmUUpfRk5sdXdCVG9lRU9Qa2JaeTZtOE9TZ0lHR29SRndZaVYwN1d0YzhWZ1FnRFRiTFN2SmpVUzRyV29ZaC1NQXhaUVlNbkVKSWkxM1NncW5hYVIyZ2JvTzBva090SDFtQVZnaVVNZUlpeDZfVkt4X0V5ZFJHaTYtbEZnRUcwd2p6akpYaF9RNl9pQU1xSTI4OGF5Q0hzdVhuNjhsYk00WEgzT3lPdUt4OEhmRHl2ZmdrNktIRw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaVdYbjVudVZsZHpkdi1MOGJkeUt1UmpZRkh1a3VFdlZTNWRmUUpfRk5sdXdCVG9lRU9Qa2JaeTZtOE9TZ0lHR29SRndZaVYwN1d0YzhWZ1FnRFRiTFN2SmpVUzRyV29ZaC1NQXhaUVlNbkVKSWkxM1NncW5hYVIyZ2JvTzBva090SDFtQVZnaVVNZUlpeDZfVkt4X0V5ZFJHaTYtbEZnRUcwd2p6akpYaF9RNl9pQU1xSTI4OGF5Q0hzdVhuNjhsYk00WEgzT3lPdUt4OEhmRHl2ZmdrNktIRw?oc=5\" target=\"_blank\">Panel Discussion: Powering the Battery Boom: Global Lithium Supply Chains and Africa's Place in Them</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benchmark Mineral Intelligence</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Benchmark Mineral Intelligence"
+    ],
+    "summary_3_sentences": [
+      "A panel discussion will explore the global lithium supply chains and Africa's role within them.",
+      "The discussion aims to understand the dynamics powering the battery boom.",
+      "It will shed light on the critical resources and geopolitical factors involved."
+    ],
+    "uid": "555e52fb5c428e372b750c8924026e1f08903ce5"
+  },
+  {
+    "title": "Keynote Presentation: Joining the Dots: Is the Time Right for an Integrated LFP Battery Supply Chain in Africa?",
+    "published_at": "2026-10-03",
+    "source": "Benchmark Mineral Intelligence",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdm0wNmFUdTlGcmVjS0Ywa3pXUHc1RGFMdzFoQVVpQU1QX0tLNy1Cd0lORFNLYWMyTWppSkdMUHFycjBCV3NXZTI4SzdCUmRRdjZ5VzZoeUt3cXJFZDVkRDdnbWFkTmhRZWRvTDdaV3ZPeHJZVTA1aS1xN1hvSm9JV1NNZXVwY01ObDBybHBJZUZ5eURLTlUyR21rREdVa3dJajh6YUV3UkJ1bTZJaVB5RTNZMTJtTnAyek9ZZERiLUtlQThva3RNRGJqV3FoazgwdVQtcXBJX3poTXI3QnBjcTE4NERNa2JQZ0FTX0hmbw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdm0wNmFUdTlGcmVjS0Ywa3pXUHc1RGFMdzFoQVVpQU1QX0tLNy1Cd0lORFNLYWMyTWppSkdMUHFycjBCV3NXZTI4SzdCUmRRdjZ5VzZoeUt3cXJFZDVkRDdnbWFkTmhRZWRvTDdaV3ZPeHJZVTA1aS1xN1hvSm9JV1NNZXVwY01ObDBybHBJZUZ5eURLTlUyR21rREdVa3dJajh6YUV3UkJ1bTZJaVB5RTNZMTJtTnAyek9ZZERiLUtlQThva3RNRGJqV3FoazgwdVQtcXBJX3poTXI3QnBjcTE4NERNa2JQZ0FTX0hmbw?oc=5\" target=\"_blank\">Keynote Presentation: Joining the Dots: Is the Time Right for an Integrated LFP Battery Supply Chain in Africa?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benchmark Mineral Intelligence</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "Benchmark Mineral Intelligence",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "A keynote presentation will examine the potential for an integrated LFP battery supply chain in Africa.",
+      "The discussion will focus on whether the current conditions are right for such integration.",
+      "It addresses the strategic importance of Africa in the global battery market."
+    ],
+    "uid": "3f4a0db9e5648c31396d3c2587261bf7a7217c40"
+  },
+  {
+    "title": "Future of Battery Manufacturing: Risks, Opportunities, and Innovation",
+    "published_at": "2026-10-03",
+    "source": "Battery Technology",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS3ZmeEtxS0RrUElnS283VDdBUGp6cFhDZXN6MGpsOVZJbHlNQmEwdDlRNWs0OWU1WEt1MlBzRjY2ZFpWTEVvNk95ckJwc0VEeVpPTlNweWNiMGRVbFlKcmE0Y2RoWFlNYWh4TjlaYnM3YWZBeGhzUlRKcl8wU2pfV3Ita21ZVnhwRVBkZzh1R2FLMGdsdWhfckFPajM5X2RNVWFtUHoxV3ZKRkFNNl9ncUJ6MHc3bzFJdFduNk12UQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQS3ZmeEtxS0RrUElnS283VDdBUGp6cFhDZXN6MGpsOVZJbHlNQmEwdDlRNWs0OWU1WEt1MlBzRjY2ZFpWTEVvNk95ckJwc0VEeVpPTlNweWNiMGRVbFlKcmE0Y2RoWFlNYWh4TjlaYnM3YWZBeGhzUlRKcl8wU2pfV3Ita21ZVnhwRVBkZzh1R2FLMGdsdWhfckFPajM5X2RNVWFtUHoxV3ZKRkFNNl9ncUJ6MHc3bzFJdFduNk12UQ?oc=5\" target=\"_blank\">Future of Battery Manufacturing: Risks, Opportunities, and Innovation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Battery Technology</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 100,
+    "monitoring_importance": 95,
+    "monitor_score": 98,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "The battery manufacturing industry faces various risks and opportunities.",
+      "Innovation is crucial for navigating these challenges and capitalizing on potential growth.",
+      "Understanding these dynamics is key to the future of battery production."
+    ],
+    "uid": "4be4e70b4e402f9c9927144b0c60c11b1ae68c0a"
   },
   {
     "title": "'하얀 석유' 찾아 5만리…포스코, 리튬 첫 흑자",
