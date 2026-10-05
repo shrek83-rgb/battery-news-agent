@@ -1,0 +1,216 @@
+# 배터리 뉴스 데일리 브리핑 (2026-10-04 전날 기준)
+
+- 총 16건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 기타 | 2026-10-04 | www.autodaily.co.kr | 中 배터리 7개사 점유율 73.3%⋯韓 3사는 12.7%로 3.9%p 하락 | https://www.autodaily.co.kr/news/articleView.html?idxno=600917 | unknown |
+| 2 | 3 | cathode | 2026-10-05 | www.imaeil.com | 이용민 DGIST 교수 "배터리는 미래 첨단산업 핵심…LMR 상용화 한발 앞서... | https://www.imaeil.com/page/view/2026100512533369862 | unknown |
+| 3 | 3 | 전고체 | 2026-10-05 | www.g-enews.com | 중국, 2030년 전고체 배터리 양산 공식화…지리·니오 동맹 출범 | https://www.g-enews.com/view.php?ud=2026100505530020382bd56fbc3c_1 | unknown |
+| 4 | 3 | cathode | 2026-10-05 | www.inews24.com | LFP 소재도 국내서 확보…K배터리, '탈중국 공급망' 속도 | http://www.inews24.com/view/2011617 | unknown |
+| 5 | 3 | 기타 | 2026-10-04 | Sierra Sun Times | National Fire Protection Association Announces Fire Prevention Week, October 4-10, Focuses On Lithium-Ion Battery Charging Safety | https://news.google.com/rss/articles/CBMipAJBVV95cUxQcFVyNjlsWUJGcU45T0pFQUs0WnJJR2RxT25OdlFzTGQ5bDJYLVo1MlBMZldJV3Y2Ry1OWGQ2Q1dfcTlWVndFOFowMkhRRzZoR3NxUUc1OC1aQ2xBWmZadWVkM2Q0eExMckx6eGQ5SW9fN3N3VFNHbm5uVVR2Qi1jQ3Y2dEVjQmh2MFRjTmVCR3EzVmdNaXgtNmZIREZ3aUFRRGMyVkozNFozREtId3NxZUpKQWV6TUxwSXVWa0N1V25DczBldVVSOWpqMWZQcTZuRXJVTjI2Z2VBOTM3ZEgxZDRqLWpraDFTUlZ4eG91djZtZzB0T1o1OHJHY29jVElYOUNxQUhkb3A1YnZRamNzLTFabDFCMXltU0xkekswcmladmh0?oc=5 | unknown |
+| 6 | 3 | 전고체 | 2026-10-04 | finance.biggo.com | Hyundai Motor, Toyota, BYD Intensify Race to Develop 'Dream Battery' Solid-State Technology | https://news.google.com/rss/articles/CBMidkFVX3lxTE56SHVoX3BpcG9pMDBaSVloZVRUcTYzNGtHNmtva0VNSjZQUl8xdURsY3VGUXpEOW5ld2lJUkxPY2RnOXNkdWVFb0FrUmtIcUxDN3FFTFJ1WnBDZ0d4UTJ0WTVZeWcwcEgwR1FPcUN3ZlUyRDlET0E?oc=5 | unknown |
+| 7 | 3 | 정책 | 2026-10-05 | www.imaeil.com | 포항시·포스텍, 독일 프라운호퍼와 손잡고 '차세대 2차전지' 선점 | https://www.imaeil.com/page/view/2026100513433586849 | unknown |
+| 8 | 3 | electrolyte | 2026-10-05 | www.imaeil.com | 中 배터리 반격 할 'K배터리' 소재에서 시작…차세대 기술 개발·양산 속... | https://www.imaeil.com/page/view/2026100512533561814 | unknown |
+| 9 | 3 | 기타 | 2026-10-04 | NBC Bay Area | Apartment complex in San Francisco evacuated after lithium-ion battery fire | https://news.google.com/rss/articles/CBMihwFBVV95cUxPbVFjM3lPZ1FseUE0d0ZoTFBqTkVRQVJGTGFfVVFyUUpZQ0RudEx4VDdPclVZRC1FRURTTUFVRnhEa0p1aWt4bS1PeGxwSHRpb0p3eWx6N2ZBZmttUl83YjRLREdLcVJEQndfSjlEYXJCbzg5OG5NU2FQMVZEMnduMlE0emU0cDTSAY8BQVVfeXFMTUdxb1NxdmxwVlpteG0xajNKbFRJd291NVhZVkRLZ0JxSDBQX0stcFhtblRxbXd1ejd6c3M5V2xMNlBVMDRlN0M5WmRhbmI5TGoyUDgtbzhaUi1TVFhGM2hjSW9pSDFiS3Rsb3dkbm5JM0EwalZ0YVVkdFpZTzhxTW54Uk42Nm9jVjg0cmJBZEE?oc=5 | unknown |
+| 10 | 3 | 기타 | 2026-10-04 | KPTV | Fires started by lithium-ion batteries are increasing in Oregon. Here’s how you can protect your home | https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZVdBYjNQY1pueHNaOXN6aGNyQ0ZPQnRXXzVCanh6LV9zeVJzVGk5RzFrSTVHU1JtaXd3cU55SmJhS2NXQlhMLXM4OEgxcGN0WlBacnFyRWczRXR3cXlOWi1oM3lSbnVhOWlGaFg2akpfZGF0dThEcGNMOEpad0xoeUc3TFl1RkRaZmhTalJNYXdPV3gySU16Q0JFRjFSb2RtTDRhSUkzTHY2Tzg1YXF6RGtqdE1tRmU3SWxSdDVHcmoydzlfSExKeNIB3AFBVV95cUxPNVY5VmNBTHNSLUdLWlByenpzYXBSaXNLSmpQYUdFM2I2eVRIT0k1NDZTS0h4dFdqdWpIMlhyclRmLUVwblhHb1pBRzQ4Rmc0V3QxUENFV0xmbF9xSnp5blVoMVJpZS1LTjJVN0tDRTAwWGVNSFUtSlpzaDE2c25WRUxFcjlNVm9NNGdNSVAtdVgzQUdVOE0xdU4tNDFyRFlTTzd6eUhXRVc5ZkpQUDVLcVJmVUhST05TSnZvc1RmSUs0N0VHNWt4ckVGZXB4SkdqRUJGVEZFOXJsMFFE?oc=5 | unknown |
+| 11 | 3 | 기타 | 2026-10-04 | FOX Carolina News | Protect your home from fires started by lithium-ion batteries | https://news.google.com/rss/articles/CBMipAFBVV95cUxNZm4tUm9mNkt2bDFZTzlrMnhKNmFqR01lRnBpVWlYZC1EeGhhQnJvZ2RVc3QtM2tRLTJadm5MR29ySEtzVUlMUGtrWmhvV0lqZW1sVU51LUhaSHJnWlhJeHZpOTRsQlM5WFEzTUxmcjN5dE1zNnNUSmVhb2Q3OFlwa0g1a3VOdmg0R2dqYnZjVUIySGhtRG5fZzJrZmxaVm5CU3ZUSA?oc=5 | unknown |
+| 12 | 3 | 기타 | 2026-10-05 | www.m-i.kr | 완성차가 주목한 46시리즈…K-배터리, 시장 공략 박차 | https://www.m-i.kr/news/articleView.html?idxno=2002375 | unknown |
+| 13 | 3 | cathode | 2026-10-05 | www.businesspost.co.kr | LG에너지솔루션 폴란드 공장 LFP로 체질 전환, 김동명 유럽 ESS 시장 정조... | https://www.businesspost.co.kr/BP?command=article_view&num=448544 | unknown |
+| 14 | 3 | separator | 2026-10-04 | indexbox.io | Aramid Polymer Separator Membranes Market Forecast to 2035, Driven by EV Battery Safety Demand | https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVlhoTDlkRWZBS2g3OHUtSHprYXhJc0hTUjY2WVBMYUIyT056QzZ1ZmdRWWptN0VWVi10YjUzeXpqd29vZmhSa2lxeHJFWVBqN1ktQUw0WFVHbTFURU5SQnlOcmhhRTJVZkpLRm9hdl93R2lQZ2FLdUVVYmZMc19HanoyS0l1RkpHZDNyaHctaXJNRFBQRURMVE5TTzY1ZEVpRS10NTJKZlh1RmVKTTFTOVFfRlpPTkRzbHVVeWtmeVU?oc=5 | unknown |
+| 15 | 3 | cathode | 2026-10-04 | Bioengineer.org | Double Interfaces Supercharge a Promising Sodium Battery Cathode Beyond Its Theoretical Limit | https://news.google.com/rss/articles/CBMiugFBVV95cUxNdXRrZlJidE1PVnZBUlota1lWbW9aTkF4MVVhQTlCckZaWnVLMThFdEp2MXFsU19USjlEdkU2STAxNFhIWnEwU3U5YmsyNE5FWFcwWHRZU3hDWXRJazJxU19LZjRIR1YzTG40N3JORWIyanNIdGpiZXFkWFlualY4QzA0WFNEODg1aG03Vm5uanZmQWZ5bGpoeGFxOGNmV1BmN0UtZUdXeWRnQjlocllfdjdpaUNhc2hvUUE?oc=5 | unknown |
+| 16 | 3 | anode | 2026-10-04 | Bioengineer.org | Iron Atoms in Porous Carbon Push Lithium-Ion Battery Anodes to New Heights | https://news.google.com/rss/articles/CBMioAFBVV95cUxQSV9za1VWMXlYTlVHSHVJOWVaZTVlcHFoVFZCakR5UFdYb2hXNzh2VFE1V3VRc05Fc1k3T05yT2t2VVdzTXB3RF9qQzd2VkVSaU4wQndkZUZYZ3NCZlFfU2dYeV9jOXdGdU1ZYllHS21kRHBfR0NvTmJ3NG85YnVYWUZoazF4MWE2czZCS2h5SFhzLWFBdVp4UzNqTi1UNmRu?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. 中 배터리 7개사 점유율 73.3%⋯韓 3사는 12.7%로 3.9%p 하락
+- 발행일: 2026-10-04
+- 매체: www.autodaily.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.autodaily.co.kr/news/articleView.html?idxno=600917
+- 참고 링크: https://www.g-enews.com/view.php?ud=2026100508415232750c8c1c064d_1, https://www.starnewskorea.com/business-life/2026/10/05/2026100509010588164
+- 인기신호: unknown
+- 3문장 요약:
+  - SNE리서치에 따르면 중국 배터리 7개사의 시장 점유율은 73.3%에 달했으며, 한국 3사의 점유율은 12.7%로 3.9%p 하락했습니다.
+  - 미국 전기차 수요 공백으로 일부 업체는 전기차용 생산라인을 ESS용으로 전환하는 움직임을 보이고 있습니다.
+  - 이는 미국 연방정부의 신규 정책 등 북미 시장 부진에 따른 영향으로 분석됩니다.
+- 관련 기업: SNE리서치
+
+### 2. 이용민 DGIST 교수 "배터리는 미래 첨단산업 핵심…LMR 상용화 한발 앞서...
+- 발행일: 2026-10-05
+- 매체: www.imaeil.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.imaeil.com/page/view/2026100512533369862
+- 인기신호: unknown
+- 3문장 요약:
+  - 이용민 DGIST 교수는 차세대 배터리 중 리튬망간리치(LMR)가 전고체 배터리보다 상용화에 앞서 있다고 평가했습니다.
+  - LMR은 소재 개발 시 기존 리튬이온배터리(LIB) 공정에 그대로 적용할 수 있다는 장점이 있습니다.
+  - 이는 상용화 가능성 측면에서 큰 이점으로 작용할 것으로 보입니다.
+- 관련 기업: DGIST, 첨단산업, 리튬이온배터리
+
+### 3. 중국, 2030년 전고체 배터리 양산 공식화…지리·니오 동맹 출범
+- 발행일: 2026-10-05
+- 매체: www.g-enews.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.g-enews.com/view.php?ud=2026100505530020382bd56fbc3c_1
+- 참고 링크: https://news.google.com/rss/articles/CBMidkFVX3lxTE9lMHdSSlB5c2FveWEyOVpRWkdLcE53TkMybEtsSDNVVWhpVzhETTkzWEgzYjB3a05BZXk1S09MbGcyRmhYdThQNUxiRGJvclV0X1BUWnBnRlgtclFNajFLNmxvY1puS2I0ejJrOVpFTDdCcGFFdlE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국 정부는 2030년 전고체 배터리 초기 규모화 적용을 목표로 하는 5개년 계획을 발표했습니다.
+  - 공업정보화부 등 7개 부처는 제15차 신형 배터리 산업 발전 5개년 계획을 통해 이 같은 목표를 제시했습니다.
+  - 이는 중국이 전고체 배터리 시장 선점을 위한 공식적인 의지를 표명한 것으로 해석됩니다.
+- 관련 기업: 지리, 니오
+
+### 4. LFP 소재도 국내서 확보…K배터리, '탈중국 공급망' 속도
+- 발행일: 2026-10-05
+- 매체: www.inews24.com (출처등급 3)
+- 분야: cathode
+- 링크: http://www.inews24.com/view/2011617
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 업체들은 미국 현지 ESS 배터리 생산을 위해 안정적인 비중국 소재 공급망 확보에 속도를 내고 있습니다.
+  - 이는 수주와 세액공제 경쟁력 확보에 직결될 수 있는 중요한 요소입니다.
+  - 다만, 공급 기업의 국적만으로 규제 충족 여부가 결정되는 것은 아닙니다.
+- 관련 기업: LFP
+
+### 5. National Fire Protection Association Announces Fire Prevention Week, October 4-10, Focuses On Lithium-Ion Battery Charging Safety
+- 발행일: 2026-10-04
+- 매체: Sierra Sun Times (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMipAJBVV95cUxQcFVyNjlsWUJGcU45T0pFQUs0WnJJR2RxT25OdlFzTGQ5bDJYLVo1MlBMZldJV3Y2Ry1OWGQ2Q1dfcTlWVndFOFowMkhRRzZoR3NxUUc1OC1aQ2xBWmZadWVkM2Q0eExMckx6eGQ5SW9fN3N3VFNHbm5uVVR2Qi1jQ3Y2dEVjQmh2MFRjTmVCR3EzVmdNaXgtNmZIREZ3aUFRRGMyVkozNFozREtId3NxZUpKQWV6TUxwSXVWa0N1V25DczBldVVSOWpqMWZQcTZuRXJVTjI2Z2VBOTM3ZEgxZDRqLWpraDFTUlZ4eG91djZtZzB0T1o1OHJHY29jVElYOUNxQUhkb3A1YnZRamNzLTFabDFCMXltU0xkekswcmladmh0?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국 국립소방협회(NFPA)는 10월 4일부터 10일까지를 화재 예방 주간으로 지정했습니다.
+  - 올해 화재 예방 주간은 특히 리튬이온 배터리 충전 안전에 중점을 두고 있습니다.
+  - 이는 리튬이온 배터리 사용 증가에 따른 안전 문제에 대한 경각심을 높이기 위한 조치입니다.
+- 관련 기업: National Fire Protection Association
+
+### 6. Hyundai Motor, Toyota, BYD Intensify Race to Develop 'Dream Battery' Solid-State Technology
+- 발행일: 2026-10-04
+- 매체: finance.biggo.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMidkFVX3lxTE56SHVoX3BpcG9pMDBaSVloZVRUcTYzNGtHNmtva0VNSjZQUl8xdURsY3VGUXpEOW5ld2lJUkxPY2RnOXNkdWVFb0FrUmtIcUxDN3FFTFJ1WnBDZ0d4UTJ0WTVZeWcwcEgwR1FPcUN3ZlUyRDlET0E?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 현대자동차, 토요타, BYD 등 주요 완성차 업체들이 차세대 배터리로 주목받는 전고체 배터리 기술 개발 경쟁에 박차를 가하고 있습니다.
+  - 이들 업체는 '꿈의 배터리'로 불리는 전고체 기술을 선점하기 위해 치열한 경쟁을 벌이고 있습니다.
+  - 이는 미래 자동차 산업의 핵심 동력이 될 배터리 기술 주도권을 확보하기 위한 전략입니다.
+- 관련 기업: Hyundai Motor, Toyota, BYD
+
+### 7. 포항시·포스텍, 독일 프라운호퍼와 손잡고 '차세대 2차전지' 선점
+- 발행일: 2026-10-05
+- 매체: www.imaeil.com (출처등급 3)
+- 분야: 정책
+- 링크: https://www.imaeil.com/page/view/2026100513433586849
+- 인기신호: unknown
+- 3문장 요약:
+  - 포항시와 포항공과대학교(포스텍)가 독일 프라운호퍼와 협력하여 차세대 2차전지 기술 선점에 나섭니다.
+  - 이번 협력을 통해 유럽 표준을 선도하는 프라운호퍼와 포항의 2차전지 소재 생산 역량을 결합하여 배터리 데이터 표준 모델을 마련할 계획입니다.
+  - 이는 지역 기업의 글로벌 규제 대응 및 실증 인프라 연계를 강화하는 데 기여할 것으로 기대됩니다.
+- 관련 기업: 포스텍, 프라운호퍼, 2차전지
+
+### 8. 中 배터리 반격 할 'K배터리' 소재에서 시작…차세대 기술 개발·양산 속...
+- 발행일: 2026-10-05
+- 매체: www.imaeil.com (출처등급 3)
+- 분야: electrolyte
+- 링크: https://www.imaeil.com/page/view/2026100512533561814
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 배터리 업계는 전고체 배터리 분야에서 경쟁력을 확보하기 위해 노력하고 있습니다.
+  - 현재 고체전해질 파일럿 라인을 운영 중이며, 주요 배터리 업체의 품질 검증 절차를 밟고 있습니다.
+  - 양산 라인 설계도 완료되어 고객 수요 확정 시 착공에 들어가 이르면 2027년 양산이 가능할 것으로 예상됩니다.
+
+### 9. Apartment complex in San Francisco evacuated after lithium-ion battery fire
+- 발행일: 2026-10-04
+- 매체: NBC Bay Area (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMihwFBVV95cUxPbVFjM3lPZ1FseUE0d0ZoTFBqTkVRQVJGTGFfVVFyUUpZQ0RudEx4VDdPclVZRC1FRURTTUFVRnhEa0p1aWt4bS1PeGxwSHRpb0p3eWx6N2ZBZmttUl83YjRLREdLcVJEQndfSjlEYXJCbzg5OG5NU2FQMVZEMnduMlE0emU0cDTSAY8BQVVfeXFMTUdxb1NxdmxwVlpteG0xajNKbFRJd291NVhZVkRLZ0JxSDBQX0stcFhtblRxbXd1ejd6c3M5V2xMNlBVMDRlN0M5WmRhbmI5TGoyUDgtbzhaUi1TVFhGM2hjSW9pSDFiS3Rsb3dkbm5JM0EwalZ0YVVkdFpZTzhxTW54Uk42Nm9jVjg0cmJBZEE?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMizgFBVV95cUxOSk5pU1ZoYTI2ZE9pUFYzYThPZFJhaU5oU1RxSDY0ZUo1U2JPSTRlWlNPNVFHaS1lWk5zbTFRZWxHV1lWSV9YaW1pQUpsZWNzVzkwSU5Oc3lNdE5UUHNwcHpvYnJxd0x1dlJzNS1NdXM4bFNIZFlQcGRPaVhudVZZV2VYenBReGJpczFNYjBjTGs5Q3pGSzJkSzI2dTUxUkJpT1pBVGkyVlFZU0xCVWxreWZ6eGFOdzdMX1JEWTR2YWJFU0VvcFJHOVV0cnFKUQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 샌프란시스코의 한 아파트 단지가 리튬이온 배터리 화재로 인해 대피하는 소동이 벌어졌습니다.
+  - 이번 사건은 리튬이온 배터리 사용 증가에 따른 화재 위험성을 다시 한번 보여주었습니다.
+  - 주거 공간에서의 안전한 배터리 사용 및 관리에 대한 중요성이 강조되고 있습니다.
+- 관련 기업: NBC
+
+### 10. Fires started by lithium-ion batteries are increasing in Oregon. Here’s how you can protect your home
+- 발행일: 2026-10-04
+- 매체: KPTV (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZVdBYjNQY1pueHNaOXN6aGNyQ0ZPQnRXXzVCanh6LV9zeVJzVGk5RzFrSTVHU1JtaXd3cU55SmJhS2NXQlhMLXM4OEgxcGN0WlBacnFyRWczRXR3cXlOWi1oM3lSbnVhOWlGaFg2akpfZGF0dThEcGNMOEpad0xoeUc3TFl1RkRaZmhTalJNYXdPV3gySU16Q0JFRjFSb2RtTDRhSUkzTHY2Tzg1YXF6RGtqdE1tRmU3SWxSdDVHcmoydzlfSExKeNIB3AFBVV95cUxPNVY5VmNBTHNSLUdLWlByenpzYXBSaXNLSmpQYUdFM2I2eVRIT0k1NDZTS0h4dFdqdWpIMlhyclRmLUVwblhHb1pBRzQ4Rmc0V3QxUENFV0xmbF9xSnp5blVoMVJpZS1LTjJVN0tDRTAwWGVNSFUtSlpzaDE2c25WRUxFcjlNVm9NNGdNSVAtdVgzQUdVOE0xdU4tNDFyRFlTTzd6eUhXRVc5ZkpQUDVLcVJmVUhST05TSnZvc1RmSUs0N0VHNWt4ckVGZXB4SkdqRUJGVEZFOXJsMFFE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 오리건주에서는 리튬이온 배터리로 인한 화재 발생 건수가 증가하고 있어 주의가 요구됩니다.
+  - 이에 따라 가정에서 리튬이온 배터리 사용 시 안전 수칙을 준수하여 화재로부터 집을 보호하는 것이 중요합니다.
+  - 안전한 충전 및 사용 습관이 화재 예방의 핵심입니다.
+- 관련 기업: KPTV
+
+### 11. Protect your home from fires started by lithium-ion batteries
+- 발행일: 2026-10-04
+- 매체: FOX Carolina News (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMipAFBVV95cUxNZm4tUm9mNkt2bDFZTzlrMnhKNmFqR01lRnBpVWlYZC1EeGhhQnJvZ2RVc3QtM2tRLTJadm5MR29ySEtzVUlMUGtrWmhvV0lqZW1sVU51LUhaSHJnWlhJeHZpOTRsQlM5WFEzTUxmcjN5dE1zNnNUSmVhb2Q3OFlwa0g1a3VOdmg0R2dqYnZjVUIySGhtRG5fZzJrZmxaVm5CU3ZUSA?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMioAFBVV95cUxPOUdTMVZlR3JUN3ZPU2lLRHpWdXJVci1IYTlEb1dqUVNXcnVmZ0NDak1JZmZFX294TmFUUG5sUU4ybXZXTzZ6b1FfS2YyV19vQUpoRGRJbG5iTm1vWXdFUFZ0cFZTVDJEVi1MbFNJQ1o5bjRsOGMxdDBqLUdyN3dDbkE0VUV3THljZEx4ZFc5WmFuN0EyZ2MwMW9JVnlGcGlC?oc=5, https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ090WkRUbEVIbFIxRHRuZzdWeV8xQ0RvOFhORDBwOHQwLVd2VlJBU09wWkd4ellnSTdJcEV2WUo1U1ZhWE44eW9NU1RVMEhqTEhqQ2lNTTg3WnU5UmJsa2oyM0REd1g3eTAxVWdMUGdDTG1sdUEyeUpkZUJOOEhrcFB1UUZsV3BPcnlackZzVzdZNWUtYjRMY0hvNA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 리튬이온 배터리로 인해 발생하는 화재로부터 가정을 보호하는 방법에 대한 정보가 제공되고 있습니다.
+  - 안전한 사용 및 관리 지침을 숙지하는 것이 중요합니다.
+  - 이는 잠재적인 화재 위험을 줄이고 안전한 생활 환경을 유지하는 데 도움이 될 것입니다.
+- 관련 기업: FOX
+
+### 12. 완성차가 주목한 46시리즈…K-배터리, 시장 공략 박차
+- 발행일: 2026-10-05
+- 매체: www.m-i.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.m-i.kr/news/articleView.html?idxno=2002375
+- 인기신호: unknown
+- 3문장 요약:
+  - 국내 배터리 업계가 완성차 업체의 주목을 받고 있는 46㎜ 원통형 배터리 시장 공략에 나섰습니다.
+  - 현재는 전기차 수요가 많지만, 향후 에너지저장장치(ESS)나 드론 등 다양한 분야로의 수요 확대 가능성도 있습니다.
+  - 이는 K-배터리의 시장 경쟁력을 강화하고 새로운 성장 동력을 확보하기 위한 전략입니다.
+- 관련 기업: K-배터리
+
+### 13. LG에너지솔루션 폴란드 공장 LFP로 체질 전환, 김동명 유럽 ESS 시장 정조...
+- 발행일: 2026-10-05
+- 매체: www.businesspost.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.businesspost.co.kr/BP?command=article_view&num=448544
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션 폴란드 공장이 전기차 수요 부진과 ESS 배터리 수요 증가에 대응하기 위해 LFP 배터리 생산 라인으로 전환하고 있습니다.
+  - 이는 유럽 시장의 에너지 안보 및 기후 목표 달성을 위한 ESS 설치 확대 추세에 발맞춘 전략입니다.
+  - 이를 통해 LG에너지솔루션은 유럽 ESS 시장에서의 경쟁력을 강화할 것으로 기대됩니다.
+- 관련 기업: LG에너지솔루션, LFP
+
+### 14. Aramid Polymer Separator Membranes Market Forecast to 2035, Driven by EV Battery Safety Demand
+- 발행일: 2026-10-04
+- 매체: indexbox.io (출처등급 3)
+- 분야: separator
+- 링크: https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVlhoTDlkRWZBS2g3OHUtSHprYXhJc0hTUjY2WVBMYUIyT056QzZ1ZmdRWWptN0VWVi10YjUzeXpqd29vZmhSa2lxeHJFWVBqN1ktQUw0WFVHbTFURU5SQnlOcmhhRTJVZkpLRm9hdl93R2lQZ2FLdUVVYmZMc19HanoyS0l1RkpHZDNyaHctaXJNRFBQRURMVE5TTzY1ZEVpRS10NTJKZlh1RmVKTTFTOVFfRlpPTkRzbHVVeWtmeVU?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 아라미드 폴리머 분리막 시장은 2035년까지 전기차 배터리 안전 수요 증가에 힘입어 성장할 것으로 전망됩니다.
+  - 이는 전기차 배터리의 안전성 향상 요구가 높아짐에 따라 관련 소재 시장의 중요성이 부각되고 있음을 의미합니다.
+  - 분리막 기술 발전은 전기차 배터리 성능 및 안전성 개선에 핵심적인 역할을 할 것입니다.
+
+### 15. Double Interfaces Supercharge a Promising Sodium Battery Cathode Beyond Its Theoretical Limit
+- 발행일: 2026-10-04
+- 매체: Bioengineer.org (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMiugFBVV95cUxNdXRrZlJidE1PVnZBUlota1lWbW9aTkF4MVVhQTlCckZaWnVLMThFdEp2MXFsU19USjlEdkU2STAxNFhIWnEwU3U5YmsyNE5FWFcwWHRZU3hDWXRJazJxU19LZjRIR1YzTG40N3JORWIyanNIdGpiZXFkWFlualY4QzA0WFNEODg1aG03Vm5uanZmQWZ5bGpoeGFxOGNmV1BmN0UtZUdXeWRnQjlocllfdjdpaUNhc2hvUUE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 새로운 연구에서 다공성 탄소 내 철 원자를 활용하여 리튬이온 배터리 음극재의 성능을 이론적 한계를 넘어 향상시키는 기술이 개발되었습니다.
+  - 이 기술은 기존 리튬이온 배터리의 에너지 밀도와 수명을 크게 개선할 잠재력을 가지고 있습니다.
+  - 이는 차세대 배터리 기술 발전에 중요한 기여를 할 것으로 기대됩니다.
+
+### 16. Iron Atoms in Porous Carbon Push Lithium-Ion Battery Anodes to New Heights
+- 발행일: 2026-10-04
+- 매체: Bioengineer.org (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMioAFBVV95cUxQSV9za1VWMXlYTlVHSHVJOWVaZTVlcHFoVFZCakR5UFdYb2hXNzh2VFE1V3VRc05Fc1k3T05yT2t2VVdzTXB3RF9qQzd2VkVSaU4wQndkZUZYZ3NCZlFfU2dYeV9jOXdGdU1ZYllHS21kRHBfR0NvTmJ3NG85YnVYWUZoazF4MWE2czZCS2h5SFhzLWFBdVp4UzNqTi1UNmRu?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 이중 계면 구조를 활용하여 나트륨 배터리 양극재의 성능을 이론적 한계를 초월하도록 향상시키는 기술이 개발되었습니다.
+  - 이 연구는 나트륨 배터리의 에너지 저장 용량을 크게 늘릴 수 있는 가능성을 제시합니다.
+  - 이는 저렴하고 풍부한 나트륨을 활용한 차세대 배터리 개발에 중요한 진전을 의미합니다.
