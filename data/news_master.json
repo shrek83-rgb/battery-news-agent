@@ -1,5 +1,39 @@
 [
   {
+    "title": "\"꿈의 배터리 앞당긴다\"…에코프로비엠·삼성SDI, 2027년 전고체 상용화...",
+    "description": "에코프로비엠과 삼성SDI가 차세대 2차전지로 주목받는 전고체 배터리 상용화를 앞당기기 위해 손을 잡았다. 양사는 전고체 배터리용 소재 개발 협력을 위한 업무협약(MOU)을 맺고 기술 개발부터 양산 체제 구축까지 전방위...",
+    "link": "https://www.widedaily.com/news/articleView.html?idxno=301739",
+    "source": "www.widedaily.com",
+    "published_at": "2026-10-06",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.ccreview.co.kr",
+        "link": "https://www.ccreview.co.kr/news/articleView.html?idxno=359227"
+      },
+      {
+        "source": "news.tf.co.kr",
+        "link": "https://news.tf.co.kr/read/economy/2373150.htm"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 97,
+    "monitoring_importance": 97,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "에코프로비엠",
+      "삼성SDI",
+      "에코프로비엠·삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "에코프로비엠과 삼성SDI가 전고체 배터리 상용화를 앞당기기 위해 협력한다.",
+      "양사는 전고체 배터리용 소재 개발 협력을 위한 업무협약(MOU)을 체결했다.",
+      "이는 기술 개발부터 양산 체제 구축까지 전방위적인 협력을 포함한다."
+    ],
+    "uid": "a3f7ca15aaf301d1ab76510c002beac577ec2603"
+  },
+  {
     "title": "완성차가 주목한 46시리즈…K-배터리, 시장 공략 박차",
     "description": "매일일보 = 김현우 기자 | 국내 배터리업계가 46㎜ 원통형 배터리 시장 공략에 나섰다. 완성차업체들이... 이 관계자는 \"현재는 전기차 쪽 수요가 많지만 향후 고객과의 협의에 따라 에너지저장장치(ESS)나 드론...",
     "link": "https://www.m-i.kr/news/articleView.html?idxno=2002375",
@@ -168,6 +202,243 @@
       "이를 통해 LG에너지솔루션은 유럽 ESS 시장에서의 경쟁력을 강화할 것으로 기대됩니다."
     ],
     "uid": "997f15a5974d76a05e4b7460327f90cafe667e2b"
+  },
+  {
+    "title": "CosMX Details 40% Silicon-Anode Cell Behind Honor Magic9 Pro Max's 8,800mAh Battery",
+    "published_at": "2026-10-05",
+    "source": "pandaily.com",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc3ppQkNTYmlTUWRYM2xMaDRjNk0yaXJwdS1MU0k0VDJVZFl5U1VBUnJJcUczMFlDZWtGTFpFV1Y0NmhTVVZndzVMSGJaSWxjZlY4RWNPM1Q0d3RnMTJFTmRzN3dhejNrSHlvUmtWS3dOVnNlTnJtaEpBc2RlYmlLZ3JjcjI4WTBpdVF6aDBYS1dERzlTdEpTS3hoVHZJMDRiZTg2dw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNc3ppQkNTYmlTUWRYM2xMaDRjNk0yaXJwdS1MU0k0VDJVZFl5U1VBUnJJcUczMFlDZWtGTFpFV1Y0NmhTVVZndzVMSGJaSWxjZlY4RWNPM1Q0d3RnMTJFTmRzN3dhejNrSHlvUmtWS3dOVnNlTnJtaEpBc2RlYmlLZ3JjcjI4WTBpdVF6aDBYS1dERzlTdEpTS3hoVHZJMDRiZTg2dw?oc=5\" target=\"_blank\">CosMX Details 40% Silicon-Anode Cell Behind Honor Magic9 Pro Max's 8,800mAh Battery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pandaily.com</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "CosMX"
+    ],
+    "summary_3_sentences": [
+      "CosMX는 Honor Magic9 Pro Max의 8,800mAh 배터리에 사용된 40% 실리콘 음극재 셀에 대한 세부 정보를 공개했다.",
+      "이 기술은 배터리 에너지 밀도를 향상시키는 데 기여한다.",
+      "이는 스마트폰 배터리 기술의 발전을 보여준다."
+    ],
+    "uid": "f921ae64709ae0030e12f9af76b10d1e6a9a31e9"
+  },
+  {
+    "title": "CAMINUS Signs Contract Manufacturing Agreement with Amprius Technologies for U.S. Pouch Cell Production",
+    "published_at": "2026-10-05",
+    "source": "Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdWxCZU5GRV94bzVsVVQ5YllPVkR3Vnpzc2JRd0tyRXpkcVI3ZG1JMHVnampSZWFfUlUxaWdULWV5aWlWUVhrSDNNdjZwRm45dWJJMTNFSVBYb3dRdHljOUxPOHNtcGJJVUpjOWZTcmpmYTlNZ2k0QVpfUzdkVzI1ZmVucFh6Wm9HX3hTbDkyRC01c0hEbFJfWWEtbXdYS3diZFIzRjdB?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNdWxCZU5GRV94bzVsVVQ5YllPVkR3Vnpzc2JRd0tyRXpkcVI3ZG1JMHVnampSZWFfUlUxaWdULWV5aWlWUVhrSDNNdjZwRm45dWJJMTNFSVBYb3dRdHljOUxPOHNtcGJJVUpjOWZTcmpmYTlNZ2k0QVpfUzdkVzI1ZmVucFh6Wm9HX3hTbDkyRC01c0hEbFJfWWEtbXdYS3diZFIzRjdB?oc=5\" target=\"_blank\">CAMINUS Signs Contract Manufacturing Agreement with Amprius Technologies for U.S. Pouch Cell Production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "CAMINUS",
+      "Amprius Technologies"
+    ],
+    "summary_3_sentences": [
+      "CAMINUS는 Amprius Technologies와 미국 파우치 셀 생산을 위한 위탁 생산 계약을 체결했다.",
+      "이 계약을 통해 Amprius Technologies는 미국 내 생산 능력을 확대할 수 있게 되었다.",
+      "이는 항공 및 방산 분야에 사용될 고성능 배터리 생산에 기여할 것이다."
+    ],
+    "uid": "a93f0a47eeeca3ae63c07afa53c69ea20f38d34d"
+  },
+  {
+    "title": "China BAK Battery Targets India Growth, AI Data Centers With Major Capacity Expansion",
+    "published_at": "2026-10-05",
+    "source": "TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ3U4aGpEZmk4MVQzOFI0Mlh6ZnFWYzZhcU5vQ2NtcjFsazJZaWZ2RS1TQlpsNkRXZkZTQTZtOWNiajAwZHdZcHNBUlRIdTFLQXJQQWZZRzNZQTNrUFgtbkFXY3NoaW1wTDQxVWhzRUxndW1NNEhyZWNsdURnN1NPdWRCQTd4VGRCYkNlQkwwZlhMYUdEQ0hSVzZUTFhpOUZOVW5laXdWODVwcUhBRFZoLVRxeEptLVpVVV9BVVlRbWZYdktpbG5TRTZaX2EtbHhkeHhITHl0a1BEUlVZLXc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ3U4aGpEZmk4MVQzOFI0Mlh6ZnFWYzZhcU5vQ2NtcjFsazJZaWZ2RS1TQlpsNkRXZkZTQTZtOWNiajAwZHdZcHNBUlRIdTFLQXJQQWZZRzNZQTNrUFgtbkFXY3NoaW1wTDQxVWhzRUxndW1NNEhyZWNsdURnN1NPdWRCQTd4VGRCYkNlQkwwZlhMYUdEQ0hSVzZUTFhpOUZOVW5laXdWODVwcUhBRFZoLVRxeEptLVpVVV9BVVlRbWZYdktpbG5TRTZaX2EtbHhkeHhITHl0a1BEUlVZLXc?oc=5\" target=\"_blank\">China BAK Battery Targets India Growth, AI Data Centers With Major Capacity Expansion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "China BAK Battery",
+      "BAK",
+      "AI"
+    ],
+    "summary_3_sentences": [
+      "China BAK Battery는 인도 시장 성장과 AI 데이터 센터를 겨냥하여 대규모 생산 능력 확장을 추진하고 있다.",
+      "이는 글로벌 배터리 시장에서의 경쟁력 강화 및 신규 시장 개척을 목표로 한다.",
+      "회사는 AI 데이터 센터 수요 증가에 맞춰 배터리 생산을 늘릴 계획이다."
+    ],
+    "uid": "8c48142551057b8ada4be7a99ce6f14deb1e4cf3"
+  },
+  {
+    "title": "China wants solid-state batteries in use by 2030, and CATL rates them four out of nine",
+    "published_at": "2026-10-05",
+    "source": "The Next Web",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YNkF0ekMwRldfaEZTdDRjRjZfTWhVZUJPcEY5ZEVlWVppLVRiSXUzWnhpTzRaYXVWOGhHZ0x1NWM0UkVHSnpFZjRrRElBSzQtY3ZpMUd5ZVdfc0o3NTZEUjJaNWw0Tjc0SVE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE5YNkF0ekMwRldfaEZTdDRjRjZfTWhVZUJPcEY5ZEVlWVppLVRiSXUzWnhpTzRaYXVWOGhHZ0x1NWM0UkVHSnpFZjRrRElBSzQtY3ZpMUd5ZVdfc0o3NTZEUjJaNWw0Tjc0SVE?oc=5\" target=\"_blank\">China wants solid-state batteries in use by 2030, and CATL rates them four out of nine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Next Web</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 95,
+    "monitor_score": 95,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "중국은 2030년까지 전고체 배터리 상용화를 목표로 하고 있다.",
+      "CATL은 전고체 배터리 기술에 대해 9가지 평가 항목 중 4점을 부여했다.",
+      "이는 중국의 배터리 기술 발전 의지를 보여준다."
+    ],
+    "uid": "7e139981dbadcc95e1d5d70c58978b731cf419c2"
+  },
+  {
+    "title": "Lithium Difluorophosphate Market Size, Share, Growth, Analysis, Report, 2034",
+    "published_at": "2026-10-05",
+    "source": "Straits Research",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YOU1kclVVUEdEMEJSeTNobE5YS0hvWERyd3FOMlQza0JMX3VPaEd3S082WXFvc1hKQ0lCZHdSQ3Q1M1R4RnJjcXdicjlvNGpnOC1lZFZPNjVCc0tKSHJiNnNFLWtWNXp1Z1JwcWhqNk95VUdvLVE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9YOU1kclVVUEdEMEJSeTNobE5YS0hvWERyd3FOMlQza0JMX3VPaEd3S082WXFvc1hKQ0lCZHdSQ3Q1M1R4RnJjcXdicjlvNGpnOC1lZFZPNjVCc0tKSHJiNnNFLWtWNXp1Z1JwcWhqNk95VUdvLVE?oc=5\" target=\"_blank\">Lithium Difluorophosphate Market Size, Share, Growth, Analysis, Report, 2034</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Straits Research</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "리튬 디플루오로포스페이트 시장은 2034년까지 성장할 것으로 전망된다.",
+      "시장 규모, 점유율, 성장률 및 분석 보고서가 발표되었다.",
+      "이는 관련 소재 시장의 중요성을 시사한다."
+    ],
+    "uid": "60bd5a6f93f8279e9bc941abeb73a31f71ca4a3d"
+  },
+  {
+    "title": "A 92,000-square-foot Indiana facility will make Amprius battery cells for aviation and defense.",
+    "published_at": "2026-10-05",
+    "source": "Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRlAwOVBqckFGSkxPLWh2cmJvdjZwWFVaT19wMjRJVHNLSFNjYjNRZ1hGUi1FWUtjNUxCcUltZ1JMMTlrbE5rX0JDYnM2eVo0QUhHYUV6SDVPWjNMQTd5elB3a1JLRmVUTHRjQkRQeTlobHNCQVNVdnpGMjA0cFR4T252NFQ5UnA1Rkh4bFo3TGNtZFlNdWIycFJid290ck45bUFMM2dnRE1EZTVlTk1LVnBpNEY?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPRlAwOVBqckFGSkxPLWh2cmJvdjZwWFVaT19wMjRJVHNLSFNjYjNRZ1hGUi1FWUtjNUxCcUltZ1JMMTlrbE5rX0JDYnM2eVo0QUhHYUV6SDVPWjNMQTd5elB3a1JLRmVUTHRjQkRQeTlobHNCQVNVdnpGMjA0cFR4T252NFQ5UnA1Rkh4bFo3TGNtZFlNdWIycFJid290ck45bUFMM2dnRE1EZTVlTk1LVnBpNEY?oc=5\" target=\"_blank\">A 92,000-square-foot Indiana facility will make Amprius battery cells for aviation and defense.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stock Titan</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Amprius Technologies"
+    ],
+    "summary_3_sentences": [
+      "인디애나주에 위치한 92,000평방피트 규모의 시설에서 Amprius 배터리 셀이 생산될 예정이다.",
+      "이 시설은 항공 및 국방 분야를 위한 배터리 생산에 중점을 둘 것이다.",
+      "이는 Amprius Technologies의 미국 내 생산 역량 강화의 일환이다."
+    ],
+    "uid": "ce70e209e7c15ff9b3ad61e43cebf43557633e66"
+  },
+  {
+    "title": "Lithium Silicon Battery Market To 2035: Energy Density Demand Drives Growth - News and Statistics",
+    "published_at": "2026-10-05",
+    "source": "IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWkdDYWdvNUJRdmhyWTNkSmZldUlxb3hSRU0yTjF1LXJIZmZWaUNqWXVPX2o3UHVlS0JuMnFyak5EN01ZWGx6ZEg4aWxIaWZqVk9SelR3azBHWHJyUGZiV3BwT0tmMmZzRnZtNHg5UU90Vzc3VGN2LWU2cWhSMy1ZVF9WRXpsUzdITHFQRkxicWd0bUNNSXY2RkE3YkhYYVJIOXhpZ24yVVZfNmIwOFJQT2Jpbw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPWkdDYWdvNUJRdmhyWTNkSmZldUlxb3hSRU0yTjF1LXJIZmZWaUNqWXVPX2o3UHVlS0JuMnFyak5EN01ZWGx6ZEg4aWxIaWZqVk9SelR3azBHWHJyUGZiV3BwT0tmMmZzRnZtNHg5UU90Vzc3VGN2LWU2cWhSMy1ZVF9WRXpsUzdITHFQRkxicWd0bUNNSXY2RkE3YkhYYVJIOXhpZ24yVVZfNmIwOFJQT2Jpbw?oc=5\" target=\"_blank\">Lithium Silicon Battery Market To 2035: Energy Density Demand Drives Growth - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "anode",
+    "companies": [],
+    "summary_3_sentences": [
+      "리튬 실리콘 배터리 시장은 2035년까지 성장할 것으로 예상된다.",
+      "에너지 밀도에 대한 수요 증가는 시장 성장의 주요 동력이다.",
+      "이는 차세대 배터리 기술 발전에 대한 기대를 높인다."
+    ],
+    "uid": "16d1adda144f81827c60ef1b3aca6d142b86a58c"
+  },
+  {
+    "title": "Statkraft and Greenvolt sign largest EU battery energy storage tolling agreement for projects in Poland",
+    "published_at": "2026-10-05",
+    "source": "Energy-Storage.News",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbWlURG8ta1RQRlRERTVXdWFPT3pEZDlUeEpONV9Da1U2WGhnTGtKaENEWWV5NEpHVjJrMkF5WTF5Q1lYeUlYeUZRZ0NlOHZpSjItTXhxVUdGZzhmb2h4SUFGeC1mYnRMa0RSRzFaVXlTSnJHR1NueWxKM1NDa3ZjVGVaNVAwSEhDOW5oZDhtR0dHaFRyRHVZaF81TkxBTzdqSnJ4a3pyRkRIRmlUZFNDbUpKcHFMWm1ta2podzF5ZHpzMzFKYm1sTGRiV3Vua0NnRHc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbWlURG8ta1RQRlRERTVXdWFPT3pEZDlUeEpONV9Da1U2WGhnTGtKaENEWWV5NEpHVjJrMkF5WTF5Q1lYeUlYeUZRZ0NlOHZpSjItTXhxVUdGZzhmb2h4SUFGeC1mYnRMa0RSRzFaVXlTSnJHR1NueWxKM1NDa3ZjVGVaNVAwSEhDOW5oZDhtR0dHaFRyRHVZaF81TkxBTzdqSnJ4a3pyRkRIRmlUZFNDbUpKcHFMWm1ta2podzF5ZHpzMzFKYm1sTGRiV3Vua0NnRHc?oc=5\" target=\"_blank\">Statkraft and Greenvolt sign largest EU battery energy storage tolling agreement for projects in Poland</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Energy-Storage.News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Statkraft",
+      "Greenvolt",
+      "EU"
+    ],
+    "summary_3_sentences": [
+      "Statkraft와 Greenvolt는 폴란드 프로젝트를 위한 유럽 최대 규모의 배터리 에너지 저장소 위탁 계약을 체결했다.",
+      "이 계약은 유럽 내 에너지 저장 시스템 확장에 기여할 것이다.",
+      "이는 재생 에너지 통합 및 전력망 안정화에 중요한 역할을 할 것으로 기대된다."
+    ],
+    "uid": "9edb74f6692c05746d748adac9b65835c1694f30"
+  },
+  {
+    "title": "Simple Capacity Cap Tames Swelling Tin Anodes in Sodium-Ion Batteries",
+    "published_at": "2026-10-05",
+    "source": "Bioengineer.org",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNml2VFA3T1VJQ1A5c1ZsblNldXBHdEhzZE1Pd3hPS0xmOXdBM25KSW5uc3lyeTRuQlVvci16cFk4Q0p0X3FCU1pTSkJNTEhQekpLMXFrU0F5SzV2alR5cGdpb1lyU0lTNC01NFpTWTk3clNyXzNsRXpLY1cxZXRoZDVGOEctWTZ5NFRXYkgtcE1hREpsdXl0b1Zn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPNml2VFA3T1VJQ1A5c1ZsblNldXBHdEhzZE1Pd3hPS0xmOXdBM25KSW5uc3lyeTRuQlVvci16cFk4Q0p0X3FCU1pTSkJNTEhQekpLMXFrU0F5SzV2alR5cGdpb1lyU0lTNC01NFpTWTk3clNyXzNsRXpLY1cxZXRoZDVGOEctWTZ5NFRXYkgtcE1hREpsdXl0b1Zn?oc=5\" target=\"_blank\">Simple Capacity Cap Tames Swelling Tin Anodes in Sodium-Ion Batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bioengineer.org</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "anode",
+    "companies": [],
+    "summary_3_sentences": [
+      "단순 용량 제한 기술이 나트륨 이온 배터리의 주석 음극재 팽창 문제를 해결할 수 있다.",
+      "이 기술은 배터리 안정성과 수명 향상에 기여할 수 있다.",
+      "이는 차세대 배터리 소재 개발의 가능성을 보여준다."
+    ],
+    "uid": "4099048bad2db2a6fa5d02633cbcbc51130c7cfa"
+  },
+  {
+    "title": "Hidden atomic distortions explain why promising lithium battery cathodes waste energy",
+    "published_at": "2026-10-05",
+    "source": "Bioengineer.org",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWHdqMFc2SVlFMUN6OExOTE5Oa0NoTzFVRzdfRWlDaWJPWmNwYjNadVpFc3ZuRDlqdXQ2cWJ2U2d5QXk3Rm1IamJ1b1BlUS1zdERyQWRBNzlHT00yT0hyT2dWWHYyTWlmWGs0ZEV5R3A5Smg5aldUQ1hGY3ppVENRQ2xYM0xBbnFNekctc0x4MnJYSEI4UndEaFRvUnJsOEtHMXFxcE5fSkRWeDd1UXJN?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQWHdqMFc2SVlFMUN6OExOTE5Oa0NoTzFVRzdfRWlDaWJPWmNwYjNadVpFc3ZuRDlqdXQ2cWJ2U2d5QXk3Rm1IamJ1b1BlUS1zdERyQWRBNzlHT00yT0hyT2dWWHYyTWlmWGs0ZEV5R3A5Smg5aldUQ1hGY3ppVENRQ2xYM0xBbnFNekctc0x4MnJYSEI4UndEaFRvUnJsOEtHMXFxcE5fSkRWeDd1UXJN?oc=5\" target=\"_blank\">Hidden atomic distortions explain why promising lithium battery cathodes waste energy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bioengineer.org</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [],
+    "summary_3_sentences": [
+      "원자 수준의 왜곡이 리튬 배터리 양극재의 에너지 낭비를 유발하는 원인으로 밝혀졌다.",
+      "이는 유망한 리튬 배터리 기술의 효율성 문제를 제기한다.",
+      "이러한 발견은 배터리 성능 개선 연구에 중요한 단서를 제공한다."
+    ],
+    "uid": "042320c2b27855d4f780151eb34b307ce1135173"
   },
   {
     "title": "전기차 라인을 에너지저장장치로 전환…배터리 시험대",
