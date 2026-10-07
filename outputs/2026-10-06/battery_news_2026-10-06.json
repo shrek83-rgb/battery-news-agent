@@ -1,0 +1,196 @@
+{
+  "date_range": "2026-10-06",
+  "items": [
+    {
+      "title": "에코프로비엠, 삼성SDI와 '전고체' 개발 협력",
+      "description": "에코프로비엠이 삼성SDI와 차세대 배터리 핵심 기술인 황화물계 전고체 배터리 분야에서 공동 연구개발을 추진합니다. 협약에 따라 에코프로비엠은 전고체 배터리용 핵심 소재 개발을 담당하고 삼성SDI는 전고체 배터리...",
+      "link": "http://www.phmbc.co.kr/www/news/desk_news?idx=204825&mode=view",
+      "source": "www.phmbc.co.kr",
+      "published_at": "2026-10-06",
+      "provider": "naver",
+      "related_links": [
+        {
+          "source": "www.kbsm.net",
+          "link": "https://www.kbsm.net/news/view.php?idx=536815"
+        },
+        {
+          "source": "www.getnews.co.kr",
+          "link": "https://www.getnews.co.kr/news/articleView.html?idxno=882781"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "monitor_score": 98,
+      "monitoring_importance": 98,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "에코프로비엠",
+        "삼성SDI"
+      ],
+      "summary_3_sentences": [
+        "에코프로비엠이 삼성SDI와 황화물계 전고체 배터리 공동 연구개발을 추진합니다.",
+        "이번 협력을 통해 에코프로비엠은 전고체 배터리용 핵심 소재 개발을 담당하고 삼성SDI는 전고체 배터리 기술 개발을 맡게 됩니다.",
+        "이는 차세대 배터리 기술 확보를 위한 양사의 전략적 행보로 해석됩니다."
+      ]
+    },
+    {
+      "title": "The American Solid-State Battery That Just Leapfrogged Toyota's Decade-Long Roadmap",
+      "published_at": "2026-10-06",
+      "source": "CarBuzz",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdWR5Z3VMUmNnUElfam1jbVJyd0dwZ3hfTEMtQ1RObmJHU01sQVc0MUdyMFR2Z1VaTTN1R0stLVJSMk05QmtVZndzLWpYWjdZSG1ZZkJHRTN6Tzgwa2ZaLU9wOFNqZjFHOTBhZGRDbkRLbnBZLW5KU3hmWjI4bVpZTlVvcnRYcVlpM3RmdjdNQTBQZWJaT0VhSEJNTnJhbzBKSDFuRA?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPdWR5Z3VMUmNnUElfam1jbVJyd0dwZ3hfTEMtQ1RObmJHU01sQVc0MUdyMFR2Z1VaTTN1R0stLVJSMk05QmtVZndzLWpYWjdZSG1ZZkJHRTN6Tzgwa2ZaLU9wOFNqZjFHOTBhZGRDbkRLbnBZLW5KU3hmWjI4bVpZTlVvcnRYcVlpM3RmdjdNQTBQZWJaT0VhSEJNTnJhbzBKSDFuRA?oc=5\" target=\"_blank\">The American Solid-State Battery That Just Leapfrogged Toyota's Decade-Long Roadmap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CarBuzz</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "Toyota"
+      ],
+      "summary_3_sentences": [
+        "미국의 한 스타트업이 토요타의 로드맵을 뛰어넘는 전고체 배터리 기술을 개발했다고 주장합니다.",
+        "이 기술은 기존의 배터리 개발 방식을 혁신할 잠재력을 가지고 있습니다.",
+        "이는 차세대 배터리 시장에서의 경쟁 구도에 변화를 가져올 수 있습니다."
+      ]
+    },
+    {
+      "title": "New light-element crystal framework paves the way for safer all-solid-state batteries",
+      "published_at": "2026-10-06",
+      "source": "Tech Xplore",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcVRia3FsMDB3V0VkYWt0cFhmVG1YbUw0Si1sWlVJRnIzLVMzeWRFelM0cWZ2UEJ5dFNSVWJmb2MyZjdUNjF1Mm9wTUtJdG8wQVBFSjhUcWhGTEEwNlVNNWU2eHIzSkpMaFhTcHBiWG9IaWQtWXFPcVROQUVOTi1sSXBqdHE?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPcVRia3FsMDB3V0VkYWt0cFhmVG1YbUw0Si1sWlVJRnIzLVMzeWRFelM0cWZ2UEJ5dFNSVWJmb2MyZjdUNjF1Mm9wTUtJdG8wQVBFSjhUcWhGTEEwNlVNNWU2eHIzSkpMaFhTcHBiWG9IaWQtWXFPcVROQUVOTi1sSXBqdHE?oc=5\" target=\"_blank\">New light-element crystal framework paves the way for safer all-solid-state batteries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Xplore</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [],
+      "summary_3_sentences": [
+        "새로운 경원소 결정 구조가 더 안전한 전고체 배터리 개발의 길을 열었습니다.",
+        "이 발견은 기존의 배터리 안전성 문제를 해결하는 데 기여할 수 있습니다.",
+        "이는 차세대 배터리 기술의 상용화를 앞당길 것으로 기대됩니다."
+      ]
+    },
+    {
+      "title": "VW, PowerCo and Gotion form three LFP battery joint ventures in Spain, Slovakia and Morocco",
+      "published_at": "2026-10-06",
+      "source": "Electric & Hybrid Vehicle Technology International",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOME8xeFF5WUZlWlQ2V19uRGpXVzRxeHdOQWs2OWpsWDc0TUUtQUJSVDFaS1A4aVEtbi1iSHd3amJWZ3dKa3lYdkxXQ0MxMVhySXRvblBIeDd3Sk15b3NNSXVBUUJYc3NKMmhPOE1CT19BVjk0eXNOb2lZS2tSQlA4VVgxX3pzVjFJa2JVbEpSWFY2MVVJNmlhU0Q5TWwzXy15aHNYSWJWcTg2LWlRSTdRZVVMOHhOSmpjbEdic01WOXlpLWlRblVLa0dvd0FLMHk1cXhrYmx6bWFGNEoyQmlLdA?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxOME8xeFF5WUZlWlQ2V19uRGpXVzRxeHdOQWs2OWpsWDc0TUUtQUJSVDFaS1A4aVEtbi1iSHd3amJWZ3dKa3lYdkxXQ0MxMVhySXRvblBIeDd3Sk15b3NNSXVBUUJYc3NKMmhPOE1CT19BVjk0eXNOb2lZS2tSQlA4VVgxX3pzVjFJa2JVbEpSWFY2MVVJNmlhU0Q5TWwzXy15aHNYSWJWcTg2LWlRSTdRZVVMOHhOSmpjbEdic01WOXlpLWlRblVLa0dvd0FLMHk1cXhrYmx6bWFGNEoyQmlLdA?oc=5\" target=\"_blank\">VW, PowerCo and Gotion form three LFP battery joint ventures in Spain, Slovakia and Morocco</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electric & Hybrid Vehicle Technology International</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "VW",
+        "PowerCo",
+        "Gotion"
+      ],
+      "summary_3_sentences": [
+        "폭스바겐, 파워코, 고션은 스페인, 슬로바키아, 모로코에 세 개의 LFP 배터리 합작 투자를 설립했습니다.",
+        "이번 합작 투자는 유럽 및 북아프리카 지역의 배터리 생산 능력을 강화하기 위한 전략입니다.",
+        "이는 전기차 배터리 공급망 안정화에 기여할 것으로 보입니다."
+      ]
+    },
+    {
+      "title": "Indian startup claims over 1,500 cycles for sodium-ion cell with Prussian white cathode",
+      "published_at": "2026-10-06",
+      "source": "ESS News",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbk1OQjlFNGNTdFNGN05rZ3h6bTNVeGI2SXp1OF9xaFcxc2JHNWt3VlpGaC12U2paYzFBQmFYbUFwVGhpSXVpbGE5elRCYVBuQWhPaWwxR3N3ZEVtRGVnX1ZFOUMyUGtOek5HZGVUS0tIQ3JFWldUdUw4UlplRC1CU3E5TGxrZEhWOGVaTk9nUUl6VXd5QXdFQkk0d0ZUV2ZZWjRQRkZZT0FqV2JEOGVsNk52MUx0XzRjZ3hjRzAtMGw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbk1OQjlFNGNTdFNGN05rZ3h6bTNVeGI2SXp1OF9xaFcxc2JHNWt3VlpGaC12U2paYzFBQmFYbUFwVGhpSXVpbGE5elRCYVBuQWhPaWwxR3N3ZEVtRGVnX1ZFOUMyUGtOek5HZGVUS0tIQ3JFWldUdUw4UlplRC1CU3E5TGxrZEhWOGVaTk9nUUl6VXd5QXdFQkk0d0ZUV2ZZWjRQRkZZT0FqV2JEOGVsNk52MUx0XzRjZ3hjRzAtMGw?oc=5\" target=\"_blank\">Indian startup claims over 1,500 cycles for sodium-ion cell with Prussian white cathode</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESS News</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [],
+      "summary_3_sentences": [
+        "인도의 한 스타트업이 프러시안 화이트 양극재를 사용한 나트륨 이온 전지의 1,500회 이상의 사이클 수명을 주장했습니다.",
+        "이는 기존 리튬 이온 배터리를 대체할 수 있는 잠재력을 가진 기술입니다.",
+        "나트륨 이온 배터리 기술의 발전은 에너지 저장 시스템 분야에 새로운 가능성을 제시합니다."
+      ]
+    },
+    {
+      "title": "One-Pot Recycling Turns Spent EV Battery Cathodes into Lithium Source and Powerful Photocatalyst",
+      "published_at": "2026-10-06",
+      "source": "Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYm9NZVlfMndBQnAyb1pseFpKeGlUVzd4ZmprV3lsVHZzeGsyai1lcXpaUm5ZdDRKV05LeW04NWM5ZVRvQ0NTaGJFQ2hCYUtDdmhpQnVTN19BaE15R0E0QkpVNGtWSzBJZDhmUllnVFZuSmNxZmJGMHRYeUlTQjYtM1dUME9qMnpTdllsRkE2N1J6M3lWM0owMExLdXZjeXV4VGxQM09xaHVKajAySVBadUFOb0RpR0xmRTFfU1Nn?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNYm9NZVlfMndBQnAyb1pseFpKeGlUVzd4ZmprV3lsVHZzeGsyai1lcXpaUm5ZdDRKV05LeW04NWM5ZVRvQ0NTaGJFQ2hCYUtDdmhpQnVTN19BaE15R0E0QkpVNGtWSzBJZDhmUllnVFZuSmNxZmJGMHRYeUlTQjYtM1dUME9qMnpTdllsRkE2N1J6M3lWM0owMExLdXZjeXV4VGxQM09xaHVKajAySVBadUFOb0RpR0xmRTFfU1Nn?oc=5\" target=\"_blank\">One-Pot Recycling Turns Spent EV Battery Cathodes into Lithium Source and Powerful Photocatalyst</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bioengineer.org</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [],
+      "summary_3_sentences": [
+        "한 번의 공정으로 폐 EV 배터리 양극재를 리튬 공급원과 강력한 광촉매로 재활용하는 기술이 개발되었습니다.",
+        "이 재활용 기술은 귀중한 자원을 회수하고 환경 오염을 줄이는 데 기여합니다.",
+        "이는 배터리 재활용 산업의 효율성을 높이고 지속 가능성을 강화할 것입니다."
+      ]
+    },
+    {
+      "title": "Lithium Ion Battery Material Market Forecast to 2035: LFP Chemistry Demand to Accelerate on Grid Storage Boom",
+      "published_at": "2026-10-06",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdm10ZWxHdzIzVWtnTWYyYkJJdlJrOVctejVaYXY4WWtLUjZPc3Nselc1aDllaWVwbnJ1bHBvNHpObFN1S085Y3dFelNqbkVfZjdpY2FVaEdjZi1tMURIVWdpMU1nenNzWVlNNWl2b2doMjlfTHYwWmdpNkl0Zm9oQ05xWWp5SHFxZFl6NF9Ea2J5ZDg3NTJDLUJuY3J6dDhwVTJZOXpZQVlZbXdOaVMtTmR4TmY4V1Y1LVNMVERaS0hRS1VSZ09SeGhPYnlReDJxZFhiUQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdm10ZWxHdzIzVWtnTWYyYkJJdlJrOVctejVaYXY4WWtLUjZPc3Nselc1aDllaWVwbnJ1bHBvNHpObFN1S085Y3dFelNqbkVfZjdpY2FVaEdjZi1tMURIVWdpMU1nenNzWVlNNWl2b2doMjlfTHYwWmdpNkl0Zm9oQ05xWWp5SHFxZFl6NF9Ea2J5ZDg3NTJDLUJuY3J6dDhwVTJZOXpZQVlZbXdOaVMtTmR4TmY4V1Y1LVNMVERaS0hRS1VSZ09SeGhPYnlReDJxZFhiUQ?oc=5\" target=\"_blank\">Lithium Ion Battery Material Market Forecast to 2035: LFP Chemistry Demand to Accelerate on Grid Storage Boom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "IndexBox",
+        "LFP"
+      ],
+      "summary_3_sentences": [
+        "리튬 이온 배터리 소재 시장은 2035년까지 성장할 것으로 예상되며, 특히 LFP 화학 제품의 수요가 급증할 전망입니다.",
+        "이는 그리드 저장 장치 시장의 확대에 따른 것으로 분석됩니다.",
+        "LFP 배터리는 가격 경쟁력과 안정성을 바탕으로 에너지 저장 시스템 분야에서 중요한 역할을 할 것입니다."
+      ]
+    },
+    {
+      "title": "Lithium Battery Thermal Runaway Sensor Modules Market Forecast to 2035: BESS Safety Mandates Drive Growth - News and Statistics",
+      "published_at": "2026-10-06",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVjEtYlRZWEttM0JPdXdlYXR6SjhiRkNmNUNEYzdKUE5zSG9tMXFudGZPNU01bnE4YmhMWnZfaTVFT0FCb09KdmY3ODlSTTFXV1BBS3BtMDFBZWdGY2NBTEdIU3ltVFFTSFZtaXJja1pNUTRBbVNPa1QtOFBTNWpOcEpNd0tGb1FFa3pmQlNMVm5mYk9uY0VEZnBTV0I0NG1DUHU3czY2MVRWQlZRTzFIclc4cUh1MFlSQjFFLVladkJQZ2llai1qMkRGOWp2ZVREaDNPVVlnb1F4X1JrUjltbk4zeWYybzg?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVjEtYlRZWEttM0JPdXdlYXR6SjhiRkNmNUNEYzdKUE5zSG9tMXFudGZPNU01bnE4YmhMWnZfaTVFT0FCb09KdmY3ODlSTTFXV1BBS3BtMDFBZWdGY2NBTEdIU3ltVFFTSFZtaXJja1pNUTRBbVNPa1QtOFBTNWpOcEpNd0tGb1FFa3pmQlNMVm5mYk9uY0VEZnBTV0I0NG1DUHU3czY2MVRWQlZRTzFIclc4cUh1MFlSQjFFLVladkJQZ2llai1qMkRGOWp2ZVREaDNPVVlnb1F4X1JrUjltbk4zeWYybzg?oc=5\" target=\"_blank\">Lithium Battery Thermal Runaway Sensor Modules Market Forecast to 2035: BESS Safety Mandates Drive Growth - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "IndexBox",
+        "BESS"
+      ],
+      "summary_3_sentences": [
+        "리튬 배터리 열폭주 센서 모듈 시장은 2035년까지 성장할 것으로 예측되며, BESS 안전 규제가 성장을 견인할 것입니다.",
+        "이는 배터리 에너지 저장 시스템(BESS)의 안전성 강화 필요성이 증대되고 있음을 시사합니다.",
+        "안전 규제 강화는 관련 센서 모듈 시장의 성장을 촉진하는 주요 요인이 될 것입니다."
+      ]
+    }
+  ]
+}
