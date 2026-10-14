@@ -1,0 +1,254 @@
+# 배터리 뉴스 데일리 브리핑 (2026-10-13 전날 기준)
+
+- 총 19건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 나트륨 | 2026-10-13 | www.pinpointnews.co.kr | 나트륨이온 배터리 테마주 '휘청'… LG에너지솔루션만 나홀리 상승랠리 | https://www.pinpointnews.co.kr/news/articleView.html?idxno=494865 | unknown |
+| 2 | 3 | 전고체 | 2026-10-13 | www.bizwnews.com | [2026 파리 모터쇼] "816마력 랠리카부터 전고체 배터리까지"…푸조, 파... | http://www.bizwnews.com/news/articleView.html?idxno=148772 | unknown |
+| 3 | 3 | 전고체 | 2026-10-13 | www.gpkorea.com | 푸조 'RCZ 비전' 공개…500마력·600km 목표 '전고체 추가' | https://www.gpkorea.com/news/articleView.html?idxno=147525 | unknown |
+| 4 | 3 | 나트륨 | 2026-10-13 | www.etnews.com | [테크 차이나] CATL, 나트륨이온 배터리 70GWh 목표…유럽 ESS 시장 공략... | https://www.etnews.com/20261013000231 | unknown |
+| 5 | 3 | 나트륨 | 2026-10-13 | www.industrynews.co.kr | 리튬금속배터리 수명 3배 늘렸다… UNIST·KAIST, 전해액 설계 새 패러다... | https://www.industrynews.co.kr/news/articleView.html?idxno=87454 | unknown |
+| 6 | 3 | 전고체 | 2026-10-13 | electrive.com | ProLogium and Rimac target 2028 for solid-state battery vehicle tests | https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUFQxN2FqckRDeTBEYWtCcGlXMzR3RXVVMFhUMWZPd2h0N0VHTVUzTzFpTmRXT203b2g4RnI1VFdVZnJfWllpWnVoaHd6eHV5bU9oclI0U0lDSWktZ0xOWEM5aUQ2V19ncEZTbTR1amFnc3hfSU11M1RjdFNRdThTRHRJVmVzcXh3ekY1RDg4cGJxZk9LMGkyNWV0RjlHeFdPQ2FVcUtreDNwUVk?oc=5 | unknown |
+| 7 | 3 | 기타 | 2026-10-13 | Renewables Now | EnergyX signs 100,000t battery-grade lithium deal with Trafigura | https://news.google.com/rss/articles/CBMipwFBVV95cUxOSWxkd0NZWU5fVWN2SUg0dGNuY09qTHJITlNKTU5YMmJ5NzBnVktwUzdyYXZmVlA4cTVBb0hYbTVwX3BQWjdCX2drck9BUWhuMmZMNEZGN0c0cllPVGNuMmljaUwxTURaaDRMWFdJdU80cE01bmVFWUhhTXp2Tm9ON2gwQlM1bDV4V3N1ZlZodGw2VXhhenRBNXJWYVZlX0I3OWw3WDgtVQ?oc=5 | unknown |
+| 8 | 3 | 기타 | 2026-10-14 | www.g-enews.com | [특징주] 2차전지주, ESS 수요 확대 기대감.. 일제히 '강세' | https://www.g-enews.com/view.php?ud=20261014104500378644093b5d4e_1 | unknown |
+| 9 | 3 | electrolyte | 2026-10-14 | www.pinpointnews.co.kr | 레이크머티리얼즈·삼성SDI 폭등랠리…전고체 배터리 소재·셀주에 매수... | https://www.pinpointnews.co.kr/news/articleView.html?idxno=495139 | unknown |
+| 10 | 3 | 정책 | 2026-10-14 | www.g-enews.com | 美 에너지엑스, 10만 톤 리튬 계약 속 '삼성SDI 거점 전략' 주목 | https://www.g-enews.com/view.php?ud=2026101408200949780c8c1c064d_1 | unknown |
+| 11 | 3 | cathode | 2026-10-14 | www.g-enews.com | "인도의 차세대 석유"… 에코프로머티·포스코퓨처엠 등 韓 배터리 소재... | https://www.g-enews.com/view.php?ud=2026101408123633420c8c1c064d_1 | unknown |
+| 12 | 3 | cathode | 2026-10-13 | ChemAnalyst | NEU Battery Materials Secures $7.6 Million to Scale LFP Recycling | https://news.google.com/rss/articles/CBMiswFBVV95cUxPVnUxa3Z3aTJscnNKSG9GTnpHYlR6VWs2Um9tU0F2MFA5N0ZVYkpmU1pyWGJMWDVVWk1nYWVOWmtmZ0gxNHBLM3R0aVVuWEQxSmtCSk1GSzZsTmc5VmVZWi1vd2poUmN2U2xrVUItcGQyTldwbDhzM2RCc3dMWmU4cGQtYV9wLVBGZ0pSTFU2SGo0Q3NPR1BSdG5EZEk5aVRNb3o4RVZoa0JKWUt2bVB0NmswTQ?oc=5 | unknown |
+| 13 | 3 | 기타 | 2026-10-13 | Al Majalla | The battery revolution reshaping the metals market | https://news.google.com/rss/articles/CBMilAFBVV95cUxOaWE3MDVhY3lrS3A4UVY2eFdRRThiVnhVeXdHRkVsZFlfVnFoODNTU1ZPX3htbmtRYzhfUjg0dHlWTGtHYmc0a3FWOXNHNkI5N0htVThrTTBfS3JwQjlBZHU5X0Yxc2p4MVMtal9Ka3VHd2lPek1PdmJ3MDZSYTFEYVd4bXJQamk5Z3dFZ2RmbFF1VDds?oc=5 | unknown |
+| 14 | 3 | 나트륨 | 2026-10-13 | pv magazine Global | CATL, Intilion target up to 3 GWh of sodium-ion storage in Europe | https://news.google.com/rss/articles/CBMipwFBVV95cUxPaUVud1FZS1YyOHpQa3YxMFA5WEpULUpmZEJ0bVNFRGlOODJhNW5KM1RzM3RWYXBWWmpmU0JWaWhqejlVZ1diNmc2eUkxM1FYZGU1V0hETDN2WkNGaXczeHhYclkwcHk2OUF0SVhGUlgxd0ZoRGFGRkMyWmc3Y2dxS25lUWYzSWJ1SUxaVVAtSm9oQUpyeWVTQWMxR05HZVduZUQ3dTN4TQ?oc=5 | unknown |
+| 15 | 3 | 나트륨 | 2026-10-13 | Businesskorea | LG Energy Solution's Sodium-Ion Battery Expands into N. American ESS Market | https://news.google.com/rss/articles/CBMidEFVX3lxTFB4UmZJMnZ6SjJ0ZzI5VG5ZcDdrVEl5YWd2VGYxeHJJYkJxaEdHbzFNZ2M2ZlBDZXRNaXB2UFhoeDN0NFFGUTU3X0V0ejhfdWl4eVdLRFR6dXNtZzk2MnFSTVM4NEJyQmVjMFNWUkRPRmxVT0du?oc=5 | unknown |
+| 16 | 3 | 기타 | 2026-10-13 | LG에너지솔루션 | What is LG Energy Solution’s 46-Series? Engineering a Scalable Cylindrical Battery Platform | https://news.google.com/rss/articles/CBMic0FVX3lxTE5VbklUYVRNX2lTRV9MTnlNNnpUdHRlbVJONlBFcVROM3JzRVNwVzZMeW1YaUNkNEN1eUtiemM0MzRTX2otMHFMbHJxSHRwdkJCZkdoU2t5S1lQeS11NGdDWkVGelJ2bVNfUDlYeGVuSFk3LVE?oc=5 | unknown |
+| 17 | 3 | 기타 | 2026-10-13 | ICEX-Invest in Spain | Gotion Forms Volkswagen Joint Venture for Spanish Battery Manufacture | https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4YXlYRDZ5eGQ2S1lCMnFZVEQteTR2ZHNmMEJPWjhJOV9nV0lVT001SXZNTldzUm9xeTllRFNQY3NBYmZvY2llUjJCNUFYeVRfZ3dFNmZkNjd3eVFibXc?oc=5 | unknown |
+| 18 | 3 | 재활용 | 2026-10-13 | Tech Xplore | Just add water: New binder simplifies battery manufacturing and recycling without sacrificing performance | https://news.google.com/rss/articles/CBMigwFBVV95cUxQVUY1TUYxcm9WRlQzaGxPblo4NFB6Wk9GQjMtSWcyYXJYTkhIUnBQVThFMEx0aWRXMU42UXkzM3ZKOGRrN1NWaVNnQ1BreS1TUU9yeEh5Nk16M0lBZ01SY2N6Ni0yenNUTEpnX0dVWWpnMlo4cUl5Qi1zRFA4WXl6SHA0WQ?oc=5 | unknown |
+| 19 | 3 | 기타 | 2026-10-13 | IndexBox | Exide Solition Powerflex: Modular Battery Storage for Commercial & Industrial Use - News and Statistics | https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcUhDSnkzVGFnekNUUUtQZEgxdTNQcWVSamphRm05WlZyRDhGZHBYNzV3LTRxLXVfaTJrdTRUZVBpRGJ3WFBTTjdiNFluMGY1aTNKQU9aalV0OEpYWUJXckJKbnlITUdHcGFHS3V6RDNWb0JLbGlDUVFjMWduaVMzTTA3TVpJaFZGVHhSZHUyYnVORlp3UEJaY0hjb3hIaUpYUGR6ZmlLenBxcmc?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. 나트륨이온 배터리 테마주 '휘청'… LG에너지솔루션만 나홀리 상승랠리
+- 발행일: 2026-10-13
+- 매체: www.pinpointnews.co.kr (출처등급 3)
+- 분야: 나트륨
+- 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=494865
+- 인기신호: unknown
+- 3문장 요약:
+  - 13일, 나트륨이온 배터리 테마주가 전반적인 약세를 보였다.
+  - 전기차 시장 성장 둔화와 배터리 업황 불확실성이 지속되는 가운데, 리튬 등 핵심 원자재 가격 안정화가 대체 배터리 기술에 대한 단기적 관심을 줄인 것으로 분석된다.
+  - 이러한 시장 상황 속에서 LG에너지솔루션만이 나홀로 상승세를 기록하며 주목받았다.
+- 관련 기업: LG에너지솔루션, 나트륨이온, 2차전지
+
+### 2. [2026 파리 모터쇼] "816마력 랠리카부터 전고체 배터리까지"…푸조, 파...
+- 발행일: 2026-10-13
+- 매체: www.bizwnews.com (출처등급 3)
+- 분야: 전고체
+- 링크: http://www.bizwnews.com/news/articleView.html?idxno=148772
+- 인기신호: unknown
+- 3문장 요약:
+  - 푸조는 2026 파리 모터쇼에서 전고체 배터리와 1000V 고전압 전기 아키텍처를 결합한 신기술을 선보일 예정이다.
+  - 이 기술은 최고출력 500마력, 1회 충전 시 최대 600km 주행거리를 제공하며, 10분 만에 배터리 잔량 10%에서 80%까지 충전하는 혁신적인 성능을 자랑한다.
+  - 이는 차세대 전기차 기술의 발전을 보여주는 중요한 사례가 될 것으로 기대된다.
+- 관련 기업: 푸조
+
+### 3. 푸조 'RCZ 비전' 공개…500마력·600km 목표 '전고체 추가'
+- 발행일: 2026-10-13
+- 매체: www.gpkorea.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.gpkorea.com/news/articleView.html?idxno=147525
+- 인기신호: unknown
+- 3문장 요약:
+  - 푸조는 차세대 모델인 'RCZ 비전'을 공개하며 전고체 배터리와 1000V 전기 시스템, 완전 전자식 조향·제동 기술을 적용할 계획이다.
+  - RCZ 비전은 최고출력 500마력, 600km 주행거리를 목표로 하며, 이는 차세대 푸조의 기술 방향성을 제시한다.
+  - 다만, RCZ 비전은 양산이 확정된 신차는 아니다.
+- 관련 기업: 푸조, RCZ
+
+### 4. [테크 차이나] CATL, 나트륨이온 배터리 70GWh 목표…유럽 ESS 시장 공략...
+- 발행일: 2026-10-13
+- 매체: www.etnews.com (출처등급 3)
+- 분야: 나트륨
+- 링크: https://www.etnews.com/20261013000231
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국 배터리 기업 CATL이 나트륨이온 배터리를 앞세워 유럽 에너지저장장치(ESS) 시장 공략을 본격화한다.
+  - CATL은 독일 시스템 통합업체와 향후 5년간 최대 3GWh 규모의 나트륨이온 배터리 프로젝트를 추진하기로 했다.
+  - 이를 통해 CATL은 유럽 ESS 시장에서의 입지를 강화할 것으로 예상된다.
+- 관련 기업: CATL, 나트륨이온
+
+### 5. 리튬금속배터리 수명 3배 늘렸다… UNIST·KAIST, 전해액 설계 새 패러다...
+- 발행일: 2026-10-13
+- 매체: www.industrynews.co.kr (출처등급 3)
+- 분야: 나트륨
+- 링크: https://www.industrynews.co.kr/news/articleView.html?idxno=87454
+- 인기신호: unknown
+- 3문장 요약:
+  - UNIST와 KAIST 연구진이 리튬금속배터리의 수명을 3배 늘리는 새로운 전해액 설계 기술을 개발했다.
+  - 이 기술은 리튬금속배터리뿐만 아니라 고전압 리튬이온배터리, 나트륨·칼륨이온전지 등 다양한 전지 시스템으로 확장될 가능성이 있다.
+  - 이번 연구는 차세대 배터리 기술 발전에 기여할 것으로 기대된다.
+- 관련 기업: UNIST, KAIST, 리튬금속배터리
+
+### 6. ProLogium and Rimac target 2028 for solid-state battery vehicle tests
+- 발행일: 2026-10-13
+- 매체: electrive.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUFQxN2FqckRDeTBEYWtCcGlXMzR3RXVVMFhUMWZPd2h0N0VHTVUzTzFpTmRXT203b2g4RnI1VFdVZnJfWllpWnVoaHd6eHV5bU9oclI0U0lDSWktZ0xOWEM5aUQ2V19ncEZTbTR1amFnc3hfSU11M1RjdFNRdThTRHRJVmVzcXh3ekY1RDg4cGJxZk9LMGkyNWV0RjlHeFdPQ2FVcUtreDNwUVk?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - ProLogium과 Rimac은 2028년을 목표로 전고체 배터리 차량 테스트를 진행할 예정이다.
+  - 이는 전고체 배터리 기술의 상용화를 앞당기기 위한 중요한 단계이다.
+  - 이번 협력을 통해 양사는 차세대 전기차 배터리 시장에서의 경쟁력을 강화할 것으로 보인다.
+- 관련 기업: ProLogium, Rimac
+
+### 7. EnergyX signs 100,000t battery-grade lithium deal with Trafigura
+- 발행일: 2026-10-13
+- 매체: Renewables Now (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMipwFBVV95cUxOSWxkd0NZWU5fVWN2SUg0dGNuY09qTHJITlNKTU5YMmJ5NzBnVktwUzdyYXZmVlA4cTVBb0hYbTVwX3BQWjdCX2drck9BUWhuMmZMNEZGN0c0cllPVGNuMmljaUwxTURaaDRMWFdJdU80cE01bmVFWUhhTXp2Tm9ON2gwQlM1bDV4V3N1ZlZodGw2VXhhenRBNXJWYVZlX0I3OWw3WDgtVQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - EnergyX는 Trafigura와 100,000톤 규모의 배터리급 리튬 공급 계약을 체결했다.
+  - 이 계약은 배터리 생산에 필요한 핵심 원자재 확보에 중요한 역할을 할 것으로 예상된다.
+  - EnergyX는 이번 계약을 통해 글로벌 리튬 시장에서의 입지를 강화할 것으로 보인다.
+- 관련 기업: EnergyX, Trafigura
+
+### 8. [특징주] 2차전지주, ESS 수요 확대 기대감.. 일제히 '강세'
+- 발행일: 2026-10-14
+- 매체: www.g-enews.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.g-enews.com/view.php?ud=20261014104500378644093b5d4e_1
+- 참고 링크: https://www.sedaily.com/article/20101370?ref=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - 최근 에너지저장장치(ESS) 수요 확대 기대감이 커지면서 2차전지주가 일제히 강세를 보이고 있다.
+  - 업계에서는 ESS 시장 성장이 배터리 업종의 이익 개선을 본격화할 것으로 전망하고 있다.
+  - 이는 2차전지 관련 기업들에게 긍정적인 영향을 미칠 것으로 예상된다.
+- 관련 기업: 2차전지
+
+### 9. 레이크머티리얼즈·삼성SDI 폭등랠리…전고체 배터리 소재·셀주에 매수...
+- 발행일: 2026-10-14
+- 매체: www.pinpointnews.co.kr (출처등급 3)
+- 분야: electrolyte
+- 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=495139
+- 인기신호: unknown
+- 3문장 요약:
+  - 차세대 배터리 상용화 기대감과 주요 기업들의 고체 전해질 양산 투자 전망에 힘입어 전고체 배터리 관련주가 강세를 나타내고 있다.
+  - 특히 레이크머티리얼즈와 삼성SDI의 주가가 폭등하며 시장의 주목을 받고 있다.
+  - 이는 전고체 배터리 기술의 미래 성장 가능성을 보여주는 지표로 해석된다.
+- 관련 기업: 레이크머티리얼즈, 삼성SDI, 레이크머티리얼즈·삼성SDI
+
+### 10. 美 에너지엑스, 10만 톤 리튬 계약 속 '삼성SDI 거점 전략' 주목
+- 발행일: 2026-10-14
+- 매체: www.g-enews.com (출처등급 3)
+- 분야: 정책
+- 링크: https://www.g-enews.com/view.php?ud=2026101408200949780c8c1c064d_1
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국 에너지엑스(EnergyX)가 10만 톤 규모의 리튬 계약을 체결한 가운데, 삼성SDI의 거점 전략이 주목받고 있다.
+  - 배터리 셀 제조 이전 단계에서 원소재의 최종 목적지와 가공 거점의 중요성이 글로벌 2차전지 업계의 핵심 화두로 떠올랐다.
+  - 이는 미국 인플레이션감축법(IRA)의 해외우려기관(FEOC) 규제 등 무역 장벽과도 관련이 깊다.
+- 관련 기업: EnergyX, 삼성SDI, 2차전지
+
+### 11. "인도의 차세대 석유"… 에코프로머티·포스코퓨처엠 등 韓 배터리 소재...
+- 발행일: 2026-10-14
+- 매체: www.g-enews.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.g-enews.com/view.php?ud=2026101408123633420c8c1c064d_1
+- 인기신호: unknown
+- 3문장 요약:
+  - 인도가 미래 에너지 안보와 제조업 패권을 위해 리튬, 니켈, 코발트 등 배터리 핵심 광물의 국내 정제를 추진하고 있다.
+  - 이와 관련하여 한국의 2차전지 소재 기업인 에코프로머티리얼즈와 포스코퓨처엠이 집중 조명받고 있다.
+  - 이는 인도가 배터리 산업 공급망에서 한국 기업과의 협력을 강화하려는 움직임으로 해석된다.
+- 관련 기업: 에코프로머티리얼즈, 포스코퓨처엠, 2차전지
+
+### 12. NEU Battery Materials Secures $7.6 Million to Scale LFP Recycling
+- 발행일: 2026-10-13
+- 매체: ChemAnalyst (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMiswFBVV95cUxPVnUxa3Z3aTJscnNKSG9GTnpHYlR6VWs2Um9tU0F2MFA5N0ZVYkpmU1pyWGJMWDVVWk1nYWVOWmtmZ0gxNHBLM3R0aVVuWEQxSmtCSk1GSzZsTmc5VmVZWi1vd2poUmN2U2xrVUItcGQyTldwbDhzM2RCc3dMWmU4cGQtYV9wLVBGZ0pSTFU2SGo0Q3NPR1BSdG5EZEk5aVRNb3o4RVZoa0JKWUt2bVB0NmswTQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - NEU Battery Materials는 LFP 배터리 재활용 확대를 위해 760만 달러의 자금을 확보했다.
+  - 이번 자금 확보는 LFP 배터리 재활용 기술의 상용화를 가속화하는 데 기여할 것으로 기대된다.
+  - 이는 지속 가능한 배터리 산업 생태계 구축에 중요한 발걸음이 될 것이다.
+- 관련 기업: NEU Battery Materials, NEU, LFP
+
+### 13. The battery revolution reshaping the metals market
+- 발행일: 2026-10-13
+- 매체: Al Majalla (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMilAFBVV95cUxOaWE3MDVhY3lrS3A4UVY2eFdRRThiVnhVeXdHRkVsZFlfVnFoODNTU1ZPX3htbmtRYzhfUjg0dHlWTGtHYmc0a3FWOXNHNkI5N0htVThrTTBfS3JwQjlBZHU5X0Yxc2p4MVMtal9Ka3VHd2lPek1PdmJ3MDZSYTFEYVd4bXJQamk5Z3dFZ2RmbFF1VDds?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 배터리 산업의 혁신이 금속 시장의 판도를 바꾸고 있다.
+  - 전기차 및 에너지 저장 장치(ESS) 수요 증가는 리튬, 니켈, 코발트 등 핵심 금속의 수요와 가격에 큰 영향을 미치고 있다.
+  - 이는 관련 금속 채굴, 가공, 재활용 산업 전반에 걸쳐 변화를 촉발하고 있다.
+
+### 14. CATL, Intilion target up to 3 GWh of sodium-ion storage in Europe
+- 발행일: 2026-10-13
+- 매체: pv magazine Global (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMipwFBVV95cUxPaUVud1FZS1YyOHpQa3YxMFA5WEpULUpmZEJ0bVNFRGlOODJhNW5KM1RzM3RWYXBWWmpmU0JWaWhqejlVZ1diNmc2eUkxM1FYZGU1V0hETDN2WkNGaXczeHhYclkwcHk2OUF0SVhGUlgxd0ZoRGFGRkMyWmc3Y2dxS25lUWYzSWJ1SUxaVVAtSm9oQUpyeWVTQWMxR05HZVduZUQ3dTN4TQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - CATL과 Intilion은 유럽에서 최대 3GWh 규모의 나트륨이온 저장 장치 프로젝트를 목표로 하고 있다.
+  - 이는 유럽의 에너지 저장 시스템 시장에서 나트륨이온 배터리의 활용 가능성을 보여준다.
+  - 양사는 이번 협력을 통해 유럽 에너지 시장에서의 입지를 강화할 것으로 기대된다.
+- 관련 기업: CATL, Intilion
+
+### 15. LG Energy Solution's Sodium-Ion Battery Expands into N. American ESS Market
+- 발행일: 2026-10-13
+- 매체: Businesskorea (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTFB4UmZJMnZ6SjJ0ZzI5VG5ZcDdrVEl5YWd2VGYxeHJJYkJxaEdHbzFNZ2M2ZlBDZXRNaXB2UFhoeDN0NFFGUTU3X0V0ejhfdWl4eVdLRFR6dXNtZzk2MnFSTVM4NEJyQmVjMFNWUkRPRmxVT0du?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션의 나트륨이온 배터리가 북미 ESS 시장에 진출한다.
+  - 이는 LG에너지솔루션의 나트륨이온 배터리 기술 경쟁력을 입증하는 사례이다.
+  - 이번 북미 시장 진출은 LG에너지솔루션의 글로벌 ESS 시장 확대 전략에 중요한 역할을 할 것으로 보인다.
+- 관련 기업: LG에너지솔루션, LG
+
+### 16. What is LG Energy Solution’s 46-Series? Engineering a Scalable Cylindrical Battery Platform
+- 발행일: 2026-10-13
+- 매체: LG에너지솔루션 (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTE5VbklUYVRNX2lTRV9MTnlNNnpUdHRlbVJONlBFcVROM3JzRVNwVzZMeW1YaUNkNEN1eUtiemM0MzRTX2otMHFMbHJxSHRwdkJCZkdoU2t5S1lQeS11NGdDWkVGelJ2bVNfUDlYeGVuSFk3LVE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 확장 가능한 원통형 배터리 플랫폼을 설계하는 46-시리즈를 개발했다.
+  - 이 46-시리즈는 차세대 전기차 배터리 시장을 겨냥한 LG에너지솔루션의 핵심 기술 중 하나이다.
+  - 이는 배터리 기술 혁신을 통해 전기차 시장에서의 경쟁 우위를 확보하려는 노력의 일환이다.
+- 관련 기업: LG에너지솔루션, LG
+
+### 17. Gotion Forms Volkswagen Joint Venture for Spanish Battery Manufacture
+- 발행일: 2026-10-13
+- 매체: ICEX-Invest in Spain (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4YXlYRDZ5eGQ2S1lCMnFZVEQteTR2ZHNmMEJPWjhJOV9nV0lVT001SXZNTldzUm9xeTllRFNQY3NBYmZvY2llUjJCNUFYeVRfZ3dFNmZkNjd3eVFibXc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Gotion은 Volkswagen과 합작 투자를 통해 스페인에 배터리 생산 기지를 구축한다.
+  - 이번 합작 투자는 유럽 시장 내 전기차 배터리 생산 능력을 강화하기 위한 전략이다.
+  - 이를 통해 양사는 유럽 전기차 시장에서의 경쟁력을 높일 것으로 기대된다.
+- 관련 기업: Gotion, Volkswagen, ICEX
+
+### 18. Just add water: New binder simplifies battery manufacturing and recycling without sacrificing performance
+- 발행일: 2026-10-13
+- 매체: Tech Xplore (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMigwFBVV95cUxQVUY1TUYxcm9WRlQzaGxPblo4NFB6Wk9GQjMtSWcyYXJYTkhIUnBQVThFMEx0aWRXMU42UXkzM3ZKOGRrN1NWaVNnQ1BreS1TUU9yeEh5Nk16M0lBZ01SY2N6Ni0yenNUTEpnX0dVWWpnMlo4cUl5Qi1zRFA4WXl6SHA0WQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 새로운 바인더 기술은 배터리 제조 및 재활용 과정을 단순화하면서도 성능 저하를 방지한다.
+  - 이 기술은 물만 첨가하면 되기 때문에 공정이 간편하며, 성능 저하 없이 재활용이 가능하다는 장점이 있다.
+  - 이는 배터리 생산 효율성을 높이고 친환경적인 재활용을 가능하게 하는 혁신적인 기술이다.
+
+### 19. Exide Solition Powerflex: Modular Battery Storage for Commercial & Industrial Use - News and Statistics
+- 발행일: 2026-10-13
+- 매체: IndexBox (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcUhDSnkzVGFnekNUUUtQZEgxdTNQcWVSamphRm05WlZyRDhGZHBYNzV3LTRxLXVfaTJrdTRUZVBpRGJ3WFBTTjdiNFluMGY1aTNKQU9aalV0OEpYWUJXckJKbnlITUdHcGFHS3V6RDNWb0JLbGlDUVFjMWduaVMzTTA3TVpJaFZGVHhSZHUyYnVORlp3UEJaY0hjb3hIaUpYUGR6ZmlLenBxcmc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Exide는 상업 및 산업용으로 사용할 수 있는 모듈형 배터리 저장 시스템인 Solition Powerflex를 출시했다.
+  - 이 시스템은 유연한 구성이 가능하여 다양한 규모의 에너지 저장 요구에 맞출 수 있다.
+  - Exide는 이번 신제품 출시를 통해 상업 및 산업용 에너지 저장 시장에서의 입지를 강화할 것으로 기대된다.
+- 관련 기업: Exide
