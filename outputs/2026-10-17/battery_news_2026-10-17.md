@@ -1,0 +1,265 @@
+# 배터리 뉴스 데일리 브리핑 (2026-10-17 전날 기준)
+
+- 총 20건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 1 | 기타 | 2026-10-17 | PR Newswire - Energy | HiTHIUM übertrifft 200 GWh an ausgelieferten Speichern und treibt die globale Langzeitspeicherung von Energie durch vollständige Integration der gesamten Wertschöpfungskette voran | https://www.prnewswire.com/news-releases/hithium-ubertrifft-200-gwh-an-ausgelieferten-speichern-und-treibt-die-globale-langzeitspeicherung-von-energie-durch-vollstandige-integration-der-gesamten-wertschopfungskette-voran-302911478.html | unknown |
+| 2 | 3 | cathode | 2026-10-17 | Gasgoo | Ganfeng Lithium Net profit for first three quarters surged 195 times year-on-year | https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZnV2Sm9ZajJYaVd3SmdyY1RRNGZLNW1GVzM3dnlsUHF6RUFDNWZjYUdYZWNOVjNGVFRlSVJILXo1RUcwOWNESUZhXzVKVFMyNVRpd1BkOG9QV04ydThRWHdTQVpoUC1KREpvRjF2eXZnVXZ5S0daeFBzeXF1ZnNJUVN3dFZDamlQWTRTQkl2THYwV0hhQnFmNUIyUHRrWTFxWU15dTNCMEtTOTZVb2VocUI1ZzVRR1hjSFY2V3JTeHZSZkVWNVBlVlItU0s0Uzc4UEpvTFZXblY?oc=5 | unknown |
+| 3 | 3 | 기타 | 2026-10-17 | Seeking Alpha | Standard Lithium: Everything Is Ready Except The Lithium Price | https://news.google.com/rss/articles/CBMipAFBVV95cUxPbDI3Y2N6LVF5dndnS1FXQ0ZmMGtxUXQzdFYtVE8yRFJsdWprbGdtYW9adUNwYk44am1iX0R6bjlQNFFYemFOSDB0NW5YcmY2NlhZdlhXUDdnN0xhYm9qc1MxRWNwMnlVWmM4U1F6dTNHZTNnQXI5NXNUQlMyZ0tlZ3c1QnRobkpuSmN3al9VakhPZUdaaGFLMWYzVFhWWUZtR1g1VQ?oc=5 | unknown |
+| 4 | 3 | 기타 | 2026-10-17 | IndexBox | Lithium Prices Drop 14% as EU-China Hybrid Car Deal Cuts Demand Outlook - News and Statistics | https://news.google.com/rss/articles/CBMijAFBVV95cUxOMnRIcGJ6OEV4dEttSXFUTDUza3lkcTB5eC11akxudllISnd1b3c2bHFSck5laHVETzZCOUEtTW14UjRyX2tpWkdUSlhnRUltVHBYWFJxOGdBWkRVR09kY0lManU2TVRhT1U5aDNSVnU4dlYwVnpoR2xEV0xJY0EtXzNtVmxNUEZkXzU4aA?oc=5 | unknown |
+| 5 | 3 | 전고체 | 2026-10-18 | www.etnews.com | 韓, 전고체 배터리·재사용 발사체 특허 '쑥쑥'…증가율 세계 2위 | https://www.etnews.com/20261016000022 | unknown |
+| 6 | 3 | 기타 | 2026-10-17 | electrive.com | Redwood to repurpose end-of-life batteries from Rivian vehicles | https://news.google.com/rss/articles/CBMiowFBVV95cUxPblZCWkFRU1I4Yllxbm5qTzhOMjdwcUh4X2VDV3oyX01DTUVtdXkxNWx6Vi1CVlhKN3NOUm9HWXBNQ25ldjhyRmxSdGFoTGlERWd5enpwYk16R1A2Y3U1QjUwYmhGeU01TEx2UUVRRDFUQUFHZjNRYVpxQkE1UmI2T0lvd3FMWjVqUHRueWxWT0I4STRqdWZ0aVlVWkdLYkhubnNB?oc=5 | unknown |
+| 7 | 3 | electrolyte | 2026-10-17 | Gasgoo | Tinci Materials Accelerates Indonesia Electrolyte Project, Trial Production Set for December 2026 | https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZG9HVEs3bnZ1R21vaUZTeWlwbHpnNHRkVGUtNXhoRG1wLXZLOUNtd2Vxd0RkTTVtMGRsaGlkQzFYemhUUHQ3WnBXWVBFMmxxdlJOdjdPUkJLX0ZDeU9DamRLTEE1UW1Cb2R3WWJWaGZIUE5LTndEZy10Z1BMR1RZSzVGMmFpdzFRRGU5bVBDTzFuZ0V1ZXZud0ZveXZZWFRtSGdqSncxN1hVbndUaVo3U2drUGZKRUN2VVcxcHlHVVd6R29CWnlyTHhVbExhMGU2bHgwR3d2THhDRzFEVVViTVZtdTN3cjV1QW9KZ3d1cw?oc=5 | unknown |
+| 8 | 3 | 기타 | 2026-10-17 | The Buzz - Electric Vehicle News | LG Energy Solution, indiGOtech Explore Battery Supply - The Buzz - Electric Vehicle News | https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVFSbV81bXpDbHYtSnFiMTBVWnNycDZUd3B1SHA0aHhpWmpISV85QlBaSGFJanFFcnE2Sk9fQmRTd2J2OWc1dHRTUlItWHpaN21McW1RSS1TaUMtcHFoa0FRNzVQc2hNNTBrRGUtV2lXd0taOGhLaGRHZU5adGdzcg?oc=5 | unknown |
+| 9 | 3 | 기타 | 2026-10-17 | The Economic Times | Varroc Engineering to set up JV with French co Forsee Power to develop battery-pack solutions | https://news.google.com/rss/articles/CBMiiAJBVV95cUxQSmZ5Q0tMeFozZ2VZWXBDb3RCX1YydkFXMTRkZ0tpWmpFS3Atb2RUTDNHWEk3X1FIcWZCX25RYXl6a0dtWk01QWRCbWU2bFM3NGM0a2haalpuTnFHR2tpV0lHVUY0RFZsQS1adE5CMjZsQ0p0d2JvVG1jbm55LXNRQ3h4YWNJWDd5ZzdzV3UzQlhURVhtNFYwbmhYT2pVUUFNbGUtZ0hGQlNGUFBod3ZuMEl3Z1NabjVQSC0xS2dvWS1OMlBjVXFaM3JiZi1NelE1c1BuUzBDTjNTT1F3MXdvdnZVbDNLRGxGaUZZZGFiTnlVUEdRVmlrU0x5SUlSeG5vMm4xZ2xZRULSAY4CQVVfeXFMUEFIR0JZeWNQSFh0T0xVZThPMVpXOVlGSy1YMjNNeFRqSmdEQ3R1TUZyMTF1Zjg0amg2WjdDc2kyY3FmdGdKWW8xdEUzUHdlTGtDcFkwa1FidGdoNnNPdmMtT1gtZW8zdzhyZlBBNDh4S2lVd3M0MXVnczZoU2c5ZFJ0ZGRrSGFUZmt1NGhOdm1sdnJTUW5oTkdyNEdtV2J1NnVDS1BMQ3UyVmc5cTNocEVxX3UxT3FGcWNWU1hFU3pqeElGYUlOZXZ2ak4zY1VGdXB4VlFGM1cxWnIxTkFOd1luYzZIZjY0M3NubGVSdUt0aVlHbDBNdUtHR3ZEa29oa2l4OGxveXhNeF9wQldB?oc=5 | unknown |
+| 10 | 3 | cathode | 2026-10-18 | www.financialpost.co.kr | SK온, LFP 배터리 원가 낮출 'CNT 파우더' 공정 개발… 학술대회 개최 | https://www.financialpost.co.kr/news/articleView.html?idxno=281016 | unknown |
+| 11 | 3 | cathode | 2026-10-18 | view.asiae.co.kr | 삼원계에서 LFP로…ESS 열풍에 K배터리 전략 대전환 | https://view.asiae.co.kr/article/2026101514205438112 | unknown |
+| 12 | 3 | 기타 | 2026-10-17 | Tech Xplore | Upcycled battery materials roughly double cell cycle life in tests | https://news.google.com/rss/articles/CBMihwFBVV95cUxNcHpWTHR4N3pJeF94aDZ2NzdIYXd3cS00bFUtNmJiZ21RbGhSTVZSejc0elRnNVBwVkdmbWsxQU1DNjFFS0VsVnNheFRRRHg2WHliU3FTNmJOVkVKaHB6UlNhcHdXeDhfbnVRZGRPRmNJczcwSmFDOFF6RnR2cmZBWkZZNW5Ocjg?oc=5 | unknown |
+| 13 | 3 | anode | 2026-10-17 | Bioengineer.org | Turning CO2 Into Ultrafast Battery Anodes: 3D Graphene With Tunable Honeycomb Architecture | https://news.google.com/rss/articles/CBMitAFBVV95cUxPakpxZjl2WWFxeFpXWFZkbGNIaUtKQ1NZN00tYWZUZ2g4ZV9CRXVLZXRTT1dyWnFNNW8xM1ZVTGw1cUctSURSNVk4cjJYMlcwT3ZkNnozdDlJWjdRcjJEb0x5QjA3R0Y1QXc4UHc4T3NiVDNTM0NaU0dpRGxiWGlXVm9Rcmd5X041Vmkyb2JSSmxKVDhNblYzTXRPTktTWS1XbkRIRGIyb0NaOUJIaXJkVUFzc2k?oc=5 | unknown |
+| 14 | 3 | 기타 | 2026-10-18 | www.cbci.co.kr | [2차전지] 금양, 이차전지 분야 국가핵심기술 보유기관 등록…기술 경쟁... | https://www.cbci.co.kr/news/articleView.html?idxno=616722 | unknown |
+| 15 | 3 | electrolyte | 2026-10-18 | www.g-enews.com | "LG엔솔 납품 ESS 화재→지하수 오염"… 美 넥스트에라, 뉴욕 2개 저장소... | https://www.g-enews.com/view.php?ud=2026101808343074750c8c1c064d_1 | unknown |
+| 16 | 3 | 나트륨 | 2026-10-18 | www.theguru.co.kr | GM, 배터리 원가 낮출 전용 개발 센터 구축…AI·가상화 기술 총동원 | https://www.theguru.co.kr/news/article.html?no=108378 | unknown |
+| 17 | 3 | cathode | 2026-10-18 | www.m-i.kr | K-배터리, ESS 새 성장축 확보하나…글로벌 성장에 '청신호' | https://www.m-i.kr/news/articleView.html?idxno=2006734 | unknown |
+| 18 | 3 | 장비 | 2026-10-17 | www.pinpointnews.co.kr | 이차전지 장비 넘어 소재까지…피엔티, 성장 동력 다변화 시험대 | https://www.pinpointnews.co.kr/news/articleView.html?idxno=496121 | unknown |
+| 19 | 3 | cathode | 2026-10-18 | www.newsworks.co.kr | SK온 '미래기술원 학술대회' 성료…R&D 성과 공유 | https://www.newsworks.co.kr/news/articleView.html?idxno=856796 | unknown |
+| 20 | 3 | cathode | 2026-10-18 | www.viva100.com | SK온, 미래기술원 학술대회 개최…차세대 배터리 연구 성과 공유 | https://www.viva100.com/article/20261018500252 | unknown |
+
+## 상세 요약
+
+### 1. HiTHIUM übertrifft 200 GWh an ausgelieferten Speichern und treibt die globale Langzeitspeicherung von Energie durch vollständige Integration der gesamten Wertschöpfungskette voran
+- 발행일: 2026-10-17
+- 매체: PR Newswire - Energy (출처등급 1)
+- 분야: 기타
+- 링크: https://www.prnewswire.com/news-releases/hithium-ubertrifft-200-gwh-an-ausgelieferten-speichern-und-treibt-die-globale-langzeitspeicherung-von-energie-durch-vollstandige-integration-der-gesamten-wertschopfungskette-voran-302911478.html
+- 인기신호: unknown
+- 3문장 요약:
+  - HiTHIUM은 2026년 10월 15일 중국 충칭 생산 기지에서 'HiTHIUM 200GWh 출하 기념식'을 개최했습니다.
+  - 이 회사는 단 1년 만에 200GWh 이상의 에너지 저장 시스템을 출하하며 글로벌 장기 에너지 저장 시장을 선도하고 있습니다.
+  - HiTHIUM은 전체 가치 사슬의 완전한 통합을 통해 이러한 성과를 달성했습니다.
+- 관련 기업: HiTHIUM
+
+### 2. Ganfeng Lithium Net profit for first three quarters surged 195 times year-on-year
+- 발행일: 2026-10-17
+- 매체: Gasgoo (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZnV2Sm9ZajJYaVd3SmdyY1RRNGZLNW1GVzM3dnlsUHF6RUFDNWZjYUdYZWNOVjNGVFRlSVJILXo1RUcwOWNESUZhXzVKVFMyNVRpd1BkOG9QV04ydThRWHdTQVpoUC1KREpvRjF2eXZnVXZ5S0daeFBzeXF1ZnNJUVN3dFZDamlQWTRTQkl2THYwV0hhQnFmNUIyUHRrWTFxWU15dTNCMEtTOTZVb2VocUI1ZzVRR1hjSFY2V3JTeHZSZkVWNVBlVlItU0s0Uzc4UEpvTFZXblY?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Ganfeng Lithium은 올해 첫 3분기 동안 전년 동기 대비 195배 급증한 순이익을 기록했습니다.
+  - 이러한 실적은 회사의 강력한 재무 성과와 시장에서의 입지를 보여줍니다.
+  - Ganfeng Lithium은 리튬 산업에서 중요한 역할을 하는 기업입니다.
+- 관련 기업: Ganfeng Lithium
+
+### 3. Standard Lithium: Everything Is Ready Except The Lithium Price
+- 발행일: 2026-10-17
+- 매체: Seeking Alpha (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMipAFBVV95cUxPbDI3Y2N6LVF5dndnS1FXQ0ZmMGtxUXQzdFYtVE8yRFJsdWprbGdtYW9adUNwYk44am1iX0R6bjlQNFFYemFOSDB0NW5YcmY2NlhZdlhXUDdnN0xhYm9qc1MxRWNwMnlVWmM4U1F6dTNHZTNnQXI5NXNUQlMyZ0tlZ3c1QnRobkpuSmN3al9VakhPZUdaaGFLMWYzVFhWWUZtR1g1VQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Standard Lithium은 리튬 추출 및 생산 준비를 완료했지만, 현재 리튬 가격 변동으로 인해 상업 생산 개시 시점을 조율하고 있습니다.
+  - 회사는 아르헨티나의 Três Corações 프로젝트를 통해 상당한 양의 리튬을 생산할 잠재력을 가지고 있습니다.
+  - 리튬 가격의 안정화는 Standard Lithium의 향후 사업 계획에 중요한 요소입니다.
+- 관련 기업: Standard Lithium
+
+### 4. Lithium Prices Drop 14% as EU-China Hybrid Car Deal Cuts Demand Outlook - News and Statistics
+- 발행일: 2026-10-17
+- 매체: IndexBox (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMijAFBVV95cUxOMnRIcGJ6OEV4dEttSXFUTDUza3lkcTB5eC11akxudllISnd1b3c2bHFSck5laHVETzZCOUEtTW14UjRyX2tpWkdUSlhnRUltVHBYWFJxOGdBWkRVR09kY0lManU2TVRhT1U5aDNSVnU4dlYwVnpoR2xEV0xJY0EtXzNtVmxNUEZkXzU4aA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 유럽연합과 중국 간의 하이브리드 자동차 거래로 인한 수요 전망 감소로 리튬 가격이 14% 하락했습니다.
+  - 이러한 가격 하락은 리튬 생산 및 공급망에 영향을 미칠 수 있습니다.
+  - IndexBox는 이러한 시장 동향을 분석하여 발표했습니다.
+- 관련 기업: IndexBox, EU
+
+### 5. 韓, 전고체 배터리·재사용 발사체 특허 '쑥쑥'…증가율 세계 2위
+- 발행일: 2026-10-18
+- 매체: www.etnews.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.etnews.com/20261016000022
+- 인기신호: unknown
+- 3문장 요약:
+  - 한국은 지난 10년간 전고체 배터리와 재사용 발사체 분야에서 연평균 특허 출원 증가율 세계 2위를 기록했습니다.
+  - 이는 미래 기술 경쟁력 확보에 있어 한국의 중요한 성과를 보여줍니다.
+  - 특히 전고체 배터리 분야에서 한국의 기술 개발이 두드러지고 있습니다.
+
+### 6. Redwood to repurpose end-of-life batteries from Rivian vehicles
+- 발행일: 2026-10-17
+- 매체: electrive.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiowFBVV95cUxPblZCWkFRU1I4Yllxbm5qTzhOMjdwcUh4X2VDV3oyX01DTUVtdXkxNWx6Vi1CVlhKN3NOUm9HWXBNQ25ldjhyRmxSdGFoTGlERWd5enpwYk16R1A2Y3U1QjUwYmhGeU01TEx2UUVRRDFUQUFHZjNRYVpxQkE1UmI2T0lvd3FMWjVqUHRueWxWT0I4STRqdWZ0aVlVWkdLYkhubnNB?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Redwood Materials는 Rivian 차량의 수명이 다한 배터리를 재활용하여 새로운 배터리 소재로 재탄생시킬 계획입니다.
+  - 이 프로젝트는 전기차 배터리 재활용 및 지속 가능성 측면에서 중요한 진전입니다.
+  - Redwood Materials는 배터리 재활용 분야의 선두 주자입니다.
+- 관련 기업: Redwood Materials, Rivian
+
+### 7. Tinci Materials Accelerates Indonesia Electrolyte Project, Trial Production Set for December 2026
+- 발행일: 2026-10-17
+- 매체: Gasgoo (출처등급 3)
+- 분야: electrolyte
+- 링크: https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZG9HVEs3bnZ1R21vaUZTeWlwbHpnNHRkVGUtNXhoRG1wLXZLOUNtd2Vxd0RkTTVtMGRsaGlkQzFYemhUUHQ3WnBXWVBFMmxxdlJOdjdPUkJLX0ZDeU9DamRLTEE1UW1Cb2R3WWJWaGZIUE5LTndEZy10Z1BMR1RZSzVGMmFpdzFRRGU5bVBDTzFuZ0V1ZXZud0ZveXZZWFRtSGdqSncxN1hVbndUaVo3U2drUGZKRUN2VVcxcHlHVVd6R29CWnlyTHhVbExhMGU2bHgwR3d2THhDRzFEVVViTVZtdTN3cjV1QW9KZ3d1cw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Tinci Materials는 인도네시아 전해액 프로젝트를 가속화하여 2026년 12월 시험 생산을 시작할 예정입니다.
+  - 이 프로젝트는 Tinci Materials의 글로벌 전해액 생산 능력 확장에 기여할 것입니다.
+  - 회사는 인도네시아에서의 입지를 강화하여 아시아 시장 공략을 확대할 계획입니다.
+- 관련 기업: Tinci Materials
+
+### 8. LG Energy Solution, indiGOtech Explore Battery Supply - The Buzz - Electric Vehicle News
+- 발행일: 2026-10-17
+- 매체: The Buzz - Electric Vehicle News (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVFSbV81bXpDbHYtSnFiMTBVWnNycDZUd3B1SHA0aHhpWmpISV85QlBaSGFJanFFcnE2Sk9fQmRTd2J2OWc1dHRTUlItWHpaN21McW1RSS1TaUMtcHFoa0FRNzVQc2hNNTBrRGUtV2lXd0taOGhLaGRHZU5adGdzcg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - LG Energy Solution과 indiGOtech는 배터리 공급망 협력 가능성을 모색하고 있습니다.
+  - 이번 협력은 양사의 기술력과 시장 접근성을 결합하여 시너지를 창출할 것으로 기대됩니다.
+  - 이는 전기차 배터리 시장에서의 경쟁력을 강화하는 데 기여할 것입니다.
+- 관련 기업: LG Energy Solution, indiGOtech, LG
+
+### 9. Varroc Engineering to set up JV with French co Forsee Power to develop battery-pack solutions
+- 발행일: 2026-10-17
+- 매체: The Economic Times (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiiAJBVV95cUxQSmZ5Q0tMeFozZ2VZWXBDb3RCX1YydkFXMTRkZ0tpWmpFS3Atb2RUTDNHWEk3X1FIcWZCX25RYXl6a0dtWk01QWRCbWU2bFM3NGM0a2haalpuTnFHR2tpV0lHVUY0RFZsQS1adE5CMjZsQ0p0d2JvVG1jbm55LXNRQ3h4YWNJWDd5ZzdzV3UzQlhURVhtNFYwbmhYT2pVUUFNbGUtZ0hGQlNGUFBod3ZuMEl3Z1NabjVQSC0xS2dvWS1OMlBjVXFaM3JiZi1NelE1c1BuUzBDTjNTT1F3MXdvdnZVbDNLRGxGaUZZZGFiTnlVUEdRVmlrU0x5SUlSeG5vMm4xZ2xZRULSAY4CQVVfeXFMUEFIR0JZeWNQSFh0T0xVZThPMVpXOVlGSy1YMjNNeFRqSmdEQ3R1TUZyMTF1Zjg0amg2WjdDc2kyY3FmdGdKWW8xdEUzUHdlTGtDcFkwa1FidGdoNnNPdmMtT1gtZW8zdzhyZlBBNDh4S2lVd3M0MXVnczZoU2c5ZFJ0ZGRrSGFUZmt1NGhOdm1sdnJTUW5oTkdyNEdtV2J1NnVDS1BMQ3UyVmc5cTNocEVxX3UxT3FGcWNWU1hFU3pqeElGYUlOZXZ2ak4zY1VGdXB4VlFGM1cxWnIxTkFOd1luYzZIZjY0M3NubGVSdUt0aVlHbDBNdUtHR3ZEa29oa2l4OGxveXhNeF9wQldB?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Varroc Engineering은 프랑스 기업 Forsee Power와 합작 투자를 통해 배터리 팩 솔루션 개발에 나섭니다.
+  - 이번 합작 투자는 전기차 배터리 시스템 분야에서의 기술 개발 및 시장 확대를 목표로 합니다.
+  - 양사는 각자의 전문성을 활용하여 혁신적인 배터리 솔루션을 제공할 것입니다.
+- 관련 기업: Varroc Engineering, Forsee Power, JV
+
+### 10. SK온, LFP 배터리 원가 낮출 'CNT 파우더' 공정 개발… 학술대회 개최
+- 발행일: 2026-10-18
+- 매체: www.financialpost.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.financialpost.co.kr/news/articleView.html?idxno=281016
+- 인기신호: unknown
+- 3문장 요약:
+  - SK온 미래기술원은 LFP 배터리의 원가를 절감할 수 있는 탄소나노튜브(CNT) 파우더 공정 개발에 성공했습니다.
+  - 이 기술은 보급형 전기차 시장에서 LFP 배터리의 경쟁력을 높일 것으로 기대됩니다.
+  - SK온은 학술대회를 통해 이러한 연구 성과를 공유했습니다.
+- 관련 기업: SK온, LFP, CNT
+
+### 11. 삼원계에서 LFP로…ESS 열풍에 K배터리 전략 대전환
+- 발행일: 2026-10-18
+- 매체: view.asiae.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://view.asiae.co.kr/article/2026101514205438112
+- 인기신호: unknown
+- 3문장 요약:
+  - 한국의 배터리 3사가 에너지 저장 장치(ESS)용 리튬인산철(LFP) 배터리 생산을 확대하고 있습니다.
+  - 이는 ESS 시장의 성장에 발맞춘 전략으로, 양극재 업체들과의 대규모 공급 계약이 이어지고 있습니다.
+  - 배터리 산업 전반에 걸쳐 사업 구조 재편이 본격화되고 있습니다.
+- 관련 기업: LFP
+
+### 12. Upcycled battery materials roughly double cell cycle life in tests
+- 발행일: 2026-10-17
+- 매체: Tech Xplore (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMihwFBVV95cUxNcHpWTHR4N3pJeF94aDZ2NzdIYXd3cS00bFUtNmJiZ21RbGhSTVZSejc0elRnNVBwVkdmbWsxQU1DNjFFS0VsVnNheFRRRHg2WHliU3FTNmJOVkVKaHB6UlNhcHdXeDhfbnVRZGRPRmNJczcwSmFDOFF6RnR2cmZBWkZZNW5Ocjg?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 재활용된 배터리 소재를 사용하여 제조된 배터리 셀이 테스트에서 기존 셀 수명의 약 두 배에 달하는 사이클 수명을 보였습니다.
+  - 이는 배터리 재활용 기술의 발전이 배터리 성능 향상에 기여할 수 있음을 시사합니다.
+  - 이러한 연구 결과는 지속 가능한 배터리 기술 개발에 중요한 의미를 갖습니다.
+
+### 13. Turning CO2 Into Ultrafast Battery Anodes: 3D Graphene With Tunable Honeycomb Architecture
+- 발행일: 2026-10-17
+- 매체: Bioengineer.org (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMitAFBVV95cUxPakpxZjl2WWFxeFpXWFZkbGNIaUtKQ1NZN00tYWZUZ2g4ZV9CRXVLZXRTT1dyWnFNNW8xM1ZVTGw1cUctSURSNVk4cjJYMlcwT3ZkNnozdDlJWjdRcjJEb0x5QjA3R0Y1QXc4UHc4T3NiVDNTM0NaU0dpRGxiWGlXVm9Rcmd5X041Vmkyb2JSSmxKVDhNblYzTXRPTktTWS1XbkRIRGIyb0NaOUJIaXJkVUFzc2k?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 연구진은 이산화탄소(CO2)를 활용하여 3D 그래핀 기반의 벌집 구조 양극재를 개발했습니다.
+  - 이 새로운 양극재는 초고속 충전이 가능한 배터리 구현에 기여할 수 있습니다.
+  - 이 기술은 CO2를 유용한 소재로 전환하는 혁신적인 접근 방식을 보여줍니다.
+
+### 14. [2차전지] 금양, 이차전지 분야 국가핵심기술 보유기관 등록…기술 경쟁...
+- 발행일: 2026-10-18
+- 매체: www.cbci.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.cbci.co.kr/news/articleView.html?idxno=616722
+- 인기신호: unknown
+- 3문장 요약:
+  - 금양은 이차전지 분야의 국가핵심기술 보유기관으로 등록되었습니다.
+  - 이는 고에너지밀도 리튬이차전지 설계, 공정, 제조 및 평가 기술에 대한 회사의 역량을 인정받은 것입니다.
+  - 금양은 이번 등록을 통해 기술 경쟁력을 더욱 강화할 것으로 기대됩니다.
+- 관련 기업: 금양, 2차전지, 이차전지
+
+### 15. "LG엔솔 납품 ESS 화재→지하수 오염"… 美 넥스트에라, 뉴욕 2개 저장소...
+- 발행일: 2026-10-18
+- 매체: www.g-enews.com (출처등급 3)
+- 분야: electrolyte
+- 링크: https://www.g-enews.com/view.php?ud=2026101808343074750c8c1c064d_1
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국 넥스트에라 에너지(NextEra Energy)는 LG에너지솔루션이 공급한 ESS에서 발생한 화재와 지하수 오염에 대한 손해배상 소송을 제기했습니다.
+  - 이 소송은 LG에너지솔루션의 미국 시장 확장에 영향을 미칠 수 있습니다.
+  - 소송은 뉴욕의 두 개 에너지 저장 시설과 관련되어 있습니다.
+- 관련 기업: LG에너지솔루션, 넥스트에라 에너지, LG엔솔
+
+### 16. GM, 배터리 원가 낮출 전용 개발 센터 구축…AI·가상화 기술 총동원
+- 발행일: 2026-10-18
+- 매체: www.theguru.co.kr (출처등급 3)
+- 분야: 나트륨
+- 링크: https://www.theguru.co.kr/news/article.html?no=108378
+- 인기신호: unknown
+- 3문장 요약:
+  - 제너럴모터스(GM)는 배터리 원가 절감을 위해 미시간주 워런에 9억 달러를 투자하여 배터리 개발 센터(BCDC)를 구축합니다.
+  - 이 센터는 차세대 배터리 기술 검증 및 AI, 가상화 기술을 활용한 효율적인 개발을 목표로 합니다.
+  - GM은 BCDC를 통해 전기차 배터리 가격 경쟁력을 확보하고자 합니다.
+- 관련 기업: GM, LMR·나트륨이온, AI
+
+### 17. K-배터리, ESS 새 성장축 확보하나…글로벌 성장에 '청신호'
+- 발행일: 2026-10-18
+- 매체: www.m-i.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.m-i.kr/news/articleView.html?idxno=2006734
+- 인기신호: unknown
+- 3문장 요약:
+  - 한국 배터리 기업들이 에너지 저장 장치(ESS)용 리튬인산철(LFP) 배터리 생산을 확대하며 새로운 성장 동력을 확보하고 있습니다.
+  - 글로벌 ESS 수요 증가에 맞춰 제품군 다변화와 소재 공급망 구축에 힘쓰고 있습니다.
+  - 이는 K-배터리 산업의 글로벌 성장에 긍정적인 신호로 작용하고 있습니다.
+- 관련 기업: K-배터리, LFP
+
+### 18. 이차전지 장비 넘어 소재까지…피엔티, 성장 동력 다변화 시험대
+- 발행일: 2026-10-17
+- 매체: www.pinpointnews.co.kr (출처등급 3)
+- 분야: 장비
+- 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=496121
+- 인기신호: unknown
+- 3문장 요약:
+  - 피엔티는 이차전지 장비 제조를 넘어 소재 분야로 사업 영역을 확장하며 성장 동력 다변화를 모색하고 있습니다.
+  - 전기차 및 ESS 시장 확대에 따른 배터리 생산 능력 확충 수요에 대응하기 위한 전략입니다.
+  - 회사는 장기적인 배터리 수요 증가에 대비하여 사업 포트폴리오를 강화하고 있습니다.
+- 관련 기업: 피엔티, 이차전지
+
+### 19. SK온 '미래기술원 학술대회' 성료…R&D 성과 공유
+- 발행일: 2026-10-18
+- 매체: www.newsworks.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.newsworks.co.kr/news/articleView.html?idxno=856796
+- 인기신호: unknown
+- 3문장 요약:
+  - SK온 미래기술원은 전고체 배터리, LFP, 셀투팩 등 미래 배터리 기술 개발을 총괄하는 핵심 연구 거점으로서의 역할을 확대하고 있습니다.
+  - 회사는 학술대회를 통해 이러한 연구 개발 성과를 공유하며 기술 리더십을 강화했습니다.
+  - SK온은 미래 배터리 기술 확보를 통해 시장 변화에 적극적으로 대응하고 있습니다.
+- 관련 기업: SK온, LFP
+
+### 20. SK온, 미래기술원 학술대회 개최…차세대 배터리 연구 성과 공유
+- 발행일: 2026-10-18
+- 매체: www.viva100.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.viva100.com/article/20261018500252
+- 인기신호: unknown
+- 3문장 요약:
+  - SK온은 LFP 배터리와 전고체 배터리 등 다양한 차세대 배터리 기술 개발을 통해 시장 변화에 대응하고 있습니다.
+  - 이는 보급형 전기차 시장에서의 입지를 넓히고 경쟁력을 강화하기 위한 전략입니다.
+  - SK온은 미래기술원 학술대회를 개최하여 연구 성과를 공유했습니다.
+- 관련 기업: SK온, LFP
