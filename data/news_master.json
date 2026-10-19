@@ -1,5 +1,173 @@
 [
   {
+    "title": "한국 전고체배터리 기술개발 주도",
+    "description": "전고체배터리 기술개발을 한국이 주도하고 있다. 다출원 기업 10위권 내에 국내기업 4개사가 포함돼 있다. 18일 지식재산처에 따르면 국가전략기술인 전고체배터리 분야에서 우리나라가 최근 10년간(2015~2024년)...",
+    "link": "https://www.naeil.com/news/read/605560?ref=naver",
+    "source": "www.naeil.com",
+    "published_at": "2026-10-19",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "전고체배터리"
+    ],
+    "summary_3_sentences": [
+      "최근 10년간(2015~2024년) 국가전략기술인 전고체 배터리 분야에서 한국이 기술 개발을 주도하고 있는 것으로 나타났습니다.",
+      "특허청에 따르면, 다출원 기업 10위권 내에 국내 기업 4개사가 포함되는 등 한국 기업들의 기술력이 두드러지고 있습니다.",
+      "이는 한국이 차세대 배터리 시장을 선점하는 데 유리한 위치를 확보했음을 시사합니다."
+    ],
+    "uid": "bbf9cc7a7e066f16a29209866abde6741e859c4d"
+  },
+  {
+    "title": "\"미국 사업 사실상 포기\" 백기 든 중국 ESS 기업들...2차전지주 '불기둥...",
+    "description": "국내 증시에서 2차전지 관련주가 일제히 강세다. 강한 규제에 중국산 배터리 업체가 미국 시장에서 대부분 철수했다는 소식이 전해진 영향으로 풀이된다. ESS(에너지저장장치) 산업 성장 가속화에 대한...",
+    "link": "https://www.mt.co.kr/stock/2026/10/19/2026101911111211909",
+    "source": "www.mt.co.kr",
+    "published_at": "2026-10-19",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.edaily.co.kr",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=02791286645614560&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "정책",
+    "companies": [
+      "기업들...2차전지",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "강한 규제에 중국산 배터리 업체가 미국 시장에서 대부분 철수했다는 소식이 전해지면서 국내 증시에서 2차전지 관련주가 일제히 강세를 보이고 있습니다.",
+      "이는 ESS(에너지저장장치) 산업 성장 가속화에 대한 기대감과 맞물려 투자 심리를 자극하는 것으로 풀이됩니다.",
+      "중국 기업들의 미국 시장 철수는 국내 배터리 기업들에게 새로운 기회로 작용할 수 있습니다."
+    ],
+    "uid": "8a2c7810f2ea27d86402c41df7578cb2c53b32f8"
+  },
+  {
+    "title": "\"中 철수·ESS 수요 겹호재\"…韓 이차전지 일제히 '쑥'",
+    "description": "중국 ESS 제조업체들이 올해 중 대부분 미국 사업에서 철수할 것으로 예상된다는 대만 모 기술매체 보도가 회자되고 있다. 미국은 중국산 배터리에 대한 추가 관세와 공급망 규제를 도입하며 탈중국 정책을 강화해...",
+    "link": "https://www.jnilbo.com/news/articleView.html?idxno=90000074476",
+    "source": "www.jnilbo.com",
+    "published_at": "2026-10-19",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "정책",
+    "companies": [
+      "이차전지"
+    ],
+    "summary_3_sentences": [
+      "대만 모 기술매체의 보도에 따르면, 중국 ESS 제조업체들이 올해 중 대부분 미국 사업에서 철수할 것으로 예상됩니다.",
+      "미국은 중국산 배터리에 대한 추가 관세와 공급망 규제를 강화하며 탈중국 정책을 추진해왔습니다.",
+      "이러한 중국 기업의 미국 시장 철수와 ESS 수요 확대 기대감이 겹치면서 한국 이차전지 관련주가 일제히 상승세를 보이고 있습니다."
+    ],
+    "uid": "dcaa010897e2361ea685df10e2b7bc9abbb5e5ca"
+  },
+  {
+    "title": "[특징주] 이차전지株, 中 업체들 미국 사업 철수 보도.. '강세'",
+    "description": "중국 ESS 제조업체들이 올해 중 대부분 미국 사업에서 철수할 것으로 예상된다는 보도가 나온 바 있다. 미국은 중국산 배터리에 대한 추가 관세와 공급망 규제를 도입하며 탈중국 정책을 강화해 왔다. 그런 가운데...",
+    "link": "https://www.g-enews.com/view.php?ud=20261019100620655844093b5d4e_1",
+    "source": "www.g-enews.com",
+    "published_at": "2026-10-19",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "정책",
+    "companies": [
+      "이차전지"
+    ],
+    "summary_3_sentences": [
+      "미국이 중국산 배터리에 대한 추가 관세와 공급망 규제를 도입하며 탈중국 정책을 강화하는 가운데, 중국 ESS 제조업체들이 올해 중 대부분 미국 사업에서 철수할 것이라는 보도가 나왔습니다.",
+      "이러한 소식은 국내 이차전지 관련 기업들에게 긍정적인 영향을 미치며 주가 강세를 이끌고 있습니다.",
+      "미국 시장에서 중국 기업의 철수는 국내 배터리 기업들에게 새로운 기회를 제공할 것으로 예상됩니다."
+    ],
+    "uid": "91035d5ec21fe1bf7a8b8679e9a7612fa1a3a7da"
+  },
+  {
+    "title": "이수스페셜티케미컬, 황화리튬 마더플랜트 준공",
+    "description": "황화리튬(Li₂S)은 차세대 전고체 배터리의 성능을 좌우하는 가장 핵심적인 원료다. 안정적인 공급 체계와 가격 경쟁력 확보가 시장 확대의 주요 과제로 꼽혀 왔다. 이수스페셜티케미컬은 황화리튬의 안정적인 양산 기반을...",
+    "link": "https://www.etnews.com/20261019000199",
+    "source": "www.etnews.com",
+    "published_at": "2026-10-19",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "이수스페셜티케미컬"
+    ],
+    "summary_3_sentences": [
+      "이수스페셜티케미컬이 차세대 전고체 배터리의 핵심 원료인 황화리튬(Li₂S)의 안정적인 양산 기반을 마련하기 위해 마더플랜트를 준공했습니다.",
+      "황화리튬은 전고체 배터리의 성능을 좌우하는 가장 중요한 소재로, 안정적인 공급 체계와 가격 경쟁력 확보가 시장 확대의 주요 과제였습니다.",
+      "이번 준공으로 이수스페셜티케미컬은 황화리튬 시장에서의 입지를 강화할 것으로 기대됩니다."
+    ],
+    "uid": "f2350d98a31fa3fca8d873f8f031c3a72f08fd30"
+  },
+  {
+    "title": "[특징주] 이차전지주 동반 강세…美 중국산 배터리 규제 기대감",
+    "description": "미국의 중국산 배터리 규제 강화와 에너지저장장치(ESS) 수요 확대 기대감이 영향을 미친 것으로 풀이된다. 한국거래소에 따르면 이날 오전 10시23분 현재 삼성SDI는 전 거래일 대비 9.06% 오른 57만8000원에...",
+    "link": "https://www.ekn.kr/web/view.php?key=20261019026267892",
+    "source": "www.ekn.kr",
+    "published_at": "2026-10-19",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "정책",
+    "companies": [
+      "삼성SDI",
+      "이차전지"
+    ],
+    "summary_3_sentences": [
+      "미국의 중국산 배터리 규제 강화와 에너지저장장치(ESS) 수요 확대 기대감이 작용하며 국내 이차전지주가 동반 강세를 보이고 있습니다.",
+      "이러한 소식은 투자자들의 관심을 끌며 관련 종목들의 주가 상승을 견인하고 있습니다.",
+      "삼성SDI는 전 거래일 대비 9.06% 상승한 57만 8000원에 거래되는 등 이차전지 섹터 전반에 긍정적인 영향을 미치고 있습니다."
+    ],
+    "uid": "d0e745d6fac82cda65e8ec24ae0d56fdce28fa43"
+  },
+  {
+    "title": "삼성SDI, 전고체 배터리 내년 양산 본격화...휴머노이드 선점·전기차 확...",
+    "description": "| 이코노미사이언스 홍승환 기자 | 전고체 배터리 상용화를 추진하는 삼성SDI가 2027년 하반기 양산을 목표로 핵심 소재 공급망과 고객사 협력을 강화하고 있다. 전기차보다 휴머노이드 로봇에 먼저 적용한 뒤 사업...",
+    "link": "https://www.e-science.co.kr/news/articleView.html?idxno=137147",
+    "source": "www.e-science.co.kr",
+    "published_at": "2026-10-19",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 2027년 하반기 양산을 목표로 전고체 배터리 상용화를 추진하며 핵심 소재 공급망과 고객사 협력을 강화하고 있습니다.",
+      "특히 전기차보다 휴머노이드 로봇에 먼저 적용한 뒤 사업을 확장할 계획을 가지고 있습니다.",
+      "이는 삼성SDI가 차세대 배터리 시장에서 경쟁 우위를 확보하려는 전략의 일환입니다."
+    ],
+    "uid": "f6d01751e528b1f86ded93db010bc40f0dab3608"
+  },
+  {
     "title": "SK온, 미래기술원 학술대회 개최…차세대 배터리 연구 성과 공유",
     "description": "보급형 전기차 시장에서 입지를 넓히고 있으며, 국내 배터리 업계도 제품군 다변화와 제조 공정 효율화에 힘을 쏟고 있다. SK온 역시 LFP 배터리와 전고체 배터리 등 다양한 기술 개발을 통해 시장 변화에 대응하고 있다.",
     "link": "https://www.viva100.com/article/20261018500252",
@@ -95,6 +263,32 @@
       "이는 K-배터리 산업의 글로벌 성장에 긍정적인 신호로 작용하고 있습니다."
     ],
     "uid": "84a3bfee12801a0f29222bc602fc8734529ea29f"
+  },
+  {
+    "title": "“전고체 배터리 잡는 자가 車·로봇·ESS 주도”… 시장 선점 경쟁 치열",
+    "description": "배터리 시장의 ‘게임 체인저’로 불리는 전고체 배터리의 주도권을 잡기 위한 경쟁이 뜨겁다. 전고체 배터리 상용화 여부가 차세대 프리미엄 전기차의 경쟁력을 가르는 분수령이자 로봇·드론 등 미래 모빌리티 산업...",
+    "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000023559&cp=nv",
+    "source": "www.kmib.co.kr",
+    "published_at": "2026-10-18",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.kmib.co.kr",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000023606&cp=nv"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "전고체 배터리 상용화 여부가 차세대 프리미엄 전기차 및 로봇, 드론 등 미래 모빌리티 산업의 경쟁력을 가를 전망입니다.",
+      "이러한 가운데 전고체 배터리 주도권 확보를 위한 경쟁이 치열하게 전개되고 있습니다.",
+      "전고체 배터리는 기존 리튬이온 배터리의 한계를 뛰어넘는 차세대 배터리로 주목받고 있습니다."
+    ],
+    "uid": "86f86a0cbc7f9b56c549a5e912e7bce88d2281a4"
   },
   {
     "title": "\"LG엔솔 납품 ESS 화재→지하수 오염\"… 美 넥스트에라, 뉴욕 2개 저장소...",
@@ -214,6 +408,127 @@
       "배터리 산업 전반에 걸쳐 사업 구조 재편이 본격화되고 있습니다."
     ],
     "uid": "3385fab8c63793edebe9092b7fd480d44301e03f"
+  },
+  {
+    "title": "Lithium Prices Slump on Oversupply Fears, Raising Battery Market Uncertainty",
+    "published_at": "2026-10-18",
+    "source": "THE ELEC, Korea Electronics Industry Media",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JZzBiUTV6aFZOWmhCQ0taTS01U1lWQnlMWUsyRjctdktMY0JWSHI3X2FDbjNQNXN2dnR4S055S0xybXVMR3VFVmpOMkhHOVB6TkFpTlp1UUFLS0hoUjNlOG1UTUktcWs?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JZzBiUTV6aFZOWmhCQ0taTS01U1lWQnlMWUsyRjctdktMY0JWSHI3X2FDbjNQNXN2dnR4S055S0xybXVMR3VFVmpOMkhHOVB6TkFpTlp1UUFLS0hoUjNlOG1UTUktcWs?oc=5\" target=\"_blank\">Lithium Prices Slump on Oversupply Fears, Raising Battery Market Uncertainty</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">THE ELEC, Korea Electronics Industry Media</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "THE",
+      "ELEC"
+    ],
+    "summary_3_sentences": [
+      "과잉 공급 우려로 리튬 가격이 급락하면서 배터리 시장의 불확실성이 커지고 있습니다.",
+      "이는 배터리 생산 비용에 직접적인 영향을 미쳐 관련 기업들의 수익성에 부담으로 작용할 수 있습니다.",
+      "향후 리튬 가격 추이와 시장 수급 상황이 배터리 산업 전반에 중요한 변수가 될 전망입니다."
+    ],
+    "uid": "73d531713e056898896cf51be0e4ce6626be0f1f"
+  },
+  {
+    "title": "SK On Accelerates LFP Cost Reduction and Lithium-Metal Battery Development",
+    "published_at": "2026-10-18",
+    "source": "Korea IT Times",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05dEJXV01CU1dWTGVNaDhOVkUzX0NQNEsxa0pwOHlabjJ6M3NQMUZSZzJHZ1pidzFFOVYwZW5YOTE1cnpNbnh2YXdkQzUzd1phRmNFSGMzLWxNaTBJY2xWQjcwNHdRb1M5Uk8ySVZLbG8?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE05dEJXV01CU1dWTGVNaDhOVkUzX0NQNEsxa0pwOHlabjJ6M3NQMUZSZzJHZ1pidzFFOVYwZW5YOTE1cnpNbnh2YXdkQzUzd1phRmNFSGMzLWxNaTBJY2xWQjcwNHdRb1M5Uk8ySVZLbG8?oc=5\" target=\"_blank\">SK On Accelerates LFP Cost Reduction and Lithium-Metal Battery Development</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Korea IT Times</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "SK On",
+      "SK",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "SK On은 LFP 배터리 비용 절감과 리튬-메탈 배터리 개발에 속도를 내고 있습니다.",
+      "이는 SK On이 차세대 배터리 기술 개발에 적극적으로 투자하며 시장 경쟁력을 강화하려는 의지를 보여줍니다.",
+      "LFP 배터리의 비용 절감과 리튬-메탈 배터리의 상용화는 향후 배터리 시장 판도에 큰 영향을 미칠 것으로 예상됩니다."
+    ],
+    "uid": "52b1f5334d9120b6d203d9e05572241d2985ba51"
+  },
+  {
+    "title": "Membranes Could Turn Spent Batteries and Mine Waste Into Tomorrow’s Metal Mines",
+    "published_at": "2026-10-18",
+    "source": "Bioengineer.org",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSmhDTUJfRHFlczdJbVE0b0tzQkdsSGlRX1Z1SU9QNXJBdE9ScmE3N3dOb0hWTy1DY0psUFgzNXJDalo0YTc5M1l6dmJ6TG1ZVDVJR3lOdFl3dmZWazNTdVpjSFJvYl8teUZueDktd3VJQXNrYUt1ZUxabGFra3Y3Uy05NVVHcjBVZ2VYR2x0bTRfSVdoaUx0NTlnTmxjODRucE1lanJ3?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNSmhDTUJfRHFlczdJbVE0b0tzQkdsSGlRX1Z1SU9QNXJBdE9ScmE3N3dOb0hWTy1DY0psUFgzNXJDalo0YTc5M1l6dmJ6TG1ZVDVJR3lOdFl3dmZWazNTdVpjSFJvYl8teUZueDktd3VJQXNrYUt1ZUxabGFra3Y3Uy05NVVHcjBVZ2VYR2x0bTRfSVdoaUx0NTlnTmxjODRucE1lanJ3?oc=5\" target=\"_blank\">Membranes Could Turn Spent Batteries and Mine Waste Into Tomorrow’s Metal Mines</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bioengineer.org</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 75,
+    "monitor_score": 82,
+    "tier": 3,
+    "category": "separator",
+    "companies": [],
+    "summary_3_sentences": [
+      "분리막 기술을 활용하여 폐배터리와 광산 폐기물에서 유용한 금속을 추출하는 기술이 개발되었습니다.",
+      "이 기술은 버려지는 자원에서 희귀 금속을 회수하여 미래의 금속 광산으로 활용할 수 있는 가능성을 제시합니다.",
+      "이는 자원 고갈 문제 해결과 순환 경제 구축에 기여할 수 있는 중요한 기술 발전입니다."
+    ],
+    "uid": "4629f0b44b075025d4b905c262d6ee6350ec88e2"
+  },
+  {
+    "title": "Cycled Lithium-Ion Sieves Get a Second Life as Zinc-Ion Battery Cathodes",
+    "published_at": "2026-10-18",
+    "source": "Bioengineer.org",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMmhJVDI1SkIwM1NWM011djc5X2lhZ0E3UDduTTlXcExWdGhLdlVPRUFwblBjZFVqRjd5NGxDemZ6WC1fTGhIeG1saENjRDJub0dTZk9wUERBajVJT0xMR2szelktbXRKRlVDXzN1eXpKajdRMGZBZF83NG9uSHdid3Z1U29hbExYbkE5aTMzRFRUREFKUFYzTXkyZHVzZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNMmhJVDI1SkIwM1NWM011djc5X2lhZ0E3UDduTTlXcExWdGhLdlVPRUFwblBjZFVqRjd5NGxDemZ6WC1fTGhIeG1saENjRDJub0dTZk9wUERBajVJT0xMR2szelktbXRKRlVDXzN1eXpKajdRMGZBZF83NG9uSHdid3Z1U29hbExYbkE5aTMzRFRUREFKUFYzTXkyZHVzZw?oc=5\" target=\"_blank\">Cycled Lithium-Ion Sieves Get a Second Life as Zinc-Ion Battery Cathodes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bioengineer.org</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 70,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [],
+    "summary_3_sentences": [
+      "재활용된 리튬이온 배터리에서 추출한 물질을 아연이온 배터리의 양극재로 활용하는 기술이 개발되었습니다.",
+      "이는 폐배터리 재활용을 통해 새로운 가치를 창출하고 자원 순환을 촉진하는 혁신적인 접근 방식입니다.",
+      "이 기술은 배터리 산업의 지속 가능성을 높이는 데 기여할 것으로 기대됩니다."
+    ],
+    "uid": "dfb54b388ffdddd8f6b6b3fb3eb403eb6fde155e"
+  },
+  {
+    "title": "SK On Develops CNT Powder Process to Cut LFP Costs, Wins Top Prize at Future Technology Institute Conference",
+    "published_at": "2026-10-18",
+    "source": "BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OSXVYdkJOUjltS2JrSjc0R0RCaDdFam1BTHhTdnhaZ0FMb1lya2NjWjFMay1VZ1ZieE5hSV9jUHVtbUJldER6MVVFWHY1dXpYazk2cGtoVk5ldm85cEJNWG8zY0UzRWhMdk1QSHprU2FCb01qa1E?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5OSXVYdkJOUjltS2JrSjc0R0RCaDdFam1BTHhTdnhaZ0FMb1lya2NjWjFMay1VZ1ZieE5hSV9jUHVtbUJldER6MVVFWHY1dXpYazk2cGtoVk5ldm85cEJNWG8zY0UzRWhMdk1QSHprU2FCb01qa1E?oc=5\" target=\"_blank\">SK On Develops CNT Powder Process to Cut LFP Costs, Wins Top Prize at Future Technology Institute Conference</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "SK On",
+      "SK",
+      "CNT"
+    ],
+    "summary_3_sentences": [
+      "SK On은 LFP 배터리 비용 절감을 위한 CNT(탄소나노튜브) 분말 공정을 개발하여 미래 기술 연구소 컨퍼런스에서 최고상을 수상했습니다.",
+      "이는 SK On이 LFP 배터리의 가격 경쟁력을 높이기 위한 기술 혁신을 지속하고 있음을 보여줍니다.",
+      "이번 수상은 SK On의 기술력을 입증하고 향후 배터리 시장에서의 경쟁력을 강화하는 계기가 될 것입니다."
+    ],
+    "uid": "a4104c8ebf6a0233330d9e1e31b4d0f0094b82ae"
   },
   {
     "title": "프롤로지움·리막, 전고체 배터리팩 목업 공개...2028년 도로 테스트 목...",
