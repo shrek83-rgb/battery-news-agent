@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-10-22</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-10-22 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE83NmxTOXlhY096YUlrSTd0dlhhRTJkcWdkMXowZzZXQmFtVGRiVUtjcjc5NFA0dmszN0l3NVRjZ3Aybm9aSXBKTWt1UHREclRoOVpTQXhhU25jZGg4RmVOUVdPbUM3ZElE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium Boom: $100B Needed for 134 Mines by 2050</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Investing News Network</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>2050년까지 134개의 리튬 광산 개발에 1000억 달러가 필요할 것으로 예상됩니다.</li><li>이는 전기 자동차 및 에너지 저장 시스템에 대한 수요 증가를 충족시키기 위한 것입니다.</li><li>이러한 투자는 리튬 공급망의 확장과 안정화에 기여할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMingFBVV95cUxQM3BLOGpqRkQwS3dRbkRSOEtKVlAtVWM2cmZQMnZwSC1oTWRhVE02T3hOd0FudGhGZVRmU1Q3dFYwRVMyOHdiV2h0YkJFQVZzLTh6eWhQYWZtSlhvZUFXXzdJRUNYWGhma0xWN21qSjd3M0JEZlJIbTYxWS1XblFNWXpVc0FYdmtOb1liOUl3ck1FbXZKY2FsaVpoSnBnZw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">QuantumScape Announces Plans for 100 MWh Solid-State Battery Production Line for AI Data Centers, Aerospace and Defense</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Yahoo Finance</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">QuantumScape</span><span class="chip">AI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>QuantumScape는 AI 데이터 센터, 항공 우주 및 방위 산업을 위한 100MWh 전고체 배터리 생산 라인 구축 계획을 발표했습니다.</li><li>이 생산 라인은 차세대 배터리 기술의 상업화를 가속화할 것입니다.</li><li>이를 통해 QuantumScape는 고성능 배터리 시장에서의 입지를 강화할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pOUh5Tl9pVU9ySXYzQlIzR01nRVZhNG9DY01kVzRsZXY1ZXJ3SGVKRGVaeVdBUXhNWXAwdk9NTmh3cS1VejNvbEhTNkVfQkhSMnA0TUhmb0lhZ2NXVnc?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">GM backs sodium-ion battery startup with $108M, extends eyes-off driving plans</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CBT News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">GM</span><span class="chip">CBT</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>GM은 나트륨 이온 배터리 스타트업에 1억 800만 달러를 투자하며 &#x27;눈을 떼는 운전&#x27; 계획을 연장했습니다.</li><li>이번 투자는 GM의 전동화 전략의 일환으로, 차세대 배터리 기술 확보에 대한 의지를 보여줍니다.</li><li>나트륨 이온 배터리는 기존 리튬 이온 배터리의 대안으로 주목받고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1LcV9JZFl1WGcyQ1kzTGxsMDBaVVhFSGd2SkstQlRKbmlHNS1HQjJfNWxGTDRPeV9LZVJiT0xQeVRKcFRWVnIycmJDUkNTbmhVNnlSVGtvc1QwQVVSdnJxMk5vejd3bkMzYnZ2cC1TaER4ZURZYWhj?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Peak Energy secures $108m in Series B for sodium-ion battery scale-up</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Energy Monitor</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Peak Energy</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Peak Energy는 나트륨 이온 배터리 생산 확대를 위해 시리즈 B 투자 라운드에서 1억 800만 달러를 확보했습니다.</li><li>이번 투자 유치는 Peak Energy의 기술력과 시장 잠재력을 인정받은 결과입니다.</li><li>회사는 이를 통해 나트륨 이온 배터리 상용화를 가속화할 계획입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHk2TmQ0aVVSQjJUZHllQ1VlWXI0OXNtT2hRSzl2NXlQTl9zQnFHR292MmwyNkpnUjVOSlVXT3ZBU2Jjb0lrWTZNX3Nmc2ljV0dSakJudWFaTUhtSDhsdDRKNHBqb05lc0ZtNkVYcDFzdVpSQW90WDVCem9fR0YtcjFSTldFTS1jRmVkM0dyWTRWeThxODlHbFhHQTYxUmdkZmxDMzZMUDhRTEw5RFE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">GM Deepens Sodium-Ion Bet, Leads $108 Million Round in Peak Energy</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Electric Vehicles</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">GM</span><span class="chip">Peak Energy</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>GM은 나트륨 이온 배터리 분야에 대한 투자를 확대하며 Peak Energy의 1억 800만 달러 규모 시리즈 B 투자 라운드를 주도했습니다.</li><li>이번 투자는 GM의 차세대 배터리 기술 확보 전략의 일환으로 해석됩니다.</li><li>Peak Energy는 이번 투자로 나트륨 이온 배터리 생산 능력을 강화할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ2d1azlnZ1RLdF81amdQY05pemt4NTY5cUxJcDVkdml3eDRKOXhFdTFJX1BJYWJqaHdkcDB2R2RDLThUNDhxRG1qZE5nSi1uQjJfb3BVdlhWbEN2Vm83TDZlWFRsS1g2ek9vbGFGOGxkNVM4bjZmY1MwbGhNdGZUWUNPNDJGd2pEcVRGTWY4aEc5eXdYdm9YVmU2ZGdBdWJ6cG5MVXU2aGJ4blpRRGc?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Mitsui Kinzoku, Factorial to scale all-solid-state battery manufacturing</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Evertiq</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Mitsui Kinzoku</span><span class="chip">Factorial</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Mitsui Kinzoku와 Factorial은 전고체 배터리 제조 역량을 확장하기 위해 협력합니다.</li><li>이번 파트너십은 차세대 배터리 기술의 상용화를 앞당기는 데 기여할 것입니다.</li><li>양사는 이를 통해 고성능, 고안전성 배터리 시장에서의 경쟁력을 강화할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMifEFVX3lxTE9MQ2tWd1hrcks2MW5pSjhxbnkyUE9JRTlBeTVxNmw3MXpvOEpqVVd5TGxHMUxDa013Nkt5QW9Xam8tRWhmellQR0tXSWJWVGtONHFFdUNEaGZ0MmhFVGFGdEl6emhGSjJteFJWVTVDWEZTVHI3MDlrZW14NDg?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">QuantumScape Partners With Muehlbauer for 100 MWh Solid-State Cell Line</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">The EV Report</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">QuantumScape</span><span class="chip">Muehlbauer</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>QuantumScape는 Muehlbauer와 협력하여 100MWh 전고체 배터리 셀 생산 라인을 구축합니다.</li><li>이번 파트너십은 QuantumScape의 전고체 배터리 기술 상용화를 위한 중요한 단계입니다.</li><li>양사는 이를 통해 차세대 배터리 생산 역량을 강화할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-policy" href="https://www.dt.co.kr/article/12090753?ref=naver" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">정책</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">개미는 던지고 연기금은 담았다…2차전지株 엇갈린 베팅</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.dt.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>중국산 제품 규제 강화로 북미 시장에서 비중국산 배터리 및 소재 조달 필요성이 커지고 있습니다.</li><li>증권가에서는 수급 로테이션과 중장기 실적 가시성에 주목하며 2차전지 섹터에 긍정적인 전망을 내놓고 있습니다.</li><li>이는 2차전지 관련 기업들에게 새로운 기회가 될 수 있음을 시사합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.ddaily.co.kr/page/view/2026102213125410740" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">포스코퓨처엠, 美 팔란티어와 맞손… AI 도입해 배터리 제조 혁신</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.ddaily.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">포스코퓨처엠</span><span class="chip">2차전지</span><span class="chip">사물배터리</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>포스코퓨처엠은 AI 도입을 통해 배터리 제조 혁신을 추진합니다.</li><li>이를 위해 지난 7월 &#x27;BoT(사물배터리) 생태계 게임 체인저&#x27;라는 디지털 혁신 비전을 선포했습니다.</li><li>포스코퓨처엠은 AI 기술을 활용하여 소재 기본 성능뿐 아니라 고객사와의 협력을 강화할 계획입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.theguru.co.kr/news/article.html?no=108676" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG엔솔 폴란드 공장, EU 혁신기금 지원 대상 선정…9GWh 규모 LFP 배터리...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.theguru.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG엔솔</span><span class="chip">EU</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG엔솔 폴란드 공장이 EU 혁신기금 지원 대상에 선정되어 9GWh 규모의 LFP 배터리 생산 라인을 구축합니다.</li><li>LG에너지솔루션은 이미 ESS용 LFP 배터리를 생산하고 있으며, 이번 투자를 통해 생산 능력을 확대할 예정입니다.</li><li>이는 에너지 저장 시스템 시장에서의 경쟁력 강화로 이어질 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.businesspost.co.kr/BP?command=article_view&amp;num=450088" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[오늘의 주목주] &#x27;2차전지 투심 위축&#x27; SK이노베이션 주가 8%대 하락, 코스...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.businesspost.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">SK이노베이션</span><span class="chip">에코프로비엠</span><span class="chip">삼성SDI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>2차전지 관련주들의 투심 위축으로 SK이노베이션 주가가 8%대 하락했으며, 에코프로비엠, 삼성SDI, 에코프로, LG에너지솔루션 등도 동반 하락했습니다.</li><li>이는 세계 최대 전기차 배터리 기업인 CATL의 시장 예상치를 밑도는 3분기 실적 발표에 영향을 받은 것으로 보입니다.</li><li>전반적인 2차전지 시장의 투자 심리가 위축되고 있음을 보여줍니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="http://www.biztribune.co.kr/news/articleView.html?idxno=361124" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">에코프로 창립 28주년… 이동채 &quot;삼원계 배터리 기회 반드시 열린다&quot;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.biztribune.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">에코프로</span><span class="chip">에코프로비엠</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>에코프로 창립 28주년을 맞아 이동채 회장은 삼원계 배터리의 기회가 반드시 열릴 것이라고 강조했습니다.</li><li>회사는 장기적으로 전고체 배터리용 소재 개발을 통해 제품 적용 분야를 확대할 계획입니다.</li><li>또한 원료 확보와 해외 생산 기반 강화를 병행하며 미래 성장을 준비하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.mhns.co.kr/news/articleView.html?idxno=765478" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">전기차 갇혔던 배터리, 로봇·AI 심장으로 뛴다…신대륙 찾는 이차전지</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.mhns.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">이차전지</span><span class="chip">AI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전기차 배터리로 활용되던 이차전지가 로봇, AI 등 신대륙으로 영역을 확장하고 있습니다.</li><li>현재 대부분의 휴머노이드 로봇은 짧은 배터리 지속 시간으로 인해 현장 투입 등에 제약을 받고 있습니다.</li><li>에너지 밀도를 높인 차세대 삼원계 배터리와 전고체 배터리의 상용화가 이러한 문제를 해결할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://www.theguru.co.kr/news/article.html?no=108607" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&#x27;LG·GM 나트륨배터리 개발 동맹 구축&#x27; 美피크에너지 투자 공동 참여</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.theguru.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG</span><span class="chip">GM</span><span class="chip">피크에너지 테크놀로지스</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG와 GM은 나트륨 이온 배터리 개발 파트너사인 미국 피크에너지에 공동으로 투자했습니다.</li><li>이번 투자는 피크에너지의 시리즈 B 투자 라운드에서 이루어졌으며, 총 1430억 원이 조달되었습니다.</li><li>이를 통해 LG와 GM은 나트륨 이온 배터리 기술 개발 및 상용화를 가속화할 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.econovill.com/news/articleView.html?idxno=754565" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">15</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">이동채 에코프로 창업주 &quot;삼원계 기회 반드시 열린다…불황기 미래 준비...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.econovill.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">에코프로</span><span class="chip">NCM</span><span class="chip">NCA</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>이동채 에코프로 창업주는 불황기에도 미래를 준비해야 한다며 삼원계 배터리의 기회가 반드시 올 것이라고 강조했습니다.</li><li>삼원계 배터리는 높은 에너지 밀도를 바탕으로 주행거리와 출력 성능이 중요한 전기차 등에 활용됩니다.</li><li>이는 중국 업체들이 주도하는 리튬인산철(LFP) 배터리와 차별화되는 강점입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-22</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://www.hinews.co.kr/view.php?ud=2026102310190128659284fa285d_48" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">16</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">에코프로HN &#x27;검토 중&#x27; 공시 뒤 내부자 주식 매수, 대법원 &quot;미공개 정보 ...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.hinews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">에코프로HN</span><span class="chip">에코프로비엠</span><span class="chip">에코프로머티리얼즈</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>에코프로HN은 &#x27;검토 중&#x27; 공시 후 내부자 주식 매수 건으로 대법원 판결을 받았습니다.</li><li>에코프로비엠과 에코프로머티리얼즈가 배터리 소재로 성장한 반면, 에코프로HN은 대기오염 방지 및 온실가스 저감 기술 역량을 바탕으로 2차전지 분야에 기여해왔습니다.</li><li>이번 판결은 기업의 내부 정보 이용 및 공시 관련 규정 준수의 중요성을 강조합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-10-23</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
