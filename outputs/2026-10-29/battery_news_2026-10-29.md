@@ -1,0 +1,174 @@
+# 배터리 뉴스 데일리 브리핑 (2026-10-29 전날 기준)
+
+- 총 13건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 기타 | 2026-10-30 | www.thebell.co.kr | [더벨][Financial Index \| LG에너지솔루션 vs SK온 vs 삼성SDI] 외형 확대... | https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610261248320480104774 | unknown |
+| 2 | 3 | 기타 | 2026-10-29 | www.sedaily.com | 배터리 업계 “기술 혁신·신규시장 개척해 경쟁력 확보해야…국가 차원... | https://www.sedaily.com/article/20107963?ref=naver | unknown |
+| 3 | 3 | 기타 | 2026-10-29 | www.newsworks.co.kr | 엄기천 배터리산업협회장 "배터리 생산 촉진 공제보다 직접 환급제 필요... | https://www.newsworks.co.kr/news/articleView.html?idxno=901329 | unknown |
+| 4 | 3 | 기타 | 2026-10-29 | www.sidae.com | 배터리업계 주역들 한자리에…'제6회 배터리 산업의 날' | https://www.sidae.com/article/2026102917455770345 | unknown |
+| 5 | 3 | 전고체 | 2026-10-29 | Shanghai Metals Market | Solid-state battery: Samsung SDI reiterates mass production of 900Wh/L all-solid-state battery in H2 2027, with initial applications targeting luxury vehicles and humanoid robots | https://news.google.com/rss/articles/CBMiwgJBVV95cUxQTV9ONTFtMUh3MUd2UE1xeHJ3RXg2Vm53SVJPWmlZYVpFTjIxSm9Icml2N01MVnVUdjhDVGJFYXFzNWtlT3dnWlF5MEkxTG5MV2hSdHUtR0NNMElwS0NlNnBUaU9vRFBwVzNWdHZJclEzNjZ0dzFDMnlRaFFDbWdUWE5qaXYxaHlOaThqMVZkd1FjZDVLaVY3bzFxWkNIUEJKWUpBOHk3Q0xIRkd4SUJlMDlJbGhNbWpCWFd4cnFUbmRxQTBDaDhMYWVMTWZXeWR6M0pBenc3bTJCcDU0M21VWWhIaDFQQW1zOXJHOW1rR01uNWxOdkdkYm5mQUJ4SS04a2podG1ZWm1WbXJPYXZJOHVUVmFndHVXdUtZRmVPNUtoR01XLWNWM29IQkhEMm1tRHMtVEctQ1FpcWZ5SXRSeGNn?oc=5 | unknown |
+| 6 | 3 | 기타 | 2026-10-29 | ABC7 New York | Bronx e-bike fire kills 10-year-old boy, injures 4 in Mott Haven apartment | https://news.google.com/rss/articles/CBMiigFBVV95cUxQMTRfek04U2FxNndTOHdQemFFRDZCN1JRTUV6eEJLbnN3X3l2NzU2X2JCRUoyNlgtUVdzNDBQOGxYNFF1MEQ0cy1IWThxTWVnemV1bzRuczFyd3UtcE10V1JlallVcjNSemZGbjhXemtqdzJYSmE2M29WWk16S0g5VFpFZnBiM1JuS1HSAY8BQVVfeXFMUEhaOGJINF9vd0tGSTNIb2k3TDVjM2FqZVo1d2ZRSTBrYUhGWXFNTTROSWNDSVgtY2h4a0owOHpvcl81UVNEUFgxMUtwUG9EWmdqS3B5NEhtQTZ3V25DRTNhUUpVU3pTQTdmTElZRmRfaGlNcUJmMlAxOGhEODNtcEhGakx1b1RDbWxkNUFWTDQ?oc=5 | unknown |
+| 7 | 3 | 전고체 | 2026-10-29 | electrive.com | CATL advances solid-state battery development to 20 Ah samples | https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjNWT19IeWlsUXA1aDhkcTNmYVg1d19ZSEd5bzhYU0lnQ1F0T1hxdXV5TjJoeXpmRUpHVjZ0eDFpOGE5ejRfTl9YcHBOZG1NSXhGeTF5QTg1WjhVS195TXFpRzdGcFE4WFJqM0tRLTY1YXI2Z2NIeHIzai1ubUZUYmFoZ3B2ZEZTSW9kX0tkZ1AyVTJNamtQd3I1Q0RSMlZPcFE?oc=5 | unknown |
+| 8 | 3 | 기타 | 2026-10-29 | Cornell Chronicle | Real-time view inside batteries leads to faster, cheaper battery production | https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmVvN3BLbUcwMGVENzY1Y1FHUFVFSDBpOGYxdmFuYnN4cE9YUFg0YmNONjVfLTJiTWZYemFPZDJTOW1mbEU3d3lWR21ER0hTd3Jxd05aR0xoNE1BbFZLUDQ4MTRBNlZMSmVROEZELWxOSEh0eENpaFpPMHhPc3ppaHJTNU9rOFFDelBUZkszVHdDbjFhcDBFLXEzUFBjUkRZZFYtWV9LU2VxemN1SXgtWjFB?oc=5 | unknown |
+| 9 | 3 | 전고체 | 2026-10-29 | Shanghai Metals Market | Solid-State Battery: Yinghe Technology Has Delivered Core Solid-State Battery Equipment to Multiple Clients, with Dual-Line Layout for Wet and Dry Processes | https://news.google.com/rss/articles/CBMipgJBVV95cUxPQWZnRlYwQnNod3J5TFpzVUVjbmV3WVl6OTdISmV5SnM2dmp1d1YwYXFWTU90OWdGeGFwVkx3dEVJWWxoOWEwdmxHQzRUck4wYnNHR3RBaDlkTEF3OU0tR2dWbDFvVDlsQ1JkZnU4MlIyZzdzQUI2OWNoM3F3YWVBQXZuQlBNSU54WWNUV0ROMVNtQU5fdDkxWjhhWkh2U0lkNFVTSl9ocGdZbUV5Ny1TNXZEZW90UUJNS09oUS1EbU13Q2lNcFVLNkNmUUxlVC1JSUUwTHF6RkRkWDBNajFiYk52MERVcHpUUV9DQ3lmYk1WSEJqSmNJUjdyQVduU2NaYWpidXdIWlZPR2hVR2NvbS1yclhEeXgtbnphcFNycENBUWhmOEE?oc=5 | unknown |
+| 10 | 3 | 재활용 | 2026-10-29 | CleanTechnica | Scaling European Battery Recycling via the Circular Economy Act | https://news.google.com/rss/articles/CBMiowFBVV95cUxNbS11UHh4WnFHNXY4V0ZqeXVSUmVtbFNnZTFubzUwOTFwZmNMd3VIR2J4NnhlQXV0Q1hGeTc4VmJuTHpDamotcXZOcDFGT3A2NXpmbjY1TWhRZ1RWcHBIX3p6cUZZZDlWbUhPa3VHQzlZMnY2bHBlUU42Ykg4RU1mRzZjRW1JcnlWRDVrSlE0R3MtcTZmLURhNlZjT3BnS3FQOEpZ?oc=5 | unknown |
+| 11 | 3 | 기타 | 2026-10-29 | WHKY | Lithium-Ion Batteries Banned from Landfill Disposal | https://news.google.com/rss/articles/CBMieEFVX3lxTE9haVBvWGNTVWo4czJXSFBBU3pJempTUHZyMlR4VTVsVmlzSXk0VWFPb1BJejFveUJtRWxKeHpXbE9mc0ZHWnVIVi1HdmlfUV9UeEZTdFNRM0dJbmM0QWZrNXhPOTV6ZWlOczFHaXNKU2tONXprQXZ5Zg?oc=5 | unknown |
+| 12 | 3 | 기타 | 2026-10-29 | Christian County Now | Lithium-ion batteries cause fire inside Fort Campbell garbage truck | https://news.google.com/rss/articles/CBMisAFBVV95cUxNcFpvM1l4UWltZU92VlRYbW1MVmZlcTU0R0h3SVZXU19fSk9lVHdob2RQYjB6ZXh3VFYyQllOV21yaXZZa1JtempFaVVUc0ZIS01hN0Y4MWlJdzNaUFhuSzV6aXNxQmZ6MjVLVVY3OVVFMUVfb1BYbmxlVU03NU5mOWVlSDAxcjlVSDdObW9nVE5SX1dldEhxRDRKZTgyMGxXQnR5WVpoWnZnZnYxQmd2OQ?oc=5 | unknown |
+| 13 | 3 | 나트륨 | 2026-10-29 | Electronic Design | New Research Shows Scandium Doping Can Boost Sodium-Ion Battery Life | https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQW1VdHowcGs3dkZGOVJPVUJIV0xoTy1BNjd1LUMtUGxibmxPN2F6X205dnlrM1R2MllJMmRBZWJBTVlnVXF3bTUza21kNUdLUGN2V0I0RThwVDdPSUtQV0xvRVZHbnpOaTh4aTB0UnBkc0s0NEZhWF9Md1V2OGkyNFEyLU92UjFXR3ZwTUp6Z0JNY0pmaUZYcHFaTVF5VmRFbHdBOEc1cng0cHI4aDJWb1Y4bUNwanFpeW8yaEZ3ak1aX0ktSi11bDBiQ2l5Zk5ZLUxORmk1X0VOOUlCMDMwU0lR?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. [더벨][Financial Index | LG에너지솔루션 vs SK온 vs 삼성SDI] 외형 확대...
+- 발행일: 2026-10-30
+- 매체: www.thebell.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610261248320480104774
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성SDI의 에너지솔루션 부문은 173억 원의 영업손실을 기록했으나, 지난해 동기 대비 적자 폭이 크게 개선되었습니다.
+  - 이는 2차전지 사업의 수익성 개선 가능성을 보여주는 긍정적인 신호로 해석될 수 있습니다.
+  - 하지만 여전히 배터리 사업의 완전한 흑자 전환을 위해서는 추가적인 노력이 필요할 것으로 보입니다.
+- 관련 기업: 삼성SDI, LG에너지솔루션, SK온
+
+### 2. 배터리 업계 “기술 혁신·신규시장 개척해 경쟁력 확보해야…국가 차원...
+- 발행일: 2026-10-29
+- 매체: www.sedaily.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.sedaily.com/article/20107963?ref=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - 배터리 업계는 기술 혁신과 신규 시장 개척을 통해 경쟁력을 확보해야 합니다.
+  - 정부는 연내 '배터리 산업 경쟁력 강화 대책'을 마련하여 지원할 계획입니다.
+  - 중국의 저가 공세와 글로벌 경쟁 심화 속에서 2차전지는 대한민국의 핵심 전략 산업으로 중요성이 부각되고 있습니다.
+- 관련 기업: 2차전지, 전략산업
+
+### 3. 엄기천 배터리산업협회장 "배터리 생산 촉진 공제보다 직접 환급제 필요...
+- 발행일: 2026-10-29
+- 매체: www.newsworks.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: https://www.newsworks.co.kr/news/articleView.html?idxno=901329
+- 참고 링크: https://www.newsworks.co.kr/news/articleView.html?idxno=901343, http://www.enewstoday.co.kr/news/articleView.html?idxno=2486256
+- 인기신호: unknown
+- 3문장 요약:
+  - 엄기천 한국배터리산업협회장은 정부의 배터리 생산 촉진 공제 도입에 대해 긍정적인 입장을 밝혔습니다.
+  - 하지만 이 제도가 모든 배터리 업체에 실질적인 도움이 되기 위해서는 이익 규모와 관계없이 직접 환급 방식이 더 효과적일 수 있다고 제언했습니다.
+  - 이는 영세 기업 등 이익을 내기 어려운 업체들에게도 실질적인 지원이 필요하다는 점을 강조한 것입니다.
+- 관련 기업: 한국배터리산업협회, 포스코퓨처엠, 배터리산업
+
+### 4. 배터리업계 주역들 한자리에…'제6회 배터리 산업의 날'
+- 발행일: 2026-10-29
+- 매체: www.sidae.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.sidae.com/article/2026102917455770345
+- 인기신호: unknown
+- 3문장 요약:
+  - 제6회 배터리 산업의 날 행사에서 엄기천 한국배터리산업협회장은 배터리 활용 분야 확대에 따른 산업 환경 변화에 주목했습니다.
+  - AI 데이터센터, ESS, 로봇, 선박 등 다양한 분야로 배터리 수요가 늘어나고 있습니다.
+  - 이에 대응하기 위한 국가 차원의 전략적 지원이 필요하다고 강조했습니다.
+- 관련 기업: 한국배터리산업협회, 한국배터리산업, AI
+
+### 5. Solid-state battery: Samsung SDI reiterates mass production of 900Wh/L all-solid-state battery in H2 2027, with initial applications targeting luxury vehicles and humanoid robots
+- 발행일: 2026-10-29
+- 매체: Shanghai Metals Market (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMiwgJBVV95cUxQTV9ONTFtMUh3MUd2UE1xeHJ3RXg2Vm53SVJPWmlZYVpFTjIxSm9Icml2N01MVnVUdjhDVGJFYXFzNWtlT3dnWlF5MEkxTG5MV2hSdHUtR0NNMElwS0NlNnBUaU9vRFBwVzNWdHZJclEzNjZ0dzFDMnlRaFFDbWdUWE5qaXYxaHlOaThqMVZkd1FjZDVLaVY3bzFxWkNIUEJKWUpBOHk3Q0xIRkd4SUJlMDlJbGhNbWpCWFd4cnFUbmRxQTBDaDhMYWVMTWZXeWR6M0pBenc3bTJCcDU0M21VWWhIaDFQQW1zOXJHOW1rR01uNWxOdkdkYm5mQUJ4SS04a2podG1ZWm1WbXJPYXZJOHVUVmFndHVXdUtZRmVPNUtoR01XLWNWM29IQkhEMm1tRHMtVEctQ1FpcWZ5SXRSeGNn?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 삼성SDI는 2027년 하반기에 900Wh/L 전고체 배터리의 양산을 시작할 것이라고 재확인했습니다.
+  - 초기 적용 대상은 고급 자동차와 휴머노이드 로봇이 될 것으로 예상됩니다.
+  - 이는 차세대 배터리 기술 개발 및 상용화에 대한 삼성SDI의 의지를 보여줍니다.
+- 관련 기업: 삼성SDI, SDI
+
+### 6. Bronx e-bike fire kills 10-year-old boy, injures 4 in Mott Haven apartment
+- 발행일: 2026-10-29
+- 매체: ABC7 New York (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiigFBVV95cUxQMTRfek04U2FxNndTOHdQemFFRDZCN1JRTUV6eEJLbnN3X3l2NzU2X2JCRUoyNlgtUVdzNDBQOGxYNFF1MEQ0cy1IWThxTWVnemV1bzRuczFyd3UtcE10V1JlallVcjNSemZGbjhXemtqdzJYSmE2M29WWk16S0g5VFpFZnBiM1JuS1HSAY8BQVVfeXFMUEhaOGJINF9vd0tGSTNIb2k3TDVjM2FqZVo1d2ZRSTBrYUhGWXFNTTROSWNDSVgtY2h4a0owOHpvcl81UVNEUFgxMUtwUG9EWmdqS3B5NEhtQTZ3V25DRTNhUUpVU3pTQTdmTElZRmRfaGlNcUJmMlAxOGhEODNtcEhGakx1b1RDbWxkNUFWTDQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 미국 브롱크스에서 발생한 전동 자전거 화재로 10세 소년이 사망하고 4명이 부상을 입었습니다.
+  - 화재는 모트 헤이븐 아파트에서 발생했으며, 전동 자전거의 배터리가 원인으로 지목되고 있습니다.
+  - 이는 전동 자전거 및 배터리 안전 관리에 대한 경각심을 높이는 사건입니다.
+
+### 7. CATL advances solid-state battery development to 20 Ah samples
+- 발행일: 2026-10-29
+- 매체: electrive.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjNWT19IeWlsUXA1aDhkcTNmYVg1d19ZSEd5bzhYU0lnQ1F0T1hxdXV5TjJoeXpmRUpHVjZ0eDFpOGE5ejRfTl9YcHBOZG1NSXhGeTF5QTg1WjhVS195TXFpRzdGcFE4WFJqM0tRLTY1YXI2Z2NIeHIzai1ubUZUYmFoZ3B2ZEZTSW9kX0tkZ1AyVTJNamtQd3I1Q0RSMlZPcFE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - CATL은 전고체 배터리 개발을 진행하여 20Ah 샘플을 확보했습니다.
+  - 이는 전고체 배터리 기술의 상용화를 위한 중요한 진전으로 평가됩니다.
+  - CATL은 차세대 배터리 기술 경쟁에서 선두를 유지하기 위해 노력하고 있습니다.
+- 관련 기업: CATL
+
+### 8. Real-time view inside batteries leads to faster, cheaper battery production
+- 발행일: 2026-10-29
+- 매체: Cornell Chronicle (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmVvN3BLbUcwMGVENzY1Y1FHUFVFSDBpOGYxdmFuYnN4cE9YUFg0YmNONjVfLTJiTWZYemFPZDJTOW1mbEU3d3lWR21ER0hTd3Jxd05aR0xoNE1BbFZLUDQ4MTRBNlZMSmVROEZELWxOSEh0eENpaFpPMHhPc3ppaHJTNU9rOFFDelBUZkszVHdDbjFhcDBFLXEzUFBjUkRZZFYtWV9LU2VxemN1SXgtWjFB?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 새로운 연구에 따르면 배터리 내부를 실시간으로 관찰하는 기술이 개발되었습니다.
+  - 이 기술은 배터리 생산 속도를 높이고 비용을 절감하는 데 기여할 것으로 기대됩니다.
+  - 이는 배터리 제조 공정의 효율성을 혁신할 잠재력을 가지고 있습니다.
+
+### 9. Solid-State Battery: Yinghe Technology Has Delivered Core Solid-State Battery Equipment to Multiple Clients, with Dual-Line Layout for Wet and Dry Processes
+- 발행일: 2026-10-29
+- 매체: Shanghai Metals Market (출처등급 3)
+- 분야: 전고체
+- 링크: https://news.google.com/rss/articles/CBMipgJBVV95cUxPQWZnRlYwQnNod3J5TFpzVUVjbmV3WVl6OTdISmV5SnM2dmp1d1YwYXFWTU90OWdGeGFwVkx3dEVJWWxoOWEwdmxHQzRUck4wYnNHR3RBaDlkTEF3OU0tR2dWbDFvVDlsQ1JkZnU4MlIyZzdzQUI2OWNoM3F3YWVBQXZuQlBNSU54WWNUV0ROMVNtQU5fdDkxWjhhWkh2U0lkNFVTSl9ocGdZbUV5Ny1TNXZEZW90UUJNS09oUS1EbU13Q2lNcFVLNkNmUUxlVC1JSUUwTHF6RkRkWDBNajFiYk52MERVcHpUUV9DQ3lmYk1WSEJqSmNJUjdyQVduU2NaYWpidXdIWlZPR2hVR2NvbS1yclhEeXgtbnphcFNycENBUWhmOEE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 잉허테크놀로지는 다수의 고객에게 핵심 전고체 배터리 장비를 공급했습니다.
+  - 습식 및 건식 공정을 위한 듀얼 라인 레이아웃을 갖춘 장비입니다.
+  - 이는 전고체 배터리 생산 기술의 발전에 기여하고 있습니다.
+- 관련 기업: Yinghe Technology
+
+### 10. Scaling European Battery Recycling via the Circular Economy Act
+- 발행일: 2026-10-29
+- 매체: CleanTechnica (출처등급 3)
+- 분야: 재활용
+- 링크: https://news.google.com/rss/articles/CBMiowFBVV95cUxNbS11UHh4WnFHNXY4V0ZqeXVSUmVtbFNnZTFubzUwOTFwZmNMd3VIR2J4NnhlQXV0Q1hGeTc4VmJuTHpDamotcXZOcDFGT3A2NXpmbjY1TWhRZ1RWcHBIX3p6cUZZZDlWbUhPa3VHQzlZMnY2bHBlUU42Ykg4RU1mRzZjRW1JcnlWRDVrSlE0R3MtcTZmLURhNlZjT3BnS3FQOEpZ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 유럽의 배터리 재활용은 순환 경제법을 통해 확대될 수 있습니다.
+  - 이는 폐배터리 처리 및 재활용 시스템 구축의 중요성을 강조합니다.
+  - 지속 가능한 배터리 산업 생태계 조성을 위한 노력이 필요합니다.
+
+### 11. Lithium-Ion Batteries Banned from Landfill Disposal
+- 발행일: 2026-10-29
+- 매체: WHKY (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMieEFVX3lxTE9haVBvWGNTVWo4czJXSFBBU3pJempTUHZyMlR4VTVsVmlzSXk0VWFPb1BJejFveUJtRWxKeHpXbE9mc0ZHWnVIVi1HdmlfUV9UeEZTdFNRM0dJbmM0QWZrNXhPOTV6ZWlOczFHaXNKU2tONXprQXZ5Zg?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMifEFVX3lxTFBzZ1pmSkF2dmhoVjlZR2dhaURYd3d0TmhpV2xPYl9Cazlkckx1eWVFOUFLdW5VelZ4cmZOOGNvSDNwVHlNSV9lWlduZm5uRVFZOG9CdlkzR0JQRURLOUdyQ1RFNy1ueHVsQm40YUhhZGNCWmxRQjM4WEFfa2M?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 리튬이온 배터리의 매립지 폐기가 금지되었습니다.
+  - 이는 환경 오염 방지 및 자원 재활용 촉진을 위한 조치입니다.
+  - 배터리 폐기물 관리에 대한 새로운 규제가 시행됩니다.
+- 관련 기업: WHKY
+
+### 12. Lithium-ion batteries cause fire inside Fort Campbell garbage truck
+- 발행일: 2026-10-29
+- 매체: Christian County Now (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMisAFBVV95cUxNcFpvM1l4UWltZU92VlRYbW1MVmZlcTU0R0h3SVZXU19fSk9lVHdob2RQYjB6ZXh3VFYyQllOV21yaXZZa1JtempFaVVUc0ZIS01hN0Y4MWlJdzNaUFhuSzV6aXNxQmZ6MjVLVVY3OVVFMUVfb1BYbmxlVU03NU5mOWVlSDAxcjlVSDdObW9nVE5SX1dldEhxRDRKZTgyMGxXQnR5WVpoWnZnZnYxQmd2OQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 포트 캠벨의 쓰레기 트럭 내부에서 리튬이온 배터리로 인한 화재가 발생했습니다.
+  - 이는 리튬이온 배터리의 부적절한 폐기 및 취급으로 인한 위험성을 보여줍니다.
+  - 배터리 안전 관리 및 폐기 규정 준수의 중요성이 강조됩니다.
+
+### 13. New Research Shows Scandium Doping Can Boost Sodium-Ion Battery Life
+- 발행일: 2026-10-29
+- 매체: Electronic Design (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQW1VdHowcGs3dkZGOVJPVUJIV0xoTy1BNjd1LUMtUGxibmxPN2F6X205dnlrM1R2MllJMmRBZWJBTVlnVXF3bTUza21kNUdLUGN2V0I0RThwVDdPSUtQV0xvRVZHbnpOaTh4aTB0UnBkc0s0NEZhWF9Md1V2OGkyNFEyLU92UjFXR3ZwTUp6Z0JNY0pmaUZYcHFaTVF5VmRFbHdBOEc1cng0cHI4aDJWb1Y4bUNwanFpeW8yaEZ3ak1aX0ktSi11bDBiQ2l5Zk5ZLUxORmk1X0VOOUlCMDMwU0lR?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 새로운 연구에 따르면 스칸듐 도핑이 나트륨 이온 배터리의 수명을 향상시킬 수 있습니다.
+  - 이는 나트륨 이온 배터리 기술의 성능 개선 가능성을 제시합니다.
+  - 차세대 배터리 소재 개발 연구가 활발히 진행 중임을 보여줍니다.
