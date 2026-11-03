@@ -1,0 +1,264 @@
+# 배터리 뉴스 데일리 브리핑 (2026-11-02 전날 기준)
+
+- 총 20건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 전고체 | 2026-11-02 | www.biztribune.co.kr | LG에너지솔루션, BIC 2026 개최… 배터리 미래기술 공모 | http://www.biztribune.co.kr/news/articleView.html?idxno=361728 | unknown |
+| 2 | 3 | 기타 | 2026-11-03 | www.smedaily.co.kr | LG엔솔 매출 9.6조…분기 최대 | http://www.smedaily.co.kr/news/articleView.html?idxno=365626 | unknown |
+| 3 | 3 | 전고체 | 2026-11-03 | www.asiatime.co.kr | K배터리, ESS 타고 실적 반등…LG엔솔·삼성SDI 웃고 SK온 적자 축소 | https://www.asiatime.co.kr/article/20261103500295 | unknown |
+| 4 | 3 | cathode | 2026-11-03 | www.thelec.kr | LG엔솔, 올해 매출 성장률 목표 최대 40%로 상향 | https://www.thelec.kr/news/articleView.html?idxno=64782 | unknown |
+| 5 | 3 | cathode | 2026-11-03 | www.thelec.kr | LG에너지솔루션, 2026년 3분기 실적발표 컨퍼런스콜 전문 | https://www.thelec.kr/news/articleView.html?idxno=64781 | unknown |
+| 6 | 3 | 나트륨 | 2026-11-02 | Interesting Engineering | Sodium-ion vs. lithium-ion: Tracking the battery race in 2026 | https://news.google.com/rss/articles/CBMiigFBVV95cUxQLTFsazNCOXNvNGlUckxFankzZy01MXNZd1R1X1pheEpZZ3NoWUtVcko2aXBPWmNVR0lnUW9aTnhIblBuamNUbmw5bjBPelpiSXlGSWNaUGJkTTNNN2poRXdOa1pmcG9hRGdRdDhsZnhWc3IzY1EyYl9reUEtTVlacjYtb0Zsb3RLTnc?oc=5 | unknown |
+| 7 | 3 | cathode | 2026-11-02 | CarNewsChina.com | Solid-state battery race: Sunwoda tests polymer cells with automakers as CATL targets 2027 | https://news.google.com/rss/articles/CBMixAFBVV95cUxNaG5UNzg1U3pWbEFYU1lsV0EwbjhTZzcxWThHUmliMF9nYVB3SXBUOVVQRVdGUklPZmJOUFc5UVpITXctZVlIN1VfbjM3Mjk0Q3dKOXdmYnVQSU55b1JfMjRjQ1Z0cG1JSFh1bEpPWkkxdjJuMzFVTVVjUmNvZzFJN0c2QllCODBfeUd3Nkk1QmJEdDdZSVUzc2hJNjAyc1pLY0dLcnEwMjdWbzVZTVExYjAwSXBEdnlpR2pVSHFlcUZ1MG9y?oc=5 | unknown |
+| 8 | 3 | 기타 | 2026-11-02 | Bloomberg.com | Citi Cuts Lithium Forecasts on Worsening Battery Demand Outlook | https://news.google.com/rss/articles/CBMitAFBVV95cUxOSnEyaUpjQnQ1XzJfcnNfdFhkM2w0SEhQaVlxRjJvdnNtME9jaV8ybms4bDRmd3NBOHdCVE9NdThDalJ5S0loeWdjam9MYWZBQkdFZWEwWjlzelpxTUFVS0kwUS1Lb3Y0bW56dXpiWFBlak92dG15SVE5azJxRWYyR1Vmbm5qZTZMbC0zU2xRcHB1VUp2NzVsNTJVb3J3dkFMbENuWXlIbWl6YTJzS3N4b2s4Y08?oc=5 | unknown |
+| 9 | 3 | 기타 | 2026-11-02 | NAI500 | Citi Slashes Lithium Price Forecasts While Miners Press Ahead With Major Expansions | https://news.google.com/rss/articles/CBMitwFBVV95cUxQakFxNnA4cWxPRmZLcGZINURkVUZscU9WdTh4ZVhDUFcxZE9tQUFqOUhxRHNnNW4tM1Jrd0xSSGk1Z0FnRl9rdzZoellKQ0paejJhYjV4RXZJY0RuUTBmM2E4ZkhzaGVYem9fUHlHa3Vzc194dDY0ZzkxZHpuSmtxVkRHRXJLUHFta0pQZmo3WVk3UGE5bEM5ZUZaemRJNW82M3lwX1RyWkJ6SGdtNnZKYWtlQk1wMzA?oc=5 | unknown |
+| 10 | 3 | anode | 2026-11-02 | Nature | Stable anode-free sodium batteries enabled by controlled oligomerization | https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TWDFVZVFwdFAyLW5BV09JcEVZY29qSW5scWxITUp6cmdTSlRXUEhQNTkzdzFyTzVFSzJSZ0RjZGdDUHJ0R3AtQndiM2hINXVJV3JEdm4wLW96OEpKZDVF?oc=5 | unknown |
+| 11 | 3 | cathode | 2026-11-02 | ChemAnalyst | E3 Lithium, POSCO and Canada Join Forces to Develop Next-Gen LMR Battery Cathodes | https://news.google.com/rss/articles/CBMirgFBVV95cUxQSmQyT19hdmlGdkQwMEswWjBOOHdjbDFPbDczTWlFX0hHbFVMWkFsNHdBc1RWMWthR1N0VVgyTU5SV25iZ0ZTR2NhOVhYQnpXbWVhYXVPdlFHTkIxcEQwSXFyVlVqT2JoUy1RcjdJTDBraTRMaDdLRFQyTU1sNm5WWjBQdDZDNS1FTFl2ci1yREZBLWdNckJKenFqTTFRQ3N0eFBJcVBfREtGaHJFakE?oc=5 | unknown |
+| 12 | 3 | 기타 | 2026-11-02 | TradingView | Exploring the Next Chapter in Domestic Lithium: Elektros (OTC:ELEK) Assesses a Northern New York Hard-Rock Lithium Possibility | https://news.google.com/rss/articles/CBMikAJBVV95cUxQRjl4YVVrTEtBQUgzNXBaOVRKR0EyZ3dZU2IyVDVjelJTYTBRUkt1SlM3SWtLay1felZzaHU2RzdWdEd4bG4yNFppLXVLQ29VQlNybU5mTGRENm9qSzlUUHFrQWZ0QTJGMGdQZDFpb0gwN0ROaGtZbXBtUDhyeE9YTVdvZDJjMHljTXp0dXRWLXdHcUxPRnBLX2ZvZTNMSDFJc3ZKZnpWcHFrNC1hQmZEUTFlX0ozaW9tRWd6ZEJHVWJ6WkhSSzFLaVBpSWxCMjFXTnRnLWo5WHJOZjVCbmE1MXBBdkU4YnR2empDS2FzTTduek51Uktub0dlNks1MlFDemJrQ1dZVFViVDBrdmJvcw?oc=5 | unknown |
+| 13 | 3 | 정책 | 2026-11-02 | www.businesspost.co.kr | LG엔솔·삼성SDI 주가 ESS로 하락장서 선전, 탈중국 공급망 수혜에 미국... | https://www.businesspost.co.kr/BP?command=article_view&num=450928 | unknown |
+| 14 | 3 | 정책 | 2026-11-02 | www.korea.kr | ESS·폐배터리 규제 손질…이차전지 산업 경쟁력 강화 지원 | https://www.korea.kr/news/policyNewsView.do?newsId=148974764&call_from=naver_news | unknown |
+| 15 | 3 | 기타 | 2026-11-02 | Investing.com | POSCO Holdings Q3 profit misses estimates as lithium weakness hits battery unit | https://news.google.com/rss/articles/CBMiygFBVV95cUxOTHdGeFp1cTFqUFVGLUZqT2FmYWV6VmpGNWhGMUdyYkxHb19HVWFuWWJXbVF4VXY1M0tBYmtpOU1WdmF5UEdiVGp1TnpIZFZfa3FYaUFtd1pWOGJ6YTBlQkpNMHV1d2pvSDRtWXUyQWRfX3lScHJqUEs2cU82S0NqX3pZTTR0aWoyYkpCWldTRFFnZ3d3NXg4TzdlX21aUzZrV0lhaFV0YjBDMkhiN2tmVHVUTHN3M053YWV1MVVsUW5sSnNHSllSbnNn?oc=5 | unknown |
+| 16 | 3 | anode | 2026-11-03 | www.sedaily.com | 포스코퓨처엠, 현대차그룹과 베트남 인조흑연 음극재 사업 ‘맞손’ | https://www.sedaily.com/article/20109524?ref=naver | unknown |
+| 17 | 3 | cathode | 2026-11-03 | www.cbci.co.kr | 포스코퓨처엠, 17만원대 올라서며 1.42% 상승…3분기 영업이익 전분기 대... | https://www.cbci.co.kr/news/articleView.html?idxno=622484 | unknown |
+| 18 | 3 | cathode | 2026-11-03 | www.hankyung.com | "포스코퓨처엠, LFP 출하 개시로 성장 본격화될 것…목표가↑"-IBK | https://www.hankyung.com/article/2026110316496 | unknown |
+| 19 | 3 | 나트륨 | 2026-11-02 | Interesting Engineering | China backs sodium-ion battery expansion with tax exemption through 2028 | https://news.google.com/rss/articles/CBMikwFBVV95cUxPYjh0VHhrZENNVTc2Uy1LODBEMGVWdXFIb0VDaDQ5R3BBdjVoTlhOd1dsVGVPa3FCdUFmVG1IXzRrM2toQlhJcFlGZUk5ZkEwZkVUSlVhSE1QbmlucmR0MFV3VHV6RFJxRm9PeTBEd3lWNjRwNk1zRWgzME9pbnUzNmF5U0lVZFhLcFZadEoxd0E0cHM?oc=5 | unknown |
+| 20 | 3 | 기타 | 2026-11-02 | IndexBox | Flow Battery Market To 2035: Long-Duration Storage Demand Drives Growth - News and Statistics | https://news.google.com/rss/articles/CBMiywFBVV95cUxPckNlTzdLU0RVZTRBYXFWQVFtOFl4R0c0Q1hFbGhlTjYxZ0U1cFN3enVCZmQxcVBCa1RGTzRESmFSbUVVbVU4eU9EVW41a3hSVWRvM0Ywd1lfNV9MLVhETGNrdE1SWnhKXzdhY0lzM0wxWFc5YzZYbVM0SmkwVklIVy1lNlNrZUM1V3RvMnRsSEZjdVlnR3A3cXJhdzBEbURQOFBtMkszTEcycWlHQmJzTl9OUXFWVENCVVFadXUwQ0pYUHdfT08zeEphTQ?oc=5 | unknown |
+
+## 상세 요약
+
+### 1. LG에너지솔루션, BIC 2026 개최… 배터리 미래기술 공모
+- 발행일: 2026-11-02
+- 매체: www.biztribune.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: http://www.biztribune.co.kr/news/articleView.html?idxno=361728
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 배터리 미래 기술 공모의 장인 BIC 2026을 개최합니다.
+  - 지난해 BIC에서는 BMS 연산 속도 개선 특허가 출원되었고, 2019년 FRL에서는 상온 장수명 전고체 배터리 연구가 사이언스에 게재되었습니다.
+  - BRIDGE 프로그램은 학계와 산업계를 연결하는 역할을 합니다.
+- 관련 기업: LG에너지솔루션, BIC, BMS
+
+### 2. LG엔솔 매출 9.6조…분기 최대
+- 발행일: 2026-11-03
+- 매체: www.smedaily.co.kr (출처등급 3)
+- 분야: 기타
+- 링크: http://www.smedaily.co.kr/news/articleView.html?idxno=365626
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 3분기 실적 발표 콘퍼런스콜에서 3분기 매출이 9.6조 원을 기록했다고 밝혔습니다.
+  - LG에너지솔루션은 국내 최대 2차전지 기업으로 EV 및 ESS용 배터리를 생산합니다.
+  - 4분기 매출은 3분기보다 약 10% 증가할 것으로 전망되며, ESS 출하량도 증가할 것으로 예상됩니다.
+- 관련 기업: LG에너지솔루션, LG엔솔, 2차전지
+
+### 3. K배터리, ESS 타고 실적 반등…LG엔솔·삼성SDI 웃고 SK온 적자 축소
+- 발행일: 2026-11-03
+- 매체: www.asiatime.co.kr (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.asiatime.co.kr/article/20261103500295
+- 인기신호: unknown
+- 3문장 요약:
+  - K배터리 산업은 ESS 시장의 성장과 함께 실적 반등을 이루고 있으며, LG에너지솔루션과 삼성SDI는 실적 호조를 보이고 SK온은 적자 폭을 줄였습니다.
+  - 전고체 배터리는 휴머노이드용 샘플 출하 및 고객 평가를 진행 중이며, 원통형 배터리는 우주항공 및 휴머노이드 분야에서 신규 고객사를 확보했습니다.
+  - 전자재료 사업 부문에서도 반도체 패터닝 소재 판매를 통해 성과를 내고 있습니다.
+- 관련 기업: LG에너지솔루션, 삼성SDI, SK온
+
+### 4. LG엔솔, 올해 매출 성장률 목표 최대 40%로 상향
+- 발행일: 2026-11-03
+- 매체: www.thelec.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.thelec.kr/news/articleView.html?idxno=64782
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 올해 매출 성장률 목표를 최대 40%로 상향 조정했습니다.
+  - 충북 오창 에너지플랜트에서 ESS용 나트륨이온 배터리 샘플을 생산했으며, 내년에는 북미 고객사에 성능 검증용 제품을 공급할 예정입니다.
+  - 내년 상반기에는 LFP 양극재를 적용한 탭리스(Tabless) 2170 배터리 생산을 시작할 계획입니다.
+- 관련 기업: LG에너지솔루션, LG엔솔, 나트륨이온
+
+### 5. LG에너지솔루션, 2026년 3분기 실적발표 컨퍼런스콜 전문
+- 발행일: 2026-11-03
+- 매체: www.thelec.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.thelec.kr/news/articleView.html?idxno=64781
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션은 현재 가장 속도감 있게 준비하고 있는 제품으로 나트륨이온 배터리를 꼽았습니다.
+  - 연내 샘플 생산을 시작으로 내년 중 북미 고객향 테스트 제품 출하를 계획하고 있습니다.
+  - 신규 제품인 LFP 기반 배터리 개발도 활발히 진행 중입니다.
+- 관련 기업: LG에너지솔루션, 소듐이온, 나트륨이온
+
+### 6. Sodium-ion vs. lithium-ion: Tracking the battery race in 2026
+- 발행일: 2026-11-02
+- 매체: Interesting Engineering (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMiigFBVV95cUxQLTFsazNCOXNvNGlUckxFankzZy01MXNZd1R1X1pheEpZZ3NoWUtVcko2aXBPWmNVR0lnUW9aTnhIblBuamNUbmw5bjBPelpiSXlGSWNaUGJkTTNNN2poRXdOa1pmcG9hRGdRdDhsZnhWc3IzY1EyYl9reUEtTVlacjYtb0Zsb3RLTnc?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 2026년 나트륨이온 배터리와 리튬이온 배터리의 경쟁 구도를 추적하는 기사입니다.
+  - 배터리 기술 발전 동향과 시장 경쟁에 대한 분석을 제공합니다.
+  - 향후 배터리 시장의 주요 기술 트렌드를 예측합니다.
+
+### 7. Solid-state battery race: Sunwoda tests polymer cells with automakers as CATL targets 2027
+- 발행일: 2026-11-02
+- 매체: CarNewsChina.com (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMixAFBVV95cUxNaG5UNzg1U3pWbEFYU1lsV0EwbjhTZzcxWThHUmliMF9nYVB3SXBUOVVQRVdGUklPZmJOUFc5UVpITXctZVlIN1VfbjM3Mjk0Q3dKOXdmYnVQSU55b1JfMjRjQ1Z0cG1JSFh1bEpPWkkxdjJuMzFVTVVjUmNvZzFJN0c2QllCODBfeUd3Nkk1QmJEdDdZSVUzc2hJNjAyc1pLY0dLcnEwMjdWbzVZTVExYjAwSXBEdnlpR2pVSHFlcUZ1MG9y?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 전고체 배터리 시장에서 Sunwoda는 자동차 제조사들과 폴리머 셀을 테스트하고 있으며, CATL은 2027년 출시를 목표로 하고 있습니다.
+  - 이는 전고체 배터리 기술 개발 경쟁이 심화되고 있음을 보여줍니다.
+  - 주요 배터리 기업들이 차세대 기술 확보에 주력하고 있습니다.
+- 관련 기업: Sunwoda, CATL
+
+### 8. Citi Cuts Lithium Forecasts on Worsening Battery Demand Outlook
+- 발행일: 2026-11-02
+- 매체: Bloomberg.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMitAFBVV95cUxOSnEyaUpjQnQ1XzJfcnNfdFhkM2w0SEhQaVlxRjJvdnNtME9jaV8ybms4bDRmd3NBOHdCVE9NdThDalJ5S0loeWdjam9MYWZBQkdFZWEwWjlzelpxTUFVS0kwUS1Lb3Y0bW56dXpiWFBlak92dG15SVE5azJxRWYyR1Vmbm5qZTZMbC0zU2xRcHB1VUp2NzVsNTJVb3J3dkFMbENuWXlIbWl6YTJzS3N4b2s4Y08?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Citi는 배터리 수요 전망 악화로 인해 리튬 가격 예측치를 하향 조정했습니다.
+  - 이는 배터리 산업 전반의 수요 둔화 가능성을 시사합니다.
+  - 리튬 가격 변동은 배터리 제조 비용 및 관련 기업 실적에 영향을 미칠 수 있습니다.
+- 관련 기업: Citi
+
+### 9. Citi Slashes Lithium Price Forecasts While Miners Press Ahead With Major Expansions
+- 발행일: 2026-11-02
+- 매체: NAI500 (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMitwFBVV95cUxQakFxNnA4cWxPRmZLcGZINURkVUZscU9WdTh4ZVhDUFcxZE9tQUFqOUhxRHNnNW4tM1Jrd0xSSGk1Z0FnRl9rdzZoellKQ0paejJhYjV4RXZJY0RuUTBmM2E4ZkhzaGVYem9fUHlHa3Vzc194dDY0ZzkxZHpuSmtxVkRHRXJLUHFta0pQZmo3WVk3UGE5bEM5ZUZaemRJNW82M3lwX1RyWkJ6SGdtNnZKYWtlQk1wMzA?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Citi는 리튬 가격 예측치를 대폭 하향 조정했지만, 주요 리튬 생산업체들은 대규모 설비 확장을 계속 추진하고 있습니다.
+  - 이는 시장의 공급 과잉 우려와 기업들의 장기적인 생산 능력 확보 전략 간의 괴리를 보여줍니다.
+  - 향후 리튬 시장의 수급 불균형 가능성을 시사합니다.
+- 관련 기업: Citi
+
+### 10. Stable anode-free sodium batteries enabled by controlled oligomerization
+- 발행일: 2026-11-02
+- 매체: Nature (출처등급 3)
+- 분야: anode
+- 링크: https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TWDFVZVFwdFAyLW5BV09JcEVZY29qSW5scWxITUp6cmdTSlRXUEhQNTkzdzFyTzVFSzJSZ0RjZGdDUHJ0R3AtQndiM2hINXVJV3JEdm4wLW96OEpKZDVF?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 이 연구는 제어된 올리고머화를 통해 안정적인 무음극(anode-free) 나트륨 배터리를 구현하는 방법을 제시합니다.
+  - 이는 기존 리튬이온 배터리의 대안으로 주목받는 나트륨 배터리 기술의 발전을 보여줍니다.
+  - 향후 고성능, 저비용 배터리 개발에 기여할 수 있습니다.
+
+### 11. E3 Lithium, POSCO and Canada Join Forces to Develop Next-Gen LMR Battery Cathodes
+- 발행일: 2026-11-02
+- 매체: ChemAnalyst (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMirgFBVV95cUxQSmQyT19hdmlGdkQwMEswWjBOOHdjbDFPbDczTWlFX0hHbFVMWkFsNHdBc1RWMWthR1N0VVgyTU5SV25iZ0ZTR2NhOVhYQnpXbWVhYXVPdlFHTkIxcEQwSXFyVlVqT2JoUy1RcjdJTDBraTRMaDdLRFQyTU1sNm5WWjBQdDZDNS1FTFl2ci1yREZBLWdNckJKenFqTTFRQ3N0eFBJcVBfREtGaHJFakE?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - E3 Lithium, POSCO, 캐나다가 차세대 LMR 배터리 양극재 개발을 위해 협력합니다.
+  - 이번 협력은 배터리 소재 기술 혁신을 가속화할 것으로 기대됩니다.
+  - 이는 북미 지역의 배터리 공급망 강화에도 기여할 수 있습니다.
+- 관련 기업: E3 Lithium, POSCO, Canada
+
+### 12. Exploring the Next Chapter in Domestic Lithium: Elektros (OTC:ELEK) Assesses a Northern New York Hard-Rock Lithium Possibility
+- 발행일: 2026-11-02
+- 매체: TradingView (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMikAJBVV95cUxQRjl4YVVrTEtBQUgzNXBaOVRKR0EyZ3dZU2IyVDVjelJTYTBRUkt1SlM3SWtLay1felZzaHU2RzdWdEd4bG4yNFppLXVLQ29VQlNybU5mTGRENm9qSzlUUHFrQWZ0QTJGMGdQZDFpb0gwN0ROaGtZbXBtUDhyeE9YTVdvZDJjMHljTXp0dXRWLXdHcUxPRnBLX2ZvZTNMSDFJc3ZKZnpWcHFrNC1hQmZEUTFlX0ozaW9tRWd6ZEJHVWJ6WkhSSzFLaVBpSWxCMjFXTnRnLWo5WHJOZjVCbmE1MXBBdkU4YnR2empDS2FzTTduek51Uktub0dlNks1MlFDemJrQ1dZVFViVDBrdmJvcw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - Elektros는 미국 뉴욕 북부 지역에서 경암형 리튬 광산 개발 가능성을 평가하고 있습니다.
+  - 이는 미국 내 리튬 공급망 확보 노력의 일환입니다.
+  - 향후 미국 배터리 산업의 원자재 수급 안정화에 기여할 수 있습니다.
+- 관련 기업: Elektros, OTC, ELEK
+
+### 13. LG엔솔·삼성SDI 주가 ESS로 하락장서 선전, 탈중국 공급망 수혜에 미국...
+- 발행일: 2026-11-02
+- 매체: www.businesspost.co.kr (출처등급 3)
+- 분야: 정책
+- 링크: https://www.businesspost.co.kr/BP?command=article_view&num=450928
+- 인기신호: unknown
+- 3문장 요약:
+  - LG에너지솔루션과 삼성SDI는 국내 증시 하락장에서도 북미 ESS 사업 성장 기대감으로 비교적 양호한 주가 흐름을 보이고 있습니다.
+  - 이는 미국의 대중국 배터리 공급망 규제와 맞물려 북미 시장에서의 입지 강화 가능성을 시사합니다.
+  - ESS 사업은 두 기업의 실적 개선에 중요한 역할을 할 것으로 예상됩니다.
+- 관련 기업: LG에너지솔루션, 삼성SDI, LG엔솔·삼성SDI
+
+### 14. ESS·폐배터리 규제 손질…이차전지 산업 경쟁력 강화 지원
+- 발행일: 2026-11-02
+- 매체: www.korea.kr (출처등급 3)
+- 분야: 정책
+- 링크: https://www.korea.kr/news/policyNewsView.do?newsId=148974764&call_from=naver_news
+- 인기신호: unknown
+- 3문장 요약:
+  - 정부는 ESS 등 새로운 이차전지 수요 확대와 폐배터리 활용을 지원하여 이차전지 산업 경쟁력을 강화할 계획입니다.
+  - 규제 합리화 위원회는 이러한 산업 지원 방안을 논의하고 있습니다.
+  - 이는 국내 배터리 산업의 지속 가능한 성장을 위한 정책적 지원을 강화하는 움직임입니다.
+- 관련 기업: ESS·폐배터리, 이차전지
+
+### 15. POSCO Holdings Q3 profit misses estimates as lithium weakness hits battery unit
+- 발행일: 2026-11-02
+- 매체: Investing.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiygFBVV95cUxOTHdGeFp1cTFqUFVGLUZqT2FmYWV6VmpGNWhGMUdyYkxHb19HVWFuWWJXbVF4VXY1M0tBYmtpOU1WdmF5UEdiVGp1TnpIZFZfa3FYaUFtd1pWOGJ6YTBlQkpNMHV1d2pvSDRtWXUyQWRfX3lScHJqUEs2cU82S0NqX3pZTTR0aWoyYkpCWldTRFFnZ3d3NXg4TzdlX21aUzZrV0lhaFV0YjBDMkhiN2tmVHVUTHN3M053YWV1MVVsUW5sSnNHSllSbnNn?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - POSCO Holdings의 3분기 순이익은 리튬 부문의 약세로 인해 예상치를 하회했습니다.
+  - 이는 최근 리튬 가격 하락이 배터리 관련 사업 수익성에 영향을 미치고 있음을 보여줍니다.
+  - 향후 리튬 가격 변동 추이가 POSCO Holdings 실적에 중요한 변수가 될 것입니다.
+- 관련 기업: POSCO Holdings, POSCO
+
+### 16. 포스코퓨처엠, 현대차그룹과 베트남 인조흑연 음극재 사업 ‘맞손’
+- 발행일: 2026-11-03
+- 매체: www.sedaily.com (출처등급 3)
+- 분야: anode
+- 링크: https://www.sedaily.com/article/20109524?ref=naver
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코퓨처엠은 현대차그룹과 베트남에서 인조흑연 음극재 사업을 공동으로 추진합니다.
+  - 인조흑연 음극재는 배터리 급속 충전 성능과 수명 향상에 유리한 소재입니다.
+  - 이번 협력은 미래 모빌리티 소재 시장 선점을 위한 양사의 전략적 파트너십을 강화합니다.
+- 관련 기업: 포스코퓨처엠, 현대차그룹, 포스코그룹
+
+### 17. 포스코퓨처엠, 17만원대 올라서며 1.42% 상승…3분기 영업이익 전분기 대...
+- 발행일: 2026-11-03
+- 매체: www.cbci.co.kr (출처등급 3)
+- 분야: cathode
+- 링크: https://www.cbci.co.kr/news/articleView.html?idxno=622484
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코퓨처엠은 나트륨이온배터리(SIB)용 양극재와 하드카본 음극재 개발을 추진하며 전고체 배터리 소재까지 제품군을 확장하고 있습니다.
+  - IBK투자증권은 LFP 양극재 중심의 단기 공급 물량 증가를 예상하며 목표 주가를 상향했습니다.
+  - 이는 포스코퓨처엠의 다각화된 배터리 소재 포트폴리오 전략이 긍정적인 평가를 받고 있음을 보여줍니다.
+- 관련 기업: 포스코퓨처엠, IBK투자증권, 나트륨이온배터리
+
+### 18. "포스코퓨처엠, LFP 출하 개시로 성장 본격화될 것…목표가↑"-IBK
+- 발행일: 2026-11-03
+- 매체: www.hankyung.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.hankyung.com/article/2026110316496
+- 인기신호: unknown
+- 3문장 요약:
+  - 포스코퓨처엠은 LFP 양극재 출하 개시로 본격적인 성장세를 보일 것으로 예상되며, 목표 주가가 상향 조정되었습니다.
+  - 회사는 나트륨이온배터리(SIB)용 양극재와 하드카본 음극재도 함께 개발 중입니다.
+  - 음극재, 전고체, SIB까지 제품 포트폴리오를 확장하는 전략이 구체화되고 있습니다.
+- 관련 기업: 포스코퓨처엠, 나트륨이온배터리, LFP
+
+### 19. China backs sodium-ion battery expansion with tax exemption through 2028
+- 발행일: 2026-11-02
+- 매체: Interesting Engineering (출처등급 3)
+- 분야: 나트륨
+- 링크: https://news.google.com/rss/articles/CBMikwFBVV95cUxPYjh0VHhrZENNVTc2Uy1LODBEMGVWdXFIb0VDaDQ5R3BBdjVoTlhOd1dsVGVPa3FCdUFmVG1IXzRrM2toQlhJcFlGZUk5ZkEwZkVUSlVhSE1QbmlucmR0MFV3VHV6RFJxRm9PeTBEd3lWNjRwNk1zRWgzME9pbnUzNmF5U0lVZFhLcFZadEoxd0E0cHM?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 중국은 2028년까지 나트륨이온 배터리 확장에 대해 세금 감면 혜택을 제공하며 지원을 강화하고 있습니다.
+  - 이는 나트륨이온 배터리 기술의 상용화 및 보급 확대를 촉진할 것으로 예상됩니다.
+  - 중국의 정책 지원은 글로벌 나트륨이온 배터리 시장 성장에 중요한 영향을 미칠 것입니다.
+
+### 20. Flow Battery Market To 2035: Long-Duration Storage Demand Drives Growth - News and Statistics
+- 발행일: 2026-11-02
+- 매체: IndexBox (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMiywFBVV95cUxPckNlTzdLU0RVZTRBYXFWQVFtOFl4R0c0Q1hFbGhlTjYxZ0U1cFN3enVCZmQxcVBCa1RGTzRESmFSbUVVbVU4eU9EVW41a3hSVWRvM0Ywd1lfNV9MLVhETGNrdE1SWnhKXzdhY0lzM0wxWFc5YzZYbVM0SmkwVklIVy1lNlNrZUM1V3RvMnRsSEZjdVlnR3A3cXJhdzBEbURQOFBtMkszTEcycWlHQmJzTl9OUXFWVENCVVFadXUwQ0pYUHdfT08zeEphTQ?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - 2035년까지 플로우 배터리 시장은 장주기 에너지 저장 수요 증가에 힘입어 성장할 것으로 전망됩니다.
+  - 플로우 배터리는 대규모 에너지 저장 시스템에 적합한 기술입니다.
+  - 재생 에너지 확대와 전력망 안정화 요구 증가는 플로우 배터리 시장 성장의 주요 동인이 될 것입니다.
