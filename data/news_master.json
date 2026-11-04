@@ -1,5 +1,203 @@
 [
   {
+    "title": "아이엘, 리튬메탈배터리 수명·안정성 핵심 기술 美 특허 출원…북미 시...",
+    "description": "해당 보호층 기술은 액체 전해질 기반 리튬메탈배터리 외에도 전고체배터리와 리튬황배터리 등 차세대 이차전지의 음극 계면 안정화에 적용할 수 있도록 연구되고 있다. 아이엘은 이번 미국 특허 출원을 계기로 차세대...",
+    "link": "https://www.seoul.co.kr/news/economy/2026/11/04/20261104500105?wlog_tag3=naver",
+    "source": "www.seoul.co.kr",
+    "published_at": "2026-11-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "아이엘",
+      "리튬메탈배터리",
+      "전고체배터리"
+    ],
+    "summary_3_sentences": [
+      "아이엘은 리튬메탈배터리의 수명과 안정성을 높이는 핵심 기술에 대해 미국 특허를 출원했습니다.",
+      "이 보호층 기술은 전고체 배터리와 리튬황 배터리 등 차세대 이차전지의 음극 계면 안정화에도 적용될 수 있도록 연구되고 있습니다.",
+      "아이엘은 이번 미국 특허 출원을 계기로 차세대 배터리 시장에서의 입지를 강화하고자 합니다."
+    ],
+    "uid": "fcda24a21ff04069275fd29f8ad5d0a564ad1901"
+  },
+  {
+    "title": "아이엘, 리튬메탈배터리 수명·안정성 핵심 기술 美 특허 출원",
+    "description": "해당 박막 공정은 기존 액체 전해질 리튬메탈배터리뿐만 아니라 차세대 꿈의 배터리로 불리는 전고체배터리와 초고용량 리튬황배터리 음극에도 범용 적용이 가능하다. 아이엘 관계자는 “차세대 배터리 패권...",
+    "link": "https://www.sentv.co.kr/article/view/sentv202611040144",
+    "source": "www.sentv.co.kr",
+    "published_at": "2026-11-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "아이엘",
+      "리튬메탈배터리",
+      "전고체배터리"
+    ],
+    "summary_3_sentences": [
+      "아이엘은 리튬메탈배터리의 수명과 안정성을 향상시키는 핵심 기술에 대해 미국 특허를 출원했습니다.",
+      "이 박막 공정 기술은 기존 리튬메탈배터리뿐만 아니라 전고체 배터리 및 리튬황 배터리 음극에도 적용 가능합니다.",
+      "이는 차세대 배터리 기술 경쟁에서 아이엘의 기술력을 보여주는 사례입니다."
+    ],
+    "uid": "d7b6278646b13963d46927065ffc164c39aac769"
+  },
+  {
+    "title": "전고체 배터리 상용화 기대 커졌다…대주전자재료·이수스페셜티케미컬...",
+    "description": "전기차 배터리의 안전성과 에너지 밀도를 높일 수 있는 2차전지(전고체) 배터리 관련주가 4일 출렁이고 있다. 액체 전해질을 고체 전해질로 대체하는 전고체 배터리는 에너지 밀도를 높여 대용량 구현에 유리하고, 화재...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=501187",
+    "source": "www.pinpointnews.co.kr",
+    "published_at": "2026-11-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 96,
+    "monitoring_importance": 96,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [
+      "대주전자재료",
+      "이수스페셜티케미칼",
+      "대주전자"
+    ],
+    "summary_3_sentences": [
+      "전기차 배터리의 안전성과 에너지 밀도를 높일 수 있는 전고체 배터리 관련 주가가 변동하고 있습니다.",
+      "액체 전해질을 고체 전해질로 대체하는 전고체 배터리는 에너지 밀도 향상과 화재 위험 감소에 유리합니다.",
+      "이는 전고체 배터리 기술의 상용화 기대감이 높아지고 있음을 보여줍니다."
+    ],
+    "uid": "95da1dd8f2418759a54c82c1cdaf3fcba2c1a4f8"
+  },
+  {
+    "title": "\"세계 배터리 4개 중 3개는 中\"… 2026년 中 점유율 '73%', 韓·日 후퇴 ...",
+    "description": "글로벌 2차전지 산업 전문가들은 \"가격 경쟁력을 앞세운 중국 배터리 기업들이 안방을 넘어 유럽과 동남아, 남미 등 신흥 시장의 중저가 완성차 라인업을 완전히 장악했다\"며 \"K-배터리가 북미 인센티브에...",
+    "link": "https://www.g-enews.com/view.php?ud=2026110407435146580c8c1c064d_1",
+    "source": "www.g-enews.com",
+    "published_at": "2026-11-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "2차전지",
+      "K-배터리"
+    ],
+    "summary_3_sentences": [
+      "2026년까지 중국의 글로벌 2차전지 시장 점유율이 73%에 달할 것으로 예상되며, 한국과 일본은 점유율이 하락할 전망입니다.",
+      "중국 배터리 기업들은 가격 경쟁력을 앞세워 유럽, 동남아, 남미 등 신흥 시장을 장악하고 있습니다.",
+      "이는 K-배터리가 북미 시장 외의 지역에서 경쟁력을 확보해야 하는 과제를 안고 있음을 나타냅니다."
+    ],
+    "uid": "912a94c2a584886e6a084143601dcd37a1717015"
+  },
+  {
+    "title": "\"포스코퓨처엠, 연내 LFP 양산… 내년 양극재 출하 10만t 넘는다\"IBK투자...",
+    "description": "베트남 인조흑연 생산거점의 1단계 생산·판매 목표 시점은 2027년 하반기다. 나트륨이온배터리(SIB)용 양극재와 하드카본 음극재, 전고체 배터리 소재 개발도 병행해 중장기 성장 기반을 다질 계획이다.",
+    "link": "https://www.fnnews.com/news/202611030753087624",
+    "source": "www.fnnews.com",
+    "published_at": "2026-11-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "포스코퓨처엠",
+      "나트륨이온배터리",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "포스코퓨처엠은 연내 LFP 양산을 시작하고 내년에는 양극재 출하량이 10만 톤을 넘을 것으로 예상됩니다.",
+      "또한 베트남 인조흑연 생산 거점은 2027년 하반기 가동을 목표로 하고 있으며, 나트륨이온배터리 및 전고체 배터리 소재 개발도 병행할 계획입니다.",
+      "이는 포스코퓨처엠의 중장기 성장 기반 마련 전략을 보여줍니다."
+    ],
+    "uid": "6701a65a53ec1f19d0432131dede5d9aee7c8255"
+  },
+  {
+    "title": "[인터뷰]엘앤에프플러스 권혁원 \"LFP 증설 통한 투트랙으로 中 추월\"",
+    "description": "과거 중국 기업들의 전유물로 여겨졌던 LFP(리튬·인산·철) 배터리가 경제성과 안정성을 앞세워 주류... 시장의 관심사인 망간이 첨가된 LMFP나 나트륨이온 등 차세대 양극재에 대해서는 철저한 '실리주의' 입장을...",
+    "link": "https://www.bloter.net/news/articleView.html?idxno=677532",
+    "source": "www.bloter.net",
+    "published_at": "2026-11-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "엘앤에프플러스",
+      "나트륨이온",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "엘앤에프플러스는 LFP 증설을 통한 투트랙 전략으로 중국을 추월하겠다는 목표를 가지고 있습니다.",
+      "과거 중국 기업의 전유물로 여겨졌던 LFP 배터리는 경제성과 안정성을 앞세워 주류로 부상하고 있습니다.",
+      "엘앤에프플러스는 LMFP나 나트륨이온 등 차세대 양극재에 대해서는 신중한 입장을 보이고 있습니다."
+    ],
+    "uid": "9a4507b87e3b7c705e8e41f08aec83095ced64ee"
+  },
+  {
+    "title": "아이엘, 리튬메탈배터리 음극 보호층 기술 개발… 충·방전 성능 개선 ...",
+    "description": "이를 바탕으로 해외 지식재산권 확보를 추진하고, 전고체배터리와 리튬황배터리 등 차세대 이차전지 분야로의 적용 가능성도 검토할 계획이다. 아울러 북미 배터리 제조사와 완성차 기업 등을 대상으로 공동개발과...",
+    "link": "https://biz.heraldcorp.com/article/10925511?ref=naver",
+    "source": "biz.heraldcorp.com",
+    "published_at": "2026-11-04",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "아이엘",
+      "리튬메탈배터리",
+      "전고체배터리"
+    ],
+    "summary_3_sentences": [
+      "아이엘은 리튬메탈배터리의 음극 보호층 기술 개발을 통해 충·방전 성능을 개선했습니다.",
+      "이 기술은 해외 지식재산권 확보와 전고체 배터리, 리튬황 배터리 등 차세대 이차전지 분야로의 적용 가능성을 검토하는 데 활용될 것입니다.",
+      "또한 북미 배터리 제조사 및 완성차 기업과의 공동 개발도 추진할 계획입니다."
+    ],
+    "uid": "b7f2615053cf2c651a08d940c5a08bcba5ff11be"
+  },
+  {
+    "title": "LG에너지솔루션, 3분기 영업이익 7560억 달성·'BIC 2026' 개최",
+    "description": "지난 2019년 FRL에선 상온 구동 장수명 전고체 배터리 관련 연구가 세계적 권위의 학술지인 '사이언스(Science)'지에 실리기도 했다. LG에너지솔루션은 올해도 BIC의 커뮤니케이션 프로그램 BRIDGE를 통해 산학 간 소통과...",
+    "link": "http://www.wsobi.com/news/articleView.html?idxno=320963",
+    "source": "www.wsobi.com",
+    "published_at": "2026-11-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "LG에너지솔루션",
+      "BIC"
+    ],
+    "summary_3_sentences": [
+      "LG에너지솔루션은 3분기 영업이익 7560억 원을 달성했으며, 'BIC 2026' 행사를 개최했습니다.",
+      "과거 LG에너지솔루션은 상온 구동 장수명 전고체 배터리 관련 연구 결과를 세계적 학술지 '사이언스'에 게재한 바 있습니다.",
+      "이는 LG에너지솔루션의 기술 개발 노력과 미래 성장 전략을 보여줍니다."
+    ],
+    "uid": "c92d7d38a4c17b4107368c9a9eb8bb2eddb4d8ad"
+  },
+  {
     "title": "LG엔솔, 올해 매출 성장률 목표 최대 40%로 상향",
     "description": "LG에너지솔루션은 충북 오창 에너지플랜트에서 ESS용 나트륨이온(소듐이온) 배터리 샘플을 생산했다. 내년에는 북미 고객사에 성능 검증용 제품을 공급한다. 내년 상반기 LFP 양극재를 적용한 탭리스(Tabless) 2170...",
     "link": "https://www.thelec.kr/news/articleView.html?idxno=64782",
@@ -100,6 +298,54 @@
     "uid": "80e990ede95e70521884c589a2924a31f1769b42"
   },
   {
+    "title": "3분기 마무리한 배터리3사, ESS 기대효과 뚜렷…실적·미래 성장 동시에...",
+    "description": "삼성SDI는 2027년 하반기 휴머노이드용 전고체 배터리 상용화를 목표로 고객사 평가를 진행 중이다. 휴머노이드와 우주항공 분야의 원통형 배터리 공급 물량도 내년부터 증가할 것으로 예상했다. 2028년에는 신규...",
+    "link": "http://www.popcornnews.net/news/articleView.html?idxno=138525",
+    "source": "www.popcornnews.net",
+    "published_at": "2026-11-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "배터리 3사는 3분기 실적을 마무리했으며, 에너지 저장 시스템(ESS) 부문에서 기대 효과가 나타나고 있습니다.",
+      "삼성SDI는 2027년 하반기 휴머노이드용 전고체 배터리 상용화를 목표로 하고 있으며, 내년부터 휴머노이드 및 우주항공 분야의 원통형 배터리 공급 물량이 증가할 것으로 예상됩니다.",
+      "이는 배터리 기업들의 실적 개선과 미래 성장 동력 확보 노력을 보여줍니다."
+    ],
+    "uid": "c8685eb3ab3c8ab291ac8f8ff87f732669e16006"
+  },
+  {
+    "title": "엘앤에프, LFP 양극재 … LG엔솔에 1조원 공급",
+    "description": "올 배터리 3사에 3조 계약 非중국 수요 늘어 증설도 2차전지 소재 기업 엘앤에프가 LG에너지솔루션과 1조원 규모의 리튬인산철(LFP) 양극재 공급 계약을 체결했다고 3일 밝혔다. 엘앤에프는 올해 에만 배터리 3사...",
+    "link": "https://www.mk.co.kr/article/12194992",
+    "source": "www.mk.co.kr",
+    "published_at": "2026-11-03",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "엘앤에프",
+      "LG에너지솔루션",
+      "LG엔솔"
+    ],
+    "summary_3_sentences": [
+      "2차전지 소재 기업 엘앤에프가 LG에너지솔루션과 1조 원 규모의 리튬인산철(LFP) 양극재 공급 계약을 체결했습니다.",
+      "엘앤에프는 올해 이미 배터리 3사와 3조 원 규모의 계약을 맺었으며, 비중국 수요 증가에 따른 증설도 진행 중입니다.",
+      "이는 LFP 배터리 시장의 성장과 엘앤에프의 경쟁력 강화를 보여줍니다."
+    ],
+    "uid": "c9bf2ba2e5d11248144a935d5a0c52a8c8315cca"
+  },
+  {
     "title": "\"포스코퓨처엠, LFP 출하 개시로 성장 본격화될 것…목표가↑\"-IBK",
     "description": "나트륨이온배터리(SIB)용 양극재와 하드카본 음극재도 함께 개발 중이다. 이 연구원은 \"LFP 중심의 단기 물량 성장과 함께 음극재, 전고체, SIB까지 제품 포트폴리오를 확장하는 전략이 구체화되고 있다\"고 말했다.",
     "link": "https://www.hankyung.com/article/2026110316496",
@@ -173,6 +419,237 @@
       "전자재료 사업 부문에서도 반도체 패터닝 소재 판매를 통해 성과를 내고 있습니다."
     ],
     "uid": "c9de6420b95c7c9b57d63607fed03dcb1b52c1b1"
+  },
+  {
+    "title": "Redesigning batteries for ultrafast-charging EVs",
+    "published_at": "2026-11-03",
+    "source": "Tech Xplore",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaUpHVm5sbTYxdmptQU1naGpSMHdId1V3eHJiZTdvaDZ0TDU0ZExtajZrUWtONjJSM3RSZF9WU3NZNlNjTWdSQXMwT3ZYMnM5WE10M0tkU3A2eGZvUTRnM2FWbUw0QkppQ0pwdWo1VlFLUklRNnNlWF8yYTJmTTV5VGVR?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOaUpHVm5sbTYxdmptQU1naGpSMHdId1V3eHJiZTdvaDZ0TDU0ZExtajZrUWtONjJSM3RSZF9WU3NZNlNjTWdSQXMwT3ZYMnM5WE10M0tkU3A2eGZvUTRnM2FWbUw0QkppQ0pwdWo1VlFLUklRNnNlWF8yYTJmTTV5VGVR?oc=5\" target=\"_blank\">Redesigning batteries for ultrafast-charging EVs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Xplore</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "초고속 충전 전기차를 위한 배터리 재설계 연구가 진행되고 있습니다.",
+      "이는 기존 배터리 기술의 한계를 극복하고 전기차의 충전 시간을 획기적으로 단축하기 위한 노력의 일환입니다.",
+      "이러한 기술 발전은 전기차의 보급 확대에 긍정적인 영향을 미칠 것으로 예상됩니다."
+    ],
+    "uid": "63003c67946ccf41fd59322c4b3cb6f2b29b6b07"
+  },
+  {
+    "title": "Solid-state battery survives 400°F heat, exceeds 1,200 cycles, targets 600-mile range",
+    "published_at": "2026-11-03",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcmFud1VsZGRoUFhycEpqUVM3MkVVZXQzZWFYWkVMbmhqMjNtYncwX0xSVFBicm5WVFZScnJlcWtOVWVqZnNZZ09zcWFJTVpweldMX2J6UExiX2RQNTB5TjBhT0U5ZXZIZ2pwWjFPcWNGREhTTHByMmtnS1NsMHd0eTBVSGVpcGlaSjhheW54MA?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNcmFud1VsZGRoUFhycEpqUVM3MkVVZXQzZWFYWkVMbmhqMjNtYncwX0xSVFBicm5WVFZScnJlcWtOVWVqZnNZZ09zcWFJTVpweldMX2J6UExiX2RQNTB5TjBhT0U5ZXZIZ2pwWjFPcWNGREhTTHByMmtnS1NsMHd0eTBVSGVpcGlaSjhheW54MA?oc=5\" target=\"_blank\">Solid-state battery survives 400°F heat, exceeds 1,200 cycles, targets 600-mile range</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 98,
+    "monitoring_importance": 85,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [],
+    "summary_3_sentences": [
+      "새로운 전고체 배터리는 400°F(약 204°C)의 고온에서도 작동하며 1,200회 이상의 사이클 수명을 초과하고, 600마일(약 965km) 주행 거리를 목표로 합니다.",
+      "이러한 성능은 기존 리튬이온 배터리의 한계를 뛰어넘는 혁신적인 기술 발전을 의미합니다.",
+      "이는 전기차의 성능 향상과 안전성 증대에 크게 기여할 것으로 기대됩니다."
+    ],
+    "uid": "7f420da95514eff4fb7147c9e37a8395d4a1c347"
+  },
+  {
+    "title": "90% in 14.7 minutes: New EV battery charges faster with redesigned electrolyte",
+    "published_at": "2026-11-03",
+    "source": "Interesting Engineering",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR3BldTRicVg5V1p5TzcxUDdpSG5aaU5qOEZVUGltLTQxRnZNWjdmbjBmUk1qQUg4Wm50TGxSUV9ucmpqY1cxVmVmYTdiRkhEeVBTMDEzMzJNRE9sNXN0QWtnWVVCVFZjc2hKdE1TNm9LRG1jN3llVEh0MThYay1XWnVYNHpUWXRu?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR3BldTRicVg5V1p5TzcxUDdpSG5aaU5qOEZVUGltLTQxRnZNWjdmbjBmUk1qQUg4Wm50TGxSUV9ucmpqY1cxVmVmYTdiRkhEeVBTMDEzMzJNRE9sNXN0QWtnWVVCVFZjc2hKdE1TNm9LRG1jN3llVEh0MThYay1XWnVYNHpUWXRu?oc=5\" target=\"_blank\">90% in 14.7 minutes: New EV battery charges faster with redesigned electrolyte</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Interesting Engineering</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "electrolyte",
+    "companies": [],
+    "summary_3_sentences": [
+      "새로운 전해질 설계 기술을 통해 전기차 배터리를 14.7분 만에 90%까지 충전할 수 있게 되었습니다.",
+      "이 기술은 기존 배터리 충전 속도의 한계를 극복하고 사용자 편의성을 크게 향상시킬 수 있습니다.",
+      "이는 전기차의 실용성을 높이고 충전 인프라 부담을 줄이는 데 기여할 것으로 기대됩니다."
+    ],
+    "uid": "162a1de76cac5e0f31a26bcfc54641161686cf34"
+  },
+  {
+    "title": "Samsung SDI books 60 GWh of US storage orders and begins Indiana LFP ESS production",
+    "published_at": "2026-11-03",
+    "source": "ESS News",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcG9uX2lwakRIZWxtZURhS0RIMVRUOWtyZktTT09jVWZoY2xtMG9FNzRraEMwaFlPXzBpcDFyMFNqdzJIQU5jeS00VmcxNElwNzFyOEhFV0g0dDN2bTFkV25mSm1wS3Q2eTJQOUxMYldVaWZaN0c3bEpFQ1I3OWJhRV9PX3ZoSk40dkpLeWtURE1kR19MTHhpc1JpQTRnekhhYXVPRHhiOW13NjlGdDFkaHVPRnVVRW5VV2FtSg?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOcG9uX2lwakRIZWxtZURhS0RIMVRUOWtyZktTT09jVWZoY2xtMG9FNzRraEMwaFlPXzBpcDFyMFNqdzJIQU5jeS00VmcxNElwNzFyOEhFV0g0dDN2bTFkV25mSm1wS3Q2eTJQOUxMYldVaWZaN0c3bEpFQ1I3OWJhRV9PX3ZoSk40dkpLeWtURE1kR19MTHhpc1JpQTRnekhhYXVPRHhiOW13NjlGdDFkaHVPRnVVRW5VV2FtSg?oc=5\" target=\"_blank\">Samsung SDI books 60 GWh of US storage orders and begins Indiana LFP ESS production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESS News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "삼성SDI",
+      "SDI",
+      "US"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 미국에서 60GWh 규모의 에너지 저장 시스템(ESS) 주문을 확보했으며, 인디애나 공장에서 LFP ESS 생산을 시작했습니다.",
+      "이는 삼성SDI의 북미 ESS 시장 공략 강화와 LFP 배터리 생산 능력 확대를 보여줍니다.",
+      "회사는 ESS 사업을 통해 안정적인 수익을 창출하고 미래 성장 동력을 확보할 것으로 기대됩니다."
+    ],
+    "uid": "83f7afabcc15561b6a0b251f80e757e9171c0db3"
+  },
+  {
+    "title": "Australian firm secures $6.77 million for solid-state battery line",
+    "published_at": "2026-11-03",
+    "source": "ESS News",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYS1xZ1JNWlRTMVBELWRDUW9aNllkbFRnbE1udnpBOVM1Z2Nic0paalRpU3pEaU96MldObXc0SnVUTERELWZjOUVwM3JEVTU2MEVrQzktNURIcWpQOVVWLTRDOC1SZUJhQ1dtNHdvNnBEakg4TGFUNWYxbE5VNHhRa0hYbzVjTjlIMnl3dkVlRUo3cE40THZ6OGcweWFQTDNHUjIzNw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQYS1xZ1JNWlRTMVBELWRDUW9aNllkbFRnbE1udnpBOVM1Z2Nic0paalRpU3pEaU96MldObXc0SnVUTERELWZjOUVwM3JEVTU2MEVrQzktNURIcWpQOVVWLTRDOC1SZUJhQ1dtNHdvNnBEakg4TGFUNWYxbE5VNHhRa0hYbzVjTjlIMnl3dkVlRUo3cE40THZ6OGcweWFQTDNHUjIzNw?oc=5\" target=\"_blank\">Australian firm secures $6.77 million for solid-state battery line</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESS News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "호주 기업이 전고체 배터리 생산 라인 구축을 위해 677만 달러의 자금을 확보했습니다.",
+      "이 자금은 전고체 배터리 기술 개발 및 상용화를 가속화하는 데 사용될 예정입니다.",
+      "이는 전고체 배터리 시장의 성장 가능성과 관련 기술에 대한 투자가 활발함을 보여줍니다."
+    ],
+    "uid": "44617b37df913fd41e298d5cce52ad54d4febcff"
+  },
+  {
+    "title": "China's High Energy Digital raises $15M Series B for solid-state battery gear",
+    "published_at": "2026-11-03",
+    "source": "Dealroom",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNalR3SHRCM3UzS1RpTmdSVlpQT3dRTFB4VGJ4bExUQzZJNXNMa25IejJSY1pYUFh0cjZXQlI2NU81UmdONmdUb0hRcXlQdXptNl9TeWhDc0J5ZjZITHJzUzBlSEF3NzNJc2JXTFhIbFFKTWN2N1RHc0pXbWFrVDZfVE1Yb2t1NUI2QVk0RE45ck4wSXRJMk9OZElyLUpRRExhSENZTXZBdF8xbE9VRE1R?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNalR3SHRCM3UzS1RpTmdSVlpQT3dRTFB4VGJ4bExUQzZJNXNMa25IejJSY1pYUFh0cjZXQlI2NU81UmdONmdUb0hRcXlQdXptNl9TeWhDc0J5ZjZITHJzUzBlSEF3NzNJc2JXTFhIbFFKTWN2N1RHc0pXbWFrVDZfVE1Yb2t1NUI2QVk0RE45ck4wSXRJMk9OZElyLUpRRExhSENZTXZBdF8xbE9VRE1R?oc=5\" target=\"_blank\">China's High Energy Digital raises $15M Series B for solid-state battery gear</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Dealroom</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "High Energy Digital"
+    ],
+    "summary_3_sentences": [
+      "중국의 High Energy Digital은 전고체 배터리 장비 생산을 위해 1,500만 달러의 시리즈 B 투자를 유치했습니다.",
+      "이 자금은 전고체 배터리 생산 기술 및 장비 개발에 사용될 예정입니다.",
+      "이는 전고체 배터리 시장의 성장에 대한 기대와 관련 기업에 대한 투자가 증가하고 있음을 나타냅니다."
+    ],
+    "uid": "d7291b71384698472b9f48dee95fd4031a2f8c58"
+  },
+  {
+    "title": "Sodium-ion batteries overcome lifespan vs charging conundrum with graphene armour",
+    "published_at": "2026-11-03",
+    "source": "Chemistry World",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaTdJMENTWkFuZnNsREgzcWVnV1FxM2pPUFdDTWk2LWw1cXF3MFFhLVB1bXhXWENfd0xMdERraU9sYm5xejMtRno4ZHhoYXllcG9acDIyS0d2OTM5Q0puVEVod3l6UlVidG1hT3lTMEU1Nk1Xemp5cjNNTDBraVBLU3IwaTIzMTZVcVNDSHB5cm1nNG5Ic0dLdFNxd1YxSlp4eHNzSlJXT0psOUhsZ0RlTG80N0xOS09PLWtUZXJxNFVGd2FmblViaFJGSG1Hdw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNaTdJMENTWkFuZnNsREgzcWVnV1FxM2pPUFdDTWk2LWw1cXF3MFFhLVB1bXhXWENfd0xMdERraU9sYm5xejMtRno4ZHhoYXllcG9acDIyS0d2OTM5Q0puVEVod3l6UlVidG1hT3lTMEU1Nk1Xemp5cjNNTDBraVBLU3IwaTIzMTZVcVNDSHB5cm1nNG5Ic0dLdFNxd1YxSlp4eHNzSlJXT0psOUhsZ0RlTG80N0xOS09PLWtUZXJxNFVGd2FmblViaFJGSG1Hdw?oc=5\" target=\"_blank\">Sodium-ion batteries overcome lifespan vs charging conundrum with graphene armour</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chemistry World</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 70,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [],
+    "summary_3_sentences": [
+      "그래핀 아머 기술을 통해 나트륨이온 배터리의 수명과 충전 속도 문제를 해결했습니다.",
+      "이 기술은 기존 나트륨이온 배터리의 단점을 보완하여 성능을 크게 향상시킵니다.",
+      "이는 차세대 배터리 기술 개발에 있어 중요한 진전을 의미합니다."
+    ],
+    "uid": "1047bebb7fd949737b42c4d736b784fb57435f1e"
+  },
+  {
+    "title": "China's solid-state battery stocks buck market slump with wave of limit-ups; analysts see 2027 as mass-production breakthrough year",
+    "published_at": "2026-11-03",
+    "source": "BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3My05cklxcUpMWHdCTjJpVGVRU25TZXlKbnBvQnZuVmhZQUJHYW9Icm1ucVJfNmpnbmg5aHROUl9zMmlZT0RhSEV4WC03Y1VianQ1NHBDUlR5bmk2T2xtY1RJZ3hfOGlsWm9obUs3T2VKTHJDSmc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFB3My05cklxcUpMWHdCTjJpVGVRU25TZXlKbnBvQnZuVmhZQUJHYW9Icm1ucVJfNmpnbmg5aHROUl9zMmlZT0RhSEV4WC03Y1VianQ1NHBDUlR5bmk2T2xtY1RJZ3hfOGlsWm9obUs3T2VKTHJDSmc?oc=5\" target=\"_blank\">China's solid-state battery stocks buck market slump with wave of limit-ups; analysts see 2027 as mass-production breakthrough year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 98,
+    "monitoring_importance": 90,
+    "monitor_score": 96,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "중국의 전고체 배터리 관련 주식들이 시장 침체에도 불구하고 상승세를 보이고 있습니다.",
+      "분석가들은 2027년을 전고체 배터리 대량 생산의 돌파구로 예상하고 있습니다.",
+      "이는 중국 배터리 산업의 성장 잠재력과 기술 발전에 대한 기대를 반영합니다."
+    ],
+    "uid": "7874e0b37ef00c4bd00a4a59b1d0134c6849401f"
+  },
+  {
+    "title": "China's Solid-State Battery Race Heats Up: Lithium Sulfide Maker Closes Series A; Dongfeng and Chery Mass-Production Timelines Emerge",
+    "published_at": "2026-11-03",
+    "source": "BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LRXJncS1SREtxUXNHQzFVRFYyT0RDSlVDMWVWTmtXWW5wSFRwbC1CQWhIWGhJME5uYjFLUWtsNGloeDVCTmNFamt0ODZvRWp0S3o5MFZJMVp1V09BMVUxa05fdF81WG00RkwxV0NpTWZKRnNMRUE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9LRXJncS1SREtxUXNHQzFVRFYyT0RDSlVDMWVWTmtXWW5wSFRwbC1CQWhIWGhJME5uYjFLUWtsNGloeDVCTmNFamt0ODZvRWp0S3o5MFZJMVp1V09BMVUxa05fdF81WG00RkwxV0NpTWZKRnNMRUE?oc=5\" target=\"_blank\">China's Solid-State Battery Race Heats Up: Lithium Sulfide Maker Closes Series A; Dongfeng and Chery Mass-Production Timelines Emerge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 98,
+    "monitoring_importance": 90,
+    "monitor_score": 96,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "동풍자동차",
+      "창안자동차"
+    ],
+    "summary_3_sentences": [
+      "중국에서 전고체 배터리 기술 경쟁이 치열해지고 있으며, 리튬 황화물 제조업체가 시리즈 A 투자를 유치했습니다.",
+      "동풍자동차와 창안자동차는 전고체 배터리 양산 시점을 발표했습니다.",
+      "이는 중국 전기차 시장에서 전고체 배터리의 중요성이 커지고 있음을 시사합니다."
+    ],
+    "uid": "88a902e8463d4bf9bd809a4a4e14bf169b6894ec"
+  },
+  {
+    "title": "Factorial Thinks It Can Finally Make Solid-State Batteries Real",
+    "published_at": "2026-11-03",
+    "source": "Autoweek",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUDFVSllGYV9SZXl2NDJMUVdfZW80eXN4QnFmc2o2WEdwZmdaSEZRWTJlRXNBOE1wTkFLS1pBalAyMW9uSEVpMGtGSG05dkhta0h2di00aWpOcUZZMC1haGtpQmxfekxMc2VHeGwyVHVNcU00THJzUlZHS3Z3RkZsOWZWMlNpcDR2MDFrbE9kNUhlUGJvdU42eU8temJpeUdJc0RkaWR1N0o?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUDFVSllGYV9SZXl2NDJMUVdfZW80eXN4QnFmc2o2WEdwZmdaSEZRWTJlRXNBOE1wTkFLS1pBalAyMW9uSEVpMGtGSG05dkhta0h2di00aWpOcUZZMC1haGtpQmxfekxMc2VHeGwyVHVNcU00THJzUlZHS3Z3RkZsOWZWMlNpcDR2MDFrbE9kNUhlUGJvdU42eU8temJpeUdJc0RkaWR1N0o?oc=5\" target=\"_blank\">Factorial Thinks It Can Finally Make Solid-State Batteries Real</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Autoweek</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 98,
+    "monitoring_importance": 90,
+    "monitor_score": 96,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "Factorial Energy"
+    ],
+    "summary_3_sentences": [
+      "Factorial Energy는 고체 배터리 기술을 현실화하기 위해 노력하고 있습니다.",
+      "이 회사는 에너지 밀도와 안전성을 향상시키는 고체 전해질 기술 개발에 집중하고 있습니다.",
+      "Factorial Energy는 상용화를 목표로 기술 개발 및 파트너십 구축에 힘쓰고 있습니다."
+    ],
+    "uid": "ec25d5d9fe3404caff61d18cb4d11e767e6ca1fd"
   },
   {
     "title": "포스코퓨처엠, LFP로 날았다…\"10조 수주에 증설 검토\"",
