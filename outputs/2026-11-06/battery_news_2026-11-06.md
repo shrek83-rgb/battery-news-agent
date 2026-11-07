@@ -1,0 +1,102 @@
+# 배터리 뉴스 데일리 브리핑 (2026-11-06 전날 기준)
+
+- 총 7건 (우선순위: 공시/보도자료(1) > 주요 언론(2) > 업계/기타(3))
+
+| # | 출처등급 | 분야 | 발행일 | 매체 | 제목 | 링크 | 인기신호 |
+|---:|:---:|:---|:---:|:---|:---|:---|:---|
+| 1 | 3 | 기타 | 2026-11-06 | Firehouse.com | Crackdown Comes as FDNY Responded to 400 Lithium-ion Battery-Related Fires to Date | https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYmNKOUxfcjQyNDM3NXd6X1RRc2R3WWZ1RkZ3WV9vdWRkcVBsS1JNWlZhOHl3WTJoWU1XZTFGYld5TC02QnliMlQzZXVmd1pHMXlkbHppQ3REdWU1QVItWldnLV9rVi1ETXlfZnJPZzlZVVo3bWxFR1lIMmJ2TXdGTXlYZ09ta3dPRXNqYWxoZWRFX3FrQWtmMG5yelM4M2RKeVpLa200aEN2NlBTZlVaaFRHQW53bjRvVVQ4MVBmQVEzWlFaUlN4Xzlid0pmYTg1VDNzUkY0LS1IM1U?oc=5 | unknown |
+| 2 | 3 | 전고체 | 2026-11-06 | www.kukinews.com | ‘전기차에서 로봇까지’…지식재산처, 이차전지 특허전략 제시 | https://www.kukinews.com/article/view/kuk202611060186 | unknown |
+| 3 | 3 | anode | 2026-11-06 | economist.co.kr | 아이엘, 리튬메탈 음극 롤투롤 장비 개발…차세대 배터리 제조기술 내재... | https://economist.co.kr/article/view/ecn202611060052 | unknown |
+| 4 | 3 | 기타 | 2026-11-06 | www.econovill.com | "수주보다 수익성"…LG엔솔 빠진 역대 최대 ESS 입찰, 삼성SDI·SK온 셈법... | https://www.econovill.com/news/articleView.html?idxno=756318 | unknown |
+| 5 | 3 | anode | 2026-11-07 | www.pinpointnews.co.kr | 한국미래기술교육연구원,나트륨 배터리(SIB) 상용화 핵심기술과 시장 진... | https://www.pinpointnews.co.kr/news/articleView.html?idxno=501089 | unknown |
+| 6 | 3 | cathode | 2026-11-06 | https://tech-insider.org/ | LG-Tesla $4.3B LFP Battery Deal: Cells From 2027 [2026] | https://news.google.com/rss/articles/CBMikAFBVV95cUxNYS1waVo1ZWVyNzdGa0dwY2NOUmtJaDlFclFLakZJYzNlc0Z6VExXdXdKNDRoSC1lZERobnp2ZnJiME1RcF82RENQb2dDTHJXODVrSjR1QjFkLWlGcU9OM0RoWTlnc0o3ZXZtWUs3bGExMW1TS2NHMVhZdHVxcVdySnc3X1Y1R3c4M3BXdk1pSFk?oc=5 | unknown |
+| 7 | 3 | cathode | 2026-11-07 | www.yeongnam.com | [미래 핵심 산업 TK배터리의 一生 ③] 2차전지 밸류체인의 마지막 퍼즐... | https://www.yeongnam.com/web/view.php?key=20261107022448296 | unknown |
+
+## 상세 요약
+
+### 1. Crackdown Comes as FDNY Responded to 400 Lithium-ion Battery-Related Fires to Date
+- 발행일: 2026-11-06
+- 매체: Firehouse.com (출처등급 3)
+- 분야: 기타
+- 링크: https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYmNKOUxfcjQyNDM3NXd6X1RRc2R3WWZ1RkZ3WV9vdWRkcVBsS1JNWlZhOHl3WTJoWU1XZTFGYld5TC02QnliMlQzZXVmd1pHMXlkbHppQ3REdWU1QVItWldnLV9rVi1ETXlfZnJPZzlZVVo3bWxFR1lIMmJ2TXdGTXlYZ09ta3dPRXNqYWxoZWRFX3FrQWtmMG5yelM4M2RKeVpLa200aEN2NlBTZlVaaFRHQW53bjRvVVQ4MVBmQVEzWlFaUlN4Xzlid0pmYTg1VDNzUkY0LS1IM1U?oc=5
+- 참고 링크: https://news.google.com/rss/articles/CBMirAFBVV95cUxQZldIRnNETUdBaEFHZTFJcjJoejBjNm44U3lDQjZXeTNfQkdYRFM1OG9Xa2hzRTR1dlBqUFJTSVRjdnc5dGRjWWVPVkExT3c0UEpVX18xdGVjVURURzBmUkp0eC1mUHZhR2dtVVd4aXBrMXNPTHlGX04waTJ6UFhDTFZReUgzalc3bVNGRVYzUmZUalZmYk5rSHdCbVRGSGtyZnpjdkctbDU1X21W?oc=5, https://news.google.com/rss/articles/CBMijgFBVV95cUxNZHctQ3ZvZGs4UjZUWXdMWTlHR29fdGlfbFMtalpiRDAtOGpGTXd6QXpLYWItN3MyZGlNTGYzQzQ2ZVRLM19yRGN6aWJTWl9lOEFxT29iOFUwczhReDB4a1MyRUk4bUlOb0puVVl1dVJGRGVpVUlQREtNNXFkbHFVNWdDcmhqRDk2RWFfS0ZB0gGTAUFVX3lxTE9zV1d5V3lpek1YZmFGQzhKR2JXUHVTQ0RtQlJ4VUtlV1EzdTRXdmZFUWJaNkF6a0VBSE1mU3pSbHJhYXktWWpvY1RuTFhGbEUxZGxKaE1LZk5tenJaQXR4S3dObU1KRDlDazhoaTlQZDl2M3hsYi1KWVV0cE16RDg3cGp1MDRfNXRpQzFYY19zZ0dEYw?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - FDNY는 현재까지 리튬이온 배터리 관련 화재 400건에 대응했습니다.
+  - 이러한 화재 발생률 증가는 리튬이온 배터리 사용 증가와 안전 규제 미비에 따른 것으로 보입니다.
+  - 이에 따라 뉴욕시는 리튬이온 배터리 판매 및 재활용에 대한 새로운 규제안을 발표했습니다.
+- 관련 기업: FDNY
+
+### 2. ‘전기차에서 로봇까지’…지식재산처, 이차전지 특허전략 제시
+- 발행일: 2026-11-06
+- 매체: www.kukinews.com (출처등급 3)
+- 분야: 전고체
+- 링크: https://www.kukinews.com/article/view/kuk202611060186
+- 참고 링크: https://www.energy-news.co.kr/news/articleView.html?idxno=229581
+- 인기신호: unknown
+- 3문장 요약:
+  - 특허청은 전기차부터 로봇까지 다양한 분야에 적용되는 이차전지 관련 특허 전략을 제시했습니다.
+  - 이번 전략은 배터리 셀 안전 기술, 전고체 전지, 연료전지 자동차 수소 공급 시스템 등 핵심 기술 동향을 분석한 결과를 담고 있습니다.
+  - 특허청은 핵심 기술에 대한 지식재산권 확보의 중요성을 강조하며 관련 산업의 경쟁력 강화를 지원할 계획입니다.
+- 관련 기업: 특허청, 이차전지, 연료전지
+
+### 3. 아이엘, 리튬메탈 음극 롤투롤 장비 개발…차세대 배터리 제조기술 내재...
+- 발행일: 2026-11-06
+- 매체: economist.co.kr (출처등급 3)
+- 분야: anode
+- 링크: https://economist.co.kr/article/view/ecn202611060052
+- 인기신호: unknown
+- 3문장 요약:
+  - 아이엘은 리튬메탈 음극 보호층 기술에 대한 미국 특허 출원을 완료했습니다.
+  - 또한, 3D 집전체 및 전고체배터리 관련 지식재산권을 확대하며 차세대 배터리 제조 기술 내재화에 힘쓰고 있습니다.
+  - 회사는 이러한 기술력을 바탕으로 높은 에너지 밀도를 요구하는 전고체배터리 등 미래 배터리 시장을 공략할 예정입니다.
+- 관련 기업: 아이엘, 전고체배터리
+
+### 4. "수주보다 수익성"…LG엔솔 빠진 역대 최대 ESS 입찰, 삼성SDI·SK온 셈법...
+- 발행일: 2026-11-06
+- 매체: www.econovill.com (출처등급 3)
+- 분야: 기타
+- 링크: https://www.econovill.com/news/articleView.html?idxno=756318
+- 참고 링크: https://www.edaily.co.kr/News/Read?newsId=05418566645643096&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article, https://www.topstarnews.net/news/articleView.html?idxno=16269967
+- 인기신호: unknown
+- 3문장 요약:
+  - 역대 최대 규모의 ESS 입찰에 LG에너지솔루션이 참여하지 않아 업계의 관심이 집중되고 있습니다.
+  - 이번 입찰은 국내 배터리 업계가 수주량 확보와 수익성 관리 사이에서 어떤 전략을 취할지 보여주는 사례가 될 것입니다.
+  - LG에너지솔루션은 추가 수주보다는 기존 사업 안정화와 차세대 기술 확보에 집중하는 것으로 보입니다.
+- 관련 기업: LG에너지솔루션, 삼성SDI, SK온
+
+### 5. 한국미래기술교육연구원,나트륨 배터리(SIB) 상용화 핵심기술과 시장 진...
+- 발행일: 2026-11-07
+- 매체: www.pinpointnews.co.kr (출처등급 3)
+- 분야: anode
+- 링크: https://www.pinpointnews.co.kr/news/articleView.html?idxno=501089
+- 인기신호: unknown
+- 3문장 요약:
+  - 한국미래기술교육원은 나트륨이온전지(SIB)의 상용화 핵심 기술과 시장 진출 전략에 대한 교육을 진행합니다.
+  - 리튬이온전지 중심의 시장에서 SIB의 가능성과 함께 액체계 SIB에서 전고체전지로 이어지는 고에너지밀도 기술, 금속 음극 계면 제어, 무음극 셀 설계 등의 중요 기술을 다룹니다.
+  - 이번 교육은 SIB 시장의 성장 잠재력과 기술 개발 동향을 파악하는 데 도움을 줄 것입니다.
+- 관련 기업: 한국미래기술교육원, 리튬이온전지, 나트륨이온전지
+
+### 6. LG-Tesla $4.3B LFP Battery Deal: Cells From 2027 [2026]
+- 발행일: 2026-11-06
+- 매체: https://tech-insider.org/ (출처등급 3)
+- 분야: cathode
+- 링크: https://news.google.com/rss/articles/CBMikAFBVV95cUxNYS1waVo1ZWVyNzdGa0dwY2NOUmtJaDlFclFLakZJYzNlc0Z6VExXdXdKNDRoSC1lZERobnp2ZnJiME1RcF82RENQb2dDTHJXODVrSjR1QjFkLWlGcU9OM0RoWTlnc0o3ZXZtWUs3bGExMW1TS2NHMVhZdHVxcVdySnc3X1Y1R3c4M3BXdk1pSFk?oc=5
+- 인기신호: unknown
+- 3문장 요약:
+  - LG와 Tesla는 2027년부터 LFP 배터리 공급을 위한 43억 달러 규모의 계약을 체결했습니다.
+  - 이 계약은 LG에너지솔루션이 Tesla에 LFP 배터리 셀을 공급하는 내용을 담고 있습니다.
+  - 이번 협력은 양사의 배터리 사업 경쟁력을 강화하고 전기차 시장에서의 입지를 넓히는 데 기여할 것으로 예상됩니다.
+- 관련 기업: LG, Tesla, LG에너지솔루션
+
+### 7. [미래 핵심 산업 TK배터리의 一生 ③] 2차전지 밸류체인의 마지막 퍼즐...
+- 발행일: 2026-11-07
+- 매체: www.yeongnam.com (출처등급 3)
+- 분야: cathode
+- 링크: https://www.yeongnam.com/web/view.php?key=20261107022448296
+- 인기신호: unknown
+- 3문장 요약:
+  - 2차전지 밸류체인의 핵심은 최종 완제품인 배터리 셀 제조에 있습니다.
+  - 아무리 우수한 양극재와 정밀한 전극 장비가 있더라도, 이를 최종 완제품으로 조립하는 기술이 배터리 성능을 결정합니다.
+  - 따라서 배터리 셀 제조 기술은 2차전지 산업 생태계의 완성도를 높이는 데 중요한 역할을 합니다.
+- 관련 기업: TK배터리, 2차전지
