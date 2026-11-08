@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-11-07</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-11-07 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0xOalI2YmxaZ3lSWU5aWFMwS2VoV0gweTUzbUVCYjhBWHFKWnh6bXdhM0pIakZQX0J1eE1IRkYyb0VjaXBHUGQwSWNWS2Uya1RIeGt1UU01TEQyM2prRDc3ZXQ0WGVJbi04MEZwMWIxZEk0Tkh0a0UycVhlZGo3RmRYUW13dk9wcVZRWTZDd092Nk5YbWZVTGFuMi1PMmtYRGdpT2xRSjM1cGxibHc?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Chemical Breakthrough Could Unlock the “Holy Grail” of Solid-State Battery Technology</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">SciTechDaily</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>새로운 화학적 돌파구가 차세대 배터리 기술의 핵심인 전고체 배터리 기술의 상용화를 앞당길 수 있습니다.</li><li>이 기술은 기존 리튬 이온 배터리의 안전성과 에너지 밀도 문제를 해결할 잠재력을 가지고 있습니다.</li><li>전고체 배터리는 더 안전하고 효율적인 에너지 저장 솔루션을 제공하여 전기 자동차 및 휴대용 전자기기 분야에 혁신을 가져올 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-07</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNajljVXZkMEpEWDBScDJzSF83d0EwdHNwSllsakc4VXFIOTlWNnJwSExjTlRKT0hjNFdQcmRPTWVaV25BOEVUd21zbDhYZkpFcWZoZXU3cGpFZU1rQ1ZQb2NWNUhHQjE4LWo5eTl5UXNCZ0hleUIyajU4VlpGZWZRbHA3aUI5a0VBUlhoZXRNSEtiRVRmRzZr?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Solid-State Battery Hits 82.3% After 300 Cycles [2026]</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">shattered.io</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>한 전고체 배터리 시제품이 300회의 충방전 주기 후에도 82.3%의 성능을 유지하는 것으로 나타났습니다.</li><li>이는 기존 리튬 이온 배터리의 수명과 안정성 문제를 개선할 수 있는 가능성을 보여줍니다.</li><li>이러한 결과는 2026년 상용화를 목표로 하는 전고체 배터리 기술 발전에 중요한 진전을 의미합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-07</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.yna.co.kr/view/AKR20261107051400089?input=1195m" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">&quot;경쟁 치열한 배터리…검증 등은 한중 협력 가능&quot;</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.yna.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CATL</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>배터리 산업은 경쟁이 치열하며, 특히 중국 CATL의 배터리를 탑재한 로봇이 생산 라인에 투입되는 등 다양한 응용 사례가 나타나고 있습니다.</li><li>이러한 상황에서 한국과 중국 간의 배터리 검증 및 기술 협력 가능성이 제기되고 있습니다.</li><li>다양한 배터리 응용 분야의 확산에 따라, 각 분야별 특성에 맞는 협력 방안 모색이 중요해질 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-07</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa0FCNm9VRmZjbGh4TlJwdzhtY0p1VjVJSG5nQWlvd2Y0dlBaeXluM0xKekkyYVhFU1doMkJmRmE1UnJJeHhVUUd0MkF4VVd1U3U1WHhCQ1dwdmVyeHBROTF4WlJyTXJ2Z00tQkdCY0NZbU5CNlZZLUx0ZXk0eUZvdUxMdXhpNEFa?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">1,200-mile EV range: Chinese firm’s new lithium air EV battery offers 5x energy density</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Interesting Engineering</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>한 중국 기업이 기존 대비 5배의 에너지 밀도를 가진 새로운 리튬 공기 배터리를 개발했습니다.</li><li>이 배터리는 전기차의 주행 거리를 1,200마일까지 늘릴 수 있는 잠재력을 가지고 있습니다.</li><li>이는 전기차의 성능을 크게 향상시키고 충전 인프라에 대한 의존도를 줄일 수 있는 중요한 기술 발전입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-07</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNUI2Yi1yXzk0aWJkVi0xWkhqd2FIUEQzbU16NGxJd3VDc2FFd3NDeHB5MHVQbVVSam1HakQyckdSdnh5aTdwOGpwMm1helVuTXh4UGZGWmd0R0hnSGZBbGtiWld6WUlHWU1oek9wb0dHZlBjbHp6Q19SMkVpSkF1VDRidEQtWWl6aks2cUpVVWtDdXRlUjVYZzRkWElCZU0za3pXcWdxYV9VWjg?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Deadly lithium-ion battery fires spur NYC Council to hold emergency hearing</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">New York Daily News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">NYC</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>최근 리튬 이온 배터리에서 발생하는 치명적인 화재 사고로 인해 뉴욕시 의회에서 긴급 청문회가 열렸습니다.</li><li>이러한 사고는 배터리 안전성에 대한 우려를 증폭시키고 있으며, 관련 규제 강화의 필요성을 제기하고 있습니다.</li><li>이번 청문회는 배터리 안전 기준을 재검토하고 잠재적인 위험을 완화하기 위한 조치를 논의하는 중요한 계기가 될 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-07</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQREp1YmJiU2VrNU84Ml9aRnVuTnhiakZ2aUFKcDJNVVkxTDhCdWpoVl8waWJzN19fVWxsdEJSQWZObk12bDE5MUFURkdDb0NaRnNlQ29CRk1wNlFqcVhzT092czZ5NzVBXzgzVXdwN21Td2taRm1NenFxdG4xVnh0XzBKcw?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">CATL Lithium-Air Cell: 1,200 Wh/kg, Not 1,200 Miles [2026]</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">shattered.io</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CATL</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>CATL이 개발한 리튬 공기 전지는 1,200 Wh/kg의 에너지 밀도를 가지며, 이는 1,200마일 주행 거리와는 별개의 사양입니다.</li><li>이 기술은 기존 배터리 기술의 한계를 뛰어넘는 높은 에너지 저장 용량을 제공할 가능성을 보여줍니다.</li><li>2026년 상용화를 목표로 하는 이 배터리는 전기차의 성능 향상에 크게 기여할 것으로 예상됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-07</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQdkppZ3NsVTBpa3NaX1VIN2d5N2wyZnd5S043SVhwV3Bjck12TjdUVTRkVEVram5SUjlYaXNDTlVDdDdLSXpqU2s0X0oxRlZ3SUUxcE05cEpndVNIbktOMWFuXzVZMFFvdFRNSmItSHdCdXZTRm1TQWxZd05BOFZUMHBneHZZTjd4ZzJxVXR2eG9rSlkzRWo5U1VaWDgxZllpNlRlVVVUYllaZFBSVzhvbEU4bTc?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">CATL is exploring an air-breathing battery. Could it give EVs 2,000 km of range?</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CarNewsChina.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CATL</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>CATL은 공기 호흡 배터리 기술을 탐색 중이며, 이는 전기차의 주행 거리를 2,000km까지 늘릴 수 있는 가능성을 제시합니다.</li><li>이 혁신적인 배터리 기술은 기존 전기차의 주행 거리 제한 문제를 해결할 수 있을 것으로 기대됩니다.</li><li>만약 상용화된다면, 이는 전기차 시장의 성장을 가속화하고 내연기관 차량과의 경쟁을 더욱 심화시킬 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-07</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.imaeil.com/page/view/2026110808165736688" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">엘앤에프, 대구에 LFP 양극재 연산 6만t 추가 증설 승부수 띄우나</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.imaeil.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">엘앤에프</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>엘앤에프가 대구에 연산 6만 톤 규모의 LFP 양극재 생산 설비 증설을 검토하고 있습니다.</li><li>이는 북미 에너지저장장치(ESS) 시장에서 비중국산 소재 수요 증가에 대응하고, 국내 배터리 셀 3사를 고객사로 확보하기 위한 전략입니다.</li><li>이번 증설은 엘앤에프의 LFP 사업 경쟁력을 강화하고 국내 배터리 소재 산업의 성장에 기여할 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://thetracker.co.kr/View.aspx?No=4302389" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[단독]LG엔솔, 中에 ESS용 각형 LFP 셀 첫 공급</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">thetracker.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">LG엔솔</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG에너지솔루션이 중국 시장에 ESS용 각형 LFP 셀을 처음으로 공급합니다.</li><li>LG에너지솔루션은 미국과 폴란드에서도 ESS용 LFP 배터리 생산 체제를 구축하고 있으며, 현지 생산을 통해 시장 수요에 대응하고 있습니다.</li><li>이번 중국 공급은 LG에너지솔루션의 글로벌 ESS 시장 공략을 강화하는 중요한 발걸음이 될 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.mt.co.kr/industry/2026/11/08/2026110613205737343" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">공고해지는 K배터리 &#x27;LFP 동맹&#x27;..소재사 증설 잇따라 검토</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.mt.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">포스코퓨처엠</span><span class="chip">엘앤에프</span><span class="chip">..소재</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>포스코퓨처엠과 엘앤에프 등 국내 소재 기업들이 K-배터리의 LFP 동맹 강화에 따라 증설을 검토하고 있습니다.</li><li>이들 기업은 북미 ESS 시장에서 LFP 수요 증가에 대응하기 위해 기존 하이니켈 삼원계 양극재 중심에서 사업 확대를 모색하고 있습니다.</li><li>이는 국내 배터리 소재 산업의 경쟁력을 높이고 글로벌 시장에서의 입지를 강화하는 데 기여할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://economist.co.kr/article/view/ecn202611070009" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">LG엔솔, 왜 수조 원대의 ESS 입찰 경쟁 포기했나?</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">economist.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">LG엔솔</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>LG에너지솔루션은 수조 원대 규모의 ESS 입찰 경쟁에서 포기를 선언했습니다.</li><li>이는 배터리 3사의 북미 시장 중심 ESS 경쟁력 확보 전략과 관련이 있으며, LG에너지솔루션은 2027년까지 북미 생산 능력을 70GWh로 확대할 계획입니다.</li><li>이번 결정은 ESS 시장에서의 경쟁 구도 변화와 함께, 각 기업의 전략적 선택을 보여주는 사례입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-07</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.m-i.kr/news/articleView.html?idxno=2015753" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">ESS 2파전…K-배터리, &#x27;출혈 경쟁&#x27; 끝낼까</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.m-i.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">LG에너지솔루션</span><span class="chip">K-배터리</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>국내 제3차 에너지저장장치(ESS) 중앙계약시장 경쟁 입찰에서 LG에너지솔루션이 참여했습니다.</li><li>주요 배터리 공급사가 줄어들면서 가격 경쟁 부담은 완화될 수 있으나, 여전히 치열한 경쟁이 예상됩니다.</li><li>이번 입찰 결과는 국내 ESS 시장의 경쟁 구도와 향후 K-배터리 산업의 방향성에 영향을 미칠 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-08</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.theguru.co.kr/news/article.html?no=109333" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">中, 전기차 배터리 탄소배출량 관리 체계 확대하기로</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.theguru.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>중국이 전기차 배터리 생산 과정에서의 탄소 배출량 관리 체계를 확대하기로 했습니다.</li><li>이에 따라 중국 배터리 기업에 소재·부품을 공급하는 한국 기업들도 고객사로부터 탄소 데이터 제출 요구를 받을 수 있습니다.</li><li>한국 기업들은 중국의 탄소 배출량 산정 기준에 맞춰 데이터를 준비해야 하며, 이는 글로벌 공급망에서의 환경 규제 준수 중요성을 부각시킵니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-08</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
