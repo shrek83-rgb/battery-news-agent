@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-11-13</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-11-13 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-cathode" href="https://www.digitaltoday.co.kr/news/articleView.html?idxno=715320" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">퀀텀스케이프, 전고체 배터리 승부수…5분 충전에 1000회 버틴다</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.digitaltoday.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">퀀텀스케이프</span><span class="chip">클린테크</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국 배터리 스타트업 퀀텀스케이프가 전고체 배터리 플랫폼 &#x27;오스프리&#x27;를 공개하며 기술 적용 범위를 양극 영역까지 넓혔다.</li><li>이 플랫폼은 5분 충전으로 1000회 이상 사용 가능한 성능을 제공한다.</li><li>이는 전기차 배터리 기술의 획기적인 발전 가능성을 시사한다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.pressian.com/pages/articles/2026111318475686747?utm_source=naver&amp;utm_medium=search" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">‘국제 배터리 엑스포 2026 포항’ 개막…53개 기업·기관, 131개 부스로...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.pressian.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">국제 배터리 엑스포 2026 포항</span><span class="chip">K-배터리</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>‘국제 배터리 엑스포 2026 포항’이 개막하여 53개 기업 및 기관이 131개 부스에서 참가했다.</li><li>이번 엑스포에서는 에너지저장장치(ESS), 전기추진선박, 로봇 등 배터리 기술을 접목한 미래 산업 분야를 조명한다.</li><li>특히 포항의 산업 기반과 기술 역량을 소개하는 K-배터리 허브관이 운영된다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.etoday.co.kr/news/view/2648043" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">“에코프로 그룹, 내년 1분기 실적 회복·3분기 본격 반등 전망” [찐코...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.etoday.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">에코프로 그룹</span><span class="chip">에코프로</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>2차전지 소재 기업 에코프로 그룹은 올해 4분기를 실적 저점으로 예상하며 내년 1분기부터 실적 회복을 전망한다.</li><li>본격적인 실적 반등은 내년 3분기에 이루어질 것으로 보인다.</li><li>이는 배터리 셀 제조사보다 2개 분기 정도 늦게 실적이 반영되는 배터리 소재 기업의 특성을 고려한 분석이다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMiywFBVV95cUxOMFVDMWo4VkxTMzQ1RXc0SEpES3NRTFNicUcwekVPbmdoNUN2b0trdnZkOG9IaHVMbFMzSjU0YnVONUx1QUpWaGJyTkxBT2hfSU1HSHZwZml5WGh5d3Uyb1RQeE1TeXh4cW1zbzlzYlE1V3JUR2FVMXA1WUZseVVWd0NiMWlOWTJuY3dBb3VJcGR1eUlrSHROdGJlTWlZMGNDX2liUmM4V1dyaExlSnNUV0RoTWpuQmFvdFoyRHI0YTBtTHlWWXlHeWVmTQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Sodium-ion batteries close gap with lithium-ion as utility-scale storage opportunities grow</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">pv magazine USA</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">USA</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>나트륨 이온 배터리가 리튬 이온 배터리와의 격차를 줄이며 유틸리티 규모 저장 장치 시장에서 기회를 확대하고 있다.</li><li>이는 에너지 저장 시스템 분야에서 나트륨 이온 배터리의 경쟁력이 강화되고 있음을 보여준다.</li><li>향후 나트륨 이온 배터리의 활용이 더욱 증가할 것으로 예상된다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-sodium" href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRzR0TGhGbkpmTENJX2JIbTRHWGJ5RC1wSzZxMGppVnFvUDdqTmliLWZKTFZCX2lsZlhFUkdReHVFVmoxSkdMRFQyWlUyUFRQVFFYRWRsWURweEVHdlFHd3JoYkFDeFdTYkM2b3I2aEdTUGI0dE9nZ0Q5VjVOU2d1V3puZEFmbk5GY0RBb1piQjJMN2ZtQnpyOVZGd1ZmWHI3NDVqOWtnbTk?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">나트륨</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">CATL is solving the sodium-ion battery range anxiety problem</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Notebookcheck</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CATL</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>CATL이 나트륨 이온 배터리의 주행 거리 불안정 문제를 해결하고 있다.</li><li>이는 나트륨 이온 배터리의 상용화를 앞당길 수 있는 중요한 기술 발전이다.</li><li>CATL의 기술 개발은 전기차 시장에 새로운 가능성을 제시한다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUFGV2hNcDI4UVB2dU5PbG5abG02cHlOTjVmd0NDcXRWWXU4aHJHdWFQWFlEbEgtMzRKbkFDRmlRLTJxYTFuSEhlOUVSaFZXWElkajVHTXpNWE5wTVZzVXB2UXJ3TGIwMDFadGs2Ny1xSFRiU2MxVFlFU3F4ZlRXNXRxNWZUV1Y0aFB1YkRmVzBJOWtWSElXR1BITktpZnVHS0o4OHJwN3NYZ2pydVpSVTRGWkZFM3c?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Ex-China cathode supply growth short of demand through 2040</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Benchmark Mineral Intelligence</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>중국 외 지역의 양극재 공급 성장이 2040년까지 수요를 충족시키지 못할 것으로 예상된다.</li><li>이는 향후 배터리 공급망에서 양극재의 중요성이 더욱 커질 것임을 시사한다.</li><li>중국 외 지역의 생산 능력 확대가 시급한 과제로 떠오르고 있다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMipgFBVV95cUxONE5vMTl4bkY0RFd1emJDbWFZdkl1LWhaeU4wLXgwSXV6RERqSHQ3M2FWcjk5ZW91N2VlMjdLVERyekNEVWpXSjZPMnJVTjZwMHZsMUxjNF9RNE1uTFpBbGFzMElEc3N3dlpUU0psYjFBZ2F0UlQ5b2dfMG9qTURBYVg5c1lUek1xTTFPXzluXzJWQ3FZdGd5Nm44dzV3VmN1dWtOM3Jn?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Solid State EV Batteries Have A Sulfide Problem...Or Not</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">CleanTechnica</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전고체 배터리의 황화물(sulfide) 관련 문제가 제기되었으나, 해결 가능성도 함께 논의되고 있다.</li><li>황화물은 전고체 배터리의 성능과 안정성에 영향을 미치는 주요 요소 중 하나이다.</li><li>이 문제의 해결 여부가 전고체 배터리 상용화의 중요한 변수가 될 것이다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-13</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMikAFBVV95cUxPWXViSHRza1BNdzlUbXFSbGoyUGtYQzh5ajVvSEtmbTFrUktPNlNld0ZhWkZVUS1zeV9TeHRQUHU3eDNXbTcyR055bnpPU0ViZEZaaVRnbncxcUo0dHZCTHQxNnVnQ1FoeXFxU2xvNFpHN1VPcGRETFlRSzY2T0tJbXo5djRtV1BFNzdKS0pyR0w?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Solid-State Cells Can Make The U.S. Competitive In Batteries Again: CEO</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">InsideEVs</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">CEO</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전고체 배터리 셀이 미국을 배터리 산업에서 다시 경쟁력 있는 국가로 만들 수 있다고 CEO가 주장했다.</li><li>이는 전고체 배터리 기술이 미국 제조업의 부활을 이끌 잠재력을 가지고 있음을 의미한다.</li><li>미국 내 전고체 배터리 생산 능력 확보가 국가 경쟁력 강화의 핵심이 될 것이다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-13</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

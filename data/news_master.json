@@ -1,5 +1,38 @@
 [
   {
+    "title": "‘국제 배터리 엑스포 2026 포항’ 개막…53개 기업·기관, 131개 부스로...",
+    "description": "또한 에너지저장장치(ESS)와 전기추진선박, 로봇 등 배터리 기술을 접목한 미래 산업 분야도 함께 조명한다. 특히 포항의 산업 기반과 기술 역량을 소개하는 K-배터리 허브관과 전기추진선박 분야의 기술개발 및 산업 확장...",
+    "link": "https://www.pressian.com/pages/articles/2026111318475686747?utm_source=naver&utm_medium=search",
+    "source": "www.pressian.com",
+    "published_at": "2026-11-13",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "www.eroun.net",
+        "link": "https://www.eroun.net/news/articleView.html?idxno=95456"
+      },
+      {
+        "source": "www.mhns.co.kr",
+        "link": "https://www.mhns.co.kr/news/articleView.html?idxno=768949"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 98,
+    "monitoring_importance": 98,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "국제 배터리 엑스포 2026 포항",
+      "K-배터리"
+    ],
+    "summary_3_sentences": [
+      "‘국제 배터리 엑스포 2026 포항’이 개막하여 53개 기업 및 기관이 131개 부스에서 참가했다.",
+      "이번 엑스포에서는 에너지저장장치(ESS), 전기추진선박, 로봇 등 배터리 기술을 접목한 미래 산업 분야를 조명한다.",
+      "특히 포항의 산업 기반과 기술 역량을 소개하는 K-배터리 허브관이 운영된다."
+    ],
+    "uid": "288b261932a65bd849b16f4cc698048bf5f24289"
+  },
+  {
     "title": "삼성SDI, 피지컬 AI·우주항공으로 영토 확장…차세대 배터리 초격차 시...",
     "description": "에너지저장장치(ESS)와 인공지능(AI) 데이터센터용 배터리 수요가 실적 회복을 견인하는 가운데, 차세대 먹거리로 꼽히는 전고체 배터리와 피지컬 AI(로봇)·우주항공용 배터리 상용화에도 속도가 붙으면서 중장기...",
     "link": "http://www.newsdream.kr/news/articleView.html?idxno=122054",
@@ -54,6 +87,31 @@
     "uid": "f14b9bd67d103b44d1a6f90c33c97e3fd22385ae"
   },
   {
+    "title": "“에코프로 그룹, 내년 1분기 실적 회복·3분기 본격 반등 전망” [찐코...",
+    "description": "이투데이=이은지 기자 | 2차전지 소재 기업 에코프로 그룹이 올해 4분기를 실적 저점으로 내년 1분기부터... 윤 평론가는 배터리 소재 기업의 실적이 배터리 셀 제조사보다 통상 2개 분기 정도 늦게 반영되는 특성을 고려할...",
+    "link": "https://www.etoday.co.kr/news/view/2648043",
+    "source": "www.etoday.co.kr",
+    "published_at": "2026-11-13",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 95,
+    "monitoring_importance": 95,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "에코프로 그룹",
+      "에코프로",
+      "2차전지"
+    ],
+    "summary_3_sentences": [
+      "2차전지 소재 기업 에코프로 그룹은 올해 4분기를 실적 저점으로 예상하며 내년 1분기부터 실적 회복을 전망한다.",
+      "본격적인 실적 반등은 내년 3분기에 이루어질 것으로 보인다.",
+      "이는 배터리 셀 제조사보다 2개 분기 정도 늦게 실적이 반영되는 배터리 소재 기업의 특성을 고려한 분석이다."
+    ],
+    "uid": "7afa32472011a9c5a48bd9d50ad702d330d4e1da"
+  },
+  {
     "title": "K-배터리, 엇갈린 전고체 전략…삼성SDI ‘선공’, LG엔솔·SK온은 ‘신중...",
     "description": "삼성SDI, 내년 휴머노이드 시장 공략 LG에너지솔루션·SK온 2029년 목표 中·日은 내년 전기차 탑재경쟁 본격화 [대한경제=이계풍 기자]국내 배터리 3사의 전고체 배터리 상용화 전략이 엇갈리고 있다. 삼성SDI는...",
     "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611121201157050779",
@@ -77,6 +135,39 @@
       "이러한 전략 차이는 각 사의 기술 개발 현황과 시장 전망에 대한 판단이 다르기 때문으로 분석됩니다."
     ],
     "uid": "cf125b307314c9122ef6015378267de52f8bc966"
+  },
+  {
+    "title": "퀀텀스케이프, 전고체 배터리 승부수…5분 충전에 1000회 버틴다",
+    "description": "미국 배터리 스타트업 퀀텀스케이프(QuantumScape)가 전고체 배터리 플랫폼 '오스프리'(Osprey)를 공개하며 기술 적용 범위를 양극 영역까지 넓혔다. 12일(이하 현지시간) 전기차 전문 매체 클린테크니카에 따르면...",
+    "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715320",
+    "source": "www.digitaltoday.co.kr",
+    "published_at": "2026-11-13",
+    "provider": "naver",
+    "related_links": [
+      {
+        "source": "Electric Cars Report",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVHJSeTZUOHVLTjN6WHNOOFJMb2VCWDhYTnVSbmpNcGRUSDhnMFRocEp0Q3JrdUdiemZkWl9rMFRWQWpydFAxSHhKUjdRVWo5MmctMnI3NkxCSW9uZWpLcXVRZWtXZGtabVZ4eXMwc3JTdXZtRzRVM0JtNDV5d3IxQmtsMm5VS2h5MGg0VXhZY25DcmpmN2dYUzk3T3I3RWRCV2tYdHo5MEFUbnhQdkFnMEVHSk9RbGktdEJtNWtMbWZ6Zk96VDIwNF9LUVNONnRzSG1BUHFrVW1nbzJa?oc=5"
+      },
+      {
+        "source": "electrive.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaWtUWFZReUhhQk45QS1xelJ1ckh0amM5TTBLZko0SW1oY1FVUC00aEV6R1I2VjZhN0I4M0wzV01FZ2pKa2NNVEVMVWdNd2JkRExkeldweHUtei1wOVo3aFJYN1hvNWhtR25Sa05lbEhLc1puT2g2eDV2SWM2VkFyOWl4YjZpZ0JWNGpRbjlQdDJkSHVHSlVPeDFiX2E4aDJkWk9sYk9nX0xmSm1aeTV6YWJXSVY?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "monitor_score": 98,
+    "monitoring_importance": 98,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "퀀텀스케이프",
+      "클린테크"
+    ],
+    "summary_3_sentences": [
+      "미국 배터리 스타트업 퀀텀스케이프가 전고체 배터리 플랫폼 '오스프리'를 공개하며 기술 적용 범위를 양극 영역까지 넓혔다.",
+      "이 플랫폼은 5분 충전으로 1000회 이상 사용 가능한 성능을 제공한다.",
+      "이는 전기차 배터리 기술의 획기적인 발전 가능성을 시사한다."
+    ],
+    "uid": "088fb98db085470c6b024cc8d7fe072961ce9f41"
   },
   {
     "title": "\"전고체 전지가 美 배터리 살릴 기회\"…솔리드파워, 2020년대 말 상용화...",
@@ -129,6 +220,136 @@
       "삼성SDI는 중국 상하이와 미국 보스턴에 연구소를 운영하며 글로벌 연구기관과의 협력을 강화하고 있습니다."
     ],
     "uid": "3c0fcca921a230d83cba84cbf426e51904938614"
+  },
+  {
+    "title": "Sodium-ion batteries close gap with lithium-ion as utility-scale storage opportunities grow",
+    "published_at": "2026-11-13",
+    "source": "pv magazine USA",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMFVDMWo4VkxTMzQ1RXc0SEpES3NRTFNicUcwekVPbmdoNUN2b0trdnZkOG9IaHVMbFMzSjU0YnVONUx1QUpWaGJyTkxBT2hfSU1HSHZwZml5WGh5d3Uyb1RQeE1TeXh4cW1zbzlzYlE1V3JUR2FVMXA1WUZseVVWd0NiMWlOWTJuY3dBb3VJcGR1eUlrSHROdGJlTWlZMGNDX2liUmM4V1dyaExlSnNUV0RoTWpuQmFvdFoyRHI0YTBtTHlWWXlHeWVmTQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOMFVDMWo4VkxTMzQ1RXc0SEpES3NRTFNicUcwekVPbmdoNUN2b0trdnZkOG9IaHVMbFMzSjU0YnVONUx1QUpWaGJyTkxBT2hfSU1HSHZwZml5WGh5d3Uyb1RQeE1TeXh4cW1zbzlzYlE1V3JUR2FVMXA1WUZseVVWd0NiMWlOWTJuY3dBb3VJcGR1eUlrSHROdGJlTWlZMGNDX2liUmM4V1dyaExlSnNUV0RoTWpuQmFvdFoyRHI0YTBtTHlWWXlHeWVmTQ?oc=5\" target=\"_blank\">Sodium-ion batteries close gap with lithium-ion as utility-scale storage opportunities grow</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pv magazine USA</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "IndexBox",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcDZLeEVzU3dMODBvdDRuUGlRMG9fSmZ6Vmd4MnNydkM4aEpFTncwcEV1VG9kZ1p1WmVnZmFUdV9YWHM5N091Y0VSdV9TQ3QtYkpQMzJSajlfVnZ0NlpGLTNiSWlQcGZNY0l2STVqX3NIdUFWVm04Y1VKV3NSZHBBZnoySHcxZ0JvRjJsVElfS1ZldUUxR3UydHd1X1UwbzFMajM5cVExZTZoRWFTQm5GeWdTT3F4N1hJ?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "USA"
+    ],
+    "summary_3_sentences": [
+      "나트륨 이온 배터리가 리튬 이온 배터리와의 격차를 줄이며 유틸리티 규모 저장 장치 시장에서 기회를 확대하고 있다.",
+      "이는 에너지 저장 시스템 분야에서 나트륨 이온 배터리의 경쟁력이 강화되고 있음을 보여준다.",
+      "향후 나트륨 이온 배터리의 활용이 더욱 증가할 것으로 예상된다."
+    ],
+    "uid": "ef5906152cc02d4379244cf49d1dfbde9aa84ac1"
+  },
+  {
+    "title": "CATL is solving the sodium-ion battery range anxiety problem",
+    "published_at": "2026-11-13",
+    "source": "Notebookcheck",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRzR0TGhGbkpmTENJX2JIbTRHWGJ5RC1wSzZxMGppVnFvUDdqTmliLWZKTFZCX2lsZlhFUkdReHVFVmoxSkdMRFQyWlUyUFRQVFFYRWRsWURweEVHdlFHd3JoYkFDeFdTYkM2b3I2aEdTUGI0dE9nZ0Q5VjVOU2d1V3puZEFmbk5GY0RBb1piQjJMN2ZtQnpyOVZGd1ZmWHI3NDVqOWtnbTk?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRzR0TGhGbkpmTENJX2JIbTRHWGJ5RC1wSzZxMGppVnFvUDdqTmliLWZKTFZCX2lsZlhFUkdReHVFVmoxSkdMRFQyWlUyUFRQVFFYRWRsWURweEVHdlFHd3JoYkFDeFdTYkM2b3I2aEdTUGI0dE9nZ0Q5VjVOU2d1V3puZEFmbk5GY0RBb1piQjJMN2ZtQnpyOVZGd1ZmWHI3NDVqOWtnbTk?oc=5\" target=\"_blank\">CATL is solving the sodium-ion battery range anxiety problem</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Notebookcheck</font>",
+    "provider": "google",
+    "related_links": [
+      {
+        "source": "Mezha.net",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CTnFaQ0djRTVVei1GTjFqbHExcU8wWmM3dWhpNEVzMXNKVHpyUEg4NnIyMXF1aEFsdWF2WTQ0bzBHcjluZ1k4V3FiRExQUkpEeUlLOVBFYlVJaWxQaF9BVDNmazVqcmdEUG9MTUhvYjU1LVB3Z3ppcVk2NXc?oc=5"
+      },
+      {
+        "source": "NeoTeo",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLWxZRXNDREZucFpjaFNlcXdmNVB0blNVODZJSUpNZTBQMjY2SmVSdjJmV1drT191c3BYUkpxazZqQzBJX1JtQnRoeFYyWURJck1mdlFfTVZEZGU0RXlTdkotNWw1VzkzeWtZZUtWdEYwWEUydDk4dVkyWmVhMWlvTGNKRS1DQ3JtQmc?oc=5"
+      }
+    ],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 80,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "CATL이 나트륨 이온 배터리의 주행 거리 불안정 문제를 해결하고 있다.",
+      "이는 나트륨 이온 배터리의 상용화를 앞당길 수 있는 중요한 기술 발전이다.",
+      "CATL의 기술 개발은 전기차 시장에 새로운 가능성을 제시한다."
+    ],
+    "uid": "845ad12f3df63fe453b8a663fbf001f4ad1b84c3"
+  },
+  {
+    "title": "Solid-State Cells Can Make The U.S. Competitive In Batteries Again: CEO",
+    "published_at": "2026-11-13",
+    "source": "InsideEVs",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWXViSHRza1BNdzlUbXFSbGoyUGtYQzh5ajVvSEtmbTFrUktPNlNld0ZhWkZVUS1zeV9TeHRQUHU3eDNXbTcyR055bnpPU0ViZEZaaVRnbncxcUo0dHZCTHQxNnVnQ1FoeXFxU2xvNFpHN1VPcGRETFlRSzY2T0tJbXo5djRtV1BFNzdKS0pyR0w?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPWXViSHRza1BNdzlUbXFSbGoyUGtYQzh5ajVvSEtmbTFrUktPNlNld0ZhWkZVUS1zeV9TeHRQUHU3eDNXbTcyR055bnpPU0ViZEZaaVRnbncxcUo0dHZCTHQxNnVnQ1FoeXFxU2xvNFpHN1VPcGRETFlRSzY2T0tJbXo5djRtV1BFNzdKS0pyR0w?oc=5\" target=\"_blank\">Solid-State Cells Can Make The U.S. Competitive In Batteries Again: CEO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">InsideEVs</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "CEO"
+    ],
+    "summary_3_sentences": [
+      "전고체 배터리 셀이 미국을 배터리 산업에서 다시 경쟁력 있는 국가로 만들 수 있다고 CEO가 주장했다.",
+      "이는 전고체 배터리 기술이 미국 제조업의 부활을 이끌 잠재력을 가지고 있음을 의미한다.",
+      "미국 내 전고체 배터리 생산 능력 확보가 국가 경쟁력 강화의 핵심이 될 것이다."
+    ],
+    "uid": "cdb239755b5b5ea3c1c61c5e8e322f2973405e16"
+  },
+  {
+    "title": "Solid State EV Batteries Have A Sulfide Problem...Or Not",
+    "published_at": "2026-11-13",
+    "source": "CleanTechnica",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONE5vMTl4bkY0RFd1emJDbWFZdkl1LWhaeU4wLXgwSXV6RERqSHQ3M2FWcjk5ZW91N2VlMjdLVERyekNEVWpXSjZPMnJVTjZwMHZsMUxjNF9RNE1uTFpBbGFzMElEc3N3dlpUU0psYjFBZ2F0UlQ5b2dfMG9qTURBYVg5c1lUek1xTTFPXzluXzJWQ3FZdGd5Nm44dzV3VmN1dWtOM3Jn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxONE5vMTl4bkY0RFd1emJDbWFZdkl1LWhaeU4wLXgwSXV6RERqSHQ3M2FWcjk5ZW91N2VlMjdLVERyekNEVWpXSjZPMnJVTjZwMHZsMUxjNF9RNE1uTFpBbGFzMElEc3N3dlpUU0psYjFBZ2F0UlQ5b2dfMG9qTURBYVg5c1lUek1xTTFPXzluXzJWQ3FZdGd5Nm44dzV3VmN1dWtOM3Jn?oc=5\" target=\"_blank\">Solid State EV Batteries Have A Sulfide Problem...Or Not</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CleanTechnica</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [],
+    "summary_3_sentences": [
+      "전고체 배터리의 황화물(sulfide) 관련 문제가 제기되었으나, 해결 가능성도 함께 논의되고 있다.",
+      "황화물은 전고체 배터리의 성능과 안정성에 영향을 미치는 주요 요소 중 하나이다.",
+      "이 문제의 해결 여부가 전고체 배터리 상용화의 중요한 변수가 될 것이다."
+    ],
+    "uid": "d6da46af7057f79723d22ebf9d0b137e87d45635"
+  },
+  {
+    "title": "Ex-China cathode supply growth short of demand through 2040",
+    "published_at": "2026-11-13",
+    "source": "Benchmark Mineral Intelligence",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUFGV2hNcDI4UVB2dU5PbG5abG02cHlOTjVmd0NDcXRWWXU4aHJHdWFQWFlEbEgtMzRKbkFDRmlRLTJxYTFuSEhlOUVSaFZXWElkajVHTXpNWE5wTVZzVXB2UXJ3TGIwMDFadGs2Ny1xSFRiU2MxVFlFU3F4ZlRXNXRxNWZUV1Y0aFB1YkRmVzBJOWtWSElXR1BITktpZnVHS0o4OHJwN3NYZ2pydVpSVTRGWkZFM3c?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUFGV2hNcDI4UVB2dU5PbG5abG02cHlOTjVmd0NDcXRWWXU4aHJHdWFQWFlEbEgtMzRKbkFDRmlRLTJxYTFuSEhlOUVSaFZXWElkajVHTXpNWE5wTVZzVXB2UXJ3TGIwMDFadGs2Ny1xSFRiU2MxVFlFU3F4ZlRXNXRxNWZUV1Y0aFB1YkRmVzBJOWtWSElXR1BITktpZnVHS0o4OHJwN3NYZ2pydVpSVTRGWkZFM3c?oc=5\" target=\"_blank\">Ex-China cathode supply growth short of demand through 2040</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benchmark Mineral Intelligence</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 90,
+    "monitor_score": 90,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [],
+    "summary_3_sentences": [
+      "중국 외 지역의 양극재 공급 성장이 2040년까지 수요를 충족시키지 못할 것으로 예상된다.",
+      "이는 향후 배터리 공급망에서 양극재의 중요성이 더욱 커질 것임을 시사한다.",
+      "중국 외 지역의 생산 능력 확대가 시급한 과제로 떠오르고 있다."
+    ],
+    "uid": "ac6d8e9e40fde27d280c23d501339764de5fffb2"
   },
   {
     "title": "美 이어 印, 폐배터리 수출 금지… 핵심 광물 경쟁, 리사이클 시장으로",
