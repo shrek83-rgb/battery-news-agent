@@ -1,0 +1,164 @@
+{
+  "date_range": "2026-11-19",
+  "items": [
+    {
+      "title": "Ford Starts Making LFP Battery Cells in Michigan With CATL Technology",
+      "published_at": "2026-11-19",
+      "source": "Technology Org",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYlNqQU9temMzd0F0aWhaSnlQTks1TmxLN2V5Z0M2VG5XQjUzTTJDYVo1SVlURDBZQXR5TTN0NkRMdU42YnhKY21wbzBUakpGNVVrdzU5MlRSTVA2Q2szaFFsTVQ4cDBvOWdTaUM4cExCRWlfU0hfYUV0Yy1kdXp0MXZ5bVE5VDluZEFBc3FkNXpFTE5wcVE?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQYlNqQU9temMzd0F0aWhaSnlQTks1TmxLN2V5Z0M2VG5XQjUzTTJDYVo1SVlURDBZQXR5TTN0NkRMdU42YnhKY21wbzBUakpGNVVrdzU5MlRSTVA2Q2szaFFsTVQ4cDBvOWdTaUM4cExCRWlfU0hfYUV0Yy1kdXp0MXZ5bVE5VDluZEFBc3FkNXpFTE5wcVE?oc=5\" target=\"_blank\">Ford Starts Making LFP Battery Cells in Michigan With CATL Technology</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technology Org</font>",
+      "provider": "google",
+      "related_links": [
+        {
+          "source": "The Detroit News",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPX2laNDJqV3Ryay15TTFfY1k4WXQyT003OTB1X0QwOVFzc1REUU1aYUZ5cW5CSnhUWi04RXZEaGVwWUFXcURmb3NYdTV5cnJqaC1CQW0yb1FKRl9PUzNLSTNBYUR5cWlrWldIclIyd2VDWXRjSGtyUG1MaTZHX2NPRUhLNEROUW1fdHBjU3piWnc4MU9fRTdFNDBNY3NFVHVwN05pWE1mRzBVMTg0SXE0ckJGUG94XzlpazhnUHo0eFh4ZF9fQnBfVXJIZmkwVmdpQTdjOWJkcw?oc=5"
+        },
+        {
+          "source": "CnEVPost",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX195czhtemcwYnpwUzd6MlJkZmZNMncxczZmRUltaEhDTFFqY1FHNFhaMVpDN3oxME5fQ3hXaHdHOWNpN1F0dG9lRVo5a2RnZlNyWkJ4YVk3N1lQMFhtM3o1N0xRd05RR3MwUy1XYmxjUU1kZlpLVW0ycElZOWJ5akFOOA?oc=5"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 90,
+      "monitor_score": 94,
+      "tier": 3,
+      "category": "cathode",
+      "companies": [
+        "Ford",
+        "CATL",
+        "LFP"
+      ],
+      "summary_3_sentences": [
+        "Ford is producing LFP battery cells in Michigan using CATL technology.",
+        "This move signifies Ford's strategy to diversify its battery supply chain and potentially reduce costs.",
+        "The company aims to leverage CATL's expertise in LFP battery production for its electric vehicles."
+      ]
+    },
+    {
+      "title": "'최주선 체제' 유지하는 삼성SDI…북미 ESS 확대·전고체 양산 잰걸음",
+      "description": "미국 현지 ESS 생산라인 전환을 가속화하는 동시에, 내년 목표인 전고체 배터리 양산 준비에도 박차를 가한다는 구상이다. 20일 업계에 따르면 최주선 삼성SDI 대표이사 사장은 이날 삼성의 2027년 정기 사장단 인사에서...",
+      "link": "https://www.newsis.com/view/NISX20261120_0003876625",
+      "source": "www.newsis.com",
+      "published_at": "2026-11-20",
+      "provider": "naver",
+      "related_links": [
+        {
+          "source": "www.m-i.kr",
+          "link": "https://www.m-i.kr/news/articleView.html?idxno=2021328"
+        },
+        {
+          "source": "www.widedaily.com",
+          "link": "https://www.widedaily.com/news/articleView.html?idxno=304217"
+        }
+      ],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "전고체",
+      "companies": [
+        "삼성SDI"
+      ],
+      "summary_3_sentences": [
+        "Samsung SDI is maintaining its leadership under CEO Choi Ju-seon.",
+        "The company is accelerating the expansion of its North American ESS production lines.",
+        "Samsung SDI is also preparing for the mass production of solid-state batteries by next year."
+      ]
+    },
+    {
+      "title": "LG엔솔·삼성SDI·SK온, 전기차 넘어 ESS로…배터리 3사 서로 다른 전략",
+      "description": "미국 미시간주 홀랜드·랜싱 공장과 캐나다 넥스트스타 에너지, 얼티엄셀즈 테네시 공장, 오하이오 혼다 합작공장 등 북미 5개 거점은 전기차와 ESS 배터리를 함께 생산하는 복합 거점으로 운영할 계획이다. 시장...",
+      "link": "https://www.polinews.co.kr/news/articleView.html?idxno=748824",
+      "source": "www.polinews.co.kr",
+      "published_at": "2026-11-20",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "LG엔솔",
+        "삼성SDI",
+        "SK온"
+      ],
+      "summary_3_sentences": [
+        "LG Energy Solution, Samsung SDI, and SK On are expanding beyond electric vehicles into the ESS market.",
+        "The three major battery companies are operating their North American facilities as complex hubs for both EV and ESS battery production.",
+        "Each company is pursuing distinct strategies to capture market share in the growing ESS sector."
+      ]
+    },
+    {
+      "title": "\"ESS 위험 사전 차단\" 삼성SDI, 화재 예방 기술에 쏠린 눈",
+      "description": "삼성SDI(006400)가 제3차 ESS(에너지저장장치) 중앙계약시장 구축사업에 공급하는 ESS용 배터리 솔루션에 인공지능(AI)을 활용한 화재 예방 소프트웨어를 탑재하는 승부수를 던졌다. 경쟁력을 높일 뿐 아니라 ESS...",
+      "link": "http://www.newsprime.co.kr/news/article.html?no=755867",
+      "source": "www.newsprime.co.kr",
+      "published_at": "2026-11-20",
+      "provider": "naver",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "monitor_score": 94,
+      "monitoring_importance": 94,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "삼성SDI",
+        "AI"
+      ],
+      "summary_3_sentences": [
+        "Samsung SDI is implementing an AI-powered fire prevention software for its ESS battery solutions.",
+        "This technology is being supplied for the third central contract market construction project for ESS.",
+        "The move aims to enhance competitiveness and proactively prevent fires in energy storage systems."
+      ]
+    },
+    {
+      "title": "Ford Designed Its Fathom EV Battery Pack to Bend in a Crash, for Safety",
+      "published_at": "2026-11-19",
+      "source": "CNET",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ05DMVlkcFZvWENMd2I4S2hHTy1nQm1qbzFuN1gyNWRaNzczY2o5VVJVcTJQZ3N5MGdpSmJqZjczcEVoU2JJYWlJUUlrTWl4UHFBcjZ0T3N6TEtVODRUMVdWd2VJU0xaY1FJeElHeG0xZ2F1VXNSM18xcTROd3U2cjljNFpmeFdZUThzZzRrN0MwTEkxa1pB?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ05DMVlkcFZvWENMd2I4S2hHTy1nQm1qbzFuN1gyNWRaNzczY2o5VVJVcTJQZ3N5MGdpSmJqZjczcEVoU2JJYWlJUUlrTWl4UHFBcjZ0T3N6TEtVODRUMVdWd2VJU0xaY1FJeElHeG0xZ2F1VXNSM18xcTROd3U2cjljNFpmeFdZUThzZzRrN0MwTEkxa1pB?oc=5\" target=\"_blank\">Ford Designed Its Fathom EV Battery Pack to Bend in a Crash, for Safety</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNET</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "Ford",
+        "CNET"
+      ],
+      "summary_3_sentences": [
+        "Ford designed its Fathom EV battery pack to bend in a crash.",
+        "This innovative design enhances safety by absorbing impact energy during a collision.",
+        "The feature is a key safety consideration for Ford's electric vehicle battery technology."
+      ]
+    },
+    {
+      "title": "Bose's Lithium-Ion Battery Defect Poses Fire Risk, Suit Says",
+      "published_at": "2026-11-19",
+      "source": "Law360",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT0FwNHVSU2xfdjJVaXRPeVNMMWI0aU1nckdQcXlJT3ZjdDBsR3FHRzVnNUZkM0FIWnJNektKdnhIaEoxUUtDWGlxV191bFR2NzdmZ1VKOTh2eU1IWTdCRGFBeFZHU1NCdWRPUks3ckJjc0twM0NPWU53bWF5WG00VV9USDNlcG45RGJFRWRNRnVRM0lRVi1fMmFpZFg2ZEV0U1BHWVg2R0V5Z0HSAVZBVV95cUxNN1pNdkplQ05vNXFoUVZNU1poVm5mUktqR21PYW1CM1YyNEdkdDUxR2VvZWNUZ21vNVZPcUZuUFJLYTdtOTM3Nl9rVzVMZGhZaHJsbU1IZw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT0FwNHVSU2xfdjJVaXRPeVNMMWI0aU1nckdQcXlJT3ZjdDBsR3FHRzVnNUZkM0FIWnJNektKdnhIaEoxUUtDWGlxV191bFR2NzdmZ1VKOTh2eU1IWTdCRGFBeFZHU1NCdWRPUks3ckJjc0twM0NPWU53bWF5WG00VV9USDNlcG45RGJFRWRNRnVRM0lRVi1fMmFpZFg2ZEV0U1BHWVg2R0V5Z0HSAVZBVV95cUxNN1pNdkplQ05vNXFoUVZNU1poVm5mUktqR21PYW1CM1YyNEdkdDUxR2VvZWNUZ21vNVZPcUZuUFJLYTdtOTM3Nl9rVzVMZGhZaHJsbU1IZw?oc=5\" target=\"_blank\">Bose's Lithium-Ion Battery Defect Poses Fire Risk, Suit Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Law360</font>",
+      "provider": "google",
+      "related_links": [],
+      "popularity_signal": "unknown",
+      "battery_relevance": 95,
+      "monitoring_importance": 85,
+      "monitor_score": 92,
+      "tier": 3,
+      "category": "기타",
+      "companies": [
+        "Bose"
+      ],
+      "summary_3_sentences": [
+        "Bose's lithium-ion battery defect poses a fire risk.",
+        "A lawsuit has been filed alleging this defect.",
+        "Consumers are warned about the potential fire hazard associated with Bose's batteries."
+      ]
+    }
+  ]
+}
