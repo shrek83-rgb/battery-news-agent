@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-11-23</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-11-23 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNOGlDWDdQdjRlMnd3ajV6YWJYNDZaQjEwSmlOQjktNngyVGR4QUVfSU9ZNDdUWS02NGRvdHNIMTY2X3dOT0VMZEI5ekxtemxzZW1MWkxrWmRTdTdEMzlkc3lGT2F1emJxc0tHNi05eU4zWmhFeTdwYjB1c2dhaDJjVjNwSy1Dc0dJaTBWQXUybGJTeXZtVHI1c2FLQkg?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium-Ion Battery Bill Unanimously Passes Senate, Sent to President’s Desk</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">WXHC.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">WXHC</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국 상원에서 리튬이온 배터리 안전 법안이 만장일치로 통과되었습니다.</li><li>이 법안은 이제 대통령의 서명을 받기 위해 전달되었습니다.</li><li>이는 전기 자전거 및 스쿠터와 같은 휴대용 전자기기의 안전 기준을 강화하는 데 중요한 진전입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMigwFBVV95cUxPT1MyaTFjUGRVYnM4SVdOUkxTZzhybWpuaEdzNnpsemRmRjVZX082cDZ3UURhVWtjUXk3b1RTaW5PWXVYS1BFTWtKWUhMTDZ1bHNDTXhuRzRyOFhlSTRiR2FwTlFKRGVtOEJhQTVsYVFiMGxXelpmeFNCQUNXRWV0Q2dYMA?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">The 2028 Ford Fathom’s $3 Billion Battery Bet Could Change EVs</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">MotorTrend</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Ford</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>2028년형 포드 패덤은 전기차 시장에 30억 달러 규모의 배터리 투자를 진행합니다.</li><li>이 투자는 전기차의 성능과 보급률을 높이는 데 기여할 것으로 예상됩니다.</li><li>포드는 이번 투자를 통해 전기차 시장에서의 경쟁력을 강화하고자 합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNaks4Q2Qya2tjVHZDMmNtckhJWWtCSHJUN2E3V3QyT0M4cHd1QjlJTWlYODBUR3RZa3RuWEQzdExvR1VWSlVmTUlqRXhXUXNZVUNROFNDelh0S1g4SHhqVkhUaUhOS2JhaXpWTU5Fckh1SlVra0dHcVg4bVFhZjljOTl3UGRIWmtscGsxSGh2Smoyei1fbkwtakcwQkdadVN0akE?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Aachen startup Cylib acquires BASF’s battery recycling business</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">electrive.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Cylib</span><span class="chip">BASF</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>아헨 스타트업 칠립(Cylib)이 BASF의 배터리 재활용 사업부를 인수했습니다.</li><li>이번 인수는 칠립의 배터리 재활용 기술 역량을 강화하고 사업 확장을 가속화할 것입니다.</li><li>BASF는 핵심 사업에 집중하기 위해 배터리 재활용 사업을 매각했습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMivwFBVV95cUxOdTJDU3E1c3JtblJabmhVSms3OWQtbm9JNDYya2lPaGluNlVOd2xiejg2VmV5Q2VXd0RwSWFyNkoxMV85R21wVXlCZUYyNUVrMjRERmRweHhwM2pBcXRHM3B0MlZXV1I2RmktY3JhQ1ZGVkpIVTN4cnhNOUJTQlFpdU91OXdESWY0RU5sNkxwLTZnY29SRENFcXBzTGlUemFhM2xfaHV3RHVfcDBJb2ZaUFZZUXhSVDR3bGQwZGUtOA?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">BASF sells battery recycling business to Cylib in portfolio shift</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">TradingView</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">BASF</span><span class="chip">Cylib</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>BASF는 포트폴리오 재편의 일환으로 배터리 재활용 사업부를 칠립에 매각했습니다.</li><li>이번 매각은 BASF가 핵심 사업에 집중하고 재활용 사업은 전문 기업에 맡기려는 전략의 일환입니다.</li><li>칠립은 이번 인수를 통해 배터리 재활용 분야에서의 입지를 강화할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=507488" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">에코프로비엠·엘앤에프 상승 동력은?…배터리 소재 업황 회복 기대</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.pinpointnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">에코프로비엠</span><span class="chip">엘앤에프</span><span class="chip">2차전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>에코프로비엠과 엘앤에프의 주가 상승은 배터리 소재 업황 회복에 대한 기대감 때문입니다.</li><li>2차전지 소재·부품 시장은 양극재, 음극재 등 핵심 소재를 중심으로 성장할 것으로 보입니다.</li><li>업계는 하반기부터 배터리 수요 증가와 함께 소재 가격 상승을 예상하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-24</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://kpenews.com/View.aspx?No=4326170" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">삼성SDI·SK온, 물가미반영·장기 책임 &#x27;이중부담&#x27;..2조 계약 입찰 발표...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">kpenews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">삼성SDI</span><span class="chip">SK온</span><span class="chip">삼성SDI·SK온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>삼성SDI와 SK온은 물가 미반영 및 장기 책임 계약으로 인해 이중 부담을 안고 있습니다.</li><li>삼성SDI는 울산공장에서 ESS용 배터리 기술을 구현하고 있으며, SK온은 중대형 전지 공장을 운영 중입니다.</li><li>두 회사는 각자의 전략에 따라 배터리 사업을 전개하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-24</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="http://www.metroseoul.co.kr/article/20261124500530" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">K배터리, 소듐이온배터리 시장 진입 채비…ESS 중심 상용화 추진</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.metroseoul.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">소듐이온배터리</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>한국 배터리 업계가 나트륨이온배터리 시장 진입을 준비하며 ESS 중심의 상용화를 추진하고 있습니다.</li><li>정부는 차세대 배터리 경쟁력 확보를 위해 나트륨이온배터리 등 차세대 보급형 배터리 및 전고체 배터리 개발에 R&amp;D 예산을 집중할 계획입니다.</li><li>2027년부터 5년간 약 4000억 원 규모의 R&amp;D 사업이 추진될 예정입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-24</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.job-post.co.kr/news/articleView.html?idxno=240512" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">ESS 수주 60GWh 앞세운 삼성SDI…12.50% 올라 44만5500원</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.job-post.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">삼성SDI</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>삼성SDI는 60GWh 규모의 ESS 수주를 바탕으로 주가가 12.50% 상승하여 44만 5500원에 거래되었습니다.</li><li>ESS 성장이 전기차 배터리 수요 둔화를 보완하고 있지만, 미국 현지 증설 비용과 고객사 양산 일정 등이 손익에 영향을 줄 수 있습니다.</li><li>미국 LFP 생산 확대, 추가 장기 ESS 계약, 전고체 배터리 샘플의 고객 평가 결과 등이 향후 실적에 영향을 미칠 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-24</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.theguru.co.kr/news/article.html?no=110101" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">전고체 배터리 특허 출원 사상 최고치…삼성SDI가 韓 1위 견인</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.theguru.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">삼성SDI</span><span class="chip">리튬이온</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>전고체 배터리 글로벌 특허 출원 건수가 사상 처음으로 기존 리튬이온 배터리를 추월하며 역대 최고치를 경신했습니다.</li><li>2024년 기준 한국은 873건으로 일본을 제치고 1위를 차지했으며, 특히 삼성SDI는 325건을 출원하며 급증세를 이끌었습니다.</li><li>이는 전고체 배터리 기술 개발 경쟁이 치열해지고 있음을 보여줍니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-24</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=507497" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">포스코퓨처엠·에코프로 급등…리튬 가격 반등 기대가 배터리주 깨웠나</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.pinpointnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">포스코퓨처엠</span><span class="chip">에코프로</span><span class="chip">천보</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>포스코퓨처엠과 에코프로의 주가가 급등한 것은 리튬 가격 반등 기대감 때문입니다.</li><li>천보는 전해질 첨가제와 리튬염 등 고부가가치 전자소재 기술력을 바탕으로 시장에 대응하고 있습니다.</li><li>리튬 정제·가공 및 공정 설비 분야에서도 매수세가 이어지고 있으며, 미래나노텍은 이차전지 소재와 기능성 필름 사업을 영위하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-24</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=507502" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">현대차·LG에너지솔루션·에코프로 &#x27;방긋&#x27;… 폐배터리 시장 다시 불꽃랠...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.pinpointnews.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">현대차</span><span class="chip">LG에너지솔루션</span><span class="chip">에코프로</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>현대차, LG에너지솔루션, 에코프로 등 배터리 관련 기업들의 주가가 상승하며 폐배터리 시장에 대한 관심이 높아지고 있습니다.</li><li>영화테크는 자동차 전장 부품 및 전력 변환 기술을 기반으로 폐배터리 재사용과 ESS 분야로 사업을 확장하고 있습니다.</li><li>이지트로닉스는 전력변환장치 기술을 활용하여 전기차 및 ESS 관련 사업을 전개하고 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-24</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://www.wikileaks-kr.org/news/articleView.html?idxno=195155" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">삼성SDI &quot;배터리 슈퍼사이클 선점한다&quot;…품질·미래기술 확보 주역 중용</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.wikileaks-kr.org</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">삼성SDI</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>삼성SDI는 배터리 슈퍼사이클 선점을 위해 근본적인 체질 개선, 품질 경쟁력 제고, 글로벌 오퍼레이션 강화를 추진하고 있습니다.</li><li>이를 위해 제조·공정 혁신과 글로벌 생산 거점 확보에 집중하며 캐즘 극복과 에너지저장장치(ESS) 및 차세대 전지 시장 확대를 도모하고 있습니다.</li><li>삼성SDI는 품질 및 미래 기술 확보를 통해 시장 리더십을 강화할 계획입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-24</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQamcxaHQzZGw5Ymlpem5ob1VTdnlwYmprVzBFZ19vRGc5bFo4ZDNSZ0ZoRE9sT0JpYWVuaTVheTlfX2pmZVlZOTVzSTY2YVBBSC1qUTZKM01FYVJlSWJUbFktSDJvRFFOQXdHVjF0dUtnRlp2eDZnTTNXY0U0Q2VUYjVxWmljQkdrUTktRHBrUDMtckoteE55QXNuYkdZTG5ObXE3QXdDUG9penZtQzRTQmtFd0Q?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">13</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">BASF Scales Back Battery Ambitions With Recycling Business Sale</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Bloomberg.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">BASF</span><span class="chip">Cylib</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>BASF는 배터리 재활용 사업부를 매각하며 배터리 사업에 대한 야심을 축소했습니다.</li><li>이 사업부는 독일의 스타트업 칠립(Cylib)에 매각되었습니다.</li><li>이번 결정은 BASF가 핵심 사업에 집중하기 위한 전략적 선택으로 풀이됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQWVloYVN3RG5GRDNKRm1mN3JUWlktLVVYS1A2XzN4YnIzcmNWNjNfZGliMDBJblE2MHpoY182MXRqR1pVZUNOcERtUzJqZGJuNWVOajVlY3JIRHotaTRaWmdKLThrTFdQekZLeEVZRW84SHZJVzFYanhTNVpJaXFYZlpqX0QxMzhZemwxMg?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">14</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">BASF to sell battery recycling business</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Breakingthenews.net</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">BASF</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>BASF는 배터리 재활용 사업부를 매각하기로 결정했습니다.</li><li>이 매각은 BASF의 사업 포트폴리오 재편 전략의 일환입니다.</li><li>구체적인 매각 대상 및 조건은 추후 발표될 예정입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxNS2ROVlZPVEtvcUU3a0d0WXNBODY2b0hKNTB6Tmd3eWYxZGlvU1hSdGN1dC02VG5fRllzQ3lpQ0ZsSjBwdDBVSXcwdE5YakkwNlRYTXlyckJTRXFrNDlvcTk4M0VnajM3OHlIRzM0c1hna1Q1ZlhpRHJYV2ZNWjgtb3RkOE9kZWZQT2VTeTNWNWFzUDNmU2VEUVl1SUVaNFYyVXMtdzQwb0RrZXp6SzhHQ0JWeG1ObG9jeVl0R01vSzBxUHllZzBJX3hpbi1pamVqRUF1UG92amxUeTNDRHUwQ01IRQ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">15</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Fortum Oyj : Battery Recycling reaches key milestone with battery-grade recycled nickel, cobalt and lithium materials produced in Harjavalta</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.marketscreener.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Fortum Oyj</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Fortum Oyj는 핀란드 하르야발타 공장에서 배터리 등급의 재활용 니켈, 코발트, 리튬 소재 생산에 성공하며 배터리 재활용 분야에서 중요한 성과를 달성했습니다.</li><li>이는 폐배터리에서 고품질의 핵심 소재를 추출하는 기술력을 입증한 것으로, 지속 가능한 배터리 생산 생태계 구축에 기여할 것으로 기대됩니다.</li><li>Fortum은 이번 성과를 바탕으로 배터리 재활용 사업을 더욱 확대해 나갈 계획입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQUndCUmJQUWpvcjZ3QU9MRThBcEFzeVprREpBX243cVk0ZXpTbmpZWkhUd3A2elNqY05VMVNjd0ZuQUhFU25zN2k5MjJPZWgwY09SNjFTMW5aa2xXQTBCUlUxRnNVNUJSdzRhSkVaVGZiQ2hLY1FLV1J3NlZjOG9LbERDRW5FVURWVXJzX0R4aFBNaW1HQm14NA?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">16</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Lithium-ion battery fires must end with federal rules</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">New York Daily News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>리튬이온 배터리 화재 사고를 근절하기 위해 연방 차원의 규제가 필요하다는 주장이 제기되었습니다.</li><li>이는 특히 전기 자전거 및 스쿠터와 같이 리튬이온 배터리를 사용하는 기기의 안전성 강화 필요성을 강조합니다.</li><li>향후 관련 규제 마련을 통해 배터리 안전성을 확보하려는 노력이 이어질 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.job-post.co.kr/news/articleView.html?idxno=240573" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">17</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">전고체 소재 기대 속 이수스페셜티케미컬 18.66% 급등</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.job-post.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">이수스페셜티케미컬</span><span class="chip">정밀화학</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>이수스페셜티케미컬의 주가가 전고체 배터리 소재에 대한 기대감으로 18.66% 급등했습니다.</li><li>이 회사는 정밀화학 제품과 함께 전고체 배터리용 황화리튬 사업을 추진하고 있습니다.</li><li>전고체 소재는 아직 고객 평가 및 양산 일정이 남아있어 시험 공급과 반복 매출을 구분하여 분석할 필요가 있습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-24</div>
+          </div>
+        </a>
+        
+        <a class="card cat-electrolyte" href="https://www.newsgn.com/news/articleView.html?idxno=587797" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">18</div>
+            <div class="badgeRow">
+              <span class="badge">electrolyte</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">경상국립대 김현우 교수 연구팀, 리튬-황전지 황 손실 줄이는 분리막 촉...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.newsgn.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">경상국립대학교</span><span class="chip">리튬-황전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>경상국립대학교 김현우 교수 연구팀이 리튬-황 전지의 황 손실을 줄이는 분리막 촉매를 개발했습니다.</li><li>이 촉매는 전지의 성능 저하를 유발하는 황의 이동을 효과적으로 억제하여 전지의 수명을 연장시킵니다.</li><li>개발된 촉매를 적용한 전지는 2C 고율 조건에서 500회 이상 충·방전이 가능했습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-24</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMid0FVX3lxTE9kcEhvaGtxdFA1bXF5RXljVXJic2RnS2VqUm9ieW45Rng5ekYtOV9ZdWtwWU5EdmRsSEtpNlhXNWNoWnFYRkVNOGVZSXJvS0tYVm5XQS1aYVF1VXozQ3BlRWhxQWd5R2U0QjFVQUZMeVFNVm82M19R?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">19</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Congress passes lithium-ion battery safety bill for e-bikes and e-scooters</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Fire &amp; Safety Journal Americas</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국 의회가 전기 자전거 및 스쿠터용 리튬이온 배터리 안전 법안을 통과시켰습니다.</li><li>이 법안은 해당 기기들의 안전 기준을 강화하여 잠재적인 화재 위험을 줄이는 것을 목표로 합니다.</li><li>법안 통과는 휴대용 전자기기의 안전 규제 강화 추세를 반영합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-23</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMixAFBVV95cUxOSjljM0dIVDR3cFBXTVlMamtpTFl1VHFuVEtxX2NOUkVpdERNbWg3T19ibUN1LVdwdTJhb0NudVE4SDl0cnJEUkZTcHFWOGhfYk9jbmpseWlhVHZjbWZ1VkRCWkFlWUY4WGVIbV9lNnFtanQ1dEFGOWdrRHk4eTdxalc3NWgtN3NHWkZCM2NVRTAwZllYYnBWdXRoT2dKbE01M1FnTTBpT2dDUkxPQXV3UFZMUHNIZnM5WGhLVnNLd0lOUmdS?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">20</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Europe could lose billions in battery investment under proposed Franco-German car deal</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Review Energy</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>제안된 프랑스-독일 자동차 협상이 유럽의 배터리 투자에 수십억 달러의 손실을 초래할 수 있다는 우려가 제기되었습니다.</li><li>이는 유럽 내 배터리 산업의 경쟁력 약화로 이어질 수 있습니다.</li><li>유럽 연합은 이러한 잠재적 영향에 대한 면밀한 검토가 필요합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-23</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
