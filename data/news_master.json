@@ -1,5 +1,224 @@
 [
   {
+    "title": "LG엔솔, 차세대 배터리 'LMR' 양산라인 준비",
+    "description": "분리막과 전해질, 첨가제 조성을 바꾸고 최적의 양극재와 음극재 조합을 찾아낸 것이 주효했다. 얼티엄셀즈가 LMR 각형 배터리를 양산하면 스프링힐 공장은 전기차와 에너지저장장치(ESS) 배터리를 모두 다루게 된다....",
+    "link": "https://www.thelec.kr/news/articleView.html?idxno=65893",
+    "source": "www.thelec.kr",
+    "published_at": "2026-11-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "LG엔솔",
+      "얼티엄셀즈",
+      "LMR"
+    ],
+    "summary_3_sentences": [
+      "LG엔솔이 차세대 배터리인 LMR(Longer, More Range)의 양산 라인을 준비하고 있습니다.",
+      "분리막, 전해질, 첨가제 조성 변경 및 최적의 양극재와 음극재 조합을 통해 성능을 향상시켰습니다.",
+      "얼티엄셀즈가 LMR 각형 배터리를 양산하면 스프링힐 공장은 전기차와 ESS 배터리를 모두 다루게 됩니다."
+    ],
+    "uid": "0ea9a87b0702d3ae1de6ac93eee819b9b145a595"
+  },
+  {
+    "title": "美백악관서 나트륨배터리 개발 회의 열려...업계 역량 총결집",
+    "description": "알심·피크에너지 등 주요 경영진 참석…세제·금융 지원 확대 촉구 관측 리튬 중심 산업 정책 개선 요구…美 독자적 배터리 공급망 구축 목표 미국 배터리 업계가 나트륨이온배터리 산업 육성을 위해 정부와...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=110195",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-11-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "나트륨",
+    "companies": [
+      "알심",
+      "피크에너지",
+      "나트륨배터리"
+    ],
+    "summary_3_sentences": [
+      "미국 백악관에서 나트륨 배터리 개발 회의가 열렸습니다.",
+      "알심, 피크에너지 등 주요 기업 경영진이 참석했으며, 세제 및 금융 지원 확대를 촉구했습니다.",
+      "이는 미국이 리튬 중심의 산업 정책을 개선하고 독자적인 배터리 공급망을 구축하려는 의지를 보여줍니다."
+    ],
+    "uid": "a41c849f5e413752309cc52ec70831aa04ab303e"
+  },
+  {
+    "title": "[영상] 전고체 특허 '한·일 역전'…삼성SDI,토요타 2배 넘게 앞질렀다",
+    "description": "전고체 배터리 글로벌 특허 출원 건수가 사상 처음으로 기존 리튬이온 배터리를 추월하며 배터리 기술 혁신의 무게추가 빠르게 이동하고 있습니다. 지식재산권 전문 로펌 애플야드 리스의 보고서에 따르면 지난 2024년...",
+    "link": "https://www.theguru.co.kr/news/article.html?no=110138",
+    "source": "www.theguru.co.kr",
+    "published_at": "2026-11-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "토요타",
+      "리튬이온"
+    ],
+    "summary_3_sentences": [
+      "전고체 배터리 글로벌 특허 출원 건수가 사상 처음으로 리튬이온 배터리를 추월했습니다.",
+      "이는 배터리 기술 혁신의 무게추가 빠르게 이동하고 있음을 보여줍니다.",
+      "삼성SDI는 토요타보다 2배 이상 많은 특허를 보유하며 기술 리더십을 확보했습니다."
+    ],
+    "uid": "c0c76e623e354f0a9b6de1584fadcd1db2841cd7"
+  },
+  {
+    "title": "더 가볍고 더 차갑게…오래가는 ‘배터리’ 경쟁",
+    "description": "‘작고 오래가는’ 전고체…삼성SDI 삼성SDI는 기존 원통형 배터리와 차세대 전고체배터리를 함께 준비하고 있습니다. 올해 3월 배터리 전시회 ‘인터배터리 2026’에서 로봇용 파우치형 전고체 샘플을 공개한 데 이어...",
+    "link": "http://www.newstomato.com/ReadNews.aspx?no=1321763&inflow=N",
+    "source": "www.newstomato.com",
+    "published_at": "2026-11-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI",
+      "전고체배터리",
+      "인터배터리"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 기존 원통형 배터리와 차세대 전고체 배터리를 함께 준비하고 있습니다.",
+      "삼성SDI는 올해 인터배터리 2026에서 로봇용 파우치형 전고체 샘플을 공개했습니다.",
+      "이는 배터리 기술 경쟁이 더욱 작고 오래가는 방향으로 나아가고 있음을 보여줍니다."
+    ],
+    "uid": "851474c8c38c7c3110c0cac875d154693969cf25"
+  },
+  {
+    "title": "[중국증시] 中 CATL 주가 7% 급락, A+H주 시총 1조 위안 붕괴",
+    "description": "이에 따라 에너지저장장치(ESS) 사업 확대와 배터리 교환 사업 등 신성장 분야에 대해 투자를 늘리고 있다. 회사는 지난 3분기 200억~400억 위안 규모의 자사주 매입 계획도 발표했다. [베이징=뉴스핌] 최헌규...",
+    "link": "https://www.newspim.com/news/view/20261125000930",
+    "source": "www.newspim.com",
+    "published_at": "2026-11-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "중국 CATL의 주가가 7% 급락하며 시가총액 1조 위안이 붕괴되었습니다.",
+      "CATL은 에너지 저장 장치(ESS) 사업 확대와 배터리 교환 사업 등 신성장 분야에 투자를 늘리고 있습니다.",
+      "회사는 지난 3분기 200억~400억 위안 규모의 자사주 매입 계획도 발표했습니다."
+    ],
+    "uid": "b0044592b5e6b454e12c2d16fa833a390773b5c6"
+  },
+  {
+    "title": "2차전지 레버리지 ETF 17%↑…로봇·반도체도 급등",
+    "description": "2차전지 관련 상품은 상승률 상위 50개 ETF의 중하위권에도 포함됐다. 36위 KODEX 전고체배터리ESS TOP2플러스와 37위 SOL 전고체배터리&실리콘음극재는 각각 12.52% 상승했다. 로봇 관련 ETF도 상승률...",
+    "link": "http://www.kjdaily.com/article.php?aid=1795533573693359276",
+    "source": "www.kjdaily.com",
+    "published_at": "2026-11-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 92,
+    "monitoring_importance": 92,
+    "tier": 3,
+    "category": "anode",
+    "companies": [
+      "2차전지",
+      "전고체배터리",
+      "ETF"
+    ],
+    "summary_3_sentences": [
+      "2차전지 관련 레버리지 ETF가 17% 이상 상승하며 강세를 보였습니다.",
+      "특히 KODEX 전고체배터리ESS TOP2플러스와 SOL 전고체배터리&실리콘음극재 ETF가 각각 12.52% 상승했습니다.",
+      "이는 전고체 배터리 기술에 대한 시장의 높은 관심과 기대를 반영합니다."
+    ],
+    "uid": "ba1c5eaef97acfcfe90443fc1bdd9e4df614bf40"
+  },
+  {
+    "title": "삼성SDI 전고체·우주항공 배터리로 새 수익원 확보하나, 최주선 임기 후...",
+    "description": "다만 내년에는 그동안 연구개발에 무게를 뒀던 전고체 배터리의 상용화가 예정돼 있는 데다 휴머노이드와 우주항공용 배터리 공급도 확대될 것으로 전망된다. 최 사장에게 내년은 삼성SDI의 기술적 강점을 새로운...",
+    "link": "https://www.huffingtonpost.kr/article/262386",
+    "source": "www.huffingtonpost.kr",
+    "published_at": "2026-11-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 88,
+    "monitoring_importance": 88,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "삼성SDI"
+    ],
+    "summary_3_sentences": [
+      "삼성SDI는 전고체 배터리 상용화와 우주항공용 배터리 공급 확대를 통해 새로운 수익원을 확보할 것으로 전망됩니다.",
+      "내년에는 연구개발에 집중했던 전고체 배터리의 상용화가 예정되어 있으며, 휴머노이드 및 우주항공용 배터리 공급도 확대될 예정입니다.",
+      "이는 삼성SDI의 기술적 강점을 바탕으로 미래 성장 동력을 확보하려는 전략입니다."
+    ],
+    "uid": "0b951e89db4634c6b601d4e59c92a0332db639af"
+  },
+  {
+    "title": "中, 고체 배터리 안전 국가표준 제정 속도…CATL 초안 작성 참여",
+    "description": "두 안전 국가표준 개발에 모두 참여하는 CATL은 2027년 황화물계 전고체 배터리 소량 생산을 목표로 하고 있다. 최근 20암페어시(Ah)급 샘플 시험 단계에 진입한 것으로 알려졌다. 중국의 잇단 표준 제정은 전고체 배터리...",
+    "link": "https://www.etnews.com/20261125000310",
+    "source": "www.etnews.com",
+    "published_at": "2026-11-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 94,
+    "monitoring_importance": 94,
+    "tier": 3,
+    "category": "전고체",
+    "companies": [
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "중국이 고체 배터리 안전 국가표준 제정에 속도를 내고 있습니다.",
+      "CATL은 두 안전 국가표준 개발에 모두 참여하며 2027년 황화물계 전고체 배터리 소량 생산을 목표로 합니다.",
+      "중국의 이러한 움직임은 전고체 배터리 시장 선점을 위한 경쟁을 가속화할 것으로 보입니다."
+    ],
+    "uid": "6c105d10f0dddf7f9b26b7255984247f3dc9131d"
+  },
+  {
+    "title": "[심층기획②] 성장산업의 그늘…일감 줄어든 2차전지 부품사, 인력 정리...",
+    "description": "반도체는 인공지능(AI) 관련 투자에 따른 수요 확대가 수출 실적을 뒷받침하는 반면, 2차전지는 전기차 시장의 성장 속도와 완성차·배터리 제조사의 생산계획 변화에 영향을 받고 있다. 성장 전망과 당장의 주문…중소...",
+    "link": "https://kidd.co.kr/news/248269",
+    "source": "kidd.co.kr",
+    "published_at": "2026-11-25",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "성장산업",
+      "2차전지",
+      "완성차·배터리"
+    ],
+    "summary_3_sentences": [
+      "성장 산업인 2차전지 부품사들이 일감 감소로 어려움을 겪고 있습니다.",
+      "반도체 산업은 AI 관련 투자로 수요가 확대되는 반면, 2차전지는 전기차 시장 성장 속도와 생산 계획 변화에 영향을 받고 있습니다.",
+      "이는 2차전지 산업의 단기적인 불확실성과 중소 부품사들의 경영난을 보여줍니다."
+    ],
+    "uid": "d8f32b68603ec7362557b39b5e1c0f31c9b0cfad"
+  },
+  {
     "title": "삼성SDI \"배터리 슈퍼사이클 선점한다\"…품질·미래기술 확보 주역 중용",
     "description": "삼성SDI가 배터리 슈퍼사이클 선점을 위해 근본적인 체질 개선과 품질 경쟁력 제고, 글로벌 오퍼레이션... 캐즘 극복과 에너지저장장치(ESS) 및 차세대 전지 시장 확대를 앞두고 제조·공정 혁신과 글로벌 생산 거점...",
     "link": "https://www.wikileaks-kr.org/news/articleView.html?idxno=195155",
@@ -217,6 +436,31 @@
     "uid": "819607dba92214257b5263d3148a3e99d621d893"
   },
   {
+    "title": "\"준비된 기업이 기회를 잡는다\"…사용 후 배터리 전문 전처리 기업 이알...",
+    "description": "리튬 전지를 포함한 모든 사용 후 배터리 전처리(Pre-treatment)를 전문으로 하는 친환경기업 (주)이알(ER·대표... 이알은 이번 2차 녹색신산업 지원사업이 성공적으로 마무리되면 배터리 재활용 산업의 탄소 중립 모델을...",
+    "link": "https://www.getnews.co.kr/news/articleView.html?idxno=887903",
+    "source": "www.getnews.co.kr",
+    "published_at": "2026-11-24",
+    "provider": "naver",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "monitor_score": 87,
+    "monitoring_importance": 87,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "이알",
+      "녹색신산업",
+      "ER"
+    ],
+    "summary_3_sentences": [
+      "사용 후 배터리 전문 전처리 기업인 이알(ER)이 2차 녹색신산업 지원사업에 참여합니다.",
+      "이알은 리튬 전지를 포함한 모든 사용 후 배터리의 전처리를 전문으로 하는 친환경 기업입니다.",
+      "이번 사업을 통해 배터리 재활용 산업의 탄소 중립 모델을 구축할 것으로 기대됩니다."
+    ],
+    "uid": "fb83f3b7134c26a779d45ab026fb67d4a61ec61b"
+  },
+  {
     "title": "삼성SDI·SK온, 물가미반영·장기 책임 '이중부담'..2조 계약 입찰 발표...",
     "description": "회사별 전략도 배터리 특성과 사정에 따라 갈렸다. 1·2차 누적 점유율 55.8%인 삼성SDI는 울산공장에서... ESS용 배터리' 기술을 구현하고 있다\"고 말했다. 반면 누적 점유율 25.2%인 SK온은 전사 중대형 전지 공장 평균...",
     "link": "https://kpenews.com/View.aspx?No=4326170",
@@ -240,6 +484,244 @@
       "두 회사는 각자의 전략에 따라 배터리 사업을 전개하고 있습니다."
     ],
     "uid": "2ef147241b7a0913172514b315f47508ecf22510"
+  },
+  {
+    "title": "Setting Consumer Standards for Lithium-Ion Batteries Passed the House and Senate",
+    "published_at": "2026-11-24",
+    "source": "Yonkers Times",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM0tWNWJOWnVSbWtPM25GaFhuSDlmNTlFZTl3NS1UQ0ItZi0tdnltQnBBSVVWTjBmTmJrX2hZZmhBNkVOanB2SXlpYXI0QWl1TFRsMlJkWnNUVDAzN0xjc3AwdWNRWmduSXZIS0lieXRKRjdpSGdEc2tPU1lSbUVWY3Uwakd2SEZrYk5Ra052VF9hV2hpR3BsV1BGdVdKRHlDSVg5R0tYSHVGZw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM0tWNWJOWnVSbWtPM25GaFhuSDlmNTlFZTl3NS1UQ0ItZi0tdnltQnBBSVVWTjBmTmJrX2hZZmhBNkVOanB2SXlpYXI0QWl1TFRsMlJkWnNUVDAzN0xjc3AwdWNRWmduSXZIS0lieXRKRjdpSGdEc2tPU1lSbUVWY3Uwakd2SEZrYk5Ra052VF9hV2hpR3BsV1BGdVdKRHlDSVg5R0tYSHVGZw?oc=5\" target=\"_blank\">Setting Consumer Standards for Lithium-Ion Batteries Passed the House and Senate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yonkers Times</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 80,
+    "monitor_score": 84,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "미국 하원과 상원에서 리튬이온 배터리 소비자 표준 설정 법안이 통과되었습니다.",
+      "이 법안은 리튬이온 배터리의 안전 기준을 강화하여 소비자 보호를 강화하는 것을 목표로 합니다.",
+      "이는 배터리 안전에 대한 연방 차원의 규제 강화 움직임을 보여줍니다."
+    ],
+    "uid": "3428af375cd84e40564e20e1a2bb2662c0ed3774"
+  },
+  {
+    "title": "BASF deal highlights consolidation in Europe’s battery recycling industry",
+    "published_at": "2026-11-24",
+    "source": "TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWnBXX2pLXzFoeDVUZGdYSzRuZ2Y2VkNsYWhPZXFVaDVMMWVhMnFqX1ZORjMzMTh2eDItS25zZDhTTmItUHl5RVphcGpRWGZ3VVo1cDBtLXJ5NmpKWlUwcl9qLUZLYzZTVTBzZlhhRk9wLUxGc2NEN1EyQkxhNi1hR2ZQc1hvV3k2OFpqOGZpWVRKYmktNDdrVkVmVmJVRHV6Nk1pV3RaQUEwR1NWb29SX2dRSFV2b0pQTERkN3p5RnpBaEZVM2xLZVFLaWluLTRfVmc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWnBXX2pLXzFoeDVUZGdYSzRuZ2Y2VkNsYWhPZXFVaDVMMWVhMnFqX1ZORjMzMTh2eDItS25zZDhTTmItUHl5RVphcGpRWGZ3VVo1cDBtLXJ5NmpKWlUwcl9qLUZLYzZTVTBzZlhhRk9wLUxGc2NEN1EyQkxhNi1hR2ZQc1hvV3k2OFpqOGZpWVRKYmktNDdrVkVmVmJVRHV6Nk1pV3RaQUEwR1NWb29SX2dRSFV2b0pQTERkN3p5RnpBaEZVM2xLZVFLaWluLTRfVmc?oc=5\" target=\"_blank\">BASF deal highlights consolidation in Europe’s battery recycling industry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "BASF"
+    ],
+    "summary_3_sentences": [
+      "BASF의 매각 거래는 유럽 배터리 재활용 산업의 통합을 강조합니다.",
+      "이는 업계 내에서 규모의 경제와 효율성을 추구하는 움직임을 보여줍니다.",
+      "이러한 통합은 유럽 배터리 공급망의 재편에 영향을 미칠 수 있습니다."
+    ],
+    "uid": "38e257d81af2a763d714dc72aea4a46f02ccd390"
+  },
+  {
+    "title": "BASF to sell off battery recycling assets",
+    "published_at": "2026-11-24",
+    "source": "Resource Recycling",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbkh4RzMxem05M19iN3A3QUNSTFpKaTRZa1dWUEQwb1RSM3NFUW5nc2NKYTBoTmpqYnIyU1FSeTVtSVIxTmJMaVVXeUk1Q3F4SkpFWXRwLXAtdjFYT2J0c2Q1OWVOOUpOR0hKdklCaGdWOUh3LWRQLV9aNXJMb05DbkE1MEItelhsTkt3Q2p5YlhRWEs2SFJ3?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQbkh4RzMxem05M19iN3A3QUNSTFpKaTRZa1dWUEQwb1RSM3NFUW5nc2NKYTBoTmpqYnIyU1FSeTVtSVIxTmJMaVVXeUk1Q3F4SkpFWXRwLXAtdjFYT2J0c2Q1OWVOOUpOR0hKdklCaGdWOUh3LWRQLV9aNXJMb05DbkE1MEItelhsTkt3Q2p5YlhRWEs2SFJ3?oc=5\" target=\"_blank\">BASF to sell off battery recycling assets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Resource Recycling</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 95,
+    "monitoring_importance": 90,
+    "monitor_score": 94,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [
+      "BASF"
+    ],
+    "summary_3_sentences": [
+      "BASF가 배터리 재활용 자산을 매각할 예정입니다.",
+      "이는 유럽 배터리 재활용 산업의 통합을 보여주는 사례입니다.",
+      "BASF는 향후 양극 활성 물질에 집중할 계획입니다."
+    ],
+    "uid": "22a6f19d02dd35a151ae79c1717222c123a8809f"
+  },
+  {
+    "title": "WA State Gains in Trump’s $17B Asia Trip as Sila in Moses Lake Secures $1B Panasonic Battery Agreement",
+    "published_at": "2026-11-24",
+    "source": "Lynnwood Times",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LTnVNRnVuTEJPc3JGdVNMTlA0R2VzdjFsQU80cFc0Z0djR0lYZnB2SHZwd1Z4d3NNaEhyZ1F6bzE4UTBnYWF0ZEpFa01IM2l2VE9BdUw1c1VLR2s?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LTnVNRnVuTEJPc3JGdVNMTlA0R2VzdjFsQU80cFc0Z0djR0lYZnB2SHZwd1Z4d3NNaEhyZ1F6bzE4UTBnYWF0ZEpFa01IM2l2VE9BdUw1c1VLR2s?oc=5\" target=\"_blank\">WA State Gains in Trump’s $17B Asia Trip as Sila in Moses Lake Secures $1B Panasonic Battery Agreement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lynnwood Times</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "Sila",
+      "Panasonic",
+      "WA"
+    ],
+    "summary_3_sentences": [
+      "실라(Sila)는 모지스 레이크 공장에서 파나소닉과 10억 달러 규모의 배터리 계약을 체결했습니다.",
+      "이는 워싱턴 주에 상당한 경제적 이익을 가져다줄 것으로 예상됩니다.",
+      "이 계약은 미국 내 배터리 생산 능력 확대와 공급망 강화에 기여할 것입니다."
+    ],
+    "uid": "f0c8422fcd78470d9a62530d86717fb17858264e"
+  },
+  {
+    "title": "Congress passes IAFF-backed bill to strengthen lithium-ion battery safety",
+    "published_at": "2026-11-24",
+    "source": "IAFF",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcXBscUh1NDVtazktZG02VUpfSkZDb0J5bVdmLUY4UGtvb3VLaUI4c3Yxelk3cDMwN01kMXpuZUh2bDVDcG9fTV9USVNqd2VtdjhIVWQ0T3RlQ0x0Yk0yTVhxa18wdWxuRlNJbjZJRExlYlJhQ2Z2ZEk0NmhKZ2U1MUpISEEyWXBReDNvYWlOay1mTE9CaS0zT1FWVmZEUTFsdmc?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNcXBscUh1NDVtazktZG02VUpfSkZDb0J5bVdmLUY4UGtvb3VLaUI4c3Yxelk3cDMwN01kMXpuZUh2bDVDcG9fTV9USVNqd2VtdjhIVWQ0T3RlQ0x0Yk0yTVhxa18wdWxuRlNJbjZJRExlYlJhQ2Z2ZEk0NmhKZ2U1MUpISEEyWXBReDNvYWlOay1mTE9CaS0zT1FWVmZEUTFsdmc?oc=5\" target=\"_blank\">Congress passes IAFF-backed bill to strengthen lithium-ion battery safety</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IAFF</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 80,
+    "monitor_score": 87,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "IAFF"
+    ],
+    "summary_3_sentences": [
+      "미국 의회가 IAFF의 지원을 받은 리튬이온 배터리 안전 강화 법안을 통과시켰습니다.",
+      "이 법안은 리튬이온 배터리의 안전 기준을 높여 잠재적인 위험을 줄이는 것을 목표로 합니다.",
+      "이는 배터리 안전에 대한 연방 차원의 규제 강화 움직임을 보여줍니다."
+    ],
+    "uid": "b377daa0dce82e17704b62da828b36e67c41dcea"
+  },
+  {
+    "title": "BASF Begins Battery Materials Supply for CATL Production",
+    "published_at": "2026-11-24",
+    "source": "Fuel Cells Works",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSGtNSkFUU3FhT2NxMTFRV1hUYldkS3hjWGh4b0EtNlVZNlVaM3VLcDdYbjBJZVhDV2E5S3FsOUJLZGxBSHppT0dxX3RYMk5HZDhkMEc0dHZrWEJUN29FSERuRERkZGk2YkttcUl6LWxVaXRENzdZbmVPUzY3VGhpNWsxV19mS1cxQlBjaGlQdEZTaEtIbXAtRkFWUE9wWlB2amlRMEwwcFk0MGhEcno5RDRacw?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOSGtNSkFUU3FhT2NxMTFRV1hUYldkS3hjWGh4b0EtNlVZNlVaM3VLcDdYbjBJZVhDV2E5S3FsOUJLZGxBSHppT0dxX3RYMk5HZDhkMEc0dHZrWEJUN29FSERuRERkZGk2YkttcUl6LWxVaXRENzdZbmVPUzY3VGhpNWsxV19mS1cxQlBjaGlQdEZTaEtIbXAtRkFWUE9wWlB2amlRMEwwcFk0MGhEcno5RDRacw?oc=5\" target=\"_blank\">BASF Begins Battery Materials Supply for CATL Production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fuel Cells Works</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "기타",
+    "companies": [
+      "BASF",
+      "CATL"
+    ],
+    "summary_3_sentences": [
+      "BASF가 CATL 생산을 위한 배터리 소재 공급을 시작했습니다.",
+      "이는 두 기업 간의 파트너십을 강화하고 배터리 공급망을 확대하는 중요한 단계입니다.",
+      "BASF의 소재 공급은 CATL의 배터리 생산 능력 증대에 기여할 것으로 보입니다."
+    ],
+    "uid": "4e4c01d0cf9740c4adba7994d51db2dd661e1f83"
+  },
+  {
+    "title": "The Critical Minerals Race Runs Through Battery Recycling",
+    "published_at": "2026-11-24",
+    "source": "Forbes",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORzBtLXdEcWZrcWE0N2oxOTRfVURaQ2FKZ0dDSVYtU0J0bVppMnVZOTZudjJnT1JQNmtvLVZuVzBhX0tqdG9PeTd3bkVWQV85ajhIYmxlMlJpQ3h6VEdZdnlKUF9jX2ZUY2ZKSE5DUl9jVGg3Q0tPVEEtVG40Y1hwUzRhRXlKTVFtY2tlVnRKZFZ3dG53YlRsYjlhOEg2OUNJalRGUHktMWtvSnFoY2xCYzhn?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxORzBtLXdEcWZrcWE0N2oxOTRfVURaQ2FKZ0dDSVYtU0J0bVppMnVZOTZudjJnT1JQNmtvLVZuVzBhX0tqdG9PeTd3bkVWQV85ajhIYmxlMlJpQ3h6VEdZdnlKUF9jX2ZUY2ZKSE5DUl9jVGg3Q0tPVEEtVG40Y1hwUzRhRXlKTVFtY2tlVnRKZFZ3dG53YlRsYjlhOEg2OUNJalRGUHktMWtvSnFoY2xCYzhn?oc=5\" target=\"_blank\">The Critical Minerals Race Runs Through Battery Recycling</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 80,
+    "monitor_score": 84,
+    "tier": 3,
+    "category": "재활용",
+    "companies": [],
+    "summary_3_sentences": [
+      "핵심 광물 확보 경쟁에서 배터리 재활용이 중요한 역할을 하고 있습니다.",
+      "배터리 재활용은 희소 금속의 안정적인 공급망을 구축하는 데 필수적입니다.",
+      "이는 지속 가능한 배터리 산업 생태계를 조성하는 데 기여할 것입니다."
+    ],
+    "uid": "b1c4d39d2ab9dd4523a9dd58f5d09fce089294c6"
+  },
+  {
+    "title": "Gillibrand, Schumer Push for Federal Battery Safety Standards",
+    "published_at": "2026-11-24",
+    "source": "Finger Lakes Daily News",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxON1A2WWV3cDdZT1ZIMkhTQ2pQY19Zc2lBRXRGVjVRRHB0QWRCQWY3bXR3VDJQOXVVRFFrZkk5bGZybk5mVnc2TThRUklSeGcxTlA5RUQwSmFLVDJ6cUkxOEZHa0pwQTJUdzUtZzlIa3ROTGJfazdSZFBSRlRnTmljNUJuVU9YZlJjcG9qZ0hIUWw1dkZhdU81QWlpSnllMFpwaDhYS2JtWQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxON1A2WWV3cDdZT1ZIMkhTQ2pQY19Zc2lBRXRGVjVRRHB0QWRCQWY3bXR3VDJQOXVVRFFrZkk5bGZybk5mVnc2TThRUklSeGcxTlA5RUQwSmFLVDJ6cUkxOEZHa0pwQTJUdzUtZzlIa3ROTGJfazdSZFBSRlRnTmljNUJuVU9YZlJjcG9qZ0hIUWw1dkZhdU81QWlpSnllMFpwaDhYS2JtWQ?oc=5\" target=\"_blank\">Gillibrand, Schumer Push for Federal Battery Safety Standards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finger Lakes Daily News</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 85,
+    "monitoring_importance": 80,
+    "monitor_score": 84,
+    "tier": 3,
+    "category": "기타",
+    "companies": [],
+    "summary_3_sentences": [
+      "길리브랜드와 슈머 상원의원이 연방 배터리 안전 기준 강화를 촉구하고 있습니다.",
+      "이들은 리튬이온 배터리의 안전성을 높이기 위한 연방 차원의 규제 마련을 주장하고 있습니다.",
+      "이는 배터리 안전 문제에 대한 정치권의 관심이 높아지고 있음을 나타냅니다."
+    ],
+    "uid": "548d87f22deb5d3c6abd212ea18171c5b77854af"
+  },
+  {
+    "title": "Ford LFP battery cell plant in Marshall, Michigan, starts shipping at 40 cells per minute",
+    "published_at": "2026-11-24",
+    "source": "Electric & Hybrid Vehicle Technology International",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQV19PRzhMaWRkV3plNHlGZlVrMFdLS09wa2RrX1lNTUUwNnlaSTItZ2Q2VmFqWm5iQ0NzeGVZSTJBRTRnNVB2bjVaMGp3N1FGdmFiSEdrUkNOYkQ2Y2MtWm5VZUZYQktwcWI5QllvT3kwb1FwQ0NOYXozdGRheXYxd3B3dHhJN0lGdG5RT2plUVlOMUJkX1NLU2dHOVV2UEsyNVJBVUlBdEtUS2FULXNXazJBWENNYVc1T3Jnbnl3cFhsOVVwVFoxaDFXVWwyRGtndzRJak1qZ3ZvRkl0bFE?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxQV19PRzhMaWRkV3plNHlGZlVrMFdLS09wa2RrX1lNTUUwNnlaSTItZ2Q2VmFqWm5iQ0NzeGVZSTJBRTRnNVB2bjVaMGp3N1FGdmFiSEdrUkNOYkQ2Y2MtWm5VZUZYQktwcWI5QllvT3kwb1FwQ0NOYXozdGRheXYxd3B3dHhJN0lGdG5RT2plUVlOMUJkX1NLU2dHOVV2UEsyNVJBVUlBdEtUS2FULXNXazJBWENNYVc1T3Jnbnl3cFhsOVVwVFoxaDFXVWwyRGtndzRJak1qZ3ZvRkl0bFE?oc=5\" target=\"_blank\">Ford LFP battery cell plant in Marshall, Michigan, starts shipping at 40 cells per minute</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electric & Hybrid Vehicle Technology International</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 70,
+    "monitor_score": 84,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "Ford",
+      "LFP"
+    ],
+    "summary_3_sentences": [
+      "포드의 미시간주 마셜 공장에서 LFP 배터리 셀 생산이 시작되어 분당 40개의 셀을 출하하고 있습니다.",
+      "이 공장은 포드의 전기차 생산 능력 확대에 중요한 역할을 할 것입니다.",
+      "LFP 배터리 생산 증가는 전기차 시장의 경쟁 구도에 영향을 미칠 수 있습니다."
+    ],
+    "uid": "fbbf97f9cd2ba16eafea08f2919b6c45f250c582"
+  },
+  {
+    "title": "BASF Battery Materials focuses its portfolio on Cathode Active Materials",
+    "published_at": "2026-11-24",
+    "source": "BASF – United States",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeDFMVHk5TlM4allYalNxZi02d1d2eXNZQm5CM3BQaERDY25DZEp1bHFYS29HX195eG5nUnlpMmpfS3JYczI0TE1zcW1oaWVKb3poRGYzS1hlcFg4clZKXzRRekVZYVNHazRhVTdQVkEzV0o5MFBMcWdmdGk2SnFzMzJ4ZThzQQ?oc=5",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOeDFMVHk5TlM4allYalNxZi02d1d2eXNZQm5CM3BQaERDY25DZEp1bHFYS29HX195eG5nUnlpMmpfS3JYczI0TE1zcW1oaWVKb3poRGYzS1hlcFg4clZKXzRRekVZYVNHazRhVTdQVkEzV0o5MFBMcWdmdGk2SnFzMzJ4ZThzQQ?oc=5\" target=\"_blank\">BASF Battery Materials focuses its portfolio on Cathode Active Materials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BASF – United States</font>",
+    "provider": "google",
+    "related_links": [],
+    "popularity_signal": "unknown",
+    "battery_relevance": 90,
+    "monitoring_importance": 85,
+    "monitor_score": 88,
+    "tier": 3,
+    "category": "cathode",
+    "companies": [
+      "BASF"
+    ],
+    "summary_3_sentences": [
+      "BASF Battery Materials는 포트폴리오를 양극 활성 물질에 집중할 계획입니다.",
+      "이는 회사의 핵심 역량을 강화하고 시장 변화에 대응하기 위한 전략입니다.",
+      "이러한 집중은 향후 배터리 소재 시장에서의 경쟁력 확보에 기여할 것으로 예상됩니다."
+    ],
+    "uid": "92c5c64104e8a95e8722095a61896f20c8e6e3f5"
   },
   {
     "title": "EVE에너지 회장 \"中리튬배터리 소비세 도입으로 3년 내 상당수 기업 퇴...",
