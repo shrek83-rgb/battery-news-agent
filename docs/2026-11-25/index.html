@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>배터리 카드뉴스 - 2026-11-25</title>
+  <style>
+    :root {
+      --blue:#0B4EDB;
+      --blue2:#0A43C2;
+      --yellow:#FFD24A;
+      --ink:#0A1B3D;
+      --muted:#5B6B88;
+      --line:rgba(10,27,61,.10);
+      --card:#FFFFFF;
+      --panel:#F5F7FF;
+
+      /* category colors */
+      --cathode:#FF5A5F;
+      --anode:#00A870;
+      --electrolyte:#7C3AED;
+      --separator:#2563EB;
+      --solid:#F59E0B;
+      --sodium:#06B6D4;
+      --recycling:#10B981;
+      --equipment:#6B7280;
+      --policy:#EF4444;
+      --etc:#64748B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg,var(--blue),var(--blue2));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+    .frame {
+      background: var(--card);
+      border-radius: 22px;
+      border: 6px solid rgba(255,255,255,.25);
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .head {
+      padding: 26px 26px 18px;
+      background: #fff;
+    }
+    .pill {
+      display:inline-flex; align-items:center; gap:10px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight:800;
+      border-radius: 14px;
+      padding: 10px 14px;
+      border: 3px solid rgba(11,78,219,.18);
+    }
+    .pill .dot {
+      width:28px;height:28px;border-radius:10px;
+      background: var(--blue);
+      color:#fff; display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+    h1 {
+      margin:16px 0 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin-top:10px; color: var(--muted); font-size: 14px; line-height:1.5;
+    }
+    .sub a { color: var(--blue); text-decoration: none; border-bottom:1px solid rgba(11,78,219,.25); }
+
+    .grid {
+      padding: 18px 26px 26px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      --cat: var(--etc);
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 16px 14px;
+      box-shadow: 0 10px 20px rgba(10,27,61,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      border-left: 10px solid var(--cat);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(10,27,61,.12);
+      border-color: rgba(11,78,219,.25);
+    }
+
+    /* category color binding */
+    .cat-cathode { --cat: var(--cathode); }
+    .cat-anode { --cat: var(--anode); }
+    .cat-electrolyte { --cat: var(--electrolyte); }
+    .cat-separator { --cat: var(--separator); }
+    .cat-solid_state { --cat: var(--solid); }
+    .cat-sodium { --cat: var(--sodium); }
+    .cat-recycling { --cat: var(--recycling); }
+    .cat-equipment { --cat: var(--equipment); }
+    .cat-policy { --cat: var(--policy); }
+    .cat-etc { --cat: var(--etc); }
+
+    .cardTop {
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+      margin-bottom: 10px;
+    }
+    .num {
+      width:44px;height:44px;border-radius:14px;
+      background: var(--blue);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 900;
+      letter-spacing:.02em;
+      flex: 0 0 auto;
+    }
+    .badgeRow {
+      flex:1;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding-top: 2px;
+    }
+    .badge {
+      display:inline-flex;
+      padding: 6px 10px;
+      background: color-mix(in srgb, var(--cat) 14%, white);
+      color: var(--cat);
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      border: 1px solid color-mix(in srgb, var(--cat) 22%, white);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .rows { margin-top: 8px; display: grid; gap: 8px; }
+    .row { display:flex; gap:10px; align-items:flex-start; }
+    .k { width:64px; flex:0 0 auto; font-size:12px; color: var(--muted); font-weight:900; }
+    .v { flex:1; font-size:13px; color:#223253; line-height:1.35; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip {
+      display:inline-flex; align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,78,219,.14);
+      background: rgba(11,78,219,.06);
+      color:#0B4EDB;
+      font-weight:900;
+      font-size:12px;
+    }
+    .chip.muted {
+      background: #f2f4f8;
+      color:#6b7280;
+      border-color:#e5e7eb;
+    }
+
+    .summaryBox {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .summaryTitle {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .summary {
+      margin: 0;
+      padding-left: 18px;
+      color: #223253;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 12px;
+      display:flex; justify-content:flex-end;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bottom {
+      padding: 14px 26px 20px;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .bottom a { color: var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,78,219,.25); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="head">
+        <div class="pill"><span class="dot">N</span> 오늘의 배터리 카드뉴스</div>
+        <h1>2026-11-25 전날 뉴스 TOP</h1>
+        <div class="sub">
+          카드 클릭 시 원문이 새 탭에서 열립니다. · <a href="../">전체 아카이브</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <a class="card cat-solid_state" href="https://www.eroun.net/news/articleView.html?idxno=96581" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">포스텍, 전고체 리튬금속전지 개발…상온·저압서 안정적 구동 구현</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.eroun.net</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">포스텍</span><span class="chip">리튬금속전지</span><span class="chip">전고체전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>포스텍 연구진이 상온·저압에서 안정적으로 구동되는 전고체 리튬금속전지 개발에 성공했습니다.</li><li>이는 거대한 가압 장치를 없애 배터리 팩의 부피와 무게를 줄일 수 있게 하여 전고체전지 상용화를 앞당길 핵심 메커니즘으로 기대됩니다.</li><li>이번 연구는 깨지기 쉬운 전고체 전지의 단점을 극복할 가능성을 제시했습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-26</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://www.mk.co.kr/article/12218337" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[기고] 수출 1조달러, K배터리가 도약의 길 연다</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.mk.co.kr</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">전고체·나트륨이온</span><span class="chip">LFP</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>K배터리가 수출 1조 달러 달성을 위해 차세대 배터리 시장 주도권 확보가 필요합니다.</li><li>LFP 배터리 시장에서의 교훈을 바탕으로 전고체 및 나트륨이온 전지 등 차세대 배터리 개발에 집중해야 합니다.</li><li>소재 개발부터 양산, 원가 경쟁력 확보까지 속도감 있는 추진과 정부·기업·협회의 공동 목표 설정이 중요합니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://www.etnews.com/20261126000298" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">[인사이트]방성록 배트랩 대표 “韓 배터리 미래 5년, 차세대 전지에 달...</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">www.etnews.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">배트랩</span><span class="chip">연세대</span><span class="chip">나트륨이온전지</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>한국 배터리 산업의 미래 경쟁력 확보를 위해 나트륨이온전지와 전고체전지를 함께 준비해야 합니다.</li><li>가격 경쟁력 확보와 함께 차세대 전지 기술 개발에 집중하는 것이 중요합니다.</li><li>배트랩 컨설팅 대표는 한국 배터리 산업의 미래가 차세대 전지에 달려있다고 강조했습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-26</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMirgFBVV95cUxNNU0zSEFuTHRqQndWS0dxRTRmam1CLWYwamtMNkZzdnItMndTN3puNWk0Rm9nM09zSGJVTG9yZnluWDFJNndtQ3NZbUMzLV9FMVoxMlFnNVl0Q0VhYmUtdFc5X0dvcnRfU2ViYTR4cTlLYnZTM3JfM053a05iaUhxajJ2Uk94RDIxQzdGNUFnV1R0UUFnNk9PLXZRUktQVl9iYXRSQlozcUZrSXNjT3c?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">04</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Aachen startup Cylib acquires BASF’s battery recycling business</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Waste360</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Cylib</span><span class="chip">BASF</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>독일 아헨에 본사를 둔 스타트업 Cylib가 BASF의 배터리 재활용 사업부를 인수했습니다.</li><li>이번 인수를 통해 Cylib는 배터리 재활용 사업을 확장할 것으로 예상됩니다.</li><li>BASF는 배터리 재활용 사업에서 철수하게 되었습니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxPTXBEUm1QdVI2azRMVFY0TmNIMEMyYXBjbHVVcXNLN2RKMHNrRTU4Umdjd09LMjVQYm5YNU9SRzBvTG9scjMzNnFxYzBFZlB2YWpoc2pIbzNzekhuZEdrTFIzQnNkNno5aW9HZENkeDJlTEtyODB4TlYzcHMyRzduZzJfX1RRN0xmcnVkRVI0ek1pVHpuYTlQRTFfaGFHVWdsVXZ1UTJaVEg2b2dWMVV2eWhhV3JzTnJsN0NtRy1FTTBnQ0hHRk9RdVJQT2V5cTFXYU1BY2IzVndsM2djLWZ1M0U5d1hjdFV4SmZFRnJFd0ZGdzY4ZXc?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">05</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">BASF Divests Battery Recycling Business; Battery Materials Business to Focus on Cathode Active Materials</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Gasgoo</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">BASF</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>BASF가 배터리 재활용 사업부를 매각했으며, 배터리 소재 사업부는 양극활물질에 집중할 예정입니다.</li><li>이번 사업 매각은 BASF의 사업 전략 재편의 일환으로 보입니다.</li><li>BASF는 향후 양극활물질 분야에 역량을 집중하여 경쟁력을 강화할 계획입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-cathode" href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxNUnphNWdXTE5KRW1zLWJUX2N6N0d0Sllxd3FXMm5QdGNHbUNoQjBwa21HbXJ4TDNGVFhwMVNiUHlWREVCbEdHUU84Rjc2c0NpZ3l3Q0FrWlp5cGJPVTVuWFN0VFc4UlBvSUtRVUtJN3JmRXpiSVNiSjdXV0V5ZEpYRGVkZHFSOGpGUS1tbjZQTXpMcHhTX00ySGNyZ0x1R05VT3V6ZmxGbDl5blpDME00b1Rsanl6c2ViWjYzcWRUak11enYxVmxjYmZQblo0ei1ZaXdUMk1aX2p1OEZqUHFFTXd1Q3V5RF9hMGdhVUtReEJJZmFPdVpZ?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">06</div>
+            <div class="badgeRow">
+              <span class="badge">cathode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Fortum Oyj - Battery Recycling reaches key milestone with battery-grade recycled nickel, cobalt and lithium materials produced in Harjavalta</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Batteries News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Fortum Oyj</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Fortum Oyj가 핀란드 하르야발타 공장에서 배터리 등급의 재활용 니켈, 코발트, 리튬 소재 생산에 성공하며 배터리 재활용 분야에서 중요한 성과를 달성했습니다.</li><li>이는 폐배터리에서 유용한 금속을 추출하여 재활용하는 기술의 발전 가능성을 보여줍니다.</li><li>이번 성과는 배터리 재활용 산업의 성장에 기여할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-anode" href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxPRzNhTmVCcmZ0LUk5Tkw4MzhUdE9hZkp0Y2ZJaF9lZXZFQlhEMmlNUHVrblR0UldqYTRocTRGZFZSZnpNaVZuQ0VVY1BURmN1M2NPT0lzZmlqbUdDdUZ6RHB5bVdJeUlLdE5VX3JPdkRFQmI5akJXY0YyZUNIUmtCelVaekRGTHpKa0dPcy1IeVN3Rk1BTmxHSHVzdVZ2WTBrNHFzVEctMFFOMGVrbkpqZXdvLWN1ZDFKWDhKTEZ1TjliN29tbndjZ0FvNGxMTHFfSWtQeWxVallva1RMZ1V6Y1FzSUxSZEdTcnhHMlNB?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">07</div>
+            <div class="badgeRow">
+              <span class="badge">anode</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">NextSource Materials signs shareholder agreement with Hanwa, JOGMEC for UAE anode plant</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Proactive financial news</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">NextSource Materials</span><span class="chip">Hanwa</span><span class="chip">JOGMEC</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>NextSource Materials가 UAE 음극재 공장 설립을 위해 Hanwa, JOGMEC와 주주 계약을 체결했습니다.</li><li>이번 계약을 통해 UAE에 최첨단 음극재 생산 시설이 건설될 예정입니다.</li><li>이는 배터리 소재 공급망 강화 및 지역 경제 활성화에 기여할 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMisgFBVV95cUxQT0tTMmszM1JqWTFZU2pPdUVQT0NfV3NmU0wxVjF0dWxrSW5jY1I0MUNpV0ZUdzg3VGdwM3dmTWtrWjRzUUVjWENLUzhrMTBPZC1UY29KaDZZQVpoLVNYOUJrYXB2LWVrQ09NTjFhS3Bjck5lYUJDVVVpVS03Rk1LaTZUaE55U0Y3RFJ1cFdnSHd5OWFvYXFWc2dMeE01NDZibU55a0RJS0R1YUFkR3Z1MDNR?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">08</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Giving lithium-ion batteries a second life: VoltR prepares to scale up remanufacturing</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Batteries News</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">VoltR</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>VoltR가 리튬이온 배터리의 재제조(remanufacturing) 사업 확대를 준비하고 있습니다.</li><li>이는 폐배터리에 새로운 생명을 불어넣어 재사용함으로써 자원 순환 및 환경 보호에 기여할 것으로 기대됩니다.</li><li>VoltR는 향후 재제조 사업 규모를 확대하여 시장 경쟁력을 강화할 계획입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-recycling" href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0RXb0kyZnVHT1BmSW05anI0SnZPc0F5SHBBbWRMS3VudXVOc3JicVhoSm9MSlpobjV4MTR1cmtZbDlEd1oweXRhS3JoU3VzencyRkp6WDBuQW11UktjUTZDbHNUU1dDel9VazRMOFl3RjRhMW9aaUNjbmY4bWgzbi1vUWVIazZwZ3RYdExXQUdrQ0RTYmN1UEJMaXRFVnFpY05R?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">09</div>
+            <div class="badgeRow">
+              <span class="badge">재활용</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Asaka Riken signs ¥6.6bn loan for Iwaki battery recycling plant expansion</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Tokyo Brief</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">Asaka Riken</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>Asaka Riken이 이와키 배터리 재활용 공장 확장을 위해 66억 엔의 대출 계약을 체결했습니다.</li><li>이번 자금 조달을 통해 Asaka Riken은 배터리 재활용 처리 용량을 늘릴 수 있게 되었습니다.</li><li>이는 증가하는 폐배터리 처리 수요에 대응하고 재활용 산업을 발전시키는 데 기여할 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPdG05TEtYd1RBMkVUa2pSRzEwMk9Qb0Vrb29QeVR3bDVyNnhMM3BKTjVTQXZoV0xTVERiTnhrUEJldi0tS3JhUUlydXdoeEp0N1p2amMxLUgzWld6QWx4Uk0waE13eWFPVnJ6TEdFLTVfT3VsVk5sV28wTFh2YlJJVTltZ2RPZTZlalVUaDE3QzZpVU5PcGdhNndrNU9rQWN2?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">10</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Microbes could pull lithium out of old EV batteries</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">chemeurope.com</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미생물을 이용하여 폐 전기차 배터리에서 리튬을 추출하는 기술이 개발되었습니다.</li><li>이 기술은 기존의 화학적 추출 방식보다 친환경적이며 효율적인 리튬 회수 방법이 될 수 있습니다.</li><li>향후 폐배터리 재활용 및 리튬 공급망 안정화에 기여할 것으로 기대됩니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-solid_state" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iY2RTYkh6UTJEUThYM0txemo5d29hY0l5WDVSZnI5UmxPZk1SYkFVcVU2YVFSaUhUTnpFYk11a3V5dEhGX19TWDRwY2NHZlhnYUVyd0drQnVvODN1YUxr?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">11</div>
+            <div class="badgeRow">
+              <span class="badge">전고체</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">Low-pressure operation of all-solid-state batteries enabled by an organic electrode</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">Nature</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip muted">-</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>유기 전극을 활용하여 저압 조건에서도 안정적으로 구동되는 전고체 배터리 작동이 가능해졌습니다.</li><li>이는 기존 전고체 배터리의 높은 작동 압력 요구 조건을 완화하여 상용화 가능성을 높입니다.</li><li>이번 연구는 차세대 배터리 기술 발전에 중요한 기여를 할 것으로 보입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-25</div>
+          </div>
+        </a>
+        
+        <a class="card cat-etc" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9FM2VjbFYyTmUyMHJuV0tjNlNFUGVhT2hlcFI1R19IcEpENXZTVHM2dG5udzU0M0tDYmRKeHhuUWtCLUN1aW54aVBzZWtaS3E0ekRBUTlxMGRfRHYtcFFvU0VYS2lkc3NzMV9BRXVvMUYwSVoy?oc=5" target="_blank" rel="noopener noreferrer">
+          <div class="cardTop">
+            <div class="num">12</div>
+            <div class="badgeRow">
+              <span class="badge">기타</span>
+              <span class="meta">Tier 3</span>
+            </div>
+          </div>
+
+          <div class="title">US Congress passes bill to strengthen lithium-ion battery safety</div>
+
+          <div class="rows">
+            <div class="row">
+              <div class="k">언론사</div>
+              <div class="v">International Fire &amp; Safety Journal</div>
+            </div>
+            <div class="row">
+              <div class="k">관련기업</div>
+              <div class="v chips"><span class="chip">US</span></div>
+            </div>
+          </div>
+
+          <div class="summaryBox">
+            <div class="summaryTitle">3문장 요약</div>
+            <ul class="summary"><li>미국 의회가 리튬이온 배터리의 안전성을 강화하는 법안을 통과시켰습니다.</li><li>이번 법안은 배터리 관련 사고를 예방하고 소비자 안전을 보장하는 데 목적이 있습니다.</li><li>이는 배터리 산업의 안전 기준을 한 단계 높이는 계기가 될 것입니다.</li></ul>
+          </div>
+
+          <div class="footer">
+            <div>2026-11-25</div>
+          </div>
+        </a>
+        
+      </div>
+
+      <div class="bottom">
+        <div>우선순위: 공시/보도자료(1) &gt; 주요 언론(2) &gt; 업계/기타(3)</div>
+        <div><a href="../">아카이브로 이동</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
